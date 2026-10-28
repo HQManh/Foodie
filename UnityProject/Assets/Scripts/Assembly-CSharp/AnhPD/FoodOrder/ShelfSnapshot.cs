@@ -25,9 +25,9 @@ namespace AnhPD.FoodOrder
 
 		private Func<int, string, string, bool> _sequenceFits;
 
-		private int[] _assign;
+		private int[] _assign = new int[8];
 
-		private bool _dirty;
+		private bool _dirty = true;
 
 		private bool _ok;
 
@@ -129,7 +129,6 @@ namespace AnhPD.FoodOrder
 			_plateSequences.Add(sequence ?? string.Empty);
 			if (_assign != null && _assign.Length < _plateHas.Count)
 			{
-				// TODO(unrecovered): reallocation size is not visible in the pseudocode; plate count used as a guess.
 				_assign = new int[_plateHas.Count];
 			}
 			return index;
@@ -155,8 +154,50 @@ namespace AnhPD.FoodOrder
 
 		public bool Ensure(IReadOnlyList<ServePlate> plates, LevelInfo info, FCustomerLineHandle lineHandle, Func<ServePlate, PieceSet?> plateHas, Func<ServePlate, string> plateSequence)
 		{
-			// TODO(unrecovered): Ensure body is several hundred lines of inlined list and PieceSet work (grid pieces, order specs); not recovered in this pass.
-			return false;
+			if (!_dirty)
+			{
+				return _ok;
+			}
+			_ok = false;
+			_plateHas.Clear();
+			_plateLabels.Clear();
+			_plateDishes.Clear();
+			_plateSequences.Clear();
+			_orderPieces.Clear();
+			_orderDishes.Clear();
+			_orderSequences.Clear();
+			_supply = PieceSet.Empty;
+			if (info == null || !lineHandle)
+			{
+				return false;
+			}
+			_supply = info.Pieces == null ? PieceSet.Empty : info.Pieces.GridPieces();
+			_canComplete = info.CanStillComplete;
+			_sequenceFits = info.SequenceFits;
+			foreach (OrderSpec spec in lineHandle.GetActiveServableOrderSpecs())
+			{
+				if (spec.HasPieces && !spec.Pieces.IsEmpty)
+				{
+					_orderPieces.Add(spec.Pieces);
+					_orderDishes.Add(info.DishKeyOfOrder(spec));
+					_orderSequences.Add(info.SequenceOf(spec.DisplayId));
+				}
+			}
+			for (int i = 0; i < plates.Count; i++)
+			{
+				ServePlate plate = plates[i];
+				_plateLabels.Add(plate ? plate.Order : null);
+				_plateHas.Add(plateHas(plate));
+				_plateDishes.Add(plate ? plate.DishKey : -1);
+				_plateSequences.Add(plate ? plateSequence(plate) : string.Empty);
+			}
+			if (_assign.Length < plates.Count)
+			{
+				_assign = new int[plates.Count];
+			}
+			_dirty = false;
+			_ok = true;
+			return true;
 		}
 	}
 }
