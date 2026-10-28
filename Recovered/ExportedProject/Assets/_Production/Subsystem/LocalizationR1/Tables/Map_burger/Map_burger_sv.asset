@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_sv
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: Startburgarståndet. Ditt från början.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: Ett helt burgarhus med bredare fasad och mer plats för dekor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: Söt som honung och dubbelt så gosig när pommesen kommer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: Perfekt grillad – den här biffen har gjort bra ifrån sig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: Rå, ostekt och sugen på stekhällen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: Liten menytavla bredvid dörren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: Hög reklamskylt framför butiken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: Staplad, lagrad och helt i form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: Steker ingredienserna gyllenbruna och krispiga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: Häller upp bubblande cola.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: Hackar ingredienser i bitar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: Rostat bröd med stålbakdel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: Ett bröd som äntligen har öppnat sig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: Ett mjukt bröd som fortfarande latar sig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: Härifrån kommer ingredienserna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: Restaurangskylt monterad ovanför taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: För cool för att stressa och beställer alltid med ett perfekt tajmat spinnande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: Små tassar, stor aptit och ingen skam alls över extra ost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: En bit mejeri med rivande potential.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: Skivad ost, redo att smälta några hjärtan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: Smält guld som gör allt fantastiskt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: Bröst klätt i mjöl, redo för sin krispiga debut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: Blek och enkel, väntar fortfarande på sin stora fritering.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: Krispig utanpå, saftig inuti – så gott att du slickar fingrarna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: En liten nugget i sin mjölrustning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: Liten, lagom för en tugga och drömmer om fritösen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: Lår i mjölrock, rejält och redo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: Den saftigaste biten, som fortfarande döljer sin potential.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: Vingar i smet innan de hunnit lära sig flyga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: En vinge som ännu inte har någon krispighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: Rött pulver som tar med hettan – ingen kyla här.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: Gröna strån med en mild lökavund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: Pytteliten grön konfetti till en krispig fest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: En tom mugg som törstar efter mening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: Mörk läsk som bubblar av förväntan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: Cola på is, serverad med kalla handen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: Staplad på beställning och bäst att äta innan brödet ger upp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: Iskalla bubblor som gör varje burgartugga högre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: Gyllene utanpå, saftig inuti och borta på fyra tuggor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: Heta, salta och omöjliga att dela rättvist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: En trogen liten gäst som ser varje burgare som en svansviftande skatt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: Skört – spricker under press.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: Solsidan upp och ägg-stremt glad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: Friterar maten gyllenbrun och krispig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: Täcker ingredienser med ett lager smet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: Vatten som bestämde sig för att hålla huvudet kallt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: Allt krispigt samlat i en härlig kycklingfest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: Krispiga gröna blad – nu salladsstartar vi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: Strimlade blad som äntligen lämnat huvudet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: Ett helt salladshuvud som håller huvudet kallt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: Ljusslinga längs vänster sida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: Restaurangskylt monterad ovanför taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: Styr lunchrusningen som ett styrelsemöte och kräver premiumpickles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: Krukväxt vid entrén.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: En enkel potatis med pommesstjärnedrömmar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: Skuren i stavar – nu en pommes frites i väntan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: Gyllene pommes, heta nog att starta en saltdebatt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: Pommes begravda under ost – inga ånger alls.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: Skuttar in hungrig och går med smulor på båda kinderna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: Stadens snabbaste rödsvansade bud, om inte någon tappar en pommes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: Lila, stark och i hemlighet känslosam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: Skivade ringar som fick kocken att gråta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: En jättelik dekorburgare på taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: Skylt som hänger på byggnadens högra sida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: Skylt som hänger på byggnadens högra sida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: Rund, röd och tekniskt sett en frukt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: Saftiga skivor som inte saknar något.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: Hängande rankor över takkanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: Större hus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: Honungskramsbjörnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: Nötbiff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: Rå nötbiff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: Liten menytavla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: Hög menytavla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: Burgare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: Stekhäll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: Colamaskin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: Kniv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: Hamburgerbröd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: Delat bröd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: Bröd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: Bricka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: Markis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: Coolcat Clyde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: Kitty Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: Ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: Skivad ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: Ostsås
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: Panerat kycklingbröst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: Rått kycklingbröst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: Friterad kyckling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: Panerad nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: Rå nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: Panerat kycklinglår
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: Rått kycklinglår
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: Panerad kycklingvinge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: Rå kycklingvinge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: Chilipulver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: Gräslök
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: Hackad gräslök
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: Mugg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: Cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: Iskall cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: Klassisk burgare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: Bubblande cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: Krispig kyckling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: Gyllene pommes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: Benny Bark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: Ägg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: Stekt ägg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: Fritös
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: Mjölskål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: Kycklingmeny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: Sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: Strimlad sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: Salladshuvud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: Ljus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: Logoskylt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: Boss Hogsworth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: Blomkruka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: Potatis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: Skuren potatis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: Pommes frites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: Pommes med ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: Bunbun Bella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: Röda råttbudet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: Rödlök
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: Skivad rödlök
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: Jätteburgare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: Hängande skylt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: Stolpskylt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: Skivad tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: Rankor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: Hackar grönsaker snabbare än en sallad hinner rodna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: Skiva, tärna, klart. Löken hade ingen chans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: Häller upp bruskall cola på ett ögonblick, bubblor och allt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: Massor av bubbel! En fontän av läsk och glädje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: Panerar kyckling i mjöl i full fart. Stökigt men gott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: En snöstorm av mjöl. Varje nugget får en mysig filt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: Gyllene pommes frites på rekordtid. Knaprighet garanterad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: Extra krispighet upplåst. Pommesen strålar av stolthet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: Burgarna fräser snabbare. Magarna kurrar högre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: Så het att burgarna vänder sig om. Bokstavligen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: Snabb hackare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: Ninja-hackare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: Brusfart-maskin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: Cola-gejser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: Snabb panerskål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: Mjölfrenesi-skål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: Knaprig fritös
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: Gyllene fritös
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: Fräsande stekbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: Mega-fräsande stekbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: Salladen är strimlad innan den ens landar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: Samurajhackare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: Så vass att den skär luften. Tomaterna gör honnör.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: Legendarisk knivbräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: Den får utbrott av bubblor. Muggarna fyller sig själva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: Colavulkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: Bubblor för evigt. Törsten har ingen chans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: Oändlig bubbelfontän
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: Panerar nuggets snabbare än du hinner säga krisp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: Mjölstorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: Varje nugget kommer ut klädd som en kung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: Gyllene mjölskål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: Pommes frites hoppar in bleka och studsar ut gyllene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: Turbofritös
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: Krispigt i ljusets hastighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: Legendarisk fritösreaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: Burgarna steks på ett ögonblick. Akta ögonbrynen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: Vulkanstekbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: Het som solen, snabb som en raket. Burgerlycka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: Legendarisk solstekbord
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

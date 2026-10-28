@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Items_Common Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Items_Common
+  m_TableCollectionNameGuidString: 481e3048e9939ff4894c401ac6a5eecf
+  m_Entries:
+  - m_Id: 57744517226496
+    m_Key: Title_unlimited_heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57744529809408
+    m_Key: Desc_unlimited_heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57744529809409
+    m_Key: Title_remove_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57744529809410
+    m_Key: Desc_remove_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57793745772544
+    m_Key: Desc_booster_auto_cook
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518361
+  - m_Id: 57793745772545
+    m_Key: Desc_booster_clean_dirty
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518362
+  - m_Id: 57793745772546
+    m_Key: Desc_booster_ingredient_pick
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518363
+  - m_Id: 57793745772547
+    m_Key: Desc_booster_refill_wait_time
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518364
+  - m_Id: 57793745772548
+    m_Key: Desc_booster_shift_up_row
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518365
+  - m_Id: 57793745772549
+    m_Key: Desc_live
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518366
+  - m_Id: 57793745772550
+    m_Key: Desc_star
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518367
+  - m_Id: 57793745772551
+    m_Key: Title_booster_auto_cook
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518368
+  - m_Id: 57793745772552
+    m_Key: Title_booster_clean_dirty
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518369
+  - m_Id: 57793745772553
+    m_Key: Title_booster_ingredient_pick
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518370
+  - m_Id: 57793745772554
+    m_Key: Title_booster_refill_wait_time
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518371
+  - m_Id: 57793745772555
+    m_Key: Title_booster_shift_up_row
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518372
+  - m_Id: 57793745772556
+    m_Key: Title_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518373
+  - m_Id: 57793745772557
+    m_Key: Title_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518374
+  - m_Id: 57793745772558
+    m_Key: Title_hard
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518375
+  - m_Id: 57793745772559
+    m_Key: Title_live
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518376
+  - m_Id: 57793745772560
+    m_Key: Title_star
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518377
+  - m_Id: 57793745772561
+    m_Key: Title_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518378
+  - m_Id: 5836111170494464
+    m_Key: Title_icecream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849489
+  - m_Id: 5836111191465984
+    m_Key: Title_pasta
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849490
+  - m_Id: 5867060067295232
+    m_Key: Title_broiler-oven
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642757
+  - m_Id: 5867060105043968
+    m_Key: Title_charcoal-grill
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642758
+  - m_Id: 5867060105043969
+    m_Key: Title_saute-pan
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642759
+  - m_Id: 5867060105043970
+    m_Key: Title_seafood-prep-board
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642760
+  - m_Id: 5867060105043971
+    m_Key: Title_stockpot
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642761
+  - m_Id: 8095975175348224
+    m_Key: Title_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151041
+  - m_Id: 8100556793962496
+    m_Key: Title_seafood
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373824
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859021
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859021
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230173959
+    - rid: 4117827729675518361
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-auto_cook (description)
+    - rid: 4117827729675518362
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-clean_dirty (description)
+    - rid: 4117827729675518363
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-ingredient_pick (description)
+    - rid: 4117827729675518364
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-refill_wait_time (description)
+    - rid: 4117827729675518365
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-shift_up_row (description)
+    - rid: 4117827729675518366
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Currency-live (description)
+    - rid: 4117827729675518367
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Currency-star (description)
+    - rid: 4117827729675518368
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-auto_cook (name)
+    - rid: 4117827729675518369
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-clean_dirty (name)
+    - rid: 4117827729675518370
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-ingredient_pick (name)
+    - rid: 4117827729675518371
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-refill_wait_time (name)
+    - rid: 4117827729675518372
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Booster-shift_up_row (name)
+    - rid: 4117827729675518373
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-burger (name)
+    - rid: 4117827729675518374
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-coffee (name)
+    - rid: 4117827729675518375
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Currency-hard (name)
+    - rid: 4117827729675518376
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Currency-live (name)
+    - rid: 4117827729675518377
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCurrencySO Currency-star (name)
+    - rid: 4117827729675518378
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-sushi (name)
+    - rid: 5047051070982849489
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-icecream (name)
+    - rid: 5047051070982849490
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-pasta (name)
+    - rid: 5047051076574642757
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO broiler-oven (name)
+    - rid: 5047051076574642758
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO charcoal-grill (name)
+    - rid: 5047051076574642759
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO saute-pan (name)
+    - rid: 5047051076574642760
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO seafood-prep-board (name)
+    - rid: 5047051076574642761
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO stockpot (name)
+    - rid: 5047051213734151041
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeMapSO Map-sandwich (name)
+    - rid: 5047051217500373824
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Restaurant card NewFeather/Restaurant-Seafood.prefab (bound by hand)

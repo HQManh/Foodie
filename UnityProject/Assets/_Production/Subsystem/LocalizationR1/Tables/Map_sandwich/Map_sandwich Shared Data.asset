@@ -1,0 +1,1072 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sandwich Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Map_sandwich
+  m_TableCollectionNameGuidString: 7ea732cb59c9b854a807d1ade02ff122
+  m_Entries:
+  - m_Id: 47134539776
+    m_Key: Desc_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634313
+  - m_Id: 47151316992
+    m_Key: Desc_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634314
+  - m_Id: 47151316993
+    m_Key: Desc_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634315
+  - m_Id: 47151316994
+    m_Key: Desc_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634316
+  - m_Id: 47151316995
+    m_Key: Desc_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634317
+  - m_Id: 47151316996
+    m_Key: Title_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634318
+  - m_Id: 47151316997
+    m_Key: Title_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634319
+  - m_Id: 47151316998
+    m_Key: Title_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634320
+  - m_Id: 47151316999
+    m_Key: Title_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634321
+  - m_Id: 47151317000
+    m_Key: Title_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644929634322
+  - m_Id: 881833574129664
+    m_Key: Desc_bacon_strip
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373557
+  - m_Id: 881833599295488
+    m_Key: Desc_boiled_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373558
+  - m_Id: 881833599295489
+    m_Key: Desc_bread_toaster_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373559
+  - m_Id: 881833599295490
+    m_Key: Desc_bread_triangle
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373560
+  - m_Id: 881833599295491
+    m_Key: Desc_cheese_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373561
+  - m_Id: 881833599295492
+    m_Key: Desc_chicken_breast
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373562
+  - m_Id: 881833599295493
+    m_Key: Desc_crispy_bacon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373563
+  - m_Id: 881833599295494
+    m_Key: Desc_cucumber
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373564
+  - m_Id: 881833599295495
+    m_Key: Desc_cucumber_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373565
+  - m_Id: 881833599295496
+    m_Key: Desc_cutting_board_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373566
+  - m_Id: 881833599295497
+    m_Key: Desc_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373567
+  - m_Id: 881833599295498
+    m_Key: Desc_flexible_fruit_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373568
+  - m_Id: 881833599295499
+    m_Key: Desc_flexible_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373569
+  - m_Id: 881833599295500
+    m_Key: Desc_flexible_salad
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373570
+  - m_Id: 881833599295501
+    m_Key: Desc_flexible_savory_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373571
+  - m_Id: 881833599295502
+    m_Key: Desc_flexible_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373572
+  - m_Id: 881833599295503
+    m_Key: Desc_fried_chicken
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373573
+  - m_Id: 881833599295504
+    m_Key: Desc_fried_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373574
+  - m_Id: 881833599295505
+    m_Key: Desc_frying_pan_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373575
+  - m_Id: 881833599295506
+    m_Key: Desc_grape
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373576
+  - m_Id: 881833599295507
+    m_Key: Desc_grape_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373577
+  - m_Id: 881833599295508
+    m_Key: Desc_ham_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373578
+  - m_Id: 881833599295509
+    m_Key: Desc_ice_cubes
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373579
+  - m_Id: 881833599295510
+    m_Key: Desc_juice_extractor_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373580
+  - m_Id: 881833599295511
+    m_Key: Desc_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373581
+  - m_Id: 881833599295512
+    m_Key: Desc_kiwi_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373582
+  - m_Id: 881833599295513
+    m_Key: Desc_kiwi_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373583
+  - m_Id: 881833599295514
+    m_Key: Desc_lettuce
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373584
+  - m_Id: 881833599295515
+    m_Key: Desc_lettuce_shredded
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373585
+  - m_Id: 881833603489792
+    m_Key: Desc_mango
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373586
+  - m_Id: 881833603489793
+    m_Key: Desc_mango_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373587
+  - m_Id: 881833603489794
+    m_Key: Desc_mango_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373588
+  - m_Id: 881833603489795
+    m_Key: Desc_mayonnaise
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373589
+  - m_Id: 881833603489796
+    m_Key: Desc_milk
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373590
+  - m_Id: 881833603489797
+    m_Key: Desc_mushroom
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373591
+  - m_Id: 881833603489798
+    m_Key: Desc_mushroom_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373592
+  - m_Id: 881833603489799
+    m_Key: Desc_mushroom_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373593
+  - m_Id: 881833603489800
+    m_Key: Desc_parsley
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373594
+  - m_Id: 881833603489801
+    m_Key: Desc_pot_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373595
+  - m_Id: 881833603489802
+    m_Key: Desc_pumpkin
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373596
+  - m_Id: 881833603489803
+    m_Key: Desc_pumpkin_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373597
+  - m_Id: 881833603489804
+    m_Key: Desc_pumpkin_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373598
+  - m_Id: 881833603489805
+    m_Key: Desc_sandwich_bread
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373599
+  - m_Id: 881833603489806
+    m_Key: Desc_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373600
+  - m_Id: 881833603489807
+    m_Key: Desc_strawberry_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373601
+  - m_Id: 881833603489808
+    m_Key: Desc_strawberry_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373602
+  - m_Id: 881833603489809
+    m_Key: Desc_sweet_corn
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373603
+  - m_Id: 881833603489810
+    m_Key: Desc_toasted_sandwich_bread
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373604
+  - m_Id: 881833603489811
+    m_Key: Desc_tomato
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373605
+  - m_Id: 881833603489812
+    m_Key: Desc_tomato_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373606
+  - m_Id: 881833603489813
+    m_Key: Desc_tomato_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373607
+  - m_Id: 881833603489814
+    m_Key: Desc_tomato_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373608
+  - m_Id: 881833603489815
+    m_Key: Desc_whipped_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373609
+  - m_Id: 881833603489816
+    m_Key: Title_bacon_strip
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373610
+  - m_Id: 881833603489817
+    m_Key: Title_boiled_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373611
+  - m_Id: 881833603489818
+    m_Key: Title_bread_toaster_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373612
+  - m_Id: 881833603489819
+    m_Key: Title_bread_triangle
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373613
+  - m_Id: 881833603489820
+    m_Key: Title_cheese_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373614
+  - m_Id: 881833603489821
+    m_Key: Title_chicken_breast
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373615
+  - m_Id: 881833603489822
+    m_Key: Title_crispy_bacon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373616
+  - m_Id: 881833603489823
+    m_Key: Title_cucumber
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373617
+  - m_Id: 881833603489824
+    m_Key: Title_cucumber_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373618
+  - m_Id: 881833603489825
+    m_Key: Title_cutting_board_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373619
+  - m_Id: 881833603489826
+    m_Key: Title_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373620
+  - m_Id: 881833603489827
+    m_Key: Title_flexible_fruit_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373621
+  - m_Id: 881833603489828
+    m_Key: Title_flexible_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373622
+  - m_Id: 881833603489829
+    m_Key: Title_flexible_salad
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373623
+  - m_Id: 881833603489830
+    m_Key: Title_flexible_savory_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373624
+  - m_Id: 881833603489831
+    m_Key: Title_flexible_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373625
+  - m_Id: 881833603489832
+    m_Key: Title_fried_chicken
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373626
+  - m_Id: 881833603489833
+    m_Key: Title_fried_egg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373627
+  - m_Id: 881833603489834
+    m_Key: Title_frying_pan_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373628
+  - m_Id: 881833603489835
+    m_Key: Title_grape
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373629
+  - m_Id: 881833603489836
+    m_Key: Title_grape_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373630
+  - m_Id: 881833603489837
+    m_Key: Title_ham_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373631
+  - m_Id: 881833603489838
+    m_Key: Title_ice_cubes
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373632
+  - m_Id: 881833603489839
+    m_Key: Title_juice_extractor_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373633
+  - m_Id: 881833603489840
+    m_Key: Title_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373634
+  - m_Id: 881833603489841
+    m_Key: Title_kiwi_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373635
+  - m_Id: 881833603489842
+    m_Key: Title_kiwi_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373636
+  - m_Id: 881833603489843
+    m_Key: Title_lettuce
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373637
+  - m_Id: 881833603489844
+    m_Key: Title_lettuce_shredded
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373638
+  - m_Id: 881833603489845
+    m_Key: Title_mango
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373639
+  - m_Id: 881833603489846
+    m_Key: Title_mango_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373640
+  - m_Id: 881833603489847
+    m_Key: Title_mango_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373641
+  - m_Id: 881833603489848
+    m_Key: Title_mayonnaise
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373642
+  - m_Id: 881833603489849
+    m_Key: Title_milk
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373643
+  - m_Id: 881833603489850
+    m_Key: Title_mushroom
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373644
+  - m_Id: 881833603489851
+    m_Key: Title_mushroom_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373645
+  - m_Id: 881833603489852
+    m_Key: Title_mushroom_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373646
+  - m_Id: 881833603489853
+    m_Key: Title_parsley
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373647
+  - m_Id: 881833603489854
+    m_Key: Title_pot_sandwich
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373648
+  - m_Id: 881833603489855
+    m_Key: Title_pumpkin
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373649
+  - m_Id: 881833603489856
+    m_Key: Title_pumpkin_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373650
+  - m_Id: 881833603489857
+    m_Key: Title_pumpkin_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373651
+  - m_Id: 881833603489858
+    m_Key: Title_sandwich_bread
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373652
+  - m_Id: 881833603489859
+    m_Key: Title_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373653
+  - m_Id: 881833603489860
+    m_Key: Title_strawberry_juice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373654
+  - m_Id: 881833603489861
+    m_Key: Title_strawberry_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373655
+  - m_Id: 881833603489862
+    m_Key: Title_sweet_corn
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373656
+  - m_Id: 881833603489863
+    m_Key: Title_toasted_sandwich_bread
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373657
+  - m_Id: 881833603489864
+    m_Key: Title_tomato
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373658
+  - m_Id: 881833603489865
+    m_Key: Title_tomato_diced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373659
+  - m_Id: 881833603489866
+    m_Key: Title_tomato_slice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373660
+  - m_Id: 881833603489867
+    m_Key: Title_tomato_soup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373661
+  - m_Id: 881833603489868
+    m_Key: Title_whipped_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373662
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2393388644896604662
+  references:
+    version: 2
+    RefIds:
+    - rid: 2393388644896604662
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1791950483595
+    - rid: 2393388644929634313
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[0] (description)
+    - rid: 2393388644929634314
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[1] (description)
+    - rid: 2393388644929634315
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[2] (description)
+    - rid: 2393388644929634316
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[3] (description)
+    - rid: 2393388644929634317
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[4] (description)
+    - rid: 2393388644929634318
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[0] (name)
+    - rid: 2393388644929634319
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[1] (name)
+    - rid: 2393388644929634320
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[2] (name)
+    - rid: 2393388644929634321
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[3] (name)
+    - rid: 2393388644929634322
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sandwich[4] (name)
+    - rid: 5047051217500373557
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO bacon_strip (description)
+    - rid: 5047051217500373558
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO boiled_egg (description)
+    - rid: 5047051217500373559
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO bread_toaster_sandwich (description)
+    - rid: 5047051217500373560
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO bread_triangle (description)
+    - rid: 5047051217500373561
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cheese_slice (description)
+    - rid: 5047051217500373562
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chicken_breast (description)
+    - rid: 5047051217500373563
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO crispy_bacon (description)
+    - rid: 5047051217500373564
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cucumber (description)
+    - rid: 5047051217500373565
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cucumber_slice (description)
+    - rid: 5047051217500373566
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sandwich (description)
+    - rid: 5047051217500373567
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg (description)
+    - rid: 5047051217500373568
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_fruit_sandwich (description)
+    - rid: 5047051217500373569
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_juice (description)
+    - rid: 5047051217500373570
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_salad (description)
+    - rid: 5047051217500373571
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_savory_sandwich (description)
+    - rid: 5047051217500373572
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_soup (description)
+    - rid: 5047051217500373573
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fried_chicken (description)
+    - rid: 5047051217500373574
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fried_egg (description)
+    - rid: 5047051217500373575
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO frying_pan_sandwich (description)
+    - rid: 5047051217500373576
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape (description)
+    - rid: 5047051217500373577
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_juice (description)
+    - rid: 5047051217500373578
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ham_slice (description)
+    - rid: 5047051217500373579
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice_cubes (description)
+    - rid: 5047051217500373580
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO juice_extractor_sandwich (description)
+    - rid: 5047051217500373581
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi (description)
+    - rid: 5047051217500373582
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_juice (description)
+    - rid: 5047051217500373583
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_slice (description)
+    - rid: 5047051217500373584
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lettuce (description)
+    - rid: 5047051217500373585
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lettuce_shredded (description)
+    - rid: 5047051217500373586
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango (description)
+    - rid: 5047051217500373587
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_juice (description)
+    - rid: 5047051217500373588
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_slice (description)
+    - rid: 5047051217500373589
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mayonnaise (description)
+    - rid: 5047051217500373590
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (description)
+    - rid: 5047051217500373591
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom (description)
+    - rid: 5047051217500373592
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom_diced (description)
+    - rid: 5047051217500373593
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom_soup (description)
+    - rid: 5047051217500373594
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO parsley (description)
+    - rid: 5047051217500373595
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO pot_sandwich (description)
+    - rid: 5047051217500373596
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin (description)
+    - rid: 5047051217500373597
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin_diced (description)
+    - rid: 5047051217500373598
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin_soup (description)
+    - rid: 5047051217500373599
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sandwich_bread (description)
+    - rid: 5047051217500373600
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry (description)
+    - rid: 5047051217500373601
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_juice (description)
+    - rid: 5047051217500373602
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_slice (description)
+    - rid: 5047051217500373603
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sweet_corn (description)
+    - rid: 5047051217500373604
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO toasted_sandwich_bread (description)
+    - rid: 5047051217500373605
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato (description)
+    - rid: 5047051217500373606
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_diced (description)
+    - rid: 5047051217500373607
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_slice (description)
+    - rid: 5047051217500373608
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_soup (description)
+    - rid: 5047051217500373609
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO whipped_cream (description)
+    - rid: 5047051217500373610
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO bacon_strip (name)
+    - rid: 5047051217500373611
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO boiled_egg (name)
+    - rid: 5047051217500373612
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO bread_toaster_sandwich (name)
+    - rid: 5047051217500373613
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO bread_triangle (name)
+    - rid: 5047051217500373614
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cheese_slice (name)
+    - rid: 5047051217500373615
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chicken_breast (name)
+    - rid: 5047051217500373616
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO crispy_bacon (name)
+    - rid: 5047051217500373617
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cucumber (name)
+    - rid: 5047051217500373618
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cucumber_slice (name)
+    - rid: 5047051217500373619
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sandwich (name)
+    - rid: 5047051217500373620
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg (name)
+    - rid: 5047051217500373621
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_fruit_sandwich (name)
+    - rid: 5047051217500373622
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_juice (name)
+    - rid: 5047051217500373623
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_salad (name)
+    - rid: 5047051217500373624
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_savory_sandwich (name)
+    - rid: 5047051217500373625
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_soup (name)
+    - rid: 5047051217500373626
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fried_chicken (name)
+    - rid: 5047051217500373627
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fried_egg (name)
+    - rid: 5047051217500373628
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO frying_pan_sandwich (name)
+    - rid: 5047051217500373629
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape (name)
+    - rid: 5047051217500373630
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_juice (name)
+    - rid: 5047051217500373631
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ham_slice (name)
+    - rid: 5047051217500373632
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice_cubes (name)
+    - rid: 5047051217500373633
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO juice_extractor_sandwich (name)
+    - rid: 5047051217500373634
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi (name)
+    - rid: 5047051217500373635
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_juice (name)
+    - rid: 5047051217500373636
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_slice (name)
+    - rid: 5047051217500373637
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lettuce (name)
+    - rid: 5047051217500373638
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lettuce_shredded (name)
+    - rid: 5047051217500373639
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango (name)
+    - rid: 5047051217500373640
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_juice (name)
+    - rid: 5047051217500373641
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_slice (name)
+    - rid: 5047051217500373642
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mayonnaise (name)
+    - rid: 5047051217500373643
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (name)
+    - rid: 5047051217500373644
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom (name)
+    - rid: 5047051217500373645
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom_diced (name)
+    - rid: 5047051217500373646
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mushroom_soup (name)
+    - rid: 5047051217500373647
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO parsley (name)
+    - rid: 5047051217500373648
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO pot_sandwich (name)
+    - rid: 5047051217500373649
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin (name)
+    - rid: 5047051217500373650
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin_diced (name)
+    - rid: 5047051217500373651
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pumpkin_soup (name)
+    - rid: 5047051217500373652
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sandwich_bread (name)
+    - rid: 5047051217500373653
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry (name)
+    - rid: 5047051217500373654
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_juice (name)
+    - rid: 5047051217500373655
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_slice (name)
+    - rid: 5047051217500373656
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sweet_corn (name)
+    - rid: 5047051217500373657
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO toasted_sandwich_bread (name)
+    - rid: 5047051217500373658
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato (name)
+    - rid: 5047051217500373659
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_diced (name)
+    - rid: 5047051217500373660
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_slice (name)
+    - rid: 5047051217500373661
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tomato_soup (name)
+    - rid: 5047051217500373662
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO whipped_cream (name)

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1782740403, guid: 9b79db7996b03fc716c579f61e0ccf78, type: 3}
+  m_Name: BlurGrading-EndWin
+  m_EditorClassIdentifier:
+  _grading:
+    enableColor: 1
+    exposure: 0.9
+    contrast: 1
+    saturation: 1.15
+    enableToneMap: 1
+    shadowColor: {r: 0.42, g: 0.18, b: 0.32, a: 1}
+    midColor: {r: 0.98, g: 0.6, b: 0.36, a: 1}
+    highlightColor: {r: 0.92, g: 0.8, b: 0.52, a: 1}
+    shadowEnd: 0.3
+    highlightStart: 0.68
+    toneSoftness: 0.18
+    toneBlend: 0.4
+    enableVignette: 1
+    vignetteColor: {r: 0.42, g: 0.24, b: 0.2, a: 1}
+    vignetteIntensity: 0.28
+    vignetteRadius: 0.6
+    vignetteSoftness: 0.8
+    vignetteRoundness: 1

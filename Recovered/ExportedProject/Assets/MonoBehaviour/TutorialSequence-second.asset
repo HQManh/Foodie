@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b03c66f3f9f1e9b9037789af377366, type: 3}
+  m_Name: TutorialSequence-second
+  m_EditorClassIdentifier:
+  tutId: second
+  steps:
+  - rid: 1196765835780161733
+  - rid: 1196765835780161806
+  references:
+    version: 2
+    RefIds:
+    - rid: 1196765835780161733
+      type: {class: TutorialStepCallCustomer, ns: AnhPD.FoodOrder, asm: Assembly-CSharp}
+      data:
+        focus:
+          enabled: 0
+          size: {x: 2, y: 2}
+          offset: {x: 0, y: 0}
+          shrinkDuration: 0.35
+          follow: 1
+        target:
+          kind: 0
+          id:
+        waitTimeout: 5
+    - rid: 1196765835780161806
+      type: {class: TutorialStepTap, ns: AnhPD.FoodOrder, asm: Assembly-CSharp}
+      data:
+        focus:
+          enabled: 1
+          size: {x: 3, y: 3}
+          offset: {x: 0, y: 0.5}
+          shrinkDuration: 0.35
+          follow: 1
+        target:
+          kind: 4
+          id:
+        showHand: 1
+        talkLine: Tap to customer order to change display
+        talkLineKey: tut_second_1
+        talkStyle: 1

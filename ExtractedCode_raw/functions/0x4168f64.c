@@ -1,0 +1,69 @@
+// rea decompile_all
+// name: AnhPD.FoodOrder.GroupViewTeapot$$PlayPutSfx
+// address: 0x4168f64
+// body: available
+// range: 0x4168f64-0x416912f inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra Listing reports a terminal call at 0x41690fc to 0x4d8dc1c FUN_04d8dc1c (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra Listing reports a terminal call at 0x4169128 to 0x4168e94 AnhPD.FoodOrder.GroupViewTeapot$$PlaySfx (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra Listing reports a terminal call at 0x416912c to 0x3f5c550 FUN_03f5c550 (external=false, thunk=false, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+void AnhPD_FoodOrder_GroupViewTeapot__PlayPutSfx(float param_1,long param_2,undefined8 param_3)
+
+{
+  long lVar1;
+  ulong uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  long *plVar5;
+  undefined8 *puVar6;
+  
+  if ((DAT_09516590 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918c148);
+    FUN_03f5c2a4(&DAT_091dbc80);
+    FUN_03f5c2a4(&DAT_091dbef8);
+    FUN_03f5c2a4(&DAT_091eb008);
+    FUN_03f5c2a4(&DAT_091911a8);
+    DAT_09516590 = 1;
+  }
+  lVar1 = thunk_FUN_03f9944c(DAT_091911a8);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 == 0) {
+                    /* WARNING: Subroutine does not return */
+    FUN_03f5c550();
+  }
+  puVar6 = (undefined8 *)(lVar1 + 0x10);
+  *puVar6 = param_3;
+  thunk_FUN_03f5d7b8(puVar6,param_3);
+  uVar4 = *puVar6;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if ((uVar2 & 1) != 0) {
+    if (param_1 <= 0.0) {
+      AnhPD_FoodOrder_GroupViewTeapot__PlaySfx(*puVar6);
+      return;
+    }
+    plVar5 = (long *)(param_2 + 0xf8);
+    if (*plVar5 != 0) {
+      DG_Tweening_TweenExtensions__Kill(*plVar5,0,0);
+    }
+    uVar4 = thunk_FUN_03f9944c(DAT_0918c148);
+    DG_Tweening_TweenCallback___ctor(uVar4,lVar1,DAT_091eb008,0);
+    uVar4 = DG_Tweening_DOVirtual__DelayedCall(param_1,uVar4,1,0);
+    uVar3 = UnityEngine_Component__get_gameObject(param_2,0);
+    uVar4 = FUN_04d960c8(uVar4,uVar3,DAT_091dbef8);
+    *(undefined8 *)(param_2 + 0xf8) = uVar4;
+    thunk_FUN_03f5d7b8(plVar5,uVar4);
+    if (*(char *)(param_2 + 0xf2) != '\0') {
+      FUN_04d8dc1c(*plVar5,DAT_091dbc80);
+      return;
+    }
+  }
+  return;
+}
+

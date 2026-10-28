@@ -1,0 +1,602 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 977364902, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: sandwich
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  sourceGraphJson: "{\r\n  \"schemaVersion\": 1,\r\n  \"_foodOrderableMap\": {\r\n    \"savory-sandwich\": [\r\n      \"savory-sandwich\"\r\n    ],\r\n    \"fruit-sandwich\": [\r\n      \"fruit-sandwich\"\r\n    ],\r\n    \"salad\": [\r\n      \"salad\"\r\n    ],\r\n    \"juice\": [\r\n      \"fresh-juice\"\r\n    ],\r\n    \"soup\": [\r\n      \"soup\"\r\n    ]\r\n  },\r\n  \"_imagePolicy\": {\r\n    \"provider\": \"Bundled official WebP assets\",\r\n    \"assetRoot\": \"src/assets/Map6-sanwich\",\r\n    \"manifest\": \"docs/official-sandwich-ice-cream-assets.json\",\r\n    \"retainedEnvironmentManifest\": \"docs/preview_asset_manifests/54-sandwich-combinations.json\"\r\n  },\r\n  \"map\": {\r\n    \"id\": \"sandwich\",\r\n    \"name\": \"Sandwich\",\r\n    \"gridWidth\": 5,\r\n    \"gridHeight\": 2,\r\n    \"dirtyStackHeight\": 3,\r\n    \"visibleRows\": 3,\r\n    \"processSpeedMultiplier\": 1,\r\n    \"mergeSpeedMultiplier\": 1\r\n  },\r\n  \"idTable\": {\r\n    \"ingredient\": [\r\n      \"sandwich-bread\",\r\n      \"whipped-cream\",\r\n      \"parsley\",\r\n      \"chicken-breast\",\r\n      \"ham-slice\",\r\n      \"cheese-slice\",\r\n      \"bacon-strip\",\r\n      \"sweet-corn\",\r\n      \"egg\",\r\n      \"cucumber\",\r\n      \"lettuce\",\r\n      \"tomato\",\r\n      \"mushroom\",\r\n      \"pumpkin\",\r\n      \"mayonnaise\",\r\n      \"grape\",\r\n      \"mango\",\r\n      \"kiwi\",\r\n      \"strawberry\",\r\n      \"ice-cubes\",\r\n      \"milk\",\r\n      \"toasted-sandwich-bread\",\r\n      \"fried-chicken\",\r\n      \"crispy-bacon\",\r\n      \"fried-egg\",\r\n      \"cucumber-slice\",\r\n      \"lettuce-shredded\",\r\n      \"tomato-slice\",\r\n      \"pumpkin-soup\",\r\n      \"boiled-egg\",\r\n      \"tomato-soup\",\r\n      \"pumpkin-diced\",\r\n      \"mushroom-soup\",\r\n      \"tomato-diced\",\r\n      \"mushroom-diced\",\r\n      \"mango-slice\",\r\n      \"kiwi-slice\",\r\n      \"strawberry-slice\",\r\n      \"grape-juice\",\r\n      \"mango-juice\",\r\n      \"kiwi-juice\",\r\n      \"strawberry-juice\",\r\n      \"bread-triangle\"\r\n    ],\r\n    \"composite\": [\r\n      \"savory-sandwich\",\r\n      \"fruit-sandwich\",\r\n      \"salad\",\r\n      \"soup\",\r\n      \"fresh-juice\",\r\n      \"fruit-sandwich-cream\"\r\n    ],\r\n    \"group\": [\r\n      \"savory-filling-choice\",\r\n      \"fruit-filling-choice\",\r\n      \"salad-topping-choice\",\r\n      \"juice-choice\",\r\n      \"soup-choice\",\r\n      \"soup-topping-choice\"\r\n    ],\r\n    \"tool\": [\r\n      \"cutting-board\",\r\n      \"pot\",\r\n      \"bread-toaster\",\r\n      \"juice-extractor\",\r\n      \"frying-pan\"\r\n    ],\r\n    \"dirty\": []\r\n  },\r\n  \"vertices\": {\r\n    \"ingredient\": [\r\n      {\r\n        \"name\": \"sandwich-bread\",\r\n        \"displayName\": \"Sandwich Bread\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍞\",\r\n        \"pieceIndex\": \"0\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_SanwichBread.webp\"\r\n      },\r\n      {\r\n        \"name\": \"ham-slice\",\r\n        \"displayName\": \"Ham Slice\",\r\n        \"pickupable\": true,\r\n        \"price\": 10,\r\n        \"emoji\": \"🍖\",\r\n        \"pieceIndex\": \"1\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Ham.webp\"\r\n      },\r\n      {\r\n        \"name\": \"egg\",\r\n        \"displayName\": \"Egg\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥚\",\r\n        \"pieceIndex\": \"2\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Egg.webp\"\r\n      },\r\n      {\r\n        \"name\": \"cheese-slice\",\r\n        \"displayName\": \"Cheese Slice\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🧀\",\r\n        \"pieceIndex\": \"3\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Cheese.webp\"\r\n      },\r\n      {\r\n        \"name\": \"tomato\",\r\n        \"displayName\": \"Tomato\",\r\n        \"pickupable\": true,\r\n        \"price\": 10,\r\n        \"emoji\": \"🍅\",\r\n        \"pieceIndex\": \"4\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Tomato.webp\"\r\n      },\r\n      {\r\n        \"name\": \"lettuce\",\r\n        \"displayName\": \"Lettuce\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥬\",\r\n        \"pieceIndex\": \"5\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Lettuce_1.webp\"\r\n      },\r\n      {\r\n        \"name\": \"cucumber\",\r\n        \"displayName\": \"Cucumber\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥒\",\r\n        \"pieceIndex\": \"6\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Cucumber.webp\"\r\n      },\r\n      {\r\n        \"name\": \"sweet-corn\",\r\n        \"displayName\": \"Sweet Corn\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🌽\",\r\n        \"pieceIndex\": \"7\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Corn.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mayonnaise\",\r\n        \"displayName\": \"Mayonnaise\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🫙\",\r\n        \"pieceIndex\": \"8\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Mayonaise.webp\"\r\n      },\r\n      {\r\n        \"name\": \"whipped-cream\",\r\n        \"displayName\": \"Whipped Cream\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍦\",\r\n        \"pieceIndex\": \"9\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_WhippingCream.webp\"\r\n      },\r\n      {\r\n        \"name\": \"strawberry\",\r\n        \"displayName\": \"Strawberry\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍓\",\r\n        \"pieceIndex\": \"10\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Strawberry.webp\"\r\n      },\r\n      {\r\n        \"name\": \"kiwi\",\r\n        \"displayName\": \"Kiwi\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥝\",\r\n        \"pieceIndex\": \"11\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Kiwi.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mango\",\r\n        \"displayName\": \"Mango\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥭\",\r\n        \"pieceIndex\": \"12\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Mango.webp\"\r\n      },\r\n      {\r\n        \"name\": \"grape\",\r\n        \"displayName\": \"Grape\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍇\",\r\n        \"pieceIndex\": \"13\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Grape.webp\"\r\n      },\r\n      {\r\n        \"name\": \"ice-cubes\",\r\n        \"displayName\": \"Ice Cubes\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🧊\",\r\n        \"pieceIndex\": \"14\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Ice.webp\"\r\n      },\r\n      {\r\n        \"name\": \"pumpkin\",\r\n        \"displayName\": \"Pumpkin\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🎃\",\r\n        \"pieceIndex\": \"15\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Pumpskin.webp\"\r\n      },\r\n      {\r\n        \"name\": \"bacon-strip\",\r\n        \"displayName\": \"Bacon Strip\",\r\n        \"pickupable\": true,\r\n        \"price\": 10,\r\n        \"emoji\": \"🥓\",\r\n        \"pieceIndex\": \"16\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Bacon.webp\"\r\n      },\r\n      {\r\n        \"name\": \"chicken-breast\",\r\n        \"displayName\": \"Chicken Breast\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐔\",\r\n        \"pieceIndex\": \"17\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_RawChicken_Breast.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mushroom\",\r\n        \"displayName\": \"Mushroom\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍄\",\r\n        \"pieceIndex\": \"18\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Mushroom.webp\"\r\n      },\r\n      {\r\n        \"name\": \"parsley\",\r\n        \"displayName\": \"Parsley\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🌿\",\r\n        \"pieceIndex\": \"19\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Parsley.webp\"\r\n      },\r\n      {\r\n        \"name\": \"milk\",\r\n        \"displayName\": \"Milk\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥛\",\r\n        \"pieceIndex\": \"20\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Raw Food/Icon_Milk.webp\"\r\n      },\r\n      {\r\n        \"name\": \"toasted-sandwich-bread\",\r\n        \"displayName\": \"Toasted Sandwich Bread\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥪\",\r\n        \"pieceIndex\": \"0\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Toasted_SanwichBread.webp\"\r\n      },\r\n      {\r\n        \"name\": \"boiled-egg\",\r\n        \"displayName\": \"Boiled Egg\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"⚪\",\r\n        \"pieceIndex\": \"2\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Boiled_Egg.webp\"\r\n      },\r\n      {\r\n        \"name\": \"tomato-slice\",\r\n        \"displayName\": \"Tomato Slice\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🔴\",\r\n        \"pieceIndex\": \"4\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Tomato_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"tomato-diced\",\r\n        \"displayName\": \"Tomato Diced\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🔺\",\r\n        \"pieceIndex\": \"4\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Tomato_Diced.webp\"\r\n      },\r\n      {\r\n        \"name\": \"lettuce-shredded\",\r\n        \"displayName\": \"Lettuce Shredded\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍃\",\r\n        \"pieceIndex\": \"5\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Lettuce_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"cucumber-slice\",\r\n        \"displayName\": \"Cucumber Slice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟢\",\r\n        \"pieceIndex\": \"6\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Cucumber_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"pumpkin-diced\",\r\n        \"displayName\": \"Pumpkin Diced\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🟧\",\r\n        \"pieceIndex\": \"15\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Pumpskin_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"strawberry-slice\",\r\n        \"displayName\": \"Strawberry Slice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"❤️\",\r\n        \"pieceIndex\": \"10\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Strawberry_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"kiwi-slice\",\r\n        \"displayName\": \"Kiwi Slice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"💚\",\r\n        \"pieceIndex\": \"11\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Kiwi_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mango-slice\",\r\n        \"displayName\": \"Mango Slice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"💛\",\r\n        \"pieceIndex\": \"12\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Mango_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"strawberry-juice\",\r\n        \"displayName\": \"Strawberry Juice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟥\",\r\n        \"pieceIndex\": \"10\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Juice_Strawberry.webp\"\r\n      },\r\n      {\r\n        \"name\": \"kiwi-juice\",\r\n        \"displayName\": \"Kiwi Juice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟩\",\r\n        \"pieceIndex\": \"11\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Juice_Kiwi.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mango-juice\",\r\n        \"displayName\": \"Mango Juice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟨\",\r\n        \"pieceIndex\": \"12\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Juice_Mango.webp\"\r\n      },\r\n      {\r\n        \"name\": \"grape-juice\",\r\n        \"displayName\": \"Grape Juice\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟪\",\r\n        \"pieceIndex\": \"13\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Juice_Grape.webp\"\r\n      },\r\n      {\r\n        \"name\": \"tomato-soup\",\r\n        \"displayName\": \"Tomato Soup\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🍲\",\r\n        \"pieceIndex\": \"4\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Soup_Tomato.webp\"\r\n      },\r\n      {\r\n        \"name\": \"pumpkin-soup\",\r\n        \"displayName\": \"Pumpkin Soup\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🥣\",\r\n        \"pieceIndex\": \"15\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Soup_Pumpskin.webp\"\r\n      },\r\n      {\r\n        \"name\": \"crispy-bacon\",\r\n        \"displayName\": \"Crispy Bacon\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🟤\",\r\n        \"pieceIndex\": \"16\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Crispy_Bacon.webp\"\r\n      },\r\n      {\r\n        \"name\": \"fried-chicken\",\r\n        \"displayName\": \"Fried Chicken\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍗\",\r\n        \"pieceIndex\": \"17\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_FriedChicken_Breast.webp\"\r\n      },\r\n      {\r\n        \"name\": \"fried-egg\",\r\n        \"displayName\": \"Fried Egg\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍳\",\r\n        \"pieceIndex\": \"2\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Fried_Egg.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mushroom-diced\",\r\n        \"displayName\": \"Mushroom Diced\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🟤\",\r\n        \"pieceIndex\": \"18\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Mushroom_Cut.webp\"\r\n      },\r\n      {\r\n        \"name\": \"mushroom-soup\",\r\n        \"displayName\": \"Mushroom Soup\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🥘\",\r\n        \"pieceIndex\": \"18\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Soup_Mushroom.webp\"\r\n      },\r\n      {\r\n        \"name\": \"bread-triangle\",\r\n        \"displayName\": \"Bread Triangle\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"📐\",\r\n        \"pieceIndex\": \"0\",\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_Bread.webp\"\r\n      }\r\n    ],\r\n    \"tool\": [\r\n      {\r\n        \"name\": \"cutting-board\",\r\n        \"displayName\": \"Cutting Board\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Input\",\r\n            \"slot\": 3\r\n          }\r\n        ],\r\n        \"cookingTime\": 2,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          2\r\n        ],\r\n        \"emoji\": \"🔪\",\r\n        \"runtimeToolId\": 0,\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_CuttingBoard.webp\"\r\n      },\r\n      {\r\n        \"name\": \"pot\",\r\n        \"displayName\": \"Pot\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Main\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"name\": \"Milk\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 4,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          2\r\n        ],\r\n        \"emoji\": \"🍲\",\r\n        \"runtimeToolId\": 1,\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Pot_1.webp\"\r\n      },\r\n      {\r\n        \"name\": \"bread-toaster\",\r\n        \"displayName\": \"Bread Toaster\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Input\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 2,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          2\r\n        ],\r\n        \"emoji\": \"♨️\",\r\n        \"runtimeToolId\": 2,\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Toaster.webp\"\r\n      },\r\n      {\r\n        \"name\": \"juice-extractor\",\r\n        \"displayName\": \"Juice Extractor\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Input\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 3,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          2\r\n        ],\r\n        \"emoji\": \"🧃\",\r\n        \"runtimeToolId\": 3,\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_JuiceExtractor.webp\"\r\n      },\r\n      {\r\n        \"name\": \"frying-pan\",\r\n        \"displayName\": \"Frying Pan\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Input\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 3,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          2\r\n        ],\r\n        \"emoji\": \"🍳\",\r\n        \"runtimeToolId\": 4,\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Pan.webp\"\r\n      }\r\n    ],\r\n    \"group\": [\r\n      {\r\n        \"name\": \"savory-filling-choice\",\r\n        \"displayName\": \"Savory Filling Choice\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 8\r\n      },\r\n      {\r\n        \"name\": \"fruit-filling-choice\",\r\n        \"displayName\": \"Fruit Filling Choice\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 4\r\n      },\r\n      {\r\n        \"name\": \"salad-topping-choice\",\r\n        \"displayName\": \"Salad Topping Choice\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 5\r\n      },\r\n      {\r\n        \"name\": \"juice-choice\",\r\n        \"displayName\": \"Juice Choice\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"soup-choice\",\r\n        \"displayName\": \"Soup Choice\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"soup-topping-choice\",\r\n        \"displayName\": \"Soup Topping Choice\",\r\n        \"minQuantity\": 0,\r\n        \"maxQuantity\": 2\r\n      }\r\n    ],\r\n    \"composite\": [\r\n      {\r\n        \"name\": \"savory-sandwich\",\r\n        \"displayName\": \"Savory Sandwich\",\r\n        \"emoji\": \"🥪\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Order Icon/Icon_Savory_Sanwich.webp\"\r\n      },\r\n      {\r\n        \"name\": \"fruit-sandwich-cream\",\r\n        \"displayName\": \"Fruit Sandwich Cream\",\r\n        \"emoji\": \"🍞\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Combinations/fruit-bread-cream.webp\"\r\n      },\r\n      {\r\n        \"name\": \"fruit-sandwich\",\r\n        \"displayName\": \"Fruit Sandwich\",\r\n        \"emoji\": \"🍓\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Order Icon/Icon_Fruit_Sanwich.webp\"\r\n      },\r\n      {\r\n        \"name\": \"salad\",\r\n        \"displayName\": \"Salad\",\r\n        \"emoji\": \"🥗\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Order Icon/Icon_Salad.webp\"\r\n      },\r\n      {\r\n        \"name\": \"fresh-juice\",\r\n        \"displayName\": \"Fresh Juice\",\r\n        \"emoji\": \"🧃\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Order Icon/Icon_Juice_Strawberry.webp\"\r\n      },\r\n      {\r\n        \"name\": \"soup\",\r\n        \"displayName\": \"Soup\",\r\n        \"emoji\": \"🍲\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map6-sanwich/Ingredients/Order Icon/Icon_Soup_Tomato.webp\"\r\n      }\r\n    ],\r\n    \"dirty\": []\r\n  },\r\n  \"edges\": {\r\n    \"preservation\": [],\r\n    \"process\": [\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"cucumber-slice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"cucumber\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"lettuce-shredded\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"lettuce\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"tomato-slice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"tomato\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"tomato-diced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"tomato\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"mushroom-diced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"mushroom\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"pumpkin-diced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"pumpkin\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"mango-slice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"mango\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"kiwi-slice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"kiwi\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"strawberry-slice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"strawberry\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"bread-triangle\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"sandwich-bread\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"boiled-egg\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"egg\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"tomato-soup\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"tomato-diced\",\r\n            \"slot\": 0\r\n          },\r\n          {\r\n            \"ingredient\": \"milk\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false,\r\n        \"duration\": 5\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"mushroom-soup\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"mushroom-diced\",\r\n            \"slot\": 0\r\n          },\r\n          {\r\n            \"ingredient\": \"milk\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false,\r\n        \"duration\": 5\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"pumpkin-soup\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"pumpkin-diced\",\r\n            \"slot\": 0\r\n          },\r\n          {\r\n            \"ingredient\": \"milk\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false,\r\n        \"duration\": 5\r\n      },\r\n      {\r\n        \"from\": \"bread-toaster\",\r\n        \"to\": \"toasted-sandwich-bread\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"sandwich-bread\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"juice-extractor\",\r\n        \"to\": \"grape-juice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"grape\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"juice-extractor\",\r\n        \"to\": \"mango-juice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"mango\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"juice-extractor\",\r\n        \"to\": \"kiwi-juice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"kiwi\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"juice-extractor\",\r\n        \"to\": \"strawberry-juice\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"strawberry\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"frying-pan\",\r\n        \"to\": \"fried-chicken\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-breast\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"frying-pan\",\r\n        \"to\": \"crispy-bacon\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"bacon-strip\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"frying-pan\",\r\n        \"to\": \"fried-egg\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"egg\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      }\r\n    ],\r\n    \"base\": [\r\n      {\r\n        \"from\": \"savory-sandwich\",\r\n        \"to\": \"toasted-sandwich-bread\"\r\n      },\r\n      {\r\n        \"from\": \"fruit-sandwich-cream\",\r\n        \"to\": \"bread-triangle\"\r\n      },\r\n      {\r\n        \"from\": \"fruit-sandwich\",\r\n        \"to\": \"fruit-sandwich-cream\"\r\n      },\r\n      {\r\n        \"from\": \"salad\",\r\n        \"to\": \"lettuce-shredded\"\r\n      },\r\n      {\r\n        \"from\": \"fresh-juice\",\r\n        \"to\": \"juice-choice\"\r\n      },\r\n      {\r\n        \"from\": \"soup\",\r\n        \"to\": \"soup-choice\"\r\n      }\r\n    ],\r\n    \"topping\": [\r\n      {\r\n        \"from\": \"savory-sandwich\",\r\n        \"to\": \"savory-filling-choice\"\r\n      },\r\n      {\r\n        \"from\": \"fruit-sandwich-cream\",\r\n        \"to\": \"whipped-cream\"\r\n      },\r\n      {\r\n        \"from\": \"fruit-sandwich\",\r\n        \"to\": \"fruit-filling-choice\"\r\n      },\r\n      {\r\n        \"from\": \"salad\",\r\n        \"to\": \"salad-topping-choice\"\r\n      },\r\n      {\r\n        \"from\": \"fresh-juice\",\r\n        \"to\": \"ice-cubes\"\r\n      },\r\n      {\r\n        \"from\": \"soup\",\r\n        \"to\": \"soup-topping-choice\"\r\n      }\r\n    ],\r\n    \"option\": [\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"ham-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"fried-egg\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"crispy-bacon\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"fried-chicken\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"lettuce-shredded\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"tomato-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"cucumber-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"savory-filling-choice\",\r\n        \"to\": \"cheese-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruit-filling-choice\",\r\n        \"to\": \"strawberry-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruit-filling-choice\",\r\n        \"to\": \"kiwi-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruit-filling-choice\",\r\n        \"to\": \"mango-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruit-filling-choice\",\r\n        \"to\": \"grape\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"salad-topping-choice\",\r\n        \"to\": \"tomato-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"salad-topping-choice\",\r\n        \"to\": \"cucumber-slice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"salad-topping-choice\",\r\n        \"to\": \"sweet-corn\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"salad-topping-choice\",\r\n        \"to\": \"boiled-egg\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"salad-topping-choice\",\r\n        \"to\": \"mayonnaise\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"juice-choice\",\r\n        \"to\": \"strawberry-juice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"juice-choice\",\r\n        \"to\": \"kiwi-juice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"juice-choice\",\r\n        \"to\": \"mango-juice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"juice-choice\",\r\n        \"to\": \"grape-juice\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-choice\",\r\n        \"to\": \"tomato-soup\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-choice\",\r\n        \"to\": \"pumpkin-soup\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-choice\",\r\n        \"to\": \"mushroom-soup\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-topping-choice\",\r\n        \"to\": \"toasted-sandwich-bread\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-topping-choice\",\r\n        \"to\": \"parsley\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-topping-choice\",\r\n        \"to\": \"sweet-corn\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"soup-topping-choice\",\r\n        \"to\": \"whipped-cream\",\r\n        \"maxQuantity\": 1\r\n      }\r\n    ],\r\n    \"leavesDirty\": []\r\n  },\r\n  \"notes\": [\r\n    {\r\n      \"id\": \"sandwich-flow\",\r\n      \"x\": 60,\r\n      \"y\": -120,\r\n      \"text\": \"Raw bread feeds the toaster (savory sandwich, soup topping) and the cutting board (diagonal cut for the fruit sandwich); tomato splits into slices (sandwich/salad) and dice (soup); egg splits into fried (sandwich) and boiled (salad); filling fruits are also juiced.\"\r\n    }\r\n  ],\r\n  \"layout\": {\r\n    \"ingredient:sandwich-bread\": {\r\n      \"x\": 367.08624399999997,\r\n      \"y\": -87.552391999999926\r\n    },\r\n    \"ingredient:ham-slice\": {\r\n      \"x\": 358.0512829,\r\n      \"y\": 306.3076974\r\n    },\r\n    \"ingredient:egg\": {\r\n      \"x\": 360,\r\n      \"y\": 666.0385\r\n    },\r\n    \"ingredient:cheese-slice\": {\r\n      \"x\": 358.0512829,\r\n      \"y\": 363.66673050000009\r\n    },\r\n    \"ingredient:tomato\": {\r\n      \"x\": 360.75131480090158,\r\n      \"y\": 984.380165289256\r\n    },\r\n    \"ingredient:lettuce\": {\r\n      \"x\": 360,\r\n      \"y\": 836\r\n    },\r\n    \"ingredient:cucumber\": {\r\n      \"x\": 360,\r\n      \"y\": 762\r\n    },\r\n    \"ingredient:sweet-corn\": {\r\n      \"x\": 360,\r\n      \"y\": 614\r\n    },\r\n    \"ingredient:mayonnaise\": {\r\n      \"x\": 365.04449,\r\n      \"y\": 1220.3434900000004\r\n    },\r\n    \"ingredient:whipped-cream\": {\r\n      \"x\": 372.40092699999997,\r\n      \"y\": 62.4896540000002\r\n    },\r\n    \"ingredient:strawberry\": {\r\n      \"x\": 361.331,\r\n      \"y\": 1543.261\r\n    },\r\n    \"ingredient:kiwi\": {\r\n      \"x\": 361.331,\r\n      \"y\": 1487.895\r\n    },\r\n    \"ingredient:mango\": {\r\n      \"x\": 362.662,\r\n      \"y\": 1431.1979999999999\r\n    },\r\n    \"ingredient:grape\": {\r\n      \"x\": 362.662,\r\n      \"y\": 1377.1629999999998\r\n    },\r\n    \"ingredient:ice-cubes\": {\r\n      \"x\": 370.3749698404,\r\n      \"y\": 1826.3744872867999\r\n    },\r\n    \"ingredient:pumpkin\": {\r\n      \"x\": 361.771561,\r\n      \"y\": 1135.1375600000001\r\n    },\r\n    \"ingredient:bacon-strip\": {\r\n      \"x\": 361.4641,\r\n      \"y\": 559.03329999999994\r\n    },\r\n    \"ingredient:chicken-breast\": {\r\n      \"x\": 363.42306579999996,\r\n      \"y\": 499.82804939999988\r\n    },\r\n    \"ingredient:mushroom\": {\r\n      \"x\": 358.228439,\r\n      \"y\": 1057.594438\r\n    },\r\n    \"ingredient:parsley\": {\r\n      \"x\": 363.54312200000004,\r\n      \"y\": 165.53881800000053\r\n    },\r\n    \"ingredient:toasted-sandwich-bread\": {\r\n      \"x\": 1112.1468300000001,\r\n      \"y\": -84.923025999999709\r\n    },\r\n    \"ingredient:boiled-egg\": {\r\n      \"x\": 1564.5454545454547,\r\n      \"y\": 808.54545454545473\r\n    },\r\n    \"ingredient:tomato-slice\": {\r\n      \"x\": 966.44204,\r\n      \"y\": 796.3153\r\n    },\r\n    \"ingredient:tomato-diced\": {\r\n      \"x\": 959,\r\n      \"y\": 978.00000000000023\r\n    },\r\n    \"ingredient:lettuce-shredded\": {\r\n      \"x\": 964.83153,\r\n      \"y\": 743.25193\r\n    },\r\n    \"ingredient:cucumber-slice\": {\r\n      \"x\": 964.83153,\r\n      \"y\": 685.35703\r\n    },\r\n    \"ingredient:pumpkin-diced\": {\r\n      \"x\": 955,\r\n      \"y\": 1097.9999999999995\r\n    },\r\n    \"ingredient:strawberry-slice\": {\r\n      \"x\": 966.655,\r\n      \"y\": 1423.317\r\n    },\r\n    \"ingredient:kiwi-slice\": {\r\n      \"x\": 966.655,\r\n      \"y\": 1366.62\r\n    },\r\n    \"ingredient:mango-slice\": {\r\n      \"x\": 969.317,\r\n      \"y\": 1309.9229999999998\r\n    },\r\n    \"ingredient:strawberry-juice\": {\r\n      \"x\": 960,\r\n      \"y\": 1671.34776\r\n    },\r\n    \"ingredient:kiwi-juice\": {\r\n      \"x\": 960,\r\n      \"y\": 1615.06337\r\n    },\r\n    \"ingredient:mango-juice\": {\r\n      \"x\": 960,\r\n      \"y\": 1562\r\n    },\r\n    \"ingredient:grape-juice\": {\r\n      \"x\": 961.61051,\r\n      \"y\": 1508.93663\r\n    },\r\n    \"ingredient:tomato-soup\": {\r\n      \"x\": 1560,\r\n      \"y\": 938\r\n    },\r\n    \"ingredient:pumpkin-soup\": {\r\n      \"x\": 1562.7272727272727,\r\n      \"y\": 872.72727272727252\r\n    },\r\n    \"ingredient:crispy-bacon\": {\r\n      \"x\": 961.1,\r\n      \"y\": 409.10000000000008\r\n    },\r\n    \"ingredient:fried-chicken\": {\r\n      \"x\": 962.2,\r\n      \"y\": 353.80000000000007\r\n    },\r\n    \"ingredient:fried-egg\": {\r\n      \"x\": 962.2,\r\n      \"y\": 468.80000000000013\r\n    },\r\n    \"ingredient:mushroom-diced\": {\r\n      \"x\": 956,\r\n      \"y\": 1038.0000000000002\r\n    },\r\n    \"ingredient:mushroom-soup\": {\r\n      \"x\": 1560,\r\n      \"y\": 1012\r\n    },\r\n    \"tool:cutting-board\": {\r\n      \"x\": 660,\r\n      \"y\": 877\r\n    },\r\n    \"tool:pot\": {\r\n      \"x\": 1281.4358881,\r\n      \"y\": 837.89753350000024\r\n    },\r\n    \"tool:bread-toaster\": {\r\n      \"x\": 710.71561,\r\n      \"y\": -118.92302599999982\r\n    },\r\n    \"tool:juice-extractor\": {\r\n      \"x\": 678.634,\r\n      \"y\": 1490.557\r\n    },\r\n    \"tool:frying-pan\": {\r\n      \"x\": 660,\r\n      \"y\": 415\r\n    },\r\n    \"group:savory-filling-choice\": {\r\n      \"x\": 1272.731928790909,\r\n      \"y\": 292.986098009091\r\n    },\r\n    \"group:fruit-filling-choice\": {\r\n      \"x\": 1253.230209236,\r\n      \"y\": 1249.459366163\r\n    },\r\n    \"group:juice-choice\": {\r\n      \"x\": 1260,\r\n      \"y\": 1556\r\n    },\r\n    \"group:soup-choice\": {\r\n      \"x\": 1865.2487985,\r\n      \"y\": 902.13564279999957\r\n    },\r\n    \"group:soup-topping-choice\": {\r\n      \"x\": 1334.4055620000001,\r\n      \"y\": 164.22413500000059\r\n    },\r\n    \"composite:savory-sandwich\": {\r\n      \"x\": 2126.4624953672728,\r\n      \"y\": -108.34152417363606\r\n    },\r\n    \"composite:fruit-sandwich-cream\": {\r\n      \"x\": 711.375269,\r\n      \"y\": 34.808972000000153\r\n    },\r\n    \"composite:fruit-sandwich\": {\r\n      \"x\": 2129.2568981609093,\r\n      \"y\": 11.080032438182258\r\n    },\r\n    \"composite:salad\": {\r\n      \"x\": 2153.095457571214,\r\n      \"y\": 1115.547728785607\r\n    },\r\n    \"composite:fresh-juice\": {\r\n      \"x\": 2151.2340539280344,\r\n      \"y\": 1527.8092900000001\r\n    },\r\n    \"composite:soup\": {\r\n      \"x\": 2128.3216956818178,\r\n      \"y\": 328.85680538090958\r\n    },\r\n    \"table:pickupable\": {\r\n      \"x\": 60,\r\n      \"y\": 650\r\n    },\r\n    \"table:orderable\": {\r\n      \"x\": 2460,\r\n      \"y\": 920\r\n    },\r\n    \"ingredient:milk\": {\r\n      \"x\": 365.98266984040004,\r\n      \"y\": 1292.6678872867997\r\n    },\r\n    \"group:salad-topping-choice\": {\r\n      \"x\": 1852.0718985,\r\n      \"y\": 579.33868700000028\r\n    },\r\n    \"ingredient:bread-triangle\": {\r\n      \"x\": 960,\r\n      \"y\": 74.808972000000153\r\n    }\r\n  },\r\n  \"mergeDurationOverrides\": [],\r\n  \"combinationRules\": {\r\n    \"containers\": [\r\n      {\r\n        \"composite\": \"savory-sandwich\",\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Board_DoneFood.webp\",\r\n        \"sortOrder\": -100,\r\n        \"pos\": {\r\n          \"x\": 0,\r\n          \"y\": 16\r\n        },\r\n        \"scale\": {\r\n          \"x\": 0.93,\r\n          \"y\": 0.93\r\n        },\r\n        \"rot\": 0\r\n      },\r\n      {\r\n        \"composite\": \"fruit-sandwich\",\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Board_DoneFood.webp\",\r\n        \"sortOrder\": -100,\r\n        \"pos\": {\r\n          \"x\": 0,\r\n          \"y\": 16\r\n        },\r\n        \"scale\": {\r\n          \"x\": 0.93,\r\n          \"y\": 0.93\r\n        },\r\n        \"rot\": 0\r\n      },\r\n      {\r\n        \"composite\": \"salad\",\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Bowl_DoneFood.webp\",\r\n        \"sortOrder\": -100,\r\n        \"pos\": {\r\n          \"x\": 0,\r\n          \"y\": 8\r\n        },\r\n        \"scale\": {\r\n          \"x\": 0.92,\r\n          \"y\": 0.92\r\n        },\r\n        \"rot\": 0\r\n      },\r\n      {\r\n        \"composite\": \"soup\",\r\n        \"localImage\": \"Map6-sanwich/Tools/Icon_Plate_DoneFood.webp\",\r\n        \"sortOrder\": -100,\r\n        \"pos\": {\r\n          \"x\": 0,\r\n          \"y\": 0\r\n        },\r\n        \"scale\": {\r\n          \"x\": 0.94,\r\n          \"y\": 0.94\r\n        },\r\n        \"rot\": 0\r\n      }\r\n    ],\r\n    \"combinations\": [\r\n      {\r\n        \"id\": \"blend-bread-cream\",\r\n        \"composite\": \"fruit-sandwich-cream\",\r\n        \"base\": \"bread-triangle\",\r\n        \"mode\": \"blended\",\r\n        \"topping\": \"whipped-cream\",\r\n        \"result\": {\r\n          \"localImage\": \"Map6-sanwich/Combinations/fruit-bread-cream.webp\",\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.83,\r\n            \"y\": 0.83\r\n          },\r\n          \"rot\": 0\r\n        }\r\n      },\r\n      {\r\n        \"id\": \"stack-savory-sandwich-toasted-sandwich-bread\",\r\n        \"composite\": \"savory-sandwich\",\r\n        \"base\": \"toasted-sandwich-bread\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {},\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"ham-slice\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 12\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Ham.webp\"\r\n          },\r\n          {\r\n            \"item\": \"fried-egg\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 9\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Egg.webp\"\r\n          },\r\n          {\r\n            \"item\": \"crispy-bacon\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 6\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bacon.webp\"\r\n          },\r\n          {\r\n            \"item\": \"fried-chicken\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 3\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Chicken.webp\"\r\n          },\r\n          {\r\n            \"item\": \"lettuce-shredded\",\r\n            \"sortOrder\": 5,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 0\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Lettuce.webp\"\r\n          },\r\n          {\r\n            \"item\": \"tomato-slice\",\r\n            \"sortOrder\": 6,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -3\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Tomato.webp\"\r\n          },\r\n          {\r\n            \"item\": \"cucumber-slice\",\r\n            \"sortOrder\": 7,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -6\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Cucumber.webp\"\r\n          },\r\n          {\r\n            \"item\": \"cheese-slice\",\r\n            \"sortOrder\": 8,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -9\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.7,\r\n              \"y\": 0.7\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Cheese.webp\"\r\n          }\r\n        ],\r\n        \"baseLayers\": [\r\n          {\r\n            \"id\": \"bottom\",\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bread_1.webp\",\r\n            \"sortOrder\": 0,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 17\r\n            },\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"rot\": 0\r\n          },\r\n          {\r\n            \"id\": \"top\",\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bread_1.webp\",\r\n            \"sortOrder\": 20,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -17\r\n            },\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"rot\": 0\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fruit-sandwich-cream-bread-triangle\",\r\n        \"composite\": \"fruit-sandwich-cream\",\r\n        \"base\": \"bread-triangle\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.83,\r\n            \"y\": 0.83\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"whipped-cream\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": 0\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.64,\r\n              \"y\": 0.64\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_WhippingCream.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fruit-sandwich-fruit-sandwich-cream\",\r\n        \"composite\": \"fruit-sandwich\",\r\n        \"base\": \"fruit-sandwich-cream\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {},\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"strawberry-slice\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": -6,\r\n              \"y\": -9\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.29,\r\n              \"y\": 0.29\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_Strawberry_1.webp\"\r\n          },\r\n          {\r\n            \"item\": \"kiwi-slice\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -2\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.29,\r\n              \"y\": 0.29\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_Kiwi_2.webp\"\r\n          },\r\n          {\r\n            \"item\": \"mango-slice\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 6,\r\n              \"y\": 5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.29,\r\n              \"y\": 0.29\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_Mango_3.webp\"\r\n          },\r\n          {\r\n            \"item\": \"grape\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 12,\r\n              \"y\": 12\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.29,\r\n              \"y\": 0.29\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_Grape_1.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-salad-lettuce-shredded\",\r\n        \"composite\": \"salad\",\r\n        \"base\": \"lettuce-shredded\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {},\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"tomato-slice\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Tomato.webp\"\r\n          },\r\n          {\r\n            \"item\": \"cucumber-slice\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Cucmber.webp\"\r\n          },\r\n          {\r\n            \"item\": \"sweet-corn\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Corn.webp\"\r\n          },\r\n          {\r\n            \"item\": \"boiled-egg\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Egg.webp\"\r\n          },\r\n          {\r\n            \"item\": \"mayonnaise\",\r\n            \"sortOrder\": 5,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.67,\r\n              \"y\": 0.67\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Mayonaise.webp\"\r\n          }\r\n        ],\r\n        \"baseLayers\": [\r\n          {\r\n            \"id\": \"lettuce\",\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Salad/Icon_Salad_Lettuce.webp\",\r\n            \"sortOrder\": 0,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -5\r\n            },\r\n            \"scale\": {\r\n              \"x\": 0.8,\r\n              \"y\": 0.8\r\n            },\r\n            \"rot\": 0\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fresh-juice-strawberry-juice\",\r\n        \"composite\": \"fresh-juice\",\r\n        \"base\": \"strawberry-juice\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.82,\r\n            \"y\": 0.82\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"ice-cubes\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": -5,\r\n              \"y\": -19\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.2,\r\n              \"y\": 0.2\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fresh-juice-kiwi-juice\",\r\n        \"composite\": \"fresh-juice\",\r\n        \"base\": \"kiwi-juice\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.82,\r\n            \"y\": 0.82\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"ice-cubes\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": -5,\r\n              \"y\": -19\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.2,\r\n              \"y\": 0.2\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fresh-juice-mango-juice\",\r\n        \"composite\": \"fresh-juice\",\r\n        \"base\": \"mango-juice\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.82,\r\n            \"y\": 0.82\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"ice-cubes\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": -5,\r\n              \"y\": -19\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.2,\r\n              \"y\": 0.2\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-fresh-juice-grape-juice\",\r\n        \"composite\": \"fresh-juice\",\r\n        \"base\": \"grape-juice\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": 0\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.82,\r\n            \"y\": 0.82\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"ice-cubes\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": -5,\r\n              \"y\": -19\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.2,\r\n              \"y\": 0.2\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-soup-tomato-soup\",\r\n        \"composite\": \"soup\",\r\n        \"base\": \"tomato-soup\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": -4\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.72,\r\n            \"y\": 0.72\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"toasted-sandwich-bread\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp\"\r\n          },\r\n          {\r\n            \"item\": \"parsley\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.26,\r\n              \"y\": 0.26\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp\"\r\n          },\r\n          {\r\n            \"item\": \"sweet-corn\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp\"\r\n          },\r\n          {\r\n            \"item\": \"whipped-cream\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-soup-pumpkin-soup\",\r\n        \"composite\": \"soup\",\r\n        \"base\": \"pumpkin-soup\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": -4\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.72,\r\n            \"y\": 0.72\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"toasted-sandwich-bread\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp\"\r\n          },\r\n          {\r\n            \"item\": \"parsley\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.26,\r\n              \"y\": 0.26\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp\"\r\n          },\r\n          {\r\n            \"item\": \"sweet-corn\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp\"\r\n          },\r\n          {\r\n            \"item\": \"whipped-cream\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp\"\r\n          }\r\n        ]\r\n      },\r\n      {\r\n        \"id\": \"stack-soup-mushroom-soup\",\r\n        \"composite\": \"soup\",\r\n        \"base\": \"mushroom-soup\",\r\n        \"mode\": \"stacked\",\r\n        \"baseTransform\": {\r\n          \"pos\": {\r\n            \"x\": 0,\r\n            \"y\": -4\r\n          },\r\n          \"scale\": {\r\n            \"x\": 0.72,\r\n            \"y\": 0.72\r\n          },\r\n          \"rot\": 0\r\n        },\r\n        \"toppings\": [\r\n          {\r\n            \"item\": \"toasted-sandwich-bread\",\r\n            \"sortOrder\": 1,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp\"\r\n          },\r\n          {\r\n            \"item\": \"parsley\",\r\n            \"sortOrder\": 2,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.26,\r\n              \"y\": 0.26\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp\"\r\n          },\r\n          {\r\n            \"item\": \"sweet-corn\",\r\n            \"sortOrder\": 3,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp\"\r\n          },\r\n          {\r\n            \"item\": \"whipped-cream\",\r\n            \"sortOrder\": 4,\r\n            \"pos\": {\r\n              \"x\": 0,\r\n              \"y\": -4\r\n            },\r\n            \"rot\": 0,\r\n            \"scale\": {\r\n              \"x\": 0.63,\r\n              \"y\": 0.63\r\n            },\r\n            \"localImage\": \"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  },\r\n  \"_compositeDemos\": [\r\n    {\r\n      \"name\": \"savory-minimum\",\r\n      \"orderable\": \"savory-sandwich\",\r\n      \"ingredients\": [\r\n        \"toasted-sandwich-bread\",\r\n        \"ham-slice\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"savory-typical\",\r\n      \"orderable\": \"savory-sandwich\",\r\n      \"ingredients\": [\r\n        \"toasted-sandwich-bread\",\r\n        \"ham-slice\",\r\n        \"cheese-slice\",\r\n        \"lettuce-shredded\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"savory-maximum\",\r\n      \"orderable\": \"savory-sandwich\",\r\n      \"ingredients\": [\r\n        \"toasted-sandwich-bread\",\r\n        \"ham-slice\",\r\n        \"fried-egg\",\r\n        \"crispy-bacon\",\r\n        \"fried-chicken\",\r\n        \"lettuce-shredded\",\r\n        \"tomato-slice\",\r\n        \"cucumber-slice\",\r\n        \"cheese-slice\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"fruit-minimum\",\r\n      \"orderable\": \"fruit-sandwich\",\r\n      \"ingredients\": [\r\n        \"bread-triangle\",\r\n        \"whipped-cream\",\r\n        \"strawberry-slice\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"fruit-maximum\",\r\n      \"orderable\": \"fruit-sandwich\",\r\n      \"ingredients\": [\r\n        \"bread-triangle\",\r\n        \"whipped-cream\",\r\n        \"strawberry-slice\",\r\n        \"kiwi-slice\",\r\n        \"mango-slice\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"salad-typical\",\r\n      \"orderable\": \"salad\",\r\n      \"ingredients\": [\r\n        \"lettuce-shredded\",\r\n        \"tomato-slice\",\r\n        \"cucumber-slice\",\r\n        \"mayonnaise\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"salad-maximum\",\r\n      \"orderable\": \"salad\",\r\n      \"ingredients\": [\r\n        \"lettuce-shredded\",\r\n        \"tomato-slice\",\r\n        \"cucumber-slice\",\r\n        \"sweet-corn\",\r\n        \"mayonnaise\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"mango-juice\",\r\n      \"orderable\": \"fresh-juice\",\r\n      \"ingredients\": [\r\n        \"mango-juice\",\r\n        \"ice-cubes\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"pumpkin-soup\",\r\n      \"orderable\": \"soup\",\r\n      \"ingredients\": [\r\n        \"pumpkin-soup\",\r\n        \"sweet-corn\",\r\n        \"whipped-cream\"\r\n      ]\r\n    }\r\n  ],\r\n  \"_note\": \"Official supplied art, compressed to lossless WebP. Recipe IDs, labels, topology, quantities and layout preserved. Generated food and demo references retired.\"\r\n}"
+  map:
+    id: sandwich
+    name: Sandwich
+    gridWidth: 5
+    gridHeight: 2
+    dirtyStackHeight: 3
+    visibleRows: 3
+    processSpeedMultiplier: 1
+    mergeSpeedMultiplier: 1
+  idTable:
+    ingredient:
+    - {fileID: 11400000, guid: 12a2f991921d5f0418b0941bbe31175d, type: 2}
+    - {fileID: 11400000, guid: 16207735d5aade349bcc7f02b7f9f9ec, type: 2}
+    - {fileID: 11400000, guid: 14a832267910b7b488fe0be23f21d47b, type: 2}
+    - {fileID: 11400000, guid: 0f0020c5115e9dd41a72718d80d2ef69, type: 2}
+    - {fileID: 11400000, guid: ca82f0ca8b1731d4aac1b29f539b46d8, type: 2}
+    - {fileID: 11400000, guid: 3fbe5fb374950e44b90cd5ace1dd571e, type: 2}
+    - {fileID: 11400000, guid: 91746e59d50c4284f911eeae884496ea, type: 2}
+    - {fileID: 11400000, guid: c285d8213e4ade943a65ec915e4b5bf2, type: 2}
+    - {fileID: 11400000, guid: ce450e5a3544b374a9c5a1843b18211a, type: 2}
+    - {fileID: 11400000, guid: d7ec04cff6cbf5e4196ece8b6527fad4, type: 2}
+    - {fileID: 11400000, guid: 443e55d9d3368f8468becf9c228408e6, type: 2}
+    - {fileID: 11400000, guid: 9fc2350cc82124c459c25398644b16b2, type: 2}
+    - {fileID: 11400000, guid: e693823759c6fcf448684cd99a11e2ae, type: 2}
+    - {fileID: 11400000, guid: 3b184810c70140542a987404ff961856, type: 2}
+    - {fileID: 11400000, guid: 8ec190f160067214b8a37a1e4535f19e, type: 2}
+    - {fileID: 11400000, guid: 7282fb4ca7365fa4cac50ea1c0a948e8, type: 2}
+    - {fileID: 11400000, guid: 4ad9cb24df2e67d4d990bca6fce4f70b, type: 2}
+    - {fileID: 11400000, guid: 738675d89858f9e48b7cf7fbf3f09956, type: 2}
+    - {fileID: 11400000, guid: 1ee219a858310994eb343ef0faa8b0a8, type: 2}
+    - {fileID: 11400000, guid: 266e610877641b44fb5f2f87d221c757, type: 2}
+    - {fileID: 11400000, guid: ebf13b57737755842ab4bc92be8f5768, type: 2}
+    - {fileID: 11400000, guid: f96cc82c5745f7a4cae4c44ea507d7d4, type: 2}
+    - {fileID: 11400000, guid: 4d49d8c881d2f32488851c07a5b70c24, type: 2}
+    - {fileID: 11400000, guid: 27d67a4483d72c347a06f42f4eb56625, type: 2}
+    - {fileID: 11400000, guid: 65e38f4e569447842adf1177e442daf9, type: 2}
+    - {fileID: 11400000, guid: b5cbfd0f9a170504795a03267b9fd76d, type: 2}
+    - {fileID: 11400000, guid: 54bac4c36c153144b834adf49a8d4306, type: 2}
+    - {fileID: 11400000, guid: 82ca413978196424c8c39bad1c3d1985, type: 2}
+    - {fileID: 11400000, guid: 9daa27a90bb40fc4d968afda8fa8ccb8, type: 2}
+    - {fileID: 11400000, guid: a2db17a430b71b544bd5c9270f2c6a1d, type: 2}
+    - {fileID: 11400000, guid: e8b9c2c36e94a3443ae1eb12c51b2a4d, type: 2}
+    - {fileID: 11400000, guid: 310d69aad94bdf24da31e852f1988ce3, type: 2}
+    - {fileID: 11400000, guid: 6ec4340167c77a048b4bf7cb58cad478, type: 2}
+    - {fileID: 11400000, guid: 142a937c51c023a43a982fbb3e2cdda9, type: 2}
+    - {fileID: 11400000, guid: cf6e60aa81e161a419bc2eb955e322bf, type: 2}
+    - {fileID: 11400000, guid: 41a65d02614a3024da954d13001f1cfc, type: 2}
+    - {fileID: 11400000, guid: 423dc8523f725354ea5aaf0563b4271d, type: 2}
+    - {fileID: 11400000, guid: 7cf50b417c820c34caf21b5a837ab64a, type: 2}
+    - {fileID: 11400000, guid: fcaf067cf698c834a931e2b89226ce73, type: 2}
+    - {fileID: 11400000, guid: cab34205e63ae154388a38c5dba47f3e, type: 2}
+    - {fileID: 11400000, guid: 9dc601bc19c273340b7c251be91f6c3f, type: 2}
+    - {fileID: 11400000, guid: 301060b53f78b2643a30273e108df3c0, type: 2}
+    - {fileID: 11400000, guid: 2adbd5dc4986a9f4daf15883f1f15641, type: 2}
+    composite:
+    - {fileID: 11400000, guid: 2fb67c497490cfc44b2241ee75208742, type: 2}
+    - {fileID: 11400000, guid: dbe16e46949a18948992bda06b9af495, type: 2}
+    - {fileID: 11400000, guid: dd53fb35704a3e34d8f722a9652dd200, type: 2}
+    - {fileID: 11400000, guid: 14e2fda076e5fa7488fc4a58f900fab4, type: 2}
+    - {fileID: 11400000, guid: e6dbfd05468ba584e97e20f0f98b8a95, type: 2}
+    - {fileID: 11400000, guid: ec2e198758b0eb54f82c01bc46307a89, type: 2}
+    group:
+    - {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    - {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+    - {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    - {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+    - {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+    - {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+    tool:
+    - {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    - {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+    - {fileID: 11400000, guid: 22947ed127a22d44fb9bfc1d7b3b2537, type: 2}
+    - {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+    - {fileID: 11400000, guid: 8d1e33176535b3346a69b0251c0f5a2a, type: 2}
+    dirty: []
+  ingredients:
+  - {fileID: 11400000, guid: 12a2f991921d5f0418b0941bbe31175d, type: 2}
+  - {fileID: 11400000, guid: ca82f0ca8b1731d4aac1b29f539b46d8, type: 2}
+  - {fileID: 11400000, guid: ce450e5a3544b374a9c5a1843b18211a, type: 2}
+  - {fileID: 11400000, guid: 3fbe5fb374950e44b90cd5ace1dd571e, type: 2}
+  - {fileID: 11400000, guid: 9fc2350cc82124c459c25398644b16b2, type: 2}
+  - {fileID: 11400000, guid: 443e55d9d3368f8468becf9c228408e6, type: 2}
+  - {fileID: 11400000, guid: d7ec04cff6cbf5e4196ece8b6527fad4, type: 2}
+  - {fileID: 11400000, guid: c285d8213e4ade943a65ec915e4b5bf2, type: 2}
+  - {fileID: 11400000, guid: 8ec190f160067214b8a37a1e4535f19e, type: 2}
+  - {fileID: 11400000, guid: 16207735d5aade349bcc7f02b7f9f9ec, type: 2}
+  - {fileID: 11400000, guid: 1ee219a858310994eb343ef0faa8b0a8, type: 2}
+  - {fileID: 11400000, guid: 738675d89858f9e48b7cf7fbf3f09956, type: 2}
+  - {fileID: 11400000, guid: 4ad9cb24df2e67d4d990bca6fce4f70b, type: 2}
+  - {fileID: 11400000, guid: 7282fb4ca7365fa4cac50ea1c0a948e8, type: 2}
+  - {fileID: 11400000, guid: 266e610877641b44fb5f2f87d221c757, type: 2}
+  - {fileID: 11400000, guid: 3b184810c70140542a987404ff961856, type: 2}
+  - {fileID: 11400000, guid: 91746e59d50c4284f911eeae884496ea, type: 2}
+  - {fileID: 11400000, guid: 0f0020c5115e9dd41a72718d80d2ef69, type: 2}
+  - {fileID: 11400000, guid: e693823759c6fcf448684cd99a11e2ae, type: 2}
+  - {fileID: 11400000, guid: 14a832267910b7b488fe0be23f21d47b, type: 2}
+  - {fileID: 11400000, guid: ebf13b57737755842ab4bc92be8f5768, type: 2}
+  - {fileID: 11400000, guid: f96cc82c5745f7a4cae4c44ea507d7d4, type: 2}
+  - {fileID: 11400000, guid: a2db17a430b71b544bd5c9270f2c6a1d, type: 2}
+  - {fileID: 11400000, guid: 82ca413978196424c8c39bad1c3d1985, type: 2}
+  - {fileID: 11400000, guid: 142a937c51c023a43a982fbb3e2cdda9, type: 2}
+  - {fileID: 11400000, guid: 54bac4c36c153144b834adf49a8d4306, type: 2}
+  - {fileID: 11400000, guid: b5cbfd0f9a170504795a03267b9fd76d, type: 2}
+  - {fileID: 11400000, guid: 310d69aad94bdf24da31e852f1988ce3, type: 2}
+  - {fileID: 11400000, guid: 7cf50b417c820c34caf21b5a837ab64a, type: 2}
+  - {fileID: 11400000, guid: 423dc8523f725354ea5aaf0563b4271d, type: 2}
+  - {fileID: 11400000, guid: 41a65d02614a3024da954d13001f1cfc, type: 2}
+  - {fileID: 11400000, guid: 301060b53f78b2643a30273e108df3c0, type: 2}
+  - {fileID: 11400000, guid: 9dc601bc19c273340b7c251be91f6c3f, type: 2}
+  - {fileID: 11400000, guid: cab34205e63ae154388a38c5dba47f3e, type: 2}
+  - {fileID: 11400000, guid: fcaf067cf698c834a931e2b89226ce73, type: 2}
+  - {fileID: 11400000, guid: e8b9c2c36e94a3443ae1eb12c51b2a4d, type: 2}
+  - {fileID: 11400000, guid: 9daa27a90bb40fc4d968afda8fa8ccb8, type: 2}
+  - {fileID: 11400000, guid: 27d67a4483d72c347a06f42f4eb56625, type: 2}
+  - {fileID: 11400000, guid: 4d49d8c881d2f32488851c07a5b70c24, type: 2}
+  - {fileID: 11400000, guid: 65e38f4e569447842adf1177e442daf9, type: 2}
+  - {fileID: 11400000, guid: cf6e60aa81e161a419bc2eb955e322bf, type: 2}
+  - {fileID: 11400000, guid: 6ec4340167c77a048b4bf7cb58cad478, type: 2}
+  - {fileID: 11400000, guid: 2adbd5dc4986a9f4daf15883f1f15641, type: 2}
+  tools:
+  - {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+  - {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+  - {fileID: 11400000, guid: 22947ed127a22d44fb9bfc1d7b3b2537, type: 2}
+  - {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+  - {fileID: 11400000, guid: 8d1e33176535b3346a69b0251c0f5a2a, type: 2}
+  groups:
+  - {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+  - {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+  - {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+  - {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+  - {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+  - {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+  composites:
+  - {fileID: 11400000, guid: 2fb67c497490cfc44b2241ee75208742, type: 2}
+  - {fileID: 11400000, guid: ec2e198758b0eb54f82c01bc46307a89, type: 2}
+  - {fileID: 11400000, guid: dbe16e46949a18948992bda06b9af495, type: 2}
+  - {fileID: 11400000, guid: dd53fb35704a3e34d8f722a9652dd200, type: 2}
+  - {fileID: 11400000, guid: e6dbfd05468ba584e97e20f0f98b8a95, type: 2}
+  - {fileID: 11400000, guid: 14e2fda076e5fa7488fc4a58f900fab4, type: 2}
+  dirtyObjects: []
+  mergeDurationOverrides: []
+  exclusiveRules: []
+  executionProfile: {fileID: 0}
+  runtimeOverrides: {fileID: 0}
+  processEdges:
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: b5cbfd0f9a170504795a03267b9fd76d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: d7ec04cff6cbf5e4196ece8b6527fad4, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 54bac4c36c153144b834adf49a8d4306, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 443e55d9d3368f8468becf9c228408e6, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 82ca413978196424c8c39bad1c3d1985, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9fc2350cc82124c459c25398644b16b2, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 142a937c51c023a43a982fbb3e2cdda9, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9fc2350cc82124c459c25398644b16b2, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: cf6e60aa81e161a419bc2eb955e322bf, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: e693823759c6fcf448684cd99a11e2ae, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 310d69aad94bdf24da31e852f1988ce3, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 3b184810c70140542a987404ff961856, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 41a65d02614a3024da954d13001f1cfc, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 4ad9cb24df2e67d4d990bca6fce4f70b, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 423dc8523f725354ea5aaf0563b4271d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 738675d89858f9e48b7cf7fbf3f09956, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 7cf50b417c820c34caf21b5a837ab64a, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 1ee219a858310994eb343ef0faa8b0a8, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 898552bbfef7566408410a824e6dff61, type: 2}
+    to: {fileID: 11400000, guid: 2adbd5dc4986a9f4daf15883f1f15641, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 12a2f991921d5f0418b0941bbe31175d, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+    to: {fileID: 11400000, guid: a2db17a430b71b544bd5c9270f2c6a1d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: ce450e5a3544b374a9c5a1843b18211a, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+    to: {fileID: 11400000, guid: e8b9c2c36e94a3443ae1eb12c51b2a4d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 142a937c51c023a43a982fbb3e2cdda9, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ebf13b57737755842ab4bc92be8f5768, type: 2}
+      slot: 1
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 1
+      value: 5
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+    to: {fileID: 11400000, guid: 6ec4340167c77a048b4bf7cb58cad478, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: cf6e60aa81e161a419bc2eb955e322bf, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ebf13b57737755842ab4bc92be8f5768, type: 2}
+      slot: 1
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 1
+      value: 5
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09c87a2ddb7e81b4a9d875efee093803, type: 2}
+    to: {fileID: 11400000, guid: 9daa27a90bb40fc4d968afda8fa8ccb8, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 310d69aad94bdf24da31e852f1988ce3, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ebf13b57737755842ab4bc92be8f5768, type: 2}
+      slot: 1
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 1
+      value: 5
+    chainTools: []
+  - from: {fileID: 11400000, guid: 22947ed127a22d44fb9bfc1d7b3b2537, type: 2}
+    to: {fileID: 11400000, guid: f96cc82c5745f7a4cae4c44ea507d7d4, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 12a2f991921d5f0418b0941bbe31175d, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+    to: {fileID: 11400000, guid: fcaf067cf698c834a931e2b89226ce73, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 7282fb4ca7365fa4cac50ea1c0a948e8, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+    to: {fileID: 11400000, guid: cab34205e63ae154388a38c5dba47f3e, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 4ad9cb24df2e67d4d990bca6fce4f70b, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+    to: {fileID: 11400000, guid: 9dc601bc19c273340b7c251be91f6c3f, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 738675d89858f9e48b7cf7fbf3f09956, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 09d7b01ac805ab2458578c516154bf4d, type: 2}
+    to: {fileID: 11400000, guid: 301060b53f78b2643a30273e108df3c0, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 1ee219a858310994eb343ef0faa8b0a8, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 8d1e33176535b3346a69b0251c0f5a2a, type: 2}
+    to: {fileID: 11400000, guid: 4d49d8c881d2f32488851c07a5b70c24, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0f0020c5115e9dd41a72718d80d2ef69, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 8d1e33176535b3346a69b0251c0f5a2a, type: 2}
+    to: {fileID: 11400000, guid: 27d67a4483d72c347a06f42f4eb56625, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 91746e59d50c4284f911eeae884496ea, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 8d1e33176535b3346a69b0251c0f5a2a, type: 2}
+    to: {fileID: 11400000, guid: 65e38f4e569447842adf1177e442daf9, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: ce450e5a3544b374a9c5a1843b18211a, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode: pieces
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  compositeProcesses: []
+  gridAssemblies: []
+  preservationEdges: []
+  baseEdges:
+  - from: {fileID: 11400000, guid: 2fb67c497490cfc44b2241ee75208742, type: 2}
+    to: {fileID: 11400000, guid: f96cc82c5745f7a4cae4c44ea507d7d4, type: 2}
+  - from: {fileID: 11400000, guid: ec2e198758b0eb54f82c01bc46307a89, type: 2}
+    to: {fileID: 11400000, guid: 2adbd5dc4986a9f4daf15883f1f15641, type: 2}
+  - from: {fileID: 11400000, guid: dbe16e46949a18948992bda06b9af495, type: 2}
+    to: {fileID: 11400000, guid: ec2e198758b0eb54f82c01bc46307a89, type: 2}
+  - from: {fileID: 11400000, guid: dd53fb35704a3e34d8f722a9652dd200, type: 2}
+    to: {fileID: 11400000, guid: 54bac4c36c153144b834adf49a8d4306, type: 2}
+  - from: {fileID: 11400000, guid: e6dbfd05468ba584e97e20f0f98b8a95, type: 2}
+    to: {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+  - from: {fileID: 11400000, guid: 14e2fda076e5fa7488fc4a58f900fab4, type: 2}
+    to: {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+  toppingEdges:
+  - from: {fileID: 11400000, guid: 2fb67c497490cfc44b2241ee75208742, type: 2}
+    to: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+  - from: {fileID: 11400000, guid: ec2e198758b0eb54f82c01bc46307a89, type: 2}
+    to: {fileID: 11400000, guid: 16207735d5aade349bcc7f02b7f9f9ec, type: 2}
+  - from: {fileID: 11400000, guid: dbe16e46949a18948992bda06b9af495, type: 2}
+    to: {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+  - from: {fileID: 11400000, guid: dd53fb35704a3e34d8f722a9652dd200, type: 2}
+    to: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+  - from: {fileID: 11400000, guid: e6dbfd05468ba584e97e20f0f98b8a95, type: 2}
+    to: {fileID: 11400000, guid: 266e610877641b44fb5f2f87d221c757, type: 2}
+  - from: {fileID: 11400000, guid: 14e2fda076e5fa7488fc4a58f900fab4, type: 2}
+    to: {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+  optionEdges:
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: ca82f0ca8b1731d4aac1b29f539b46d8, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 65e38f4e569447842adf1177e442daf9, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 27d67a4483d72c347a06f42f4eb56625, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 4d49d8c881d2f32488851c07a5b70c24, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 54bac4c36c153144b834adf49a8d4306, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 82ca413978196424c8c39bad1c3d1985, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: b5cbfd0f9a170504795a03267b9fd76d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 955102797a2892b4b8a10230bac8e8db, type: 2}
+    to: {fileID: 11400000, guid: 3fbe5fb374950e44b90cd5ace1dd571e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+    to: {fileID: 11400000, guid: 7cf50b417c820c34caf21b5a837ab64a, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+    to: {fileID: 11400000, guid: 423dc8523f725354ea5aaf0563b4271d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+    to: {fileID: 11400000, guid: 41a65d02614a3024da954d13001f1cfc, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: c385ec2c6f5553148bbf2adf8dfaaffe, type: 2}
+    to: {fileID: 11400000, guid: 7282fb4ca7365fa4cac50ea1c0a948e8, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    to: {fileID: 11400000, guid: 82ca413978196424c8c39bad1c3d1985, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    to: {fileID: 11400000, guid: b5cbfd0f9a170504795a03267b9fd76d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    to: {fileID: 11400000, guid: c285d8213e4ade943a65ec915e4b5bf2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    to: {fileID: 11400000, guid: a2db17a430b71b544bd5c9270f2c6a1d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 4bc298fc65985da40b31ef6eae9c2193, type: 2}
+    to: {fileID: 11400000, guid: 8ec190f160067214b8a37a1e4535f19e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+    to: {fileID: 11400000, guid: 301060b53f78b2643a30273e108df3c0, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+    to: {fileID: 11400000, guid: 9dc601bc19c273340b7c251be91f6c3f, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+    to: {fileID: 11400000, guid: cab34205e63ae154388a38c5dba47f3e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: bcd430bc6ea375b4bb32bb911bbc8647, type: 2}
+    to: {fileID: 11400000, guid: fcaf067cf698c834a931e2b89226ce73, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+    to: {fileID: 11400000, guid: e8b9c2c36e94a3443ae1eb12c51b2a4d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+    to: {fileID: 11400000, guid: 9daa27a90bb40fc4d968afda8fa8ccb8, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: e652d03a152f33645ab72947e242049b, type: 2}
+    to: {fileID: 11400000, guid: 6ec4340167c77a048b4bf7cb58cad478, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+    to: {fileID: 11400000, guid: f96cc82c5745f7a4cae4c44ea507d7d4, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+    to: {fileID: 11400000, guid: 14a832267910b7b488fe0be23f21d47b, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+    to: {fileID: 11400000, guid: c285d8213e4ade943a65ec915e4b5bf2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dbd50ef0dccfc584d8e3b0e0de2532f6, type: 2}
+    to: {fileID: 11400000, guid: 16207735d5aade349bcc7f02b7f9f9ec, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  leavesDirtyEdges: []

@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Home_th-TH
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th-TH
+  m_SharedData: {fileID: 11400000, guid: 23ea6a39f7ed62a4c948d908b0ac5ef5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57799240310784
+    m_Localized: เปิด​ให้​ใช้​ภาย​หลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059520
+    m_Localized: ล่าง​สุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059521
+    m_Localized: สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059522
+    m_Localized: ความ​คืบ​หน้า​การ​สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059523
+    m_Localized: "อัป​เกรด\r\nอาคาร"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059524
+    m_Localized: รับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059525
+    m_Localized: รับ​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059526
+    m_Localized: สะสม​ชื่อ​เสียง​เพิ่ม​เพื่อ​ปลด​ล็อก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059527
+    m_Localized: เร็ว ๆ นี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059528
+    m_Localized: ผ่าน​ทุก​วัน​ใน​แผนที่​ก่อน​หน้า​เพื่อ​ปลด​ล็อก​อุปกรณ์​ครัว​เพิ่ม​เติม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059529
+    m_Localized: สำเร็จ​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059530
+    m_Localized: ของ​ขวัญ​ประจำ​วัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059531
+    m_Localized: รางวัล​ประจำ​วัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059532
+    m_Localized: แก้ไข​โปรไฟล์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059533
+    m_Localized: ฟรี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059534
+    m_Localized: ฟรี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059535
+    m_Localized: เต็ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059536
+    m_Localized: จ้าง​ผู้​ช่วย​คน​นี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059537
+    m_Localized: กด​ค้าง​เพื่อ​สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059538
+    m_Localized: อุปกรณ์​ครัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059539
+    m_Localized: ภาษา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059540
+    m_Localized: ต้อง​มี​พลัง​ชีวิต​จึง​จะ​เล่น​ได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059541
+    m_Localized: ล็อก​อยู่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059542
+    m_Localized: แผนที่​ถูก​ล็อก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059543
+    m_Localized: สูงสุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059544
+    m_Localized: พลัง​ชีวิต​เพิ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059545
+    m_Localized: เพลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059546
+    m_Localized: 'ชื่อ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059547
+    m_Localized: สูตร​ใหม่!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059548
+    m_Localized: ข้อมูล​สัตว์​เลี้ยง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059549
+    m_Localized: เพิ่ม​กำไร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059550
+    m_Localized: คู่มือ​สูตร​อาหาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059551
+    m_Localized: 'ใช้ได้​อีก:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059552
+    m_Localized: "อัป​เกรด\r\nร้าน​อาหาร"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059553
+    m_Localized: กู้​คืน​การ​ซื้อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059554
+    m_Localized: บันทึก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059555
+    m_Localized: เลือก​ผู้​ช่วย​เพื่อ​ดู​ราย​ละเอียด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059556
+    m_Localized: การ​ตั้ง​ค่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059557
+    m_Localized: เสียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059558
+    m_Localized: พนักงาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059559
+    m_Localized: แตะ​เพื่อ​ไป​ต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059560
+    m_Localized: "เร็ว​เกิน​ไป\r\nแรง​เกิน​ไป"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059561
+    m_Localized: "อัป​เกรด\r\nอุปกรณ์"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059562
+    m_Localized: บน​สุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059563
+    m_Localized: ปลด​ล็อก​แผนที่​เพื่อ​ดู​ผู้​ช่วย​ใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059564
+    m_Localized: อัป​เกรด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059565
+    m_Localized: อัป​เกรด​อาคาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57799278059566
+    m_Localized: การ​สั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945780502487040
+    m_Localized: '@ชื่อ​ผู้​ใช้'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034646609649664
+    m_Localized: ดู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313051225808896
+    m_Localized: เยี่ยม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8016685305946112
+    m_Localized: บันทึก​ความ​คืบ​หน้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8095980774744064
+    m_Localized: บันทึก​ความ​คืบ​หน้า
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

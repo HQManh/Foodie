@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1309985666, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Ingredient_cup_coca_ice
+  m_EditorClassIdentifier:
+  _id: cup_coca_ice
+  _tempNameAlias: 'Ice Coca '
+  _tempDescription: Cola on ice, served with the cold shoulder.
+  _locTable: Map_burger
+  _icon: {fileID: 21300000, guid: 5267014010fae794a8cc3b8f15dc9175, type: 2}

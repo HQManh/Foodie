@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1841959934, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: UpgradePart-iceCream-skateboard
+  m_EditorClassIdentifier:
+  _id: skateboard
+  _tempNameAlias: Surfside Display
+  _tempDescription: A surfboard, fruit crates, and a seaside sign.
+  _locTable: Map_icecream
+  spriteThumb: {fileID: 21300000, guid: 395ffc52b1333c4478f3fe358bcd342b, type: 2}
+  assetThumb:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:
+  upgradeType: 0
+  toolId:

@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_da
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Farverige balloner gør hver sushiservering festlig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Den oprindelige sushirestaurant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: En større restaurant klar til flere sushi-opgraderinger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: En pænt beskåret bonsai, der tilfører et roligt grønt strejf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Et venligt kapivar-skilt til facaden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: En imødekommende kat, der vinker kunderne indenfor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: En fyldt disk, der viser restaurantens bedste retter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Et skærebræt på taget fyldt med sushi og ruller.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Farverige flag og markiser pynter restaurantens facade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: En yndefuld kitsune-gæst, der bestiller sushi med teatralsk elegance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Denne blå ged elsker matcha og øver sig i muntre bordmanerer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Studerer menuen flittigt, men bytter stadig frokosten væk for eukalyptus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: En modig lille shishi, der udfordrer hver sushirulle til duel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Et traditionelt tag, der giver restauranten en etage mere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: En shiba-yokozuna, der behandler hvert sushifad som en mesterskabskamp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Behagelige skamler til sushigæster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: Ulve-oyabunen taler blødt og styrer sushidisken med et enkelt blik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Festivalballoner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Sushi-udvidelse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Bonsaihave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Kapivar-skilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Lykkekat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Udstillingsdisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Sushi-skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Sushiflag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Tag på 1. sal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Sushiskamler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Nigiri-sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Håndformet ris med et stykke fisk som et lille tæppe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Maki-rulle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Rullet stramt i tang og skåret før nogen når at kigge ind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Gunkan-sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: En lille tangbåd fyldt med topping helt til kanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Sashimi-tallerken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Frisk fisk skåret tyndt uden noget at gemme sig bag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Grøn te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Varm og rolig og skænket for at skylle wasabien væk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: En imødekommende kat, der vinker kunderne indenfor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Behagelige skamler til sushigæster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Lysende papirlygter, der oplyser restauranten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Et venligt kapivar-skilt til facaden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Et venligt kapivar-skilt til facaden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: En kæmpe tunfisk på taget, der stolt viser dagens friske fangst frem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Et skærebræt på taget fyldt med sushi og ruller.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Lykkekat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Sushiskamler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Papirlygter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Kapivar-skilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Kapivar-skilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Kæmpetun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Sushi-skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Grøntsagerne er hakket, før de når at blinke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Knivene er så hurtige, at agurkerne overgiver sig på forhånd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Skærer rå fisk med ekstra sashimi-glathed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Hvert snit er et kunstværk. Fiskene føler sig beærede.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Luftigt ris på et øjeblik. Kornene står i kø for at blive kogt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Ris så perfekt, at det fortjener stående applaus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: River wasabi med lynets hast. Tårer er valgfrie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: River så hurtigt, at wasabien aldrig så det komme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Koger godhed hurtigere, end du kan sige umami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: En boblende legende, der koger i lysets hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Varm te på et øjeblik. Kunderne bevarer roen og nipper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Hælder perfekt te og indre fred i ét hug.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Hurtigt skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Ninja-skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Skarpere fiskebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Sashimi-mesterbræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Turbo-riskoger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Mega-riskoger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Hurtigt rivejern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Wasabi-hvirvelvind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Hurtig kogegryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Umami-kedel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Hurtigbryg-tekande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Zen-mester-tekande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Et klart blåt sushi-banner, der fanger alle sultne øjne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Et sejt blåt noren-gardin vajer blidt over indgangen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Et flot rødt noren-gardin byder sultne gæster velkommen ved døren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: En mosbevokset stenlanterne, der bringer et strejf af tempelro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Sushi-banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Blåt noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Rødt noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Stenhelligdom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Skærer frisk fisk i silkebløde sashimi-strimler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Forvandler sprøde grøntsager til pæne små stave.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: River wasabi til en stærk grøn overraskelse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Simrer bouillon til en varm skål fuld af hygge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Damper ris til luftigt, klæbrigt sushiguld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Brygger grøn te med ro i hver tår.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Rivejern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Gryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Riskoger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Tekande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: En cremet avocado, Vestens yndlingsgave til sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Bløde grønne tern klar til en rulle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Silkebløde skiver, der ligger over risen som en kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: En tom kop, der venter på en rolig skænk te.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Pisket grøn te, rolig som en have i Kyoto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Små gyldne tern af sød omelet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: En sød rullet omelet, lagt i lag med tålmodighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Gyldne skiver af rullet æg, søde og bløde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: En flad hvid fisk, som sushimestre sætter højt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Møre terninger af hellefisk til en let bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Fine hvide skiver, næsten gennemsigtige.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: En skinnende sølvfisk fuld af havets smag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Mundrette stykker makrel klar til en rulle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Blanke skiver med en kraftig, fyldig smag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: En lysende orange filet direkte fra kolde vande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Laksetern klar til at pynte en lille båd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Smørbløde lakseskiver, der smelter på tungen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Dybrød tun, kongen af fiskemarkedet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Tunterninger til en kraftig, kødfuld bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Rubinrøde skiver skåret med en mesters kniv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: En tangbåd fyldt med lige det, gæsten ønsker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: En rulle lavet præcis, som gæsten kan lide den.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Håndpresset ris toppet med gæstens favorit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: En tallerken friske skiver valgt efter bestilling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: En frisk citron, der vækker hver bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Tynde citronskiver, der løfter fisken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Cremet japansk mayo med en mild syrlighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: En rå blæksprutte, masser af arme og ingen planer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Kogt lyserød og mør, klar til kniven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Små blækspruttebidder, som takoyaki uden kuglen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Tynde tako-skiver med en sej charme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Kortkornet ris, poleret og klar til sit bad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Luftig ris med eddike, sjælen i al sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Små orange perler, der popper ved hver bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Sprød flyvefiskerogn, der funkler som juveler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Store skinnende lakserogn, der springer med havets smag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Sprøde ark af tang, ristede og klar til at rulle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Et duftende blad, der giver et frisk, mynteagtigt kick.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: En rå reje krøllet sammen som et lille spørgsmålstegn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Kogt lyserød og stolt, klar til risen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Mundrette rejer klar til en rulle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Åbnet fladt som en vifte til den perfekte nigiri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Grønne teblade plukket på tågede bjergskråninger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: En knortet rod med et berømt skarpt temperament.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: En grøn klat varme, der renser næsen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Frisk vand, klar til at blive til te.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Avocado i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Skivet avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Kop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Fiskebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Grøntsagsbræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Tamagoyaki i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Skivet tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Hellefisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Hellefisk i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Skivet hellefisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Makrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Makrel i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Skivet makrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Laks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Laks i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Skivet laks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Tun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Tun i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Skivet tun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Gunkan-sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Maki-rulle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Nigiri-sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Sashimi-tallerken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Citron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Citronskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Mayonnaise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Kogt blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Blæksprutte i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Skivet blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Ris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Sushiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Lodderogn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Shisoblad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Reje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Kogt reje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Reje i tern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Opflækket reje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Teblade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Revet wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Vand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Agurkerne er skåret, før de opdager det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Samurai-skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Ét enkelt sving, grøntsager nok til en perfekt rulle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Legendarisk katanabræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Silkebløde skiver på et øjeblik. Fiskene godkender.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Stort sashimibræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Så præcise snit, at selv kokken gisper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Legendarisk sashimialter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Luftig ris, klar før skålen er sat frem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Turbo-riskoger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Hvert korn er perfekt. Hver gang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Legendarisk risalter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Stærke grønne skyer, klar på et sekund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Wasabi-tyfon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Så hurtig, at næsen kribler helt fra den anden side af rummet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Legendarisk wasabistorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Bouillonen bobler op, fuld af smag, på ingen tid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Umami-vulkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: Byens lækreste suppe, serveret lynhurtigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Legendarisk umamigryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Brygger ro og grøn te hurtigere end nogensinde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Oplyst tekande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Perfekt te, før du overhovedet har trukket vejret dybt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Legendarisk zen-tekande
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

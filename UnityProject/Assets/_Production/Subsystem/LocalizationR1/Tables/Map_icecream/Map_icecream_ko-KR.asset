@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_ko-KR
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko-KR
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: 아이스크림 콘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: 바삭한 와플 콘 위에 시원한 아이스크림 한 스쿱.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: 컵 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: 컵에 한 스쿱, 손가락에 흘러내릴 걱정 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: 신선한 과일을 얼음과 함께 노래할 때까지 갈았어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: 아이스크림과 우유를 흔들어 만든 진한 한 모금.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: 빙수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: 알록달록한 시럽을 듬뿍 머금은 폭신한 빙수.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: 마담 플라밍고
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: 네온 깃털 가운에 커다란 챙 넓은 모자, 큐빅 박힌 캣아이 선글라스를 쓰고 느긋하게 쉬는 화려한 디바 펫.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: 수달 올리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: 아이스크림 무늬의 헐렁한 트로피컬 셔츠에 히비스커스 꽃을 꽂은 작은 밀짚모자를 쓴 장난꾸러기 펫.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: 앵무새 써니
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: 파스텔 수영복에 한 입 베어 문 도넛 튜브와 깅엄 체크 반다나로 멋을 낸 귀여운 펫.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: 펭귄 피파
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: 화사한 러플 상의에 커다란 노란 선글라스, 종이 칵테일 우산을 꽂은 미니 라탄 백팩을 멘 트렌디한 펫.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: 셸던 경
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: 고급스러운 실크 가운에 금실 자수 선장 모자, 큼직한 보석을 두른 부자 VIP 펫.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: 날쌘 과일 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: 과일 조각이 순식간에 수북이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: 닌자 과일 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: 이 도마가 나오면 키위가 벌벌 떨어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: 바삭 콘 메이커
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: 따뜻하고 바삭한 콘이 조금 더 빨리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: 골든 콘 프레스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: 황금빛 콘이 척척, 언제나 바삭하게.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: 스피드 블렌더
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: 몇 바퀴만 돌리면 과일이 부드러워져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: 스무디 회오리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: 과일 회오리! 뚜껑 꼭 닫으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: 서리 빙수기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: 얼음이 더 빨리 폭신한 눈송이로.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: 눈꽃 빙수기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: 몇 초 만에 폭신한 눈꽃이 소복이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: 스피드 셰이크 믹서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: 셰이크가 더 빨리 진하고 부드러워져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: 슈퍼 셰이크 믹서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: 슈퍼 소용돌이로 만드는 크리미한 셰이크.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: 아이스크림 가판대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: 햇살 아래 시원한 간식을 파는 작은 가판대예요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: 열대 아이스크림 가게
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: 알록달록한 얼음 간식을 위한 공간이 넓어져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: 카피바라 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: 명랑한 카피바라가 아이스크림을 좋아하는 손님을 맞아요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: 아이스크림 메뉴판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: 시원한 간식이 가득한 메뉴판이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: 줄무늬 차양
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: 밝은 간판이 달린 시원한 차양이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: 디저트 카운터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: 과일과 디저트 기계, 컵이 준비되어 있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: 가게 창문과 문
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: 밝은 창문 사이로 손님을 반기는 문이 있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: 서핑 장식
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: 서핑 보드, 과일 상자, 해변 표지판이 어우러져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: 콘과 튜브 장식
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: 거대한 콘과 튜브로 해변의 즐거움을 더해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: 아이스크림 냉동고
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: 화려한 냉동고가 아이스크림을 시원하게 지켜요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: 지붕 위 무지개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: 아이스크림 가게 위에 밝은 무지개가 떠요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: 거대 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: 지붕 위 거대한 아이스크림으로 멋지게 마무리해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: 거대 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: 높이 솟은 밀크셰이크가 지붕을 장식해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: 과일이 들어가면 시원한 스무디 폭풍이 나와요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: 스무디 사이클론
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: 너무 빨라서 가게에 눈이 내려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: 전설의 눈보라 블렌더
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: 바삭한 콘이 연달아 톡톡 튀어나와요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: 터보 콘 메이커
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: 기록적인 속도로 황금빛 와플 콘!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: 전설의 와플 대장간
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: 딸기가 눈 깜빡이기도 전에 썰려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: 사무라이 과일 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: 한 번 휘두르면 토핑 한 그릇 완성!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: 전설의 과일 칼날
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: 순식간에 폭신한 눈! 숟가락 챙기세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: 눈보라 빙수기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: 숨 한 번에 빙수 산 완성!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: 전설의 빙하 빙수기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: 한 바퀴에 진하고 크리미한 셰이크!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: 밀크셰이크 토네이도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: 빨대가 춤출 만큼 빠르게 흔들어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: 전설의 셰이크 엔진
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: 부드러운 스무디를 위한 크리미한 초록 과일.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: 블렌더에 넣을 준비가 된 부드러운 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: 신선한 아보카도로 만든 부드러운 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: 자연의 단맛이 가득한 바나나.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: 갈기 좋게 썬 달콤한 바나나.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: 잘 익은 바나나로 만든 진하고 달콤한 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: 과일을 부드러운 스무디로 갈아요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: 맛이 꽉 찬 작은 베리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: 신선한 블루베리로 만든 보랏빛 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: 맨 위를 장식할 반짝이는 체리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: 빙수에 뿌리는 달콤한 빨간 시럽.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: 코코아 덕후를 위한 진한 초콜릿.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: 셰이크로 변신할 초콜릿 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: 위에 뿌리는 윤기 나는 초콜릿 소스.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: 털 많은 껍질 속 달콤한 열대 과육.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: 열대의 맛이 나는 새하얀 코코넛.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: 해변의 맛이 나는 크리미한 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: 바삭한 콘이 될 달콤한 반죽.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: 반죽을 구워 바삭한 콘을 만들어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: 토핑과 스무디용 과일을 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: 손님 취향대로 토핑한 콘.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: 주문대로 담은 컵 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: 손님이 좋아하는 맛의 진한 셰이크.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: 손님이 고른 시럽을 뿌린 폭신한 빙수.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: 주문 즉시 만드는 과일 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: 상큼한 포도 맛 보랏빛 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: 셰이크로 변신할 포도 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: 빙수에 뿌리는 달콤한 보라색 시럽.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: 더 부드럽게 만들어 주는 진한 요거트.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: 새콤한 사과 맛 초록 시럽.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: 모든 걸 시원하게 지켜 주는 얼음.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: 얼음을 폭신한 눈으로 바꿔요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: 속이 선명한 초록색인 보송한 과일.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: 씨가 콕콕 박힌 초록 키위 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: 새콤함이 톡 쏘는 노란 시럽.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: 열대 망고가 가득한 황금빛 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: 셰이크로 변신할 망고 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: 은은하게 달콤한 녹차 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: 셰이크로 변신할 말차 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: 크리미한 음료를 위한 시원한 우유.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: 아이스크림과 우유를 진하게 섞어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: 햇살을 가득 머금은 즙 많은 오렌지.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: 갈기 좋게 자른 오렌지 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: 신선한 오렌지로 만든 상큼한 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: 아이스크림 위에 올리는 바삭한 쿠키.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: 초콜릿을 입힌 바삭한 과자 스틱.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: 무지개색으로 탱글탱글한 젤리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: 시럽을 기다리는 눈처럼 폭신한 얼음.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: 위에 뿌리면 파티가 되는 스프링클.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: 잎사귀 모자를 쓴 달콤한 딸기.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: 진짜 딸기 맛이 나는 분홍 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: 셰이크로 변신할 딸기 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: 갈기 좋게 썬 즙 많은 딸기.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: 신선한 딸기로 만든 분홍빛 스무디.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: 위에 뿌리는 달콤한 분홍 소스.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: 모두가 사랑하는 클래식 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: 셰이크로 변신할 바닐라 아이스크림.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: 아이스크림을 담을 바삭한 황금 콘.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: 폭신하고 달콤한 크림 한 바퀴.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: 은은하게 달콤한 말랑한 젤리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: 아보카도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: 아보카도 슬라이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: 아보카도 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: 바나나
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: 바나나 슬라이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: 바나나 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: 블렌더
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: 블루베리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: 블루베리 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: 체리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: 체리 시럽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: 초콜릿 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: 초콜릿 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: 초콜릿 소스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: 코코넛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: 코코넛 조각
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: 코코넛 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: 콘 반죽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: 콘 메이커
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: 아이스크림콘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: 컵 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: 빙수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: 포도 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: 포도 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: 포도 시럽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: 그릭 요거트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: 청사과 시럽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: 얼음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: 빙수기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: 키위
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: 키위 슬라이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: 레몬 시럽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: 망고 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: 망고 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: 말차 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: 말차 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: 우유
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: 밀크셰이크 믹서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: 오렌지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: 오렌지 조각
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: 오렌지 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: 초콜릿 쿠키
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: 초코 스틱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: 무지개 젤리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: 간 얼음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: 스프링클
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: 딸기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: 딸기 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: 딸기 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: 딸기 슬라이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: 딸기 스무디
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: 딸기 소스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: 바닐라 아이스크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: 바닐라 밀크셰이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: 와플콘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: 휘핑크림
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: 흰 젤리
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_coffee_sv
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 2792ae1db3f1fd44c88392405a58a65e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57788163153920
+    m_Localized: För varje munk förtjänar en fest. Svävande sockervibbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514048
+    m_Localized: Början på något sött. Bara mjöl, vatten och massor av ambition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514049
+    m_Localized: Mer glasyr, mer plats. Vi jäser degen för att höja taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514050
+    m_Localized: Känner igen ett starkt kaffe snabbare än ett fallande träd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514051
+    m_Localized: Levererar kaffe i vingfart och håller varje fjäder fläckfri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514052
+    m_Localized: En elegant kafébas som ser mjölkskumskonst som seriös business.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514053
+    m_Localized: Luta dig tillbaka, slappna av och låt sockerkomat ta över sakta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514054
+    m_Localized: Liten böna, stora planer på att väcka alla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514055
+    m_Localized: Bönor som livet har malt ner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514056
+    m_Localized: Bryter mot kaféreglerna, dricker mörkrost och råmar aldrig tyst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514057
+    m_Localized: Fluffiga moln som alltid växer med uppgiften.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514058
+    m_Localized: Kräm med en fyllig, kakaodriven mörk sida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514059
+    m_Localized: En tom mugg som håller sig cool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514060
+    m_Localized: Kaffe serverat med ett kyligt lynne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514061
+    m_Localized: Iskaffe uppklätt för att visa upp sig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514062
+    m_Localized: Tom nu, men den tål värme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514063
+    m_Localized: Rykande kaffe med stark personlighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514064
+    m_Localized: Där kaffe och mjölk äntligen bekänner sin kärlek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514065
+    m_Localized: En liten kaka som aldrig växte ur sin form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514066
+    m_Localized: En cupcake som visar upp sina söta toppingar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514067
+    m_Localized: Smeten är klar – den här kakan behöver ugnstid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514068
+    m_Localized: Hälld över is för gästerna som aldrig saktar ner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514069
+    m_Localized: Ångad, hälld och serverad innan skummet sjunker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514070
+    m_Localized: En liten kaka med alldeles för mycket frosting – med flit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514071
+    m_Localized: Nydoppad, så glasyren funderar fortfarande på vart den ska droppa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514072
+    m_Localized: Söt ring med massor av charm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514073
+    m_Localized: En degring som väntar på att bli den stora stjärnan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514074
+    m_Localized: En degbit som höjer insatsen för munkar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514075
+    m_Localized: Deg som aldrig behöver fyllas på.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514076
+    m_Localized: Håller ordning på kaféet med örnögon och en kaka formad som en polisbricka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514077
+    m_Localized: Litet bär som känner sig lite blå men smakar underbart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514078
+    m_Localized: Luden utanpå, strålande grön inuti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514079
+    m_Localized: Kiwi skuren i lagom bitar, fortfarande lysande grön.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514080
+    m_Localized: Tropisk sötnos med gyllene attityd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514081
+    m_Localized: Ananasskivor redo att hamna överst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514082
+    m_Localized: Röd, mogen och bär-svår att motstå.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514083
+    m_Localized: Bärtunna skivor med maximal charm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514084
+    m_Localized: En blank glasyr med sval blues.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514085
+    m_Localized: Brun, blank och skamlöst chokladtokig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514086
+    m_Localized: Söt i rosa, söt i varje tugga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514087
+    m_Localized: Enkel vit glasyr med dold vaniljdjup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514088
+    m_Localized: Frysta kuber som håller varje dryck kall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514089
+    m_Localized: Låt världen veta var frostingen finns. Glaserad och stolt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514090
+    m_Localized: En lista över allt vi säljer. Mest munkar. Okej, bara munkar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514091
+    m_Localized: Krämig vit fredsmäklare för beskt kaffe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514092
+    m_Localized: Äkta grönska som balanserar den konstgjorda glasyren. Naturens eget strössel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514093
+    m_Localized: Lite struktur åt sockret. De här krukorna menar allvar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514094
+    m_Localized: En takmunk så stor att till och med fåglarna får sockerchock bara av att titta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514095
+    m_Localized: Extra strössel till takets mästerverk. Glasyr räcker inte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514096
+    m_Localized: Kommer moderiktigt doftande och gör varje kaffepaus till en gala.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514097
+    m_Localized: Små färgglada bitar som strör glädje överallt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514098
+    m_Localized: Bär på nödekollon och bedömer varje latte efter skummet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514099
+    m_Localized: Perfekt höjd för att dingla med benen medan du äter strössel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514100
+    m_Localized: Extra strössel till takets mästerverk. Glasyr räcker inte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514101
+    m_Localized: En glad skojare som på något sätt betalar med löv och jämna pengar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514102
+    m_Localized: Mixar frukt till len underkastelse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514103
+    m_Localized: Där frukten får sin bit av livet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514104
+    m_Localized: Brygger bönor till flytande morgonmotivation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514105
+    m_Localized: Bakar smet till gyllene kaklycka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514106
+    m_Localized: Steker degen tills den blir stekpanne-tastisk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514107
+    m_Localized: Festballonger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514108
+    m_Localized: Söt utbyggnad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514109
+    m_Localized: Bryggarbävern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514110
+    m_Localized: Grönvinge-fågelbudet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514111
+    m_Localized: Baron Bison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514112
+    m_Localized: Sköna stolar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514113
+    m_Localized: Kaffeböna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514114
+    m_Localized: Malet kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514115
+    m_Localized: Mocka Mu-Rebellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514116
+    m_Localized: Vispgrädde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514117
+    m_Localized: Chokladkräm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514118
+    m_Localized: Kall mugg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514119
+    m_Localized: Iskaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514120
+    m_Localized: Fin iskaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514121
+    m_Localized: Varm kopp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514122
+    m_Localized: Varmt kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514123
+    m_Localized: Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514124
+    m_Localized: Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514125
+    m_Localized: Lyxcupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514126
+    m_Localized: Rå cupcakesmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514127
+    m_Localized: Iskaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514128
+    m_Localized: Varmt kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514129
+    m_Localized: Cupcake med frosting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514130
+    m_Localized: Glaserad munk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514131
+    m_Localized: Munk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514132
+    m_Localized: Munkdeg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514133
+    m_Localized: Degbit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514134
+    m_Localized: Oändlig deg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514135
+    m_Localized: Chefen Örn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514136
+    m_Localized: Blåbär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514137
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514138
+    m_Localized: Skivad kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514139
+    m_Localized: Ananas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514140
+    m_Localized: Skivad ananas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514141
+    m_Localized: Jordgubbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514142
+    m_Localized: Skivad jordgubbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514143
+    m_Localized: Blå glasyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514144
+    m_Localized: Chokladglasyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514145
+    m_Localized: Rosa glasyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514146
+    m_Localized: Vaniljglasyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514147
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514148
+    m_Localized: Butiksskylt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514149
+    m_Localized: Smaktavla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514150
+    m_Localized: Mjölk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514151
+    m_Localized: Konditoriväxter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514152
+    m_Localized: Dekorativa krukor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514153
+    m_Localized: Jättemunk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514154
+    m_Localized: Munktoppingar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514155
+    m_Localized: Doft-astisk Skunk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514156
+    m_Localized: Strössel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514157
+    m_Localized: Hassel Ekorre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514158
+    m_Localized: Mysiga pallar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514159
+    m_Localized: Bordsdekor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514160
+    m_Localized: Tobi Tanuki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514161
+    m_Localized: Mixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514162
+    m_Localized: Skärbräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514163
+    m_Localized: Kaffebryggare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514164
+    m_Localized: Ugn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514165
+    m_Localized: Stekpanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518569705472
+    m_Localized: Frukten ger upp och blir len på några sekunder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259904
+    m_Localized: En fruktig virvelvind. Lock rekommenderas starkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259905
+    m_Localized: Livets skiva, fast snabbare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259906
+    m_Localized: Jordgubbar skivas mitt i en tanke. Kiwin darrar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259907
+    m_Localized: Morgonmotivation, bryggd ännu snabbare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259908
+    m_Localized: Bryggar så snabbt att kunderna vaknar innan de tagit en klunk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259909
+    m_Localized: Bakar gyllene lycka på nolltid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259910
+    m_Localized: Cupcakes jäser sig i blixtfart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259911
+    m_Localized: Degen blir gyllene mycket snabbare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259912
+    m_Localized: Donuts steks i kaotisk fart. Rent panne-demonium!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259913
+    m_Localized: Turbo-mixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259914
+    m_Localized: Smoothie-tornado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259915
+    m_Localized: Snabb skivare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454208
+    m_Localized: Frukt-ninja-bräde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454209
+    m_Localized: Snabbryggare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454210
+    m_Localized: Barista-raket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454211
+    m_Localized: Hot Shot-ugn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454212
+    m_Localized: Blaze-ugn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454213
+    m_Localized: Snabb stekpanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454214
+    m_Localized: Panne-demonium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069150969683968
+    m_Localized: In med frukt, ut med en smoothiestorm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541568
+    m_Localized: Smoothieorkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541569
+    m_Localized: Mixar så snabbt att tiden böjs. Hjärnfrys ingår.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541570
+    m_Localized: Galaxmixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541571
+    m_Localized: Kiwisarna skivas innan de hinner rulla iväg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541572
+    m_Localized: Samurajfruktbräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735872
+    m_Localized: Ett hugg, en hel fruktsallad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735873
+    m_Localized: Legendarisk fruktklinga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735874
+    m_Localized: Kaffe i jetfart. Håll i muggen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318784
+    m_Localized: Espressojet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318785
+    m_Localized: Brygger en perfekt kopp innan du hunnit blinka klart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318786
+    m_Localized: Legendarisk bryggmotor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318787
+    m_Localized: Muffins gräddas på ett ögonblick. Doftar himmelskt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318788
+    m_Localized: Infernougn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318789
+    m_Localized: Het som en stjärna. Bakverken kommer ut skinande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513088
+    m_Localized: Legendarisk stjärnugn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513089
+    m_Localized: Munkarna vänder sig själva av ren förtjusning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513090
+    m_Localized: Panntastisk turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513091
+    m_Localized: Gyllene ringar i rekordfart. Ren munkmagi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513092
+    m_Localized: Legendarisk munkpanna
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

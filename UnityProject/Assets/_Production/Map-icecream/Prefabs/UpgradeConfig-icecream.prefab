@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: UpgradeConfig-icecream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1527669047, guid: 9b79db7996b03fc716c579f61e0ccf78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _itemConfigs:
+  - id: base
+    price: 0
+  - id: logo-capy-lv1
+    price: 400
+  - id: cutting-board-lv2
+    price: 550
+  - id: ice-shaver-lv2
+    price: 600
+  - id: menu
+    price: 400
+  - id: cone-maker-lv2
+    price: 600
+  - id: milkshake-mixer-lv2
+    price: 600
+  - id: roof_outhouse
+    price: 450
+  - id: ice-cream-cup
+    price: 550
+  - id: blender-lv2
+    price: 650
+  - id: base_lv2
+    price: 1200
+  - id: door
+    price: 550
+  - id: skateboard
+    price: 600
+  - id: blender-lv3
+    price: 800
+  - id: decor-outside
+    price: 600
+  - id: freezer
+    price: 800
+  - id: cone-maker-lv3
+    price: 750
+  - id: roof-rainbow
+    price: 900
+  - id: roof-grant-cup
+    price: 1350
+  - id: cutting-board-lv3
+    price: 650
+  - id: roof-grant-cream
+    price: 2300
+  - id: ice-shaver-lv3
+    price: 1250
+  - id: cutting-board-lv4
+    price: 1350
+  - id: ice-shaver-lv4
+    price: 1400
+  - id: cutting-board-lv5
+    price: 1450
+  - id: ice-shaver-lv5
+    price: 1500
+  - id: milkshake-mixer-lv3
+    price: 1350
+  - id: milkshake-mixer-lv4
+    price: 1500
+  - id: milkshake-mixer-lv5
+    price: 1650
+  - id: blender-lv4
+    price: 1550
+  - id: cone-maker-lv4
+    price: 1600
+  - id: blender-lv5
+    price: 1600
+  - id: cone-maker-lv5
+    price: 1700
+  _assetTopology:
+    m_AssetGUID: 864633a8cc542de4fb2b4a23a05b5def
+    m_SubObjectName:
+    m_SubObjectType:
+  _rewardFullUpgrade:
+    itemPacks:
+    - itemId: hard
+      amount: 100
+    - itemId: booster_shift_up_row
+      amount: 1
+  _rewardAllItems:
+    itemPacks:
+    - itemId: booster_ingredient_pick
+      amount: 1
+    - itemId: booster_auto_cook
+      amount: 1

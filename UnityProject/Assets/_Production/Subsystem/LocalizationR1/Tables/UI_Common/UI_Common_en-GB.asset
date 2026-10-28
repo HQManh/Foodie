@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_en-GB
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en-GB
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}D {1}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}h {1}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: REWARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: PURCHASED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Reward Received!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Lv.{0} -> Lv.{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Day {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Unlocks on start of day {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Coming Soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: This feature is coming soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restaurants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Achievement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: This map is locked. Please clear previous maps to unlock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: This day is locked. Please clear previous days to unlock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Day {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Pass day {0} of the previous restaurant to unlock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Super Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: This map will be available in a future update.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Served: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Try upgrading your restaurant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Here are the items you can buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: With the coins you earned yesterday, let’s try upgrading something!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Now let’s go to the upgrade tool tab!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Try upgrading this griddle!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Now that you’ve upgraded the toaster, let’s return to start the day!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Now let’s start the day!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Try using this booster!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: When cooking, there is a chance you enter a special state!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Each customer you serve fills this bar! Serve {0} more customers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Each dish you serve fills this bar! Serve {0} more dishes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Great! In Flavor Burst, you cook super efficiently. Have fun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Not enough coins to build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Lv.MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: Not enough {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Already at max level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} times'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Claim x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Booster is available on Day {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Activate x{0} speed for {1} minutes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Claimed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Ads Removed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Booster Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Save me to add +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Clean {0} slots and keep cooking?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Auto Cook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Automatically collects ingredients and makes a dish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Sweeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Remove a dirty stack on the table
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Tongs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Freely pick one ingredient plate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Need more slots?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Unlock more slots to store dishes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Shuffle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Swap ingredient rows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: x2 Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Cook and serve faster with x2 speed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Recover {0} Hearts?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Shuffle the ingredients?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Move 5 ingredients into a bag?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Refill customer wait time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Data Conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Restaurant Level Up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Tap to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: The boss is demanding and loses patience easily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Congrats on your very own fast-food restaurant!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Let's open for business!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: She wants a juicy burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Tap the ingredient you want to use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Tap a customer's order to change the display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: The delivery man picks up multiple orders before time runs out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Use Cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Use Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Your Rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Enjoying the Game?\nLeave a Review!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: RATE THE GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Yummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Tasty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: So Good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Love It
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: More Please
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Heavenly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Divine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Exquisite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Chef's Kiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Masterpiece
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Pass {0} of {1} to unlock extra days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Require internet connection!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Ad is not ready, please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Name must be at least {0} characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Name must be at most {0} characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Name can only use letters, numbers, space and _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Come back in {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Claim the free reward first!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Claim previous reward first!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: UNLOCK AT DAY {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Awesome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Extra Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: THE CULINARY SHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: TOOL UPGRADED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} is now faster'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} is now in max speed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Unlock Extra Days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: News
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: New upgrade parts are available for your restaurants!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} has new extra days!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Upgrade prices were adjusted. The gold you overpaid has been returned!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Rate Us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Activate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Activated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Team already exists!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Team is full!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Team is not empty!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Team does not exist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Leader cannot leave!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: No Permission!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Server Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: User joined team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: User left recently!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: User not in team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: ASK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Bonus Bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Complete days to build up gold in your bank and get it back at the end of the event!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Activate the <color=yellow>Dreamy Pass</color> to unlock the <color=yellow>Bonus Bank</color> at the end of the stages!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Cannot Save Your Data To Server!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Coming soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Country
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Create and lead your team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Description:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Dreamy Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Welcome to <color=yellow>Dreamy Pass!</color> Here is your first reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Clear days and collect <color=yellow>Keys</color> to unlock rewards. Tap to learn how to collect them!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Activating <color=yellow>Dreamy Pass</color> will give you access to special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Unlock this stage and activate the <color=yellow>Dreamy Pass</color> to get this reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Dreamy Streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Clear days without failing to get more rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Clear days without losing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Increase your score multiplier!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Win amazing Rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Every fail resets your multiplier!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Dreamy Tower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Clear days in a row!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Rise Up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Each fail resets checkpoint progress!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Edit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Edit Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Choose your username before joining the Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Edit Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Edit Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Empty!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Ended!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Enter text...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Enter description...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Enter team name...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: First Try Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>FREE</color> HEART'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: '<color=#7CF73F>FREE</color> REWARDS'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Free Lives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: General Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Go
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Helps Made
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Helps Received
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Inbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Join a team go get free lives!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Last Chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Leave Team?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: You will have to wait 30 minutes before you can create or join a new team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Reach <color=yellow>Day {0}</color> To Unlock Weekly Contest!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Your lives are full!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Load Data From Server Is Completed! Restart Game to apply New Data!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: REACH <color=yellow> Day {0}</color> To Unlock Leaderboard!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: REACH <color=yellow> Day {0}</color> To Join Team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: You can't ask for lives. You have more than 10 free lives!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} joined the team!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} has been kicked out by {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} has left the team!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Members
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: My Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: Name must be at least 6 characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Network Error!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Network Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: No name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: No Contribution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: No Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Not enough gold!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: The <color=yellow>Dreamy Pass</color> will give you a chance to get special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: You will have exclusive bonuses until the event ends!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 lives instead of 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Activate Bonus Bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Golden profile picture frame and golden name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: The <color=yellow>Dreamy Pass</color> has ended! Your bonuses are not active anymore. New <color=yellow>Dreamy Pass</color> will start soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Clear Days!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Collect Keys!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Unlock Rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: You can activate the <color=yellow>Dreamy Pass</color> to get additional exclusive reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: The New <color=Yellow>Dreamy Pass</color> has started! Clear days and unlock the <color=Yellow>Pass</color> to claim valuable rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Dreamy Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0} Place Reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Private
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Profile is updated!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Public
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Save Your Data To Server Is Completed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Reconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Remove Member
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Requesting Life!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Required day:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Complete Day {0} to increase Required Day limit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Select Badge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Send you a life!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Special rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Stage Race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "You lost the race!\nTry again to win amazing rewards!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: "Congratulations!\nYou've won the race!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Clear <color=yellow>{0} days</color> before others to win and advance to the next stage for greater prizes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: How to play?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Clear days before others to finish the race!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Finish race before others!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Advance to next stage for greater prizes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Stage Race Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Stage {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Sync Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Tap to continue!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Tap to Open!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Tap to Claim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Tap to close!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Team Information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Team Badge:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'When you join a team you will get:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Team Harvest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Collect Corn from levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Reach Goals with Your Team!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Win Amazing Rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Normal: 1 Corn - Hard: 3 Corn - Super Hard: 5 Corn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Harvest Corn with your team and earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Team Name:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Teams
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Team Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Team Type:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Total free lives:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Total Helps:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Total Stars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Tower Highest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Transfer Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Here are your unclaimed rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Unlock on Day {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Unlock when you pass day {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: View
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: View Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Please wait a little longer for the server to process!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Weekly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Weekly Contest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Try harder next time to earn valuable rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Clear Days!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Take the lead!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: World
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Upgrades will be available in the next update!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'When you join a team you will:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Get <color=#7CF73F>Free</color> Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Chat and join challenges with friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Areas Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Reach Day {0} to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Pass {0} of {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Upgrade {0} to its final stage first!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0} upgrades are now open!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: New tool upgrade levels in {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: BUY ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Extra Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: 1-Time Only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Extra Sale {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Pass {0} at the {1} restaurant to unlock!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

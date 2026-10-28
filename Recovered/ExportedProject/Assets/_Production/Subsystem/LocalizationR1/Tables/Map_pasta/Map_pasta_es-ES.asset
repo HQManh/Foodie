@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_es-ES
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es-ES
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: La pequeña y acogedora trattoria donde empieza tu historia de pasta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: Añade una acogedora planta alta a tu trattoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: Prepara una salsa sedosa en un instante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: Un torbellino de salsa. Tapa muy recomendada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: Los tomates se cortan en dados antes de que puedan sonrojarse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: Corta tan rápido que las cebollas ni siquiera llegan a llorar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: Una mesa de cuadros y sillas cómodas para comer pasta al aire libre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: Un farol cálido que brilla junto a la puerta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: Un orgulloso letrero de capibara chef corona el tejado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: Una pizarra con las pastas especiales del día.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: Las salsas chisporrotean el doble de rápido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: Chisporroteo extra desbloqueado. La sartén brilla de orgullo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: Plantas frescas en macetas que alegran la entrada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: El agua hierve antes de que digas al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: Una leyenda burbujeante que cuece la pasta a la velocidad de la luz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: Un racimo de uvas bien lleno que adorna el tejado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: ¡Un plato gigante de espaguetis enrollados en lo alto del tejado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: Sirve refresco burbujeante en un santiamén.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: ¡Qué efervescencia! Una fuente de burbujas y alegría.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: Trattoria con Planta Alta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: Licuadora Salsera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: Tornado de Salsa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: Tabla Corte Rápido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: Tabla Ninja de Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: Mesa de Terraza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: Farol de Pared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: Letrero Capy Chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: Menú de Pizarra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: Sartén Chisporroteante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: Sartén Ardiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: Albahaca en Maceta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: Olla de Hervor Rápido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: Caldero Megahervor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: Uvas del tejado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: Espaguetis Gigantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: Fuente Burbujeante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: Géiser de Refresco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: Un oso imponente con traje de raya diplomática y fedora con una rosa, que espera raciones generosas de pasta y respeto absoluto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: Una gata atigrada elegante, con sombrero morado y vestido a juego, que pide pasta con un gusto impecable y un ronroneo satisfecho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: Una chinchilla pulcra con uniforme azul de cartero que sigue el aroma de la pasta fresca entre reparto y reparto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: Un gallo orgulloso con chistera y banda tricolor que preside el mostrador de pasta con grandes discursos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: Una oveja amable con gafas redondas y bufanda con cascabel, que considera cada plato de pasta una ocasión especial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: Manzana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: Manzana en trozos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: Don Orsino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: Filete a la parrilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: Filete crudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: Olla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: Pan tostado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: Barra de pan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: Condesa Caterina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: Queso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: Queso picado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: Salsa de queso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: Pollo a la parrilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: Pollo crudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: Chico Chinchilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: Tabla de cortar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: Vieira a la parrilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: Vieira cruda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: Vieira cruda cortada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: Ensalada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: Carne y marisco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: Refresco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: Farfalle cocidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: Farfalle crudos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: Carne picada cocinada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: Carne picada cruda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: Hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: Limón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: Limón en rodajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: Lechuga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: Lechuga cortada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: Manicotti cocidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: Manicotti crudos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: Mayonesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: Carne y marisco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: Gran menú
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: Pulpo a la parrilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: Pulpo crudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: Pulpo crudo cortado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: Sartén
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: Alcalde Gallo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: Ensalada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: Batidora de salsa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: Signor Woolington
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: Gambas a la parrilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: Gambas crudas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: Gambas crudas cortadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: Refresco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: Vaso de refresco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: Espaguetis cocidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: Espaguetis crudos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: Espinacas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: Espinacas picadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: Salsa de espinacas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: Tomate grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: Tomate picado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: Salsa de tomate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: Una manzana crujiente que aleja al médico y a las ensaladas aburridas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: Cortada en gajos crujientes, lista para mezclar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: Sellado a la parrilla hasta que susurra bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: Un corte grueso de ternera con grandes sueños florentinos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: Cuece la pasta hasta que queda perfectamente al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: Tostada de bruschetta dorada con un crujido irresistible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: Un pan italiano rústico, crujiente por fuera y tierno por dentro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: Una rueda de queso curada para el drama y el sabor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: Copos de queso esperando nevar sobre la pasta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: Cremosa, quesosa y tan suave que gana cualquier discusión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: Pollo a la parrilla jugoso con sus buenas marcas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: Pollo pálido esperando su momento en la parrilla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: Pica verduras más rápido de lo que dices ciao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: Vieiras selladas, dulces como un atardecer veneciano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: Una vieira que aún mantiene su concha bien cerrada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: Limpia, recortada y ya sin encerrarse en su concha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: Un vaso vacío esperando algo burbujeante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: Enrollada, con salsa y servida con estilo italiano. ¡Mamma mia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: Crujiente, fresca y mezclada como un auténtico huerto italiano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: De la parrilla y del mar, un festín digno de un domingo en Nápoles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: Burbujeante, frío y el compañero perfecto para cada plato de pasta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: Pajaritas tiernas bien arregladas para la cena.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: Mariposas de pasta que aún no han aprendido a volar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: Dorada y con salsa, justo como la hace la nonna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: Carne picada camino de convertirse en un ragú clásico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: Cubitos fríos que mantienen cada refresco bien fresco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: Un limón de Amalfi soleado con mucha chispa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: Rodajas de limón que hacen brillar cada sorbo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: Una lechuga crujiente recién llegada del huerto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: Hojas cortadas listas para un buen salteado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: Tubos tiernos, cocidos y listos para rellenar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: Grandes tubos de pasta con mucho espacio para el relleno.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: El aderezo cremoso que mantiene unida cada ensalada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: La parrilla y el mar se encuentran en un plato generoso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: Leche fresca, el secreto de cada salsa cremosa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: Pulpo a la brasa, un auténtico sabor del Mediterráneo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: Ocho brazos y ni idea de lo que se le viene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: Tentáculos recortados y listos para el fuego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: Dora carnes y salsas hasta la perfección.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: Un plato de pasta humeante, al dente y orgulloso de ello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: Verduras frescas mezcladas a la italiana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: Bate salsas sedosas en un remolino cremoso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: Gambas chisporroteantes besadas por las llamas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: Gambitas acurrucadas y algo tímidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: Peladas y listas, sin caparazón donde esconderse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: Un vaso de burbujas, servido bien frío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: Un vaso listo para recargar burbujas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: Sirve refresco burbujeante sobre mucho hielo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: Perfectamente al dente y listos para enrollar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: Largos, secos y tiesos como un picatoste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: Hojas verdes con fuerza de marinero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: Hojas finamente picadas listas para la salsa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: Verde, cremosa y en secreto saludable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: Un tomate rollizo, madurado bajo el sol de la Toscana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: Tomate en dados, el corazón de toda salsa roja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: Rosada, cremosa y rosa como un atardecer romano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: Vaso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: Máquina de refrescos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: Trattoria acogedora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: Los tomates quedan picados antes de sonrojarse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: Tabla de Pasta Samurái
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: Un tajo, una ensalada entera. Beso del chef.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: Hoja de Pasta Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: Salsa cremosa en un remolino. Se aconsejan servilletas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: Huracán de Salsa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: Salsa sedosa a la velocidad de un giro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: Vórtice de Salsa Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: Los filetes chisporrotean en un instante. ¡Escucha ese sonido!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: Sartén Infierno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: A la parrilla a la perfección antes de que digas bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: Sartén Chisporroteante Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: La pasta queda al dente en un instante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: Olla Volcán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: Hierve tan rápido que el agua apenas se da cuenta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: Caldero de Pasta Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: Entra en erupción de burbujas. Los vasos se llenan solos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: Volcán de Refresco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: Burbujas para siempre. La sed no tiene ninguna oportunidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: Fuente de Refresco Infinita
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,663 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ms
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: BAHARU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Maks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}h {1}j'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}j {1}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}j'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: GANJARAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: DIBELI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Ganjaran Diterima!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Tuntut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Tahap {0} -> Tahap {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Dibuka pada permulaan hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Akan Datang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Ciri ini akan datang tidak lama lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Kedai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Utama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restoran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Pencapaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Peta ini dikunci. Selesaikan peta sebelumnya untuk membuka kunci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Hari tersebut dikunci. Selesaikan hari-hari sebelumnya untuk membuka kunci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Hari {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Lepasi hari {0} di restoran sebelumnya untuk membuka kunci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Sukar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Sangat Sukar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Peta ini akan tersedia dalam kemas kini akan datang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Dihidang: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Cuba naik taraf restoran anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Ini barangan yang boleh anda beli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Dengan syiling yang anda peroleh semalam, jom naik taraf sesuatu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Sekarang, jom ke tab naik taraf peralatan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Cuba naik taraf plat pemanggang ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Pembakar roti sudah dinaik taraf, jom kembali dan mulakan hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Sekarang, jom mulakan hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Cuba guna penggalak ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Semasa memasak, ada peluang untuk masuk ke keadaan istimewa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Setiap pelanggan yang berjaya dilayan, bar ini bertambah! Cuba layan {0} pelanggan lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Setiap hidangan yang berjaya dihidang, bar ini bertambah! Cuba hidang {0} hidangan lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Hebat! Dalam mod Letupan Rasa, anda boleh memasak dengan sangat cekap. Selamat berseronok!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Syiling tidak cukup untuk membina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Tahap MAKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Tahap {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0} tidak mencukupi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Sudah di tahap maksimum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} kali'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Tuntut x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Penggalak tersedia pada hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Aktifkan kelajuan x{0} selama {1} minit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Dituntut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Iklan dibuang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Nama Penggalak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Selamatkan saya untuk tambah +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Masak Automatik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Kumpul bahan dan sediakan hidangan secara automatik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Penyapu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Buang satu timbunan kotor di atas meja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Penyepit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Pilih mana-mana satu pinggan bahan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Perlukan lebih slot?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Buka lebih banyak slot untuk menyimpan hidangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Kocok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Tukar baris bahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Kelajuan x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Masak dan hidang lebih pantas dengan kelajuan x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Pulihkan {0} hati?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Cuba kocok bahan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Pindahkan 5 bahan ke dalam beg?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Isi semula masa menunggu pelanggan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Kopi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Konflik Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Memuatkan...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Memuatkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Restoran Naik Tahap!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Ketik untuk teruskan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Bos sangat cerewet dan cepat hilang sabar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Tahniah atas restoran makanan segera anda sendiri!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Jom mulakan perniagaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Dia mahukan burger yang berjus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Ketik bahan yang anda mahu guna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Ketik pesanan pelanggan untuk tukar paparan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Penghantar mengambil beberapa pesanan sebelum masa tamat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Guna Awan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Guna Setempat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Ganjaran Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Kosongkan {0} slot dan terus memasak?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Seronok bermain?\nTinggalkan ulasan!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: NILAIKAN PERMAINAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Nyam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Sedap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Sedap betul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Suka sangat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Nak lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Terangkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Mantap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Istimewa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Juara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Karya agung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Lepasi {0} di {1} untuk membuka hari tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Memerlukan sambungan internet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Iklan belum sedia, sila cuba lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Nama mesti sekurang-kurangnya {0} aksara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Nama mesti tidak melebihi {0} aksara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Nama hanya boleh menggunakan huruf, nombor, ruang dan _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Kembali dalam {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Tuntut ganjaran percuma dahulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Tuntut ganjaran sebelumnya dahulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: DIBUKA PADA HARI {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Hebat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Hari Tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Dikunci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: KEDAI KULINARI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: ALAT DINAIK TARAF!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} kini lebih pantas'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} kini pada kelajuan maksimum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Buka Hari Tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Berita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Bahagian naik taraf baharu tersedia untuk restoranmu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} mempunyai hari tambahan baharu!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Harga naik taraf telah dilaraskan. Emas yang dibayar lebih telah dikembalikan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Nilai Kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Naik taraf akan tersedia dalam kemas kini seterusnya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Hari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Apabila menyertai pasukan, anda akan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Dapatkan Hati <color=#7CF73F>Percuma</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Berbual dan sertai cabaran bersama rakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: CAPAI <color=yellow> Hari {0}</color> Untuk Membuka Papan Pendahulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Capai <color=yellow>Hari {0}</color> Untuk Membuka Pertandingan Mingguan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: CAPAI <color=yellow> Hari {0}</color> Untuk Menyertai Pasukan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Dibuka pada Hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Hari diperlukan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Selesaikan Hari {0} untuk menaikkan had Hari Diperlukan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Kawasan Selesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Selesaikan hari untuk mengumpul emas dalam bank anda dan dapatkannya semula di akhir acara!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Selesaikan hari dan kumpul <color=yellow>Kunci</color> untuk membuka ganjaran. Ketik untuk ketahui caranya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Selesaikan hari tanpa gagal untuk dapatkan lebih banyak ganjaran!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Selesaikan hari tanpa kalah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Selesaikan hari berturut-turut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Selesaikan Hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: '<color=Yellow>Pas Impian</color> baharu telah bermula! Selesaikan hari dan buka <color=Yellow>Pas</color> untuk menuntut ganjaran berharga!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Selesaikan <color=yellow>{0} hari</color> lebih awal daripada yang lain untuk menang dan mara ke peringkat seterusnya bagi hadiah lebih besar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Selesaikan hari lebih awal daripada yang lain untuk menamatkan perlumbaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Dibuka apabila melepasi hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Selesaikan Hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Capai Hari {0} untuk teruskan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Hari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Lepasi {0} di {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Naik taraf {0} ke peringkat akhir dahulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: Naik taraf {0} kini dibuka!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Tahap naik taraf alat baharu di {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: BELI SEMUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Bonus Tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Sekali Sahaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Diskaun Tambahan {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Lepasi {0} di restoran {1} untuk membuka kunci!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

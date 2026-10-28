@@ -1,0 +1,1301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-sandwich
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: sandwich_bread
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d3eabdea8732dfe4091e9a1f644030d8, type: 2}
+      id: sandwich_bread
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 30ea25e6cb023e3489d638bf718d0bca, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 039cbf8c501c80a4bb8a8a4cc1031c6d, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: whipped_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d002d8f6d7f0f484ea62459e1ba054a9, type: 2}
+      id: whipped_cream
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d6dcaa4e562a6ef43a0b6c33eda5a85c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d14eabd4ca2c6ac43a65b29fbd3ea58f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: parsley
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 467db1ce386fd904683e6b77552d5290, type: 2}
+      id: parsley
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: da29f30e3aeb84747a72f174956c82d3, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3b04be6860b435c41be62fab44833538, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 13000000
+  - id: chicken_breast
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4286d83f55a258148ac10faaae94c719, type: 2}
+      id: chicken_breast
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2a9554f40c24e5044a33af28a86a8c0c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 34a45f7068bac7449987f4a307ab270d, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 11000000
+  - id: ham_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: eeefeec04f836fd4fb75c18b2b58e513, type: 2}
+      id: ham_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f51adcaba6c1dc742ae6df3a246facda, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 09a462e24eb0a354fb1b0aa6eda78ad9, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 01000000
+  - id: cheese_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6ebb29c1bfb31a34a85c701bec40f0a3, type: 2}
+      id: cheese_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 219f99e24763e594e83a57d612211570, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 44e4a87ea3cd9e04ea9cf4380acf579c, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: bacon_strip
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 84553179e00ecd04ab47338f67ce68cd, type: 2}
+      id: bacon_strip
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c11dd9ce2e478eb4aa22480d88301ba1, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6cc7b289dd430ad46bd72707b4928067, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 10000000
+  - id: sweet_corn
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 55c1d53fbd5fb474ca3251d5ff402d60, type: 2}
+      id: sweet_corn
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1d864b93285b9ed41b71abf17f7f2768, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: df38147390d8dba4e916d17fb032dbda, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: egg
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b2c2b319546aca24d96a978b2939f0fb, type: 2}
+      id: egg
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d2abb6e071f25a74bb3159adbac00cf9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5d53a646f5e782248a0930ef3807fbde, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: cucumber
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c392b664410f9e542b98910007f7bad5, type: 2}
+      id: cucumber
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 90e29224dbecf824e95246d67297f926, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6a6e66b2a899dfa4c85d66e05f8c64d6, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 06000000
+  - id: lettuce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0626b7eba55e92040976a2bfe0952fd0, type: 2}
+      id: lettuce
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: a4463b72c5e913646a245915608a4091, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 1ed37fb08db2ff941a0d36866441eae9, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 05000000
+  - id: tomato
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d82795168452b0740a74530b83fbfc0c, type: 2}
+      id: tomato
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 170cd16f8714a524ca2fc33d3d07d4d2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 466af1d39cae3d447a0c6b3035343c54, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 04000000
+  - id: mushroom
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d7e9dd1194f43c24093350c5f3d4f36e, type: 2}
+      id: mushroom
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 815918fe03962cd4ab86fc79735cdc32, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 65c62a93913fafb4e9d7d1568b34a619, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 12000000
+  - id: pumpkin
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ab5d67b346e8337459369bd181580845, type: 2}
+      id: pumpkin
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6fd0ca9267b798c48bb56dc61d1f4c3f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3f62e8b91813c8f47a3f6247fcab47bd, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0f000000
+  - id: mayonnaise
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9baf60321aad3bc41b4b8b296f5942ed, type: 2}
+      id: mayonnaise
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0.12}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c467cd34253099743a7a11f24cdc5b18, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 609102e49db28fa489dae0e194c10e43, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 08000000
+  - id: grape
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9299bb0e580113a4685f8adda561a5cb, type: 2}
+      id: grape
+      type: 0
+      scale: 0.9
+      offset: {x: 0.06, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 34be17b32f843f4478b144f70b1558be, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 313c8dae57493bc478d0ee01f76bd501, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: mango
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 47645ab9681687a4b823071ea2f5f10d, type: 2}
+      id: mango
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: -0.07}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 536b958a41e6b834f956d117144dc4cd, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 12eae2e5465722b4791a57185269c278, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0c000000
+  - id: kiwi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 11b4ac3722d3ec042bb5f3a0547a278f, type: 2}
+      id: kiwi
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 65b7134c8c3659e468c05ff5927fed29, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 374d2f64c2d7e2848939d9995eac8c5a, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0b000000
+  - id: strawberry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7f07f780be9f5c44bb141a684a1cace4, type: 2}
+      id: strawberry
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: -0.06}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9f94dd4e5e9ad24418cfda2677072980, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7366e4ab2ec0e1140a9c346e2fc58219, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0a000000
+  - id: ice_cubes
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 014a4b97492398540bc376240bb949f5, type: 2}
+      id: ice_cubes
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b5d5c32b08771784eb40d7f72dfea1ad, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e8b7008265c5814429f03a40ab58250f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: milk
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ba2fd22f4411d2c4887fd07c27f2196d, type: 2}
+      id: milk
+      type: 0
+      scale: 1
+      offset: {x: 0.06, y: 0.09}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: a3789df440dc43149b452c17dc3571df, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0c7f070e968251646b47d3e2f4159b94, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 14000000
+  - id: toasted_sandwich_bread
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 97850ce893212bf4998c007be59c77d5, type: 2}
+      id: toasted_sandwich_bread
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 21a60e3d2a18a1d4dbc42febedc49648, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7f55cea2c99a7fc41bb487f600f0e18b, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 00000000
+  - id: fried_chicken
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1c11f0b9cf577144f80b90fa107caedd, type: 2}
+      id: fried_chicken
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c07e396b14cd0ae458fc95b41d94b805, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 13407775192bb3d4ab6c1f7b310c1403, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 11000000
+  - id: crispy_bacon
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ede4d39dcd3bb7443807a89756780c82, type: 2}
+      id: crispy_bacon
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 43c3085c8c332f74eb018f5c1a1ab0ec, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 1dcc185d9c3eb174989d7c909d4e8500, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: fried_egg
+    displayConfig:
+      sprite: {fileID: 21300000, guid: bd3056d7ff27e99498c7a50b40c77573, type: 2}
+      id: fried_egg
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c993a01eb5852c84a848dc6edc521d89, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 64fb30a989d3b3540a2bb22d7442cabb, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 02000000
+  - id: cucumber_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1fd2e4c3d02c09541b144af1dd6ddde7, type: 2}
+      id: cucumber_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: bc14f7c96fbb3c4438c2cf4c331ce2a7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ac543d231f2cf48419b4c244285f8d42, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 06000000
+  - id: lettuce_shredded
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cb860696c1ce8f24787706fdb38e6265, type: 2}
+      id: lettuce_shredded
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 30e7a8644c0645c4c9babd23f51c6289, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d28da2f641a1c3342b7a64fe6b957062, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: tomato_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0c664779e20484c44922d863761904f6, type: 2}
+      id: tomato_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f0346d7cf3a9c054a95e9f9411d19cf5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 297142bd3d0e23f48a61b651163bab5f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 04000000
+  - id: pumpkin_soup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f4daf4783e403ee4696d388fd6111c2f, type: 2}
+      id: pumpkin_soup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7cad0f9ab8094d045bba27a3cc6c569b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a7c8c4bf9c2c6cc4ca5207022cb8f105, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0f000000
+  - id: boiled_egg
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3c9416090f2b8954fbf32867ebee2e8b, type: 2}
+      id: boiled_egg
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d7e78c7bfd3ea21478acceab865db426, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6d4374ca71774d64aa9dc02bb7771863, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 02000000
+  - id: tomato_soup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 83c98e31ba8be9c4ea6f979bd2e1a1b2, type: 2}
+      id: tomato_soup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: af58caab1e488a145824061dcaa4a869, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ac2167c5aba315947b6f6739348acbdf, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 04000000
+  - id: pumpkin_diced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 148a75708abd13b418bb7f682c7ddbfe, type: 2}
+      id: pumpkin_diced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 887c47798a34ff94b972ce89915bfdca, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 60bf84f95dab4c8489181ef4453b5301, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 0f000000
+  - id: mushroom_soup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 736c7635b055df54a8db46c3f76fa2dc, type: 2}
+      id: mushroom_soup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1e2b4b37f98217042934db260b195da9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 57f4946c7ee551147ac5624fc589e4ee, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 12000000
+  - id: tomato_diced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e7f92d6271f922349a3594183b2a2468, type: 2}
+      id: tomato_diced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ca7a4c61818a08946864b9a7e7ce96b7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 137d5753a4ec11d429bca63b92e40386, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 04000000
+  - id: mushroom_diced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 21be2b090a4f1d244ba3b139b752b0b0, type: 2}
+      id: mushroom_diced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d5b95df4864af9c4f8c18fb9fb93a509, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 49fefe29a4fdd62448c5af616bc95b77, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 12000000
+  - id: mango_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3cc6e151e812b1344bdc7f93d0ad7ef9, type: 2}
+      id: mango_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3d0baa63609301544a7e8e4cc826a81c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 22513037b56d7aa4faa5fb8627efdf15, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: kiwi_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d79c73e86c5194549baa5c81ad9bdce2, type: 2}
+      id: kiwi_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: fc649a7aa9122a148b03c4f3e8274b45, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3b55c5d60cf6a714480a9fc726ea8259, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: strawberry_slice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 46635af14a133674b883f6bc431363a0, type: 2}
+      id: strawberry_slice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 64a24530a2cc1c440a6cb25cb222a1a2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 86cf0281964b08e42910875afe128e44, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: grape_juice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e2d214148e8a09145966f738404e0026, type: 2}
+      id: grape_juice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f396595e8db976c4c9f6b578905fad61, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 63ce80491aa33f347b76eb4c86771ac6, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0d000000
+  - id: mango_juice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 34da3a4196d113c4ba8166dc7f1f577e, type: 2}
+      id: mango_juice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 8b4357bc134d2ab41a7856b96688163e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: ce9b1fa481f4764479f0982a15f5487f, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0c000000
+  - id: kiwi_juice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0f0dfc450ea8b014d9fb2223700d6ce9, type: 2}
+      id: kiwi_juice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c5a33b597b4f04744b9c2b14229b3d19, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 9ca8a6b5d0a3f9c4b87fec3ad9a9611b, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0b000000
+  - id: strawberry_juice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6f841117fe65bd2458d2095e1e954c65, type: 2}
+      id: strawberry_juice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 36d1fd0efa6c1844db459fb4a14c5801, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 9cf4d911a7d73bd4c80563e37c4f1f40, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0a000000
+  - id: bread_triangle
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e1fbd22fff82cdc49a5e1bb78a43d4ab, type: 2}
+      id: bread_triangle
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d65e298e69ee2304e97b29d3b96a65a2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 81591998746e4d547b97b580df2c0936, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 00000000
+  - id: flexible_savory_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: dbcc3729f77f2ac49a06d97446cefa84, type: 2}
+      id: flexible_savory_sandwich
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f160b5a4e5fb6d049a5b5bb18d107d74, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114372920208702427, guid: 73f8587ee739f4749abbc98ce5154400, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_fruit_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d4f9b67fca4454e4c9e87863a276553a, type: 2}
+      id: flexible_fruit_sandwich
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f2cde4ea60ca7d144a172cd9f7d1390a, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114977153420339851, guid: 30d3b1e1c03ded64585f8e58d2ef4ef5, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_salad
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b7c18049f839ea34db275c2d1bb30dad, type: 2}
+      id: flexible_salad
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f00910345f305ba47bd0eb92b96d79b3, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114061268324235159, guid: cb3cd5abe831af2449e65074276ab159, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_juice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e2d214148e8a09145966f738404e0026, type: 2}
+      id: flexible_juice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ae58be74cfb1df34a856489003d3ecec, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114587765826080250, guid: 991e44e1097d7f0409fd0d038b86f2ff, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_soup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f4daf4783e403ee4696d388fd6111c2f, type: 2}
+      id: flexible_soup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 68b97f61eb116804c88c68817fe4e33d, type: 2}
+    dishKind: 5
+    gameplayConfig:
+      prefab: {fileID: 114587765826080250, guid: 12881166f86e5854c88b5c116b7ee345, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  stations:
+  - id: cutting_board_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: eae9fd0588f3e0b469e97beecc0d78aa, type: 2}
+      id: cutting_board_sandwich
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 87a65cc0165b33349a13e9246c0c90ff, type: 2}
+    station: {fileID: 114875609422105747, guid: a111fbbc06e8f9a4892904effd5f3073, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: bread_triangle
+      duration: 3
+    - resultId: cucumber_slice
+      duration: 3
+    - resultId: kiwi_slice
+      duration: 3.333
+    - resultId: lettuce_shredded
+      duration: 3
+    - resultId: mango_slice
+      duration: 4.733
+    - resultId: mushroom_diced
+      duration: 4.167
+    - resultId: pumpkin_diced
+      duration: 4.567
+    - resultId: strawberry_slice
+      duration: 4.633
+    - resultId: tomato_slice
+      duration: 2.833
+    - resultId: tomato_diced
+      duration: 4
+  - id: pot_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 88e0effd79d65664986c286a5cd5b272, type: 2}
+      id: pot_sandwich
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: c1d26e2577cd48f4e9bdad61d696002a, type: 2}
+    station: {fileID: 114371939378208658, guid: 497634ffb89d5874391a92a0b0b7752e, type: 2}
+    defaultDuration: 4
+    cookTimes:
+    - resultId: tomato_soup
+      duration: 5
+    - resultId: mushroom_soup
+      duration: 5
+    - resultId: pumpkin_soup
+      duration: 5
+  - id: bread_toaster_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cc1004d950876574aa4284a4f9403e79, type: 2}
+      id: bread_toaster_sandwich
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 200329288819be447887bc0c435ecb56, type: 2}
+    station: {fileID: 114621510681728303, guid: 835988fe6bab5294ba5d9332a85c8f78, type: 2}
+    defaultDuration: 2
+    cookTimes: []
+  - id: juice_extractor_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 361fed01f325dc24b85758ff59eb2bc1, type: 2}
+      id: juice_extractor_sandwich
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 4442316de8e3e604798aea8803fc9e4f, type: 2}
+    station: {fileID: 114634108722742392, guid: b749bc3420d91b44f82560ad370eb672, type: 2}
+    defaultDuration: 3
+    cookTimes: []
+  - id: frying_pan_sandwich
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 371e3026a5a23c044995675cb6415564, type: 2}
+      id: frying_pan_sandwich
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 73324e5062274bc478b7951015efbf2a, type: 2}
+    station: {fileID: 114313026266067498, guid: da1f25be706669c4e877f52dbe2247ea, type: 2}
+    defaultDuration: 3
+    cookTimes: []
+  recipes:
+  - resultId: cucumber_slice
+    combinations:
+    - components:
+      - type: 0
+        id: cucumber
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: lettuce_shredded
+    combinations:
+    - components:
+      - type: 0
+        id: lettuce
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato_slice
+    combinations:
+    - components:
+      - type: 0
+        id: tomato
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato_diced
+    combinations:
+    - components:
+      - type: 0
+        id: tomato
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: mushroom_diced
+    combinations:
+    - components:
+      - type: 0
+        id: mushroom
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: pumpkin_diced
+    combinations:
+    - components:
+      - type: 0
+        id: pumpkin
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: mango_slice
+    combinations:
+    - components:
+      - type: 0
+        id: mango
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: kiwi_slice
+    combinations:
+    - components:
+      - type: 0
+        id: kiwi
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: strawberry_slice
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: boiled_egg
+    combinations:
+    - components:
+      - type: 0
+        id: egg
+      - type: 1
+        id: pot_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato_soup
+    combinations:
+    - components:
+      - type: 0
+        id: tomato_diced
+      - type: 0
+        id: milk
+      - type: 1
+        id: pot_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: mushroom_soup
+    combinations:
+    - components:
+      - type: 0
+        id: mushroom_diced
+      - type: 0
+        id: milk
+      - type: 1
+        id: pot_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: pumpkin_soup
+    combinations:
+    - components:
+      - type: 0
+        id: pumpkin_diced
+      - type: 0
+        id: milk
+      - type: 1
+        id: pot_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: toasted_sandwich_bread
+    combinations:
+    - components:
+      - type: 0
+        id: sandwich_bread
+      - type: 1
+        id: bread_toaster_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: grape_juice
+    combinations:
+    - components:
+      - type: 0
+        id: grape
+      - type: 1
+        id: juice_extractor_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: mango_juice
+    combinations:
+    - components:
+      - type: 0
+        id: mango
+      - type: 1
+        id: juice_extractor_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: kiwi_juice
+    combinations:
+    - components:
+      - type: 0
+        id: kiwi
+      - type: 1
+        id: juice_extractor_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: strawberry_juice
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry
+      - type: 1
+        id: juice_extractor_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: fried_chicken
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_breast
+      - type: 1
+        id: frying_pan_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: crispy_bacon
+    combinations:
+    - components:
+      - type: 0
+        id: bacon_strip
+      - type: 1
+        id: frying_pan_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: fried_egg
+    combinations:
+    - components:
+      - type: 0
+        id: egg
+      - type: 1
+        id: frying_pan_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: bread_triangle
+    combinations:
+    - components:
+      - type: 0
+        id: sandwich_bread
+      - type: 1
+        id: cutting_board_sandwich
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_savory_sandwich
+    combinations:
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: ham_slice
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: fried_egg
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: crispy_bacon
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: fried_chicken
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: lettuce_shredded
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: tomato_slice
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: cucumber_slice
+    - components:
+      - type: 0
+        id: toasted_sandwich_bread
+      - type: 0
+        id: cheese_slice
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_fruit_sandwich
+    combinations:
+    - components:
+      - type: 0
+        id: bread_triangle
+      - type: 0
+        id: whipped_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_salad
+    combinations:
+    - components:
+      - type: 0
+        id: lettuce_shredded
+      - type: 0
+        id: tomato_slice
+    - components:
+      - type: 0
+        id: lettuce_shredded
+      - type: 0
+        id: cucumber_slice
+    - components:
+      - type: 0
+        id: lettuce_shredded
+      - type: 0
+        id: sweet_corn
+    - components:
+      - type: 0
+        id: lettuce_shredded
+      - type: 0
+        id: boiled_egg
+    - components:
+      - type: 0
+        id: lettuce_shredded
+      - type: 0
+        id: mayonnaise
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_juice
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry_juice
+      - type: 0
+        id: ice_cubes
+    - components:
+      - type: 0
+        id: kiwi_juice
+      - type: 0
+        id: ice_cubes
+    - components:
+      - type: 0
+        id: mango_juice
+      - type: 0
+        id: ice_cubes
+    - components:
+      - type: 0
+        id: grape_juice
+      - type: 0
+        id: ice_cubes
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_soup
+    combinations:
+    - components:
+      - type: 0
+        id: tomato_soup
+      - type: 0
+        id: toasted_sandwich_bread
+    - components:
+      - type: 0
+        id: tomato_soup
+      - type: 0
+        id: parsley
+    - components:
+      - type: 0
+        id: tomato_soup
+      - type: 0
+        id: sweet_corn
+    - components:
+      - type: 0
+        id: tomato_soup
+      - type: 0
+        id: whipped_cream
+    - components:
+      - type: 0
+        id: pumpkin_soup
+      - type: 0
+        id: toasted_sandwich_bread
+    - components:
+      - type: 0
+        id: pumpkin_soup
+      - type: 0
+        id: parsley
+    - components:
+      - type: 0
+        id: pumpkin_soup
+      - type: 0
+        id: sweet_corn
+    - components:
+      - type: 0
+        id: pumpkin_soup
+      - type: 0
+        id: whipped_cream
+    - components:
+      - type: 0
+        id: mushroom_soup
+      - type: 0
+        id: toasted_sandwich_bread
+    - components:
+      - type: 0
+        id: mushroom_soup
+      - type: 0
+        id: parsley
+    - components:
+      - type: 0
+        id: mushroom_soup
+      - type: 0
+        id: sweet_corn
+    - components:
+      - type: 0
+        id: mushroom_soup
+      - type: 0
+        id: whipped_cream
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1
+  ingredientListShowsRaw: 1
+  ingredientCanOrder:
+  - flexible_savory_sandwich
+  - flexible_fruit_sandwich
+  - flexible_salad
+  - flexible_juice
+  - flexible_soup
+  pieceEnumType: CakeOrder.InGame.Sandwich.SandwichPiece
+  dishEnumType: CakeOrder.InGame.Sandwich.SandwichDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: 7bf47feef6a9ab845a312e93ba5d6e97, type: 2}
+    baseId: flexible_savory_sandwich
+    sprite: {fileID: 21300000, guid: 4cb4231c9829c664e88cf62f290efb30, type: 2}
+    dishName: Savory Sandwich
+    desc: Toasted bread stacked with whatever the grill could spare.
+    plate: {fileID: 114703437598541787, guid: 29040c7694153fd49957648cde32a56e, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: 40157e285d2f66447abb77a7b0b0e9b8, type: 2}
+    baseId: flexible_fruit_sandwich
+    sprite: {fileID: 21300000, guid: d4f9b67fca4454e4c9e87863a276553a, type: 2}
+    dishName: Fruit Sandwich
+    desc: Soft bread, a cloud of cream and bright fruit inside.
+    plate: {fileID: 114703437598541787, guid: 29040c7694153fd49957648cde32a56e, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: e6214dcd237809645983af68408cf1e8, type: 2}
+    baseId: flexible_salad
+    sprite: {fileID: 21300000, guid: b7c18049f839ea34db275c2d1bb30dad, type: 2}
+    dishName: Salad
+    desc: A crunchy bowl of greens with a dab of mayo.
+    plate: {fileID: 114703437598541787, guid: c5ce5a451e3b30a42812363b6efc7ee2, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: 6098cceb17df3564e9e39073e0ba880b, type: 2}
+    baseId: flexible_juice
+    sprite: {fileID: 21300000, guid: e2d214148e8a09145966f738404e0026, type: 2}
+    dishName: Fresh Juice
+    desc: Squeezed to order, ice optional.
+    plate: {fileID: 114703437598541787, guid: f46a1484d0a85a044a5cbd3cfcf70b43, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 5
+    icon: {fileID: 21300000, guid: 95f89be2baca2964880518eba1d888c4, type: 2}
+    baseId: flexible_soup
+    sprite: {fileID: 21300000, guid: 9a9b7c427238ec84a8f404f2ad1d76fb, type: 2}
+    dishName: Soup
+    desc: A warm creamy bowl with something on top.
+    plate: {fileID: 114703437598541787, guid: 026a4c56a6bf82f45a226a5f25dc9ecd, type: 2}
+    dirtyPlate: {fileID: 0}

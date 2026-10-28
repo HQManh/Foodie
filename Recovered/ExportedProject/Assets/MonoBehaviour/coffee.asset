@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 977364902, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: coffee
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  sourceGraphJson: "{\r\n  \"schemaVersion\": 1,\r\n  \"map\": {\r\n    \"id\": \"coffee\",\r\n    \"name\": \"Coffee\",\r\n    \"gridWidth\": 5,\r\n    \"gridHeight\": 2,\r\n    \"dirtyStackHeight\": 3,\r\n    \"visibleRows\": 3,\r\n    \"processSpeedMultiplier\": 1.5,\r\n    \"mergeSpeedMultiplier\": 1.0\r\n  },\r\n  \"idTable\": {\r\n    \"ingredient\": [\r\n      \"donut-fried\",\r\n      \"donut-bar-fried\",\r\n      \"donut-8-fried\",\r\n      \"glaze-choco\",\r\n      \"glaze-strawberry\",\r\n      \"glaze-vanilla\",\r\n      \"glaze-blue\",\r\n      \"cup\",\r\n      \"teacup\",\r\n      \"coffee-bean\",\r\n      \"milk\",\r\n      \"ice\",\r\n      \"cupcake-baked\",\r\n      \"whiping-cream\",\r\n      \"whiping-choco\",\r\n      \"sprinkle\",\r\n      \"blueberry\",\r\n      \"strawberry-sliced\",\r\n      \"kiwi-sliced\",\r\n      \"pineapple-sliced\",\r\n      \"donut\",\r\n      \"donut-bar\",\r\n      \"donut-8\",\r\n      \"coffee-cup-cool\",\r\n      \"coffee-teacup-hot\",\r\n      \"cupcake\",\r\n      \"strawberry\",\r\n      \"kiwi\",\r\n      \"pineapple\"\r\n    ],\r\n    \"composite\": [\r\n      \"donut-with-topping\",\r\n      \"cupcake-with-cream\",\r\n      \"cool-coffee-with-milk\",\r\n      \"hot-coffee-latte\",\r\n      \"cool-coffee-with-milk-ice\",\r\n      \"cool-coffee-with-cream\"\r\n    ],\r\n    \"group\": [\r\n      \"whipings\",\r\n      \"toppings\",\r\n      \"fruits\",\r\n      \"single-donut-fried\",\r\n      \"glazes\"\r\n    ],\r\n    \"tool\": [\r\n      \"coffee-grinder\",\r\n      \"coffee-machine\",\r\n      \"cutting-board\",\r\n      \"baker\",\r\n      \"fryer\"\r\n    ],\r\n    \"dirty\": [\r\n      \"dirty-teacup\",\r\n      \"dirty-cup\",\r\n      \"dirty-plate\"\r\n    ]\r\n  },\r\n  \"vertices\": {\r\n    \"ingredient\": [\r\n      {\r\n        \"name\": \"coffee-bean\",\r\n        \"displayName\": \"Coffee Bean\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🥜\",\r\n        \"localImage\": \"Map2-coffee/ingredients/coffee-bean.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"9\"\r\n      },\r\n      {\r\n        \"name\": \"coffee-grinded\",\r\n        \"displayName\": \"coffee-grinded\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"emoji\": \"🧂\",\r\n        \"localImage\": \"Map2-coffee/ingredients/coffee-grinded.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"9\"\r\n      },\r\n      {\r\n        \"name\": \"cup\",\r\n        \"displayName\": \"cup\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map2-coffee/ingredients/cup.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"teacup\",\r\n        \"displayName\": \"teacup\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"☕\",\r\n        \"localImage\": \"Map2-coffee/ingredients/teacup.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"8\"\r\n      },\r\n      {\r\n        \"name\": \"ice\",\r\n        \"displayName\": \"ice\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🧊\",\r\n        \"localImage\": \"Map2-coffee/ingredients/ice.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"11\"\r\n      },\r\n      {\r\n        \"name\": \"milk\",\r\n        \"displayName\": \"milk\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍼\",\r\n        \"localImage\": \"Map2-coffee/ingredients/milk.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"10\"\r\n      },\r\n      {\r\n        \"name\": \"coffee-cup-cool\",\r\n        \"displayName\": \"coffee-cup-cool\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map2-coffee/ingredients/coffee-cup-cool.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"coffee-teacup-hot\",\r\n        \"displayName\": \"coffee-teacup-hot\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"☕\",\r\n        \"localImage\": \"Map2-coffee/ingredients/coffee-cup-hot.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"8\"\r\n      },\r\n      {\r\n        \"name\": \"whiping-cream\",\r\n        \"displayName\": \"whiping-cream\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"localImage\": \"Map2-coffee/ingredients/whipping-cream.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"13\"\r\n      },\r\n      {\r\n        \"name\": \"whiping-choco\",\r\n        \"displayName\": \"whiping-choco\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"localImage\": \"Map2-coffee/ingredients/whipping-choco.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"14\"\r\n      },\r\n      {\r\n        \"name\": \"sprinkle\",\r\n        \"displayName\": \"sprinkle\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"localImage\": \"Map2-coffee/ingredients/sprinkle.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"15\"\r\n      },\r\n      {\r\n        \"name\": \"pineapple-sliced\",\r\n        \"displayName\": \"pineapple-sliced\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍍\",\r\n        \"localImage\": \"Map2-coffee/ingredients/pineapple-sliced.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"19\"\r\n      },\r\n      {\r\n        \"name\": \"pineapple\",\r\n        \"displayName\": \"pineapple\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🍍🍍\",\r\n        \"localImage\": \"Map2-coffee/ingredients/pineapple.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"19\"\r\n      },\r\n      {\r\n        \"name\": \"blueberry\",\r\n        \"displayName\": \"blueberry\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🔵\",\r\n        \"localImage\": \"Map2-coffee/ingredients/blueberry.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"16\"\r\n      },\r\n      {\r\n        \"name\": \"strawberry\",\r\n        \"displayName\": \"strawberry\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🍓🍓\",\r\n        \"localImage\": \"Map2-coffee/ingredients/strawberry.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"17\"\r\n      },\r\n      {\r\n        \"name\": \"strawberry-sliced\",\r\n        \"displayName\": \"strawberry-sliced\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍓\",\r\n        \"localImage\": \"Map2-coffee/ingredients/strawberry-sliced.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"17\"\r\n      },\r\n      {\r\n        \"name\": \"kiwi\",\r\n        \"displayName\": \"kiwi\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🥝🥝\",\r\n        \"localImage\": \"Map2-coffee/ingredients/kiwi.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"18\"\r\n      },\r\n      {\r\n        \"name\": \"kiwi-sliced\",\r\n        \"displayName\": \"kiwi-sliced\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥝\",\r\n        \"localImage\": \"Map2-coffee/ingredients/kiwi-sliced.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"18\"\r\n      },\r\n      {\r\n        \"name\": \"cupcake\",\r\n        \"displayName\": \"cupcake\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🧁\",\r\n        \"localImage\": \"Map2-coffee/ingredients/cupcake.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"12\"\r\n      },\r\n      {\r\n        \"name\": \"cupcake-baked\",\r\n        \"displayName\": \"cupcake-baked\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🧁\",\r\n        \"localImage\": \"Map2-coffee/ingredients/cupcake-baked.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"12\"\r\n      },\r\n      {\r\n        \"name\": \"donut\",\r\n        \"displayName\": \"donut\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"0\"\r\n      },\r\n      {\r\n        \"name\": \"donut-8\",\r\n        \"displayName\": \"donut-8\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut-8.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"2\"\r\n      },\r\n      {\r\n        \"name\": \"donut-bar\",\r\n        \"displayName\": \"donut-bar\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut-bar.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"1\"\r\n      },\r\n      {\r\n        \"name\": \"donut-fried\",\r\n        \"displayName\": \"donut-fried\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut-fried.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"0\"\r\n      },\r\n      {\r\n        \"name\": \"donut-8-fried\",\r\n        \"displayName\": \"donut-8-fried\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut-8-fried.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"2\"\r\n      },\r\n      {\r\n        \"name\": \"donut-bar-fried\",\r\n        \"displayName\": \"donut-bar-fried\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map2-coffee/ingredients/donut-bar-fried.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"1\"\r\n      },\r\n      {\r\n        \"name\": \"glaze-choco\",\r\n        \"displayName\": \"glaze-choco\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/glaze-choco.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"3\"\r\n      },\r\n      {\r\n        \"name\": \"glaze-strawberry\",\r\n        \"displayName\": \"glaze-strawberry\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/glaze-strawberry.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"4\"\r\n      },\r\n      {\r\n        \"name\": \"glaze-vanilla\",\r\n        \"displayName\": \"glaze-vanilla\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/glaze-vanilla.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"5\"\r\n      },\r\n      {\r\n        \"name\": \"glaze-blue\",\r\n        \"displayName\": \"glaze-blue\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map2-coffee/ingredients/glaze-blue.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3,\r\n        \"pieceIndex\": \"6\"\r\n      }\r\n    ],\r\n    \"tool\": [\r\n      {\r\n        \"name\": \"coffee-grinder\",\r\n        \"displayName\": \"coffee-grinder\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"preservationSlots\": 1,\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [],\r\n        \"localImage\": \"Map2-coffee/tools/grinder.png\"\r\n      },\r\n      {\r\n        \"name\": \"coffee-machine\",\r\n        \"displayName\": \"coffee-machine\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"ground-coffee-container\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"name\": \"cup-slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [],\r\n        \"localImage\": \"Map2-coffee/tools/coffee-machine_3.png\"\r\n      },\r\n      {\r\n        \"name\": \"cutting-board\",\r\n        \"displayName\": \"cutting-board\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🔪\",\r\n        \"upgradeCosts\": [],\r\n        \"localImage\": \"Map2-coffee/tools/cutting-board.png\"\r\n      },\r\n      {\r\n        \"name\": \"baker\",\r\n        \"displayName\": \"baker\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"localImage\": \"Map2-coffee/tools/baking-oven.png\"\r\n      },\r\n      {\r\n        \"name\": \"fryer\",\r\n        \"displayName\": \"fryer\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"localImage\": \"Map2-coffee/tools/fryer.png\"\r\n      }\r\n    ],\r\n    \"group\": [\r\n      {\r\n        \"name\": \"whipings\",\r\n        \"displayName\": \"whipings\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"toppings\",\r\n        \"displayName\": \"toppings\",\r\n        \"maxQuantity\": -1,\r\n        \"mutuallyExclusive\": true\r\n      },\r\n      {\r\n        \"name\": \"fruits\",\r\n        \"displayName\": \"fruits\",\r\n        \"maxQuantity\": 4\r\n      },\r\n      {\r\n        \"name\": \"single-donut-fried\",\r\n        \"displayName\": \"single-donut-fried\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"glazes\",\r\n        \"displayName\": \"glazes\",\r\n        \"minQuantity\": 1,\r\n        \"maxQuantity\": 1\r\n      }\r\n    ],\r\n    \"composite\": [\r\n      {\r\n        \"name\": \"cool-coffee-with-milk\",\r\n        \"displayName\": \"cool-coffee-with-milk\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🧋\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Coffee_Cold.png\"\r\n      },\r\n      {\r\n        \"name\": \"hot-coffee-latte\",\r\n        \"displayName\": \"hot-coffee-latte\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"☕\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Coffee_Hot.png\"\r\n      },\r\n      {\r\n        \"name\": \"cool-coffee-with-cream\",\r\n        \"displayName\": \"cool-coffee-with-cream\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🧋\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Coffee_Cold.png\"\r\n      },\r\n      {\r\n        \"name\": \"cool-coffee-with-milk-ice\",\r\n        \"displayName\": \"cool-coffee-with-milk-ice\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🥤\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Coffee_Cold.png\"\r\n      },\r\n      {\r\n        \"name\": \"whiping-cream-with-topping\",\r\n        \"displayName\": \"whiping-cream-with-topping\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍦\",\r\n        \"mergeDuration\": 0.1\r\n      },\r\n      {\r\n        \"name\": \"cupcake-with-cream\",\r\n        \"displayName\": \"cupcake-with-cream\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🧁\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_CupCake.png\"\r\n      },\r\n      {\r\n        \"name\": \"donut-with-topping\",\r\n        \"displayName\": \"donut-with-topping\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍩\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Donut.png\"\r\n      },\r\n      {\r\n        \"name\": \"donut-with-glaze\",\r\n        \"displayName\": \"donut-with-glaze\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍪\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map2-coffee/preview/Icon_Map2_Donut.png\"\r\n      }\r\n    ],\r\n    \"dirty\": [\r\n      {\r\n        \"name\": \"dirty-teacup\",\r\n        \"displayName\": \"dirty-teacup\"\r\n      },\r\n      {\r\n        \"name\": \"dirty-cup\",\r\n        \"displayName\": \"dirty-cup\"\r\n      },\r\n      {\r\n        \"name\": \"dirty-plate\",\r\n        \"displayName\": \"dirty-plate\"\r\n      }\r\n    ]\r\n  },\r\n  \"edges\": {\r\n    \"preservation\": [\r\n      {\r\n        \"from\": \"coffee-grinder\",\r\n        \"to\": \"coffee-bean\"\r\n      }\r\n    ],\r\n    \"process\": [\r\n      {\r\n        \"from\": \"coffee-grinder\",\r\n        \"to\": \"coffee-grinded\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"coffee-bean\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 3\r\n      },\r\n      {\r\n        \"from\": \"coffee-machine\",\r\n        \"to\": \"coffee-cup-cool\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"coffee-grinded\",\r\n            \"slot\": 0\r\n          },\r\n          {\r\n            \"ingredient\": \"cup\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 6.4667\r\n      },\r\n      {\r\n        \"from\": \"coffee-machine\",\r\n        \"to\": \"coffee-teacup-hot\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"coffee-grinded\",\r\n            \"slot\": 0\r\n          },\r\n          {\r\n            \"ingredient\": \"teacup\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 6.4333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"kiwi-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"kiwi\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"strawberry-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"strawberry\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"pineapple-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"pineapple\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 7.3333\r\n      },\r\n      {\r\n        \"from\": \"baker\",\r\n        \"to\": \"cupcake-baked\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"cupcake\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 6.8332\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"donut-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"donut\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      }\r\n    ],\r\n    \"base\": [\r\n      {\r\n        \"from\": \"cool-coffee-with-milk\",\r\n        \"to\": \"coffee-cup-cool\"\r\n      },\r\n      {\r\n        \"from\": \"hot-coffee-latte\",\r\n        \"to\": \"coffee-teacup-hot\"\r\n      },\r\n      {\r\n        \"from\": \"cool-coffee-with-milk-ice\",\r\n        \"to\": \"cool-coffee-with-milk\"\r\n      },\r\n      {\r\n        \"from\": \"cool-coffee-with-cream\",\r\n        \"to\": \"cool-coffee-with-milk\"\r\n      },\r\n      {\r\n        \"from\": \"whiping-cream-with-topping\",\r\n        \"to\": \"whipings\"\r\n      },\r\n      {\r\n        \"from\": \"cupcake-with-cream\",\r\n        \"to\": \"cupcake-baked\"\r\n      },\r\n      {\r\n        \"from\": \"donut-with-topping\",\r\n        \"to\": \"donut-with-glaze\"\r\n      },\r\n      {\r\n        \"from\": \"donut-with-glaze\",\r\n        \"to\": \"single-donut-fried\"\r\n      }\r\n    ],\r\n    \"topping\": [\r\n      {\r\n        \"from\": \"cool-coffee-with-milk\",\r\n        \"to\": \"milk\"\r\n      },\r\n      {\r\n        \"from\": \"hot-coffee-latte\",\r\n        \"to\": \"milk\"\r\n      },\r\n      {\r\n        \"from\": \"cool-coffee-with-milk-ice\",\r\n        \"to\": \"ice\"\r\n      },\r\n      {\r\n        \"from\": \"whiping-cream-with-topping\",\r\n        \"to\": \"toppings\"\r\n      },\r\n      {\r\n        \"from\": \"cool-coffee-with-cream\",\r\n        \"to\": \"whiping-cream-with-topping\"\r\n      },\r\n      {\r\n        \"from\": \"cupcake-with-cream\",\r\n        \"to\": \"whiping-cream-with-topping\"\r\n      },\r\n      {\r\n        \"from\": \"donut-with-topping\",\r\n        \"to\": \"toppings\"\r\n      },\r\n      {\r\n        \"from\": \"donut-with-glaze\",\r\n        \"to\": \"glazes\"\r\n      }\r\n    ],\r\n    \"option\": [\r\n      {\r\n        \"from\": \"whipings\",\r\n        \"to\": \"whiping-cream\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"whipings\",\r\n        \"to\": \"whiping-choco\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"toppings\",\r\n        \"to\": \"sprinkle\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"toppings\",\r\n        \"to\": \"fruits\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"fruits\",\r\n        \"to\": \"kiwi-sliced\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruits\",\r\n        \"to\": \"strawberry-sliced\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruits\",\r\n        \"to\": \"pineapple-sliced\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fruits\",\r\n        \"to\": \"blueberry\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"glazes\",\r\n        \"to\": \"glaze-choco\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"glazes\",\r\n        \"to\": \"glaze-strawberry\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"glazes\",\r\n        \"to\": \"glaze-vanilla\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"glazes\",\r\n        \"to\": \"glaze-blue\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"single-donut-fried\",\r\n        \"to\": \"donut-fried\",\r\n        \"maxQuantity\": -1\r\n      }\r\n    ],\r\n    \"leavesDirty\": []\r\n  },\r\n  \"layout\": {\r\n    \"table:pickupable\": {\r\n      \"x\": -601.41013079999993,\r\n      \"y\": -684.12776039999949\r\n    },\r\n    \"table:orderable\": {\r\n      \"x\": 2247.1991256161341,\r\n      \"y\": -557.4057858947192\r\n    },\r\n    \"ingredient:coffee-bean\": {\r\n      \"x\": 81.063920454545439,\r\n      \"y\": 69.421875\r\n    },\r\n    \"ingredient:coffee-grinded\": {\r\n      \"x\": 85.609375,\r\n      \"y\": 266.681875\r\n    },\r\n    \"tool:coffee-grinder\": {\r\n      \"x\": 84.609375,\r\n      \"y\": 141.421875\r\n    },\r\n    \"ingredient:cup\": {\r\n      \"x\": 195.10937500000014,\r\n      \"y\": 489.23187499999995\r\n    },\r\n    \"ingredient:teacup\": {\r\n      \"x\": 171.74937500000016,\r\n      \"y\": 606.64187499999991\r\n    },\r\n    \"ingredient:ice\": {\r\n      \"x\": 867.50337482833731,\r\n      \"y\": 247.1748817138685\r\n    },\r\n    \"ingredient:milk\": {\r\n      \"x\": 864.46484637955575,\r\n      \"y\": 359.68495736416941\r\n    },\r\n    \"tool:coffee-machine\": {\r\n      \"x\": 513.54666237571041,\r\n      \"y\": 474.92824176441519\r\n    },\r\n    \"ingredient:coffee-cup-cool\": {\r\n      \"x\": 863.83649978637652,\r\n      \"y\": 494.12748840331994\r\n    },\r\n    \"ingredient:coffee-teacup-hot\": {\r\n      \"x\": 872.83649978637663,\r\n      \"y\": 611.2874884033198\r\n    },\r\n    \"composite:cool-coffee-with-milk\": {\r\n      \"x\": 1248.4593750000001,\r\n      \"y\": 353.98187500000006\r\n    },\r\n    \"composite:hot-coffee-latte\": {\r\n      \"x\": 1242.5215378841674,\r\n      \"y\": 560.95476982179707\r\n    },\r\n    \"ingredient:whiping-cream\": {\r\n      \"x\": 604.892898559569,\r\n      \"y\": -14.553512573242152\r\n    },\r\n    \"ingredient:whiping-choco\": {\r\n      \"x\": 605.892898559569,\r\n      \"y\": 79.44648742675767\r\n    },\r\n    \"group:whipings\": {\r\n      \"x\": 886.89291381835778,\r\n      \"y\": 32.446472167968693\r\n    },\r\n    \"composite:cool-coffee-with-milk-ice\": {\r\n      \"x\": 1690.1959075927698,\r\n      \"y\": 202.98248291015582\r\n    },\r\n    \"composite:cool-coffee-with-cream\": {\r\n      \"x\": 1634.2309051132174,\r\n      \"y\": -41.812514160156105\r\n    },\r\n    \"composite:whiping-cream-with-topping\": {\r\n      \"x\": 1392.9458984374969,\r\n      \"y\": -215.9575042724606\r\n    },\r\n    \"group:toppings\": {\r\n      \"x\": 1138.5458984374975,\r\n      \"y\": -279.85750427246029\r\n    },\r\n    \"group:fruits\": {\r\n      \"x\": 904.445898437498,\r\n      \"y\": -535.95750427246048\r\n    },\r\n    \"ingredient:sprinkle\": {\r\n      \"x\": 800.01489843749823,\r\n      \"y\": -182.88850427246018\r\n    },\r\n    \"ingredient:pineapple-sliced\": {\r\n      \"x\": 646.34589843749836,\r\n      \"y\": -519.4574707031237\r\n    },\r\n    \"ingredient:pineapple\": {\r\n      \"x\": 52.245898437499974,\r\n      \"y\": -485.65747070312409\r\n    },\r\n    \"ingredient:blueberry\": {\r\n      \"x\": 655.3458984375,\r\n      \"y\": -440.5574707031243\r\n    },\r\n    \"ingredient:strawberry\": {\r\n      \"x\": 51.635388437499991,\r\n      \"y\": -566.05747070312384\r\n    },\r\n    \"ingredient:strawberry-sliced\": {\r\n      \"x\": 646.14589843749843,\r\n      \"y\": -595.75747070312354\r\n    },\r\n    \"tool:cutting-board\": {\r\n      \"x\": 349.04589843749915,\r\n      \"y\": -651.25753784179528\r\n    },\r\n    \"ingredient:kiwi\": {\r\n      \"x\": 48.0458984375001,\r\n      \"y\": -678.35753784179531\r\n    },\r\n    \"ingredient:kiwi-sliced\": {\r\n      \"x\": 648.34589843749836,\r\n      \"y\": -682.35753784179531\r\n    },\r\n    \"ingredient:cupcake\": {\r\n      \"x\": 76.295950210296525,\r\n      \"y\": -814.30854625171514\r\n    },\r\n    \"tool:baker\": {\r\n      \"x\": 353.12887934538304,\r\n      \"y\": -846.52230007695925\r\n    },\r\n    \"ingredient:cupcake-baked\": {\r\n      \"x\": 644.035047090298,\r\n      \"y\": -814.83639042754419\r\n    },\r\n    \"composite:cupcake-with-cream\": {\r\n      \"x\": 1677.47582672119,\r\n      \"y\": -417.629978637695\r\n    },\r\n    \"ingredient:donut\": {\r\n      \"x\": 85.490416907513548,\r\n      \"y\": -1115.9585370775749\r\n    },\r\n    \"ingredient:donut-8\": {\r\n      \"x\": 82.927905371093743,\r\n      \"y\": -1045.1723773046865\r\n    },\r\n    \"ingredient:donut-bar\": {\r\n      \"x\": 80.91688537109377,\r\n      \"y\": -971.21849730468659\r\n    },\r\n    \"tool:fryer\": {\r\n      \"x\": 352.62843537109342,\r\n      \"y\": -1102.4090073046864\r\n    },\r\n    \"ingredient:donut-fried\": {\r\n      \"x\": 646.26819690751313,\r\n      \"y\": -1118.5954770775747\r\n    },\r\n    \"ingredient:donut-8-fried\": {\r\n      \"x\": 646.35956537109337,\r\n      \"y\": -1046.7913573046865\r\n    },\r\n    \"ingredient:donut-bar-fried\": {\r\n      \"x\": 642.72956537109326,\r\n      \"y\": -974.4986973046864\r\n    },\r\n    \"group:single-donut-fried\": {\r\n      \"x\": 1045.9082976304612,\r\n      \"y\": -1074.0588439355452\r\n    },\r\n    \"composite:donut-with-topping\": {\r\n      \"x\": 1630.4370649199325,\r\n      \"y\": -1015.7671606827645\r\n    },\r\n    \"ingredient:glaze-choco\": {\r\n      \"x\": 647.42546500000014,\r\n      \"y\": -1419.715685\r\n    },\r\n    \"ingredient:glaze-strawberry\": {\r\n      \"x\": 644.21546500000011,\r\n      \"y\": -1352.715685\r\n    },\r\n    \"ingredient:glaze-vanilla\": {\r\n      \"x\": 646.42546500000014,\r\n      \"y\": -1280.715685\r\n    },\r\n    \"ingredient:glaze-blue\": {\r\n      \"x\": 646.63546500000018,\r\n      \"y\": -1214.715685\r\n    },\r\n    \"group:glazes\": {\r\n      \"x\": 1045.1828050000001,\r\n      \"y\": -1307.884155\r\n    },\r\n    \"composite:donut-with-glaze\": {\r\n      \"x\": 1312.2714199105667,\r\n      \"y\": -1221.0903148641264\r\n    },\r\n    \"dirty:dirty-teacup\": {\r\n      \"x\": 2128.3940880006203,\r\n      \"y\": -22.042581878932648\r\n    },\r\n    \"dirty:dirty-cup\": {\r\n      \"x\": 2117.9643740997935,\r\n      \"y\": 214.86347040205874\r\n    },\r\n    \"dirty:dirty-plate\": {\r\n      \"x\": 2115.894557884917,\r\n      \"y\": -771.06058568058552\r\n    }\r\n  },\r\n  \"notes\": [],\r\n  \"mergeDurationOverrides\": [\r\n    {\r\n      \"ingredientIndex\": 10,\r\n      \"composite\": \"cool-coffee-with-milk\",\r\n      \"mergeDuration\": 3.5333\r\n    },\r\n    {\r\n      \"ingredientIndex\": 10,\r\n      \"composite\": \"hot-coffee-latte\",\r\n      \"mergeDuration\": 4.5\r\n    },\r\n    {\r\n      \"ingredientIndex\": 13,\r\n      \"composite\": \"cool-coffee-with-cream\",\r\n      \"mergeDuration\": 2.6667\r\n    },\r\n    {\r\n      \"ingredientIndex\": 14,\r\n      \"composite\": \"cool-coffee-with-cream\",\r\n      \"mergeDuration\": 2.6667\r\n    },\r\n    {\r\n      \"ingredientIndex\": 13,\r\n      \"composite\": \"cupcake-with-cream\",\r\n      \"mergeDuration\": 2.6667\r\n    },\r\n    {\r\n      \"ingredientIndex\": 14,\r\n      \"composite\": \"cupcake-with-cream\",\r\n      \"mergeDuration\": 2.6667\r\n    }\r\n  ]\r\n}"
+  map:
+    id: coffee
+    name: Coffee
+    gridWidth: 5
+    gridHeight: 2
+    dirtyStackHeight: 3
+    visibleRows: 3
+    processSpeedMultiplier: 1.5
+    mergeSpeedMultiplier: 1
+  idTable:
+    ingredient:
+    - {fileID: 11400000, guid: 88a721665afe38646ba5aedba6673a64, type: 2}
+    - {fileID: 11400000, guid: 76f0e548dab8af3438ba6ae25995765a, type: 2}
+    - {fileID: 11400000, guid: e8c1f1992da71b042b6806bf79d64cde, type: 2}
+    - {fileID: 11400000, guid: e434fc94d69ca2d4ebc55764dee36671, type: 2}
+    - {fileID: 11400000, guid: 0f5b0ad53a5b99643ab7c5eafd12798e, type: 2}
+    - {fileID: 11400000, guid: 4a34b4b9ada8354448a5cb846e5e3a6b, type: 2}
+    - {fileID: 11400000, guid: 24f727a2c5196ce44bf25aba468ec060, type: 2}
+    - {fileID: 11400000, guid: 9e0e6f198f5bb894c9abf59c17112915, type: 2}
+    - {fileID: 11400000, guid: ee118998f4ae7714a9298fe100021473, type: 2}
+    - {fileID: 11400000, guid: 198e4ab727951ad43abf9fa1f598eb52, type: 2}
+    - {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+    - {fileID: 11400000, guid: 3bb71e64174875247b6065ce243e6073, type: 2}
+    - {fileID: 11400000, guid: 92ac1e2d690179d4d8a9106dd9e1355b, type: 2}
+    - {fileID: 11400000, guid: 71dbfd04c17570b4d9741548622245ed, type: 2}
+    - {fileID: 11400000, guid: d1c9f23e3f083c84ca8ca96b18edd711, type: 2}
+    - {fileID: 11400000, guid: 4ee8649e6134f4a4591bc0ec36e9609a, type: 2}
+    - {fileID: 11400000, guid: 79ee4683788701347b19c567b5fbcda1, type: 2}
+    - {fileID: 11400000, guid: d724bbe1c91d0b94cac4f1e758fa070b, type: 2}
+    - {fileID: 11400000, guid: 3be5fc7a3f989e941a840d8961321c75, type: 2}
+    - {fileID: 11400000, guid: 2564a5662189fed47b90d30947c0c9cd, type: 2}
+    - {fileID: 11400000, guid: f5a0b404b487ab94cb9b3d6110e34825, type: 2}
+    - {fileID: 11400000, guid: 99807115a3fc15d4fa5e74ecae1f86af, type: 2}
+    - {fileID: 11400000, guid: 5d75ef73108ccc441999432aa720eeb0, type: 2}
+    - {fileID: 11400000, guid: b846141884c45014c9f13a4db3676cbb, type: 2}
+    - {fileID: 11400000, guid: a69f1ced73dee2745b2705db96586c45, type: 2}
+    - {fileID: 11400000, guid: c45bb87056f1833488422dbee5c25ea8, type: 2}
+    - {fileID: 11400000, guid: 7dfba6610698b18408110930f0a3a745, type: 2}
+    - {fileID: 11400000, guid: 06b3aaf1b2a5f1746b45a07fe0058bde, type: 2}
+    - {fileID: 11400000, guid: a27ccf1d8ac4b71469b3057b132fa7a0, type: 2}
+    composite:
+    - {fileID: 11400000, guid: a655744a017c1fa468f5d50bc2f45049, type: 2}
+    - {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+    - {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+    - {fileID: 11400000, guid: f5a5d90e72617f04da47e548342025c0, type: 2}
+    - {fileID: 11400000, guid: 37bfefcdf83fab945afe5d9dd65efe92, type: 2}
+    - {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+    group:
+    - {fileID: 11400000, guid: a69ae85c7aa136043bf7be31ee7a48b1, type: 2}
+    - {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+    - {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    - {fileID: 11400000, guid: 7345e2fba3e705e409b880f5644f762c, type: 2}
+    - {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+    tool:
+    - {fileID: 11400000, guid: 11824657099abc042b3004fee75220be, type: 2}
+    - {fileID: 11400000, guid: 8b77c4c1316c0cb438de4794756a5e47, type: 2}
+    - {fileID: 11400000, guid: 312b875c38f6ad94aab733281b6a80d3, type: 2}
+    - {fileID: 11400000, guid: 2f1b7e26520af6f4ebc60fd0d90b44c8, type: 2}
+    - {fileID: 11400000, guid: 598e7fdd1f99279488a4c013d20dfee1, type: 2}
+    dirty:
+    - {fileID: 11400000, guid: 935b67f77a4dd004791432c6053add22, type: 2}
+    - {fileID: 11400000, guid: da8e0241634fdfb4ca0973e3aeeb5214, type: 2}
+    - {fileID: 11400000, guid: 91edfdcfbf2e8f24eb7cd39ded44bce6, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 198e4ab727951ad43abf9fa1f598eb52, type: 2}
+  - {fileID: 11400000, guid: 0105885b96fd8d447b497543358aa3a6, type: 2}
+  - {fileID: 11400000, guid: 9e0e6f198f5bb894c9abf59c17112915, type: 2}
+  - {fileID: 11400000, guid: ee118998f4ae7714a9298fe100021473, type: 2}
+  - {fileID: 11400000, guid: 3bb71e64174875247b6065ce243e6073, type: 2}
+  - {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+  - {fileID: 11400000, guid: b846141884c45014c9f13a4db3676cbb, type: 2}
+  - {fileID: 11400000, guid: a69f1ced73dee2745b2705db96586c45, type: 2}
+  - {fileID: 11400000, guid: 71dbfd04c17570b4d9741548622245ed, type: 2}
+  - {fileID: 11400000, guid: d1c9f23e3f083c84ca8ca96b18edd711, type: 2}
+  - {fileID: 11400000, guid: 4ee8649e6134f4a4591bc0ec36e9609a, type: 2}
+  - {fileID: 11400000, guid: 2564a5662189fed47b90d30947c0c9cd, type: 2}
+  - {fileID: 11400000, guid: a27ccf1d8ac4b71469b3057b132fa7a0, type: 2}
+  - {fileID: 11400000, guid: 79ee4683788701347b19c567b5fbcda1, type: 2}
+  - {fileID: 11400000, guid: 7dfba6610698b18408110930f0a3a745, type: 2}
+  - {fileID: 11400000, guid: d724bbe1c91d0b94cac4f1e758fa070b, type: 2}
+  - {fileID: 11400000, guid: 06b3aaf1b2a5f1746b45a07fe0058bde, type: 2}
+  - {fileID: 11400000, guid: 3be5fc7a3f989e941a840d8961321c75, type: 2}
+  - {fileID: 11400000, guid: c45bb87056f1833488422dbee5c25ea8, type: 2}
+  - {fileID: 11400000, guid: 92ac1e2d690179d4d8a9106dd9e1355b, type: 2}
+  - {fileID: 11400000, guid: f5a0b404b487ab94cb9b3d6110e34825, type: 2}
+  - {fileID: 11400000, guid: 5d75ef73108ccc441999432aa720eeb0, type: 2}
+  - {fileID: 11400000, guid: 99807115a3fc15d4fa5e74ecae1f86af, type: 2}
+  - {fileID: 11400000, guid: 88a721665afe38646ba5aedba6673a64, type: 2}
+  - {fileID: 11400000, guid: e8c1f1992da71b042b6806bf79d64cde, type: 2}
+  - {fileID: 11400000, guid: 76f0e548dab8af3438ba6ae25995765a, type: 2}
+  - {fileID: 11400000, guid: e434fc94d69ca2d4ebc55764dee36671, type: 2}
+  - {fileID: 11400000, guid: 0f5b0ad53a5b99643ab7c5eafd12798e, type: 2}
+  - {fileID: 11400000, guid: 4a34b4b9ada8354448a5cb846e5e3a6b, type: 2}
+  - {fileID: 11400000, guid: 24f727a2c5196ce44bf25aba468ec060, type: 2}
+  tools:
+  - {fileID: 11400000, guid: 11824657099abc042b3004fee75220be, type: 2}
+  - {fileID: 11400000, guid: 8b77c4c1316c0cb438de4794756a5e47, type: 2}
+  - {fileID: 11400000, guid: 312b875c38f6ad94aab733281b6a80d3, type: 2}
+  - {fileID: 11400000, guid: 2f1b7e26520af6f4ebc60fd0d90b44c8, type: 2}
+  - {fileID: 11400000, guid: 598e7fdd1f99279488a4c013d20dfee1, type: 2}
+  groups:
+  - {fileID: 11400000, guid: a69ae85c7aa136043bf7be31ee7a48b1, type: 2}
+  - {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+  - {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+  - {fileID: 11400000, guid: 7345e2fba3e705e409b880f5644f762c, type: 2}
+  - {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+  composites:
+  - {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+  - {fileID: 11400000, guid: f5a5d90e72617f04da47e548342025c0, type: 2}
+  - {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+  - {fileID: 11400000, guid: 37bfefcdf83fab945afe5d9dd65efe92, type: 2}
+  - {fileID: 11400000, guid: 7b763c9899c187e488b345a351d8d9aa, type: 2}
+  - {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+  - {fileID: 11400000, guid: a655744a017c1fa468f5d50bc2f45049, type: 2}
+  - {fileID: 11400000, guid: 32ed79a6da6357447bfbc6a80a693500, type: 2}
+  dirtyObjects:
+  - {fileID: 11400000, guid: 935b67f77a4dd004791432c6053add22, type: 2}
+  - {fileID: 11400000, guid: da8e0241634fdfb4ca0973e3aeeb5214, type: 2}
+  - {fileID: 11400000, guid: 91edfdcfbf2e8f24eb7cd39ded44bce6, type: 2}
+  mergeDurationOverrides:
+  - ingredient: {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+    composite: {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+    mergeDuration: 3.5333
+  - ingredient: {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+    composite: {fileID: 11400000, guid: f5a5d90e72617f04da47e548342025c0, type: 2}
+    mergeDuration: 4.5
+  - ingredient: {fileID: 11400000, guid: 71dbfd04c17570b4d9741548622245ed, type: 2}
+    composite: {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+    mergeDuration: 2.6667
+  - ingredient: {fileID: 11400000, guid: d1c9f23e3f083c84ca8ca96b18edd711, type: 2}
+    composite: {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+    mergeDuration: 2.6667
+  - ingredient: {fileID: 11400000, guid: 71dbfd04c17570b4d9741548622245ed, type: 2}
+    composite: {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+    mergeDuration: 2.6667
+  - ingredient: {fileID: 11400000, guid: d1c9f23e3f083c84ca8ca96b18edd711, type: 2}
+    composite: {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+    mergeDuration: 2.6667
+  exclusiveRules: []
+  executionProfile: {fileID: 11400000, guid: 65a9ad9ab9ec7c6408eb939e410c2376, type: 2}
+  runtimeOverrides: {fileID: 0}
+  processEdges:
+  - from: {fileID: 11400000, guid: 11824657099abc042b3004fee75220be, type: 2}
+    to: {fileID: 11400000, guid: 0105885b96fd8d447b497543358aa3a6, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 198e4ab727951ad43abf9fa1f598eb52, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 3
+    chainTools: []
+  - from: {fileID: 11400000, guid: 8b77c4c1316c0cb438de4794756a5e47, type: 2}
+    to: {fileID: 11400000, guid: b846141884c45014c9f13a4db3676cbb, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0105885b96fd8d447b497543358aa3a6, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: 9e0e6f198f5bb894c9abf59c17112915, type: 2}
+      slot: 1
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 6.4667
+    chainTools: []
+  - from: {fileID: 11400000, guid: 8b77c4c1316c0cb438de4794756a5e47, type: 2}
+    to: {fileID: 11400000, guid: a69f1ced73dee2745b2705db96586c45, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0105885b96fd8d447b497543358aa3a6, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ee118998f4ae7714a9298fe100021473, type: 2}
+      slot: 1
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 6.4333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 312b875c38f6ad94aab733281b6a80d3, type: 2}
+    to: {fileID: 11400000, guid: 3be5fc7a3f989e941a840d8961321c75, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 06b3aaf1b2a5f1746b45a07fe0058bde, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4
+    chainTools: []
+  - from: {fileID: 11400000, guid: 312b875c38f6ad94aab733281b6a80d3, type: 2}
+    to: {fileID: 11400000, guid: d724bbe1c91d0b94cac4f1e758fa070b, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 7dfba6610698b18408110930f0a3a745, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: 312b875c38f6ad94aab733281b6a80d3, type: 2}
+    to: {fileID: 11400000, guid: 2564a5662189fed47b90d30947c0c9cd, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: a27ccf1d8ac4b71469b3057b132fa7a0, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 7.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 2f1b7e26520af6f4ebc60fd0d90b44c8, type: 2}
+    to: {fileID: 11400000, guid: 92ac1e2d690179d4d8a9106dd9e1355b, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: c45bb87056f1833488422dbee5c25ea8, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 6.8332
+    chainTools: []
+  - from: {fileID: 11400000, guid: 598e7fdd1f99279488a4c013d20dfee1, type: 2}
+    to: {fileID: 11400000, guid: 88a721665afe38646ba5aedba6673a64, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f5a0b404b487ab94cb9b3d6110e34825, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  compositeProcesses: []
+  gridAssemblies: []
+  preservationEdges:
+  - from: {fileID: 11400000, guid: 11824657099abc042b3004fee75220be, type: 2}
+    to: {fileID: 11400000, guid: 198e4ab727951ad43abf9fa1f598eb52, type: 2}
+  baseEdges:
+  - from: {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+    to: {fileID: 11400000, guid: b846141884c45014c9f13a4db3676cbb, type: 2}
+  - from: {fileID: 11400000, guid: f5a5d90e72617f04da47e548342025c0, type: 2}
+    to: {fileID: 11400000, guid: a69f1ced73dee2745b2705db96586c45, type: 2}
+  - from: {fileID: 11400000, guid: 37bfefcdf83fab945afe5d9dd65efe92, type: 2}
+    to: {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+  - from: {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+    to: {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+  - from: {fileID: 11400000, guid: 7b763c9899c187e488b345a351d8d9aa, type: 2}
+    to: {fileID: 11400000, guid: a69ae85c7aa136043bf7be31ee7a48b1, type: 2}
+  - from: {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+    to: {fileID: 11400000, guid: 92ac1e2d690179d4d8a9106dd9e1355b, type: 2}
+  - from: {fileID: 11400000, guid: a655744a017c1fa468f5d50bc2f45049, type: 2}
+    to: {fileID: 11400000, guid: 32ed79a6da6357447bfbc6a80a693500, type: 2}
+  - from: {fileID: 11400000, guid: 32ed79a6da6357447bfbc6a80a693500, type: 2}
+    to: {fileID: 11400000, guid: 7345e2fba3e705e409b880f5644f762c, type: 2}
+  toppingEdges:
+  - from: {fileID: 11400000, guid: 91e045ba15136ef4d8eb95184af44cf1, type: 2}
+    to: {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+  - from: {fileID: 11400000, guid: f5a5d90e72617f04da47e548342025c0, type: 2}
+    to: {fileID: 11400000, guid: 6fea8005a7fad9d428fcf40d5f5ecd7c, type: 2}
+  - from: {fileID: 11400000, guid: 37bfefcdf83fab945afe5d9dd65efe92, type: 2}
+    to: {fileID: 11400000, guid: 3bb71e64174875247b6065ce243e6073, type: 2}
+  - from: {fileID: 11400000, guid: 7b763c9899c187e488b345a351d8d9aa, type: 2}
+    to: {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+  - from: {fileID: 11400000, guid: c4a4201c2cbd7ed44883bd602204ff20, type: 2}
+    to: {fileID: 11400000, guid: 7b763c9899c187e488b345a351d8d9aa, type: 2}
+  - from: {fileID: 11400000, guid: 3dd033ee2719cb747aed9676cd5bb5fa, type: 2}
+    to: {fileID: 11400000, guid: 7b763c9899c187e488b345a351d8d9aa, type: 2}
+  - from: {fileID: 11400000, guid: a655744a017c1fa468f5d50bc2f45049, type: 2}
+    to: {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+  - from: {fileID: 11400000, guid: 32ed79a6da6357447bfbc6a80a693500, type: 2}
+    to: {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+  optionEdges:
+  - from: {fileID: 11400000, guid: a69ae85c7aa136043bf7be31ee7a48b1, type: 2}
+    to: {fileID: 11400000, guid: 71dbfd04c17570b4d9741548622245ed, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: a69ae85c7aa136043bf7be31ee7a48b1, type: 2}
+    to: {fileID: 11400000, guid: d1c9f23e3f083c84ca8ca96b18edd711, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+    to: {fileID: 11400000, guid: 4ee8649e6134f4a4591bc0ec36e9609a, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 742f25a0342795a4ea10ab51b3cbef11, type: 2}
+    to: {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    to: {fileID: 11400000, guid: 3be5fc7a3f989e941a840d8961321c75, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    to: {fileID: 11400000, guid: d724bbe1c91d0b94cac4f1e758fa070b, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    to: {fileID: 11400000, guid: 2564a5662189fed47b90d30947c0c9cd, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 7a0d9c8d22d6dd946925da1ccf0566c9, type: 2}
+    to: {fileID: 11400000, guid: 79ee4683788701347b19c567b5fbcda1, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+    to: {fileID: 11400000, guid: e434fc94d69ca2d4ebc55764dee36671, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+    to: {fileID: 11400000, guid: 0f5b0ad53a5b99643ab7c5eafd12798e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+    to: {fileID: 11400000, guid: 4a34b4b9ada8354448a5cb846e5e3a6b, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: eafaac97406ddd9429a9fb11b78aca27, type: 2}
+    to: {fileID: 11400000, guid: 24f727a2c5196ce44bf25aba468ec060, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 7345e2fba3e705e409b880f5644f762c, type: 2}
+    to: {fileID: 11400000, guid: 88a721665afe38646ba5aedba6673a64, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  leavesDirtyEdges: []

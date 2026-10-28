@@ -1,0 +1,21 @@
+const fs=require('fs');
+const B='D:/Unity/Foodie/UnityProject/Assets/';
+function edit(p,reps){const raw=fs.readFileSync(p,'utf8');const nl=raw.includes('\r\n')?'\r\n':'\n';let s=raw;
+ for(const [from,to] of reps){if(!s.includes(from))throw new Error('nf '+from+' in '+p);s=s.replace(from,to.replace(/\r?\n/g,nl));}fs.writeFileSync(p,s);}
+const ids=(arr)=>arr.map(([name,str])=>['private static readonly int '+name+';','private static readonly int '+name+' = Shader.PropertyToID("'+str+'");']);
+const note='// The ids are Shader.PropertyToID of string literals read from the static constructor (metadata).\n\t';
+let r=ids([['IdProgress','_Progress'],['IdDirection','_Direction'],['IdAspect','_Aspect'],['IdFromBottom','_FromBottom'],['IdFromTop','_FromTop'],['IdToBottom','_ToBottom'],['IdToTop','_ToTop']]);r[0][1]=note+r[0][1];
+edit(B+'Plugins/CakeOrder/CakeOrder.Home/HomeMapTransitionFog.cs',r);
+r=ids([['IdShadowColor','_BgGradeShadowColor'],['IdMidColor','_BgGradeMidColor'],['IdHighlightColor','_BgGradeHighlightColor'],['IdToneRange','_BgGradeToneRange'],['IdParams','_BgGradeParams']]);r[0][1]=note+r[0][1];
+edit(B+'Plugins/CakeOrder/CakeOrder.InGame/BackgroundColorGradingControl.cs',r);
+r=ids([['FillID','_Fill'],['VerticalID','_IsVertical'],['ReverseID','_Reverse'],['ColorID','_Color']]);r[0][1]=note.replace(/\n\t/,'\n\t\t')+r[0][1];
+edit(B+'Scripts/Assembly-CSharp/Datpt/Cook_Order/SpriteProgressBar.cs',r);
+r=ids([['OffsetID','_Offset'],['TilingID','_Tiling']]);r[0][1]=note.replace(/\n\t/,'\n\t\t')+r[0][1];
+edit(B+'Scripts/Assembly-CSharp/TrungKienPack/SimpleLoopTillingSprite.cs',r);
+r=ids([['BeltScrollXId','_TextureScrollXSpeed'],['BeltScrollYId','_TextureScrollYSpeed'],['BeltMainTexSTId','_MainTex_ST']]);r[0][1]=note.replace(/\n\t/,'\n\t\t')+r[0][1];
+edit(B+'Scripts/Assembly-CSharp/AnhPD/FoodOrder/IngredientSpawnerController.cs',r);
+edit(B+'Plugins/CakeOrder/CakeOrder/AudioManagerCakeOrder.cs',[['private static readonly string[] GAMEPLAY_SFX_VOLUME_PARAMS;','// Values read from the static constructor (string literals decoded from the metadata).\n\tprivate static readonly string[] GAMEPLAY_SFX_VOLUME_PARAMS = new string[3] { "SFXInteractionVolume", "SFXCookingVolume", "SFXCustomerVolume" };']]);
+edit(B+'Plugins/CakeOrder/CakeOrder.Localization/LocTables.cs',[['public static readonly string[] Boot;','// Values read from the static constructor (string literals decoded from the metadata).\n\tpublic static readonly string[] Boot = new string[3] { "UI_Common", "Items_Common", "Shop" };']]);
+edit(B+'Plugins/CakeOrder/CakeOrder.Home/UIHomeTabPageMainNormalMode.cs',[['private static readonly string[] LocDifficulties;','// Values read from the static constructor (string literals decoded from the metadata).\n\tprivate static readonly string[] LocDifficulties = new string[3] { "", "difficulty_hard", "difficulty_super_hard" };']]);
+edit(B+'Plugins/CakeOrder/CakeOrder.InGame.UI/UIComboBar.cs',[['private static Color NormalBackgroundTint;','// The static constructor sets this to white (a splat of 1.0f across the four components).\n\tprivate static Color NormalBackgroundTint = Color.white;']]);
+console.log('ok');

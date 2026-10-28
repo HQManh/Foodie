@@ -1,0 +1,13 @@
+const fs=require('fs');
+const buf=fs.readFileSync('global-metadata.dat');
+const j=JSON.parse(fs.readFileSync('il2cpp_full.json','utf8').replace(/^﻿/,''));
+const n=j.data.normalized_result;
+const OFF=15704460,SZ=82,VT=14570956;
+const t=n.types.findIndex(x=>x.name==='LevelControlCookOrder');
+const s=buf.readUInt32LE(OFF+t*SZ+50),c=buf.readUInt16LE(OFF+t*SZ+68);
+console.log('type',t,'vtableStart',s,'count',c);
+const raw=[];for(let i=0;i<c;i++)raw.push(buf.readUInt32LE(VT+(s+i)*4));
+console.log(raw.slice(0,12).map(x=>'0x'+x.toString(16)).join(' '));
+const oi=n.types.findIndex(x=>x.name==='Object'&&x.namespace==='System');
+const ot=n.types[oi];console.log('System.Object methods',ot.method_start,ot.method_count,n.methods.slice(ot.method_start,ot.method_start+ot.method_count).map(m=>m.name).join(','));
+console.log('method keys', Object.keys(n.methods[0]));

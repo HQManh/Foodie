@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: नया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: अधिकतम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}दि {1}घं'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}मि'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}घं {1}मि'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}घं'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: इनाम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: खरीदा गया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: इनाम मिला!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: प्राप्त करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: ठीक है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: स्तर {0} -> स्तर {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: दिन {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: दिन {0} की शुरुआत में अनलॉक होगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: जल्द आ रहा है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: यह फ़ीचर जल्द आ रहा है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: दुकान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: होम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: रेस्टोरेंट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: उपलब्धियाँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: यह मैप लॉक है। अनलॉक करने के लिए पिछले मैप पूरे करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: यह दिन लॉक है। अनलॉक करने के लिए पिछले दिन पूरे करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: दिन {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: अनलॉक करने के लिए पिछले रेस्टोरेंट का दिन {0} पूरा करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: कठिन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: बहुत कठिन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: यह मैप आने वाले अपडेट में उपलब्ध होगा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'परोसे गए: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: अपना रेस्टोरेंट अपग्रेड करके देखें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: ये चीज़ें आप खरीद सकते हैं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: कल कमाए सिक्कों से कुछ अपग्रेड करते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: अब उपकरण अपग्रेड टैब पर चलते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: इस तवे को अपग्रेड करके देखें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: टोस्टर अपग्रेड हो गया, अब वापस जाकर दिन शुरू करते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: अब दिन की शुरुआत करते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: इस बूस्टर का उपयोग करके देखें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: पकाते समय आप एक खास स्थिति में जा सकते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: हर ग्राहक को सफलतापूर्वक परोसने पर यह बार बढ़ता है! {0} और ग्राहकों को परोसकर देखें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: हर डिश सफलतापूर्वक परोसने पर यह बार बढ़ता है! {0} और डिश परोसकर देखें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: बढ़िया! अब स्वाद विस्फोट मोड में आप बहुत तेज़ी से पका सकते हैं। मज़े करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: बनाने के लिए पर्याप्त सिक्के नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: स्तर MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: स्तर {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: पर्याप्त {0} नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: पहले से अधिकतम स्तर पर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} बार'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: x{0} प्राप्त करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: बूस्टर दिन {0} पर उपलब्ध होगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: '{1} मिनट के लिए x{0} गति चालू करें?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: प्राप्त किया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: विज्ञापन हटा दिए गए
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: बूस्टर का नाम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: +{0} XXX जोड़ने के लिए मुझे बचाएं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: ऑटो कुक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: अपने आप सामग्री इकट्ठा करें और एक डिश बनाएं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: झाड़ू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: मेज़ से एक गंदा ढेर हटाएं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: चिमटा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: कोई भी एक सामग्री प्लेट चुनें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: और स्लॉट चाहिए?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: डिश रखने के लिए और स्लॉट अनलॉक करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: फेरबदल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: सामग्री की पंक्तियाँ बदलें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: x2 गति
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: x2 गति से तेज़ी से पकाएं और परोसें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: '{0} दिल वापस पाएं?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: सामग्री फेरबदल करके देखें?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: 5 सामग्री थैले में डालें?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: ग्राहकों का इंतज़ार समय फिर से भरें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: बर्गर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: कॉफ़ी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: डेटा टकराव
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: लोड हो रहा है...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: लोड हो रहा है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: रेस्टोरेंट लेवल अप!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: जारी रखने के लिए टैप करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: बॉस बहुत मांग करता है और जल्दी धैर्य खो देता है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: आपके अपने फ़ास्ट-फ़ूड रेस्टोरेंट के लिए बधाई!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: चलो कारोबार शुरू करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: उसे एक रसीला बर्गर चाहिए
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: जिस सामग्री का उपयोग करना है उस पर टैप करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: डिस्प्ले बदलने के लिए ग्राहक के ऑर्डर पर टैप करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: डिलीवरी वाला समय खत्म होने से पहले कई ऑर्डर उठाता है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: क्लाउड उपयोग करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: लोकल उपयोग करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: आपके इनाम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: '{0} स्लॉट साफ़ करके खाना बनाते रहें?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "क्या आपको गेम पसंद आ रहा है?\nएक रिव्यू दें!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: गेम को रेट करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: यम्मी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: टेस्टी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: बहुत टेस्टी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: मज़ा आ गया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: और चाहिए
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: लज़ीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: लाजवाब
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: शाही स्वाद
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: उस्तादी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: बेमिसाल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: अतिरिक्त दिन अनलॉक करने के लिए {1} का {0} पूरा करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: इंटरनेट कनेक्शन ज़रूरी है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: विज्ञापन अभी तैयार नहीं है, कृपया फिर से कोशिश करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: नाम में कम से कम {0} अक्षर होने चाहिए
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: नाम में अधिकतम {0} अक्षर हो सकते हैं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: नाम में केवल अक्षर, संख्याएँ, स्पेस और _ हो सकते हैं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: '{0} में वापस आएँ!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: पहले मुफ़्त इनाम लें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: पहले पिछला इनाम लें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: ठीक है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: दिन {0} पर अनलॉक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: सुशी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: बढ़िया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: अतिरिक्त दिन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: लॉक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: पाक दुकान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: टूल अपग्रेड हुआ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} अब और तेज़ है'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} अब अधिकतम गति पर है'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: अतिरिक्त दिन अनलॉक करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: समाचार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: आपके रेस्टोरेंट के लिए नए अपग्रेड पार्ट्स उपलब्ध हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} में नए अतिरिक्त दिन हैं!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: अपग्रेड की कीमतें बदली गई हैं। ज़्यादा दिया गया सोना लौटा दिया गया है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: हमें रेट करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: सक्रिय करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: सक्रिय
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: टीम पहले से मौजूद है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: टीम पूरी हो चुकी है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: टीम खाली नहीं है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: टीम का अस्तित्व ही नहीं है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: नेता पद नहीं छोड़ सकता!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: अनुमति नहीं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: सर्वर त्रुटि
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: उपयोगकर्ता टीम में शामिल हो गया!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: उपयोगकर्ता ने हाल ही में सेवा छोड़ दी!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: उपयोगकर्ता टीम में नहीं है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: पूछना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: अवतार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: बोनस बैंक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: दिन पूरे करके अपने बैंक में सोना जमा करें और इवेंट के अंत में उसे वापस पाएँ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: स्टेज के अंत में <color=yellow>बोनस बैंक</color> को अनलॉक करने के लिए <color=yellow>ड्रीम पास</color> को सक्रिय करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: आपका डेटा सर्वर पर सेव नहीं हो पा रहा है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: बात करना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: चुनना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: दावा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: जल्द आ रहा है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: पुरा होना।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: पुष्टि करना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: बधाई हो!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: जारी रखना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: कॉपी किया गया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: देश
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: बनाएं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: अपनी टीम बनाएं और उसका नेतृत्व करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: मिटाना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'विवरण:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: स्वप्निल पास
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: '<color=yellow>ड्रीम पास</color> में आपका स्वागत है! यह रहा आपका पहला इनाम!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: दिन पूरे करें और इनाम अनलॉक करने के लिए <color=yellow>चाबियां</color> इकट्ठा करें। उन्हें इकट्ठा करने का तरीका जानने के लिए टैप करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: '<color=yellow>ड्रीम पास</color> को सक्रिय करने से आपको विशेष पुरस्कारों तक पहुंच प्राप्त होगी!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: इस स्टेज को अनलॉक करें और इस इनाम को पाने के लिए <color=yellow>ड्रीम पास</color> को एक्टिवेट करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: स्वप्निल लकीर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: बिना हारे दिन पूरे करें और ज़्यादा इनाम पाएँ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: बिना हारे दिन पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: अपने स्कोर गुणक को बढ़ाएं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: शानदार पुरस्कार जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: हर बार असफल होने पर आपका मल्टीप्लायर रीसेट हो जाता है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: स्वप्निल टावर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: लगातार दिन पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: उतराना!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: प्रत्येक विफलता चेकपॉइंट प्रगति को रीसेट कर देती है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: संपादन करना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: नाम संपादित करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: लीडरबोर्ड में शामिल होने से पहले अपना यूज़रनेम चुनें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: प्रोफ़ाइल संपादित करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: संपादन टीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: खाली!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: समाप्त!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: पाठ दर्ज करें...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: विवरण दर्ज करें...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: टीम का नाम दर्ज करें...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: खत्म करना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: पहले प्रयास में जीतें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: चौखटा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: मुक्त
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>मुफ्त</color> दिल'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: '<color=#7CF73F>मुफ्त</color> पुरस्कार'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: स्वतंत्र जीवन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: सामान्य आँकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: जाना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: मदद
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: मदद करता है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: प्राप्त सहायता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: इनबॉक्स
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: जानकारी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: जोड़ना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: एक टीम में शामिल हों और मुफ्त जीवन प्राप्त करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: आखिरी मौका
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: नेता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: लीडरबोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: छुट्टी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: क्या आप टीम छोड़ रहे हैं?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: नई टीम बनाने या उसमें शामिल होने से पहले आपको 30 मिनट तक इंतजार करना होगा!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: स्तर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: साप्ताहिक प्रतियोगिता को अनलॉक करने के लिए <color=yellow>दिन {0}</color> तक पहुंचें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: आपका जीवन परिपूर्ण है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: भार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: सर्वर से डेटा लोड करने की प्रक्रिया पूरी हो गई है! नया डेटा लागू करने के लिए गेम को पुनः आरंभ करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: स्थानीय
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: एलवी.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: लीडरबोर्ड अनलॉक करने के लिए <color=yellow> दिन {0}</color> तक पहुंचें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: टीम में शामिल होने के लिए <color=yellow> दिन {0}</color> तक पहुंचें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: मैक्स
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: आप जिंदगियां नहीं मांग सकते। आपके पास 10 से अधिक मुफ्त जिंदगियां हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} टीम में शामिल हो गए!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} को {1} ने बाहर निकाल दिया है!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} ने टीम छोड़ दी है!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: सदस्यों
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: मेरी टीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: नाम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: नाम कम से कम 6 अक्षरों का होना चाहिए
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: नेटवर्क त्रुटि!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: नेटवर्क त्रुटि
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: नया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: कोई नाम नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: कोई योगदान नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: कोई टीम नहीं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: पर्याप्त सोना नहीं है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: खुला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>ड्रीम पास</color> आपको विशेष पुरस्कार जीतने का मौका देगा!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: इवेंट खत्म होने तक आपको एक्सक्लूसिव बोनस मिलेंगे!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 5 की जगह 8 जिंदगियां
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: बोनस बैंक सक्रिय करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: सुनहरा प्रोफ़ाइल चित्र फ्रेम और सुनहरा नाम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: ड्रीमी पास समाप्त हो गया है! आपके बोनस अब सक्रिय नहीं हैं। नया ड्रीमी पास जल्द ही शुरू होगा!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: दिन पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: चाबियां इकट्ठा करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: पुरस्कार प्राप्त करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: आप अतिरिक्त विशेष पुरस्कार प्राप्त करने के लिए <color=yellow>ड्रीम पास</color> को सक्रिय कर सकते हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: नया <color=Yellow>ड्रीम पास</color> शुरू हो गया है! दिन पूरे करें और <color=Yellow>पास</color> अनलॉक करके कीमती इनाम पाएँ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: स्वप्निल पास
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0} स्थान पुरस्कार!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: खिलाड़ी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: निजी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: प्रोफ़ाइल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: प्रोफ़ाइल अपडेट हो गई है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: जनता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: आपका डेटा सर्वर पर सहेजने की प्रक्रिया पूरी हो गई है!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: रिकनेक्ट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: ताज़ा करना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: सदस्य को हटाएँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: जीवन की कामना!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'आवश्यक दिन:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: आवश्यक दिन की सीमा बढ़ाने के लिए दिन {0} पूरा करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: पुनः आरंभ करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: बचाना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: अंक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: खोज
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: बैज चुनें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: तुम्हें जीवन भेजो!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: सर्वर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: विशेष पुरस्कार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: स्टेज रेस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "आप रेस हार गए!\nशानदार पुरस्कार जीतने के लिए फिर से प्रयास करें!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: बधाई हो! आपने रेस जीत ली!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: जीतने और बड़े इनामों के लिए अगले चरण में पहुँचने को दूसरों से पहले <color=yellow>{0} दिन</color> पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: कैसे खेलने के लिए?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: रेस पूरी करने के लिए दूसरों से पहले दिन पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: दूसरों से पहले रेस खत्म करो!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: अगले चरण में आगे बढ़ें और अधिक पुरस्कार जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: स्टेज रेस जीत
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: चरण {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: तारा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: शुरू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: डेटा सिंक करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: जारी रखने के लिए टैप करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: खोलने के लिए नल!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: दावा करने के लिए टैप करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: बंद करने के लिए टैप करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: टीम की जानकारी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'टीम बैज:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'जब आप किसी टीम में शामिल होंगे तो आपको ये लाभ मिलेंगे:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: टीम हार्वेस्ट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: विभिन्न स्तरों से मक्का इकट्ठा करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: अपनी टीम के साथ मिलकर लक्ष्य हासिल करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: शानदार पुरस्कार जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'सामान्य: 1 कॉर्न - कठिन: 3 कॉर्न - अति कठिन: 5 कॉर्न'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: अपनी टीम के साथ मक्का की फसल काटें और शानदार पुरस्कार जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'टीम का नाम:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: टीमें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'टीम स्कोर:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'टीम का प्रकार:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'पूर्ण स्वतंत्र जीवन:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'कुल सहायता:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: कुल सितारे
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: टावर सबसे ऊँचा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: स्थानांतरण नेता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: ये रहे आपके अप्रयुक्त पुरस्कार!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: दिन {0} पर अनलॉक करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: दिन {0} पार करने पर अनलॉक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: उपयोग
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: देखना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: प्रोफ़ाइल देखें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: कृपया सर्वर द्वारा प्रक्रिया पूरी होने तक थोड़ा और प्रतीक्षा करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: साप्ताहिक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: साप्ताहिक प्रतियोगिता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: अगली बार और अधिक मेहनत करें ताकि आप बहुमूल्य पुरस्कार जीत सकें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: दिन पूरे करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: नेतृत्व करो!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: दुनिया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: हाँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: लीडरबोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: टीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: अपग्रेड अगले अपडेट में उपलब्ध होंगे!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: दिन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'टीम में शामिल होकर आप:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: '<color=#7CF73F>मुफ़्त</color> दिल पाएं'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: दोस्तों के साथ चैट करें और चुनौतियों में हिस्सा लें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: पूर्ण क्षेत्र
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: आगे बढ़ने के लिए दिन {0} तक पहुँचें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: दिन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: '{1} का {0} पार करें'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: पहले {0} को अंतिम चरण तक अपग्रेड करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0} के अपग्रेड अब खुल गए हैं!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: '{0} में नए टूल अपग्रेड लेवल!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: सभी खरीद
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: अतिरिक्त बोनस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: केवल एक बार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: अतिरिक्त बिक्री {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: अनलॉक करने के लिए {1} रेस्टोरेंट का {0} पार करें!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

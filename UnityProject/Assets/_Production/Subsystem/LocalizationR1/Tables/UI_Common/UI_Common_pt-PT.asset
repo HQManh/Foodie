@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_pt-PT
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pt-PT
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: NOVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Máx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}d {1}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}h {1}min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: RECOMPENSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: COMPRADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Recompensa recebida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Resgatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Nv. {0} -> Nv. {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Dia {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Desbloqueia no início do dia {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Brevemente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Esta funcionalidade chega em breve!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Loja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Início
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restaurantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Conquistas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Este mapa está bloqueado. Conclui os mapas anteriores para desbloquear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Este dia está bloqueado. Conclui os dias anteriores para desbloquear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Dia {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Passa o dia {0} do restaurante anterior para desbloquear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Difícil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Superdifícil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Este mapa estará disponível numa atualização futura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Servidos: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Experimenta melhorar o teu restaurante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Estes são os itens que podes comprar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Com as moedas que ganhaste ontem, vamos melhorar algo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Agora vamos ao separador de melhoria de utensílios!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Experimenta melhorar esta chapa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Agora que melhoraste a torradeira, vamos voltar e começar o dia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Agora vamos começar o dia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Experimenta este reforço!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Ao cozinhar, podes entrar num estado especial!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Cada cliente servido faz esta barra subir! Tenta servir mais {0} clientes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Cada prato servido faz esta barra subir! Tenta servir mais {0} pratos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Ótimo! Na Explosão de Sabor, cozinhas com supereficiência. Diverte-te!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Moedas insuficientes para construir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Nv. MÁX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Nv. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0} insuficientes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Já está no nível máximo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} vezes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Resgatar x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: O reforço fica disponível no dia {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Ativar velocidade x{0} durante {1} minutos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Resgatado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Anúncios removidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Nome do reforço
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Salva-me para adicionar +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Cozinhar Automático
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Recolhe ingredientes e prepara um prato automaticamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Vassoura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Remove uma pilha suja da mesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Pinça
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Escolhe livremente um prato de ingredientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Precisas de mais espaços?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Desbloqueia mais espaços para guardar pratos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Baralhar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Trocar filas de ingredientes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Velocidade x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Cozinha e serve mais depressa com velocidade x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Recuperar {0} corações?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Tentar baralhar os ingredientes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Colocar 5 ingredientes num saco?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Recarregar o tempo de espera dos clientes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Hambúrguer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Café
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Conflito de dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: A carregar...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: A carregar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: O restaurante subiu de nível!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Toca para continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: O chefe é exigente e perde facilmente a paciência
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Parabéns pelo teu próprio restaurante de fast food!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Vamos abrir o negócio!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Ela quer um hambúrguer suculento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Toca no ingrediente que queres usar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Toca no pedido de um cliente para mudar a apresentação
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: O estafeta recolhe vários pedidos antes de o tempo acabar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Usar nuvem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Usar local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: As tuas recompensas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Libertar {0} espaços e continuar a cozinhar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Estás a gostar do jogo?\nDeixa uma avaliação!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: AVALIA O JOGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Hum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Bom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Que bom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Adoro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Quero mais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Divinal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Dos deuses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Requintado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Digno de chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Obra-prima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Passa o {0} de {1} para desbloquear dias extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: É necessária ligação à Internet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: O anúncio ainda não está pronto, tenta novamente!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: O nome tem de ter pelo menos {0} caracteres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: O nome pode ter no máximo {0} caracteres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: O nome só pode ter letras, números, espaços e _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Volta daqui a {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Recolhe primeiro a recompensa grátis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Recolhe primeiro a recompensa anterior!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: DESBLOQUEIA NO DIA {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Fantástico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Dia extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Bloqueado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: A LOJA CULINÁRIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: FERRAMENTA MELHORADA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: A velocidade de {0} aumentou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} está agora na velocidade máxima'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Desbloquear dias extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Novidades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Novas peças de melhoria disponíveis para os teus restaurantes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} tem novos dias extra!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Os preços das melhorias foram ajustados. O ouro pago a mais foi devolvido!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Avalie-nos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Ativar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Ativado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: A equipe já existe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: A equipe está cheia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: A equipe não está vazia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: A equipe não existe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: O líder não pode sair!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: Sem Permissão!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Erro de Servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Usuário entrou na equipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: O usuário saiu recentemente!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: O usuário não está na equipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: PEDIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Banco de Bônus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Conclui dias para acumular ouro no teu banco e recebe-o de volta no final do evento!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Ative o <color=yellow>Passe dos Sonhos</color> để desbloquear o <color=yellow>Banco de Bônus</color> ao final das fases!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Não foi possível salvar seus dados no servidor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Bate-papo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Escolher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Resgatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Em breve!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Concluído
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Parabéns!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Copiado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: País
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Criar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Crie e lidere sua equipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Excluir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Descrição:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Passe dos Sonhos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Bem-vindo ao <color=yellow>Passe dos Sonhos!</color> Aqui está sua primeira recompensa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Conclui dias e recolhe <color=yellow>Chaves</color> para desbloquear recompensas. Toca para saber como!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Ativar o <color=yellow>Passe dos Sonhos</color> dá acesso a recompensas especiais!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Desbloqueie esta fase e ative o <color=yellow>Passe dos Sonhos</color> para obter esta recompensa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Sequência dos Sonhos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Conclui dias sem falhar para ganhar mais recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Conclui dias sem perder!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Aumente seu multiplicador de pontuação!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Ganhe recompensas incríveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Cada falha zera o seu multiplicador!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Torre dos Sonhos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Conclui dias seguidos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Erguer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Cada falha reinicia o progresso do checkpoint!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Editar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Editar Nome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Escolha seu nome de usuário antes de entrar na Tabela de Líderes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Editar Perfil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Editar Equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Vazio!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Encerrado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Digite o texto...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Digite a descrição...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Digite o nome da equipe...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Terminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: Vitória na Primeira Tentativa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Moldura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Grátis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: CORAÇÃO <color=#7CF73F>GRÁTIS</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: RECOMPENSAS <color=#7CF73F>GRÁTIS</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Vidas Grátis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Estatísticas Gerais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Ir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Ajuda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Ajudas Dadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Ajudas Recebidas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Caixa de Entrada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Entrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Entre em uma equipe e ganhe vidas grátis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Última Chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Líder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Tabela de Líderes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Sair da equipe?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Você terá que esperar 30 minutos antes de poder criar ou entrar em uma nova equipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Nível
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Alcance o <color=yellow>Dia {0}</color> para desbloquear o Torneio Semanal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Suas vidas estão cheias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Carregar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Carregamento dos dados do servidor concluído! Reinicie o jogo para aplicar os novos dados!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: ALCANCE O <color=yellow> Dia {0}</color> Para Desbloquear a Tabela de Líderes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: ALCANCE O <color=yellow> Dia {0}</color> Para Entrar na Equipa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MÁX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Você não pode pedir vidas. Você tem mais de 10 vidas gratuitas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} entrou na equipe!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} foi expulso por {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} saiu da equipe!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Membros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Minha Equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Nome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: O nome deve ter pelo menos 6 caracteres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Erro de Rede!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Erro de rede
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: NOVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Não
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: Sem nome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Sem Contribuição
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Sem Equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Ouro insuficiente!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Abrir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: O <color=yellow>Passe dos Sonhos</color> lhe dará a chance de obter recompensas especiais!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: Você terá bônus exclusivos até o final do evento!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 vidas em vez de 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Ativar Banco de Bônus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Moldura de perfil dourada e nome dourado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: O <color=yellow>Passe dos Sonhos</color> terminou! Seus bônus não estão mais ativos. Um novo <color=yellow>Passe dos Sonhos</color> começará em breve!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Conclui dias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Colete chaves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Desbloquee Recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Você pode ativar o <color=yellow>Passe dos Sonhos</color> để obter uma recompensa exclusiva adicional!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: O novo <color=Yellow>Passe dos Sonhos</color> começou! Conclui dias e desbloqueia o <color=Yellow>Passe</color> para resgatar recompensas valiosas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Passe dos Sonhos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: Recompensa do {0}º Lugar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Jogadores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Privado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Perfil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: O perfil foi atualizado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Público
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: O salvamento dos seus dados no servidor foi concluído!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Reconectar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Atualizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Remover Membro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Solicitando Vida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Dia necessário:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Completa o dia {0} para aumentar o limite do Dia Necessário!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Salvar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Pontuação
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Buscar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Selecionar Emblema
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Te enviou uma vida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Recompensas especiais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Corrida de etapas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: Você perdeu a corrida! Tente novamente para ganhar prêmios incríveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: Parabéns! Você venceu a corrida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Conclui <color=yellow>{0} dias</color> antes dos outros para vencer e avançar para a fase seguinte com prémios maiores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Como jogar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Conclui dias antes dos outros para terminar a corrida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Termine a corrida antes dos outros!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Avance para a próxima fase e concorra a prêmios ainda maiores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Vitória na Corrida de Fases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Estágio {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Estrela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Começar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Sincronizar Dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Toque para Continuar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Toque para Abrir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Toque para resgatar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Toque para fechar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Informações da equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Emblema da Equipe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Quando você entrar em uma equipe, você receberá:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Colheita em Equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Colete milho nos níveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Alcance Objetivos com sua Equipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Ganhe Recompensas Incríveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Normal: 1 Milho - Difícil: 3 Milhos - Superdifícil: 5 Milhos'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Colha milho com sua equipe e ganhe recompensas incríveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Nome da Equipe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Equipes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Pontuação da Equipe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Tipo de Equipe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Total de vidas grátis:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Total de Ajudas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Total de Estrelas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Torre Mais Alta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Transferir Líder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Aqui estão suas recompensas não resgatadas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Desbloqueia no dia {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Desbloqueia ao passar o dia {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Usar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Ver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Ver Perfil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Por favor, aguarde um pouco mais para que o servidor processe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Semanal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Torneio Semanal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Tente mais da próxima vez para ganhar recompensas valiosas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Conclui dias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Assuma a Liderança!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Mundo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Sim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Tabela de Líderes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Equipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: As melhorias estarão disponíveis na próxima atualização!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Dia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Ao entrar numa equipa, vais:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Recebe Corações <color=#7CF73F>Grátis</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Conversa e participa em desafios com amigos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Áreas Concluídas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Chega ao dia {0} para continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Dia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Passa o {0} de {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Primeiro melhore {0} até à última fase!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: As melhorias de {0} já estão disponíveis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Novos níveis de melhoria de ferramentas em {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: COMPRAR TUDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Bônus Extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Apenas 1 Vez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Promoção Extra {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Passa o {0} do restaurante {1} para desbloquear!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,624 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 977364902, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: pasta
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  sourceGraphJson: "{\n  \"_note\": \"Pasta combination artwork refreshed from current official Graph-4-Pasta; gameplay recipes, quantity limits, IDs and layout preserved.\",\n  \"_foodOrderableMap\": {\n    \"pasta\": [\n      \"pasta\"\n    ],\n    \"salad\": [\n      \"salad\"\n    ],\n    \"meat-food\": [\n      \"meat-food-with-topping\"\n    ],\n    \"soda\": [\n      \"soda\"\n    ]\n  },\n  \"_derivation\": [\n    {\n      \"food\": \"official-pasta-map\",\n      \"source\": \"src/data/config/nodegraph/maps/Graph-10-Pasta.json\",\n      \"decision\": \"User-selected official graph preserved: pan cooks ground meat/chicken/steak; griddler cooks seafood/bread; salad mixer combines lettuce/small tomato/mayonaise; soda takes ice. No recipe, quantity, automatic flag, ID table or layout changes.\"\n    }\n  ],\n  \"_imagePolicy\": {\n    \"provider\": \"Local preview assets with public Google Drive thumbnail fallback\",\n    \"manifest\": \"docs/preview_asset_manifests/55-pasta-combinations.json\",\n    \"driveFolderId\": \"1qqYrygkRHe2gCRf9BSjpKYTvyF03raqe\"\n  },\n  \"schemaVersion\": 1,\n  \"map\": {\n    \"id\": \"pasta\",\n    \"name\": \"Pasta Combinations\",\n    \"gridWidth\": 5,\n    \"gridHeight\": 2,\n    \"dirtyStackHeight\": 5,\n    \"visibleRows\": 3,\n    \"processSpeedMultiplier\": 1.0,\n    \"mergeSpeedMultiplier\": 1.0\n  },\n  \"idTable\": {\n    \"ingredient\": [\n      \"spaghetti-raw\",\n      \"manicotti-raw\",\n      \"farfalle-raw\",\n      \"spaghetti-boiled\",\n      \"manicotti-boiled\",\n      \"farfalle-boiled\",\n      \"tomato-large\",\n      \"spinach\",\n      \"cheese\",\n      \"milk\",\n      \"tomato-large-chopped\",\n      \"spinach-chopped\",\n      \"cheese-chopped\",\n      \"tomato-milk-sauce\",\n      \"spinach-milk-sauce\",\n      \"cheese-milk-sauce\",\n      \"lettuce\",\n      \"lettuce-cut\",\n      \"lemon\",\n      \"lemon-sliced\",\n      \"bread-loaf\",\n      \"octopus-raw\",\n      \"shrimp-raw\",\n      \"clam-raw\",\n      \"beef-steak-raw\",\n      \"chicken-raw\",\n      \"bread-grilled\",\n      \"octopus-grilled\",\n      \"shrimp-grilled\",\n      \"clam-grilled\",\n      \"beef-steak-grilled\",\n      \"chicken-grilled\",\n      \"soda-cup\",\n      \"octopus-raw-cut\",\n      \"mayonaise\",\n      \"ice\",\n      \"ground-meat-cooked\",\n      \"ground-meat-raw\",\n      \"shrimp-raw-cut\",\n      \"clam-raw-cut\",\n      \"apple-cut\",\n      \"apple\",\n      \"cup\"\n    ],\n    \"composite\": [\n      \"pasta\",\n      \"salad\",\n      \"meat-food-with-topping\",\n      \"soda\",\n      \"pasta-with-sauce\",\n      \"pasta-with-meat\",\n      \"salad-base-with-mayo\",\n      \"salad-base\"\n    ],\n    \"group\": [\n      \"pasta-shape-choice\",\n      \"sauce-choice\",\n      \"chick-or-beef\",\n      \"meat-topping\",\n      \"pasta-mix\",\n      \"all-meat-foods\",\n      \"salad-topping\",\n      \"common-topping\",\n      \"salad-base-add\",\n      \"soda-topping\"\n    ],\n    \"tool\": [\n      \"boiler-pot\",\n      \"chopping-board\",\n      \"sauce-blender\",\n      \"pan\",\n      \"soda-machine\"\n    ],\n    \"dirty\": [\n      \"dirty-plate\",\n      \"dirty-bowl\",\n      \"dirty-cup\"\n    ]\n  },\n  \"vertices\": {\n    \"ingredient\": [\n      {\n        \"name\": \"spaghetti-raw\",\n        \"displayName\": \"Raw Spaghetti\",\n        \"pickupable\": true,\n        \"emoji\": \"🍝\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"0\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/spaghetti-raw.png\",\n        \"fileId\": \"1LeJ1rTljGkIfWvTdZeH0C0rZwbNw5TFt\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/spaghetti-raw.png\"\n      },\n      {\n        \"name\": \"manicotti-raw\",\n        \"displayName\": \"Raw Manicotti\",\n        \"pickupable\": true,\n        \"emoji\": \"🥖\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"1\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/manicotti-raw.png\",\n        \"fileId\": \"1PaQ6fQEOSiAxvR14Kq4_gxGOU6KTZ4hM\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/manicotti-raw.png\"\n      },\n      {\n        \"name\": \"farfalle-raw\",\n        \"displayName\": \"Raw Farfalle\",\n        \"pickupable\": true,\n        \"emoji\": \"🎀\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"2\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/farfalle-raw.png\",\n        \"fileId\": \"1bwJWFK02OpkxfigkRLaBip6zgkpBLIWX\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/farfalle-raw.png\"\n      },\n      {\n        \"name\": \"spaghetti-boiled\",\n        \"displayName\": \"Boiled Spaghetti\",\n        \"pickupable\": false,\n        \"emoji\": \"🍝\",\n        \"usageNum\": 1,\n        \"price\": 10,\n        \"pieceIndex\": \"0\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/spaghetti-boiled.png\",\n        \"fileId\": \"1GiFNeit9lKzoaN9TuCDGw3UX0s5CTD9H\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/spaghetti-boiled.png\"\n      },\n      {\n        \"name\": \"manicotti-boiled\",\n        \"displayName\": \"Boiled Manicotti\",\n        \"pickupable\": false,\n        \"emoji\": \"🟨\",\n        \"usageNum\": 1,\n        \"price\": 10,\n        \"pieceIndex\": \"1\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/manicotti-boiled.png\",\n        \"fileId\": \"1OeYGBJ98hGZgAvvX0mAYRWpIM4P_9K5V\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/manicotti-boiled.png\"\n      },\n      {\n        \"name\": \"farfalle-boiled\",\n        \"displayName\": \"Boiled Farfalle\",\n        \"pickupable\": false,\n        \"emoji\": \"🎀\",\n        \"usageNum\": 1,\n        \"price\": 10,\n        \"pieceIndex\": \"2\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/farfalle-boiled.png\",\n        \"fileId\": \"1c316NLxiBtmVZAxs4wQf2MeXmiaN5CE7\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/farfalle-boiled.png\"\n      },\n      {\n        \"name\": \"tomato-large\",\n        \"displayName\": \"Large Tomato\",\n        \"pickupable\": true,\n        \"emoji\": \"🍅\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"3\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/tomato-large.png\",\n        \"fileId\": \"1w5nzigydSTTk7jkALI6r9R2hVaIYucn0\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/tomato-large.png\"\n      },\n      {\n        \"name\": \"spinach\",\n        \"displayName\": \"Spinach\",\n        \"pickupable\": true,\n        \"emoji\": \"🥬\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"4\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/spinach.png\",\n        \"fileId\": \"1ExeHRtttzMBFD4nrRo9HhB9mb6TXlrR2\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/spinach.png\"\n      },\n      {\n        \"name\": \"cheese\",\n        \"displayName\": \"Cheese\",\n        \"pickupable\": true,\n        \"emoji\": \"🧀\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"5\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/cheese.png\",\n        \"fileId\": \"1lMYgZYiRga_MwpLrI1vU4B9Z-MGTN89j\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/cheese.png\"\n      },\n      {\n        \"name\": \"milk\",\n        \"displayName\": \"Milk\",\n        \"pickupable\": true,\n        \"emoji\": \"🥛\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"6\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/milk.png\",\n        \"fileId\": \"1E_EuPfzZool7QyCwLIqwk_uLwUysolaU\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/milk.png\"\n      },\n      {\n        \"name\": \"tomato-large-chopped\",\n        \"displayName\": \"Chopped Large Tomato\",\n        \"pickupable\": false,\n        \"emoji\": \"🔴\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"21\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/tomato-large-chopped.png\",\n        \"fileId\": \"1Wo3k-OH8GZELUMjkmFgT9EfuNSxVzJfP\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/tomato-large-chopped.png\"\n      },\n      {\n        \"name\": \"spinach-chopped\",\n        \"displayName\": \"Chopped Spinach\",\n        \"pickupable\": false,\n        \"emoji\": \"🟩\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"4\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/spinach-chopped.png\",\n        \"fileId\": \"1Xtoc_U85cMYIQ_QS-Zxhn7cdtHiPGaUN\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/spinach-chopped.png\"\n      },\n      {\n        \"name\": \"cheese-chopped\",\n        \"displayName\": \"Chopped Cheese\",\n        \"pickupable\": false,\n        \"emoji\": \"🟨\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"5\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/cheese-chopped.png\",\n        \"fileId\": \"1Yk6Nfk96j8NeYF7MeEvxJJnxjFEmE1zT\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/cheese-chopped.png\"\n      },\n      {\n        \"name\": \"tomato-milk-sauce\",\n        \"displayName\": \"Tomato Milk Sauce\",\n        \"pickupable\": false,\n        \"emoji\": \"🥫\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"3\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/tomato-milk-sauce.png\",\n        \"fileId\": \"1ARISFYxLq7Bd3lzf8HvfAwVEOaIdiGO-\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/tomato-milk-sauce.png\"\n      },\n      {\n        \"name\": \"spinach-milk-sauce\",\n        \"displayName\": \"Spinach Milk Sauce\",\n        \"pickupable\": false,\n        \"emoji\": \"🫕\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"4\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/spinach-milk-sauce.png\",\n        \"fileId\": \"18mcM7BJYQnZafHQY6MtOWzk4QHaZOkYE\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/spinach-milk-sauce.png\"\n      },\n      {\n        \"name\": \"cheese-milk-sauce\",\n        \"displayName\": \"Cheese Milk Sauce\",\n        \"pickupable\": false,\n        \"emoji\": \"🍲\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"5\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/cheese-milk-sauce.png\",\n        \"fileId\": \"1S5o-xE7a7r5yy1k4XyaOMu3s3aEchqjc\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/cheese-milk-sauce.png\"\n      },\n      {\n        \"name\": \"lettuce\",\n        \"displayName\": \"Lettuce\",\n        \"pickupable\": true,\n        \"emoji\": \"🥬\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"7\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/lettuce.png\",\n        \"fileId\": \"1uVNcgYvsqWWOpM8kLMwMBfHM2q5VDIx_\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/lettuce.png\"\n      },\n      {\n        \"name\": \"lettuce-cut\",\n        \"displayName\": \"Cut Lettuce\",\n        \"pickupable\": false,\n        \"emoji\": \"🍃\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"7\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/lettuce-cut.png\",\n        \"fileId\": \"1KKCpDIhDCAj8em08O8jYV9FfCx3CQhuH\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/lettuce-cut.png\"\n      },\n      {\n        \"name\": \"lemon\",\n        \"displayName\": \"Lemon\",\n        \"pickupable\": true,\n        \"emoji\": \"🍋\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"9\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/lemon.png\",\n        \"fileId\": \"1a49wo4VdA9LTduymvygp6XNOAYfdiPQ0\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/lemon.png\"\n      },\n      {\n        \"name\": \"lemon-sliced\",\n        \"displayName\": \"Sliced Lemon\",\n        \"pickupable\": false,\n        \"emoji\": \"🟡\",\n        \"usageNum\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"9\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/lemon-sliced.png\",\n        \"fileId\": \"1uy8zaSzP3CMt_mwZC3x1wyAyAFEQE7Ul\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/lemon-sliced.png\"\n      },\n      {\n        \"name\": \"bread-loaf\",\n        \"displayName\": \"Bread Loaf\",\n        \"pickupable\": true,\n        \"emoji\": \"🍞\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"10\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/bread-loaf.png\",\n        \"fileId\": \"1IS06jQdVjK_G1wbvRw3Me5yQ_FD5CzzQ\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/bread-loaf.png\"\n      },\n      {\n        \"name\": \"octopus-raw\",\n        \"displayName\": \"Raw Octopus\",\n        \"pickupable\": false,\n        \"emoji\": \"🐙\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"11\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/octopus-raw.png\",\n        \"fileId\": \"1wwVokoX8TLY4Rp6oXbyPrONSTT91lO4u\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/octopus-raw.png\"\n      },\n      {\n        \"name\": \"shrimp-raw\",\n        \"displayName\": \"Raw Shrimp\",\n        \"pickupable\": false,\n        \"emoji\": \"🦐\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"12\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/shrimp-raw.png\",\n        \"fileId\": \"17GM_QiknK449Wa1-wN5OVDG7ef0V5aoY\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/shrimp-raw.png\"\n      },\n      {\n        \"name\": \"clam-raw\",\n        \"displayName\": \"Raw Clam In Shell\",\n        \"pickupable\": false,\n        \"emoji\": \"🦪\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"13\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/clam-raw.png\",\n        \"fileId\": \"1aMgjOuDx0fMvz8sdvH466_14uFNFf8ap\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/clam-raw.png\"\n      },\n      {\n        \"name\": \"beef-steak-raw\",\n        \"displayName\": \"Raw Beef Steak\",\n        \"pickupable\": true,\n        \"emoji\": \"🥩\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"14\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/beef-steak-raw.png\",\n        \"fileId\": \"1F166VB93xcuAxAT1iAk0XXMJyflgpEv1\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/beef-steak-raw.png\"\n      },\n      {\n        \"name\": \"chicken-raw\",\n        \"displayName\": \"Raw Chicken\",\n        \"pickupable\": true,\n        \"emoji\": \"🍗\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"15\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/chicken-raw.png\",\n        \"fileId\": \"1PvyAZuZwO-nea2UGuBJwOr_ayTv-Uy9y\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/chicken-raw.png\"\n      },\n      {\n        \"name\": \"bread-grilled\",\n        \"displayName\": \"Grilled Bread\",\n        \"pickupable\": false,\n        \"emoji\": \"🥪\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"10\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/bread-grilled.png\",\n        \"fileId\": \"1Wxg7t48qZVrN1wMHFaKWQmhrb7qsM_Kv\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/bread-grilled.png\"\n      },\n      {\n        \"name\": \"octopus-grilled\",\n        \"displayName\": \"Grilled Octopus\",\n        \"pickupable\": false,\n        \"emoji\": \"🐙\",\n        \"usageNum\": 1,\n        \"price\": 15,\n        \"pieceIndex\": \"11\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/octopus-grilled.png\",\n        \"fileId\": \"15-tM8Day7XS8zOrr_wJD1FghrJjNRTLW\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/octopus-grilled.png\"\n      },\n      {\n        \"name\": \"shrimp-grilled\",\n        \"displayName\": \"Grilled Shrimp\",\n        \"pickupable\": false,\n        \"emoji\": \"🍤\",\n        \"usageNum\": 1,\n        \"price\": 15,\n        \"pieceIndex\": \"12\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/shrimp-grilled.png\",\n        \"fileId\": \"1_U4Gbncje55-CrLdiakTYbJMqM44_5m5\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/shrimp-grilled.png\"\n      },\n      {\n        \"name\": \"clam-grilled\",\n        \"displayName\": \"Grilled Clam In Shell\",\n        \"pickupable\": false,\n        \"emoji\": \"🦪\",\n        \"usageNum\": 1,\n        \"price\": 10,\n        \"pieceIndex\": \"13\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/clam-grilled.png\",\n        \"fileId\": \"1bCv6YXm1lvR4V_Wh7C-O-2b1H5aKhSgC\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/clam-grilled.png\"\n      },\n      {\n        \"name\": \"beef-steak-grilled\",\n        \"displayName\": \"Grilled Beef Steak\",\n        \"pickupable\": false,\n        \"emoji\": \"🥩\",\n        \"usageNum\": 1,\n        \"price\": 15,\n        \"pieceIndex\": \"14\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/beef-steak-grilled.png\",\n        \"fileId\": \"1kpk2y3ST61gW72dhRjZmD_h7klcE-Udh\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/beef-steak-grilled.png\"\n      },\n      {\n        \"name\": \"chicken-grilled\",\n        \"displayName\": \"Grilled Chicken\",\n        \"pickupable\": false,\n        \"emoji\": \"🍗\",\n        \"usageNum\": 1,\n        \"price\": 15,\n        \"pieceIndex\": \"15\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/chicken-grilled.png\",\n        \"fileId\": \"1gaYV7xNbP4PyniwjGL5XXC3uUOc_Q5Kv\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/chicken-grilled.png\"\n      },\n      {\n        \"name\": \"soda-cup\",\n        \"displayName\": \"Soda Cup\",\n        \"pickupable\": false,\n        \"emoji\": \"🥤\",\n        \"usageNum\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"16\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/soda-cup.png\",\n        \"fileId\": \"1ZA0gGZ3XUMgdqIYJ4dXv-qjuSHwVVmym\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/soda-cup.png\"\n      },\n      {\n        \"name\": \"octopus-raw-cut\",\n        \"displayName\": \"Cut Raw Octopus\",\n        \"pickupable\": true,\n        \"emoji\": \"🐙\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"11\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/octopus-raw-cut.png\",\n        \"fileId\": \"16YwN7BpB-31FkYxCn4nQEDdpsHctTwyn\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/octopus-raw-cut.png\"\n      },\n      {\n        \"name\": \"shrimp-raw-cut\",\n        \"displayName\": \"Cut Raw Shrimp\",\n        \"pickupable\": true,\n        \"emoji\": \"🐙\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"12\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/shrimp-raw-cut.png\",\n        \"fileId\": \"1WVtdfVVF1Tf7CqitMYOogXSI9LvULEOg\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/shrimp-raw-cut.png\"\n      },\n      {\n        \"name\": \"clam-raw-cut\",\n        \"displayName\": \"Cleaned Raw Clam In Shell\",\n        \"pickupable\": true,\n        \"emoji\": \"🦪\",\n        \"usageNum\": 1,\n        \"price\": 1,\n        \"pieceIndex\": \"13\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/clam-raw-cut.png\",\n        \"fileId\": \"1xooZHw6UM5KanjciiCzXbP4akM6drNPS\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/clam-raw-cut.png\"\n      },\n      {\n        \"name\": \"mayonaise\",\n        \"displayName\": \"Mayonaise\",\n        \"pickupable\": true,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"17\",\n        \"emoji\": \"🧴\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/mayonaise.png\",\n        \"fileId\": \"1ONKVeOYOWURu62G1BdjTztb11DHKIGBM\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/mayonaise.png\"\n      },\n      {\n        \"name\": \"ice\",\n        \"displayName\": \"Ice\",\n        \"pickupable\": true,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"18\",\n        \"emoji\": \"🧊\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/ice.png\",\n        \"fileId\": \"1Ytjl2ZOZgmoewPTofSPLGu5hBgfc5dut\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/ice.png\"\n      },\n      {\n        \"name\": \"ground-meat-raw\",\n        \"pickupable\": true,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"19\",\n        \"displayName\": \"Raw Ground Meat\",\n        \"emoji\": \"🥩\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/ground-meat-raw.png\",\n        \"fileId\": \"11TKyswjee-i2jS4qTVkbRMsR32CBYq3G\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/ground-meat-raw.png\"\n      },\n      {\n        \"name\": \"ground-meat-cooked\",\n        \"pickupable\": false,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"19\",\n        \"displayName\": \"Cooked Ground Meat\",\n        \"emoji\": \"🥩\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/ground-meat-cooked.png\",\n        \"fileId\": \"1IkR0lKWC06ZIe_qFd90BUa_qeac2rAw9\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/ground-meat-cooked.png\"\n      },\n      {\n        \"name\": \"apple\",\n        \"displayName\": \"Apple\",\n        \"pickupable\": true,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"22\",\n        \"emoji\": \"🍎\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/apple.png\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/apple.png\",\n        \"fileId\": \"10GJP2D7-2A4CJwBQepqDYAXYLwBMLjUK\"\n      },\n      {\n        \"name\": \"apple-cut\",\n        \"displayName\": \"Apple Cut\",\n        \"pickupable\": false,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 5,\n        \"pieceIndex\": \"22\",\n        \"emoji\": \"🍎\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/apple-cut.png\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/apple-cut.png\",\n        \"fileId\": \"1-H2bKVghkGcc0B2rOvMyBjbZIX5lXZHx\"\n      },\n      {\n        \"name\": \"cup\",\n        \"displayName\": \"cup\",\n        \"pickupable\": true,\n        \"multipleUsage\": false,\n        \"stackMin\": 1,\n        \"stackMax\": 1,\n        \"price\": 0,\n        \"pieceIndex\": \"16\",\n        \"emoji\": \"🥛\"\n      }\n    ],\n    \"tool\": [\n      {\n        \"name\": \"boiler-pot\",\n        \"displayName\": \"Boiler Pot\",\n        \"slotConfigs\": [\n          {\n            \"name\": \"Input\",\n            \"slot\": 1\n          }\n        ],\n        \"cookingTime\": 4,\n        \"emoji\": \"♨️\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/boiler-pot.png\",\n        \"fileId\": \"1y90pRjEsQMfwx1MxBoFNFlToR4920ruW\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/boiler-pot.png\"\n      },\n      {\n        \"name\": \"chopping-board\",\n        \"displayName\": \"Chopping Board\",\n        \"slotConfigs\": [\n          {\n            \"name\": \"Input\",\n            \"slot\": 1\n          }\n        ],\n        \"cookingTime\": 2,\n        \"emoji\": \"🔪\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/chopping-board.png\",\n        \"fileId\": \"1AA5X4BVVT4Y_yiUmCiFrJ9IbrmfSm5Fb\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/chopping-board.png\"\n      },\n      {\n        \"name\": \"sauce-blender\",\n        \"displayName\": \"Sauce Blender\",\n        \"slotConfigs\": [\n          {\n            \"name\": \"Produce\",\n            \"slot\": 1\n          },\n          {\n            \"name\": \"Milk\",\n            \"slot\": 1\n          }\n        ],\n        \"cookingTime\": 4,\n        \"emoji\": \"🧃\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/sauce-blender.png\",\n        \"fileId\": \"1Rj-WnLX5-xZiBDIiZ8txDJGc6d-nn2dB\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/sauce-blender.png\"\n      },\n      {\n        \"name\": \"pan\",\n        \"displayName\": \"Pan\",\n        \"preservationSlots\": 0,\n        \"slotConfigs\": [\n          {\n            \"name\": \"Slot\",\n            \"slot\": 1\n          }\n        ],\n        \"cookingTime\": 1,\n        \"emoji\": \"🍳\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/pan.png\",\n        \"fileId\": \"1-QHalrQ3IWq1EyUWyrGg1lCnoTTCWbcR\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/pan.png\"\n      },\n      {\n        \"name\": \"soda-machine\",\n        \"displayName\": \"\",\n        \"preservationSlots\": 0,\n        \"slotConfigs\": [\n          {\n            \"name\": \"Slot\",\n            \"slot\": 1\n          }\n        ],\n        \"cookingTime\": 1\n      }\n    ],\n    \"group\": [\n      {\n        \"name\": \"pasta-shape-choice\",\n        \"displayName\": \"Pasta Shape Choice\",\n        \"minQuantity\": 1,\n        \"maxQuantity\": 1\n      },\n      {\n        \"name\": \"sauce-choice\",\n        \"displayName\": \"Sauce Choice\",\n        \"minQuantity\": 1,\n        \"maxQuantity\": 1\n      },\n      {\n        \"name\": \"chick-or-beef\",\n        \"displayName\": \"Chick or Beef\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 1\n      },\n      {\n        \"name\": \"meat-topping\",\n        \"displayName\": \"Meat Topping\",\n        \"minQuantity\": 1,\n        \"maxQuantity\": -1\n      },\n      {\n        \"name\": \"pasta-mix\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 1\n      },\n      {\n        \"name\": \"all-meat-foods\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 1\n      },\n      {\n        \"name\": \"salad-topping\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 3,\n        \"displayName\": \"Salad Topping\"\n      },\n      {\n        \"name\": \"common-topping\",\n        \"displayName\": \"common-topping\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 5\n      },\n      {\n        \"name\": \"salad-base-add\",\n        \"displayName\": \"\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 2\n      },\n      {\n        \"name\": \"soda-topping\",\n        \"minQuantity\": 0,\n        \"maxQuantity\": 2,\n        \"mutuallyExclusive\": false\n      }\n    ],\n    \"composite\": [\n      {\n        \"name\": \"pasta\",\n        \"displayName\": \"Pasta\",\n        \"orderable\": true,\n        \"emoji\": \"🍝\",\n        \"customerSpaceHeight\": \"Half\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/pasta.png\",\n        \"fileId\": \"1NbudFrleA6YWZnp1nsvtjXixVYKUvK8j\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/pasta.png\"\n      },\n      {\n        \"name\": \"salad\",\n        \"displayName\": \"Salad\",\n        \"orderable\": true,\n        \"toppingRequired\": false,\n        \"emoji\": \"🥗\",\n        \"customerSpaceHeight\": \"Half\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/salad.png\",\n        \"fileId\": \"1rs_bclafFNXiEeMCxLg7rQDGWkI3vMNF\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/salad.png\"\n      },\n      {\n        \"name\": \"meat-food-with-topping\",\n        \"displayName\": \"Meat Food With Topping\",\n        \"orderable\": true,\n        \"toppingRequired\": false,\n        \"emoji\": \"🍖\",\n        \"customerSpaceHeight\": \"Half\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/meat-food-with-topping.png\",\n        \"fileId\": \"1uiVJJtRsP2bTIRJH5sup8P52bb9t7Z-l\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/meat-food-with-topping.png\"\n      },\n      {\n        \"name\": \"soda\",\n        \"displayName\": \"Soda\",\n        \"orderable\": true,\n        \"toppingRequired\": false,\n        \"emoji\": \"🥤\",\n        \"customerSpaceHeight\": \"Half\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/soda.png\",\n        \"fileId\": \"1xrCu1Zx43Dx-2rXIuGtT6KT3Go3k8CGv\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/soda.png\"\n      },\n      {\n        \"name\": \"pasta-with-sauce\",\n        \"displayName\": \"Pasta With Sauce\",\n        \"orderable\": false,\n        \"toppingRequired\": true,\n        \"customerSpaceHeight\": \"Half\",\n        \"mergeDuration\": 0.5,\n        \"emoji\": \"🍝\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/pasta-with-sauce.png\",\n        \"fileId\": \"1q1orIDzPwKvIA7lyO4dJUAyZ5SdvXKvT\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/pasta-with-sauce.png\"\n      },\n      {\n        \"name\": \"pasta-with-meat\",\n        \"displayName\": \"Pasta With Meat\",\n        \"orderable\": false,\n        \"toppingRequired\": false,\n        \"customerSpaceHeight\": \"Half\",\n        \"mergeDuration\": 0.5,\n        \"emoji\": \"🍝\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/pasta-with-meat.png\",\n        \"fileId\": \"1278Dn5rlSTlrGdI7p46mWDLBelPplhSA\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/pasta-with-meat.png\"\n      },\n      {\n        \"name\": \"salad-base-with-mayo\",\n        \"orderable\": false,\n        \"toppingRequired\": false,\n        \"customerSpaceHeight\": \"Half\",\n        \"mergeDuration\": 0.5,\n        \"displayName\": \"Salad Base With Mayo\",\n        \"emoji\": \"🥗\",\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/salad-base-with-mayo.png\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/salad-base-with-mayo.png\",\n        \"fileId\": \"1KBnMqq9FIknvZp5wtE8CXVvo0wMGw_-B\"\n      },\n      {\n        \"name\": \"salad-base\",\n        \"displayName\": \"Salad Base\",\n        \"orderable\": false,\n        \"toppingRequired\": false,\n        \"customerSpaceHeight\": \"Half\",\n        \"mergeDuration\": 0.5\n      }\n    ],\n    \"dirty\": [\n      {\n        \"name\": \"dirty-plate\",\n        \"displayName\": \"Dirty Plate\",\n        \"emoji\": \"🍽️\",\n        \"maxStack\": 5,\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/dirty-plate.png\",\n        \"fileId\": \"1sMa0wx_dA9tgprDPFGyj2XoKz8BhSlxR\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/dirty-plate.png\"\n      },\n      {\n        \"name\": \"dirty-bowl\",\n        \"displayName\": \"Dirty Bowl\",\n        \"emoji\": \"🥣\",\n        \"maxStack\": 5,\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/dirty-bowl.png\",\n        \"fileId\": \"1mi0ndLGcBJRqD7u1CfpK_moNA1e7M0Ab\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/dirty-bowl.png\"\n      },\n      {\n        \"name\": \"dirty-cup\",\n        \"displayName\": \"Dirty Cup\",\n        \"emoji\": \"🥤\",\n        \"maxStack\": 5,\n        \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/nodes/dirty-cup.png\",\n        \"fileId\": \"1-cYFEgUQPZ0DovcMY4m3lgzM0_WyZu0H\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/dirty-cup.png\"\n      }\n    ]\n  },\n  \"edges\": {\n    \"process\": [\n      {\n        \"from\": \"boiler-pot\",\n        \"to\": \"spaghetti-boiled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"spaghetti-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"boiler-pot\",\n        \"to\": \"manicotti-boiled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"manicotti-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"boiler-pot\",\n        \"to\": \"farfalle-boiled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"farfalle-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"spinach-chopped\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"spinach\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"cheese-chopped\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"cheese\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"tomato-large-chopped\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"tomato-large\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"sauce-blender\",\n        \"to\": \"spinach-milk-sauce\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"spinach-chopped\",\n            \"slot\": 0\n          },\n          {\n            \"ingredient\": \"milk\",\n            \"slot\": 1\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"sauce-blender\",\n        \"to\": \"cheese-milk-sauce\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"cheese-chopped\",\n            \"slot\": 0\n          },\n          {\n            \"ingredient\": \"milk\",\n            \"slot\": 1\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"sauce-blender\",\n        \"to\": \"tomato-milk-sauce\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"tomato-large-chopped\",\n            \"slot\": 0\n          },\n          {\n            \"ingredient\": \"milk\",\n            \"slot\": 1\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"lettuce-cut\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"lettuce\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"lemon-sliced\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"lemon\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"chopping-board\",\n        \"to\": \"apple-cut\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"apple\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"bread-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"bread-loaf\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"octopus-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"octopus-raw-cut\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"shrimp-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"shrimp-raw-cut\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"soda-machine\",\n        \"to\": \"soda-cup\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"cup\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"clam-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"clam-raw-cut\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"ground-meat-cooked\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"ground-meat-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"chicken-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"chicken-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      },\n      {\n        \"from\": \"pan\",\n        \"to\": \"beef-steak-grilled\",\n        \"inputs\": [\n          {\n            \"ingredient\": \"beef-steak-raw\",\n            \"slot\": 0\n          }\n        ],\n        \"amount\": 1,\n        \"auto\": true\n      }\n    ],\n    \"preservation\": [],\n    \"base\": [\n      {\n        \"from\": \"soda\",\n        \"to\": \"soda-cup\"\n      },\n      {\n        \"from\": \"pasta-with-sauce\",\n        \"to\": \"pasta-shape-choice\"\n      },\n      {\n        \"from\": \"pasta-with-meat\",\n        \"to\": \"pasta-with-sauce\"\n      },\n      {\n        \"from\": \"pasta\",\n        \"to\": \"pasta-with-meat\"\n      },\n      {\n        \"from\": \"meat-food-with-topping\",\n        \"to\": \"all-meat-foods\"\n      },\n      {\n        \"from\": \"salad\",\n        \"to\": \"salad-base-with-mayo\"\n      },\n      {\n        \"from\": \"salad-base\",\n        \"to\": \"lettuce-cut\"\n      },\n      {\n        \"from\": \"salad-base-with-mayo\",\n        \"to\": \"salad-base\"\n      }\n    ],\n    \"topping\": [\n      {\n        \"from\": \"pasta-with-sauce\",\n        \"to\": \"sauce-choice\"\n      },\n      {\n        \"from\": \"pasta-with-meat\",\n        \"to\": \"pasta-mix\"\n      },\n      {\n        \"from\": \"salad\",\n        \"to\": \"salad-topping\"\n      },\n      {\n        \"from\": \"pasta\",\n        \"to\": \"common-topping\"\n      },\n      {\n        \"from\": \"salad-base-with-mayo\",\n        \"to\": \"mayonaise\"\n      },\n      {\n        \"from\": \"meat-food-with-topping\",\n        \"to\": \"meat-topping\"\n      },\n      {\n        \"from\": \"salad-base\",\n        \"to\": \"salad-base-add\"\n      },\n      {\n        \"from\": \"soda\",\n        \"to\": \"soda-topping\"\n      }\n    ],\n    \"option\": [\n      {\n        \"from\": \"pasta-shape-choice\",\n        \"to\": \"spaghetti-boiled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-shape-choice\",\n        \"to\": \"manicotti-boiled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-shape-choice\",\n        \"to\": \"farfalle-boiled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"sauce-choice\",\n        \"to\": \"tomato-milk-sauce\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"sauce-choice\",\n        \"to\": \"spinach-milk-sauce\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"sauce-choice\",\n        \"to\": \"cheese-milk-sauce\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"chick-or-beef\",\n        \"to\": \"beef-steak-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"chick-or-beef\",\n        \"to\": \"chicken-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-mix\",\n        \"to\": \"octopus-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-mix\",\n        \"to\": \"shrimp-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-mix\",\n        \"to\": \"clam-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"pasta-mix\",\n        \"to\": \"ground-meat-cooked\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"salad-topping\",\n        \"to\": \"bread-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"salad-topping\",\n        \"to\": \"lemon-sliced\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"salad-topping\",\n        \"to\": \"chick-or-beef\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"common-topping\",\n        \"to\": \"bread-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"common-topping\",\n        \"to\": \"lettuce-cut\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"common-topping\",\n        \"to\": \"lemon-sliced\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"salad-base-add\",\n        \"to\": \"apple-cut\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"salad-base-add\",\n        \"to\": \"tomato-large-chopped\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"common-topping\",\n        \"to\": \"apple-cut\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"common-topping\",\n        \"to\": \"tomato-large-chopped\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"meat-topping\",\n        \"to\": \"common-topping\",\n        \"maxQuantity\": -1\n      },\n      {\n        \"from\": \"meat-topping\",\n        \"to\": \"mayonaise\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"octopus-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"shrimp-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"clam-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"ground-meat-cooked\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"chicken-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"all-meat-foods\",\n        \"to\": \"beef-steak-grilled\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"soda-topping\",\n        \"to\": \"ice\",\n        \"maxQuantity\": 1\n      },\n      {\n        \"from\": \"soda-topping\",\n        \"to\": \"lemon-sliced\",\n        \"maxQuantity\": 1\n      }\n    ],\n    \"leavesDirty\": []\n  },\n  \"mergeDurationOverrides\": [],\n  \"layout\": {\n    \"ingredient:farfalle-raw\": {\n      \"x\": 107.52190535561977,\n      \"y\": 378.8248126559515\n    },\n    \"ingredient:manicotti-raw\": {\n      \"x\": 106.96689626471067,\n      \"y\": 310.9219853832238\n    },\n    \"ingredient:spaghetti-raw\": {\n      \"x\": 109.69416899198339,\n      \"y\": 249.4674399286783\n    },\n    \"ingredient:beef-steak-raw\": {\n      \"x\": -67.55627806844997,\n      \"y\": 1796.9786762080485\n    },\n    \"ingredient:chicken-raw\": {\n      \"x\": -67.97223611775178,\n      \"y\": 1735.2528033635706\n    },\n    \"ingredient:milk\": {\n      \"x\": 782.3552486470667,\n      \"y\": 492.4469431194709\n    },\n    \"ingredient:octopus-raw\": {\n      \"x\": -707.4534505167694,\n      \"y\": 1507.370605273604\n    },\n    \"ingredient:clam-raw\": {\n      \"x\": -735.4066376064834,\n      \"y\": 1649.776100141725\n    },\n    \"ingredient:shrimp-raw\": {\n      \"x\": -734.3642790962997,\n      \"y\": 1580.5319672242751\n    },\n    \"ingredient:bread-loaf\": {\n      \"x\": 91.48732728580636,\n      \"y\": 1077.996844529624\n    },\n    \"ingredient:cheese\": {\n      \"x\": 92.5914645801913,\n      \"y\": 643.4147479146835\n    },\n    \"ingredient:lemon\": {\n      \"x\": 94.42655463819605,\n      \"y\": 847.9319345219076\n    },\n    \"ingredient:lettuce\": {\n      \"x\": 94.9631104432757,\n      \"y\": 782.9198889241097\n    },\n    \"ingredient:spinach\": {\n      \"x\": 96.83137893948634,\n      \"y\": 570.390429544574\n    },\n    \"ingredient:tomato-large\": {\n      \"x\": 93.89902702872367,\n      \"y\": 713.1663446417846\n    },\n    \"ingredient:soda-cup\": {\n      \"x\": 1994.2559918372167,\n      \"y\": 1635.2114388321388\n    },\n    \"ingredient:farfalle-boiled\": {\n      \"x\": 607.9842516366115,\n      \"y\": 373.3081010857028\n    },\n    \"ingredient:manicotti-boiled\": {\n      \"x\": 606.8842516366115,\n      \"y\": 311.6006630691743\n    },\n    \"ingredient:spaghetti-boiled\": {\n      \"x\": 607.7106979176033,\n      \"y\": 251.96429943281055\n    },\n    \"ingredient:chicken-grilled\": {\n      \"x\": 554.1651843856798,\n      \"y\": 1731.267210053401\n    },\n    \"ingredient:beef-steak-grilled\": {\n      \"x\": 556.6489588651175,\n      \"y\": 1793.074036914012\n    },\n    \"ingredient:octopus-grilled\": {\n      \"x\": 572.1111732007263,\n      \"y\": 1397.4732962542462\n    },\n    \"ingredient:clam-grilled\": {\n      \"x\": 563.9619872727181,\n      \"y\": 1525.0695497950953\n    },\n    \"ingredient:shrimp-grilled\": {\n      \"x\": 569.7552748674519,\n      \"y\": 1460.3533028066574\n    },\n    \"ingredient:bread-grilled\": {\n      \"x\": 683.8241976857946,\n      \"y\": 1006.9499938939168\n    },\n    \"ingredient:cheese-chopped\": {\n      \"x\": 680.1294834568395,\n      \"y\": 647.0842706388205\n    },\n    \"ingredient:spinach-chopped\": {\n      \"x\": 679.1294834568395,\n      \"y\": 584.0240276587073\n    },\n    \"ingredient:tomato-large-chopped\": {\n      \"x\": 679.3884503705182,\n      \"y\": 725.1699931102723\n    },\n    \"ingredient:lettuce-cut\": {\n      \"x\": 675.294834568394,\n      \"y\": 809.6409757861566\n    },\n    \"ingredient:lemon-sliced\": {\n      \"x\": 676.5538014820728,\n      \"y\": 869.9497975165722\n    },\n    \"ingredient:cheese-milk-sauce\": {\n      \"x\": 1297.349622983229,\n      \"y\": 589.7335460461228\n    },\n    \"ingredient:spinach-milk-sauce\": {\n      \"x\": 1297.349622983229,\n      \"y\": 521.4148433591293\n    },\n    \"ingredient:tomato-milk-sauce\": {\n      \"x\": 1298.2429729487803,\n      \"y\": 656.653870374374\n    },\n    \"tool:boiler-pot\": {\n      \"x\": 369.2809458514875,\n      \"y\": 260.75719199479397\n    },\n    \"tool:chopping-board\": {\n      \"x\": 375.88085835522566,\n      \"y\": 648.475178655854\n    },\n    \"group:pasta-shape-choice\": {\n      \"x\": 858.1528466779339,\n      \"y\": 307.61553910223193\n    },\n    \"tool:sauce-blender\": {\n      \"x\": 1051.7874238549743,\n      \"y\": 540.1391520309774\n    },\n    \"group:sauce-choice\": {\n      \"x\": 1559.3765973459292,\n      \"y\": 599.4273949782149\n    },\n    \"composite:pasta\": {\n      \"x\": 2251.8174828118176,\n      \"y\": 660.6784045695856\n    },\n    \"composite:salad\": {\n      \"x\": 2293.306657109998,\n      \"y\": 930.0999464599995\n    },\n    \"composite:soda\": {\n      \"x\": 2315.996417329092,\n      \"y\": 1578.0551114021505\n    },\n    \"dirty:dirty-plate\": {\n      \"x\": 2682.766808,\n      \"y\": 626.5855430000001\n    },\n    \"dirty:dirty-bowl\": {\n      \"x\": 2682.7668080000003,\n      \"y\": 566.0955430000001\n    },\n    \"dirty:dirty-cup\": {\n      \"x\": 2686.7598080000002,\n      \"y\": 505.92054300000007\n    },\n    \"table:pickupable\": {\n      \"x\": -1107.3852779031313,\n      \"y\": 908.2018509133817\n    },\n    \"table:orderable\": {\n      \"x\": 2988.8407999999995,\n      \"y\": 891.959789999996\n    },\n    \"composite:pasta-with-sauce\": {\n      \"x\": 1793.8383993470502,\n      \"y\": 505.8208185986681\n    },\n    \"ingredient:octopus-raw-cut\": {\n      \"x\": -68.09543644036955,\n      \"y\": 1378.1776676529494\n    },\n    \"ingredient:shrimp-raw-cut\": {\n      \"x\": -63.3094091282079,\n      \"y\": 1450.0613914784842\n    },\n    \"ingredient:clam-raw-cut\": {\n      \"x\": -63.92130081127985,\n      \"y\": 1517.8422911022033\n    },\n    \"ingredient:mayonaise\": {\n      \"x\": 1293.908082208157,\n      \"y\": 963.7344500449514\n    },\n    \"ingredient:ice\": {\n      \"x\": 1741.9825425667475,\n      \"y\": 1793.2031496565694\n    },\n    \"group:pasta-mix\": {\n      \"x\": 919.4485824889994,\n      \"y\": 1392.2855293751338\n    },\n    \"tool:pan\": {\n      \"x\": 271.8009705653683,\n      \"y\": 1427.9279138642248\n    },\n    \"ingredient:ground-meat-raw\": {\n      \"x\": -65.98723765453022,\n      \"y\": 1670.649839400275\n    },\n    \"ingredient:ground-meat-cooked\": {\n      \"x\": 553.0540846595178,\n      \"y\": 1669.030004689531\n    },\n    \"composite:pasta-with-meat\": {\n      \"x\": 2022.5883513071944,\n      \"y\": 579.7420510626439\n    },\n    \"composite:meat-food-with-topping\": {\n      \"x\": 2297.2203073081637,\n      \"y\": 1313.9652837630701\n    },\n    \"group:salad-topping\": {\n      \"x\": 1436.2342464083458,\n      \"y\": 1065.2964625984614\n    },\n    \"group:meat-topping\": {\n      \"x\": 1915.9665725877899,\n      \"y\": 1302.3241056905035\n    },\n    \"ingredient:apple\": {\n      \"x\": 92.77825927734361,\n      \"y\": 920.6801605224597\n    },\n    \"ingredient:apple-cut\": {\n      \"x\": 679.5468543186648,\n      \"y\": 938.1875786899518\n    },\n    \"composite:salad-base-with-mayo\": {\n      \"x\": 2067.7634773558207,\n      \"y\": 876.7532758386347\n    },\n    \"group:common-topping\": {\n      \"x\": 1458.703088097518,\n      \"y\": 1307.1425133923635\n    },\n    \"group:chick-or-beef\": {\n      \"x\": 916.4548208125923,\n      \"y\": 1522.2142448664547\n    },\n    \"group:all-meat-foods\": {\n      \"x\": 924.2573773543959,\n      \"y\": 1704.4779556920203\n    },\n    \"tool:soda-machine\": {\n      \"x\": 1758.373256714875,\n      \"y\": 1617.8142352143586\n    },\n    \"ingredient:cup\": {\n      \"x\": 1492.4518821022718,\n      \"y\": 1672.5231933593736\n    },\n    \"composite:salad-base\": {\n      \"x\": 1762.6379796747676,\n      \"y\": 771.6448148618282\n    },\n    \"group:salad-base-add\": {\n      \"x\": 1408.7918223363613,\n      \"y\": 856.667726871021\n    },\n    \"group:soda-topping\": {\n      \"x\": 2065.3570314636227,\n      \"y\": 1753.9055904541015\n    }\n  },\n  \"notes\": [\n    {\n      \"id\": \"preview-background\",\n      \"x\": 3368.7012340430197,\n      \"y\": 466.1982278338252,\n      \"text\": \"Background preview\",\n      \"width\": 320,\n      \"height\": 320,\n      \"fileId\": \"18G44dIcqPIbxFLKHmv7VsHgNRiaIzwU0\",\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/backgrounds/demo-background.png\"\n    },\n    {\n      \"id\": \"preview-building\",\n      \"x\": 3400.5329459743994,\n      \"y\": 848.3350625630535,\n      \"text\": \"Building preview\",\n      \"width\": 320,\n      \"height\": 320,\n      \"fileId\": \"1-DpZDtXbneKsHNhr_SWFA8IvD8RCbibD\",\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/buildings/demo-building.png\"\n    }\n  ],\n  \"combinationRules\": {\n    \"containers\": [\n      {\n        \"composite\": \"pasta\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-plate-base.png\",\n        \"sortOrder\": -100,\n        \"front\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-plate-front.png\",\n          \"sortOrder\": 100,\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -2\n          },\n          \"scale\": {\n            \"x\": 1,\n            \"y\": 1\n          },\n          \"driveId\": \"1Rzy8YG9_64kDt90PPk6tZxsLCGYKrzSn\"\n        },\n        \"pos\": {\n          \"x\": 0,\n          \"y\": 0\n        },\n        \"scale\": {\n          \"x\": 1,\n          \"y\": 1\n        },\n        \"driveId\": \"1sYACGi8zWvpWYgur4PrIONecyGLn3lqW\"\n      },\n      {\n        \"composite\": \"salad\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-salad-bowl-base.png\",\n        \"sortOrder\": -100,\n        \"front\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-salad-bowl-front.png\",\n          \"sortOrder\": 100,\n          \"pos\": {\n            \"x\": 0,\n            \"y\": 6\n          },\n          \"scale\": {\n            \"x\": 1,\n            \"y\": 1\n          },\n          \"driveId\": \"1FUXyEAZDf8EHr4Kc3iuH9MFTtDt6uJMU\"\n        },\n        \"pos\": {\n          \"x\": 0,\n          \"y\": 0\n        },\n        \"scale\": {\n          \"x\": 1,\n          \"y\": 1\n        },\n        \"driveId\": \"11ttjcNZU9Ol1oj16RfiNWmxyJV8CkkTL\"\n      },\n      {\n        \"composite\": \"meat-food-with-topping\",\n        \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-plate-base.png\",\n        \"sortOrder\": -100,\n        \"front\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/modular-plate-front.png\",\n          \"sortOrder\": 4,\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -5.4848827977765655\n          },\n          \"scale\": {\n            \"x\": 0.9080376161429045,\n            \"y\": 0.9993841487001625\n          },\n          \"driveId\": \"1Rzy8YG9_64kDt90PPk6tZxsLCGYKrzSn\"\n        },\n        \"pos\": {\n          \"x\": 0,\n          \"y\": 0\n        },\n        \"scale\": {\n          \"x\": 1,\n          \"y\": 1\n        },\n        \"driveId\": \"1sYACGi8zWvpWYgur4PrIONecyGLn3lqW\"\n      }\n    ],\n    \"combinations\": [\n      {\n        \"id\": \"blend-spaghetti-boiled-tomato-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"spaghetti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"tomato-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-spaghetti-boiled-tomato-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1V5pyxZAnQBDNmY3gy8EDHAqjWTZJjjR9\"\n        }\n      },\n      {\n        \"id\": \"blend-spaghetti-boiled-spinach-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"spaghetti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"spinach-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-spaghetti-boiled-spinach-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1NRgHbEuQu2u7nJb_XEl-iAc6OgOm-b3E\"\n        }\n      },\n      {\n        \"id\": \"blend-spaghetti-boiled-cheese-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"spaghetti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"cheese-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-spaghetti-boiled-cheese-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1nbelQ_lFQdOIPHx8A9pDblO4WrvZoLFR\"\n        }\n      },\n      {\n        \"id\": \"blend-manicotti-boiled-tomato-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"manicotti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"tomato-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-manicotti-boiled-tomato-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1tRFvPqATdZL_5_Zn953jSSwUcW3QBAKS\"\n        }\n      },\n      {\n        \"id\": \"blend-manicotti-boiled-spinach-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"manicotti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"spinach-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-manicotti-boiled-spinach-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1Jlvn5VFj-EQl5I7ytPjoLD7qDXQSrFWk\"\n        }\n      },\n      {\n        \"id\": \"blend-manicotti-boiled-cheese-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"manicotti-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"cheese-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-manicotti-boiled-cheese-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1zB5cCVm4_mNMVizmdfJ6UhhHaDe7e91G\"\n        }\n      },\n      {\n        \"id\": \"blend-farfalle-boiled-tomato-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"farfalle-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"tomato-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-farfalle-boiled-tomato-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1QgsYXJgTsKHEAOTcY1jOrmkLLjWnt__u\"\n        }\n      },\n      {\n        \"id\": \"blend-farfalle-boiled-spinach-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"farfalle-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"spinach-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-farfalle-boiled-spinach-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"1VHSta3m_HjJ7lq86prLelSppP5RJQknO\"\n        }\n      },\n      {\n        \"id\": \"blend-farfalle-boiled-cheese-milk-sauce\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"farfalle-boiled\",\n        \"mode\": \"blended\",\n        \"topping\": \"cheese-milk-sauce\",\n        \"result\": {\n          \"localImage\": \"docs/preview_assets/55-pasta-combinations/nodes/combo-farfalle-boiled-cheese-milk-sauce.png\",\n          \"scale\": {\n            \"x\": 0.74,\n            \"y\": 0.74\n          },\n          \"driveId\": \"10Xo79_eb7mgQqTkB_jbeuQWUR1uY-a_v\"\n        }\n      },\n      {\n        \"id\": \"stack-pasta-pasta-with-meat\",\n        \"composite\": \"pasta\",\n        \"base\": \"pasta-with-meat\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {},\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-salad-salad-base-with-mayo\",\n        \"composite\": \"salad\",\n        \"base\": \"salad-base-with-mayo\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {},\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -24,\n              \"y\": 12\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.28,\n              \"y\": 0.28\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 24,\n              \"y\": 12\n            },\n            \"rot\": 8,\n            \"scale\": {\n              \"x\": 0.25,\n              \"y\": 0.25\n            }\n          },\n          {\n            \"item\": \"beef-steak-grilled\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -20\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.32,\n              \"y\": 0.32\n            }\n          },\n          {\n            \"item\": \"chicken-grilled\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -20\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.32,\n              \"y\": 0.32\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-octopus-grilled\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"octopus-grilled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": -2,\n            \"pos\": {\n              \"x\": 12.703624527858295,\n              \"y\": -18.77528969759128\n            },\n            \"rot\": 138.3266225155074,\n            \"scale\": {\n              \"x\": 0.4640004924665011,\n              \"y\": 0.4640004924665011\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": -3,\n            \"pos\": {\n              \"x\": -19.36991375231608,\n              \"y\": -11.273982750463215\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.5115853774844935,\n              \"y\": 0.5115853774844935\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": 30.95334144620163,\n              \"y\": -16.64651039703542\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.3084022191783443,\n              \"y\": 0.3084022191783443\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": -1,\n            \"pos\": {\n              \"x\": -8.20231758073023,\n              \"y\": -26.281824433231595\n            },\n            \"rot\": -50.68405056791923,\n            \"scale\": {\n              \"x\": 0.443733407751013,\n              \"y\": 0.443733407751013\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 22.65173818554767,\n              \"y\": -1.3889517959237034\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.39143451189430567,\n              \"y\": 0.39143451189430567\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 8.421800094626699,\n              \"y\": 8.06831049166212\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.32326849042240263,\n              \"y\": 0.36319459293913064\n            }\n          }\n        ],\n        \"baseLayers\": [\n          {\n            \"id\": \"base\",\n            \"sortOrder\": 0,\n            \"pos\": {\n              \"x\": -4.791713846942777,\n              \"y\": 7.114969045460487\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-shrimp-grilled\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"shrimp-grilled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 6,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.2,\n              \"y\": 0.2\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-clam-grilled\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"clam-grilled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 6,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.2,\n              \"y\": 0.2\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-ground-meat-cooked\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"ground-meat-cooked\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 6,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.2,\n              \"y\": 0.2\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-chicken-grilled\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"chicken-grilled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 6,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.2,\n              \"y\": 0.2\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-meat-food-with-topping-beef-steak-grilled\",\n        \"composite\": \"meat-food-with-topping\",\n        \"base\": \"beef-steak-grilled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -6\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.6,\n            \"y\": 0.6\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"bread-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": -22,\n              \"y\": -15\n            },\n            \"rot\": -8,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"lettuce-cut\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": -23,\n              \"y\": -12\n            },\n            \"rot\": 5,\n            \"scale\": {\n              \"x\": 0.3,\n              \"y\": 0.3\n            }\n          },\n          {\n            \"item\": \"lemon-sliced\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 25,\n              \"y\": -12\n            },\n            \"rot\": -6,\n            \"scale\": {\n              \"x\": 0.24,\n              \"y\": 0.24\n            }\n          },\n          {\n            \"item\": \"apple-cut\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 22,\n              \"y\": 0\n            },\n            \"rot\": 6,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"tomato-large-chopped\",\n            \"sortOrder\": 5,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": 5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.27,\n              \"y\": 0.27\n            }\n          },\n          {\n            \"item\": \"mayonaise\",\n            \"sortOrder\": 6,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.2,\n              \"y\": 0.2\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-soda-soda-cup\",\n        \"composite\": \"soda\",\n        \"base\": \"soda-cup\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": 0\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.82,\n            \"y\": 0.82\n          }\n        },\n        \"toppings\": []\n      },\n      {\n        \"id\": \"stack-pasta-with-sauce-spaghetti-boiled\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"spaghetti-boiled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -5\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.65,\n            \"y\": 0.65\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"tomato-milk-sauce\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"spinach-milk-sauce\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"cheese-milk-sauce\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-pasta-with-sauce-manicotti-boiled\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"manicotti-boiled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -5\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.65,\n            \"y\": 0.65\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"tomato-milk-sauce\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"spinach-milk-sauce\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"cheese-milk-sauce\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-pasta-with-sauce-farfalle-boiled\",\n        \"composite\": \"pasta-with-sauce\",\n        \"base\": \"farfalle-boiled\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {\n          \"pos\": {\n            \"x\": 0,\n            \"y\": -5\n          },\n          \"rot\": 0,\n          \"scale\": {\n            \"x\": 0.65,\n            \"y\": 0.65\n          }\n        },\n        \"toppings\": [\n          {\n            \"item\": \"tomato-milk-sauce\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"spinach-milk-sauce\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"cheese-milk-sauce\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          }\n        ]\n      },\n      {\n        \"id\": \"stack-pasta-with-meat-pasta-with-sauce\",\n        \"composite\": \"pasta-with-meat\",\n        \"base\": \"pasta-with-sauce\",\n        \"mode\": \"stacked\",\n        \"baseTransform\": {},\n        \"toppings\": [\n          {\n            \"item\": \"octopus-grilled\",\n            \"sortOrder\": 1,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"shrimp-grilled\",\n            \"sortOrder\": 2,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"clam-grilled\",\n            \"sortOrder\": 3,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          },\n          {\n            \"item\": \"ground-meat-cooked\",\n            \"sortOrder\": 4,\n            \"pos\": {\n              \"x\": 0,\n              \"y\": -5\n            },\n            \"rot\": 0,\n            \"scale\": {\n              \"x\": 0.34,\n              \"y\": 0.34\n            }\n          }\n        ]\n      }\n    ],\n    \"arrangements\": []\n  },\n  \"_combinationDemo\": {\n    \"sourceRecipesPreserved\": true,\n    \"sourceGraph\": \"Graph-4-Pasta\",\n    \"newAssets\": \"vibrant hard-shadow anime cel shading with thick contours\",\n    \"coverage\": \"All nine sauce blends, four exact salad-base blends, every base/topping pair, and single salad-base arrangements.\"\n  },\n  \"_sourceVisualAudit\": {\n    \"result\": \"pass\",\n    \"selectionSetsReviewed\": [\n      \"raw/boiled pasta shapes\",\n      \"whole/chopped vegetables and sauces\",\n      \"raw/prepared/grilled seafood\",\n      \"raw/cooked meats\",\n      \"vegetable/raw boards and all seven tools\"\n    ],\n    \"combinationPreviewsReviewed\": [\n      \"specified-spaghetti-cheese-shrimp\",\n      \"specified-manicotti-tomato-ground-meat-bread\",\n      \"specified-farfalle-spinach-tomato\",\n      \"random-spaghetti-tomato-octopus-bread\",\n      \"random-manicotti-cheese-clam-tomato\",\n      \"random-farfalle-spinach-ground-meat-bread\",\n      \"salad-bread\",\n      \"salad-chicken\",\n      \"salad-steak\",\n      \"meat-ground-meat-lemon\",\n      \"meat-chicken-tomato-bread\",\n      \"meat-steak-lemon-lettuce-mayo\",\n      \"meat-octopus-tomato-lemon-bread-mayo\",\n      \"meat-shrimp-all-toppings\",\n      \"meat-clam-lettuce-tomato\",\n      \"soda-grape-ice\",\n      \"minimum-pasta-cheese\",\n      \"minimum-salad\"\n    ],\n    \"reviewScalePx\": 64,\n    \"notes\": \"Six generated sheets and gameplay-scale contact sheet inspected. Requested previews retain recognizable pasta shapes, sauces and exposed proteins; meat plates span 1-5 topping types. No recipe/layout changes. Full maximum pasta/salad combinations were not regenerated.\"\n  },\n  \"_compositeDemos\": [\n    {\n      \"name\": \"demo-pasta-minimum\",\n      \"orderable\": \"pasta\",\n      \"ingredients\": [\n        \"spaghetti-boiled\",\n        \"tomato-milk-sauce\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/demo-pasta-minimum.png\",\n      \"fileId\": \"12B7wSOZz6quiLaB0i2gR-7uBtlrdF0Ej\"\n    },\n    {\n      \"name\": \"pasta\",\n      \"orderable\": \"pasta\",\n      \"ingredients\": [\n        \"manicotti-boiled\",\n        \"spinach-milk-sauce\",\n        \"shrimp-grilled\",\n        \"bread-grilled\",\n        \"lettuce-cut\",\n        \"lemon-sliced\",\n        \"apple-cut\",\n        \"tomato-large-chopped\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/pasta.png\",\n      \"fileId\": \"1mYvSc1tSSXDBLGE1GpJtEpugzB3Hg9Yu\"\n    },\n    {\n      \"name\": \"pasta-with-meat\",\n      \"orderable\": \"pasta\",\n      \"ingredients\": [\n        \"farfalle-boiled\",\n        \"cheese-milk-sauce\",\n        \"clam-grilled\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/pasta-with-meat.png\",\n      \"fileId\": \"1rvyuSbGCccepiTv5_nsjQLQgdEeiNuub\"\n    },\n    {\n      \"name\": \"demo-salad-minimum\",\n      \"orderable\": \"salad\",\n      \"ingredients\": [\n        \"apple-cut\",\n        \"mayonaise\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/demo-salad-minimum.png\",\n      \"fileId\": \"1jEqK0FvtVBVUWb5xvCiurfXTbSkBDb2J\"\n    },\n    {\n      \"name\": \"salad-base-with-mayo\",\n      \"orderable\": \"salad\",\n      \"ingredients\": [\n        \"lettuce-cut\",\n        \"apple-cut\",\n        \"tomato-large-chopped\",\n        \"mayonaise\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/salad-base-with-mayo.png\",\n      \"fileId\": \"1VKcRrGJM3rcpJ-sKTGpV7P8bfZ3mzwnX\"\n    },\n    {\n      \"name\": \"salad\",\n      \"orderable\": \"salad\",\n      \"ingredients\": [\n        \"lettuce-cut\",\n        \"apple-cut\",\n        \"tomato-large-chopped\",\n        \"mayonaise\",\n        \"chicken-grilled\",\n        \"lemon-sliced\",\n        \"bread-grilled\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/salad.png\",\n      \"fileId\": \"1l8XNehBFIoOXjoXbk39m9dZiq4vHZgbA\"\n    },\n    {\n      \"name\": \"demo-meat-minimum\",\n      \"orderable\": \"meat-food-with-topping\",\n      \"ingredients\": [\n        \"clam-grilled\",\n        \"mayonaise\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/demo-meat-minimum.png\",\n      \"fileId\": \"1uZZKvEUCDldfbvlDTnK6-8qixvoGdnR1\"\n    },\n    {\n      \"name\": \"meat-food-with-topping\",\n      \"orderable\": \"meat-food-with-topping\",\n      \"ingredients\": [\n        \"clam-grilled\",\n        \"mayonaise\",\n        \"bread-grilled\",\n        \"lettuce-cut\",\n        \"lemon-sliced\",\n        \"apple-cut\",\n        \"tomato-large-chopped\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/meat-food-with-topping.png\",\n      \"fileId\": \"16K0XnDln97QdFRqGz6_iGVu4u61B2tWN\"\n    },\n    {\n      \"name\": \"soda\",\n      \"orderable\": \"soda\",\n      \"ingredients\": [\n        \"soda-cup\",\n        \"ice\"\n      ],\n      \"imageURL\": \"/docs/preview_assets/55-pasta-combinations/demo/generated/soda.png\",\n      \"fileId\": \"1kQ6zy7Q5R-rvfTyWWSvWNn3LLp0erLIK\"\n    }\n  ],\n  \"_combinationVisualAudit\": {\n    \"contract\": \"docs/combination-asset-authoring.md\",\n    \"requirement\": \"Actual combined assets must look nearly the same as the generated composite demo for the same recipe at 256px and 64px.\",\n    \"status\": \"pass\",\n    \"report\": \"docs/combination-visual-review-2026-10-01.json\",\n    \"features\": [\n      \"optional-topping-sprite\",\n      \"container-base-front\"\n    ],\n    \"referenceSource\": \"Generated 3x3 demo sheet using the legal recipe assembly layout as a composition specification; target crops are generated images, not runtime captures.\",\n    \"reviewedSizes\": [\n      256,\n      64\n    ],\n    \"referenceRecipes\": 9\n  },\n  \"_runtimeProjection\": {\n    \"source\": \"Assets/_Production/Map-pasta/Docs/Graph-4-Pasta.json\",\n    \"sourceMapId\": \"pasta-combinations\",\n    \"unityMapId\": \"pasta\",\n    \"policy\": \"Keep source DATA IDs unchanged; append helper nodes absent from source idTable. Ingredient 42=cup; bread-cut helper removed; composite 0..3 unchanged, helpers 4..7. User-authorized source correction on 2026-10-09: chick-or-beef minQuantity 1 -> 0, maxQuantity remains 1. User-authorized removal of empty Level 31 on 2026-10-09; retained LevelData records 1-30 unchanged. Customer catalog remains untouched. User-authorized bread route update on 2026-10-09: bread-loaf -> pan -> bread-grilled, no chopping-board step. Other runtime rules and authored layout retained; current LevelData records 1-30 match existing native level assets.\",\n    \"revision\": \"Graph4-bread-direct-pan-2026-10-09-30levels\"\n  }\n}\n"
+  map:
+    id: pasta
+    name: Pasta Combinations
+    gridWidth: 5
+    gridHeight: 2
+    dirtyStackHeight: 5
+    visibleRows: 3
+    processSpeedMultiplier: 1
+    mergeSpeedMultiplier: 1
+  idTable:
+    ingredient:
+    - {fileID: 11400000, guid: aecddfc4c679fda45b2863a49fa1d14e, type: 2}
+    - {fileID: 11400000, guid: 6f59f1284d88b354c9cbccceb5656318, type: 2}
+    - {fileID: 11400000, guid: d2839e51bc5db1840878bf67b93d29ce, type: 2}
+    - {fileID: 11400000, guid: b7af303d6680c9546a40b16724315667, type: 2}
+    - {fileID: 11400000, guid: 030a1d259228fe64681a5c86d9cf360d, type: 2}
+    - {fileID: 11400000, guid: d1b9cbd8b0c6c7f4fae7f983f7f6d7f6, type: 2}
+    - {fileID: 11400000, guid: 7e07b5d128bb2834a81e2369f1ed65d4, type: 2}
+    - {fileID: 11400000, guid: 5763aab40a1d71b4b879cab50980f6e2, type: 2}
+    - {fileID: 11400000, guid: 8d2e931fbd6ef3a45b369b9d26ef7768, type: 2}
+    - {fileID: 11400000, guid: ada8ce33a4834834c86d57a8fc39297d, type: 2}
+    - {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+    - {fileID: 11400000, guid: b1627500064f7e94b9a04dec3ad1e27b, type: 2}
+    - {fileID: 11400000, guid: b5e76712039a1a84894609397698c1bf, type: 2}
+    - {fileID: 11400000, guid: fbde02f95c55559479c4ec9e743be447, type: 2}
+    - {fileID: 11400000, guid: 201c9d11f4e775c4a8b678e58368352e, type: 2}
+    - {fileID: 11400000, guid: 1cd2b197003643646a298e238ed61f80, type: 2}
+    - {fileID: 11400000, guid: 7e035618c52ff7649bfc8779a09aca89, type: 2}
+    - {fileID: 11400000, guid: 87db4c195a336f74782178855257ff94, type: 2}
+    - {fileID: 11400000, guid: 057bc674d56a4024e8e8cee806a412a2, type: 2}
+    - {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+    - {fileID: 11400000, guid: 1870b9433023e4b438bc87d034f0682d, type: 2}
+    - {fileID: 11400000, guid: 38fbd728b67dc6e4b995b157f09f9448, type: 2}
+    - {fileID: 11400000, guid: e0048b5865aa5014d9eddff6b6ee6f5e, type: 2}
+    - {fileID: 11400000, guid: 5550b70ccba7b6a448f292b6ffcb6b7b, type: 2}
+    - {fileID: 11400000, guid: d73ad3759d24777449dd825827d475c6, type: 2}
+    - {fileID: 11400000, guid: e6868d04c0342404e966ebb372c517de, type: 2}
+    - {fileID: 11400000, guid: 8d9cb9b1d44645d40a6acd7f025756fc, type: 2}
+    - {fileID: 11400000, guid: dd7fc16f7fc8e074b960dd7134e4bfa2, type: 2}
+    - {fileID: 11400000, guid: 03a8a30040cc29047b4240ee93929b2f, type: 2}
+    - {fileID: 11400000, guid: 4be6da108bf01b64d981d0940bd6c034, type: 2}
+    - {fileID: 11400000, guid: 0b8d4097e7f658447ab6a584d59f654d, type: 2}
+    - {fileID: 11400000, guid: b21b4759ecea4f842a3abce2cbf0bcb6, type: 2}
+    - {fileID: 11400000, guid: 8068c78c5fdd02749aa32a717517839e, type: 2}
+    - {fileID: 11400000, guid: ea661849e9bc22748ae09a029e5d1db6, type: 2}
+    - {fileID: 11400000, guid: 38c77b283cd8da54c99dffe2ec131fd3, type: 2}
+    - {fileID: 11400000, guid: 087ef1c19cefff24ba235e30cf5839e6, type: 2}
+    - {fileID: 11400000, guid: e48b3d1181d69284ca3a712fa41c4b2f, type: 2}
+    - {fileID: 11400000, guid: d16428ac05f2080478a98df55daa1a29, type: 2}
+    - {fileID: 11400000, guid: ba51bb57cbee02242a4cb68f45e82840, type: 2}
+    - {fileID: 11400000, guid: c062c6008ce1f964da0e877556e45096, type: 2}
+    - {fileID: 11400000, guid: 14f07d0e8bed4d74589857b3c52a24e4, type: 2}
+    - {fileID: 11400000, guid: 504abcce655f09a4bb3983c7ef44375f, type: 2}
+    - {fileID: 11400000, guid: 2df8988e7658506409e52e7292d776d4, type: 2}
+    composite:
+    - {fileID: 11400000, guid: 647df656250004440b741edebfd26da6, type: 2}
+    - {fileID: 11400000, guid: 1a459712829ba114aaede1413c9cf208, type: 2}
+    - {fileID: 11400000, guid: 2b81d8daae56365439b46fcd4a873e2d, type: 2}
+    - {fileID: 11400000, guid: 29f0cab3f18e47348bbef8c5631dc37c, type: 2}
+    - {fileID: 11400000, guid: bfb5fd9005020ab41837e5ed801b506c, type: 2}
+    - {fileID: 11400000, guid: f12c9d41bf9636f4a9bb053e306c0335, type: 2}
+    - {fileID: 11400000, guid: dff91fcda0f0cd34cbb1ecc0a4cbd9f0, type: 2}
+    - {fileID: 11400000, guid: b52cafad67dccfd46aa280154e9683a4, type: 2}
+    group:
+    - {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+    - {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+    - {fileID: 11400000, guid: 25432ac13d2d84143b1ab446c40caef8, type: 2}
+    - {fileID: 11400000, guid: d75f986dded70f541a62c832040493de, type: 2}
+    - {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+    - {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    - {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+    - {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    - {fileID: 11400000, guid: 5ea93fd5cbdd651428fa16944980b40d, type: 2}
+    - {fileID: 11400000, guid: 80bd5f8dc3ed01647a5e5cd8a6fa0478, type: 2}
+    tool:
+    - {fileID: 11400000, guid: f47bda0c6aed09740843a80e7256dd62, type: 2}
+    - {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    - {fileID: 11400000, guid: ca860045931bfd14287d61ecd9e36413, type: 2}
+    - {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    - {fileID: 11400000, guid: 5af7cf637c5d53f4faf620b2bbac085f, type: 2}
+    dirty:
+    - {fileID: 11400000, guid: 4645e710200af5348adfeda3434a63f8, type: 2}
+    - {fileID: 11400000, guid: f866bf9a0910a594da3f938b515bc125, type: 2}
+    - {fileID: 11400000, guid: 1f70c9be6063dca49a404e29f1694d1a, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: aecddfc4c679fda45b2863a49fa1d14e, type: 2}
+  - {fileID: 11400000, guid: 6f59f1284d88b354c9cbccceb5656318, type: 2}
+  - {fileID: 11400000, guid: d2839e51bc5db1840878bf67b93d29ce, type: 2}
+  - {fileID: 11400000, guid: b7af303d6680c9546a40b16724315667, type: 2}
+  - {fileID: 11400000, guid: 030a1d259228fe64681a5c86d9cf360d, type: 2}
+  - {fileID: 11400000, guid: d1b9cbd8b0c6c7f4fae7f983f7f6d7f6, type: 2}
+  - {fileID: 11400000, guid: 7e07b5d128bb2834a81e2369f1ed65d4, type: 2}
+  - {fileID: 11400000, guid: 5763aab40a1d71b4b879cab50980f6e2, type: 2}
+  - {fileID: 11400000, guid: 8d2e931fbd6ef3a45b369b9d26ef7768, type: 2}
+  - {fileID: 11400000, guid: ada8ce33a4834834c86d57a8fc39297d, type: 2}
+  - {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+  - {fileID: 11400000, guid: b1627500064f7e94b9a04dec3ad1e27b, type: 2}
+  - {fileID: 11400000, guid: b5e76712039a1a84894609397698c1bf, type: 2}
+  - {fileID: 11400000, guid: fbde02f95c55559479c4ec9e743be447, type: 2}
+  - {fileID: 11400000, guid: 201c9d11f4e775c4a8b678e58368352e, type: 2}
+  - {fileID: 11400000, guid: 1cd2b197003643646a298e238ed61f80, type: 2}
+  - {fileID: 11400000, guid: 7e035618c52ff7649bfc8779a09aca89, type: 2}
+  - {fileID: 11400000, guid: 87db4c195a336f74782178855257ff94, type: 2}
+  - {fileID: 11400000, guid: 057bc674d56a4024e8e8cee806a412a2, type: 2}
+  - {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+  - {fileID: 11400000, guid: 1870b9433023e4b438bc87d034f0682d, type: 2}
+  - {fileID: 11400000, guid: 38fbd728b67dc6e4b995b157f09f9448, type: 2}
+  - {fileID: 11400000, guid: e0048b5865aa5014d9eddff6b6ee6f5e, type: 2}
+  - {fileID: 11400000, guid: 5550b70ccba7b6a448f292b6ffcb6b7b, type: 2}
+  - {fileID: 11400000, guid: d73ad3759d24777449dd825827d475c6, type: 2}
+  - {fileID: 11400000, guid: e6868d04c0342404e966ebb372c517de, type: 2}
+  - {fileID: 11400000, guid: 8d9cb9b1d44645d40a6acd7f025756fc, type: 2}
+  - {fileID: 11400000, guid: dd7fc16f7fc8e074b960dd7134e4bfa2, type: 2}
+  - {fileID: 11400000, guid: 03a8a30040cc29047b4240ee93929b2f, type: 2}
+  - {fileID: 11400000, guid: 4be6da108bf01b64d981d0940bd6c034, type: 2}
+  - {fileID: 11400000, guid: 0b8d4097e7f658447ab6a584d59f654d, type: 2}
+  - {fileID: 11400000, guid: b21b4759ecea4f842a3abce2cbf0bcb6, type: 2}
+  - {fileID: 11400000, guid: 8068c78c5fdd02749aa32a717517839e, type: 2}
+  - {fileID: 11400000, guid: ea661849e9bc22748ae09a029e5d1db6, type: 2}
+  - {fileID: 11400000, guid: ba51bb57cbee02242a4cb68f45e82840, type: 2}
+  - {fileID: 11400000, guid: c062c6008ce1f964da0e877556e45096, type: 2}
+  - {fileID: 11400000, guid: 38c77b283cd8da54c99dffe2ec131fd3, type: 2}
+  - {fileID: 11400000, guid: 087ef1c19cefff24ba235e30cf5839e6, type: 2}
+  - {fileID: 11400000, guid: d16428ac05f2080478a98df55daa1a29, type: 2}
+  - {fileID: 11400000, guid: e48b3d1181d69284ca3a712fa41c4b2f, type: 2}
+  - {fileID: 11400000, guid: 504abcce655f09a4bb3983c7ef44375f, type: 2}
+  - {fileID: 11400000, guid: 14f07d0e8bed4d74589857b3c52a24e4, type: 2}
+  - {fileID: 11400000, guid: 2df8988e7658506409e52e7292d776d4, type: 2}
+  tools:
+  - {fileID: 11400000, guid: f47bda0c6aed09740843a80e7256dd62, type: 2}
+  - {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+  - {fileID: 11400000, guid: ca860045931bfd14287d61ecd9e36413, type: 2}
+  - {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+  - {fileID: 11400000, guid: 5af7cf637c5d53f4faf620b2bbac085f, type: 2}
+  groups:
+  - {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+  - {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+  - {fileID: 11400000, guid: 25432ac13d2d84143b1ab446c40caef8, type: 2}
+  - {fileID: 11400000, guid: d75f986dded70f541a62c832040493de, type: 2}
+  - {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+  - {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+  - {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+  - {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+  - {fileID: 11400000, guid: 5ea93fd5cbdd651428fa16944980b40d, type: 2}
+  - {fileID: 11400000, guid: 80bd5f8dc3ed01647a5e5cd8a6fa0478, type: 2}
+  composites:
+  - {fileID: 11400000, guid: 647df656250004440b741edebfd26da6, type: 2}
+  - {fileID: 11400000, guid: 1a459712829ba114aaede1413c9cf208, type: 2}
+  - {fileID: 11400000, guid: 2b81d8daae56365439b46fcd4a873e2d, type: 2}
+  - {fileID: 11400000, guid: 29f0cab3f18e47348bbef8c5631dc37c, type: 2}
+  - {fileID: 11400000, guid: bfb5fd9005020ab41837e5ed801b506c, type: 2}
+  - {fileID: 11400000, guid: f12c9d41bf9636f4a9bb053e306c0335, type: 2}
+  - {fileID: 11400000, guid: dff91fcda0f0cd34cbb1ecc0a4cbd9f0, type: 2}
+  - {fileID: 11400000, guid: b52cafad67dccfd46aa280154e9683a4, type: 2}
+  dirtyObjects:
+  - {fileID: 11400000, guid: 4645e710200af5348adfeda3434a63f8, type: 2}
+  - {fileID: 11400000, guid: f866bf9a0910a594da3f938b515bc125, type: 2}
+  - {fileID: 11400000, guid: 1f70c9be6063dca49a404e29f1694d1a, type: 2}
+  mergeDurationOverrides: []
+  exclusiveRules: []
+  executionProfile: {fileID: 0}
+  runtimeOverrides: {fileID: 0}
+  processEdges:
+  - from: {fileID: 11400000, guid: f47bda0c6aed09740843a80e7256dd62, type: 2}
+    to: {fileID: 11400000, guid: b7af303d6680c9546a40b16724315667, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: aecddfc4c679fda45b2863a49fa1d14e, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: f47bda0c6aed09740843a80e7256dd62, type: 2}
+    to: {fileID: 11400000, guid: 030a1d259228fe64681a5c86d9cf360d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 6f59f1284d88b354c9cbccceb5656318, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: f47bda0c6aed09740843a80e7256dd62, type: 2}
+    to: {fileID: 11400000, guid: d1b9cbd8b0c6c7f4fae7f983f7f6d7f6, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: d2839e51bc5db1840878bf67b93d29ce, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: b1627500064f7e94b9a04dec3ad1e27b, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 5763aab40a1d71b4b879cab50980f6e2, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: b5e76712039a1a84894609397698c1bf, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 8d2e931fbd6ef3a45b369b9d26ef7768, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 7e07b5d128bb2834a81e2369f1ed65d4, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ca860045931bfd14287d61ecd9e36413, type: 2}
+    to: {fileID: 11400000, guid: 201c9d11f4e775c4a8b678e58368352e, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: b1627500064f7e94b9a04dec3ad1e27b, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ada8ce33a4834834c86d57a8fc39297d, type: 2}
+      slot: 1
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ca860045931bfd14287d61ecd9e36413, type: 2}
+    to: {fileID: 11400000, guid: 1cd2b197003643646a298e238ed61f80, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: b5e76712039a1a84894609397698c1bf, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ada8ce33a4834834c86d57a8fc39297d, type: 2}
+      slot: 1
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ca860045931bfd14287d61ecd9e36413, type: 2}
+    to: {fileID: 11400000, guid: fbde02f95c55559479c4ec9e743be447, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+      slot: 0
+    - ingredient: {fileID: 11400000, guid: ada8ce33a4834834c86d57a8fc39297d, type: 2}
+      slot: 1
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: 87db4c195a336f74782178855257ff94, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 7e035618c52ff7649bfc8779a09aca89, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 057bc674d56a4024e8e8cee806a412a2, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 1426594c7dc1c9742bb0d51de8cb0998, type: 2}
+    to: {fileID: 11400000, guid: 14f07d0e8bed4d74589857b3c52a24e4, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 504abcce655f09a4bb3983c7ef44375f, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: 8d9cb9b1d44645d40a6acd7f025756fc, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 1870b9433023e4b438bc87d034f0682d, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: dd7fc16f7fc8e074b960dd7134e4bfa2, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: ea661849e9bc22748ae09a029e5d1db6, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: 03a8a30040cc29047b4240ee93929b2f, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: ba51bb57cbee02242a4cb68f45e82840, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 5af7cf637c5d53f4faf620b2bbac085f, type: 2}
+    to: {fileID: 11400000, guid: 8068c78c5fdd02749aa32a717517839e, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 2df8988e7658506409e52e7292d776d4, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: 4be6da108bf01b64d981d0940bd6c034, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: c062c6008ce1f964da0e877556e45096, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: e48b3d1181d69284ca3a712fa41c4b2f, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: d16428ac05f2080478a98df55daa1a29, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: b21b4759ecea4f842a3abce2cbf0bcb6, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: e6868d04c0342404e966ebb372c517de, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 33e011b0b8079a84292a5d24b5cba3ac, type: 2}
+    to: {fileID: 11400000, guid: 0b8d4097e7f658447ab6a584d59f654d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: d73ad3759d24777449dd825827d475c6, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  compositeProcesses: []
+  gridAssemblies: []
+  preservationEdges: []
+  baseEdges:
+  - from: {fileID: 11400000, guid: 29f0cab3f18e47348bbef8c5631dc37c, type: 2}
+    to: {fileID: 11400000, guid: 8068c78c5fdd02749aa32a717517839e, type: 2}
+  - from: {fileID: 11400000, guid: bfb5fd9005020ab41837e5ed801b506c, type: 2}
+    to: {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+  - from: {fileID: 11400000, guid: f12c9d41bf9636f4a9bb053e306c0335, type: 2}
+    to: {fileID: 11400000, guid: bfb5fd9005020ab41837e5ed801b506c, type: 2}
+  - from: {fileID: 11400000, guid: 647df656250004440b741edebfd26da6, type: 2}
+    to: {fileID: 11400000, guid: f12c9d41bf9636f4a9bb053e306c0335, type: 2}
+  - from: {fileID: 11400000, guid: 2b81d8daae56365439b46fcd4a873e2d, type: 2}
+    to: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+  - from: {fileID: 11400000, guid: 1a459712829ba114aaede1413c9cf208, type: 2}
+    to: {fileID: 11400000, guid: dff91fcda0f0cd34cbb1ecc0a4cbd9f0, type: 2}
+  - from: {fileID: 11400000, guid: b52cafad67dccfd46aa280154e9683a4, type: 2}
+    to: {fileID: 11400000, guid: 87db4c195a336f74782178855257ff94, type: 2}
+  - from: {fileID: 11400000, guid: dff91fcda0f0cd34cbb1ecc0a4cbd9f0, type: 2}
+    to: {fileID: 11400000, guid: b52cafad67dccfd46aa280154e9683a4, type: 2}
+  toppingEdges:
+  - from: {fileID: 11400000, guid: bfb5fd9005020ab41837e5ed801b506c, type: 2}
+    to: {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+  - from: {fileID: 11400000, guid: f12c9d41bf9636f4a9bb053e306c0335, type: 2}
+    to: {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+  - from: {fileID: 11400000, guid: 1a459712829ba114aaede1413c9cf208, type: 2}
+    to: {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+  - from: {fileID: 11400000, guid: 647df656250004440b741edebfd26da6, type: 2}
+    to: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+  - from: {fileID: 11400000, guid: dff91fcda0f0cd34cbb1ecc0a4cbd9f0, type: 2}
+    to: {fileID: 11400000, guid: 38c77b283cd8da54c99dffe2ec131fd3, type: 2}
+  - from: {fileID: 11400000, guid: 2b81d8daae56365439b46fcd4a873e2d, type: 2}
+    to: {fileID: 11400000, guid: d75f986dded70f541a62c832040493de, type: 2}
+  - from: {fileID: 11400000, guid: b52cafad67dccfd46aa280154e9683a4, type: 2}
+    to: {fileID: 11400000, guid: 5ea93fd5cbdd651428fa16944980b40d, type: 2}
+  - from: {fileID: 11400000, guid: 29f0cab3f18e47348bbef8c5631dc37c, type: 2}
+    to: {fileID: 11400000, guid: 80bd5f8dc3ed01647a5e5cd8a6fa0478, type: 2}
+  optionEdges:
+  - from: {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+    to: {fileID: 11400000, guid: b7af303d6680c9546a40b16724315667, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+    to: {fileID: 11400000, guid: 030a1d259228fe64681a5c86d9cf360d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 611eeca6cc17a264ab25c8dacafa9183, type: 2}
+    to: {fileID: 11400000, guid: d1b9cbd8b0c6c7f4fae7f983f7f6d7f6, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+    to: {fileID: 11400000, guid: fbde02f95c55559479c4ec9e743be447, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+    to: {fileID: 11400000, guid: 201c9d11f4e775c4a8b678e58368352e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 3b6c9a87c278f3c4a952d2a15547071a, type: 2}
+    to: {fileID: 11400000, guid: 1cd2b197003643646a298e238ed61f80, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 25432ac13d2d84143b1ab446c40caef8, type: 2}
+    to: {fileID: 11400000, guid: 0b8d4097e7f658447ab6a584d59f654d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 25432ac13d2d84143b1ab446c40caef8, type: 2}
+    to: {fileID: 11400000, guid: b21b4759ecea4f842a3abce2cbf0bcb6, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+    to: {fileID: 11400000, guid: dd7fc16f7fc8e074b960dd7134e4bfa2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+    to: {fileID: 11400000, guid: 03a8a30040cc29047b4240ee93929b2f, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+    to: {fileID: 11400000, guid: 4be6da108bf01b64d981d0940bd6c034, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 61afa1670a3149240adb9ceddf94388d, type: 2}
+    to: {fileID: 11400000, guid: e48b3d1181d69284ca3a712fa41c4b2f, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+    to: {fileID: 11400000, guid: 8d9cb9b1d44645d40a6acd7f025756fc, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+    to: {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 63219c9c4389bd546aa8b4d801c9f670, type: 2}
+    to: {fileID: 11400000, guid: 25432ac13d2d84143b1ab446c40caef8, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    to: {fileID: 11400000, guid: 8d9cb9b1d44645d40a6acd7f025756fc, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    to: {fileID: 11400000, guid: 87db4c195a336f74782178855257ff94, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    to: {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5ea93fd5cbdd651428fa16944980b40d, type: 2}
+    to: {fileID: 11400000, guid: 14f07d0e8bed4d74589857b3c52a24e4, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5ea93fd5cbdd651428fa16944980b40d, type: 2}
+    to: {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    to: {fileID: 11400000, guid: 14f07d0e8bed4d74589857b3c52a24e4, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    to: {fileID: 11400000, guid: 1728bd32e25426746850568f8f41904a, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: d75f986dded70f541a62c832040493de, type: 2}
+    to: {fileID: 11400000, guid: 51f644b9ebd64d54f82f4f414b9420f3, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: d75f986dded70f541a62c832040493de, type: 2}
+    to: {fileID: 11400000, guid: 38c77b283cd8da54c99dffe2ec131fd3, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: dd7fc16f7fc8e074b960dd7134e4bfa2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: 03a8a30040cc29047b4240ee93929b2f, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: 4be6da108bf01b64d981d0940bd6c034, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: e48b3d1181d69284ca3a712fa41c4b2f, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: b21b4759ecea4f842a3abce2cbf0bcb6, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 5cca8653427a4094982362b90420a965, type: 2}
+    to: {fileID: 11400000, guid: 0b8d4097e7f658447ab6a584d59f654d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 80bd5f8dc3ed01647a5e5cd8a6fa0478, type: 2}
+    to: {fileID: 11400000, guid: 087ef1c19cefff24ba235e30cf5839e6, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 80bd5f8dc3ed01647a5e5cd8a6fa0478, type: 2}
+    to: {fileID: 11400000, guid: dc8215160a05095448919bce8ce28bde, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  leavesDirtyEdges: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1627350446, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: CustomerPack-pasta
+  m_EditorClassIdentifier:
+  pools:
+  - customerType: 0
+    pets:
+    - {fileID: 11400000, guid: eab2511f37755c24e9a31527ddc58b7d, type: 2}
+    - {fileID: 11400000, guid: 33fbd143878bfb5409ccb6097c2e4391, type: 2}
+    - {fileID: 11400000, guid: 28ebcdc627b12814e9061712dc689634, type: 2}
+  - customerType: 1
+    pets: []

@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_ja-JP
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja-JP
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: パスタ物語が始まる、こぢんまりとした居心地のいいトラットリア。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: トラットリアに居心地のいい2階を増築。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: あっという間になめらかソースが完成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: ソースの大旋風。フタは絶対に忘れずに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: トマトは赤面する前にさいの目切り。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: 速すぎて玉ねぎが泣くひまもない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: チェック柄のテーブルと心地よいイスで、外でパスタを。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: ドアの横で温かく灯るランタン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: 屋根に誇らしげに輝く、カピバラシェフの看板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: 本日のおすすめパスタを書いた黒板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: ソースが2倍速でジュージュー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: ジュージュー度アップ。パンが誇らしげに輝く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: 入口を明るくする、みずみずしい鉢植えの緑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: 「アルデンテ」と言う前にお湯が沸騰。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: パスタを光速でゆで上げる、ぐつぐつの伝説。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: 屋根を彩る、たわわなブドウの房。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: 屋根の上で高々と巻かれた巨大なスパゲッティ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: シュワシュワのソーダをあっという間に注ぐ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: シュワシュワたっぷり！泡と喜びの噴水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: トラットリア2階
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: ソースミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: ソーストルネード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: スピード包丁まないた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: パスタ忍者まないた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: テラス席
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: 壁掛けランタン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: カピシェフ看板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: 黒板メニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: ジュージューパン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: 灼熱パン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: 鉢植えバジル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: 速沸ポット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: メガ沸騰大鍋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: 屋根のブドウ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: 巨大スパゲッティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: シュワシュワサーバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: ソーダ間欠泉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: ストライプスーツにバラ飾りのフェドーラ帽をかぶった貫禄あるクマ。パスタは大盛り、敬意は絶対。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: 紫の帽子とおそろいのドレスがおしゃれなトラ猫。完璧なセンスでパスタを注文し、満足げにゴロゴロ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: 青い郵便制服をきちんと着たチンチラ。配達の合間に、できたてパスタの香りをたどってやって来ます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: シルクハットに三色のたすきをかけた誇り高きニワトリ。パスタカウンターで堂々と演説します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: 丸メガネに鈴付きスカーフの穏やかなヒツジ。パスタの一皿一皿を、きちんとした特別な場と考えています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: りんご
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: カットりんご
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: ドン・オルシーノ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: 焼いたビーフステーキ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: 生ビーフステーキ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: ゆで鍋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: トースト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: 食パン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: カテリーナ伯爵夫人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: チーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: 刻みチーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: チーズミルクソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: 焼き鶏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: 生の鶏肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: チンチラのチコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: まな板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: 焼きホタテ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: 生ホタテ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: 切った生ホタテ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: パスタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: サラダ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: 肉＆シーフード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: ソーダ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: 茹でファルファッレ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: 乾燥ファルファッレ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: 炒めたひき肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: 生ひき肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: 氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: レモン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: スライスレモン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: レタス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: カットレタス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: 茹でマニコッティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: 乾燥マニコッティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: マヨネーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: 肉＆シーフード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: グランドメニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: ミルク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: 焼きダコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: 生ダコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: 切った生ダコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: フライパン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: パスタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: ガッロ市長
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: サラダ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: ソースミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: ウーリントン氏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: 焼きエビ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: 生エビ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: 下処理した生エビ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: ソーダ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: ソーダカップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: 茹でスパゲッティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: 乾燥スパゲッティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: ほうれん草
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: 刻みほうれん草
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: ほうれん草ミルクソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: 大きなトマト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: 刻みトマト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: トマトミルクソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: お医者さんも退屈なサラダも遠ざける、シャキッとりんご。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: シャキシャキのくし切り、いつでも混ぜられます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: 「ベリッシモ」とささやくまでグリルで焼き上げ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: フィレンツェを夢見る、分厚いビーフ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: パスタを完璧なアルデンテに茹で上げます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: サクッと満足、こんがりブルスケッタ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: 外はカリッと、中はふんわりの素朴なイタリアパン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: ドラマと風味のために熟成されたホールチーズ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: パスタに降り積もるのを待つ、チーズの雪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: クリーミーでチーズたっぷり、どんな口論にも勝てるなめらかさ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: しっかり焼き目のついたジューシーなグリルチキン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: グリルの出番を待つ、まだ白い鶏肉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: 「チャオ」と言うより速く野菜を刻みます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: ヴェネツィアの夕日のように甘い、焼きホタテ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: まだ殻をぎゅっと閉じているホタテ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: 下処理済み、もう殻にこもりません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: シュワっと何かを待っている空のカップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: くるっと巻いてソースをかけ、イタリアンに盛り付け。マンマミーア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: シャキッと新鮮、まるでイタリアの菜園をそのまま和えたよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: グリルと海から、ナポリの日曜日にふさわしいごちそう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: シュワっと冷たい、どのパスタにも最高の相棒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: ディナーにおめかしした、やわらか蝶ネクタイ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: まだ飛び方を知らない、パスタの小さな蝶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: ノンナ直伝、こんがり香ばしいソース仕立て。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: 定番ラグーへの道を歩む牛ひき肉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: どのソーダもひんやりキープする氷。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: 太陽いっぱいのアマルフィレモン、爽やかな性格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: ひと口ごとにきらめく、明るいレモンスライス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: 畑から届いたばかりのシャキシャキレタス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: しっかり混ぜる準備ができた、カットした葉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: 茹で上がって詰めるだけの、やわらか筒パスタ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: 具をたっぷり詰められる大きなパスタの筒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: どのサラダもまとめてくれる、クリーミーなドレッシング。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: グリルと海が出会う、ボリューム満点の一皿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: どのクリーミーソースにも欠かせない、新鮮なミルク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: 地中海の味そのもの、香ばしいグリルダコ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: 腕は8本、この先のことは何も知らない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: 下処理した足、加熱の準備OK。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: お肉もソースも、黄金色に焼き上げます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: 湯気の立つパスタ、アルデンテが自慢です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: イタリア流に和えた新鮮なグリーン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: ひと回しでなめらかソースの出来上がり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: 炎にキスされた、ジュワッとエビ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: 丸まって恥ずかしがる小さなエビ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: 殻をむいて下処理済み、もう隠れる場所はありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: キンキンに冷えた、シュワシュワの一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: シュワっとおかわりを待つカップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: たっぷりの氷にシュワシュワソーダを注ぎます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: 完璧なアルデンテ、くるくる巻くだけ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: 長くて乾いて、グリッシーニみたいにカチカチ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: 船乗り級のパワーを秘めた緑の葉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: ソースに使う、細かく刻んだ葉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: 緑色でクリーミー、実はヘルシー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: トスカーナの太陽で熟した、まるまるトマト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: 角切りトマト、すべての赤いソースの心臓。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: ローマの夕焼けみたいなピンクのクリーミーソース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: カップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: ソーダマシン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: 居心地のよいトラットリア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: トマトは赤面する前にみじん切り。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: サムライパスタまな板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: ひと振りでサラダ完成。シェフも絶賛。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: 伝説のパスタブレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: ひと回しでクリーミーなソース。ナプキン推奨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: ソースハリケーン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: ひと回しの速さでなめらかソース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: 伝説のソース渦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: ステーキが一瞬でジュージュー。この音を聞いて！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: インフェルノパン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: 「ベリッシモ」と言う前に完璧な焼き上がり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: 伝説のジュージューパン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: パスタが一瞬でアルデンテ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: 火山ゆで鍋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: 水が気づかないほどの速さで沸騰。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: 伝説のパスタ大釜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: シュワシュワ大噴火。カップが勝手にいっぱいに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: ソーダ火山
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: 泡は永遠に。のどの渇きに勝ち目なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: 無限ソーダ噴水
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

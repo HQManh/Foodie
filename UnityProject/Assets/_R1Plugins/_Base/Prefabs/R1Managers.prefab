@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: R1Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 925077632, guid: b18d5b148d2762ff527b39cc621da701, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _mainManagers:
+  - {fileID: 1709254077376921, guid: a1e24a387d8a2f646bbb267d7d285137, type: 2}
+  - {fileID: 1709254077376921, guid: 43b23c1dbd5eba04389d87f89d4c9133, type: 2}
+  - {fileID: 1709254077376921, guid: 0f72a8ae34e44004e8e9ab44e9a82b72, type: 2}
+  - {fileID: 1709254077376921, guid: fb8eed7c8ad57b14f9ecf00cdcecf9d3, type: 2}
+  - {fileID: 1709254077376921, guid: 32dfa9a11cdcbeb42853dd630fa9a7d7, type: 2}
+  _eventManagers:
+  - liveOpsEvent: 0
+    prefab: {fileID: 1709254077376921, guid: 00036c2a2fddd5547b38923a53ffbdc8, type: 2}
+  - liveOpsEvent: 1
+    prefab: {fileID: 1709254077376921, guid: eba5d43f66af73b43bb86a6703dc62f2, type: 2}
+  - liveOpsEvent: 2
+    prefab: {fileID: 1709254077376921, guid: 0e2038b5318d1854387584018824287c, type: 2}
+  - liveOpsEvent: 3
+    prefab: {fileID: 1709254077376921, guid: b42f8506b44930b488c415c6052974df, type: 2}
+  - liveOpsEvent: 5
+    prefab: {fileID: 1709254077376921, guid: e493d331016646d449d763b20444a404, type: 2}
+  - liveOpsEvent: 4
+    prefab: {fileID: 1709254077376921, guid: c493451ffcbf8d34e990189c79879ea9, type: 2}
+  - liveOpsEvent: 6
+    prefab: {fileID: 1709254077376921, guid: e1401ce256d7d2b41a1bf9e717cc3d6b, type: 2}
+  _dropItemCanvas: {fileID: 1709254077376921, guid: ad9a8f96d276ae842b2e5c7098f4cd45, type: 2}
+  _popupLoading: {fileID: 114884547391421755, guid: 218d74de761730f4384ed1300a609eb4, type: 2}
+  _sfxUnlockFeature: {fileID: 0}
+  _rwItemIconConfig: {fileID: 11400000, guid: c0e56d91de554b44ca03f6522ad693f2, type: 2}
+  _serverConfig: {fileID: 0}

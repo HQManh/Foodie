@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1317516421, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Character-pig_boss
+  m_EditorClassIdentifier:
+  _id: pig_boss
+  _tempNameAlias: Boss Hogsworth
+  _tempDescription: Runs the lunch rush like a boardroom and demands premium pickles.
+  _locTable: Map_burger
+  characterGlobalIndex: 6
+  characterType: 2
+  map: {fileID: 11400000, guid: 23be59d060ec7c946999d205d5760ae6, type: 2}
+  assetCharacterAnimControl:
+    m_AssetGUID: 82506a5bb601fb24e85aa899c82d973f
+    m_SubObjectName:
+    m_SubObjectType:
+  assetAvatarSpineUI:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:

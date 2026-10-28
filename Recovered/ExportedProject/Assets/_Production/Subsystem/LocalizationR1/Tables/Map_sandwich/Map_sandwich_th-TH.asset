@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sandwich_th-TH
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th-TH
+  m_SharedData: {fileID: 11400000, guid: f98ead670a214fa419c82916a68f9bfa, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47151316996
+    m_Localized: แซนด์วิช​คาว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47134539776
+    m_Localized: ขนมปัง​ปิ้ง​ที่​ซ้อน​ไส้​ด้วย​ทุก​อย่าง​ที่​เตา​ย่าง​มี​ให้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316997
+    m_Localized: แซนด์วิช​ผล​ไม้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316992
+    m_Localized: ขนมปัง​นุ่ม ๆ สอดไส้​ครีม​ฟู​ดุจ​ปุย​เมฆ​กับ​ผล​ไม้​สี​สดใส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316998
+    m_Localized: สลัด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316993
+    m_Localized: ผัก​กรอบ ๆ หนึ่ง​ชาม แต่ง​ด้วย​มา​ยอง​เน​สนิด​หน่อย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316999
+    m_Localized: น้ำ​ผล​ไม้​สด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316994
+    m_Localized: คั้น​สด​ตาม​สั่ง จะ​ใส่​น้ำ​แข็ง​หรือ​ไม่​ก็ได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151317000
+    m_Localized: ซุป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316995
+    m_Localized: ซุป​ครีม​อุ่น ๆ หนึ่ง​ชาม พร้อม​ท็อป​ปิ้ง​ด้าน​บน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833574129664
+    m_Localized: เบคอน​ดิบ​รอ​ลง​กระทะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295488
+    m_Localized: ไข่​ต้มสุก​กำลัง​ดี​สำหรับ​แซนด์วิช
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295489
+    m_Localized: ปิ้ง​ขนมปัง​ให้​อุ่น​และ​เหลือง​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295490
+    m_Localized: ขนมปัง​นุ่ม​ตัด​เป็น​สามเหลี่ยม​สวย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295491
+    m_Localized: ชีส​สี​ทอง​แผ่น​ละลาย​เยิ้ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295492
+    m_Localized: อกไก่​ดิบ​รอ​ชุบ​แป้ง​ทอด​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295493
+    m_Localized: ทอด​จน​เหลือง​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295494
+    m_Localized: แตงกวา​เย็น​กรอบ​สี​เขียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295495
+    m_Localized: แตงกวา​หั่น​แว่น​สด ๆ กรอบ​อร่อย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295496
+    m_Localized: หั่น​แว่น​หั่น​เต๋า​ไส้​ทุก​อย่าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295497
+    m_Localized: ไข่​สด​พร้อม​สำหรับ​มื้อ​เช้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295498
+    m_Localized: ครีม​และ​ผล​ไม้​ตาม​ที่​ลูกค้า​เลือก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295499
+    m_Localized: คั้น​จาก​ผล​ไม้​ที่​ลูกค้า​ชอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295500
+    m_Localized: สลัด​สด​คลุก​ตา​มอ​อเด​อร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295501
+    m_Localized: อัด​ไส้​ที่​ลูกค้า​ชอบ​แน่น ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295502
+    m_Localized: ซุป​ร้อน ๆ รส​ที่​ลูกค้า​ชอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295503
+    m_Localized: กรอบ​นอก​นุ่ม​ใน ฉ่ำ​ทุก​คำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295504
+    m_Localized: ไข่​ดาว​พร้อม​วาง​ซ้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295505
+    m_Localized: ทอด​ไข่ เบคอน และ​ไก่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295506
+    m_Localized: องุ่น​ม่วง​หวาน​หนึ่ง​พวง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295507
+    m_Localized: น้ำ​องุ่น​ม่วง​หวาน คั้น​สด ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295508
+    m_Localized: แฮม​แผ่น​บาง​รส​กลมกล่อม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295509
+    m_Localized: น้ำ​แข็ง​ก้อน​ช่วย​ให้​เครื่อง​ดื่ม​เย็น​ฉ่ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295510
+    m_Localized: คั้น​ผล​ไม้​เป็น​น้ำ​ผล​ไม้​สด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295511
+    m_Localized: ผล​ไม้​ผิว​ขน​นุ่ม เนื้อ​ใน​เขียว​สด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295512
+    m_Localized: น้ำ​กีวี​เปรี้ยว​อม​หวาน​สดชื่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295513
+    m_Localized: กีวี​แว่น​สี​เขียว​มี​เมล็ด​จุด ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295514
+    m_Localized: ผัก​กาด​หอม​สดก​รอบ​ทั้ง​หัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295515
+    m_Localized: ผัก​กาด​หอม​ซอย​กรอบ​ใส่​ได้​ทุก​ชั้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489792
+    m_Localized: ผล​ไม้​เมือง​ร้อน​สี​ทอง​รับ​แดด​เต็ม​ที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489793
+    m_Localized: น้ำ​มะม่วง​สี​ทอง​ข้น​รส​เมือง​ร้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489794
+    m_Localized: มะม่วง​สุก​หั่น​ชิ้น​ฉ่ำ ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489795
+    m_Localized: ซอส​เนื้อ​ครีม​ที่​ทำให้​ทุก​อย่าง​เข้า​กัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489796
+    m_Localized: นม​สด​เย็น ๆ สำหรับ​เครื่อง​ดื่ม​เนื้อ​ครีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489797
+    m_Localized: เห็ด​อวบ ๆ จาก​ใน​ป่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489798
+    m_Localized: เห็ด​หั่น​เต๋า​พร้อม​ลง​หม้อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489799
+    m_Localized: ซุป​เห็ด​เนื้อ​ครีม ร้อน ๆ หอม​กรุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489800
+    m_Localized: พาร์​สลีย์​สด​หนึ่ง​ก้าน​ไว้​แต่ง​จาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489801
+    m_Localized: เคี่ยว​ซุป​จน​ร้อน​และ​เข้ม​ข้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489802
+    m_Localized: ฟักทอง​ลูก​กลม​สี​ส้ม เนื้อ​ใน​หวาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489803
+    m_Localized: ฟักทอง​หั่น​เต๋า​พร้อม​เคี่ยว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489804
+    m_Localized: ซุป​เนียน​นุ่ม หวาน อุ่น​สบาย​ท้อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489805
+    m_Localized: ขนมปัง​ขาว​นุ่ม​สำหรับ​ทุก​แซนด์วิช
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489806
+    m_Localized: สต​รอว์​เบอร์​รี่​หวาน​สวม​หมวก​ใบไม้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489807
+    m_Localized: น้ำ​สต​รอว์​เบอร์​รี่​หวาน คั้น​สด ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489808
+    m_Localized: สต​รอว์​เบอร์​รี่​หั่น​ฉ่ำ ๆ สำหรับ​แซนด์วิช​หวาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489809
+    m_Localized: เมล็ด​ข้าวโพด​สี​ทอง​หวาน​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489810
+    m_Localized: อุ่น ๆ สี​ทอง กรอบ​นอก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489811
+    m_Localized: มะเขือ​เทศ​สุก​แดง​ฉ่ำ​น้ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489812
+    m_Localized: มะเขือ​เทศ​หั่น​เต๋า​ฉ่ำ ๆ พร้อม​เคี่ยว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489813
+    m_Localized: มะเขือ​เทศ​หั่น​แว่น​ฉ่ำ ๆ สำหรับ​ทุก​แซนด์วิช
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489814
+    m_Localized: ซุป​แดง​เข้ม​ข้น อุ่น​ใจ​ทุก​คำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489815
+    m_Localized: วิป​ครีม​หวาน​ฟู​นุ่ม​หนึ่ง​วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489816
+    m_Localized: เบคอน​แผ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489817
+    m_Localized: ไข่​ต้ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489818
+    m_Localized: เครื่อง​ปิ้ง​ขนมปัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489819
+    m_Localized: ขนมปัง​สามเหลี่ยม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489820
+    m_Localized: ชีส​แผ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489821
+    m_Localized: อกไก่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489822
+    m_Localized: เบคอน​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489823
+    m_Localized: แตงกวา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489824
+    m_Localized: แตงกวา​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489825
+    m_Localized: เขียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489826
+    m_Localized: ไข่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489827
+    m_Localized: แซนด์วิช​ผล​ไม้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489828
+    m_Localized: น้ำ​ผล​ไม้​สด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489829
+    m_Localized: สลัด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489830
+    m_Localized: แซนด์วิช​คาว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489831
+    m_Localized: ซุป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489832
+    m_Localized: ไก่​ทอด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489833
+    m_Localized: ไข่​ดาว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489834
+    m_Localized: กระทะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489835
+    m_Localized: องุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489836
+    m_Localized: น้ำ​องุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489837
+    m_Localized: แฮม​แผ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489838
+    m_Localized: น้ำ​แข็ง​ก้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489839
+    m_Localized: เครื่อง​คั้น​น้ำ​ผล​ไม้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489840
+    m_Localized: กีวี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489841
+    m_Localized: น้ำ​กีวี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489842
+    m_Localized: กีวี​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489843
+    m_Localized: ผัก​กาด​หอม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489844
+    m_Localized: ผัก​กาด​หอม​ซอย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489845
+    m_Localized: มะม่วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489846
+    m_Localized: น้ำ​มะม่วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489847
+    m_Localized: มะม่วง​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489848
+    m_Localized: มา​ยอง​เนส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489849
+    m_Localized: นม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489850
+    m_Localized: เห็ด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489851
+    m_Localized: เห็ด​หั่น​เต๋า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489852
+    m_Localized: ซุป​เห็ด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489853
+    m_Localized: พาร์​สลีย์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489854
+    m_Localized: หม้อ​ซุป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489855
+    m_Localized: ฟักทอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489856
+    m_Localized: ฟักทอง​หั่น​เต๋า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489857
+    m_Localized: ซุป​ฟักทอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489858
+    m_Localized: ขนมปัง​แซนด์วิช
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489859
+    m_Localized: สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489860
+    m_Localized: น้ำ​สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489861
+    m_Localized: สต​รอว์​เบอร์​รี่​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489862
+    m_Localized: ข้าวโพด​หวาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489863
+    m_Localized: ขนมปัง​ปิ้ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489864
+    m_Localized: มะเขือ​เทศ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489865
+    m_Localized: มะเขือ​เทศ​หั่น​เต๋า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489866
+    m_Localized: มะเขือ​เทศ​หั่น​แว่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489867
+    m_Localized: ซุป​มะเขือ​เทศ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489868
+    m_Localized: วิป​ครีม
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

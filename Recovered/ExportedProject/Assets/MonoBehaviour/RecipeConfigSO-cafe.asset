@@ -1,0 +1,789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-cafe
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: coffee_bean
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5e98c3dde6ee12b4ea90dc03ddf08fc4, type: 2}
+      id: coffee_bean
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 023a61ff53922e54fade163754c9bd67, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5c93308f7a2bd764c9305e5dc67b562d, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 09000000
+  - id: coffee_powder
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4f0c0f9a80c127943a0ffbb7cc134fab, type: 2}
+      id: coffee_powder
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e72ed998131d8634ebb5ae68d5de25b9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 999d6b2d66ae0824cb2e4b7c67cc133e, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6897917e54402e845bd65091a837d121, type: 2}
+      id: cream
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: beb5d31e7dd9fa041b31e98fa00ee34e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 84f823d85184fb348b7925dae261a03f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: cream_choco
+    displayConfig:
+      sprite: {fileID: 21300000, guid: dd536e023a386484f948492f74765b50, type: 2}
+      id: cream_choco
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3eb1d1d52ea4d4e45a0c9e888952c448, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ee0d58cd5757c34419f7bdb7dce3cd19, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: cupcake
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b3a4aa48604fdf043b57ebc06fdb37fd, type: 2}
+      id: cupcake
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 949dc8c60d14e8f458c0ec9d9aacd4cc, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: b26076e1ace7f1646a9ea007398bff13, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: cupcake_flex
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b3a4aa48604fdf043b57ebc06fdb37fd, type: 2}
+      id: cupcake_flex
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e307677cd8c3ce749bd52be391ce5155, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114985305603660343, guid: 738fab5047a498841aad7a4253d6f20d, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: cupcake_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 46cb6eb712912ed44965ac13c7e5b887, type: 2}
+      id: cupcake_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2ff885274a5043549947fa34b20eed74, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d3596913d1e5e9248aa6384f40d53701, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0c000000
+  - id: cup_cold
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 688d7a9a2557d014a9f758fbc0beb3d8, type: 2}
+      id: cup_cold
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 12c3949ff492c9f4f949761ddb0aa254, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ed9f8d811c982e140bb952c659b45f0b, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 07000000
+  - id: cup_cold_coffee
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 81d4ab3f5a49e1543b6304acf4482889, type: 2}
+      id: cup_cold_coffee
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 280dab06e459b704382f3c54e0222750, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 75515c0622a97234cb2e556e761d0cea, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: cup_cold_coffee_flex
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 70a6a4015c9b93444a50b6cc538c2252, type: 2}
+      id: cup_cold_coffee_flex
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 593486dc7b365f04883fbf293c2b0f1f, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114002669891404536, guid: d5ad28e0974acd042bbe346a1ff1c140, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: cup_hot
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ad09c4ebf48052140bd443450a3a7256, type: 2}
+      id: cup_hot
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6c5657d33607b5049ab5ab47d434aef7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 131663ee23f829b44a8f75cd616e03a3, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 08000000
+  - id: cup_hot_coffee
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4f539c9fc2b28ee4481996055d25ddd2, type: 2}
+      id: cup_hot_coffee
+      type: 0
+      scale: 0.85
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 373723c5f026a7c4fa944686f5f50a0d, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3bc9baac94483b34ea77a3fbe1e74b90, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 08000000
+  - id: cup_hot_coffee_milk
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d4d77b0dfa52ae544a5b0c4bf572742f, type: 2}
+      id: cup_hot_coffee_milk
+      type: 0
+      scale: 0.85
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5aafe2206a045b249a6cfa5dfc999ae8, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 2e9ee298b283b074b8db64cf8f24d57f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 080000000a000000
+  - id: donut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d5a3442ed1dd04846aa499db4b5f8728, type: 2}
+      id: donut
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 90f1f44181722f04f9ff492c398b69a1, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114107629493147155, guid: 6a5884ea04150f14ea5defa3261d2b4c, type: 2}
+    pieceConfig:
+      role: 2
+      pieces:
+  - id: donut_display
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d5a3442ed1dd04846aa499db4b5f8728, type: 2}
+      id:
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: donut_dough
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6d1390ecd782bae4a92e813dd9f93ffe, type: 2}
+      id: donut_dough
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 8f041814e0d85d94183c32a9770f9d1e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 912bbd9ddaed1804191198e4601d4b53, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: donut_dough_bar
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d37a1baf244f6574eba8c6f8d7885dad, type: 2}
+      id: donut_dough_bar
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5bb5252933ea4c8409400e5bb0919c4a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e008d1fcf2c25d24da0db5d88fe881d5, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 01000000
+  - id: donut_dough_inf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6e41a78f3add0fa4498a21aef0d4a44c, type: 2}
+      id: donut_dough_inf
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ea655830b0c8ffc4fb1ccfefe59f81d5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7a3427fd1b0e4ba4280c0e0ccdd69d85, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: fruit_blueberry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b93e54a92145a8f4eb39f3e8795f3092, type: 2}
+      id: fruit_blueberry
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6d14ad8e8ac9e68499328626f3f6e4d6, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: fbec03e50f323e740a98dc453123f1d7, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: fruit_kiwi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e6aaeced230d47a4698b8962d2be9061, type: 2}
+      id: fruit_kiwi
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 0c06d2225f3a0604abf5bde88278d3ee, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e1d5611019858be43bbd2bf7ab1ccd0b, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 12000000
+  - id: fruit_kiwi_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e9b0940bd53e0b54a847d0d9f2c68db9, type: 2}
+      id: fruit_kiwi_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 41e01a4ab379aff47813fb834c4948fb, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d187362dbfdc480448994deb6f4f1edc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 12000000
+  - id: fruit_pineapple
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c8894733da74f9f4599e66ea3ef379af, type: 2}
+      id: fruit_pineapple
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 43d0376804d35a246b7805196d54d3c3, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: c94c3a952235b694f946ec184a7edce1, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 13000000
+  - id: fruit_pineapple_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e89a609b052058240b791a83559dc22d, type: 2}
+      id: fruit_pineapple_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 29913e061fd128f49b5bb42cef1915c2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 8246722611416b54dac165aeae3aedaa, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 13000000
+  - id: fruit_strawberry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 161ea878855776243bd870303e67ea88, type: 2}
+      id: fruit_strawberry
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 706d9628b21d8544e850e5b1ca77c111, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: daf5621f14691f441afbf6f36de33289, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 11000000
+  - id: fruit_strawberry_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7fa1cdf5b3bf91d4e8d5fba39412177a, type: 2}
+      id: fruit_strawberry_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ee1d0acfe61adfd42a5df5eceb5e810c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 4ec1ba260134b88428f98123fe8896dc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 11000000
+  - id: glaze_blue
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f32698eb82ea1e94daafaad6ab8b59c1, type: 2}
+      id: glaze_blue
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 690f07bca0125cf4997ba47bbb56f28d, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 2e3cee986a7f1ac43910d9087e59cc5b, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 06000000
+  - id: glaze_brown
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 24b65e45cd6ca9a42a5889db1a36ce7b, type: 2}
+      id: glaze_brown
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 272f86d81f0f40a4eb205440843f3dc4, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 19b40e40ba74a2f43ad227238153d0e1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: glaze_pink
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6d3df874215afda4f814bed081a71fe3, type: 2}
+      id: glaze_pink
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7c1155fe08a6ec84ab4b0c9ca841f263, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 49221496b596d6541aaaf7a81bca9e74, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 04000000
+  - id: glaze_white
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0aa6aad4084d95f4db9ee7b17dbe478b, type: 2}
+      id: glaze_white
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3518e788e03c7364cbcd06e80b1f1982, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6bbe1e9221063e246882cc58b75ad778, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 46b71e7cb81d0854886d9bb54ada1eab, type: 2}
+      id: ice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 25fee55f9a75aa340b20a052d4746629, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5d165a73a3e419a458e7c9265dda1ca7, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: milk
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0739cc37cd93cac4196eeeb818d45376, type: 2}
+      id: milk
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f511499c8c49496409c946b250fb7930, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ba7365a6ed8d0b44fbd7275c89e92206, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: sprinkle
+    displayConfig:
+      sprite: {fileID: 21300000, guid: bf149193e7a05f244a0c3ca6b4557a37, type: 2}
+      id: sprinkle
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d12fe453ccea0ad4a867521d31c1d0dc, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 455787aa381e9af41b6e7062c0b6b320, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0f000000
+  stations:
+  - id: tool_cutting_board_cf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fbfc23fdd34a53e4b8049a8941e243ba, type: 2}
+      id: tool_cutting_board_cf
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 13a6867cff9a0464dbe9ddc7744604a6, type: 2}
+    station: {fileID: 114875609422105747, guid: f790926a838dd14499142506dc286fc7, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: fruit_kiwi_sliced
+      duration: 4
+    - resultId: fruit_pineapple_sliced
+      duration: 7.333
+    - resultId: fruit_strawberry_sliced
+      duration: 4.667
+  - id: tool_pan_cf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: beaf7a9eaf3e189428e334146d1362a8, type: 2}
+      id: tool_pan_cf
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 62af0ffb8c8351a4587511dc3eeeaf57, type: 2}
+    station: {fileID: 114634108722742392, guid: 21e7b59cd51039e46ae8cdf03b350948, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: donut
+      duration: 4.667
+  - id: tool_oven_cf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: bab42166097de8e45a0b55fb630b59d9, type: 2}
+      id: tool_oven_cf
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 7c805eb561ae787418b5a67814b66d57, type: 2}
+    station: {fileID: 114621510681728303, guid: 5d5c3f13dd5a3f64fb6cbc7a9425cef0, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: cupcake
+      duration: 5.5
+  - id: tool_blender_cf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0bcbd0525fb1bba4f8469179bf7f78eb, type: 2}
+      id: tool_blender_cf
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 25a29225a90f1e14289801edd936bff0, type: 2}
+    station: {fileID: 114733206282342372, guid: 5ff8d26075be8a5478843f4e4ca6459d, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: coffee_powder
+      duration: 3
+  - id: tool_maker_cf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: dabe8b4a954c61f42908e01f48d88b9d, type: 2}
+      id: tool_maker_cf
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 1ec59c9194b1fac4c936b6db9fec4dda, type: 2}
+    station: {fileID: 114371939378208658, guid: af3c26455ec5b594aadb39493d8e231b, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: cup_cold_coffee
+      duration: 5
+    - resultId: cup_hot_coffee
+      duration: 5
+  recipes:
+  - resultId: coffee_powder
+    combinations:
+    - components:
+      - type: 0
+        id: coffee_bean
+      - type: 1
+        id: tool_blender_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: cupcake
+    combinations:
+    - components:
+      - type: 0
+        id: cupcake_raw
+      - type: 1
+        id: tool_oven_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_cold_coffee
+    combinations:
+    - components:
+      - type: 0
+        id: cup_cold
+      - type: 0
+        id: coffee_powder
+      - type: 1
+        id: tool_maker_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_cold_coffee_flex
+    combinations:
+    - components:
+      - type: 0
+        id: cup_cold_coffee
+      - type: 0
+        id: milk
+    - components:
+      - type: 0
+        id: cup_cold_coffee
+      - type: 0
+        id: ice
+    - components:
+      - type: 0
+        id: cup_cold_coffee
+      - type: 0
+        id: cream
+    - components:
+      - type: 0
+        id: cup_cold_coffee
+      - type: 0
+        id: cream_choco
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_hot_coffee
+    combinations:
+    - components:
+      - type: 0
+        id: cup_hot
+      - type: 0
+        id: coffee_powder
+      - type: 1
+        id: tool_maker_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_hot_coffee_milk
+    combinations:
+    - components:
+      - type: 0
+        id: cup_hot_coffee
+      - type: 0
+        id: milk
+    anchorIds: []
+    displayIds: []
+  - resultId: donut
+    combinations:
+    - components:
+      - type: 0
+        id: donut_dough
+      - type: 1
+        id: tool_pan_cf
+    - components:
+      - type: 0
+        id: donut_dough_bar
+      - type: 1
+        id: tool_pan_cf
+    - components:
+      - type: 0
+        id: donut_dough_inf
+      - type: 1
+        id: tool_pan_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: fruit_kiwi_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fruit_kiwi
+      - type: 1
+        id: tool_cutting_board_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: fruit_pineapple_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fruit_pineapple
+      - type: 1
+        id: tool_cutting_board_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: fruit_strawberry_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fruit_strawberry
+      - type: 1
+        id: tool_cutting_board_cf
+    anchorIds: []
+    displayIds: []
+  - resultId: cupcake_flex
+    combinations:
+    - components:
+      - type: 0
+        id: cupcake
+      - type: 0
+        id: cream
+    - components:
+      - type: 0
+        id: cupcake
+      - type: 0
+        id: cream_choco
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1.2
+  ingredientListShowsRaw: 1
+  ingredientCanOrder:
+  - donut
+  - cup_cold_coffee
+  - cup_hot_coffee_milk
+  - cup_hot_coffee
+  - cup_cold_coffee_f
+  - cupcake
+  - cupcake_flex
+  - cup_cold_coffee_flex
+  pieceEnumType: CakeOrder.InGame.Coffee.CoffeePiece
+  dishEnumType: CakeOrder.InGame.Coffee.CoffeeDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: 47099d5cd67e8bd44a8dfdfcb365a08d, type: 2}
+    baseId:
+    sprite: {fileID: 21300000, guid: 3c38e2994b068ab40a4780ec418d0550, type: 2}
+    dishName: Iced Coffee
+    desc: Poured over ice for the customers who never slow down.
+    plate: {fileID: 114703437598541787, guid: 4d6948e2ddd0e6c468980a2ea0f4a3c7, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: 2dafe821de1c37b40ab50d1628067726, type: 2}
+    baseId:
+    sprite: {fileID: 21300000, guid: b0f13ed946e89e54481c36a4d3ec7bc8, type: 2}
+    dishName: Hot Coffee
+    desc: Steamed poured and served before the foam settles.
+    plate: {fileID: 114703437598541787, guid: 4d6948e2ddd0e6c468980a2ea0f4a3c7, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: 29fa77f52e682e642a619b67d1765ecc, type: 2}
+    baseId:
+    sprite: {fileID: 21300000, guid: 9d591ee2a42abcf4fa2390e8f77bada7, type: 2}
+    dishName: Frosted Cupcake
+    desc: A tiny cake wearing far too much frosting on purpose.
+    plate: {fileID: 114703437598541787, guid: d1bf12188d0eb664e92951690dc50ae4, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: ecc6b6f257606ec42bd0d74f64b34441, type: 2}
+    baseId:
+    sprite: {fileID: 21300000, guid: d5ae67e3ec7452f408de062c0e00d5a5, type: 2}
+    dishName: Glazed Donut
+    desc: Dipped fresh so the glaze is still deciding where to drip.
+    plate: {fileID: 114703437598541787, guid: d1bf12188d0eb664e92951690dc50ae4, type: 2}
+    dirtyPlate: {fileID: 0}

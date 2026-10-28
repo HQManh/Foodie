@@ -1,0 +1,10 @@
+const fs=require('fs');
+const p='D:/Unity/Foodie/UnityProject/Assets/Scripts/Assembly-CSharp/TrungKien/UI/NewFearther/UIPopupNewFeather.cs';
+const raw=fs.readFileSync(p,'utf8'); const cr=raw.includes('\r\n')?'\r':'';
+let lines=raw.split('\n');
+const i=lines.findIndex(l=>l.includes('format literal (DAT_092267b0) is not recoverable'));
+if(i<0) throw new Error('not found');
+if(!lines[i+1].includes('return null;')) throw new Error('next: '+lines[i+1]);
+const t=['// The format literal is "{0}_{1}" (DAT_092267b0, decoded from the metadata).','return string.Format("{0}_{1}", mapId, levelIndex);'];
+lines.splice(i,2,...t.map(x=>'\t\t\t'+x+cr));
+fs.writeFileSync(p,lines.join('\n')); console.log('ok');

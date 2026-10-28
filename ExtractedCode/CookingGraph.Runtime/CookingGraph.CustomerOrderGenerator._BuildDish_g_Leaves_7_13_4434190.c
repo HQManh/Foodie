@@ -1,0 +1,58 @@
+// rea decompile_all
+// name: CookingGraph.CustomerOrderGenerator$$<BuildDish>g__Leaves|7_13
+// address: 0x4434190
+// body: available
+// range: 0x4434190-0x44342b7 inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra Listing reports a terminal call at 0x4434244 to 0x4afac50 FUN_04afac50 (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra Listing reports a terminal call at 0x44342b0 to 0x3f5c550 FUN_03f5c550 (external=false, thunk=false, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return.; Ghidra Listing reports a terminal call at 0x44342b4 to 0x3f5c558 FUN_03f5c558 (external=false, thunk=false, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+long CookingGraph_CustomerOrderGenerator__<BuildDish>g__Leaves_7_13(long param_1)
+
+{
+  undefined8 uVar1;
+  long lVar2;
+  long *plVar3;
+  undefined8 uVar4;
+  
+  if ((DAT_09517fa9 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c6fb0);
+    FUN_03f5c2a4(&DAT_091ca9a8);
+    FUN_03f5c2a4(&DAT_09178de0);
+    FUN_03f5c2a4(&DAT_09180150);
+    FUN_03f5c2a4(&DAT_09186c00);
+    DAT_09517fa9 = 1;
+  }
+  if (param_1 != 0) {
+    if (*(int *)(param_1 + 0x10) != 0) {
+      uVar4 = *(undefined8 *)(param_1 + 0x28);
+      uVar1 = thunk_FUN_03f9944c(DAT_09178de0);
+      FUN_05324070(uVar1,0,DAT_091c6fb0,0);
+      lVar2 = FUN_04afac50(uVar4,uVar1,DAT_091ca9a8);
+      return lVar2;
+    }
+    lVar2 = FUN_03f5c394(DAT_09180150,1);
+    if (lVar2 != 0) {
+      plVar3 = *(long **)(param_1 + 0x20);
+      if (plVar3 == (long *)0x0) {
+        plVar3 = (long *)0x0;
+      }
+      else if (*plVar3 != DAT_09186c00) {
+        plVar3 = (long *)0x0;
+      }
+      if (*(int *)(lVar2 + 0x18) == 0) {
+                    /* WARNING: Subroutine does not return */
+        FUN_03f5c558();
+      }
+      *(long **)(lVar2 + 0x20) = plVar3;
+      thunk_FUN_03f5d7b8();
+      return lVar2;
+    }
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_03f5c550();
+}
+

@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ro
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ro
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: NOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}z {1}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}h {1}min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: RECOMPENSĂ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: CUMPĂRAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Recompensă primită!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Revendică
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Nv. {0} -> Nv. {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Ziua {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Se deblochează la începutul zilei {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: În curând
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Această funcție vine în curând!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Acasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restaurante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Realizări
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Această hartă este blocată. Termină hărțile anterioare pentru a o debloca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Această zi este blocată. Termină zilele anterioare pentru a o debloca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Ziua {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Treci de ziua {0} a restaurantului anterior pentru a debloca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Greu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Foarte greu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Această hartă va fi disponibilă într-o actualizare viitoare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Servite: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Încearcă să îți îmbunătățești restaurantul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Iată obiectele pe care le poți cumpăra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Cu monedele câștigate ieri, hai să îmbunătățim ceva!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Acum să mergem la fila de îmbunătățire a ustensilelor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Încearcă să îmbunătățești această plită!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Acum că ai îmbunătățit prăjitorul, să ne întoarcem și să începem ziua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Acum să începem ziua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Încearcă acest bonus!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Când gătești, ai șansa să intri într-o stare specială!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Cu fiecare client servit, bara crește! Încearcă să mai servești {0} clienți!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Cu fiecare fel servit, bara crește! Încearcă să mai servești {0} feluri!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Grozav! În Explozia de arome gătești super eficient. Distracție plăcută!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Nu ai destule monede pentru a construi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Nv. MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Nv. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: Nu ai destul {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Deja la nivelul maxim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: de {0} ori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Revendică x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Bonusul e disponibil din ziua {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Activezi viteza x{0} timp de {1} minute?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Revendicat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Reclamele au fost eliminate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Numele bonusului
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Salvează-mă pentru a adăuga +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Gătit automat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Adună automat ingredientele și pregătește un fel de mâncare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Mătură
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Îndepărtează un teanc murdar de pe masă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Clește
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Alege liber o farfurie cu ingrediente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Ai nevoie de mai multe locuri?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Deblochează mai multe locuri pentru mâncăruri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Amestecă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Schimbă rândurile de ingrediente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Viteză x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Gătește și servește mai repede cu viteză x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Recuperezi {0} inimi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Încerci să amesteci ingredientele?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Muți 5 ingrediente într-o pungă?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Reumple timpul de așteptare al clienților
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Cafea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Conflict de date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Se încarcă...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Se încarcă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Restaurantul a crescut în nivel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Atinge pentru a continua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Șeful e pretențios și își pierde ușor răbdarea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Felicitări pentru propriul tău fast-food!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Să deschidem afacerea!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Vrea un burger suculent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Atinge ingredientul pe care vrei să-l folosești
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Atinge comanda unui client pentru a schimba afișarea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Curierul ridică mai multe comenzi înainte să expire timpul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Folosește cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Folosește local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Recompensele tale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Eliberezi {0} locuri și continui să gătești?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Îți place jocul?\nLasă o recenzie!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: EVALUEAZĂ JOCUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Mmm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Bun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Ce bun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Îmi place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Mai vreau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Savuros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Divin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Rafinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: De chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Capodoperă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Treci de {0} din {1} pentru a debloca zile extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Este necesară conexiunea la internet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Reclama nu este pregătită, încearcă din nou!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Numele trebuie să aibă cel puțin {0} caractere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Numele poate avea cel mult {0} caractere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Numele poate conține doar litere, cifre, spațiu și _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Revino peste {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Revendică mai întâi recompensa gratuită!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Revendică mai întâi recompensa anterioară!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: SE DEBLOCHEAZĂ ÎN ZIUA {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Super
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Zi extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Blocat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: MAGAZINUL CULINAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: UNEALTĂ ÎMBUNĂTĂȚITĂ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} merge acum mai repede'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} funcționează acum la viteză maximă'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Deblochează zile extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Noutăți
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Piese noi de îmbunătățire sunt disponibile pentru restaurantele tale!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} are zile extra noi!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Prețurile îmbunătățirilor au fost ajustate. Aurul plătit în plus ți-a fost returnat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Evaluează-ne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Activa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Activat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Echipa există deja!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Echipa e plină!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Echipa nu este goală!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Echipa nu există!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Liderul nu poate pleca!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: Fără permisiune!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Eroare server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Utilizatorul s-a alăturat echipei!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: Utilizatorul a plecat recent!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: Utilizatorul nu face parte din echipă!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: ÎNTREBAȚI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Banca de bonusuri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Termină zile ca să aduni aur în bancă și să-l primești înapoi la sfârșitul evenimentului!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Activează <color=yellow>Dreamy Pass</color> pentru a debloca <color=yellow>Bonus Bank</color> la sfârșitul etapelor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Nu se pot salva datele pe server!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Alege
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Revendicare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: În curând!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Finalizat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Confirma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Felicitări!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Continua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Copiat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Ţară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Crea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Creează și conduce-ți echipa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Şterge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Descriere:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Trecerea visătoare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Bun venit la <color=yellow>Dreamy Pass!</color> Iată prima ta recompensă!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Termină zile și colectează <color=yellow>Chei</color> pentru a debloca recompense. Atinge pentru a afla cum!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Activarea <color=yellow>Dreamy Pass</color> îți va oferi acces la recompense speciale!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Deblochează acest nivel și activează <color=yellow>Dreamy Pass</color> pentru a obține această recompensă!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Dreamy Streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Termină zilele fără greș pentru mai multe recompense!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Termină zilele fără să pierzi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Crește-ți multiplicatorul de scor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Câștigă recompense uimitoare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Fiecare eșec îți resetează multiplicatorul!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Turnul Visător
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Termină zile la rând!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Ridică-te!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Fiecare eșec resetează progresul punctului de control!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Edita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Editați numele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Alege-ți numele de utilizator înainte de a te alătura Clasamentului
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Editați profilul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Echipa de editare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Gol!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Încheiat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Introduceți textul...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Introduceți descrierea...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Introduceți numele echipei...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Termina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: Prima încercare câștigă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Cadru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Gratuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: INIMĂ <color=#7CF73F>LIBERĂ</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: RECOMPENSE <color=#7CF73F>GRATUITE</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Vieți libere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Statistici generale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Merge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Ajutor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Ajutoare făcute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Ajutoare primite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Inbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Informații
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Alătură-te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Alătură-te unei echipe și obține vieți gratuite!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Ultima șansă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Lider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Clasament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Pleacă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Părăsești echipa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Va trebui să așteptați 30 de minute înainte de a putea crea sau a vă alătura unei echipe noi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Nivel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Atinge <color=yellow>Ziua {0}</color> pentru a debloca concursul săptămânal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Viețile voastre sunt pline!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Încărca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Încărcarea datelor de pe server este finalizată! Reporniți jocul pentru a aplica noile date!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Nivel {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: ATINGE <color=yellow> Ziua {0}</color> pentru a debloca clasamentul!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: ATINGE <color=yellow> Ziua {0}</color> pentru a te alătura echipei!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAXIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Nu poți cere vieți. Ai mai mult de 10 vieți libere!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} s-a alăturat echipei!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} a fost dat afară de {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} a părăsit echipa!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Membri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Echipa mea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Nume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: Numele trebuie să aibă cel puțin 6 caractere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Eroare de rețea!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Eroare de rețea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: NOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Nu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: Fără nume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Fără contribuție
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Fără echipă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Nu este suficient aur!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Deschide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>Dreamy Pass</color> îți va oferi șansa de a obține recompense speciale!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: Vei avea bonusuri exclusive până la sfârșitul evenimentului!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 vieți în loc de 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Activează Banca de Bonusuri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Ramă aurie pentru profil și nume auriu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>Dreamy Pass</color> s-a încheiat! Bonusurile tale nu mai sunt active. Noul <color=yellow>Dreamy Pass</color> va începe în curând!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Termină zile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Colectează cheile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Deblochează recompense!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Poți activa <color=yellow>Dreamy Pass</color> pentru a obține recompense exclusive suplimentare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: Noul <color=Yellow>Dreamy Pass</color> a început! Termină zile și deblochează <color=Yellow>Pass</color> pentru a revendica recompense valoroase!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Trecerea visătoare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: Recompensă pentru locul {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Jucători
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Privat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Profilul este actualizat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Public
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Salvarea datelor pe server este finalizată!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Reconectați-vă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Reîmprospăta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Eliminați membrul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Cerând Viață!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Ziua necesară:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Finalizează ziua {0} pentru a crește limita zilei necesare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Repornire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Salva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Scor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Căutare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Selectați insigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Îți trimit o viață!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Recompense speciale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Cursă pe etape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "Ai pierdut cursa!\nÎncearcă din nou să câștigi recompense uimitoare!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: "Felicitări!\nAi câștigat cursa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Termină <color=yellow>{0} zile</color> înaintea altora ca să câștigi și să avansezi în etapa următoare pentru premii mai mari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Cum să joci?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Termină zile înaintea altora ca să închei cursa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Termină cursa înaintea altora!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Treci la etapa următoare pentru premii mai mari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Victorie în cursa pe etape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Etapa {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Stea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Început
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Sincronizare date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Atingeți pentru a continua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Atingeți pentru a deschide!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Atingeți pentru a revendica!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Atingeți pentru a închide!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Informații despre echipă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Insigna echipei:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Când te alături unei echipe vei primi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Echipa Recoltă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Colectează porumb din niveluri!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Atinge-ți obiectivele alături de echipa ta!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Câștigă recompense uimitoare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Normal: 1 Porumb - Tare: 3 Porumb - Super Tare: 5 Porumb'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Recoltează porumb cu echipa ta și câștigă recompense uimitoare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Numele echipei:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Echipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Scorul echipei:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Tipul echipei:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Total vieți libere:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Total ajutoare:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Total stele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Turnul cel mai înalt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Lider de transfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Iată recompensele tale nerevendicate!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Deblocare în ziua {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Se deblochează după ce treci de ziua {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Utilizare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Vedere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Vizualizare profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Vă rugăm să așteptați puțin mai mult pentru ca serverul să proceseze!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Săptămânal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Concurs săptămânal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Străduiește-te mai mult data viitoare pentru a câștiga recompense valoroase!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Termină zile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Lua conducerea!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Lume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Da
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Clasament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Echipă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Îmbunătățirile vor fi disponibile în următoarea actualizare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Ziua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Când te alături unei echipe, vei:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Primește inimi <color=#7CF73F>gratuite</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Discută și participă la provocări cu prietenii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Zone finalizate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Ajunge la ziua {0} pentru a continua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Ziua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Treci de {0} din {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Mai întâi îmbunătățește {0} până la ultima etapă!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: Îmbunătățirile pentru {0} sunt acum disponibile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Niveluri noi de îmbunătățire a uneltelor în {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: CUMPĂRĂ TOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Bonus suplimentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Doar o singură dată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Vânzare suplimentară {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Treci de {0} din restaurantul {1} pentru a debloca!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1531286736, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: savory-sandwich
+  m_EditorClassIdentifier:
+  nodeName: savory-sandwich
+  displayName: Savory Sandwich
+  emoji: 🥪
+  sprite: {fileID: 0}
+  orderable: 1
+  toppingRequired: 1
+  preMerge: 0
+  ordering: 0
+  processedFrom: {fileID: 0}
+  processId:
+  combinationRulesJson: '{"containers":[{"composite":"savory-sandwich","localImage":"Map6-sanwich/Tools/Icon_Board_DoneFood.webp","sortOrder":-100,"pos":{"x":0,"y":16},"scale":{"x":0.93,"y":0.93},"rot":0}],"combinations":[{"id":"stack-savory-sandwich-toasted-sandwich-bread","composite":"savory-sandwich","base":"toasted-sandwich-bread","mode":"stacked","baseTransform":{},"toppings":[{"item":"ham-slice","sortOrder":1,"pos":{"x":0,"y":12},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Ham.webp"},{"item":"fried-egg","sortOrder":2,"pos":{"x":0,"y":9},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Egg.webp"},{"item":"crispy-bacon","sortOrder":3,"pos":{"x":0,"y":6},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bacon.webp"},{"item":"fried-chicken","sortOrder":4,"pos":{"x":0,"y":3},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Chicken.webp"},{"item":"lettuce-shredded","sortOrder":5,"pos":{"x":0,"y":0},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Lettuce.webp"},{"item":"tomato-slice","sortOrder":6,"pos":{"x":0,"y":-3},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Tomato.webp"},{"item":"cucumber-slice","sortOrder":7,"pos":{"x":0,"y":-6},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Cucumber.webp"},{"item":"cheese-slice","sortOrder":8,"pos":{"x":0,"y":-9},"rot":0,"scale":{"x":0.7,"y":0.7},"localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Cheese.webp"}],"baseLayers":[{"id":"bottom","localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bread_1.webp","sortOrder":0,"pos":{"x":0,"y":17},"scale":{"x":0.67,"y":0.67},"rot":0},{"id":"top","localImage":"Map6-sanwich/Ingredients/Done Food/Sanwich/Icon_Sanwich_Bread_1.webp","sortOrder":20,"pos":{"x":0,"y":-17},"scale":{"x":0.67,"y":0.67},"rot":0}]}]}'
+  customerSpaceHeight: Half
+  mergeDuration: 0.5

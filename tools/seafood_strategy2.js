@@ -1,0 +1,30 @@
+const {patch}=require('D:/Unity/Foodie/tools/setbody.js');
+patch('D:/Unity/Foodie/UnityProject/Assets/Scripts/Assembly-CSharp/AnhPD/FoodOrder/SeafoodOrderStrategy.cs',[
+ ['public override string[] GenerateRandomRecipes()',[
+  '// Rebuilt from the decompiled code (same shape as the Pasta strategy, over dishes 1..6).',
+  'List<SeafoodDish> available = new List<SeafoodDish>();',
+  'for (int i = 1; i < 7; i++)',
+  '{',
+  '\tSeafoodDish dish = (SeafoodDish)i;',
+  '\tif (Config != null && Config.GetIngredientPrefab(SeafoodPieceTable.BaseId(dish)) != null)',
+  '\t{',
+  '\t\tavailable.Add(dish);',
+  '\t}',
+  '}',
+  'if (available.Count == 0)',
+  '{',
+  '\treturn Array.Empty<string>();',
+  '}',
+  'SeafoodDish picked = available[UnityEngine.Random.Range(0, available.Count)];',
+  'PieceSet pieces = SeafoodPieceTable.Roll(picked);',
+  'List<int> kinds = new List<int>();',
+  'foreach (var (kind, count) in pieces)',
+  '{',
+  '\tfor (int j = 0; j < count; j++)',
+  '\t{',
+  '\t\tkinds.Add(kind);',
+  '\t}',
+  '}',
+  'return new string[1] { OrderRecipeCodec.Encode((int)picked, kinds) };']],
+]);
+console.log('ok');

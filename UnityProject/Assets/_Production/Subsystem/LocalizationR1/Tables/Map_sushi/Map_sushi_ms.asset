@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_ms
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Belon terang menjadikan setiap perkhidmatan sushi terasa meriah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Restoran sushi yang asal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Restoran lebih besar yang sedia untuk lebih banyak naik taraf sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Bonsai yang dipangkas kemas dan menambah sentuhan hijau yang menenangkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Papan tanda kapibara yang mesra untuk hadapan kedai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: Kucing penyambut yang melambai pelanggan masuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: Kaunter penuh yang mempamerkan hidangan terbaik restoran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Papan pemotong di atas bumbung penuh dengan sushi dan gulungan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Bendera dan kanopi berwarna-warni menghiasi fasad restoran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: Tetamu kitsune yang anggun, memesan sushi dengan gaya teater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Kambing biru ini suka matcha dan berlatih adab makan yang ceria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Tekun mempelajari menu tetapi tetap menukar makan tengah hari dengan kayu putih.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Shishi kecil yang berani, mencabar setiap gulungan sushi untuk berlawan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Bumbung tradisional yang memberi restoran satu tingkat lagi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Shiba yokozuna yang menganggap setiap pinggan sushi seperti perlawanan kejuaraan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Bangku selesa untuk tetamu sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: Oyabun serigala bercakap perlahan dan menguasai kaunter sushi dengan satu renungan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Belon Pesta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Perluasan Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Taman Bonsai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Papan Tanda Kapibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Kucing Tuah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Kaunter Pameran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Papan Pemotong Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Bendera Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Bumbung Tingkat Dua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Bangku Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Sushi Nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Nasi dikepal tangan berselimut hirisan ikan seperti selimut kecil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Maki Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Digulung ketat dalam rumpai laut dan dipotong sebelum sesiapa sempat mengintai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Sushi Gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: Perahu rumpai laut kecil yang sarat dengan topping hingga ke tepi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Pinggan Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Ikan segar dihiris nipis tanpa apa-apa untuk bersembunyi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Teh Hijau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Hangat dan tenang, dituang untuk menghilangkan pedas wasabi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: Kucing penyambut yang melambai pelanggan masuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Bangku selesa untuk tetamu sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Tanglung kertas bercahaya yang menerangi restoran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Papan tanda kapibara yang mesra untuk hadapan kedai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Papan tanda kapibara yang mesra untuk hadapan kedai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Tuna gergasi bertenggek di atas bumbung, bangga menunjukkan tangkapan segar hari ini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Papan pemotong di atas bumbung penuh dengan sushi dan gulungan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Kucing Tuah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Bangku Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Tanglung Kertas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Papan Tanda Kapibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Papan Tanda Kapibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Tuna Gergasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Papan Pemotong Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Sayur dipotong sebelum sempat berkelip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Mata pisau begitu laju sehingga timun menyerah awal-awal lagi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Menghiris ikan mentah dengan kelicinan sashimi yang lebih.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Setiap potongan ialah karya seni. Ikan pun berasa dihormati.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Nasi gebu sekelip mata. Butir-butir beras beratur untuk dimasak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Nasi yang begitu sempurna layak mendapat tepukan gemuruh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Memarut wasabi sepantas kilat. Air mata adalah pilihan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Memarut begitu laju sehingga wasabi tidak sempat menyedarinya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Merebus kelazatan lebih pantas daripada menyebut umami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: Legenda yang menggelegak dan memasak pada kelajuan warp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Teh panas dalam sekelip mata. Pelanggan tenang dan menghirup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Menuang teh sempurna dan ketenangan jiwa serentak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Papan Pemotong Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Papan Pemotong Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Papan Ikan Lebih Tajam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Papan Sashimi Mahir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Periuk Nasi Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Periuk Nasi Mega
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Pemarut Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Pusaran Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Periuk Reneh Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Kawah Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Teko Seduh Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Teko Sami Zen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Sepanduk sushi biru terang yang menarik perhatian setiap mata yang lapar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Tirai noren biru yang sejuk bergoyang perlahan di atas pintu masuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Tirai noren merah menyerlah yang menyambut tetamu lapar di pintu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Tanglung batu berlumut yang membawa ketenangan seperti kuil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Sepanduk Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Noren Biru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Noren Merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Kuil Batu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Menghiris ikan segar menjadi kepingan sashimi yang lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Menukar sayur rangup menjadi batang kecil yang kemas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Memarut wasabi menjadi kejutan hijau yang pedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Mereneh sup menjadi semangkuk hangat yang menyelesakan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Mengukus nasi menjadi emas sushi yang gebu dan melekit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Membancuh teh hijau, tenang dalam setiap hirupan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Pemarut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Periuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Periuk Nasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Teko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Avokado berkrim, hadiah kegemaran Barat untuk sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Kiub hijau lembut sedia untuk digulung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Hirisan lembut yang menyelubungi nasi bak kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: Cawan kosong yang menanti tuangan teh yang tenang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Teh hijau dipukul, tenang seperti taman Kyoto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Kiub emas kecil daripada telur dadar manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: Telur dadar gulung manis yang dilapis dengan sabar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Hirisan telur gulung keemasan, manis dan lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Ikan pipih berisi putih yang dihargai tukang sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Kiub ikan sebelah lembut untuk gigitan ringan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Hirisan putih halus, hampir lut sinar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Ikan perak berkilat yang penuh rasa lautan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Ikan kembung saiz sesuap sedia untuk digulung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Hirisan berkilat dengan rasa yang kuat dan kaya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Filet oren terang terus dari perairan sejuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Kiub salmon sedia menghias perahu kecil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Hirisan salmon selembut mentega yang cair di lidah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Tuna merah pekat, raja pasar ikan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Kiub tuna untuk gigitan yang padu dan berisi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Hirisan merah delima dipotong dengan pisau tukang mahir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: Perahu rumpai laut berisi apa sahaja yang tetamu mahu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Gulungan yang dibuat tepat seperti citarasa tetamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Nasi dikepal tangan dengan hiasan kegemaran tetamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: Sepinggan hirisan segar yang dipilih ikut pesanan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: Lemon ceria untuk menyegarkan setiap gigitan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Hirisan lemon nipis yang menyerikan ikan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Mayonis Jepun berkrim dengan rasa masam yang lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: Kurita mentah, banyak lengan tiada rancangan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Direbus merah jambu dan lembut, sedia dipotong.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Potongan kecil kurita, seperti takoyaki tanpa bebolanya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Hirisan tako nipis dengan pesona kenyal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Beras bijirin pendek, digilap dan menanti dibasuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Nasi bercuka yang gebu, jiwa setiap sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Mutiara oren kecil yang meletus setiap gigitan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Telur ikan terbang rangup yang berkilau bak permata.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Telur salmon besar berkilat yang meletus dengan rasa laut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Kepingan rumpai laut rangup, dibakar dan sedia membalut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Daun harum yang menambah rasa segar seperti pudina.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Udang mentah yang bergulung seperti tanda soal kecil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Direbus merah jambu dan bangga, sedia untuk nasi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Udang saiz sesuap sedia untuk digulung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Dibuka rata seperti kipas untuk nigiri sempurna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Daun teh hijau dipetik dari lereng bukit berkabus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: Akar berbonggol dengan perangai pedas yang terkenal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: Secalit panas hijau yang melegakan hidung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Air segar, sedia menjadi teh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Avokado Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Avokado Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Cawan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Papan Ikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Papan Sayur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Tamagoyaki Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Tamagoyaki Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Ikan Sebelah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Ikan Sebelah Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Ikan Sebelah Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Ikan Kembung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Ikan Kembung Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Ikan Kembung Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Salmon Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Salmon Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Tuna Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Tuna Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Sushi Gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Maki Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Sushi Nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Pinggan Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Lemon Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Mayonis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Kurita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Kurita Rebus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Kurita Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Kurita Hiris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Beras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Nasi Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Telur Ikan Capelin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Daun Shiso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Udang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Udang Rebus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Udang Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Udang Belah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Daun Teh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Wasabi Parut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Timun sudah dihiris sebelum ia sedar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Papan Hiris Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Satu hayunan, sayur cukup untuk satu gulung sempurna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Papan Katana Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Hirisan selembut sutera sekelip mata. Ikan pun setuju.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Papan Sashimi Agung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Potongan begitu tepat, tukang masak pun terkejut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Altar Sashimi Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Nasi gebu, siap sebelum mangkuk diletakkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Periuk Nasi Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Setiap butir sempurna. Setiap masa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Kuil Nasi Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Awan hijau pedas, siap dalam sesaat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Taufan Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Begitu laju hingga hidung anda gatal dari seberang bilik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Ribut Wasabi Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Sup mendidih penuh rasa dalam sekelip mata.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Gunung Berapi Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: Sup paling sedap di bandar, dihidang sepantas kilat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Periuk Umami Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Membancuh ketenangan dan teh hijau lebih laju daripada sebelumnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Teko Tercerah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Teh sempurna sebelum anda sempat menarik nafas dalam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Teko Zen Legenda
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

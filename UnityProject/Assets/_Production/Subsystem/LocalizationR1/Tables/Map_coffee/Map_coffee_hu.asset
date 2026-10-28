@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_coffee_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 2792ae1db3f1fd44c88392405a58a65e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57788163153920
+    m_Localized: Mert minden fánk megérdemel egy ünnepet. Lebegő cukros hangulat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514048
+    m_Localized: Valami édes kezdete. Csak liszt, víz és rengeteg ambíció.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514049
+    m_Localized: Több máz, több hely. Kelesztjük a tésztát, hogy emeljük a tetőt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514050
+    m_Localized: Gyorsabban kiszúr egy erős kávét, mint egy kidőlő fát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514051
+    m_Localized: Szárnysebességgel szállítja a kávét, minden tolla makulátlan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514052
+    m_Localized: Elegáns kávézótulaj, akinek a tejhab-művészet komoly üzlet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514053
+    m_Localized: Dőlj hátra, lazíts, és hagyd, hogy lassan elkapjon a cukorkóma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514054
+    m_Localized: Kis szem, nagy tervek mindenki felébresztésére.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514055
+    m_Localized: Szemek, amelyeket felőrölt az élet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514056
+    m_Localized: Áthágja a kávézó szabályait, erős pörkölést iszik, és sosem bőg halkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514057
+    m_Localized: Pihe-puha felhők, amelyek mindig a helyzet magaslatán állnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514058
+    m_Localized: Krém gazdag, kakaóval fűtött sötét oldallal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514059
+    m_Localized: Egy üres pohár, ami megőrzi a hidegvérét.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514060
+    m_Localized: Kávé, hűvös vérmérséklettel tálalva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514061
+    m_Localized: Kicsípett jeges kávé, hogy felvághasson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514062
+    m_Localized: Most még üres, de bírja a hőséget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514063
+    m_Localized: Gőzölgő ital erős személyiséggel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514064
+    m_Localized: Ahol a kávé és a tej végre bevallja szerelmét.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514065
+    m_Localized: Egy apró sütemény, ami sosem nőtte ki a poharát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514066
+    m_Localized: Egy cupcake, ami az édes díszítésével büszkélkedik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514067
+    m_Localized: Kész a tészta, ennek a sütinek sütő kell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514068
+    m_Localized: Jégre öntve azoknak a vendégeknek, akik sosem lassítanak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514069
+    m_Localized: Gőzölve, kiöntve és felszolgálva, mielőtt leülne a hab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514070
+    m_Localized: Egy apró sütemény, szándékosan túl sok krémmel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514071
+    m_Localized: Frissen mártva, a máz még azon gondolkodik, merre csöpögjön.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514072
+    m_Localized: Édes karika rengeteg bájjal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514073
+    m_Localized: Tésztakarika, ami arra vár, hogy igazi sztár legyen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514074
+    m_Localized: Egy tésztarúd, ami magasabbra teszi a lécet a fánkoknak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514075
+    m_Localized: Tészta, amit sosem kell utántölteni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514076
+    m_Localized: Sasszemmel és jelvény alakú keksszel tart rendet a kávézóban.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514077
+    m_Localized: Apró bogyó, kicsit kék hangulatban, de isteni ízű.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514078
+    m_Localized: Kívül bolyhos, belül ragyogóan zöld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514079
+    m_Localized: Méretre vágott kivi, még mindig ragyogóan zöld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514080
+    m_Localized: Trópusi édesség aranyos hozzáállással.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514081
+    m_Localized: Ananászszeletek, készen arra, hogy a tetejére kerüljenek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514082
+    m_Localized: Piros, érett és ellenállhatatlan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514083
+    m_Localized: Bogyóvékony szeletek maximális bájjal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514084
+    m_Localized: Fényes máz, hűvös kék hangulattal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514085
+    m_Localized: Barna, fényes és bocsánatkérés nélkül csokifüggő.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514086
+    m_Localized: Csinos rózsaszínben, édes minden falatban.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514087
+    m_Localized: Egyszerű fehér máz rejtett vaníliamélységgel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514088
+    m_Localized: Fagyott kockák, amelyektől minden ital hűs marad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514089
+    m_Localized: Tudja meg a világ, hol a krém. Mázas és büszke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514090
+    m_Localized: Minden, amit árulunk. Főleg fánk. Jó, csak fánk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514091
+    m_Localized: Krémes fehér békeközvetítő a keserű kávéhoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514092
+    m_Localized: Igazi zöld a mesterséges máz ellensúlyozására. A természet saját szórása.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514093
+    m_Localized: Egy kis rend a cukorban. Ezek a cserepek komolyan veszik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514094
+    m_Localized: Akkora fánk a tetőn, hogy már a látványától cukorsokkot kapnak a madarak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514095
+    m_Localized: Extra szórás a tetőn álló mesterműre. A máz nem elég.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514096
+    m_Localized: Divatos illatfelhőben érkezik, és minden kávészünetből gálát csinál.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514097
+    m_Localized: Apró színes darabkák, amelyek mindenhová örömet szórnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514098
+    m_Localized: Vésztartalék makkot hord magánál, és minden lattét a habja alapján ítél meg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514099
+    m_Localized: Tökéletes magasság a lábak lógázásához egy adag cukorszórás mellett.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514100
+    m_Localized: Extra szórás a tetőn álló mesterműre. A máz nem elég.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514101
+    m_Localized: Vidám csínytevő, aki valahogy levelekkel fizet, pontosan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514102
+    m_Localized: A gyümölcsöt sima engedelmességgé turmixolja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514103
+    m_Localized: Ahol a gyümölcs szeletet kap az életből.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514104
+    m_Localized: A kávészemekből folyékony reggeli motivációt főz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514105
+    m_Localized: A tésztát aranyló, süteményes boldogsággá süti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514106
+    m_Localized: Addig süti a tésztát, amíg serpenyő-fantasztikus nem lesz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514107
+    m_Localized: Partilufik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514108
+    m_Localized: Édes bővítés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514109
+    m_Localized: Serfőző Hód
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514110
+    m_Localized: Zöldszárnyú madárfutár
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514111
+    m_Localized: Bölény báró
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514112
+    m_Localized: Kényelmes székek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514113
+    m_Localized: Kávészem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514114
+    m_Localized: Őrölt kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514115
+    m_Localized: Mokka Múú Lázadó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514116
+    m_Localized: Tejszínhab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514117
+    m_Localized: Csokikrém
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514118
+    m_Localized: Hideg pohár
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514119
+    m_Localized: Jeges kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514120
+    m_Localized: Díszes jeges kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514121
+    m_Localized: Meleg csésze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514122
+    m_Localized: Forró kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514123
+    m_Localized: Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514124
+    m_Localized: Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514125
+    m_Localized: Luxus cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514126
+    m_Localized: Nyers cupcake-tészta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514127
+    m_Localized: Jeges kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514128
+    m_Localized: Forró kávé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514129
+    m_Localized: Krémes cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514130
+    m_Localized: Mázas fánk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514131
+    m_Localized: Fánk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514132
+    m_Localized: Fánktészta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514133
+    m_Localized: Tésztarúd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514134
+    m_Localized: Végtelen tészta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514135
+    m_Localized: Sas főnök
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514136
+    m_Localized: Áfonya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514137
+    m_Localized: Kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514138
+    m_Localized: Szeletelt kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514139
+    m_Localized: Ananász
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514140
+    m_Localized: Szeletelt ananász
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514141
+    m_Localized: Eper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514142
+    m_Localized: Szeletelt eper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514143
+    m_Localized: Kék máz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514144
+    m_Localized: Csokimáz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514145
+    m_Localized: Rózsaszín máz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514146
+    m_Localized: Vaníliamáz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514147
+    m_Localized: Jég
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514148
+    m_Localized: Bolti cégtábla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514149
+    m_Localized: Ízek táblája
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514150
+    m_Localized: Tej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514151
+    m_Localized: Cukrász növények
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514152
+    m_Localized: Díszcserepek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514153
+    m_Localized: Óriásfánk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514154
+    m_Localized: Fánkdíszek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514155
+    m_Localized: Illat-tastikus Bűzös borz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514156
+    m_Localized: Cukorszórás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514157
+    m_Localized: Mogyoró Mókus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514158
+    m_Localized: Hangulatos bárszékek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514159
+    m_Localized: Asztaldísz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514160
+    m_Localized: Tobi Tanuki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514161
+    m_Localized: Turmixgép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514162
+    m_Localized: Vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514163
+    m_Localized: Kávéfőző
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514164
+    m_Localized: Sütő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514165
+    m_Localized: Serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518569705472
+    m_Localized: A gyümölcs másodpercek alatt megadja magát a selymességnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259904
+    m_Localized: Gyümölcsös forgószél. A fedő használata erősen ajánlott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259905
+    m_Localized: Az élet szelete, csak gyorsabban.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259906
+    m_Localized: Az eper félbeszakított gondolat közben szeletelődik. A kiwik remegnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259907
+    m_Localized: Reggeli motiváció, még gyorsabban főzve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259908
+    m_Localized: Olyan gyorsan főz, hogy a vendégek már az első korty előtt felébrednek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259909
+    m_Localized: Pillanatok alatt süti az aranyló boldogságot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259910
+    m_Localized: A muffinok villámgyorsan megkelnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259911
+    m_Localized: A tészta sokkal hamarabb aranybarnává válik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259912
+    m_Localized: A fánkok kaotikus sebességgel sülnek. Tiszta serpenyő-pandémónium!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259913
+    m_Localized: Turbó turmixgép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259914
+    m_Localized: Smoothie-tornádó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259915
+    m_Localized: Fürge szeletelő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454208
+    m_Localized: Gyümölcs-nindzsa deszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454209
+    m_Localized: Gyorsfőző gép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454210
+    m_Localized: Barista-rakéta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454211
+    m_Localized: Hot Shot sütő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454212
+    m_Localized: Lángoló sütő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454213
+    m_Localized: Gyors serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454214
+    m_Localized: Serpenyő-pandémónium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069150969683968
+    m_Localized: Gyümölcs be, turmixvihar ki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541568
+    m_Localized: Turmixhurrikán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541569
+    m_Localized: Olyan gyorsan turmixol, hogy az időt is meghajlítja. Agyfagyás jár hozzá.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541570
+    m_Localized: Galaxis turmixgép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541571
+    m_Localized: A kivik szeletelve vannak, mielőtt elgurulnának.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541572
+    m_Localized: Szamuráj gyümölcsdeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735872
+    m_Localized: Egy suhintás, egy egész gyümölcssaláta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735873
+    m_Localized: Legendás gyümölcspenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735874
+    m_Localized: Kávé sugárhajtású sebességgel. Kapaszkodj a bögrédbe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318784
+    m_Localized: Eszpresszó-sugárhajtómű
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318785
+    m_Localized: Tökéletes csészét főz, mielőtt befejeznéd a pislogást.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318786
+    m_Localized: Legendás főzőmotor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318787
+    m_Localized: A muffinok egy szívdobbanás alatt megsülnek. Mennyei illat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318788
+    m_Localized: Pokoli sütő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318789
+    m_Localized: Forró, mint egy csillag. A sütemények ragyogva jönnek ki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513088
+    m_Localized: Legendás csillagsütő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513089
+    m_Localized: A fánkok puszta izgalomból maguktól fordulnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513090
+    m_Localized: Serpenyő-tasztikus turbó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513091
+    m_Localized: Arany karikák rekordsebességgel. Tiszta fánkvarázslat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513092
+    m_Localized: Legendás fánksütő serpenyő
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

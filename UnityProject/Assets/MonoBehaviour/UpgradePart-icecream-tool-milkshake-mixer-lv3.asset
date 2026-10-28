@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1841959934, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: UpgradePart-icecream-tool-milkshake-mixer-lv3
+  m_EditorClassIdentifier:
+  _id: milkshake-mixer-lv3
+  _tempNameAlias: Super Shake Mixer
+  _tempDescription: Creamy shakes with a super swirl.
+  _locTable: Map_icecream
+  spriteThumb: {fileID: 21300000, guid: 71f5ca5550e034744a275f85b36c992f, type: 2}
+  assetThumb:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:
+  upgradeType: 1
+  toolId: milkshake_mixer_ice_cream

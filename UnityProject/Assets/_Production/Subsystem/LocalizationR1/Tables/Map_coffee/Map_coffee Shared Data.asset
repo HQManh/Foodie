@@ -1,0 +1,1459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_coffee Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Map_coffee
+  m_TableCollectionNameGuidString: 23c6188b549d89544a8699752a12582e
+  m_Entries:
+  - m_Id: 57788163153920
+    m_Key: Desc_balloons
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518379
+  - m_Id: 57788192514048
+    m_Key: Desc_base
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518380
+  - m_Id: 57788192514049
+    m_Key: Desc_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518381
+  - m_Id: 57788192514050
+    m_Key: Desc_beaver_logger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518382
+  - m_Id: 57788192514051
+    m_Key: Desc_bird_shipper
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518383
+  - m_Id: 57788192514052
+    m_Key: Desc_bison_baron
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518384
+  - m_Id: 57788192514053
+    m_Key: Desc_chairs
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518385
+  - m_Id: 57788192514054
+    m_Key: Desc_coffee_bean
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518386
+  - m_Id: 57788192514055
+    m_Key: Desc_coffee_powder
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518387
+  - m_Id: 57788192514056
+    m_Key: Desc_cow_rebel
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518388
+  - m_Id: 57788192514057
+    m_Key: Desc_cream
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518389
+  - m_Id: 57788192514058
+    m_Key: Desc_cream_choco
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518390
+  - m_Id: 57788192514059
+    m_Key: Desc_cup_cold
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518391
+  - m_Id: 57788192514060
+    m_Key: Desc_cup_cold_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518392
+  - m_Id: 57788192514061
+    m_Key: Desc_cup_cold_coffee_flex
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518393
+  - m_Id: 57788192514062
+    m_Key: Desc_cup_hot
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518394
+  - m_Id: 57788192514063
+    m_Key: Desc_cup_hot_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518395
+  - m_Id: 57788192514064
+    m_Key: Desc_cup_hot_coffee_milk
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518396
+  - m_Id: 57788192514065
+    m_Key: Desc_cupcake
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518397
+  - m_Id: 57788192514066
+    m_Key: Desc_cupcake_flex
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518398
+  - m_Id: 57788192514067
+    m_Key: Desc_cupcake_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518399
+  - m_Id: 57788192514068
+    m_Key: Desc_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518400
+  - m_Id: 57788192514069
+    m_Key: Desc_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518401
+  - m_Id: 57788192514070
+    m_Key: Desc_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518402
+  - m_Id: 57788192514071
+    m_Key: Desc_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518403
+  - m_Id: 57788192514072
+    m_Key: Desc_donut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518404
+  - m_Id: 57788192514073
+    m_Key: Desc_donut_dough
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518405
+  - m_Id: 57788192514074
+    m_Key: Desc_donut_dough_bar
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518406
+  - m_Id: 57788192514075
+    m_Key: Desc_donut_dough_inf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518407
+  - m_Id: 57788192514076
+    m_Key: Desc_eagle_police
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518408
+  - m_Id: 57788192514077
+    m_Key: Desc_fruit_blueberry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518409
+  - m_Id: 57788192514078
+    m_Key: Desc_fruit_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518410
+  - m_Id: 57788192514079
+    m_Key: Desc_fruit_kiwi_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518411
+  - m_Id: 57788192514080
+    m_Key: Desc_fruit_pineapple
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518412
+  - m_Id: 57788192514081
+    m_Key: Desc_fruit_pineapple_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518413
+  - m_Id: 57788192514082
+    m_Key: Desc_fruit_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518414
+  - m_Id: 57788192514083
+    m_Key: Desc_fruit_strawberry_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518415
+  - m_Id: 57788192514084
+    m_Key: Desc_glaze_blue
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518416
+  - m_Id: 57788192514085
+    m_Key: Desc_glaze_brown
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518417
+  - m_Id: 57788192514086
+    m_Key: Desc_glaze_pink
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518418
+  - m_Id: 57788192514087
+    m_Key: Desc_glaze_white
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518419
+  - m_Id: 57788192514088
+    m_Key: Desc_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518420
+  - m_Id: 57788192514089
+    m_Key: Desc_logo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518421
+  - m_Id: 57788192514090
+    m_Key: Desc_menu
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518422
+  - m_Id: 57788192514091
+    m_Key: Desc_milk
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518423
+  - m_Id: 57788192514092
+    m_Key: Desc_plants
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518424
+  - m_Id: 57788192514093
+    m_Key: Desc_pots
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518425
+  - m_Id: 57788192514094
+    m_Key: Desc_roof_donut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518426
+  - m_Id: 57788192514095
+    m_Key: Desc_roof_donut_decor
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518427
+  - m_Id: 57788192514096
+    m_Key: Desc_skunk_socialite
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518428
+  - m_Id: 57788192514097
+    m_Key: Desc_sprinkle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518429
+  - m_Id: 57788192514098
+    m_Key: Desc_squirrel_girl
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518430
+  - m_Id: 57788192514099
+    m_Key: Desc_stools
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518431
+  - m_Id: 57788192514100
+    m_Key: Desc_table_decor
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518432
+  - m_Id: 57788192514101
+    m_Key: Desc_tanuki_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518433
+  - m_Id: 57788192514102
+    m_Key: Desc_tool_blender_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518434
+  - m_Id: 57788192514103
+    m_Key: Desc_tool_cutting_board_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518435
+  - m_Id: 57788192514104
+    m_Key: Desc_tool_maker_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518436
+  - m_Id: 57788192514105
+    m_Key: Desc_tool_oven_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518437
+  - m_Id: 57788192514106
+    m_Key: Desc_tool_pan_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518438
+  - m_Id: 57788192514107
+    m_Key: Title_balloons
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518439
+  - m_Id: 57788192514108
+    m_Key: Title_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518440
+  - m_Id: 57788192514109
+    m_Key: Title_beaver_logger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518441
+  - m_Id: 57788192514110
+    m_Key: Title_bird_shipper
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518442
+  - m_Id: 57788192514111
+    m_Key: Title_bison_baron
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518443
+  - m_Id: 57788192514112
+    m_Key: Title_chairs
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518444
+  - m_Id: 57788192514113
+    m_Key: Title_coffee_bean
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518445
+  - m_Id: 57788192514114
+    m_Key: Title_coffee_powder
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518446
+  - m_Id: 57788192514115
+    m_Key: Title_cow_rebel
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518447
+  - m_Id: 57788192514116
+    m_Key: Title_cream
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518448
+  - m_Id: 57788192514117
+    m_Key: Title_cream_choco
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518449
+  - m_Id: 57788192514118
+    m_Key: Title_cup_cold
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518450
+  - m_Id: 57788192514119
+    m_Key: Title_cup_cold_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518451
+  - m_Id: 57788192514120
+    m_Key: Title_cup_cold_coffee_flex
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518452
+  - m_Id: 57788192514121
+    m_Key: Title_cup_hot
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518453
+  - m_Id: 57788192514122
+    m_Key: Title_cup_hot_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518454
+  - m_Id: 57788192514123
+    m_Key: Title_cup_hot_coffee_milk
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518455
+  - m_Id: 57788192514124
+    m_Key: Title_cupcake
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518456
+  - m_Id: 57788192514125
+    m_Key: Title_cupcake_flex
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518457
+  - m_Id: 57788192514126
+    m_Key: Title_cupcake_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518458
+  - m_Id: 57788192514127
+    m_Key: Title_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518459
+  - m_Id: 57788192514128
+    m_Key: Title_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518460
+  - m_Id: 57788192514129
+    m_Key: Title_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518461
+  - m_Id: 57788192514130
+    m_Key: Title_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518462
+  - m_Id: 57788192514131
+    m_Key: Title_donut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518463
+  - m_Id: 57788192514132
+    m_Key: Title_donut_dough
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518464
+  - m_Id: 57788192514133
+    m_Key: Title_donut_dough_bar
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518465
+  - m_Id: 57788192514134
+    m_Key: Title_donut_dough_inf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518466
+  - m_Id: 57788192514135
+    m_Key: Title_eagle_police
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518467
+  - m_Id: 57788192514136
+    m_Key: Title_fruit_blueberry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518468
+  - m_Id: 57788192514137
+    m_Key: Title_fruit_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518469
+  - m_Id: 57788192514138
+    m_Key: Title_fruit_kiwi_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518470
+  - m_Id: 57788192514139
+    m_Key: Title_fruit_pineapple
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518471
+  - m_Id: 57788192514140
+    m_Key: Title_fruit_pineapple_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518472
+  - m_Id: 57788192514141
+    m_Key: Title_fruit_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518473
+  - m_Id: 57788192514142
+    m_Key: Title_fruit_strawberry_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518474
+  - m_Id: 57788192514143
+    m_Key: Title_glaze_blue
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518475
+  - m_Id: 57788192514144
+    m_Key: Title_glaze_brown
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518476
+  - m_Id: 57788192514145
+    m_Key: Title_glaze_pink
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518477
+  - m_Id: 57788192514146
+    m_Key: Title_glaze_white
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518478
+  - m_Id: 57788192514147
+    m_Key: Title_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518479
+  - m_Id: 57788192514148
+    m_Key: Title_logo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518480
+  - m_Id: 57788192514149
+    m_Key: Title_menu
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518481
+  - m_Id: 57788192514150
+    m_Key: Title_milk
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518482
+  - m_Id: 57788192514151
+    m_Key: Title_plants
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518483
+  - m_Id: 57788192514152
+    m_Key: Title_pots
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518484
+  - m_Id: 57788192514153
+    m_Key: Title_roof_donut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518485
+  - m_Id: 57788192514154
+    m_Key: Title_roof_donut_decor
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518486
+  - m_Id: 57788192514155
+    m_Key: Title_skunk_socialite
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518487
+  - m_Id: 57788192514156
+    m_Key: Title_sprinkle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518488
+  - m_Id: 57788192514157
+    m_Key: Title_squirrel_girl
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518489
+  - m_Id: 57788192514158
+    m_Key: Title_stools
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518490
+  - m_Id: 57788192514159
+    m_Key: Title_table_decor
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518491
+  - m_Id: 57788192514160
+    m_Key: Title_tanuki_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518492
+  - m_Id: 57788192514161
+    m_Key: Title_tool_blender_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518493
+  - m_Id: 57788192514162
+    m_Key: Title_tool_cutting_board_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518494
+  - m_Id: 57788192514163
+    m_Key: Title_tool_maker_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518495
+  - m_Id: 57788192514164
+    m_Key: Title_tool_oven_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518496
+  - m_Id: 57788192514165
+    m_Key: Title_tool_pan_cf
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518497
+  - m_Id: 3010518569705472
+    m_Key: Desc_blender-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366614
+  - m_Id: 3010518603259904
+    m_Key: Desc_blender-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366615
+  - m_Id: 3010518603259905
+    m_Key: Desc_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366616
+  - m_Id: 3010518603259906
+    m_Key: Desc_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366617
+  - m_Id: 3010518603259907
+    m_Key: Desc_maker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366618
+  - m_Id: 3010518603259908
+    m_Key: Desc_maker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366619
+  - m_Id: 3010518603259909
+    m_Key: Desc_oven-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366620
+  - m_Id: 3010518603259910
+    m_Key: Desc_oven-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366621
+  - m_Id: 3010518603259911
+    m_Key: Desc_pan-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366622
+  - m_Id: 3010518603259912
+    m_Key: Desc_pan-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366623
+  - m_Id: 3010518603259913
+    m_Key: Title_blender-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366624
+  - m_Id: 3010518603259914
+    m_Key: Title_blender-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366625
+  - m_Id: 3010518603259915
+    m_Key: Title_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366626
+  - m_Id: 3010518607454208
+    m_Key: Title_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366627
+  - m_Id: 3010518607454209
+    m_Key: Title_maker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366628
+  - m_Id: 3010518607454210
+    m_Key: Title_maker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366629
+  - m_Id: 3010518607454211
+    m_Key: Title_oven-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366630
+  - m_Id: 3010518607454212
+    m_Key: Title_oven-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366631
+  - m_Id: 3010518607454213
+    m_Key: Title_pan-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366632
+  - m_Id: 3010518607454214
+    m_Key: Title_pan-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366633
+  - m_Id: 8069150969683968
+    m_Key: Desc_blender-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150368
+  - m_Id: 8069151074541568
+    m_Key: Title_blender-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150369
+  - m_Id: 8069151074541569
+    m_Key: Desc_blender-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150370
+  - m_Id: 8069151074541570
+    m_Key: Title_blender-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150371
+  - m_Id: 8069151074541571
+    m_Key: Desc_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150372
+  - m_Id: 8069151074541572
+    m_Key: Title_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150373
+  - m_Id: 8069151078735872
+    m_Key: Desc_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150374
+  - m_Id: 8069151078735873
+    m_Key: Title_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150375
+  - m_Id: 8069151078735874
+    m_Key: Desc_maker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150376
+  - m_Id: 8069151091318784
+    m_Key: Title_maker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150377
+  - m_Id: 8069151091318785
+    m_Key: Desc_maker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150378
+  - m_Id: 8069151091318786
+    m_Key: Title_maker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150379
+  - m_Id: 8069151091318787
+    m_Key: Desc_oven-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150380
+  - m_Id: 8069151091318788
+    m_Key: Title_oven-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150381
+  - m_Id: 8069151091318789
+    m_Key: Desc_oven-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150382
+  - m_Id: 8069151095513088
+    m_Key: Title_oven-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150383
+  - m_Id: 8069151095513089
+    m_Key: Desc_pan-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150384
+  - m_Id: 8069151095513090
+    m_Key: Title_pan-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150385
+  - m_Id: 8069151095513091
+    m_Key: Desc_pan-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150386
+  - m_Id: 8069151095513092
+    m_Key: Title_pan-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150387
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859024
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859024
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230175282
+    - rid: 4117827729675518379
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-balloons (description)
+    - rid: 4117827729675518380
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-base (description)
+    - rid: 4117827729675518381
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-base_lv2 (description)
+    - rid: 4117827729675518382
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-beaver_logger (description)
+    - rid: 4117827729675518383
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bird_shipper (description)
+    - rid: 4117827729675518384
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bison_baron (description)
+    - rid: 4117827729675518385
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-chairs (description)
+    - rid: 4117827729675518386
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coffee_bean (description)
+    - rid: 4117827729675518387
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coffee_powder (description)
+    - rid: 4117827729675518388
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cow_rebel (description)
+    - rid: 4117827729675518389
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cream (description)
+    - rid: 4117827729675518390
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cream_choco (description)
+    - rid: 4117827729675518391
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold (description)
+    - rid: 4117827729675518392
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold_coffee (description)
+    - rid: 4117827729675518393
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold_coffee_flex (description)
+    - rid: 4117827729675518394
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot (description)
+    - rid: 4117827729675518395
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot_coffee (description)
+    - rid: 4117827729675518396
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot_coffee_milk (description)
+    - rid: 4117827729675518397
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake (description)
+    - rid: 4117827729675518398
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake_flex (description)
+    - rid: 4117827729675518399
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake_raw (description)
+    - rid: 4117827729675518400
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[0] (description)
+    - rid: 4117827729675518401
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[1] (description)
+    - rid: 4117827729675518402
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[2] (description)
+    - rid: 4117827729675518403
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[3] (description)
+    - rid: 4117827729675518404
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut (description)
+    - rid: 4117827729675518405
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough (description)
+    - rid: 4117827729675518406
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough_bar (description)
+    - rid: 4117827729675518407
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough_inf (description)
+    - rid: 4117827729675518408
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-eagle_police (description)
+    - rid: 4117827729675518409
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_blueberry (description)
+    - rid: 4117827729675518410
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_kiwi (description)
+    - rid: 4117827729675518411
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_kiwi_sliced (description)
+    - rid: 4117827729675518412
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_pineapple (description)
+    - rid: 4117827729675518413
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_pineapple_sliced (description)
+    - rid: 4117827729675518414
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_strawberry (description)
+    - rid: 4117827729675518415
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_strawberry_sliced (description)
+    - rid: 4117827729675518416
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_blue (description)
+    - rid: 4117827729675518417
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_brown (description)
+    - rid: 4117827729675518418
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_pink (description)
+    - rid: 4117827729675518419
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_white (description)
+    - rid: 4117827729675518420
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice (description)
+    - rid: 4117827729675518421
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-logo (description)
+    - rid: 4117827729675518422
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-menu (description)
+    - rid: 4117827729675518423
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (description)
+    - rid: 4117827729675518424
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-plants (description)
+    - rid: 4117827729675518425
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-pots (description)
+    - rid: 4117827729675518426
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-roof_donut (description)
+    - rid: 4117827729675518427
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-roof_donut_decor (description)
+    - rid: 4117827729675518428
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-skunk_socialite (description)
+    - rid: 4117827729675518429
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sprinkle (description)
+    - rid: 4117827729675518430
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-squirrel_girl (description)
+    - rid: 4117827729675518431
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-stools (description)
+    - rid: 4117827729675518432
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-table_decor (description)
+    - rid: 4117827729675518433
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-tanuki_boy (description)
+    - rid: 4117827729675518434
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_blender_cf (description)
+    - rid: 4117827729675518435
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_cutting_board_cf (description)
+    - rid: 4117827729675518436
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_maker_cf (description)
+    - rid: 4117827729675518437
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_oven_cf (description)
+    - rid: 4117827729675518438
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_pan_cf (description)
+    - rid: 4117827729675518439
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-balloons (name)
+    - rid: 4117827729675518440
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-base_lv2 (name)
+    - rid: 4117827729675518441
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-beaver_logger (name)
+    - rid: 4117827729675518442
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bird_shipper (name)
+    - rid: 4117827729675518443
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bison_baron (name)
+    - rid: 4117827729675518444
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-chairs (name)
+    - rid: 4117827729675518445
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coffee_bean (name)
+    - rid: 4117827729675518446
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coffee_powder (name)
+    - rid: 4117827729675518447
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cow_rebel (name)
+    - rid: 4117827729675518448
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cream (name)
+    - rid: 4117827729675518449
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cream_choco (name)
+    - rid: 4117827729675518450
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold (name)
+    - rid: 4117827729675518451
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold_coffee (name)
+    - rid: 4117827729675518452
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_cold_coffee_flex (name)
+    - rid: 4117827729675518453
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot (name)
+    - rid: 4117827729675518454
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot_coffee (name)
+    - rid: 4117827729675518455
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_hot_coffee_milk (name)
+    - rid: 4117827729675518456
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake (name)
+    - rid: 4117827729675518457
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake_flex (name)
+    - rid: 4117827729675518458
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cupcake_raw (name)
+    - rid: 4117827729675518459
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[0] (name)
+    - rid: 4117827729675518460
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[1] (name)
+    - rid: 4117827729675518461
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[2] (name)
+    - rid: 4117827729675518462
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-cafe[3] (name)
+    - rid: 4117827729675518463
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut (name)
+    - rid: 4117827729675518464
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough (name)
+    - rid: 4117827729675518465
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough_bar (name)
+    - rid: 4117827729675518466
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO donut_dough_inf (name)
+    - rid: 4117827729675518467
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-eagle_police (name)
+    - rid: 4117827729675518468
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_blueberry (name)
+    - rid: 4117827729675518469
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_kiwi (name)
+    - rid: 4117827729675518470
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_kiwi_sliced (name)
+    - rid: 4117827729675518471
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_pineapple (name)
+    - rid: 4117827729675518472
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_pineapple_sliced (name)
+    - rid: 4117827729675518473
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_strawberry (name)
+    - rid: 4117827729675518474
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fruit_strawberry_sliced (name)
+    - rid: 4117827729675518475
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_blue (name)
+    - rid: 4117827729675518476
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_brown (name)
+    - rid: 4117827729675518477
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_pink (name)
+    - rid: 4117827729675518478
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO glaze_white (name)
+    - rid: 4117827729675518479
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice (name)
+    - rid: 4117827729675518480
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-logo (name)
+    - rid: 4117827729675518481
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-menu (name)
+    - rid: 4117827729675518482
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (name)
+    - rid: 4117827729675518483
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-plants (name)
+    - rid: 4117827729675518484
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-pots (name)
+    - rid: 4117827729675518485
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-roof_donut (name)
+    - rid: 4117827729675518486
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-roof_donut_decor (name)
+    - rid: 4117827729675518487
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-skunk_socialite (name)
+    - rid: 4117827729675518488
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sprinkle (name)
+    - rid: 4117827729675518489
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-squirrel_girl (name)
+    - rid: 4117827729675518490
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-stools (name)
+    - rid: 4117827729675518491
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-table_decor (name)
+    - rid: 4117827729675518492
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-tanuki_boy (name)
+    - rid: 4117827729675518493
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_blender_cf (name)
+    - rid: 4117827729675518494
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_cutting_board_cf (name)
+    - rid: 4117827729675518495
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_maker_cf (name)
+    - rid: 4117827729675518496
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_oven_cf (name)
+    - rid: 4117827729675518497
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO tool_pan_cf (name)
+    - rid: 5047051213734150368
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv4 (description)
+    - rid: 5047051213734150369
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv4 (name)
+    - rid: 5047051213734150370
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv5 (description)
+    - rid: 5047051213734150371
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv5 (name)
+    - rid: 5047051213734150372
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv4 (description)
+    - rid: 5047051213734150373
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv4 (name)
+    - rid: 5047051213734150374
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv5 (description)
+    - rid: 5047051213734150375
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv5 (name)
+    - rid: 5047051213734150376
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv4 (description)
+    - rid: 5047051213734150377
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv4 (name)
+    - rid: 5047051213734150378
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv5 (description)
+    - rid: 5047051213734150379
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv5 (name)
+    - rid: 5047051213734150380
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv4 (description)
+    - rid: 5047051213734150381
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv4 (name)
+    - rid: 5047051213734150382
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv5 (description)
+    - rid: 5047051213734150383
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv5 (name)
+    - rid: 5047051213734150384
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv4 (description)
+    - rid: 5047051213734150385
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv4 (name)
+    - rid: 5047051213734150386
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv5 (description)
+    - rid: 5047051213734150387
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv5 (name)
+    - rid: 8515899034614366614
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv2 (description)
+    - rid: 8515899034614366615
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv3 (description)
+    - rid: 8515899034614366616
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv2 (description)
+    - rid: 8515899034614366617
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv3 (description)
+    - rid: 8515899034614366618
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv2 (description)
+    - rid: 8515899034614366619
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv3 (description)
+    - rid: 8515899034614366620
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv2 (description)
+    - rid: 8515899034614366621
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv3 (description)
+    - rid: 8515899034614366622
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv2 (description)
+    - rid: 8515899034614366623
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv3 (description)
+    - rid: 8515899034614366624
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv2 (name)
+    - rid: 8515899034614366625
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-blender-lv3 (name)
+    - rid: 8515899034614366626
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv2 (name)
+    - rid: 8515899034614366627
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-board-lv3 (name)
+    - rid: 8515899034614366628
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv2 (name)
+    - rid: 8515899034614366629
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-maker-lv3 (name)
+    - rid: 8515899034614366630
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv2 (name)
+    - rid: 8515899034614366631
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-oven-lv3 (name)
+    - rid: 8515899034614366632
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv2 (name)
+    - rid: 8515899034614366633
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-coffee-tool-pan-lv3 (name)

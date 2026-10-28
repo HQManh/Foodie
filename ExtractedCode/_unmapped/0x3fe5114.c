@@ -1,0 +1,59 @@
+// rea decompile_all
+// name: FUN_03fe5114
+// address: 0x3fe5114
+// body: available
+// range: 0x3fe5114-0x3fe51af inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+void FUN_03fe5114(byte *param_1,long param_2,ulong param_3)
+
+{
+  byte *pbVar1;
+  ulong uVar2;
+  ulong uVar3;
+  byte bVar4;
+  bool bVar5;
+  ulong uVar6;
+  long lVar7;
+  
+  if (param_3 != 0) {
+    bVar4 = *param_1;
+    bVar5 = (bVar4 & 1) != 0;
+    uVar2 = (ulong)(bVar4 >> 1);
+    if (bVar5) {
+      uVar2 = *(ulong *)(param_1 + 8);
+    }
+    uVar6 = uVar2 - param_2;
+    pbVar1 = param_1 + 4;
+    if (bVar5) {
+      pbVar1 = *(byte **)(param_1 + 0x10);
+    }
+    uVar3 = uVar6;
+    if (param_3 <= uVar6) {
+      uVar3 = param_3;
+    }
+    if (param_3 < uVar6) {
+      memmove(pbVar1 + param_2 * 4,pbVar1 + param_2 * 4 + uVar3 * 4,(uVar6 - uVar3) * 4);
+      bVar4 = *param_1;
+    }
+    lVar7 = uVar2 - uVar3;
+    if ((bVar4 & 1) == 0) {
+      *param_1 = (byte)((int)lVar7 << 1);
+    }
+    else {
+      *(long *)(param_1 + 8) = lVar7;
+    }
+    pbVar1 = pbVar1 + lVar7 * 4;
+    pbVar1[0] = 0;
+    pbVar1[1] = 0;
+    pbVar1[2] = 0;
+    pbVar1[3] = 0;
+  }
+  return;
+}
+

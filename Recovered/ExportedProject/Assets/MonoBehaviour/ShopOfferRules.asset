@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1461783690, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: ShopOfferRules
+  m_EditorClassIdentifier:
+  _groups:
+  - groupId: noads
+    candidates:
+    - shopId: removeads_sale
+      disabled: 1
+      conditions:
+      - type: 2
+        negate: 0
+        value: 7
+        value2: 0
+        skus: []
+      - type: 5
+        negate: 1
+        value: 0
+        value2: 0
+        skus:
+        - removeads
+        - removeads_sale
+        - removeads_bundle
+    - shopId: removeads
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 10
+        value2: 0
+        skus: []
+    keepOnceShown: 0
+  - groupId: noadsbundle
+    candidates:
+    - shopId: removeads_bundle
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 10
+        value2: 0
+        skus: []
+    keepOnceShown: 0
+  - groupId: starter
+    candidates:
+    - shopId: starter_sale
+      disabled: 1
+      conditions:
+      - type: 1
+        negate: 0
+        value: 5
+        value2: 0
+        skus: []
+      - type: 4
+        negate: 1
+        value: 0
+        value2: 0
+        skus: []
+      - type: 5
+        negate: 1
+        value: 0
+        value2: 0
+        skus:
+        - starter
+        - starter_sale
+    - shopId: starter
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 20
+        value2: 0
+        skus: []
+      - type: 4
+        negate: 1
+        value: 0
+        value2: 0
+        skus: []
+      - type: 5
+        negate: 1
+        value: 0
+        value2: 0
+        skus:
+        - starter
+        - starter_sale
+    keepOnceShown: 1
+  - groupId: gem1
+    candidates:
+    - shopId: gem1_sale
+      disabled: 1
+      conditions:
+      - type: 1
+        negate: 0
+        value: 3
+        value2: 0
+        skus: []
+      - type: 4
+        negate: 1
+        value: 0
+        value2: 0
+        skus: []
+      - type: 10
+        negate: 0
+        value: 6
+        value2: 3
+        skus: []
+    - shopId: gem1
+      disabled: 0
+      conditions: []
+    keepOnceShown: 0
+  - groupId: failoffer
+    candidates:
+    - shopId: revivepack_sale
+      disabled: 1
+      conditions:
+      - type: 1
+        negate: 0
+        value: 3
+        value2: 0
+        skus: []
+      - type: 4
+        negate: 1
+        value: 0
+        value2: 0
+        skus: []
+      - type: 9
+        negate: 0
+        value: 6
+        value2: 3
+        skus: []
+    - shopId: revivepack_sale
+      disabled: 1
+      conditions:
+      - type: 8
+        negate: 0
+        value: 40
+        value2: 0
+        skus: []
+      - type: 9
+        negate: 0
+        value: 6
+        value2: 3
+        skus: []
+    - shopId: revivepack3
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 50
+        value2: 0
+        skus: []
+      - type: 6
+        negate: 0
+        value: 8
+        value2: 0
+        skus:
+        - revivepack
+        - revivepack2
+        - revivepack3
+      - type: 7
+        negate: 0
+        value: 2
+        value2: 0
+        skus:
+        - revivepack
+        - revivepack2
+        - revivepack3
+    - shopId: revivepack2
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 50
+        value2: 0
+        skus: []
+      - type: 6
+        negate: 0
+        value: 3
+        value2: 0
+        skus:
+        - revivepack
+        - revivepack2
+        - revivepack3
+      - type: 7
+        negate: 0
+        value: 2
+        value2: 0
+        skus:
+        - revivepack
+        - revivepack2
+        - revivepack3
+    - shopId: revivepack
+      disabled: 0
+      conditions:
+      - type: 0
+        negate: 0
+        value: 10
+        value2: 0
+        skus: []
+    keepOnceShown: 0
+  - groupId: booster
+    candidates:
+    - shopId: boosterpack2
+      disabled: 0
+      conditions:
+      - type: 7
+        negate: 0
+        value: 3
+        value2: 0
+        skus:
+        - boosterpack
+        - boosterpack2
+    - shopId: boosterpack
+      disabled: 0
+      conditions: []
+    keepOnceShown: 0

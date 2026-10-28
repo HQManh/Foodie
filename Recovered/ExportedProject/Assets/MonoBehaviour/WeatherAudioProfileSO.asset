@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1569165997, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: WeatherAudioProfileSO
+  m_EditorClassIdentifier:
+  _entries:
+  - weather: 0
+    lowpassFreq: 22000
+    highpassFreq: 10
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0
+    reverbAmount: 0
+    chorusAmount: 0
+  - weather: 1
+    lowpassFreq: 21419
+    highpassFreq: 20
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0.3
+    reverbAmount: 0.4
+    chorusAmount: 0
+  - weather: 2
+    lowpassFreq: 22000
+    highpassFreq: 100
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0.15
+    reverbAmount: 0.1
+    chorusAmount: 0
+  - weather: 3
+    lowpassFreq: 22000
+    highpassFreq: 600
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0
+    reverbAmount: 0.8
+    chorusAmount: 0
+  - weather: 4
+    lowpassFreq: 12275
+    highpassFreq: 200
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0
+    reverbAmount: 0.6
+    chorusAmount: 0.5
+  - weather: 5
+    lowpassFreq: 22000
+    highpassFreq: 10
+    duckThunderThreshold: -30
+    duckCustomerThreshold: -25
+    distortionAmount: 0
+    reverbAmount: 0
+    chorusAmount: 0

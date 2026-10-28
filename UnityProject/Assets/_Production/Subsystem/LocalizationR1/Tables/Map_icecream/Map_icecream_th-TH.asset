@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_th-TH
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th-TH
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: ไอศกรีม​โคน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: โค​นวาฟเฟิล​กรอบ ๆ ท็อ​ปด้วย​ไอศกรีม​เย็น​ฉ่ำ​หนึ่ง​สกู๊ป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: ไอศกรีม​ถ้วย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: ไอศกรีม​หนึ่ง​สกู๊ป​ใน​ถ้วย ไม่​หยด​เลอะ​นิ้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: สมูท​ตี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: ผล​ไม้​สด​ปั่น​กับ​น้ำ​แข็ง​จน​เนียน​ฉ่ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: ไอศกรีม​กับ​นม​เขย่า​รวม​กัน​จน​ข้น​หนึบ​ทุก​จิบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: น้ำ​แข็ง​ไส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: น้ำ​แข็ง​ไส​นุ่ม​ฟู ราด​น้ำ​เชื่อม​สี​สดใส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: มา​ดาม​ฟ​ลา​มิง​โก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: สัตว์​เลี้ยง​ดี​วา​สุด​หรู​ที่​เอนกาย​ใน​เสื้อ​คลุม​ขน​นก​สี​นีออน หมวก​ปีก​กว้าง​ใบ​โต และ​แว่น​กันแดด​ทรง​แค​ทอาย​ประดับ​เพชร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: ออ​ล​ลี่​นาก​น้อย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: สัตว์​เลี้ยง​ขี้​เล่น​ใน​เสื้อ​เชิ้ต​ลาย​ไอศกรีม​สไตล์​ทรอ​ปิ​คอล​ตัว​โคร่ง กับ​หมวก​ฟาง​ใบ​จิ๋ว​ที่​ประดับ​ดอก​ชบา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: ซันนี่​นก​แก้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: สัตว์​เลี้ยง​แสน​หวาน​ใน​ชุด​ว่าย​น้ำ​สี​พาส​เทล พร้อม​ห่วง​ยาง​โดนัท​โดน​กัด​และ​ผ้า​โพก​ลายตา​ราง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: พิป​ปา​เพนกวิน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: สัตว์​เลี้ยง​สาย​แฟชั่น​ใน​เสื้อ​ระบาย​สี​สด แว่น​กันแดด​สี​เหลือง​อัน​โต และ​เป้​หวาย​จิ๋ว​ที่​ปัก​ร่ม​ค็อกเทล​กระดาษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: เซ​อร์เช​ลดอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: สัตว์​เลี้ยง​วี​ไอ​พี​สุด​รวย​ใน​เสื้อ​คลุม​ผ้า​ไหม​หรูหรา หมวก​กัปตัน​ปัก​ดิ้น​ทอง และ​เครื่อง​ประดับ​ชิ้น​โต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: เขียง​ผล​ไม้​ว่องไว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: ผล​ไม้​หั่น​กอง​เป็น​ภูเขา​ใน​พริบ​ตา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: เขียง​ผล​ไม้​นินจา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: กีวี​สั่น​สะท้าน​เมื่อ​เขียง​นี้​ออกโรง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: เครื่อง​ทำ​โคน​กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: โคน​อุ่น ๆ กรอบ ๆ ออก​เร็ว​ขึ้น​อีก​นิด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: เครื่อง​อัด​โคน​สี​ทอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: โคน​สี​ทอง​ออก​มา​เรื่อย ๆ กรอบ​ทุก​ชิ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: เครื่อง​ปั่น​ส​ปีด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: ปั่น​ไม่​กี่​รอบ ผล​ไม้​ก็​เนียน​นุ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: ลม​หมุน​สมูท​ตี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: ลม​หมุน​ผล​ไม้ ปิด​ฝา​ไว้​ให้​ดี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: เครื่อง​ไส​น้ำ​แข็ง​เยือก​เย็น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: น้ำ​แข็ง​กลาย​เป็น​เกล็ด​นุ่ม​ได้​เร็ว​ขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: เครื่อง​ไส​เกล็ด​หิมะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: เกล็ด​หิมะ​นุ่ม ๆ โปรย​ลง​ใน​ไม่​กี่​วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: เครื่อง​ปั่น​เชคส​ปีด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: เชค​ข้น​และ​เนียน​นุ่ม​ได้​เร็ว​ขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: เครื่อง​ปั่น​เชค​ซู​เปอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: เชค​เนื้อ​ครีม​ด้วย​วังวน​สุด​พลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: ซุ้ม​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: ซุ้ม​เล็ก​เสิร์ฟ​ขนม​เย็น​ชื่น​ใจ​ใต้​แสงแดด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: ร้าน​ไอศกรีม​เขต​ร้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: เพิ่ม​พื้นที่​ให้​ขนม​แช่​แข็ง​หลาก​สี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: ป้าย​คา​ปิ​บา​รา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: คา​ปิ​บา​รา​ร่าเริง​ต้อนรับ​คน​รัก​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: เมนู​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: กระดาน​ที่​เต็ม​ไป​ด้วย​ขนม​เย็น​ชื่น​ใจ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: กันสาด​ลาย​ทาง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: กันสาด​ร่มรื่น​พร้อม​ป้าย​ร้าน​สดใส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: เคาน์เตอร์​ขนม​หวาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: ผล​ไม้ เครื่อง​ทำ​ขนม และ​ถ้วย​พร้อม​เสิร์ฟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: หน้า​ร้าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: ประตู​ต้อนรับ​ลูกค้า​ขนาบ​ด้วย​หน้าต่าง​สว่าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: มุม​โต้​คลื่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: กระดานโต้คลื่น ลัง​ผล​ไม้ และ​ป้าย​ริม​ทะเล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: โคน​และ​ห่วง​ยาง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: โคน​ยักษ์​กับ​ห่วง​ยาง​เติม​ความ​สนุก​แบบ​ชายหาด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: ตู้​แช่​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: ตู้​แช่​สี​สด​ช่วย​ให้​ไอศกรีม​เย็น​อยู่​เสมอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: สายรุ้ง​บน​หลังคา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: สายรุ้ง​สดใส​เหนือ​ร้าน​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: ไอศกรีม​ยักษ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: ไอศกรีม​ยักษ์​บน​หลังคา​เป็นการ​ตกแต่ง​ขั้น​สุดท้าย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: มิ​ลค์เชค​ยักษ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: มิ​ลค์เชค​สูง​ตระหง่าน​ประดับ​หลังคา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: ใส่​ผล​ไม้​เข้าไป พา​ยุ​สมูท​ตี้​เย็น​เฉียบ​ก็​ออก​มา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: ไซโค​ลน​สมูท​ตี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: ปั่น​เร็ว​จน​หิมะ​ตกใน​ร้าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: เครื่อง​ปั่น​พายุ​หิมะ​ใน​ตำนาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: โคน​กร​อบๆ เด้ง​ออก​มา​ที​ละ​อัน​ไม่​หยุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: เครื่อง​ทำ​โคน​เทอร์โบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: โค​นวาฟเฟิล​สี​ทอง​ด้วย​ความเร็ว​ระดับ​สถิติ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: เตา​หล​อม​วาฟเฟิล​ใน​ตำนาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: สต​รอว์​เบอร์​รี​ถูก​หั่น​ก่อน​จะ​ทัน​กะพริบ​ตา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: เขียง​ผล​ไม้​ซามูไร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: ฟัน​ครั้ง​เดียว ได้​ท็อปปิง​เต็ม​ชาม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: ใบ​มีด​ผล​ไม้​ใน​ตำนาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: หิมะ​นุ่ม​ฟู​ใน​พริบ​ตา คว้า​ช้อน​เลย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: เครื่อง​ไส​น้ำ​แข็ง​พายุ​หิมะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: ภูเขาน้ำแข็ง​ไส​ใน​ลม​หายใจ​เดียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: เครื่อง​ไส​น้ำ​แข็ง​ธาร​น้ำ​แข็ง​ใน​ตำนาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: มิ​ลค์เชค​ข้นๆ ครีม​มี่​ใน​พริบ​ตา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: ทอร์นาโด​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: เขย่า​เร็ว​จน​หลอด​เริ่ม​เต้น​ระบำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: เครื่อง​ยนต์​เชค​ใน​ตำนาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: ผล​ไม้​สี​เขียว​เนื้อ​ครีม ทำ​สมูท​ตี้​เนียน​นุ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: อะ​โว​คา​โด​ชิ้น​นุ่ม พร้อม​ลง​เครื่อง​ปั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: สมูท​ตี้อะ​โว​คา​โด​สด​เนื้อ​เนียน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: กล้วย​หวาน​ธรรมชาติ​สี​เหลือง​สดใส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: กล้วย​หั่น​แว่น​หวาน ๆ พร้อม​ปั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: สมูท​ตี้​กล้วย​สุก​เข้ม​ข้น​หวาน​ละมุน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: ปั่น​ผล​ไม้​เป็น​สมูท​ตี้​เนื้อ​เนียน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: ผล​เบอร์​รี่​ลูก​เล็ก​รสชาติ​เข้ม​ข้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: สมูท​ตี้​บลูเบอร์รี่​สด​สี​ม่วง​สวย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: เชอ​ร์​รี่​แดง​เงา​วาว​ไว้​แต่ง​ด้าน​บน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: น้ำ​เชื่อม​แดง​หวาน​สำหรับ​น้ำ​แข็ง​ไส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: ไอศกรีม​ช็อกโกแลต​เข้ม​ข้น​สำหรับ​คน​รัก​โกโก้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: ไอศกรีม​ช็อกโกแลต​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: ซอส​ช็อกโกแลต​เงา​วาว​ราด​ด้าน​บน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: เปลือก​มี​ขน​ที่​ซ่อน​เนื้อ​หวาน​แบบ​เมือง​ร้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: เนื้อ​มะพร้าว​ขาว​หอม​กลิ่น​เมือง​ร้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: สมูท​ตี้​มะพร้าว​รสชาติ​เหมือน​อยู่​ริม​ทะเล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: แป้ง​หวาน​ที่​จะ​กลาย​เป็น​โคน​กรอบ ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: อบ​แป้ง​ให้​เป็น​โค​นวาฟเฟิล​กรอบ ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: หั่น​ผล​ไม้​สำหรับ​ท็อป​ปิ้ง​และ​สมูท​ตี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: ไอศกรีม​โคน​แต่ง​ตามใจ​ลูกค้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: ไอศกรีม​ถ้วย​ตา​มอ​อเด​อร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: มิ​ลค์เชค​เข้ม​ข้น​รส​โปรด​ของ​ลูกค้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: น้ำ​แข็ง​ไส​ฟู​นุ่ม​ราด​น้ำ​เชื่อม​ที่​เลือก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: สมูท​ตี้​ผล​ไม้​ปั่น​สด​ตา​มอ​อเด​อร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: ไอศกรีม​สี​ม่วง​รส​องุ่น​ฉ่ำ ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: ไอศกรีม​องุ่น​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: น้ำ​เชื่อม​ม่วง​หวาน​สำหรับ​น้ำ​แข็ง​ไส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: โย​เกิร์ต​ข้น​เปรี้ยว​นิด ๆ ทำให้​เนียน​ขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: น้ำ​เชื่อม​เขียว​เปรี้ยว​หวาน​กลิ่น​แอป​เปิ้ล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: น้ำ​แข็ง​ก้อน​ช่วย​ให้​ทุก​อย่าง​เย็น​ฉ่ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: ไส​น้ำ​แข็ง​ให้​ฟู​นุ่ม​เหมือน​หิมะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: ผล​ไม้​ผิว​ขน​นุ่ม เนื้อ​ใน​เขียว​สด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: กีวี​แว่น​สี​เขียว​มี​เมล็ด​จุด ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: น้ำ​เชื่อม​เหลือง​เปรี้ยว​สดชื่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: ไอศกรีม​สี​ทอง​หอม​มะม่วง​เมือง​ร้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: ไอศกรีม​มะม่วง​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: ไอศกรีม​ชา​เขียว​หวาน​ละมุน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: ไอศกรีม​ชา​เขียว​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: นม​สด​เย็น ๆ สำหรับ​เครื่อง​ดื่ม​เนื้อ​ครีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: ปั่น​ไอศกรีม​กับ​นม​จน​ข้น​ได้ที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: ส้ม​ฉ่ำ​น้ำ​รับ​แดด​เต็ม​ที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: ส้ม​หั่น​ชิ้น​สี​สด​พร้อม​ปั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: สมูท​ตี้​ส้ม​สด​เปรี้ยว​หวาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: คุกกี้​กรอบ ๆ ไว้​แต่ง​หน้า​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: บิ​สกิต​แท่ง​กรอบ​เคลือบ​ช็อกโกแลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: เยล​ลี่​ดุ๊​กดิ๊ก​หลาก​สี​สายรุ้ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: น้ำ​แข็ง​ป่น​นุ่ม​เหมือน​หิมะ รอ​ราด​น้ำ​เชื่อม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: เกล็ด​น้ำตาล​หลาก​สี​ให้​ด้าน​บน​ดู​สนุก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: สต​รอว์​เบอร์​รี่​หวาน​สวม​หมวก​ใบไม้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: ไอศกรีม​สี​ชม​พู​รส​สต​รอว์​เบอร์​รี่​แท้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: ไอ​ศก​รีม​สต​รอว์​เบอร์​รี่​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: สต​รอว์​เบอร์​รี่​หั่น​ฉ่ำ ๆ พร้อม​ปั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: สมูท​ตี้สต​รอว์​เบอร์​รี่​สด​สีชมพู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: ซอส​สีชมพู​หวาน ๆ ราด​ด้าน​บน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: ไอศกรีม​รส​คลาส​สิ​ก​ที่​ใคร ๆ ก็​รัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: ไอศกรีม​วา​นิล​ลา​พร้อม​ปั่น​เป็น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: โค​นวาฟเฟิล​สี​ทองกร​อบ ๆ ไว้​ใส่​ไอศกรีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: วิป​ครีม​หวาน​ฟู​นุ่ม​หนึ่ง​วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: เยล​ลี่​ก้อน​นุ่ม​หวาน​อ่อน ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: อะ​โว​คา​โด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: อะ​โว​คา​โด​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: สมูท​ตี้อะ​โว​คา​โด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: กล้วย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: กล้วย​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: สมูท​ตี้​กล้วย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: เครื่อง​ปั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: บลูเบอร์รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: สมูท​ตี้​บลูเบอร์รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: เชอ​ร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: น้ำ​เชื่อม​เชอ​ร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: ไอศกรีม​ช็อกโกแลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: มิ​ลค์เช​คช็​อก​โก​แลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: ซอส​ช็อกโกแลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: มะพร้าว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: เนื้อ​มะพร้าว​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: สมูท​ตี้​มะพร้าว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: แป้ง​โคน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: เครื่อง​ทำ​โคน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: เขียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: ไอศกรีม​โคน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: ไอศกรีม​ถ้วย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: น้ำ​แข็ง​ไส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: สมูท​ตี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: ไอศกรีม​องุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: มิ​ลค์เช​คอ​งุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: น้ำ​เชื่อม​องุ่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: กรีก​โย​เกิร์ต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: น้ำ​เชื่อม​แอป​เปิ้ล​เขียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: น้ำ​แข็ง​ก้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: เครื่อง​ไส​น้ำ​แข็ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: กีวี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: กีวี​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: น้ำ​เชื่อม​เลมอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: ไอศกรีม​มะม่วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: มิ​ลค์เช​คมะ​ม่วง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: ไอศกรีม​ชา​เขียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: มิ​ลค์เช​คชา​เขียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: นม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: เครื่อง​ปั่น​มิ​ลค์เชค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: ส้ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: ส้ม​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: สมูท​ตี้​ส้ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: คุกกี้​ช็อกโกแลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: บิ​สกิต​แท่ง​ช็อกโกแลต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: เยล​ลี่​สายรุ้ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: น้ำ​แข็ง​ป่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: เกล็ด​น้ำตาล​สี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: ไอ​ศก​รีม​สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: มิ​ลค์เชคสต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: สต​รอว์​เบอร์​รี่​หั่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: สมูท​ตี้สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: ซอส​สต​รอว์​เบอร์​รี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: ไอศกรีม​วา​นิล​ลา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: มิ​ลค์เช​ควานิ​ล​ลา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: โค​นวาฟเฟิล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: วิป​ครีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: เยล​ลี่​ขาว
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

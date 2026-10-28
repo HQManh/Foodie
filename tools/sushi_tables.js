@@ -1,0 +1,12 @@
+const fs=require('fs');
+const p='D:/Unity/Foodie/UnityProject/Assets/Scripts/Assembly-CSharp/AnhPD/FoodOrder/SushiPieceTable.cs';
+const raw=fs.readFileSync(p,'utf8'); const cr=raw.includes('\r\n')?'\r':'';
+let s=raw;
+const rep=(from,to)=>{ if(!s.includes(from)) throw new Error('nf '+from); s=s.replace(from,to); };
+rep('private static readonly SushiPiece[] Fishes;','// The tables below are filled by the static constructor from embedded data blobs; the values were read from the metadata (<PrivateImplementationDetails> field data).\r\n\t\tprivate static readonly SushiPiece[] Fishes = new SushiPiece[6]\r\n\t\t{\r\n\t\t\tSushiPiece.Tuna,\r\n\t\t\tSushiPiece.Salmon,\r\n\t\t\tSushiPiece.Hirame,\r\n\t\t\tSushiPiece.Mackerel,\r\n\t\t\tSushiPiece.Shrimp,\r\n\t\t\tSushiPiece.Octopus\r\n\t\t};'.replace(/\r\n/g, cr?'\r\n':'\n'));
+rep('private static readonly SushiPiece[] Mains;','private static readonly SushiPiece[] Mains = new SushiPiece[8]\r\n\t\t{\r\n\t\t\tSushiPiece.Tuna,\r\n\t\t\tSushiPiece.Salmon,\r\n\t\t\tSushiPiece.Hirame,\r\n\t\t\tSushiPiece.Mackerel,\r\n\t\t\tSushiPiece.Shrimp,\r\n\t\t\tSushiPiece.Octopus,\r\n\t\t\tSushiPiece.Avocado,\r\n\t\t\tSushiPiece.Egg\r\n\t\t};'.replace(/\r\n/g, cr?'\r\n':'\n'));
+rep('private static readonly SushiPiece[] CubeFoods;','// In the static constructor CubeFoods is assigned the same array as Mains.\r\n\t\tprivate static readonly SushiPiece[] CubeFoods = Mains;'.replace(/\r\n/g, cr?'\r\n':'\n'));
+rep('private static readonly SushiPiece[] Roes;','private static readonly SushiPiece[] Roes = new SushiPiece[3]\r\n\t\t{\r\n\t\t\tSushiPiece.RoeOrange,\r\n\t\t\tSushiPiece.RoeBlack,\r\n\t\t\tSushiPiece.RoeGreen\r\n\t\t};'.replace(/\r\n/g, cr?'\r\n':'\n'));
+rep('private static readonly SushiPiece[] Decors;','private static readonly SushiPiece[] Decors = new SushiPiece[3]\r\n\t\t{\r\n\t\t\tSushiPiece.Wasabi,\r\n\t\t\tSushiPiece.Lemon,\r\n\t\t\tSushiPiece.Shiso\r\n\t\t};'.replace(/\r\n/g, cr?'\r\n':'\n'));
+rep('private static readonly HashSet<SushiPiece> GunkanRollExcluded;','private static readonly HashSet<SushiPiece> GunkanRollExcluded = new HashSet<SushiPiece>\r\n\t\t{\r\n\t\t\tSushiPiece.Hirame,\r\n\t\t\tSushiPiece.Mackerel\r\n\t\t};'.replace(/\r\n/g, cr?'\r\n':'\n'));
+fs.writeFileSync(p,s); console.log('ok, cr='+JSON.stringify(cr));

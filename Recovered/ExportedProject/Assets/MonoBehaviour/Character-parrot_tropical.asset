@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1317516421, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Character-parrot_tropical
+  m_EditorClassIdentifier:
+  _id: parrot_tropical
+  _tempNameAlias: Sunny Parrot
+  _tempDescription: A sweet pet dressed in pastel swimwear, accessorized with a bitten-donut floatie and a gingham bandana.
+  _locTable: Map_icecream
+  characterGlobalIndex: 22
+  characterType: 0
+  map: {fileID: 11400000, guid: fdb6511876ba47b4db23b2017d40d70f, type: 2}
+  assetCharacterAnimControl:
+    m_AssetGUID: 77ff584064b5ce641b586b389e795a56
+    m_SubObjectName:
+    m_SubObjectType:
+  assetAvatarSpineUI:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:

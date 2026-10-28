@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 304953222, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
+  m_Name: PostProcessData
+  m_EditorClassIdentifier:
+  shaders:
+    stopNanPS: {fileID: 4800000, guid: e31e050ea403aad438416839e2d9b7b8, type: 3}
+    subpixelMorphologicalAntialiasingPS: {fileID: 4800000, guid: 303eed61264faff4cbb2b20353400079, type: 3}
+    gaussianDepthOfFieldPS: {fileID: 4800000, guid: e5a912d652a64384ab9d073bdc92a93a, type: 3}
+    bokehDepthOfFieldPS: {fileID: 4800000, guid: e2556d67f17e8f44c99a71f625508db4, type: 3}
+    cameraMotionBlurPS: {fileID: 4800000, guid: ebb2a0047a3ff2546a72ad3cd9dc7e9e, type: 3}
+    paniniProjectionPS: {fileID: 4800000, guid: d9ff23ae06a9e894fb8f17aaf47c5fb1, type: 3}
+    lutBuilderLdrPS: {fileID: 4800000, guid: 8189c5fa6b9c22042973215b280b9eaa, type: 3}
+    lutBuilderHdrPS: {fileID: 4800000, guid: e2346704e1ea5174ea33de02c64dad61, type: 3}
+    bloomPS: {fileID: 4800000, guid: fb4e17d2a68fa69438f429c45882a26b, type: 3}
+    temporalAntialiasingPS: {fileID: 4800000, guid: e4fbdb07b3c832446920c42a4e266cb1, type: 3}
+    LensFlareDataDrivenPS: {fileID: 4800000, guid: c26ff026a83ac99479a10a6d13b036a2, type: 3}
+    LensFlareScreenSpacePS: {fileID: 4800000, guid: 8c76d71456aefc04b84951e68ff841a1, type: 3}
+    scalingSetupPS: {fileID: 4800000, guid: fa850a3b556436646b4273da34b87d81, type: 3}
+    easuPS: {fileID: 4800000, guid: 48df47e98288e6b45ac454d9c2eb4046, type: 3}
+    uberPostPS: {fileID: 4800000, guid: 3eeb6127dfe241247b1639e5f7fc320f, type: 3}
+    finalPostPassPS: {fileID: 4800000, guid: 14691815bc90b0940b300ce43189018c, type: 3}
+    m_ShaderResourcesVersion: 0
+  textures:
+    blueNoise16LTex:
+    - {fileID: 2800000, guid: 9a89f4ad0e8bce4449c7702da23d52b6, type: 3}
+    - {fileID: 2800000, guid: 320ef14b3cfc13541a1a6908a6d24d05, type: 3}
+    - {fileID: 2800000, guid: 672f02773b6ffe14182ac34829a3b31a, type: 3}
+    - {fileID: 2800000, guid: 047019e5d698b4245a279486eb84898c, type: 3}
+    - {fileID: 2800000, guid: 7acba18898ee14a4099146846c0c6e45, type: 3}
+    - {fileID: 2800000, guid: ce95990bfe2a0114b9d7ae1610139813, type: 3}
+    - {fileID: 2800000, guid: 08cb78b91ccb3944b8f9b2338addb200, type: 3}
+    - {fileID: 2800000, guid: 58d95a382a8d25c469dd71bfec7977f1, type: 3}
+    - {fileID: 2800000, guid: 67864b26cfe045b469266b547cca1d98, type: 3}
+    - {fileID: 2800000, guid: 0967b71cc31de6b47849f1ceeae4193e, type: 3}
+    - {fileID: 2800000, guid: bf5e9460c7239a147accd13f21c8095d, type: 3}
+    - {fileID: 2800000, guid: cae681335f24bfb4d8595e73e32da0f9, type: 3}
+    - {fileID: 2800000, guid: c52de27c3a217fc49af9c43dba5d3a06, type: 3}
+    - {fileID: 2800000, guid: 622ad601554571a49b1e9cbead470a35, type: 3}
+    - {fileID: 2800000, guid: 39a0a95962d7c1e4e80e977473551c18, type: 3}
+    - {fileID: 2800000, guid: 5ab27705ae677f64690ebc60fe864395, type: 3}
+    - {fileID: 2800000, guid: de67fd07de114f54e92a582d2ae5924d, type: 3}
+    - {fileID: 2800000, guid: 04ea70d8a58a0254aa6c0c00adfb23b6, type: 3}
+    - {fileID: 2800000, guid: b64e114846c2e6d4c98a461d451f9d47, type: 3}
+    - {fileID: 2800000, guid: a6b2a5bed3a5d18469708b6680803602, type: 3}
+    - {fileID: 2800000, guid: e6a5915b21c863c4da8f5ed481949bc7, type: 3}
+    - {fileID: 2800000, guid: ef51e30a5208702418e1fc3ffc79f9b2, type: 3}
+    - {fileID: 2800000, guid: dbce67e79c9b7d749aab9640455079fd, type: 3}
+    - {fileID: 2800000, guid: 064c997d80166cf4ba5ac5e5da176e75, type: 3}
+    - {fileID: 2800000, guid: 45afdf90c2cee044d8b5d8a07a6f3516, type: 3}
+    - {fileID: 2800000, guid: c238fb37da16fd0469a6357a276eb37c, type: 3}
+    - {fileID: 2800000, guid: 91f1ff759beeb4646bb5ef23d63bfa87, type: 3}
+    - {fileID: 2800000, guid: b9fe07e12810fe24c8dbe72c91ad1bf4, type: 3}
+    - {fileID: 2800000, guid: f6cbc15bcfbe8f9419e46ea988c275fa, type: 3}
+    - {fileID: 2800000, guid: 1612d59962933cb4db107f097ac3b906, type: 3}
+    - {fileID: 2800000, guid: 1e942b2939d6d404982f789aedf343b4, type: 3}
+    - {fileID: 2800000, guid: cef78f8e0e6611249b063b95e00d7521, type: 3}
+    filmGrainTex:
+    - {fileID: 2800000, guid: 5e34007bed262f4469b9767632a5e9f0, type: 3}
+    - {fileID: 2800000, guid: a07ba35b220aba64ea3c0b11bed3f80d, type: 3}
+    - {fileID: 2800000, guid: e8efecd7844f4cf43b827b3257f7943d, type: 3}
+    - {fileID: 2800000, guid: b983d746f3287b040968e13260b04356, type: 3}
+    - {fileID: 2800000, guid: 7deb3d9e268dd5a46b977d47d199b062, type: 3}
+    - {fileID: 2800000, guid: 5fd9e2f072e5889488507dbd554997da, type: 3}
+    - {fileID: 2800000, guid: 4abafda14449f614da5077e4e32a9f0d, type: 3}
+    - {fileID: 2800000, guid: 3232408c9d1139948bc57cf438596d76, type: 3}
+    - {fileID: 2800000, guid: 42cb8529a0a7eee4d9fb02e1cef0fb4d, type: 3}
+    - {fileID: 2800000, guid: 11c377c973be1b541b805958b16c21f2, type: 3}
+    smaaAreaTex: {fileID: 2800000, guid: 858411c92c9521848816ba390751b686, type: 3}
+    smaaSearchTex: {fileID: 2800000, guid: 7da23e7321f584c48883af20b477825d, type: 3}
+    m_TexturesResourcesVersion: 0

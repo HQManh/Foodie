@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b03c66f3f9f1e9b9037789af377366, type: 3}
+  m_Name: TutorialSequence-pickup
+  m_EditorClassIdentifier:
+  tutId: pickup
+  steps:
+  - rid: 1196765971750584746
+  references:
+    version: 2
+    RefIds:
+    - rid: 1196765971750584746
+      type: {class: TutorialStepTap, ns: AnhPD.FoodOrder, asm: Assembly-CSharp}
+      data:
+        focus:
+          enabled: 1
+          size: {x: 2, y: 2}
+          offset: {x: 0, y: 0}
+          shrinkDuration: 0.35
+          follow: 1
+        target:
+          kind: 6
+          id: cup
+        showHand: 1
+        talkLine:
+        talkLineKey:
+        talkStyle: 1

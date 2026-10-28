@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1531286736, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: soup
+  m_EditorClassIdentifier:
+  nodeName: soup
+  displayName: Soup
+  emoji: 🍲
+  sprite: {fileID: 0}
+  orderable: 1
+  toppingRequired: 0
+  preMerge: 0
+  ordering: 0
+  processedFrom: {fileID: 0}
+  processId:
+  combinationRulesJson: '{"containers":[{"composite":"soup","localImage":"Map6-sanwich/Tools/Icon_Plate_DoneFood.webp","sortOrder":-100,"pos":{"x":0,"y":0},"scale":{"x":0.94,"y":0.94},"rot":0}],"combinations":[{"id":"stack-soup-tomato-soup","composite":"soup","base":"tomato-soup","mode":"stacked","baseTransform":{"pos":{"x":0,"y":-4},"scale":{"x":0.72,"y":0.72},"rot":0},"toppings":[{"item":"toasted-sandwich-bread","sortOrder":1,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp"},{"item":"parsley","sortOrder":2,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.26,"y":0.26},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp"},{"item":"sweet-corn","sortOrder":3,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp"},{"item":"whipped-cream","sortOrder":4,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp"}]},{"id":"stack-soup-pumpkin-soup","composite":"soup","base":"pumpkin-soup","mode":"stacked","baseTransform":{"pos":{"x":0,"y":-4},"scale":{"x":0.72,"y":0.72},"rot":0},"toppings":[{"item":"toasted-sandwich-bread","sortOrder":1,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp"},{"item":"parsley","sortOrder":2,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.26,"y":0.26},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp"},{"item":"sweet-corn","sortOrder":3,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp"},{"item":"whipped-cream","sortOrder":4,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp"}]},{"id":"stack-soup-mushroom-soup","composite":"soup","base":"mushroom-soup","mode":"stacked","baseTransform":{"pos":{"x":0,"y":-4},"scale":{"x":0.72,"y":0.72},"rot":0},"toppings":[{"item":"toasted-sandwich-bread","sortOrder":1,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Bread.webp"},{"item":"parsley","sortOrder":2,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.26,"y":0.26},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Parsley.webp"},{"item":"sweet-corn","sortOrder":3,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Corn.webp"},{"item":"whipped-cream","sortOrder":4,"pos":{"x":0,"y":-4},"rot":0,"scale":{"x":0.63,"y":0.63},"localImage":"Map6-sanwich/Ingredients/Done Food/Soup/Icon_Soup_Milk.webp"}]}]}'
+  customerSpaceHeight: Half
+  mergeDuration: 0.5

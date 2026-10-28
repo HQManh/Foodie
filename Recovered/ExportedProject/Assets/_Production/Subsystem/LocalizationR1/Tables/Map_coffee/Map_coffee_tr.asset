@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_coffee_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 2792ae1db3f1fd44c88392405a58a65e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57788163153920
+    m_Localized: Çünkü her donut bir kutlamayı hak eder. Havada uçuşan şeker havası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514048
+    m_Localized: Tatlı bir şeyin başlangıcı. Sadece un, su ve bolca hırs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514049
+    m_Localized: Daha çok glazür, daha çok alan. Hamuru kabartıp çatıyı yükseltiyoruz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514050
+    m_Localized: Sert bir kahveyi devrilen bir ağaçtan hızlı fark eder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514051
+    m_Localized: Kahveyi kanat hızıyla getirir, tek bir tüyünü bile kirletmez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514052
+    m_Localized: Köpük sanatını ciddi iş sayan şık bir kafe patronu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514053
+    m_Localized: Arkana yaslan, rahatla ve şeker komasının yavaşça gelmesine izin ver.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514054
+    m_Localized: Küçük çekirdek, herkesi uyandırmak için büyük planlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514055
+    m_Localized: Hayatın öğüttüğü çekirdekler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514056
+    m_Localized: Kafe kurallarını çiğner, sert kavrulmuş kahve içer ve asla alçak sesle möölemez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514057
+    m_Localized: Her zaman durumun hakkını veren kabarık bulutlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514058
+    m_Localized: Zengin, kakao dolu karanlık bir yüzü olan krema.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514059
+    m_Localized: Soğukkanlılığını koruyan boş bir bardak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514060
+    m_Localized: Soğuk bir tavırla servis edilen kahve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514061
+    m_Localized: Hava atmak için süslenmiş buzlu kahve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514062
+    m_Localized: Şimdilik boş ama sıcağa dayanır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514063
+    m_Localized: Güçlü karakterli, dumanı tüten bir kahve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514064
+    m_Localized: Kahve ile sütün sonunda aşklarını itiraf ettiği yer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514065
+    m_Localized: Kabından hiç büyüyemeyen minik bir kek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514066
+    m_Localized: Tatlı süslemeleriyle hava atan bir cupcake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514067
+    m_Localized: Hamur hazır, bu kekin fırına girmesi lazım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514068
+    m_Localized: Asla yavaşlamayan müşteriler için buzun üzerine dökülür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514069
+    m_Localized: Köpük inmeden buharlanır, dökülür ve servis edilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514070
+    m_Localized: Bilerek fazlasıyla krema sürülmüş minik bir kek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514071
+    m_Localized: Yeni batırıldı, glazür hâlâ nereye damlayacağına karar veriyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514072
+    m_Localized: Deliği kadar büyük bir çekiciliğe sahip tatlı halka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514073
+    m_Localized: Büyük yıldız olmayı bekleyen bir hamur halkası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514074
+    m_Localized: Donutlar için çıtayı yükselten bir hamur çubuğu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514075
+    m_Localized: Hiç yenilenmesi gerekmeyen hamur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514076
+    m_Localized: Kartal gözleri ve rozet şeklinde bir kurabiyeyle kafede düzeni sağlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514077
+    m_Localized: Biraz hüzünlü ama tadı harika minik bir meyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514078
+    m_Localized: Dışı tüylü, içi pırıl pırıl yeşil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514079
+    m_Localized: Boyutuna göre doğranmış kivi, hâlâ pırıl pırıl yeşil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514080
+    m_Localized: Altın tavırlı tropik bir tatlılık.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514081
+    m_Localized: Üstüne konmaya hazır ananas dilimleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514082
+    m_Localized: Kırmızı, olgun ve karşı konulmaz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514083
+    m_Localized: İncecik dilimler, maksimum çekicilik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514084
+    m_Localized: Havalı mavilere bürünmüş parlak bir kaplama.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514085
+    m_Localized: Kahverengi, parlak ve pişmanlık duymadan çikolata tutkunu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514086
+    m_Localized: Pembesiyle güzel, her lokmada tatlı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514087
+    m_Localized: Gizli bir vanilya derinliğine sahip sade beyaz glazür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514088
+    m_Localized: Her içeceği serin tutan buz küpleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514089
+    m_Localized: Dünyaya kremanın nerede olduğunu duyur. Glazürlü ve gururlu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514090
+    m_Localized: Sattığımız her şeyin listesi. Çoğunlukla donut. Tamam, sadece donut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514091
+    m_Localized: Acı kahve için kremsi beyaz bir barış elçisi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514092
+    m_Localized: Yapay glazürü dengelemek için gerçek yeşillik. Doğanın kendi şeker süsü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514093
+    m_Localized: Şekere biraz düzen katalım. Bu saksılar işini ciddiye alıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514094
+    m_Localized: Çatıdaki donut o kadar büyük ki kuşlar bile bakınca şeker komasına giriyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514095
+    m_Localized: Çatıdaki başyapıta ekstra şeker süsü. Glazür yetmez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514096
+    m_Localized: Şık bir kokuyla gelir ve her kahve molasını galaya çevirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514097
+    m_Localized: Her yere neşe serpen minik renkli parçacıklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514098
+    m_Localized: Acil durum palamutları taşır ve her latteyi köpüğüne göre değerlendirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514099
+    m_Localized: Bir düzine şeker süsü yerken bacak sallamak için ideal yükseklik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514100
+    m_Localized: Çatıdaki başyapıta ekstra şeker süsü. Glazür yetmez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514101
+    m_Localized: Nasılsa yapraklarla ve tam para ödeyen neşeli bir düzenbaz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514102
+    m_Localized: Meyveleri pürüzsüz bir teslimiyete çevirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514103
+    m_Localized: Meyvelerin hayattan bir dilim aldığı yer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514104
+    m_Localized: Çekirdekleri sıvı sabah motivasyonuna dönüştürür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514105
+    m_Localized: Hamuru altın rengi kek mutluluğuna dönüştürür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514106
+    m_Localized: Hamuru tava-muhteşem olana dek kızartır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514107
+    m_Localized: Parti Balonları
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514108
+    m_Localized: Tatlı Genişleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514109
+    m_Localized: Demci Kunduz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514110
+    m_Localized: Yeşil Kanat Kuş Kurye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514111
+    m_Localized: Baron Bizon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514112
+    m_Localized: Rahat Sandalyeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514113
+    m_Localized: Kahve Çekirdeği
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514114
+    m_Localized: Öğütülmüş Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514115
+    m_Localized: Mocha Mö Asi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514116
+    m_Localized: Krem Şanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514117
+    m_Localized: Çikolatalı Krema
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514118
+    m_Localized: Soğuk Bardak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514119
+    m_Localized: Buzlu Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514120
+    m_Localized: Şık Buzlu Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514121
+    m_Localized: Sıcak Bardak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514122
+    m_Localized: Sıcak Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514123
+    m_Localized: Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514124
+    m_Localized: Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514125
+    m_Localized: Lüks Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514126
+    m_Localized: Çiğ Cupcake Hamuru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514127
+    m_Localized: Buzlu Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514128
+    m_Localized: Sıcak Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514129
+    m_Localized: Kremalı Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514130
+    m_Localized: Glazürlü Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514131
+    m_Localized: Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514132
+    m_Localized: Donut Hamuru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514133
+    m_Localized: Hamur Çubuğu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514134
+    m_Localized: Sonsuz Hamur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514135
+    m_Localized: Şef Kartal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514136
+    m_Localized: Yaban Mersini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514137
+    m_Localized: Kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514138
+    m_Localized: Dilim Kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514139
+    m_Localized: Ananas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514140
+    m_Localized: Dilim Ananas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514141
+    m_Localized: Çilek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514142
+    m_Localized: Dilim Çilek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514143
+    m_Localized: Mavi Glazür
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514144
+    m_Localized: Çikolata Glazür
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514145
+    m_Localized: Pembe Glazür
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514146
+    m_Localized: Vanilya Glazür
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514147
+    m_Localized: Buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514148
+    m_Localized: Dükkân Tabelası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514149
+    m_Localized: Lezzet Panosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514150
+    m_Localized: Süt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514151
+    m_Localized: Pastane Bitkileri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514152
+    m_Localized: Dekoratif Saksılar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514153
+    m_Localized: Dev Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514154
+    m_Localized: Donut Süsleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514155
+    m_Localized: Koku-muhteşem Kokarca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514156
+    m_Localized: Şeker Süsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514157
+    m_Localized: Fındık Sincap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514158
+    m_Localized: Rahat Tabureler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514159
+    m_Localized: Masa Süsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514160
+    m_Localized: Tobi Tanuki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514161
+    m_Localized: Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514162
+    m_Localized: Kesme Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514163
+    m_Localized: Kahve Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514164
+    m_Localized: Fırın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57788192514165
+    m_Localized: Tava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518569705472
+    m_Localized: Meyveler birkaç saniyede pürüzsüzlüğe teslim olur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259904
+    m_Localized: Meyveli bir kasırga. Kapak kullanmanız şiddetle tavsiye edilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259905
+    m_Localized: Hayattan bir dilim, sadece daha hızlı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259906
+    m_Localized: Çilekler düşünürken dilimleniyor. Kiviler titriyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259907
+    m_Localized: Sabah motivasyonu, daha da hızlı demleniyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259908
+    m_Localized: O kadar hızlı demler ki müşteriler yudumlamadan uyanır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259909
+    m_Localized: Altın sarısı mutluluğu anında pişirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259910
+    m_Localized: Cupcake'ler şimşek hızıyla kabarır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259911
+    m_Localized: Hamur çok daha çabuk altın rengi olur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259912
+    m_Localized: Donutlar kaotik bir hızla kızarır. Tam bir tava-demonyum!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259913
+    m_Localized: Turbo Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259914
+    m_Localized: Smoothie Kasırgası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518603259915
+    m_Localized: Çevik Dilimleyici
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454208
+    m_Localized: Meyve Ninja Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454209
+    m_Localized: Hızlı Demleme Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454210
+    m_Localized: Barista Roketi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454211
+    m_Localized: Hot Shot Fırın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454212
+    m_Localized: Alev Fırın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454213
+    m_Localized: Hızlı Tava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010518607454214
+    m_Localized: Tava-demonyum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069150969683968
+    m_Localized: Meyve giriyor, smoothie fırtınası çıkıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541568
+    m_Localized: Smoothie Kasırgası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541569
+    m_Localized: O kadar hızlı karıştırıyor ki zamanı büküyor. Beyin donması dahil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541570
+    m_Localized: Galaksi Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541571
+    m_Localized: Kiviler yuvarlanıp kaçamadan dilimleniyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151074541572
+    m_Localized: Samuray Meyve Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735872
+    m_Localized: Tek vuruş, koca bir meyve salatası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735873
+    m_Localized: Efsanevi Meyve Bıçağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151078735874
+    m_Localized: Jet hızında kahve. Kupana sıkı tutun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318784
+    m_Localized: Espresso Jeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318785
+    m_Localized: Göz kırpmayı bitirmeden mükemmel bir fincan demliyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318786
+    m_Localized: Efsanevi Demleme Motoru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318787
+    m_Localized: Kekler bir anda pişiyor. Cennet gibi kokuyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318788
+    m_Localized: Cehennem Fırını
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151091318789
+    m_Localized: Bir yıldız kadar sıcak. Hamur işleri parıl parıl çıkıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513088
+    m_Localized: Efsanevi Yıldız Fırını
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513089
+    m_Localized: Donutlar heyecandan kendi kendine dönüyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513090
+    m_Localized: Tava-stik Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513091
+    m_Localized: Rekor hızda altın halkalar. Saf donut büyüsü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069151095513092
+    m_Localized: Efsanevi Donut Tavası
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

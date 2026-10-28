@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1531286736, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: fruit-sandwich-cream
+  m_EditorClassIdentifier:
+  nodeName: fruit-sandwich-cream
+  displayName: Fruit Sandwich Cream
+  emoji: 🍞
+  sprite: {fileID: 0}
+  orderable: 0
+  toppingRequired: 1
+  preMerge: 0
+  ordering: 0
+  processedFrom: {fileID: 0}
+  processId:
+  combinationRulesJson: '{"containers":[],"combinations":[{"id":"blend-bread-cream","composite":"fruit-sandwich-cream","base":"bread-triangle","mode":"blended","topping":"whipped-cream","result":{"localImage":"Map6-sanwich/Combinations/fruit-bread-cream.webp","pos":{"x":0,"y":0},"scale":{"x":0.83,"y":0.83},"rot":0}},{"id":"stack-fruit-sandwich-cream-bread-triangle","composite":"fruit-sandwich-cream","base":"bread-triangle","mode":"stacked","baseTransform":{"pos":{"x":0,"y":0},"scale":{"x":0.83,"y":0.83},"rot":0},"toppings":[{"item":"whipped-cream","sortOrder":1,"pos":{"x":0,"y":0},"rot":0,"scale":{"x":0.64,"y":0.64},"localImage":"Map6-sanwich/Ingredients/Done Food/FruitSanwich/Icon_FruitSanwich_WhippingCream.webp"}]}]}'
+  customerSpaceHeight: Half
+  mergeDuration: 0.5

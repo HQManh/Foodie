@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_ko-KR
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko-KR
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: 시작 버거 가판대. 처음부터 보유하고 있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: 앞면이 더 넓고 장식할 공간이 많은 완전한 버거 하우스.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: 꿀처럼 달콤하고, 감자튀김이 오면 두 배로 포근해져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: 완벽하게 구워진, 참 잘 익은 패티.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: 덜 익은 날것 상태로 그리들 위에 오를 날만 기다려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: 문 옆에 세워진 작은 메뉴판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: 가게 앞에 선 큰 광고판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: 층층이 쌓여 완전 신나는 중.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: 재료를 노릇노릇 바삭하게 구워요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: 톡 쏘는 콜라를 따라요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: 재료를 조각조각 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: 강철 같은 탄탄함을 자랑하는 구운 번.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: 드디어 마음을 연 번.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: 아직 빈둥거리는 폭신한 번.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: 재료가 나오는 곳이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: 지붕 위에 설치된 레스토랑 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: 서두르기엔 너무 쿨하고, 늘 완벽한 타이밍의 그르렁 소리와 함께 주문해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: 작은 발, 큰 식욕, 치즈 추가엔 전혀 부끄러움이 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: 갈아질 잠재력이 가득한 유제품 한 덩이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: 마음까지 녹일 준비가 된 슬라이스 치즈.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: 모든 걸 근사하게 만드는 녹은 황금.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: 밀가루 옷을 입고 바삭한 데뷔를 준비하는 가슴살.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: 평범하고 창백한 채로 화려한 튀김을 기다리는 중.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: 겉바속촉, 손가락까지 쪽쪽 빨게 되는 맛.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: 밀가루 갑옷을 입은 작은 너겟.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: 작은 한입 크기로 튀김기를 꿈꿔요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: 밀가루 코트를 입은 통통한 다리살, 준비 완료.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: 가장 촉촉한 부위, 아직 잠재력을 숨기고 있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: 날기도 전에 튀김옷을 입은 날개.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: 아직 바삭함이라고는 없는 날개.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: 열기를 몰고 오는 빨간 가루, 차분함은 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: 양파를 살짝 부러워하는 초록 줄기.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: 바삭한 축제를 위한 작은 초록 꽃가루.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: 삶의 목적에 목마른 빈 컵.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: 설렘으로 보글보글 끓어오르는 검은 탄산음료.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: 얼음 콜라, 쌀쌀맞은 태도와 함께 제공돼요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: 주문 즉시 쌓아 올린 버거, 번이 무너지기 전에 먹는 게 최고.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: 얼음처럼 차가운 탄산이 버거 한 입을 더 신나게 해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: 겉은 황금빛, 속은 촉촉, 네 입이면 끝.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: 뜨겁고 짭짤해서 공평하게 나누기란 불가능해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: 버거마다 꼬리를 흔들며 보물처럼 아끼는 충성스러운 꼬마 손님.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: 여려서 압박을 받으면 금이 가요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: 서니 사이드 업, 에그-스트라 명랑해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: 음식을 노릇노릇 바삭하게 튀겨요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: 재료에 튀김옷을 입혀요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: 쿨하게 살기로 결심한 물.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: 바삭한 건 다 담은, 꼬꼬댁 황홀한 한 상.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: 아삭한 초록 잎, 이제 상추작해 볼까요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: 드디어 통에서 떠나온 채 썬 잎채소.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: 머리가 아주 차분한 양상추 한 통.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: 왼쪽을 따라 걸린 줄 조명.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: 지붕 위에 설치된 레스토랑 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: 점심 러시를 이사회처럼 지휘하고 최고급 피클을 요구해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: 입구 옆에 놓인 화분.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: 감자튀김 스타를 꿈꾸는 소박한 감자.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: 막대 모양으로 썰려, 이제 감자튀김 예비생.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: 소금 논쟁을 일으킬 만큼 뜨거운 황금 감자튀김.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: 치즈에 파묻힌 감자튀김, 후회 따윈 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: 배고프게 깡충 들어와 양 볼에 빵가루를 묻히고 나가요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: 동네에서 가장 빠른 빨간 꼬리 배달부, 누가 감자튀김을 떨어뜨리지만 않는다면요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: 보라색에 톡 쏘지만 사실은 감성적이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: 셰프를 울게 만든 링 슬라이스.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: 지붕 위에 올려진 거대한 버거 조형물.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: 건물 오른쪽에 매달린 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: 건물 오른쪽에 매달린 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: 둥글고 빨갛고, 엄밀히 말하면 과일.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: 더 이상 케첩할 것 없는 촉촉한 슬라이스.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: 지붕 가장자리로 늘어진 덩굴.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: 더 큰 건물
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: 꿀 포옹 곰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: 소고기 패티
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: 생 소고기 패티
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: 작은 메뉴판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: 큰 메뉴판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: 버거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: 그리들
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: 콜라 기계
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: 식칼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: 버거 번
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: 자른 번
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: 번
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: 쟁반
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: 차양
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: 쿨캣 클라이드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: 키티 컵케이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: 치즈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: 슬라이스 치즈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: 치즈 소스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: 튀김옷 닭가슴살
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: 생 닭가슴살
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: 프라이드치킨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: 튀김옷 너겟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: 생 너겟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: 튀김옷 닭다리살
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: 생 닭다리살
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: 튀김옷 닭날개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: 생 닭날개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: 고춧가루
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: 차이브
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: 다진 차이브
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: 컵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: 콜라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: 아이스 콜라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: 클래식 버거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: 톡톡 콜라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: 바삭 치킨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: 황금 감자튀김
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: 멍멍 베니
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: 달걀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: 달걀프라이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: 튀김기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: 밀가루 그릇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: 얼음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: 치킨 콤보
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: 양상추
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: 썬 양상추
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: 양상추 한 통
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: 조명
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: 로고 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: 호그스워스 사장
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: 화분
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: 감자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: 썬 감자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: 감자튀김
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: 치즈 감자튀김
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: 깡총 벨라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: 빨간 쥐 배달부
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: 적양파
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: 썬 적양파
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: 거대 버거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: 매달린 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: 기둥 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: 토마토
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: 썬 토마토
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: 덩굴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: 상추가 얼굴 붉히기도 전에 채소를 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: 썰고, 깍둑 썰고, 끝! 양파는 상대가 안 됐어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: 톡 쏘는 콜라를 거품까지 순식간에 따라요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: 탄산 가득! 탄산음료와 기쁨의 분수예요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: 닭고기에 가루를 초고속으로 입혀요. 지저분해도 맛있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: 밀가루 눈보라! 너깃마다 포근한 이불을 덮어줘요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: 황금빛 감자튀김을 최단 시간에. 바삭함 보장!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: 한층 더 바삭해졌어요! 감자튀김이 자랑스럽게 빛나요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: 패티가 더 빨리 지글지글! 배꼽시계도 더 크게 울려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: 너무 뜨거워서 버거도 뒤집어져요. 말 그대로!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: 스피디 칼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: 닌자 칼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: 톡톡 속도 머신
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: 콜라 간헐천
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: 스피디 튀김옷 그릇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: 밀가루 대소동 그릇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: 바삭 튀김기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: 황금 튀김기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: 지글지글 철판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: 메가 지글 철판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: 양상추가 떨어지기도 전에 채 썰려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: 사무라이 다지기 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: 공기마저 썰어버리는 날카로움! 토마토도 경례해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: 전설의 칼날 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: 탄산이 폭발해요. 컵이 저절로 채워져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: 콜라 화산
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: 영원한 거품! 갈증은 이길 수 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: 무한 탄산 분수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: '''바삭''이라고 말하기도 전에 너깃에 옷이 입혀져요.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: 밀가루 눈보라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: 너깃마다 왕족처럼 차려입고 나와요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: 황금 가루 그릇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: 감자튀김이 창백하게 들어가 황금빛으로 튀어나와요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: 터보 튀김기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: 빛의 속도로 바삭바삭!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: 전설의 튀김 원자로
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: 패티가 눈 깜짝할 새 익어요. 눈썹 조심!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: 화산 철판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: 태양처럼 뜨겁고 로켓처럼 빨라요. 버거 천국!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: 전설의 태양 철판
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

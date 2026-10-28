@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57003247, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: DefaultExecutionProfile
+  m_EditorClassIdentifier:
+  waveStartDelay: 0.5
+  initialWaveDelay: 0
+  delayGridWaves: 1
+  delayToolWaves: 1
+  delayPickWaves: 0
+  pickResetsWaveDelay: 1
+  overridePickResetDelay: 0
+  pickResetDelay: 0.5
+  mergeMemberStagger: 0.05
+  staggerGridMembers: 1
+  staggerToolMembers: 1
+  staggerPickMembers: 1
+  staggerQueueItems: 1
+  queueItemStagger: 0.024
+  instantTravel: 0
+  flightTimeoutSeconds: 10
+  maxSessionStepSeconds: 0.1
+  acceptArrivalsWhilePaused: 1
+  prioritizeMergeSelection: 0
+  prioritizeProcessSelection: 0
+  servingMode: 0
+  directServeBaseOnly: 1
+  queueHoldBlocksLane: 1
+  atomicReplan: 1
+  forceOnDemand: 0
+  maxActiveCustomers: 2
+  customerSpaceWidth: 6
+  customerAvatarWidth: 0.5
+  customerDishColumnWidth: 1
+  customerHalfDishesPerColumn: 2
+  customerPreviewCount: 3
+  weatherPatienceMultiplier: 0.5
+  defaultStaffClearCount: 1
+  defaultDirtyStackLimit: 5
+  saveMeBagCapacity: 5
+  saveMeShuffleDepth: 3

@@ -1,0 +1,1295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: YENİ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Maks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}g {1}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}dk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}s {1}dk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: ÖDÜL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: SATIN ALINDI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Ödül Alındı!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: Tamam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Sv. {0} -> Sv. {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: '{0}. Gün'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: '{0}. günün başında açılır'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Çok Yakında
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Bu özellik çok yakında geliyor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Mağaza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Ana Sayfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restoranlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Başarımlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Bu harita kilitli. Açmak için önceki haritaları tamamla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Bu gün kilitli. Açmak için önceki günleri tamamla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: '{0}-{1}. Gün'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Kilidi açmak için önceki restoranın {0}. gününü geç.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Zor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Çok Zor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Bu harita gelecek bir güncellemeyle gelecek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Servis edilen: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Restoranını yükseltmeyi dene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Satın alabileceğin eşyalar burada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Dün kazandığın altınlarla bir şeyi yükseltelim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Şimdi alet yükseltme sekmesine gidelim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Bu ızgarayı yükseltmeyi dene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Tost makinesini yükselttiğine göre, geri dönüp güne başlayalım!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Şimdi güne başlayalım!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Bu güçlendiriciyi kullanmayı dene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Pişirirken özel bir duruma girme şansın var!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Başarıyla servis yaptığın her müşteriyle bu çubuk dolar! {0} müşteriye daha servis yapmayı dene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Başarıyla servis ettiğin her yemekle bu çubuk dolar! {0} yemek daha servis etmeyi dene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Harika! Lezzet Patlaması'nda süper verimli pişirirsin. İyi eğlenceler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: İnşa etmek için yeterli altın yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Sv. MAKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Sv. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: Yeterli {0} yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Zaten maksimum seviyede
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} kez'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: x{0} Al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Güçlendirici {0}. günde kullanılabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: '{1} dakika boyunca x{0} hız etkinleştirilsin mi?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Alındı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Reklamlar kaldırıldı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Güçlendirici Adı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: +{0} XXX eklemek için beni kurtar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Otomatik Pişirme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Malzemeleri otomatik toplar ve bir yemek hazırlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Süpürge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Masadaki kirli bir yığını kaldır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Maşa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Dilediğin bir malzeme tabağını seç.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Daha fazla yuva mı lazım?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Yemekleri koymak için daha fazla yuva aç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Karıştır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Malzeme sıralarını değiştir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: x2 Hız
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: x2 hızla daha hızlı pişir ve servis et!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: '{0} kalp yenilensin mi?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Malzemeleri karıştırmayı dene?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: 5 malzemeyi bir torbaya koyalım mı?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Müşteri bekleme süresini doldur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Veri Çakışması
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Yükleniyor...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Yükleniyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Restoran Seviye Atladı!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Devam etmek için dokun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Patron titizdir ve sabrı çabuk tükenir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Kendi fast food restoranın için tebrikler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Hadi işe başlayalım!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Sulu bir burger istiyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Kullanmak istediğin malzemeye dokun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Görünümü değiştirmek için müşterinin siparişine dokun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Kurye, süre dolmadan birden fazla sipariş alır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Bulutu Kullan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Yereli Kullan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Ödüllerin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: '{0} yuvayı boşaltıp yemek yapmaya devam edilsin mi?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Oyunu beğendin mi?\nBir yorum bırak!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: OYUNU DEĞERLENDİR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Hımm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Lezzetli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Çok güzel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Bayıldım
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Bir tane daha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Şahane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Parmak yedirten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Muhteşem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Ellerine sağlık
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Başyapıt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Ekstra günlerin kilidini açmak için {1} içinde {0} tamamla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: İnternet bağlantısı gerekli!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Reklam henüz hazır değil, lütfen tekrar dene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: İsim en az {0} karakter olmalı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: İsim en fazla {0} karakter olabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: İsimde yalnızca harf, rakam, boşluk ve _ kullanılabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: '{0} sonra tekrar gel!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Önce ücretsiz ödülü al!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Önce önceki ödülü al!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: Tamam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: '{0}. GÜNDE AÇILIR'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Suşi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Harika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Ekstra Gün
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Kilitli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: MUTFAK DÜKKÂNI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: ALET YÜKSELTİLDİ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} artık daha hızlı'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} artık azami hızda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Ekstra Günlerin Kilidini Aç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Haberler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Restoranların için yeni yükseltme parçaları geldi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} için yeni ekstra günler var!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Yükseltme fiyatları ayarlandı. Fazla ödediğin altın iade edildi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Bizi Değerlendir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Aktif Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Aktif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Takım zaten var!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Takım dolu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Takım boş değil!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Takım mevcut değil!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Lider ayrılamaz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: İzin Yok!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Sunucu Hatası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Kullanıcı takıma katıldı!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: Kullanıcı kısa süre önce ayrıldı!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: Kullanıcı takımda değil!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: İSTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Bonus Bankası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Bankanda altın biriktirmek için günleri tamamla ve etkinlik sonunda geri al!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Aşamaların sonunda <color=yellow>Bonus Bankasının</color> kilidini açmak için <color=yellow>Paketleme Biletini</color> aktif et!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Sohbet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Seç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Çok yakında!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Onayla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Tebrikler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Devam Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Kopyalandı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Ülke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Oluştur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Takımını oluştur ve yönet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Sil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Açıklama:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Rüya Serisi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Daha fazla ödül için günleri hatasız geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Günleri kaybetmeden geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Puan çarpanını artır!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: İnanılmaz Ödüller Kazan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Her hata çarpanını sıfırlar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Rüya Gibi Kule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Günleri art arda geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Ayağa Kalkın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Her başarısızlık, kontrol noktası ilerlemesini sıfırlar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Düzenle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Adı Düzenle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Liderlik tablosuna katılmadan önce kullanıcı adınızı seçin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Profili Düzenle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Takımı Düzenle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Boş!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Sona Erdi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Açıklama girin...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Takım adını girin...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Sona ermek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: İlk Denemede Kazanma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Çerçeve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Ücretsiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Ücretsiz Canlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Genel İstatistikler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Git
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Yardım
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Yapılan Yardımlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Alınan Yardımlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Gelen Kutusu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Bilgi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Katıl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Son Şans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Lider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Liderlik Tablosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Ayrıl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Yeni bir takım oluşturmadan veya bir takıma katılmadan önce 30 dakika beklemelisiniz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Seviye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Haftalık Yarışmanın kilidini açmak için <color=yellow>{0}. Güne</color> ulaş!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Canların dolu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Yükle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Yerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: Liderlik Tablosunun kilidini açmak için <color=yellow>{0}. Güne</color> ULAŞ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: Takıma Katılmak İçin <color=yellow>{0}. Güne</color> ULAŞ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Can isteyemezsin. 10'dan fazla ücretsiz canın var!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} takıma katıldı!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0}, {1} tarafından atıldı!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} takımdan ayrıldı!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Üyeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Takımım
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: İsim en az 6 karakter olmalıdır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Ağ Hatası!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Ağ Hatası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: YENİ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Hayır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Katkı Yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Takım Yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Yeterli altın yok!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Aç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>Paketleme Bileti</color> sana özel ödüller kazanma şansı verecek!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: Etkinlik bitene kadar özel bonuslara sahip olacaksın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 5 yerine 8 can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Bonus Bankasını Aktif Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Altın profil resmi çerçevesi ve altın isim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>Paketleme Bileti</color> sona erdi! Bonusların artık aktif değil. Yeni <color=yellow>Paketleme Bileti</color> yakında başlayacak!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Günleri geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Anahtarları topla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Ödüllerin kilidini aç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Ekstra özel ödül almak için <color=yellow>Paketleme Biletini</color> aktif edebilirsin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: Yeni <color=Yellow>Paketleme Bileti</color> başladı! Günleri geç ve değerli ödüller için <color=Yellow>Biletin</color> kilidini aç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Paketleme Bileti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0}. Sıra Ödülü!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Oyuncular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Özel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Profil güncellendi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Herkese Açık
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Verilerinizin Sunucuya Kaydedilmesi Tamamlandı!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Yeniden Bağlan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Yenile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Üyeyi Çıkar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Can İsteniyor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Gerekli gün:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Gerekli Gün sınırını artırmak için {0}. günü tamamla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Yeniden Başlat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Kaydet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Ara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Rozet Seç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Sana bir can gönderiyor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Sunucu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Özel ödüller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Etap Yarışı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "Yarışı kaybettiniz!\nMuhteşem ödüller kazanmak için tekrar deneyin!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: Tebrikler! Yarışı kazandınız!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Kazanmak ve daha büyük ödüller için bir sonraki aşamaya geçmek üzere <color=yellow>{0} günü</color> diğerlerinden önce geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Nasıl oynanır?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Yarışı bitirmek için günleri diğerlerinden önce geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Yarışı diğerlerinden önce bitir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Daha büyük ödüller için bir sonraki aşamaya geçin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Aşama Yarışı Galibiyeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Aşama {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Yıldız
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Başlangıç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Verileri Senkronize Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Devam Etmek İçin Dokun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Açmak için Dokun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Talep etmek için dokunun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Kapatmak için dokunun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Takım Rozeti:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Bir takıma katıldığınızda şunları alacaksınız:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Takım Hasadı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Bölümlerden mısır topla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Takımınla Hedeflere Ulaş!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Harika Ödüller Kazan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Normal: 1 Mısır - Zor: 3 Mısır - Süper Zor: 5 Mısır'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Takımınla mısır hasat et ve harika ödüller kazan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Takım Adı:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Takımlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Takım Puanı:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Takım Türü:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Toplam ücretsiz can:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Toplam Yardım:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Toplam Yıldız
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: En Yüksek Kule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Liderliği Devret
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: İşte alınmamış ödüllerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: '{0}. Günde açılır'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: '{0}. gün geçildiğinde açılır'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Kullan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Görüntüle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Profili Görüntüle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Lütfen sunucunun işlemesi için biraz daha bekleyin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Haftalık
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Haftalık Yarışma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Değerli ödüller kazanmak için bir sonraki sefere daha çok çalış!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Günleri geç!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Liderliği Al!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Dünya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Evet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Liderlik Tablosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Takım
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Yükseltmeler bir sonraki güncellemede kullanılabilir olacak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Gün
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Bir takıma katıldığında:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: '<color=#7CF73F>Ücretsiz</color> Kalp Kazan'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Arkadaşlarınla sohbet et ve meydan okumalara katıl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Tamamlanan Alanlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Günleri geç ve ödülleri açmak için <color=yellow>Anahtar</color> topla. Nasıl toplanacağını öğrenmek için dokun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Devam etmek için {0}. güne ulaş
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Gün
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: 'Tamamla: {1} {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Önce {0} restoranını son aşamaya yükselt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0} geliştirmeleri artık açık!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: '{0} için yeni alet geliştirme seviyeleri!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: TÜMÜNÜ SATIN AL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Ekstra Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Sadece 1 Kez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Ekstra İndirim {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Kilidi açmak için {1} restoranında {0} tamamla!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: शुरुआती बर्गर स्टैंड। शुरुआत से ही आपका।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: चौड़े सामने वाला पूरा बर्गर घर, सजावट के लिए ज़्यादा जगह के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: शहद जैसा मीठा और फ्राइज़ आने पर दुगना प्यारा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: एकदम परफ़ेक्ट ग्रिल, इस पैटी ने कमाल कर दिया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: कच्ची, बिना पकी और तवे पर जाने को बेताब।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: दरवाज़े के पास खड़ा छोटा मेन्यू बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: दुकान के सामने लगा ऊँचा विज्ञापन बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: परतों में सजा और पूरी तरह जोश में।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: सामग्री को सुनहरा और कुरकुरा होने तक तलें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: झागदार कोला डालता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: सामग्री को टुकड़ों में काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: सिका हुआ बन, फ़ौलादी दमख़म के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: एक बन जिसने आखिरकार अपना दिल खोल दिया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: एक नरम बन जो अब भी आराम फरमा रहा है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: यहीं से सामग्री आती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: छत के ऊपर लगा रेस्टोरेंट का बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: जल्दबाज़ी के लिए बहुत कूल, और हमेशा सही वक़्त पर घुरघुराते हुए ऑर्डर करता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: नन्हे पंजे, बड़ी भूख और एक्स्ट्रा चीज़ पर ज़रा भी शर्म नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: कद्दूकस होने को तैयार, कमाल की संभावनाओं वाला डेयरी का टुकड़ा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: कटा चीज़, कुछ दिल पिघलाने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: पिघला हुआ सोना, जो हर चीज़ को शानदार बना दे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: आटे में लिपटा ब्रेस्ट, कुरकुरी शुरुआत के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: सादा और फीका, अब भी अपने बड़े तलने के पल का इंतज़ार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: बाहर से कुरकुरा, अंदर से रसीला, उंगलियाँ चाटते रह जाओ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: आटे का कवच पहने एक छोटा नगेट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: छोटा सा, एक कौर का और डीप फ्रायर के सपने देखता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: आटे के कोट में थाई, मोटी-ताज़ी और तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: सबसे रसीला टुकड़ा, जो अब भी अपनी क्षमता छिपाए है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: उड़ना सीखने से पहले ही बैटर में लिपटे विंग्स।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: एक विंग जिसमें अभी कोई कुरकुरापन नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: लाल पाउडर जो गर्मी लाए, ठंडक बिल्कुल नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: हरी डंडियाँ, जिन्हें प्याज़ से थोड़ी जलन है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: कुरकुरे जश्न के लिए नन्हा हरा कॉन्फ़ेटी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: एक खाली कप, जिसे मकसद की प्यास है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: गहरे रंग का सोडा, उत्साह से बुलबुले छोड़ता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: बर्फ़ वाला कोला, ठंडी बेरुखी के साथ परोसा गया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: ऑर्डर पर तैयार, बन के हार मानने से पहले खाना बेहतर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: बर्फ़ीले बुलबुले, जो बर्गर के हर कौर को और मज़ेदार बनाएं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: बाहर से सुनहरा, अंदर से रसीला और चार कौर में ख़त्म।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: गरम, नमकीन और बराबर बाँटना नामुमकिन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: एक वफ़ादार नन्हा ग्राहक जो हर बर्गर को पूंछ हिलाने वाला ख़ज़ाना मानता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: नाज़ुक है, दबाव में टूट जाएगा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: सनी साइड अप और बेहद खुशमिज़ाज।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: खाने को सुनहरा और कुरकुरा होने तक तलता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: सामग्री पर बैटर की परत चढ़ाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: वह पानी जिसने ठंडा रहने का फ़ैसला किया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: सारी कुरकुरी चीज़ें, एक शानदार दावत के डिब्बे में।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: कुरकुरी हरी पत्तियाँ, तो चलो शुरुआत करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: कटी हुई हरी पत्तियाँ, जो आख़िरकार सिर से अलग हो गईं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: ठंडे दिमाग वाला पूरा का पूरा सलाद पत्ता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: बाईं ओर लगी झालर वाली लाइटें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: छत के ऊपर लगा रेस्टोरेंट का बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: लंच की भीड़ को बोर्डरूम की तरह चलाता है और बढ़िया अचार माँगता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: प्रवेश द्वार के पास रखा गमला।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: फ्राइज़ स्टार बनने का सपना देखने वाला साधारण आलू।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: लंबी फाँकों में कटा, अब तलने की राह देखता फ्राई।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: इतने गरम सुनहरे फ्राइज़ कि नमक पर बहस छिड़ जाए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: चीज़ के नीचे दबे फ्राइज़, कोई पछतावा नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: भूखी उछलती हुई आती है और दोनों गालों पर चूरा लगाकर जाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: शहर का सबसे तेज़ लाल पूंछ वाला कूरियर, जब तक कोई फ्राई न गिरा दे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: बैंगनी, तीखा और चुपके से भावुक।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: कटे छल्ले, जिन्होंने शेफ़ को रुला दिया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: छत पर रखा एक बड़ा सा बर्गर मॉडल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: इमारत के दाईं ओर लटकता बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: इमारत के दाईं ओर लटकता बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: गोल, लाल और तकनीकी रूप से एक फल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: रसीले टुकड़े, जिनमें कोई कमी नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: छत के किनारे से लटकती बेलें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: बड़ा घर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: हनी हग भालू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: बीफ़ पैटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: कच्ची बीफ़ पैटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: छोटा मेन्यू बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: ऊँचा मेन्यू बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: बर्गर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: तवा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: कोला मशीन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: चाकू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: बर्गर बन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: कटा बन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: बन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: ट्रे
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: शामियाना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: कूलकैट क्लाइड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: किटी कपकेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: चीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: चीज़ स्लाइस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: चीज़ सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: लेपित चिकन ब्रेस्ट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: कच्चा चिकन ब्रेस्ट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: फ़्राइड चिकन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: लेपित नगेट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: कच्चा नगेट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: लेपित चिकन थाई
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: कच्ची चिकन थाई
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: लेपित चिकन विंग
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: कच्चा चिकन विंग
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: मिर्च पाउडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: हरा प्याज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: कटा हरा प्याज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: कोला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: आइस कोला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: क्लासिक बर्गर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: फ़िज़ी कोला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: क्रिस्पी चिकन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: सुनहरे फ्राइज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: बेनी बार्क
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: अंडा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: तला अंडा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: फ्रायर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: आटे का कटोरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: बर्फ़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: चिकन कॉम्बो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: सलाद पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: कटा सलाद पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: पूरा सलाद पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: लाइटें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: लोगो बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: बॉस हॉग्सवर्थ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: गमला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: आलू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: कटा आलू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: फ्राइज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: चीज़ फ्राइज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: बनबन बेला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: लाल चूहा कूरियर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: लाल प्याज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: कटा लाल प्याज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: विशाल बर्गर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: लटकता बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: खंभे वाला बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: टमाटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: कटा टमाटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: बेलें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: सलाद पत्ता शरमाए, उससे भी तेज़ सब्ज़ियाँ काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: स्लाइस, डाइस, हो गया। प्याज़ के पास कोई मौक़ा नहीं था।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: पल भर में बुलबुलों समेत फ़िज़ी कोला परोसती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: ज़बरदस्त फ़िज़! सोडा और खुशी का फ़व्वारा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: चिकन पर तेज़ी से आटा चढ़ाता है। गड़बड़ भरा मगर स्वादिष्ट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: आटे का बर्फ़ीला तूफ़ान। हर नगेट को मिलता है आरामदायक कंबल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: रिकॉर्ड समय में सुनहरे फ़्राइज़। कुरकुरापन की गारंटी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: एक्स्ट्रा कुरकुरापन अनलॉक। फ़्राइज़ गर्व से चमक उठते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: पैटी जल्दी सिज़ल करती हैं। पेट और ज़ोर से गुड़गुड़ाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: इतनी गरम कि बर्गर उस पर पलट जाते हैं। सचमुच।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: स्पीडी चॉपर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: निंजा चॉपर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: फ़िज़-फ़ास्ट मशीन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: कोला गीज़र
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: स्पीडी बैटर बाउल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: फ़्लोर फ़्रेंज़ी बाउल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: क्रिस्पी फ़्रायर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: गोल्डन फ़्रायर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: सिज़ल ग्रिडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: मेगा सिज़ल ग्रिडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: लेट्यूस ज़मीन पर गिरने से पहले ही कट जाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: समुराई चॉपर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: इतनी तेज़ कि हवा भी कट जाए। टमाटर सलामी देते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: लीजेंडरी ब्लेड बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: बुलबुलों का विस्फोट। कप अपने आप भर जाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: कोला ज्वालामुखी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: हमेशा बुलबुले। प्यास की कोई गुंजाइश नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: अनंत फ़िज़ फव्वारा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: आप 'क्रंच' कहें, उससे पहले नगेट्स पर परत चढ़ जाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: आटे का बर्फ़ीला तूफ़ान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: हर नगेट शाही अंदाज़ में तैयार होकर निकलता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: सुनहरा आटा कटोरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: फ्राइज़ फीके कूदते हैं और सुनहरे होकर निकलते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: टर्बो फ्रायर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: रोशनी की रफ़्तार से कुरकुरा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: लीजेंडरी फ्राई रिएक्टर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: पैटी पलक झपकते पकती हैं। अपनी भौंहें बचाइए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: ज्वालामुखी ग्रिडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: सूरज जितनी गर्म, रॉकेट जितनी तेज़। बर्गर का आनंद।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: लीजेंडरी सन ग्रिडल
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

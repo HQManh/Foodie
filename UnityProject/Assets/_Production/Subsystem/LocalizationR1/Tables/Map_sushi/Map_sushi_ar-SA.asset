@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_ar-SA
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar-SA
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: بالونات زاهية تجعل كل خدمة سوشي احتفالية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: مطعم السوشي الأصلي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: مطعم أكبر جاهز لمزيد من ترقيات السوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: بونساي مشذّب بعناية يضيف لمسة خضراء هادئة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: لافتة كابيبارا لطيفة لواجهة المتجر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: قطة ترحيبية تلوّح للزبائن بالدخول.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: منضدة ممتلئة تعرض أفضل أطباق المطعم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: لوح تقطيع على السطح مليء بالسوشي واللفائف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: أعلام ومظلات ملونة تزين واجهة المطعم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: ضيفة كيتسوني رشيقة تطلب السوشي بأناقة مسرحية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: هذه العنزة الزرقاء تحب الماتشا وتتدرب على آداب المائدة بمرح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: يدرس القائمة باجتهاد لكنه يستبدل غداءه بالأوكالبتوس في النهاية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: شيشي صغير شجاع يتحدى كل لفافة سوشي في مبارزة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: سقف تقليدي يمنح المطعم طابقًا إضافيًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: شيبا يوكوزونا يتعامل مع كل طبق سوشي كنزال على البطولة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: مقاعد مريحة لضيوف السوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: الذئب الأويابون يتحدث بهدوء ويسيطر على منضدة السوشي بنظرة واحدة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: بالونات المهرجان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: توسعة السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: حديقة البونساي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: لافتة الكابيبارا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: قطة الحظ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: منضدة العرض
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: لوح تقطيع السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: أعلام السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: كيتسوني أوجو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: آوي ياغي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: كوالا سينباي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: شيشي كون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: سقف الطابق الثاني
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: شيبا يوكوزونا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: مقاعد السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: أوكامي أويابون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: سوشي نيجيري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: أرز مضغوط باليد تغطيه شريحة سمك كبطانية صغيرة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: لفائف ماكي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: ملفوفة بإحكام بالأعشاب البحرية ومقطعة قبل أن يختلس أحد النظر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: سوشي غونكان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: قارب صغير من الأعشاب البحرية محمّل بالإضافات حتى الحافة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: طبق ساشيمي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: سمك طازج مقطع رقيقًا بلا شيء يختبئ خلفه.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: شاي أخضر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: دافئ وهادئ يُسكب ليغسل حرارة الواسابي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: قطة ترحيبية تلوّح للزبائن بالدخول.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: مقاعد مريحة لضيوف السوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: فوانيس ورقية متوهجة تضيء المطعم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: لافتة كابيبارا لطيفة لواجهة المتجر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: لافتة كابيبارا لطيفة لواجهة المتجر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: تونة ضخمة جاثمة على السطح تعرض بفخر صيد اليوم الطازج.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: لوح تقطيع على السطح مليء بالسوشي واللفائف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: قطة الحظ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: مقاعد السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: فوانيس ورقية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: لافتة الكابيبارا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: لافتة الكابيبارا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: تونة عملاقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: لوح تقطيع السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: تُقطَّع الخضار قبل أن ترمش.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: شفرات سريعة لدرجة أن الخيار يستسلم مسبقًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: يقطّع السمك النيء بنعومة ساشيمي إضافية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: كل قطعة عمل فني، والسمك يشعر بالفخر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: أرز هش في لمح البصر. الحبوب تصطف بانتظار الطهي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: أرز مثالي يستحق التصفيق وقوفًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: يبشر الواسابي بسرعة البرق. الدموع اختيارية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: يبشر بسرعة لا يلحظها الواسابي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: يغلي اللذة أسرع مما تنطق «أومامي».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: أسطورة فوّارة تطهو بسرعة الانحناء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: شاي ساخن في لمح البصر. يبقى الزبائن هادئين ويرتشفون.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: يصب الشاي المثالي والسكينة الداخلية دفعة واحدة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: لوح تقطيع سريع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: لوح تقطيع النينجا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: لوح سمك أكثر حدة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: لوح أستاذ الساشيمي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: جهاز أرز توربو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: جهاز أرز ميغا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: مبشرة سريعة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: إعصار الواسابي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: قدر الغلي السريع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: مرجل الأومامي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: إبريق شاي سريع التخمير
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: إبريق شاي معلم الزن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: راية سوشي زرقاء زاهية تلفت كل عين جائعة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: ستارة نورين زرقاء منعشة تتمايل بلطف فوق المدخل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: ستارة نورين حمراء جريئة ترحب بالضيوف الجائعين عند الباب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: فانوس حجري مغطى بالطحلب يضفي لمسة من هدوء المعابد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: راية السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: نورين أزرق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: نورين أحمر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: ضريح حجري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: يقطّع السمك الطازج إلى شرائح ساشيمي ناعمة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: يحوّل الخضار المقرمشة إلى أصابع صغيرة مرتبة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: يبشر الواسابي ليصبح مفاجأة خضراء حارة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: يطهو المرق على نار هادئة ليصبح وعاءً دافئًا مريحًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: يطهو الأرز بالبخار ليصبح ذهب سوشي هشًا ولزجًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: يحضّر الشاي الأخضر، هدوء في كل رشفة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: مبشرة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: قدر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: طباخ الأرز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: إبريق شاي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: أفوكادو كريمي، هدية الغرب المفضلة للسوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: مكعبات خضراء طرية جاهزة للفّ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: شرائح حريرية تكسو الأرز كالكيمونو.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: كوب فارغ ينتظر صبّة شاي هادئة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: شاي أخضر مخفوق، هادئ كحديقة في كيوتو.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: مكعبات ذهبية صغيرة من العجة الحلوة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: عجة ملفوفة حلوة، طبقة فوق طبقة بصبر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: شرائح ذهبية من البيض الملفوف، حلوة وطرية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: سمكة بيضاء مسطحة يقدّرها أساتذة السوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: مكعبات سمك موسى طرية للقمة خفيفة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: شرائح بيضاء رقيقة، تكاد تكون شفافة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: سمكة فضية لامعة مليئة بنكهة المحيط.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: ماكريل بحجم اللقمة جاهز للفّ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: شرائح لامعة بطعم جريء وغني.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: شريحة برتقالية زاهية قادمة من المياه الباردة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: مكعبات سلمون جاهزة لتزيين قارب صغير.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: شرائح سلمون زبدية تذوب على اللسان.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: تونة حمراء داكنة، ملكة سوق السمك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: مكعبات تونة لقضمة جريئة وممتلئة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: شرائح بلون الياقوت قُطعت بسكين معلّم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: قارب من الأعشاب البحرية محمّل بكل ما يتمناه الضيف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: لفافة مصنوعة تمامًا كما يحبها الضيف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: أرز مضغوط باليد تعلوه الحشوة المفضلة للضيف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: طبق من الشرائح الطازجة المختارة حسب الطلب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: ليمونة مشرقة توقظ كل لقمة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: شرائح ليمون رقيقة تُنعش السمك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: مايونيز ياباني كريمي بحموضة لطيفة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: أخطبوط نيء، كله أذرع بلا خطط.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: مسلوق وردي وطري، جاهز للسكين.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: قطع أخطبوط صغيرة، كالتاكوياكي بلا الكرة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: شرائح تاكو رقيقة بسحر مطاطي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: أرز قصير الحبة، مصقول ينتظر حمّامه.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: أرز منفوش بالخل، روح كل قطعة سوشي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: لآلئ برتقالية صغيرة تنفجر مع كل قضمة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: بيض سمك طائر مقرمش يتلألأ كالجواهر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: بيض سلمون كبير لامع ينفجر بطعم البحر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: أوراق أعشاب بحرية مقرمشة محمّصة جاهزة للف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: ورقة عطرة تضيف لمسة منعشة بنكهة النعناع.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: روبيان نيء ملتف كعلامة استفهام صغيرة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: مسلوق وردي وفخور، جاهز للأرز.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: روبيان بحجم اللقمة جاهز للفّ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: مفتوح كالمروحة من أجل نيجيري مثالي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: أوراق شاي أخضر قُطفت من تلال يلفها الضباب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: جذر معقّد مشهور بطبعه الحاد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: لمسة خضراء حارة تفتح الأنف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: ماء عذب جاهز ليصبح شايًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: أفوكادو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: أفوكادو مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: شرائح أفوكادو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: كوب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: ماتشا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: لوح السمك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: لوح الخضار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: تاماغوياكي مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: تاماغوياكي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: شرائح تاماغوياكي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: سمك موسى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: سمك موسى مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: شرائح سمك موسى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: سمك الماكريل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: ماكريل مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: شرائح ماكريل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: سلمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: سلمون مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: شرائح سلمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: تونة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: تونة مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: شرائح تونة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: سوشي غونكان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: لفائف ماكي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: سوشي نيجيري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: طبق ساشيمي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: ليمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: شرائح ليمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: مايونيز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: أخطبوط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: أخطبوط مسلوق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: أخطبوط مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: شرائح أخطبوط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: أرز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: أرز السوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: بطارخ الكابلين
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: توبيكو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: إيكورا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: نوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: ورقة شيسو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: روبيان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: روبيان مسلوق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: روبيان مكعبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: روبيان مفتوح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: أوراق الشاي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: واسابي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: واسابي مبشور
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: ماء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: يُقطَّع الخيار قبل أن يدرك ذلك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: لوح التقطيع الساموراي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: ضربة واحدة، خضار تكفي للفافة مثالية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: لوح الكاتانا الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: شرائح حريرية في لمح البصر. الأسماك موافقة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: لوح الساشيمي الكبير
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: قطع دقيقة لدرجة أن الطاهي نفسه يندهش.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: مذبح الساشيمي الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: أرز هش، جاهز قبل وضع الوعاء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: طباخ الأرز التوربو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: كل حبة مثالية. في كل مرة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: ضريح الأرز الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: غيوم خضراء حارة، جاهزة في ثانية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: إعصار الواسابي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: سريع لدرجة أن أنفك يلسعك من الطرف الآخر للغرفة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: عاصفة الواسابي الأسطورية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: يغلي المرق مليئًا بالنكهة في لمح البصر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: بركان الأومامي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: ألذ حساء في المدينة، يُقدَّم بسرعة البرق.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: قدر الأومامي الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: يحضّر السكينة والشاي الأخضر أسرع من أي وقت مضى.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: إبريق الشاي المستنير
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: شاي مثالي قبل أن تأخذ نفسًا عميقًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: إبريق الزن الأسطوري
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,37 @@
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+namespace UniRx.Triggers
+{
+	[DisallowMultipleComponent]
+	public class ObservableEndDragTrigger : ObservableTriggerBase, IEventSystemHandler, IEndDragHandler
+	{
+		private Subject<PointerEventData> onEndDrag;
+
+		void IEndDragHandler.OnEndDrag(PointerEventData eventData)
+		{
+			if (onEndDrag != null)
+			{
+				onEndDrag.OnNext(eventData);
+			}
+		}
+
+		public IObservable<PointerEventData> OnEndDragAsObservable()
+		{
+			if (onEndDrag == null)
+			{
+				onEndDrag = new Subject<PointerEventData>();
+			}
+			return onEndDrag;
+		}
+
+		protected override void RaiseOnCompletedOnDestroy()
+		{
+			if (onEndDrag != null)
+			{
+				onEndDrag.OnCompleted();
+			}
+		}
+	}
+}

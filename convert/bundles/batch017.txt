@@ -1,0 +1,4972 @@
+
+########## TYPE AnhPD.FoodOrder.SeafoodOrderStrategy
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.get_Config @0x412e804
+undefined8 AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config(void)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  if ((DAT_09516322 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091881a0);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516322 = 1;
+  }
+  uVar2 = **(undefined8 **)(DAT_091881a0 + 0xb8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+  uVar2 = 0;
+  if ((uVar1 & 1) != 0) {
+    if (**(long **)(DAT_091881a0 + 0xb8) == 0) {
+                    
+      FUN_03f5c550(0);
+    }
+    uVar2 = *(undefined8 *)(**(long **)(DAT_091881a0 + 0xb8) + 0xd0);
+  }
+  return uVar2;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.ConvertOrderData @0x412e8a0
+long AnhPD_FoodOrder_SeafoodOrderStrategy__ConvertOrderData(undefined8 param_1,undefined8 param_2)
+{
+  uint uVar1;
+  ulong uVar2;
+  ulong uVar3;
+  undefined8 uVar4;
+  long lVar5;
+  undefined8 uVar6;
+  undefined *puVar7;
+  undefined8 *puVar8;
+  uint uVar9;
+  undefined8 local_120;
+  undefined8 uStack_118;
+  undefined8 local_110;
+  undefined8 local_100;
+  undefined8 uStack_f8;
+  undefined8 local_f0;
+  undefined8 uStack_e8;
+  undefined8 local_e0;
+  undefined8 uStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 local_c0;
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  undefined8 local_a0;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined8 local_80;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  ulong local_50;
+  long local_48;
+  if ((DAT_09516323 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09180348);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516323 = 1;
+  }
+  local_50 = 0;
+  local_48 = 0;
+  local_70 = 0;
+  uStack_68 = 0;
+  local_60 = 0;
+  uVar2 = CakeOrder_InGame_OrderRecipeCodec__TryDecode(param_2,&local_50,0);
+  if ((uVar2 & 1) == 0) {
+    puVar7 = &DAT_09205338;
+LAB_0412eb58:
+    uVar4 = thunk_FUN_03fc39d4(puVar7);
+    uVar4 = System_String__Concat(uVar4,param_2,0);
+    thunk_FUN_03fc39d4(&DAT_091870e0);
+    uVar6 = thunk_FUN_03f9944c();
+    System_InvalidOperationException___ctor(uVar6,uVar4,0);
+    uVar4 = thunk_FUN_03fc39d4(&DAT_091d88c8);
+                    
+    FUN_03f5c414(uVar6,uVar4);
+  }
+  if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  lVar5 = local_48;
+  puVar8 = *(undefined8 **)(DAT_09189158 + 0xb8);
+  uStack_68 = puVar8[1];
+  local_70 = *puVar8;
+  local_60 = puVar8[2];
+  if (local_48 != 0) {
+    uVar1 = *(uint *)(local_48 + 0x18);
+    if (0 < (int)uVar1) {
+      uVar9 = 0;
+      do {
+        if (uVar1 <= uVar9) goto LAB_0412eaf4;
+        uVar1 = *(uint *)(lVar5 + (long)(int)uVar9 * 4 + 0x20);
+        if (0x19 < uVar1) {
+          thunk_FUN_03fc39d4(&DAT_091870e0);
+          uVar4 = thunk_FUN_03f9944c();
+          uVar6 = thunk_FUN_03fc39d4(&DAT_0920c988);
+          System_InvalidOperationException___ctor(uVar4,uVar6,0);
+          uVar6 = thunk_FUN_03fc39d4(&DAT_091d88c8);
+                    
+          FUN_03f5c414(uVar4,uVar6);
+        }
+        if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        AnhPD_FoodOrder_PieceSet__Add(&local_100,&local_70,uVar1,1,0);
+        uVar1 = *(uint *)(lVar5 + 0x18);
+        uVar9 = uVar9 + 1;
+        uStack_68 = uStack_f8;
+        local_70 = local_100;
+        local_60 = local_f0;
+      } while ((int)uVar9 < (int)uVar1);
+    }
+    uVar2 = local_50;
+    uStack_f8 = uStack_68;
+    local_100 = local_70;
+    local_f0 = local_60;
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uStack_88 = uStack_f8;
+    local_90 = local_100;
+    local_80 = local_f0;
+    uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsComplete(uVar2 & 0xffffffff,&local_90,0);
+    if ((uVar3 & 1) == 0) {
+      puVar7 = &DAT_09205330;
+      goto LAB_0412eb58;
+    }
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar4 = CakeOrder_InGame_Seafood_SeafoodPieceTable__BaseId(uVar2 & 0xffffffff,0);
+    lVar5 = FUN_03f5c394(DAT_09180348,1);
+    uStack_a8 = uStack_68;
+    local_b0 = local_70;
+    local_a0 = local_60;
+    uVar6 = AnhPD_FoodOrder_FlexiblePieceId__Build(uVar4,&local_b0,0);
+    local_c0 = 0;
+    uStack_118 = uStack_68;
+    local_120 = local_70;
+    local_110 = local_60;
+    uStack_f8 = 0;
+    local_100 = 0;
+    uStack_e8 = 0;
+    local_f0 = 0;
+    uStack_d8 = 0;
+    local_e0 = 0;
+    uStack_c8 = 0;
+    uStack_d0 = 0;
+    AnhPD_FoodOrder_OrderSpec___ctor
+              (&local_100,uVar6,uVar4,&local_120,1,0,0xffffffff,0xffffffff,0,0);
+    if (lVar5 != 0) {
+      if (*(int *)(lVar5 + 0x18) != 0) {
+        memmove((void *)(lVar5 + 0x20),&local_100,0x48);
+        thunk_FUN_03f5d7b8(lVar5 + 0x20,0);
+        return lVar5;
+      }
+LAB_0412eaf4:
+                    
+      FUN_03f5c558();
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.GenerateRandomRecipes @0x412eba4
+long AnhPD_FoodOrder_SeafoodOrderStrategy__GenerateRandomRecipes(void)
+{
+  uint uVar1;
+  ulong uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  long lVar5;
+  undefined8 uVar6;
+  ulong uVar7;
+  long lVar8;
+  long lVar9;
+  int iVar10;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined8 local_b8;
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined8 local_90;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  if ((DAT_09516324 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c0310);
+    FUN_03f5c2a4(&DAT_091adc88);
+    FUN_03f5c2a4(&DAT_091afc88);
+    FUN_03f5c2a4(&DAT_091adc70);
+    FUN_03f5c2a4(&DAT_091afc80);
+    FUN_03f5c2a4(&DAT_091afc90);
+    FUN_03f5c2a4(&DAT_091afc98);
+    FUN_03f5c2a4(&DAT_0917c520);
+    FUN_03f5c2a4(&DAT_0917cb38);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    FUN_03f5c2a4(&DAT_091805f8);
+    DAT_09516324 = 1;
+  }
+  uStack_78 = 0;
+  local_80 = 0;
+  local_70 = 0;
+  local_90 = 0;
+  uStack_a8 = 0;
+  local_b0 = 0;
+  uStack_98 = 0;
+  uStack_a0 = 0;
+  lVar5 = thunk_FUN_03f9944c(DAT_0917cb38);
+  FUN_0579924c(lVar5,DAT_091afc80);
+  iVar10 = 1;
+  do {
+    uVar6 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar7 = UnityEngine_Object__op_Implicit(uVar6,0);
+    if ((uVar7 & 1) != 0) {
+      lVar8 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+      if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+        FUN_03f5c424(DAT_0918a7b8);
+      }
+      uVar6 = CakeOrder_InGame_Seafood_SeafoodPieceTable__BaseId(iVar10,0);
+      uVar7 = local_90;
+      if (lVar8 == 0) goto LAB_0412efdc;
+      uVar6 = AnhPD_FoodOrder_RecipeConfigSO__GetIngredientPrefab(lVar8,uVar6,0);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424(DAT_09188ad0);
+      }
+      uVar7 = UnityEngine_Object__op_Implicit(uVar6,0);
+      lVar8 = DAT_091afc88;
+      if ((uVar7 & 1) != 0) {
+        uVar7 = local_90;
+        if (lVar5 == 0) goto LAB_0412efdc;
+        lVar9 = *(long *)(lVar5 + 0x10);
+        *(int *)(lVar5 + 0x1c) = *(int *)(lVar5 + 0x1c) + 1;
+        if (lVar9 == 0) goto LAB_0412efdc;
+        uVar1 = *(uint *)(lVar5 + 0x18);
+        if (uVar1 < *(uint *)(lVar9 + 0x18)) {
+          *(uint *)(lVar5 + 0x18) = uVar1 + 1;
+          *(int *)(lVar9 + (long)(int)uVar1 * 4 + 0x20) = iVar10;
+        }
+        else {
+          FUN_05799adc(lVar5,iVar10,
+                       *(undefined8 *)(*(long *)(*(long *)(lVar8 + 0x20) + 0xc0) + 0x70));
+        }
+      }
+    }
+    lVar8 = DAT_091c0310;
+    iVar10 = iVar10 + 1;
+  } while (iVar10 != 7);
+  uVar7 = local_90;
+  if (lVar5 != 0) {
+    if (*(int *)(lVar5 + 0x18) == 0) {
+      lVar5 = *(long *)(DAT_091c0310 + 0x38);
+      if (lVar5 == 0) {
+        FUN_03f95ac8(DAT_091c0310);
+        lVar5 = *(long *)(lVar8 + 0x38);
+      }
+      lVar5 = *(long *)(lVar5 + 0x10);
+      if ((*(ushort *)(lVar5 + 0x135) & 1) == 0) {
+        lVar5 = FUN_03f95a6c();
+      }
+      if (*(int *)(lVar5 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      lVar5 = *(long *)(*(long *)(lVar8 + 0x38) + 0x10);
+      if ((*(ushort *)(lVar5 + 0x135) & 1) == 0) {
+        lVar5 = FUN_03f95a6c();
+      }
+      lVar5 = **(long **)(lVar5 + 0xb8);
+    }
+    else {
+      uVar4 = UnityEngine_Random__Range(0,*(int *)(lVar5 + 0x18),0);
+      uVar4 = FUN_057997e4(lVar5,uVar4,DAT_091afc98);
+      if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+        FUN_03f5c424(DAT_0918a7b8);
+      }
+      CakeOrder_InGame_Seafood_SeafoodPieceTable__Roll(&local_c8,uVar4,0,0);
+      uStack_78 = uStack_c0;
+      local_80 = local_c8;
+      local_70 = local_b8;
+      lVar8 = thunk_FUN_03f9944c(DAT_0917c520);
+      FUN_05796918(lVar8,DAT_091adc70);
+      if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      AnhPD_FoodOrder_PieceSet__GetEnumerator(&local_b0,&local_80,0);
+      uVar7 = AnhPD_FoodOrder_PieceSet_Enumerator__MoveNext(&local_b0,0);
+      uVar2 = local_90;
+      lVar5 = DAT_091adc88;
+      while (local_90 = uVar2, DAT_091adc88 = lVar5, (uVar7 & 1) != 0) {
+        local_90._4_4_ = (int)(uVar2 >> 0x20);
+        uVar7 = uVar2;
+        if (0 < local_90._4_4_) {
+          if (lVar8 == 0) goto LAB_0412efdc;
+          local_90._0_4_ = (undefined4)uVar2;
+          uVar3 = (undefined4)local_90;
+          iVar10 = local_90._4_4_;
+          do {
+            lVar9 = *(long *)(lVar8 + 0x10);
+            *(int *)(lVar8 + 0x1c) = *(int *)(lVar8 + 0x1c) + 1;
+            uVar7 = local_90;
+            if (lVar9 == 0) goto LAB_0412efdc;
+            uVar1 = *(uint *)(lVar8 + 0x18);
+            if (uVar1 < *(uint *)(lVar9 + 0x18)) {
+              *(uint *)(lVar8 + 0x18) = uVar1 + 1;
+              *(undefined4 *)(lVar9 + (long)(int)uVar1 * 4 + 0x20) = uVar3;
+            }
+            else {
+              FUN_057971a8(lVar8,uVar2 & 0xffffffff,
+                           *(undefined8 *)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
+              lVar5 = DAT_091adc88;
+            }
+            iVar10 = iVar10 + -1;
+            uVar7 = local_90;
+          } while (iVar10 != 0);
+        }
+        local_90 = uVar7;
+        uVar7 = AnhPD_FoodOrder_PieceSet_Enumerator__MoveNext(&local_b0,0);
+        uVar2 = local_90;
+        lVar5 = DAT_091adc88;
+      }
+      lVar5 = FUN_03f5c394(DAT_091805f8,1);
+      uVar6 = CakeOrder_InGame_OrderRecipeCodec__Encode(uVar4,lVar8,0);
+      uVar7 = local_90;
+      if (lVar5 == 0) goto LAB_0412efdc;
+      if (*(int *)(lVar5 + 0x18) == 0) {
+                    
+        FUN_03f5c558();
+      }
+      *(undefined8 *)(lVar5 + 0x20) = uVar6;
+      thunk_FUN_03f5d7b8();
+    }
+    return lVar5;
+  }
+LAB_0412efdc:
+  local_90 = uVar7;
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.ConvertSpawnDataToStack @0x412efe4
+undefined8
+AnhPD_FoodOrder_SeafoodOrderStrategy__ConvertSpawnDataToStack(undefined8 param_1,long param_2)
+{
+  long lVar1;
+  int iVar2;
+  undefined4 uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  ulong uVar6;
+  long lVar7;
+  long lVar8;
+  ulong uVar9;
+  ulong uVar10;
+  long lVar11;
+  undefined8 local_a8;
+  undefined8 *puStack_a0;
+  long local_98;
+  undefined8 local_90;
+  long local_88;
+  undefined8 local_80;
+  undefined8 *puStack_78;
+  long local_70;
+  if ((DAT_09516325 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a28a0);
+    FUN_03f5c2a4(&DAT_091a28a8);
+    FUN_03f5c2a4(&DAT_091a28b0);
+    FUN_03f5c2a4(&DAT_091b0578);
+    FUN_03f5c2a4(&DAT_091b0588);
+    FUN_03f5c2a4(&DAT_091ac248);
+    FUN_03f5c2a4(&DAT_091b05e0);
+    FUN_03f5c2a4(&DAT_091b0558);
+    FUN_03f5c2a4(&DAT_0917cce8);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_091bb388);
+    FUN_03f5c2a4(&DAT_091bb390);
+    FUN_03f5c2a4(&DAT_0917e940);
+    DAT_09516325 = 1;
+  }
+  local_80 = 0;
+  puStack_78 = (undefined8 *)0x0;
+  local_70 = 0;
+  local_90 = 0;
+  local_88 = 0;
+  lVar4 = thunk_FUN_03f9944c(DAT_0917cce8);
+  FUN_057e0400(lVar4,DAT_091b0558);
+  uVar5 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424(DAT_09188ad0);
+  }
+  uVar6 = UnityEngine_Object__op_Implicit(uVar5,0);
+  if ((param_2 == 0) || ((uVar6 & 1) == 0)) {
+    uVar5 = thunk_FUN_03f9944c(DAT_0917e940);
+    FUN_061a1268(uVar5,DAT_091bb388);
+  }
+  else {
+    lVar7 = thunk_FUN_03f9944c(DAT_0917cce8);
+    FUN_057e0400(lVar7,DAT_091b0558);
+    if (0 < (int)*(ulong *)(param_2 + 0x18)) {
+      uVar6 = 0;
+      uVar9 = *(ulong *)(param_2 + 0x18) & 0xffffffff;
+      do {
+        if (uVar9 <= uVar6) {
+                    
+          FUN_03f5c558();
+        }
+        lVar11 = *(long *)(param_2 + uVar6 * 8 + 0x20);
+        if ((lVar11 != 0) && (lVar11 = *(long *)(lVar11 + 0x30), lVar11 != 0)) {
+          FUN_057e185c(&local_a8,lVar11,DAT_091ac248);
+          local_80 = local_a8;
+          local_a8 = 0;
+          puStack_78 = puStack_a0;
+          local_70 = local_98;
+          puStack_a0 = &local_80;
+          while (uVar9 = FUN_071bd28c(&local_80,DAT_091a28a8), (uVar9 & 1) != 0) {
+            if (local_70 == 0) {
+                    
+              FUN_03f5c550();
+            }
+            uVar9 = CakeOrder_InGame_OrderRecipeCodec__TryDecode
+                              (*(undefined8 *)(local_70 + 0x10),&local_90,0);
+            lVar11 = local_88;
+            if ((uVar9 & 1) != 0) {
+              if (local_88 == 0) {
+                    
+                FUN_03f5c550();
+              }
+              if (0 < (int)*(ulong *)(local_88 + 0x18)) {
+                uVar9 = 0;
+                uVar10 = *(ulong *)(local_88 + 0x18) & 0xffffffff;
+                lVar1 = local_88 + 0x20;
+                do {
+                  if (uVar10 <= uVar9) {
+                    
+                    FUN_03f5c558();
+                  }
+                  if (lVar7 == 0) {
+                    
+                    FUN_03f5c550();
+                  }
+                  iVar2 = *(int *)(lVar7 + 0x18);
+                  uVar3 = *(undefined4 *)(lVar1 + uVar9 * 4);
+                  *(undefined4 *)(lVar7 + 0x18) = 0;
+                  *(int *)(lVar7 + 0x1c) = *(int *)(lVar7 + 0x1c) + 1;
+                  if (0 < iVar2) {
+                    System_Array__Clear(*(undefined8 *)(lVar7 + 0x10),0,iVar2,0);
+                  }
+                  lVar8 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+                  if (lVar8 == 0) {
+                    
+                    FUN_03f5c550();
+                  }
+                  AnhPD_FoodOrder_RecipeConfigSO__CollectSpawnIdsOfPiece(lVar8,uVar3,lVar7,0);
+                  if (lVar4 == 0) {
+                    
+                    FUN_03f5c550();
+                  }
+                  FUN_057e0e78(lVar4,lVar7,DAT_091b0578);
+                  uVar10 = (ulong)*(uint *)(lVar11 + 0x18);
+                  uVar9 = uVar9 + 1;
+                } while ((long)uVar9 < (long)(int)*(uint *)(lVar11 + 0x18));
+              }
+            }
+          }
+          FUN_071bd288(&local_80,DAT_091a28a0);
+          uVar9 = (ulong)*(uint *)(param_2 + 0x18);
+        }
+        uVar6 = uVar6 + 1;
+      } while ((long)uVar6 < (long)(int)uVar9);
+    }
+    if (lVar4 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    FUN_057e2674(lVar4,DAT_091b05e0);
+    uVar5 = thunk_FUN_03f9944c(DAT_0917e940);
+    FUN_061a13c8(uVar5,lVar4,DAT_091bb390);
+  }
+  return uVar5;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.GetIdPieceOffer @0x412f3c4
+long AnhPD_FoodOrder_SeafoodOrderStrategy__GetIdPieceOffer(undefined8 param_1,undefined8 param_2)
+{
+  undefined4 uVar1;
+  undefined8 uVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 local_40;
+  undefined8 uStack_38;
+  undefined8 local_30;
+  undefined8 local_28;
+  if ((DAT_09516326 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189150);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516326 = 1;
+  }
+  local_30 = 0;
+  local_28 = 0;
+  local_40 = 0;
+  uStack_38 = 0;
+  uVar2 = AnhPD_FoodOrder_FlexibleId__BaseOf(param_2,0);
+  if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+    FUN_03f5c424(DAT_0918a7b8);
+  }
+  uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__TryGetDish(uVar2,(long)&local_28 + 4,0);
+  if ((uVar3 & 1) == 0) {
+    uVar2 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar3 = UnityEngine_Object__op_Implicit(uVar2,0);
+    lVar4 = 0;
+    if ((uVar3 & 1) != 0) {
+      lVar4 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+      if (lVar4 == 0) goto LAB_0412f5dc;
+      lVar4 = AnhPD_FoodOrder_RecipeConfigSO__GetPieceConfig(lVar4,param_2,0);
+      if (lVar4 == 0) {
+        lVar4 = 0;
+      }
+      else {
+        uVar3 = AnhPD_FoodOrder_RcPieceConfig__get_Offers(lVar4,0);
+        lVar4 = 0;
+        if ((uVar3 & 1) != 0) {
+          if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__TryGetPiece(param_2,&local_28,0);
+          lVar4 = 0;
+          if ((uVar3 & 1) != 0) {
+            lVar4 = thunk_FUN_03f9944c(DAT_09189150);
+            AnhPD_FoodOrder_PieceOffer___ctor(lVar4,0);
+            uVar3 = local_28;
+            if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+              FUN_03f5c424();
+            }
+            AnhPD_FoodOrder_PieceSet__One(&local_58,uVar3 & 0xffffffff,0);
+            if (lVar4 == 0) goto LAB_0412f5dc;
+            *(undefined1 *)(lVar4 + 0x28) = 1;
+            *(undefined8 *)(lVar4 + 0x18) = uStack_50;
+            *(undefined8 *)(lVar4 + 0x10) = local_58;
+            *(undefined8 *)(lVar4 + 0x20) = local_48;
+            *(undefined4 *)(lVar4 + 0x2c) = 1;
+          }
+        }
+      }
+    }
+  }
+  else {
+    uVar1 = local_28._4_4_;
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__TryDecode(uVar1,param_2,&local_40,0);
+    lVar4 = 0;
+    if ((uVar3 & 1) != 0) {
+      lVar4 = thunk_FUN_03f9944c(DAT_09189150);
+      AnhPD_FoodOrder_PieceOffer___ctor(lVar4,0);
+      if (lVar4 == 0) {
+LAB_0412f5dc:
+                    
+        FUN_03f5c550();
+      }
+      *(undefined1 *)(lVar4 + 0x28) = 1;
+      *(undefined8 *)(lVar4 + 0x18) = uStack_38;
+      *(undefined8 *)(lVar4 + 0x10) = local_40;
+      *(undefined8 *)(lVar4 + 0x20) = local_30;
+      *(undefined4 *)(lVar4 + 0x2c) = 0;
+    }
+  }
+  return lVar4;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.GetItemPieceOffer @0x412f5e0
+long AnhPD_FoodOrder_SeafoodOrderStrategy__GetItemPieceOffer(long *param_1,long *param_2)
+{
+  undefined4 uVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  undefined8 local_38;
+  undefined8 uStack_30;
+  undefined8 local_28;
+  if ((DAT_09516327 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184748);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189150);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516327 = 1;
+  }
+  if ((param_2 == (long *)0x0) || (*param_2 != DAT_09184748)) {
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(param_2,0);
+    lVar3 = 0;
+    if ((uVar2 & 1) != 0) {
+      if (param_2 != (long *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x0412f6a4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+        lVar3 = (**(code **)(*param_1 + 600))
+                          (param_1,param_2[0xf],*(undefined8 *)(*param_1 + 0x260));
+        return lVar3;
+      }
+LAB_0412f76c:
+                    
+      FUN_03f5c550();
+    }
+  }
+  else {
+    uVar1 = *(undefined4 *)((long)param_2 + 0xfc);
+    (**(code **)(DAT_09184748 + 0x218))(&local_38,param_2,*(undefined8 *)(DAT_09184748 + 0x220));
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uStack_48 = uStack_30;
+    local_50 = local_38;
+    local_40 = local_28;
+    uVar2 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsValid(uVar1,&local_50,0,0);
+    lVar3 = 0;
+    if ((uVar2 & 1) != 0) {
+      lVar3 = thunk_FUN_03f9944c(DAT_09189150);
+      AnhPD_FoodOrder_PieceOffer___ctor(lVar3,0);
+      (**(code **)(*param_2 + 0x218))(&local_38,param_2,*(undefined8 *)(*param_2 + 0x220));
+      if (lVar3 == 0) goto LAB_0412f76c;
+      *(undefined1 *)(lVar3 + 0x28) = 1;
+      *(undefined8 *)(lVar3 + 0x18) = uStack_30;
+      *(undefined8 *)(lVar3 + 0x10) = local_38;
+      *(undefined8 *)(lVar3 + 0x20) = local_28;
+      *(undefined4 *)(lVar3 + 0x2c) = 0;
+    }
+  }
+  return lVar3;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.GetItemOrderSpecs @0x412f770
+undefined8 AnhPD_FoodOrder_SeafoodOrderStrategy__GetItemOrderSpecs(undefined8 param_1,long *param_2)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  if ((DAT_09516328 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184748);
+    FUN_03f5c2a4(&DAT_091aed10);
+    FUN_03f5c2a4(&DAT_0917c850);
+    DAT_09516328 = 1;
+  }
+  if (((param_2 != (long *)0x0) && (*param_2 == DAT_09184748)) &&
+     (uVar1 = AnhPD_FoodOrder_FlexibleSeafoodItem__get_IsComplete(param_2), (uVar1 & 1) == 0)) {
+    uVar2 = thunk_FUN_03f9944c(DAT_0917c850);
+    FUN_057ee92c(uVar2,DAT_091aed10);
+    return uVar2;
+  }
+  uVar2 = AnhPD_FoodOrder_OrderStrategy__GetItemOrderSpecs(param_1,param_2,0);
+  return uVar2;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.TryGetOrderPieces @0x412f82c
+undefined4
+AnhPD_FoodOrder_SeafoodOrderStrategy__TryGetOrderPieces
+          (undefined8 param_1,undefined8 param_2,undefined8 *param_3)
+{
+  uint uVar1;
+  long lVar2;
+  ulong uVar3;
+  undefined4 uVar4;
+  int iVar5;
+  undefined8 *puVar6;
+  uint uVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  ulong local_40;
+  long local_38;
+  if ((DAT_09516329 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516329 = 1;
+  }
+  local_40 = 0;
+  local_38 = 0;
+  if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  puVar6 = *(undefined8 **)(DAT_09189158 + 0xb8);
+  uVar9 = puVar6[1];
+  uVar8 = *puVar6;
+  param_3[2] = puVar6[2];
+  param_3[1] = uVar9;
+  *param_3 = uVar8;
+  uVar3 = CakeOrder_InGame_OrderRecipeCodec__TryDecode(param_2,&local_40,0);
+  lVar2 = local_38;
+  if ((uVar3 & 1) == 0) {
+    uVar4 = 0;
+  }
+  else {
+    if (local_38 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    uVar1 = *(uint *)(local_38 + 0x18);
+    if (0 < (int)uVar1) {
+      uVar7 = 0;
+      do {
+        if (uVar1 <= uVar7) {
+                    
+          FUN_03f5c558();
+        }
+        uVar1 = *(uint *)(lVar2 + (long)(int)uVar7 * 4 + 0x20);
+        iVar5 = *(int *)(DAT_09189158 + 0xe4);
+        if (0x19 < uVar1) goto LAB_0412f998;
+        if (iVar5 == 0) {
+          FUN_03f5c424();
+        }
+        AnhPD_FoodOrder_PieceSet__Add(&local_60,param_3,uVar1,1,0);
+        uVar7 = uVar7 + 1;
+        param_3[1] = uStack_58;
+        *param_3 = local_60;
+        param_3[2] = local_50;
+        uVar1 = *(uint *)(lVar2 + 0x18);
+      } while ((int)uVar7 < (int)uVar1);
+    }
+    uVar3 = local_40;
+    uStack_58 = param_3[1];
+    local_60 = *param_3;
+    local_50 = param_3[2];
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uStack_78 = uStack_58;
+    local_80 = local_60;
+    local_70 = local_50;
+    uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsComplete(uVar3 & 0xffffffff,&local_80,0);
+    if ((uVar3 & 1) == 0) {
+      iVar5 = *(int *)(DAT_09189158 + 0xe4);
+LAB_0412f998:
+      if (iVar5 == 0) {
+        FUN_03f5c424();
+      }
+      puVar6 = *(undefined8 **)(DAT_09189158 + 0xb8);
+      uVar4 = 0;
+      uVar9 = puVar6[1];
+      uVar8 = *puVar6;
+      param_3[2] = puVar6[2];
+      param_3[1] = uVar9;
+      *param_3 = uVar8;
+    }
+    else {
+      uVar4 = 1;
+    }
+  }
+  return uVar4;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.TryGetPlateVariant @0x412f9dc
+void AnhPD_FoodOrder_SeafoodOrderStrategy__TryGetPlateVariant
+               (undefined8 param_1,undefined4 param_2,undefined8 *param_3,undefined8 *param_4)
+{
+  undefined8 uVar1;
+  ulong uVar2;
+  long lVar3;
+  if ((DAT_0951632a & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_0951632a = 1;
+  }
+  uVar1 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424(DAT_09188ad0);
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(uVar1,0);
+  if ((uVar2 & 1) != 0) {
+    lVar3 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (lVar3 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    lVar3 = AnhPD_FoodOrder_RecipeConfigSO__GetDishInfo(lVar3,param_2,0);
+    if (lVar3 != 0) {
+      *param_3 = *(undefined8 *)(lVar3 + 0x40);
+      thunk_FUN_03f5d7b8(param_3);
+      uVar1 = *(undefined8 *)(lVar3 + 0x48);
+      goto LAB_0412fa90;
+    }
+  }
+  *param_3 = 0;
+  thunk_FUN_03f5d7b8(param_3,0);
+  uVar1 = 0;
+LAB_0412fa90:
+  *param_4 = uVar1;
+  thunk_FUN_03f5d7b8(param_4);
+  uVar1 = *param_3;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  UnityEngine_Object__op_Implicit(uVar1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.CanOpenDish @0x412facc
+uint AnhPD_FoodOrder_SeafoodOrderStrategy__CanOpenDish
+               (undefined8 param_1,undefined4 param_2,undefined8 param_3,undefined8 *param_4)
+{
+  uint uVar1;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  if ((DAT_0951632b & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_0951632b = 1;
+  }
+  uStack_48 = param_4[1];
+  local_50 = *param_4;
+  local_40 = param_4[2];
+  if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uStack_68 = uStack_48;
+  local_70 = local_50;
+  local_60 = local_40;
+  uVar1 = CakeOrder_InGame_Seafood_SeafoodPieceTable__CanOpenPlate(param_2,param_3,&local_70,0);
+  return uVar1 & 1;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.TryGetDishOpener @0x412fb6c
+bool AnhPD_FoodOrder_SeafoodOrderStrategy__TryGetDishOpener
+               (undefined8 param_1,undefined4 param_2,undefined8 param_3,undefined8 *param_4)
+{
+  undefined8 uVar1;
+  ulong uVar2;
+  long lVar3;
+  long *plVar4;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  if ((DAT_0951632c & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184748);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_0951632c = 1;
+  }
+  local_50 = 0;
+  uStack_48 = 0;
+  local_40 = 0;
+  *param_4 = 0;
+  thunk_FUN_03f5d7b8(param_4,0);
+  if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  CakeOrder_InGame_Seafood_SeafoodPieceTable__PredictOpen(&local_68,param_2,param_3,0);
+  uStack_48 = uStack_60;
+  local_50 = local_68;
+  local_40 = local_58;
+  uVar1 = AnhPD_FoodOrder_FlexibleId__BaseOf(param_3,0);
+  uStack_78 = uStack_48;
+  local_80 = local_50;
+  local_70 = local_40;
+  uVar2 = CakeOrder_InGame_Seafood_SeafoodPieceTable__CanOpenPlate(param_2,uVar1,&local_80,0);
+  if ((uVar2 & 1) != 0) {
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = CakeOrder_InGame_Seafood_SeafoodPieceTable__BaseId(param_2,0);
+    *param_4 = uVar1;
+    thunk_FUN_03f5d7b8(param_4,uVar1);
+    uVar1 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(uVar1,0);
+    if ((uVar2 & 1) != 0) {
+      lVar3 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+      if (lVar3 == 0) {
+                    
+        FUN_03f5c550();
+      }
+      plVar4 = (long *)AnhPD_FoodOrder_RecipeConfigSO__GetIngredientPrefab(lVar3,*param_4,0);
+      if (plVar4 == (long *)0x0) {
+        return false;
+      }
+      return *plVar4 == DAT_09184748;
+    }
+  }
+  return false;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.TryGetDishResult @0x412fcf8
+bool AnhPD_FoodOrder_SeafoodOrderStrategy__TryGetDishResult
+               (undefined8 param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,
+               undefined8 *param_5)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  long lVar3;
+  long *plVar4;
+  undefined8 local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  if ((DAT_0951632d & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184748);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_0951632d = 1;
+  }
+  local_60 = 0;
+  uStack_58 = 0;
+  local_50 = 0;
+  *param_5 = 0;
+  thunk_FUN_03f5d7b8(param_5,0);
+  if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  CakeOrder_InGame_Seafood_SeafoodPieceTable__PredictCombine(&local_78,param_2,param_3,param_4,0);
+  uStack_58 = uStack_70;
+  local_60 = local_78;
+  local_50 = local_68;
+  if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(&local_60,0);
+  if ((uVar1 & 1) == 0) {
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = CakeOrder_InGame_Seafood_SeafoodPieceTable__BaseId(param_2,0);
+    *param_5 = uVar2;
+    thunk_FUN_03f5d7b8(param_5,uVar2);
+    uVar2 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+    if ((uVar1 & 1) != 0) {
+      lVar3 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+      if (lVar3 == 0) {
+                    
+        FUN_03f5c550();
+      }
+      plVar4 = (long *)AnhPD_FoodOrder_RecipeConfigSO__GetIngredientPrefab(lVar3,*param_5,0);
+      if (plVar4 == (long *)0x0) {
+        return false;
+      }
+      return *plVar4 == DAT_09184748;
+    }
+  }
+  return false;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.CanDishAdd @0x412fe94
+uint AnhPD_FoodOrder_SeafoodOrderStrategy__CanDishAdd
+               (undefined8 param_1,undefined8 param_2,undefined8 *param_3,undefined8 param_4)
+{
+  undefined4 uVar1;
+  uint uVar2;
+  ulong uVar3;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  undefined4 local_34;
+  if ((DAT_0951632e & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_0951632e = 1;
+  }
+  local_34 = 0;
+  if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar3 = CakeOrder_InGame_Seafood_SeafoodPieceTable__TryGetDish(param_2,&local_34,0);
+  uVar1 = local_34;
+  if ((uVar3 & 1) == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uStack_48 = param_3[1];
+    local_50 = *param_3;
+    local_40 = param_3[2];
+    if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uStack_68 = uStack_48;
+    local_70 = local_50;
+    local_60 = local_40;
+    uVar2 = CakeOrder_InGame_Seafood_SeafoodPieceTable__CanAdd(uVar1,&local_70,param_4,0);
+  }
+  return uVar2 & 1;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.CanStillComplete @0x412ff68
+undefined8
+AnhPD_FoodOrder_SeafoodOrderStrategy__CanStillComplete
+          (undefined8 param_1,undefined8 *param_2,undefined8 *param_3)
+{
+  ulong uVar1;
+  int iVar2;
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  undefined8 local_a0;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined8 local_80;
+  undefined8 local_70;
+  undefined8 uStack_68;
+  undefined8 local_60;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  if ((DAT_0951632f & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_0951632f = 1;
+  }
+  uStack_48 = param_2[1];
+  local_50 = *param_2;
+  local_40 = param_2[2];
+  if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uStack_68 = uStack_48;
+  local_70 = local_50;
+  local_60 = local_40;
+  uVar1 = AnhPD_FoodOrder_PieceSet__Covers(param_3,&local_70,0);
+  if ((uVar1 & 1) != 0) {
+    iVar2 = 1;
+    do {
+      uStack_48 = param_3[1];
+      local_50 = *param_3;
+      local_40 = param_3[2];
+      if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uStack_88 = uStack_48;
+      local_90 = local_50;
+      local_80 = local_40;
+      uVar1 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsComplete(iVar2,&local_90,0);
+      if ((uVar1 & 1) != 0) {
+        if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar1 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(param_2,0);
+        if ((uVar1 & 1) != 0) {
+          return 1;
+        }
+        uStack_48 = param_2[1];
+        local_50 = *param_2;
+        local_40 = param_2[2];
+        if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uStack_a8 = uStack_48;
+        local_b0 = local_50;
+        local_a0 = local_40;
+        uVar1 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsValid(iVar2,&local_b0,0,0);
+        if ((uVar1 & 1) != 0) {
+          return 1;
+        }
+      }
+      iVar2 = iVar2 + 1;
+    } while (iVar2 != 7);
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.CanAddPieceNow @0x41300dc
+uint AnhPD_FoodOrder_SeafoodOrderStrategy__CanAddPieceNow
+               (undefined8 param_1,undefined8 param_2,uint param_3)
+{
+  bool bVar1;
+  uint uVar2;
+  int iVar3;
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  undefined8 local_38;
+  if ((DAT_09516330 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516330 = 1;
+  }
+  if (param_3 < 0x1a) {
+    iVar3 = 1;
+    do {
+      if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      AnhPD_FoodOrder_PieceSet__Add(&local_48,param_2,param_3,1,0);
+      if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uStack_58 = uStack_40;
+      local_60 = local_48;
+      local_50 = local_38;
+      uVar2 = CakeOrder_InGame_Seafood_SeafoodPieceTable__IsValid(iVar3,&local_60,0,0);
+    } while (((uVar2 & 1) == 0) && (bVar1 = iVar3 != 6, iVar3 = iVar3 + 1, bVar1));
+  }
+  else {
+    uVar2 = 0;
+  }
+  return uVar2 & 1;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.GetPieceSpawnInfo @0x41301c8
+long AnhPD_FoodOrder_SeafoodOrderStrategy__GetPieceSpawnInfo(undefined8 param_1,undefined4 param_2)
+{
+  undefined8 uVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 local_28;
+  if ((DAT_09516331 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189160);
+    DAT_09516331 = 1;
+  }
+  local_28 = 0;
+  uVar1 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424(DAT_09188ad0);
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(uVar1,0);
+  lVar3 = 0;
+  if ((uVar2 & 1) != 0) {
+    lVar3 = AnhPD_FoodOrder_SeafoodOrderStrategy__get_Config();
+    if (lVar3 == 0) {
+LAB_041302a4:
+                    
+      FUN_03f5c550();
+    }
+    uVar2 = AnhPD_FoodOrder_RecipeConfigSO__TryGetSpawnIdOfPiece(lVar3,param_2,&local_28,0);
+    lVar3 = 0;
+    if ((uVar2 & 1) != 0) {
+      lVar3 = thunk_FUN_03f9944c(DAT_09189160);
+      AnhPD_FoodOrder_PieceSpawnInfo___ctor(lVar3,0);
+      if (lVar3 == 0) goto LAB_041302a4;
+      *(undefined8 *)(lVar3 + 0x10) = local_28;
+      thunk_FUN_03f5d7b8();
+    }
+  }
+  return lVar3;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.WantsStationResult @0x41302a8
+bool AnhPD_FoodOrder_SeafoodOrderStrategy__WantsStationResult(undefined8 param_1,undefined8 param_2)
+{
+  long lVar1;
+  ulong uVar2;
+  undefined8 *puVar3;
+  long lVar4;
+  long lVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  int local_44;
+  if ((DAT_09516332 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f9c8);
+    FUN_03f5c2a4(&DAT_091c9d28);
+    FUN_03f5c2a4(&DAT_09178e58);
+    FUN_03f5c2a4(&DAT_091881a0);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_091ef9a0);
+    FUN_03f5c2a4(&DAT_09194380);
+    DAT_09516332 = 1;
+  }
+  local_44 = 0;
+  lVar1 = thunk_FUN_03f9944c(DAT_09194380);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 != 0) {
+    puVar3 = (undefined8 *)(lVar1 + 0x10);
+    *puVar3 = param_2;
+    thunk_FUN_03f5d7b8(puVar3,param_2);
+    lVar4 = **(long **)(DAT_091881a0 + 0xb8);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(lVar4,0);
+    if ((uVar2 & 1) != 0) {
+      if (lVar4 == 0) goto LAB_041304f8;
+      uVar6 = *(undefined8 *)(lVar4 + 0xd8);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar2 = UnityEngine_Object__op_Inequality(uVar6,param_1,0);
+      if ((uVar2 & 1) == 0) {
+        uVar6 = *(undefined8 *)(lVar4 + 0x20);
+        if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar2 = UnityEngine_Object__op_Implicit(uVar6,0);
+        if ((uVar2 & 1) != 0) {
+          lVar5 = *(long *)(lVar4 + 0x20);
+          if (lVar5 == 0) goto LAB_041304f8;
+          uVar7 = *(undefined8 *)(lVar5 + 0x80);
+          uVar6 = thunk_FUN_03f9944c(DAT_09178e58);
+          FUN_05322d94(uVar6,lVar1,DAT_091ef9a0,0);
+          lVar1 = FUN_04ae5fd0(uVar7,uVar6,DAT_091c9d28);
+          if ((lVar1 != 0) && (*(char *)(lVar1 + 0x2c) == '\0')) {
+            uVar6 = AnhPD_FoodOrder_MessyController__get_LineHandle(lVar4,0);
+            if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+              FUN_03f5c424(DAT_09188ad0);
+            }
+            uVar2 = UnityEngine_Object__op_Implicit(uVar6,0);
+            if ((uVar2 & 1) != 0) {
+              uVar6 = AnhPD_FoodOrder_SeafoodOrderStrategy__UnclaimedDemand(lVar4);
+              uVar7 = AnhPD_FoodOrder_SeafoodOrderStrategy__AvailableSupply(lVar4);
+              lVar1 = AnhPD_FoodOrder_SeafoodOrderStrategy__CalculateMissingResults
+                                (lVar5,uVar6,uVar7);
+              if (lVar1 != 0) {
+                uVar2 = FUN_06fcbf70(lVar1,*puVar3,&local_44,DAT_0919f9c8);
+                if ((uVar2 & 1) != 0) {
+                  return 0 < local_44;
+                }
+                return false;
+              }
+              goto LAB_041304f8;
+            }
+          }
+        }
+      }
+    }
+    return true;
+  }
+LAB_041304f8:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.UnclaimedDemand @0x4130504
+undefined8 AnhPD_FoodOrder_SeafoodOrderStrategy__UnclaimedDemand(long param_1)
+{
+  int iVar1;
+  int iVar2;
+  undefined8 uVar3;
+  long lVar4;
+  long lVar5;
+  undefined8 uVar6;
+  ulong uVar7;
+  long lVar8;
+  ulong uVar9;
+  int iVar10;
+  undefined8 local_170;
+  undefined8 uStack_168;
+  undefined8 uStack_160;
+  undefined8 uStack_158;
+  ulong local_150;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  undefined8 local_138;
+  byte local_120;
+  undefined8 local_100;
+  undefined8 uStack_f8;
+  undefined8 local_f0;
+  undefined8 local_e0;
+  undefined8 uStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 local_c0;
+  undefined8 uStack_b8;
+  undefined8 uStack_b0;
+  undefined8 uStack_a8;
+  undefined8 local_a0;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined8 uStack_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  if ((DAT_09516334 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f978);
+    FUN_03f5c2a4(&DAT_09176b28);
+    FUN_03f5c2a4(&DAT_091af030);
+    FUN_03f5c2a4(&DAT_091aed48);
+    FUN_03f5c2a4(&DAT_091af058);
+    FUN_03f5c2a4(&DAT_091aed50);
+    FUN_03f5c2a4(&DAT_091af060);
+    FUN_03f5c2a4(&DAT_0917c8f0);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516334 = 1;
+  }
+  local_70 = 0;
+  local_a0 = 0;
+  local_100 = 0;
+  uStack_f8 = 0;
+  local_f0 = 0;
+  uStack_d8 = 0;
+  local_e0 = 0;
+  uStack_c8 = 0;
+  uStack_d0 = 0;
+  uStack_b8 = 0;
+  local_c0 = 0;
+  uStack_a8 = 0;
+  uStack_b0 = 0;
+  uStack_88 = 0;
+  local_90 = 0;
+  uStack_78 = 0;
+  uStack_80 = 0;
+  uVar3 = thunk_FUN_03f9944c(DAT_09176b28);
+  FUN_06fc96ac(uVar3,DAT_0919f978);
+  if ((param_1 != 0) &&
+     (lVar4 = AnhPD_FoodOrder_MessyController__get_LineHandle(param_1,0), lVar4 != 0)) {
+    lVar4 = AnhPD_FoodOrder_FCustomerLineHandle__GetActiveOpenOrderSpecs(lVar4,0);
+    lVar5 = thunk_FUN_03f9944c(DAT_0917c8f0);
+    FUN_057f7434(lVar5,DAT_091af030);
+    uVar6 = AnhPD_FoodOrder_MessyController__get_ServeShelf(param_1,0);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar7 = UnityEngine_Object__op_Implicit(uVar6,0);
+    if ((uVar7 & 1) != 0) {
+      lVar8 = AnhPD_FoodOrder_MessyController__get_ServeShelf(param_1,0);
+      if (lVar8 == 0) goto LAB_0413083c;
+      AnhPD_FoodOrder_ServeShelfController__GetGatheredPieces(lVar8,lVar4,lVar5,0);
+    }
+    if (lVar4 != 0) {
+      if (0 < *(int *)(lVar4 + 0x18)) {
+        iVar10 = 0;
+        do {
+          FUN_057eeec4(&local_148,lVar4,iVar10,DAT_091aed50);
+          if ((local_120 & 1) != 0) {
+            FUN_057eeec4(&local_148,lVar4,iVar10,DAT_091aed50);
+            memcpy(&local_e0,&local_148,0x48);
+            if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+              FUN_03f5c424();
+            }
+            AnhPD_FoodOrder_PieceSet__GetEnumerator(&local_170,&uStack_d0,0);
+            local_70 = local_150;
+            uStack_88 = uStack_168;
+            local_90 = local_170;
+            uStack_78 = uStack_158;
+            uStack_80 = uStack_160;
+            while (uVar9 = AnhPD_FoodOrder_PieceSet_Enumerator__MoveNext(&local_90,0),
+                  uVar7 = local_70, (uVar9 & 1) != 0) {
+              iVar1 = local_70._4_4_;
+              if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+                FUN_03f5c424();
+              }
+              lVar8 = CakeOrder_InGame_Seafood_SeafoodPieceTable__PreparedId(uVar7 & 0xffffffff,0);
+              if (lVar5 == 0) goto LAB_0413083c;
+              if (iVar10 < *(int *)(lVar5 + 0x18)) {
+                FUN_057f79cc(&local_148,lVar5,iVar10,DAT_091af060);
+                uStack_f8 = uStack_140;
+                local_100 = local_148;
+                local_f0 = local_138;
+                if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+                  FUN_03f5c424();
+                }
+                iVar2 = AnhPD_FoodOrder_PieceSet__get_Item(&local_100,uVar7 & 0xffffffff,0);
+              }
+              else {
+                iVar2 = 0;
+              }
+              if ((lVar8 != 0) && (0 < iVar1 - iVar2)) {
+                AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount(uVar3,lVar8);
+              }
+            }
+          }
+          iVar10 = iVar10 + 1;
+        } while (iVar10 < *(int *)(lVar4 + 0x18));
+      }
+      return uVar3;
+    }
+  }
+LAB_0413083c:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.AvailableSupply @0x4130840
+undefined8 AnhPD_FoodOrder_SeafoodOrderStrategy__AvailableSupply(long param_1)
+{
+  long *plVar1;
+  undefined8 uVar2;
+  long lVar3;
+  ulong uVar4;
+  ulong uVar5;
+  undefined8 uVar6;
+  undefined8 local_120;
+  undefined8 *puStack_118;
+  long *local_110;
+  undefined8 uStack_108;
+  ulong local_100;
+  undefined8 local_f8;
+  undefined8 *puStack_f0;
+  undefined8 local_e8;
+  undefined8 uStack_e0;
+  long local_d8;
+  undefined8 local_d0;
+  undefined8 uStack_c8;
+  long *local_c0;
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  long *plStack_a0;
+  undefined8 uStack_98;
+  ulong local_90;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  long *local_70;
+  if ((DAT_09516335 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f978);
+    FUN_03f5c2a4(&DAT_09176b28);
+    FUN_03f5c2a4(&DAT_091a2a50);
+    FUN_03f5c2a4(&DAT_091a27c8);
+    FUN_03f5c2a4(&DAT_091a2a58);
+    FUN_03f5c2a4(&DAT_091a27d0);
+    FUN_03f5c2a4(&DAT_091a27d8);
+    FUN_03f5c2a4(&DAT_091a2a60);
+    FUN_03f5c2a4(&DAT_09184748);
+    FUN_03f5c2a4(&DAT_091ac6b0);
+    FUN_03f5c2a4(&DAT_091ac068);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    FUN_03f5c2a4(&DAT_0918a7b8);
+    DAT_09516335 = 1;
+  }
+  local_80 = 0;
+  uStack_78 = 0;
+  local_70 = (long *)0x0;
+  local_90 = 0;
+  local_d0 = 0;
+  uStack_c8 = 0;
+  uStack_a8 = 0;
+  local_b0 = 0;
+  uStack_98 = 0;
+  plStack_a0 = (long *)0x0;
+  local_c0 = (long *)0x0;
+  local_e8 = 0;
+  uStack_e0 = 0;
+  local_d8 = 0;
+  uVar2 = thunk_FUN_03f9944c(DAT_09176b28);
+  FUN_06fc96ac(uVar2,DAT_0919f978);
+  if ((param_1 != 0) &&
+     (lVar3 = AnhPD_FoodOrder_MessyController__GetDragItems(param_1,0), lVar3 != 0)) {
+    FUN_057e185c(&local_120,lVar3,DAT_091ac6b0);
+    local_70 = local_110;
+    puStack_f0 = &local_80;
+    uStack_78 = puStack_118;
+    local_80 = local_120;
+    local_f8 = 0;
+    while (uVar4 = FUN_071bd28c(&local_80,DAT_091a2a58), plVar1 = local_70, (uVar4 & 1) != 0) {
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar4 = UnityEngine_Object__op_Implicit(plVar1,0);
+      if ((uVar4 & 1) != 0) {
+        if (plVar1 == (long *)0x0) {
+                    
+          FUN_03f5c550();
+        }
+        lVar3 = UnityEngine_Component__get_gameObject(plVar1,0);
+        if (lVar3 == 0) {
+                    
+          FUN_03f5c550();
+        }
+        uVar4 = UnityEngine_GameObject__get_activeInHierarchy(lVar3,0);
+        if ((((uVar4 & 1) != 0) && (*(char *)((long)plVar1 + 0xe9) == '\0')) &&
+           (*(char *)((long)plVar1 + 0xea) == '\0')) {
+          if (*plVar1 == DAT_09184748) {
+            (**(code **)(DAT_09184748 + 0x218))
+                      (&local_120,plVar1,*(undefined8 *)(DAT_09184748 + 0x220));
+            uStack_c8 = puStack_118;
+            local_d0 = local_120;
+            local_c0 = local_110;
+            if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+              FUN_03f5c424();
+            }
+            AnhPD_FoodOrder_PieceSet__GetEnumerator(&local_120,&local_d0,0);
+            local_90 = local_100;
+            uStack_a8 = puStack_118;
+            local_b0 = local_120;
+            uStack_98 = uStack_108;
+            plStack_a0 = local_110;
+            while (uVar5 = AnhPD_FoodOrder_PieceSet_Enumerator__MoveNext(&local_b0,0),
+                  uVar4 = local_90, (uVar5 & 1) != 0) {
+              if (*(int *)(DAT_0918a7b8 + 0xe4) == 0) {
+                FUN_03f5c424();
+              }
+              uVar6 = CakeOrder_InGame_Seafood_SeafoodPieceTable__PreparedId(uVar4 & 0xffffffff,0);
+              AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount(uVar2,uVar6,uVar4 >> 0x20);
+            }
+          }
+          else {
+            AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount(uVar2,plVar1[0xf],1);
+          }
+        }
+      }
+    }
+    FUN_071bd288(&local_80,DAT_091a2a50);
+    lVar3 = AnhPD_FoodOrder_MessyController__GetCookingStations(param_1,0);
+    if (lVar3 != 0) {
+      FUN_057e185c(&local_e8,lVar3,DAT_091ac068);
+      local_120 = 0;
+      puStack_118 = &local_e8;
+      while( true ) {
+        do {
+          uVar4 = FUN_071bd28c(&local_e8,DAT_091a27d0);
+          lVar3 = local_d8;
+          if ((uVar4 & 1) == 0) {
+            FUN_071bd288(&local_e8,DAT_091a27c8);
+            return uVar2;
+          }
+          if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          uVar4 = UnityEngine_Object__op_Implicit(lVar3,0);
+        } while ((uVar4 & 1) == 0);
+        if (lVar3 == 0) break;
+        lVar3 = AnhPD_FoodOrder_CookingStation__get_WorkingResultId(lVar3,0);
+        if (lVar3 != 0) {
+          AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount(uVar2,lVar3,1);
+        }
+      }
+                    
+      FUN_03f5c550();
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.CalculateMissingResults @0x4130cbc
+long AnhPD_FoodOrder_SeafoodOrderStrategy__CalculateMissingResults
+               (long param_1,undefined8 param_2,long *param_3)
+{
+  bool bVar1;
+  uint uVar2;
+  int iVar3;
+  int iVar4;
+  long *plVar5;
+  ulong uVar6;
+  undefined8 *puVar7;
+  long lVar8;
+  int *piVar9;
+  long lVar10;
+  int iVar11;
+  undefined8 uVar12;
+  long lVar13;
+  long lVar14;
+  undefined8 uVar15;
+  undefined8 local_c8;
+  undefined8 *puStack_c0;
+  long local_b8;
+  undefined8 local_b0;
+  undefined8 *puStack_a8;
+  long local_a0;
+  undefined8 local_98;
+  undefined8 local_90;
+  undefined8 *puStack_88;
+  long local_80;
+  undefined8 local_78;
+  undefined8 local_70;
+  long local_68;
+  if ((DAT_09516336 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f9c8);
+    FUN_03f5c2a4(&DAT_0919f978);
+    FUN_03f5c2a4(&DAT_0919f9f0);
+    FUN_03f5c2a4(&DAT_09176b28);
+    FUN_03f5c2a4(&DAT_091cafe8);
+    FUN_03f5c2a4(&DAT_091cafa0);
+    FUN_03f5c2a4(&DAT_091a3db8);
+    FUN_03f5c2a4(&DAT_091a3dd0);
+    FUN_03f5c2a4(&DAT_091a3dc0);
+    FUN_03f5c2a4(&DAT_091a3dd8);
+    FUN_03f5c2a4(&DAT_091a3dc8);
+    FUN_03f5c2a4(&DAT_091a3de0);
+    FUN_03f5c2a4(&DAT_09178100);
+    FUN_03f5c2a4(&DAT_09178e60);
+    FUN_03f5c2a4(&DAT_09178108);
+    FUN_03f5c2a4(&DAT_091a8698);
+    FUN_03f5c2a4(&DAT_09179ee0);
+    FUN_03f5c2a4(&DAT_0917b460);
+    FUN_03f5c2a4(&DAT_091af2b8);
+    FUN_03f5c2a4(&DAT_091af280);
+    FUN_03f5c2a4(&DAT_091af270);
+    FUN_03f5c2a4(&DAT_091af290);
+    FUN_03f5c2a4(&DAT_091af298);
+    FUN_03f5c2a4(&DAT_0917c960);
+    FUN_03f5c2a4(&DAT_091ef988);
+    FUN_03f5c2a4(&DAT_091ef990);
+    FUN_03f5c2a4(&DAT_091ef998);
+    FUN_03f5c2a4(&DAT_09194378);
+    DAT_09516336 = 1;
+  }
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0;
+  local_90 = 0;
+  puStack_88 = (undefined8 *)0x0;
+  local_80 = 0;
+  local_a0 = 0;
+  local_98 = 0;
+  local_b0 = 0;
+  puStack_a8 = (undefined8 *)0x0;
+  if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+  lVar10 = puVar7[1];
+  if (lVar10 == 0) {
+    if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+      FUN_03f5c424();
+      puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+    }
+    uVar12 = *puVar7;
+    lVar10 = thunk_FUN_03f9944c(DAT_09178108);
+    FUN_053082d8(lVar10,uVar12,DAT_091ef988,0);
+    plVar5 = (long *)(*(long *)(DAT_09194378 + 0xb8) + 8);
+    *plVar5 = lVar10;
+    thunk_FUN_03f5d7b8(plVar5,lVar10);
+  }
+  if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+  lVar13 = puVar7[2];
+  if (lVar13 == 0) {
+    if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+      FUN_03f5c424();
+      puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+    }
+    uVar12 = *puVar7;
+    lVar13 = thunk_FUN_03f9944c(DAT_09178100);
+    FUN_053080bc(lVar13,uVar12,DAT_091ef990,0);
+    plVar5 = (long *)(*(long *)(DAT_09194378 + 0xb8) + 0x10);
+    *plVar5 = lVar13;
+    thunk_FUN_03f5d7b8(plVar5,lVar13);
+  }
+  lVar10 = FUN_04b04f2c(param_2,lVar10,lVar13,DAT_091cafe8);
+  lVar13 = thunk_FUN_03f9944c(DAT_09176b28);
+  FUN_06fc96ac(lVar13,DAT_0919f978);
+  if (param_1 != 0) {
+    uVar12 = *(undefined8 *)(param_1 + 0x80);
+    if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+    lVar14 = puVar7[3];
+    if (lVar14 == 0) {
+      if (*(int *)(DAT_09194378 + 0xe4) == 0) {
+        FUN_03f5c424();
+        puVar7 = *(undefined8 **)(DAT_09194378 + 0xb8);
+      }
+      uVar15 = *puVar7;
+      lVar14 = thunk_FUN_03f9944c(DAT_09178e60);
+      FUN_05324070(lVar14,uVar15,DAT_091ef998,0);
+      plVar5 = (long *)(*(long *)(DAT_09194378 + 0xb8) + 0x18);
+      *plVar5 = lVar14;
+      thunk_FUN_03f5d7b8(plVar5,lVar14);
+    }
+    local_70 = FUN_04b04e7c(uVar12,lVar14,DAT_091cafa0);
+    thunk_FUN_03f5d7b8(&local_70,local_70);
+    lVar14 = thunk_FUN_03f9944c(DAT_0917c960);
+    FUN_057e0400(lVar14,DAT_091af270);
+    local_68 = lVar14;
+    thunk_FUN_03f5d7b8(&local_68,lVar14);
+    uVar12 = thunk_FUN_03f9944c(DAT_09179ee0);
+    FUN_053eb530(uVar12,DAT_091a8698);
+    local_78 = uVar12;
+    thunk_FUN_03f5d7b8(&local_78,uVar12);
+    if (*(long *)(param_1 + 0x80) != 0) {
+      FUN_057e185c(&local_c8,*(long *)(param_1 + 0x80),DAT_091af280);
+      local_80 = local_b8;
+      puStack_88 = puStack_c0;
+      local_90 = local_c8;
+      local_c8 = 0;
+      puStack_c0 = &local_90;
+      while (uVar6 = FUN_071bd28c(&local_90,DAT_091a3dc0), (uVar6 & 1) != 0) {
+        AnhPD_FoodOrder_SeafoodOrderStrategy__<CalculateMissingResults>g__Visit_21_3
+                  (local_80,&local_78);
+      }
+      FUN_071bd288(&local_90,DAT_091a3db8);
+      if (local_68 != 0) {
+        iVar11 = *(int *)(local_68 + 0x18) + -1;
+        if (-1 < iVar11) {
+          do {
+            if ((((local_68 == 0) ||
+                 (lVar14 = FUN_057e0998(local_68,iVar11,DAT_091af298), lVar14 == 0)) ||
+                (*(long *)(lVar14 + 0x18) == 0)) || (lVar10 == 0)) goto LAB_04131388;
+            uVar12 = *(undefined8 *)(*(long *)(lVar14 + 0x18) + 0x18);
+            uVar6 = FUN_06fcbf70(lVar10,uVar12,(long)&local_98 + 4,DAT_0919f9c8);
+            iVar3 = local_98._4_4_;
+            if ((uVar6 & 1) == 0) {
+              iVar3 = 0;
+            }
+            if (param_3 == (long *)0x0) goto LAB_04131388;
+            lVar8 = *param_3;
+            uVar6 = (ulong)*(ushort *)(lVar8 + 0x12e);
+            if (uVar6 != 0) {
+              piVar9 = (int *)(*(long *)(lVar8 + 0xb0) + 8);
+              do {
+                if (*(long *)(piVar9 + -2) == DAT_0917b460) {
+                  puVar7 = (undefined8 *)(lVar8 + (long)(*piVar9 + 1) * 0x10 + 0x138);
+                  goto LAB_04131238;
+                }
+                uVar6 = uVar6 - 1;
+                piVar9 = piVar9 + 4;
+              } while (uVar6 != 0);
+            }
+            puVar7 = (undefined8 *)FUN_03f95da8(param_3,DAT_0917b460,1);
+LAB_04131238:
+            uVar6 = (*(code *)*puVar7)(param_3,uVar12,&local_98,puVar7[1]);
+            if (lVar13 == 0) goto LAB_04131388;
+            iVar4 = (int)local_98;
+            if ((uVar6 & 1) == 0) {
+              iVar4 = 0;
+            }
+            uVar2 = iVar3 - iVar4 & (iVar3 - iVar4 >> 0x1f ^ 0xffffffffU);
+            FUN_06fca434(lVar13,uVar12,uVar2,DAT_0919f9f0);
+            iVar3 = *(int *)(lVar14 + 0x28);
+            if (iVar3 < 2) {
+              iVar3 = 1;
+            }
+            if (*(long *)(lVar14 + 0x20) == 0) goto LAB_04131388;
+            iVar4 = 0;
+            if (iVar3 != 0) {
+              iVar4 = (int)(uVar2 + iVar3 + -1) / iVar3;
+            }
+            FUN_057e185c(&local_c8,*(long *)(lVar14 + 0x20),DAT_091af2b8);
+            local_b0 = local_c8;
+            local_c8 = 0;
+            puStack_a8 = puStack_c0;
+            local_a0 = local_b8;
+            puStack_c0 = &local_b0;
+            while (uVar6 = FUN_071bd28c(&local_b0,DAT_091a3dd8), (uVar6 & 1) != 0) {
+              if (local_a0 == 0) {
+                    
+                FUN_03f5c550();
+              }
+              if (*(long *)(local_a0 + 0x10) == 0) {
+                    
+                FUN_03f5c550();
+              }
+              AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount
+                        (lVar10,*(undefined8 *)(*(long *)(local_a0 + 0x10) + 0x18),iVar4);
+            }
+            FUN_071bd288(&local_b0,DAT_091a3dd0);
+            bVar1 = 0 < iVar11;
+            iVar11 = iVar11 + -1;
+          } while (bVar1);
+        }
+        return lVar13;
+      }
+    }
+  }
+LAB_04131388:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.StationResultDemand @0x41313f0
+undefined4
+AnhPD_FoodOrder_SeafoodOrderStrategy__StationResultDemand(undefined8 param_1,undefined8 param_2)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  undefined4 local_24;
+  if ((DAT_09516333 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f9c8);
+    FUN_03f5c2a4(&DAT_091881a0);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516333 = 1;
+  }
+  local_24 = 0;
+  lVar4 = **(long **)(DAT_091881a0 + 0xb8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(lVar4,0);
+  if ((uVar1 & 1) != 0) {
+    if (lVar4 == 0) {
+LAB_0413153c:
+                    
+      FUN_03f5c550();
+    }
+    uVar2 = AnhPD_FoodOrder_MessyController__get_LineHandle(lVar4,0);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424(DAT_09188ad0);
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+    if ((uVar1 & 1) != 0) {
+      uVar2 = *(undefined8 *)(lVar4 + 0x20);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+      if ((uVar1 & 1) != 0) {
+        uVar5 = *(undefined8 *)(lVar4 + 0x20);
+        uVar2 = AnhPD_FoodOrder_SeafoodOrderStrategy__UnclaimedDemand(lVar4);
+        uVar3 = AnhPD_FoodOrder_SeafoodOrderStrategy__AvailableSupply(lVar4);
+        lVar4 = AnhPD_FoodOrder_SeafoodOrderStrategy__CalculateMissingResults(uVar5,uVar2,uVar3);
+        if (lVar4 != 0) {
+          uVar1 = FUN_06fcbf70(lVar4,param_2,&local_24,DAT_0919f9c8);
+          if ((uVar1 & 1) != 0) {
+            return local_24;
+          }
+          return 0;
+        }
+        goto LAB_0413153c;
+      }
+    }
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.AddCount @0x4131540
+void AnhPD_FoodOrder_SeafoodOrderStrategy__AddCount(long param_1,long param_2,int param_3)
+{
+  int iVar1;
+  ulong uVar2;
+  int local_24;
+  if ((DAT_09516337 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919f9c8);
+    FUN_03f5c2a4(&DAT_0919f9f0);
+    DAT_09516337 = 1;
+  }
+  local_24 = 0;
+  if ((param_2 != 0) && (0 < param_3)) {
+    if (param_1 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    uVar2 = FUN_06fcbf70(param_1,param_2,&local_24,DAT_0919f9c8);
+    iVar1 = local_24;
+    if ((uVar2 & 1) == 0) {
+      iVar1 = 0;
+    }
+    FUN_06fca434(param_1,param_2,iVar1 + param_3,DAT_0919f9f0);
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<CalculateMissingResults>g__Visit|21_3 @0x41315f0
+void AnhPD_FoodOrder_SeafoodOrderStrategy__<CalculateMissingResults>g__Visit_21_3
+               (long param_1,long *param_2)
+{
+  uint uVar1;
+  long lVar2;
+  ulong uVar3;
+  long lVar4;
+  long lVar5;
+  long *plVar6;
+  undefined8 local_68;
+  undefined8 *puStack_60;
+  long local_58;
+  undefined8 local_50;
+  undefined8 *puStack_48;
+  long local_40;
+  undefined8 local_28;
+  if ((DAT_09516338 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_0919fc70);
+    FUN_03f5c2a4(&DAT_091a3dd0);
+    FUN_03f5c2a4(&DAT_091a3dd8);
+    FUN_03f5c2a4(&DAT_091a3de0);
+    FUN_03f5c2a4(&DAT_091a86b8);
+    FUN_03f5c2a4(&DAT_091af278);
+    FUN_03f5c2a4(&DAT_091af2b8);
+    DAT_09516338 = 1;
+  }
+  local_50 = 0;
+  puStack_48 = (undefined8 *)0x0;
+  local_40 = 0;
+  local_28 = 0;
+  if (((param_1 != 0) && (*(long *)(param_1 + 0x18) != 0)) && (*param_2 != 0)) {
+    uVar3 = FUN_053ec72c(*param_2,*(undefined8 *)(*(long *)(param_1 + 0x18) + 0x18),DAT_091a86b8);
+    if ((uVar3 & 1) == 0) {
+      return;
+    }
+    if (*(long *)(param_1 + 0x20) != 0) {
+      FUN_057e185c(&local_68,*(long *)(param_1 + 0x20),DAT_091af2b8);
+      puStack_48 = puStack_60;
+      local_50 = local_68;
+      local_40 = local_58;
+      local_68 = 0;
+      puStack_60 = &local_50;
+      while (uVar3 = FUN_071bd28c(&local_50,DAT_091a3dd8), (uVar3 & 1) != 0) {
+        if (local_40 == 0) {
+                    
+          FUN_03f5c550();
+        }
+        if (*(long *)(local_40 + 0x10) == 0) {
+                    
+          FUN_03f5c550();
+        }
+        if (param_2[1] == 0) {
+                    
+          FUN_03f5c550();
+        }
+        uVar3 = FUN_06fd9fbc(param_2[1],*(undefined8 *)(*(long *)(local_40 + 0x10) + 0x18),&local_28
+                             ,DAT_0919fc70);
+        if ((uVar3 & 1) != 0) {
+          AnhPD_FoodOrder_SeafoodOrderStrategy__<CalculateMissingResults>g__Visit_21_3
+                    (local_28,param_2);
+        }
+      }
+      FUN_071bd288(&local_50,DAT_091a3dd0);
+      lVar2 = DAT_091af278;
+      lVar4 = param_2[2];
+      if (lVar4 != 0) {
+        lVar5 = *(long *)(lVar4 + 0x10);
+        *(int *)(lVar4 + 0x1c) = *(int *)(lVar4 + 0x1c) + 1;
+        if (lVar5 != 0) {
+          uVar1 = *(uint *)(lVar4 + 0x18);
+          if (uVar1 < *(uint *)(lVar5 + 0x18)) {
+            *(uint *)(lVar4 + 0x18) = uVar1 + 1;
+            plVar6 = (long *)(lVar5 + (long)(int)uVar1 * 8 + 0x20);
+            *plVar6 = param_1;
+            thunk_FUN_03f5d7b8(plVar6,param_1);
+            return;
+          }
+          FUN_057e0c68(lVar4,param_1,
+                       *(undefined8 *)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x70));
+          return;
+        }
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy..ctor @0x4131848
+void AnhPD_FoodOrder_SeafoodOrderStrategy___ctor(undefined8 param_1)
+{
+  AnhPD_FoodOrder_OrderStrategy___ctor(param_1,0);
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.SeafoodOrderStrategy.<>c
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c..cctor @0x4131850
+void AnhPD_FoodOrder_SeafoodOrderStrategy_<>c___cctor(void)
+{
+  undefined8 uVar1;
+  if ((DAT_09516339 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09194378);
+    DAT_09516339 = 1;
+  }
+  uVar1 = thunk_FUN_03f9944c(DAT_09194378);
+  System_Object___ctor(uVar1,0);
+  **(undefined8 **)(DAT_09194378 + 0xb8) = uVar1;
+  thunk_FUN_03f5d7b8(*(undefined8 *)(DAT_09194378 + 0xb8),uVar1);
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c..ctor @0x41318b8
+void AnhPD_FoodOrder_SeafoodOrderStrategy_<>c___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c.<CalculateMissingResults>b__21_0 @0x41318c0
+undefined8
+AnhPD_FoodOrder_SeafoodOrderStrategy_<>c__<CalculateMissingResults>b__21_0
+          (undefined8 param_1,undefined8 param_2)
+{
+  if ((DAT_0951633a & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a9818);
+    DAT_0951633a = 1;
+  }
+  return param_2;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c.<CalculateMissingResults>b__21_1 @0x41318fc
+undefined4
+AnhPD_FoodOrder_SeafoodOrderStrategy_<>c__<CalculateMissingResults>b__21_1
+          (undefined8 param_1,undefined8 param_2,undefined4 param_3)
+{
+  if ((DAT_0951633b & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a9820);
+    DAT_0951633b = 1;
+  }
+  return param_3;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c.<CalculateMissingResults>b__21_2 @0x4131938
+undefined8
+AnhPD_FoodOrder_SeafoodOrderStrategy_<>c__<CalculateMissingResults>b__21_2
+          (undefined8 param_1,long param_2)
+{
+  if ((param_2 != 0) && (*(long *)(param_2 + 0x18) != 0)) {
+    return *(undefined8 *)(*(long *)(param_2 + 0x18) + 0x18);
+  }
+                    
+  FUN_03f5c550();
+}
+
+
+########## TYPE AnhPD.FoodOrder.SeafoodOrderStrategy.<>c__DisplayClass17_0
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c__DisplayClass17_0..ctor @0x41304fc
+void AnhPD_FoodOrder_SeafoodOrderStrategy_<>c__DisplayClass17_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodOrderStrategy.<>c__DisplayClass17_0.<WantsStationResult>b__0 @0x4131958
+undefined8
+AnhPD_FoodOrder_SeafoodOrderStrategy_<>c__DisplayClass17_0__<WantsStationResult>b__0
+          (long param_1,long param_2)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  if ((DAT_0951633c & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_0951633c = 1;
+  }
+  if (param_2 != 0) {
+    uVar2 = *(undefined8 *)(param_2 + 0x18);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+    if ((uVar1 & 1) == 0) {
+      return 0;
+    }
+    if (*(long *)(param_2 + 0x18) != 0) {
+      uVar2 = System_String__op_Equality
+                        (*(undefined8 *)(*(long *)(param_2 + 0x18) + 0x18),
+                         *(undefined8 *)(param_1 + 0x10),0);
+      return uVar2;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+
+########## TYPE AnhPD.FoodOrder.SeafoodPieceDisplay
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.SetShelfPresentation @0x412da30
+void AnhPD_FoodOrder_SeafoodPieceDisplay__SetShelfPresentation(long param_1,byte param_2)
+{
+  uint uVar1;
+  if ((DAT_0951633e & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09189158);
+    DAT_0951633e = 1;
+  }
+  *(byte *)(param_1 + 0x58) = param_2 & 1;
+  if (*(char *)(param_1 + 0x59) != '\0') {
+    if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(param_1 + 0x60,0);
+    AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainer(param_1,(uVar1 ^ 0xffffffff) & 1);
+    return;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.Display @0x412e13c
+void AnhPD_FoodOrder_SeafoodPieceDisplay__Display(long param_1,undefined8 *param_2)
+{
+  undefined4 uVar1;
+  byte bVar2;
+  uint uVar3;
+  int iVar4;
+  ulong uVar5;
+  ulong uVar6;
+  undefined8 uVar7;
+  long lVar8;
+  uint uVar9;
+  long lVar10;
+  long lVar11;
+  undefined8 uVar12;
+  undefined8 local_80;
+  float local_78;
+  if ((DAT_09516340 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c5650);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    DAT_09516340 = 1;
+  }
+  uVar7 = *(undefined8 *)(param_1 + 0x50);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar5 = UnityEngine_Object__op_Implicit(uVar7,0);
+  if ((uVar5 & 1) == 0) {
+    uVar7 = FUN_04a6a6d8(param_1,DAT_091c5650);
+    *(undefined8 *)(param_1 + 0x50) = uVar7;
+    thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0x50),uVar7);
+  }
+  lVar8 = DAT_09189158;
+  *(undefined1 *)(param_1 + 0x59) = 1;
+  uVar12 = param_2[1];
+  uVar7 = *param_2;
+  *(undefined8 *)(param_1 + 0x70) = param_2[2];
+  *(undefined8 *)(param_1 + 0x68) = uVar12;
+  *(undefined8 *)(param_1 + 0x60) = uVar7;
+  if (*(int *)(lVar8 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar3 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(param_2,0);
+  AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainer(param_1,(uVar3 ^ 0xffffffff) & 1);
+  lVar8 = *(long *)(param_1 + 0x38);
+  if (lVar8 != 0) {
+    uVar3 = *(uint *)(lVar8 + 0x18);
+    if (0 < (int)uVar3) {
+      uVar9 = 0;
+      do {
+        if (uVar3 <= uVar9) {
+LAB_0412e488:
+                    
+          FUN_03f5c558();
+        }
+        lVar10 = *(long *)(lVar8 + (long)(int)uVar9 * 8 + 0x20);
+        if (lVar10 == 0) goto LAB_0412e48c;
+        uVar7 = *(undefined8 *)(lVar10 + 0x28);
+        if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar5 = UnityEngine_Object__op_Implicit(uVar7,0);
+        if ((uVar5 & 1) != 0) {
+          if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          uVar5 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(param_2,0);
+          if ((uVar5 & 1) == 0) {
+            uVar7 = *(undefined8 *)(lVar10 + 0x30);
+            if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+              FUN_03f5c424();
+            }
+            bVar2 = UnityEngine_Object__op_Implicit(uVar7,0);
+          }
+          else {
+            bVar2 = 0;
+          }
+          lVar11 = *(long *)(lVar10 + 0x18);
+          if (lVar11 == 0) goto LAB_0412e48c;
+          if (0 < (int)*(ulong *)(lVar11 + 0x18)) {
+            uVar5 = 0;
+            uVar6 = *(ulong *)(lVar11 + 0x18) & 0xffffffff;
+            do {
+              if (uVar6 <= uVar5) goto LAB_0412e488;
+              uVar1 = *(undefined4 *)(lVar11 + 0x20 + uVar5 * 4);
+              if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+                FUN_03f5c424();
+              }
+              iVar4 = AnhPD_FoodOrder_PieceSet__get_Item(param_2,uVar1,0);
+              uVar6 = (ulong)*(uint *)(lVar11 + 0x18);
+              uVar5 = uVar5 + 1;
+              bVar2 = bVar2 & 0 < iVar4;
+            } while ((long)uVar5 < (long)(int)*(uint *)(lVar11 + 0x18));
+          }
+          lVar11 = *(long *)(lVar10 + 0x20);
+          if (lVar11 == 0) goto LAB_0412e48c;
+          if (0 < (int)*(ulong *)(lVar11 + 0x18)) {
+            uVar5 = 0;
+            uVar6 = *(ulong *)(lVar11 + 0x18) & 0xffffffff;
+            do {
+              if (uVar6 <= uVar5) goto LAB_0412e488;
+              uVar1 = *(undefined4 *)(lVar11 + 0x20 + uVar5 * 4);
+              if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+                FUN_03f5c424();
+              }
+              iVar4 = AnhPD_FoodOrder_PieceSet__get_Item(param_2,uVar1,0);
+              uVar6 = (ulong)*(uint *)(lVar11 + 0x18);
+              uVar5 = uVar5 + 1;
+              bVar2 = bVar2 & iVar4 == 0;
+            } while ((long)uVar5 < (long)(int)*(uint *)(lVar11 + 0x18));
+          }
+          if ((*(long *)(lVar10 + 0x28) == 0) ||
+             (lVar11 = UnityEngine_Component__get_gameObject(*(long *)(lVar10 + 0x28),0),
+             lVar11 == 0)) goto LAB_0412e48c;
+          UnityEngine_GameObject__SetActive(lVar11,bVar2 & 1,0);
+          if ((bVar2 & 1) != 0) {
+            if ((*(long *)(lVar10 + 0x28) == 0) ||
+               (lVar11 = UnityEngine_Component__get_transform(*(long *)(lVar10 + 0x28),0),
+               lVar11 == 0)) goto LAB_0412e48c;
+            UnityEngine_Transform__set_localPosition
+                      (*(undefined4 *)(lVar10 + 0x38),*(undefined4 *)(lVar10 + 0x3c),
+                       *(undefined4 *)(lVar10 + 0x40),lVar11,0);
+            if (*(long *)(lVar10 + 0x28) == 0) goto LAB_0412e48c;
+            lVar11 = UnityEngine_Component__get_transform(*(long *)(lVar10 + 0x28),0);
+            local_80 = 0;
+            local_78 = *(float *)(lVar10 + 0x44) * 0.017453292;
+            UnityEngine_Quaternion__Internal_FromEulerRad(&local_80,0);
+            if (lVar11 == 0) goto LAB_0412e48c;
+            UnityEngine_Transform__set_localRotation(lVar11,0);
+            if (*(long *)(lVar10 + 0x28) == 0) goto LAB_0412e48c;
+            UnityEngine_Renderer__set_sortingOrder
+                      (*(long *)(lVar10 + 0x28),*(undefined4 *)(lVar10 + 0x50),0);
+            AnhPD_FoodOrder_SeafoodPieceDisplay__SetSprite
+                      (*(undefined4 *)(lVar10 + 0x48),*(undefined4 *)(lVar10 + 0x4c),
+                       *(undefined8 *)(lVar10 + 0x28),*(undefined8 *)(lVar10 + 0x30));
+          }
+        }
+        uVar3 = *(uint *)(lVar8 + 0x18);
+        uVar9 = uVar9 + 1;
+      } while ((int)uVar9 < (int)uVar3);
+    }
+    return;
+  }
+LAB_0412e48c:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.get_OnShelf @0x41319ec
+bool AnhPD_FoodOrder_SeafoodPieceDisplay__get_OnShelf(long param_1)
+{
+  ulong uVar1;
+  long lVar2;
+  undefined8 uVar3;
+  if ((DAT_0951633d & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_0951633d = 1;
+  }
+  if (*(char *)(param_1 + 0x58) == '\0') {
+    uVar3 = *(undefined8 *)(param_1 + 0x50);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(uVar3,0);
+    if ((uVar1 & 1) == 0) {
+      return false;
+    }
+    lVar2 = *(long *)(param_1 + 0x50);
+    if (lVar2 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    if (*(char *)(lVar2 + 0xe9) == '\0') {
+      return *(char *)(lVar2 + 0xea) != '\0';
+    }
+  }
+  return true;
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.ShowContainer @0x4131a88
+void AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainer(long param_1,uint param_2)
+{
+  bool bVar1;
+  byte bVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined4 *puVar5;
+  undefined4 *puVar6;
+  undefined4 *puVar7;
+  undefined4 *puVar8;
+  undefined4 *puVar9;
+  undefined8 uVar10;
+  undefined8 uVar11;
+  if ((DAT_09516341 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516341 = 1;
+  }
+  bVar2 = AnhPD_FoodOrder_SeafoodPieceDisplay__get_OnShelf(param_1);
+  *(byte *)(param_1 + 0x5a) = bVar2 & 1;
+  AnhPD_FoodOrder_SeafoodPieceDisplay__UpdateArtworkScale(param_1);
+  if (*(char *)(param_1 + 0x5a) == '\0') {
+    uVar10 = *(undefined8 *)(param_1 + 0x28);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar3 = UnityEngine_Object__op_Implicit(uVar10,0);
+    lVar4 = *(long *)(param_1 + 0x20);
+    if (lVar4 == 0) goto LAB_04131c14;
+    uVar10 = *(undefined8 *)(lVar4 + 0x10);
+    if ((uVar3 & 1) == 0) goto LAB_04131b84;
+    uVar11 = *(undefined8 *)(param_1 + 0x28);
+    if (DAT_09515ce6 == '\0') {
+      FUN_03f5c2a4(&DAT_0918cbd0);
+      lVar4 = *(long *)(param_1 + 0x20);
+      DAT_09515ce6 = '\x01';
+      if (lVar4 == 0) goto LAB_04131c14;
+    }
+    bVar1 = false;
+    puVar8 = (undefined4 *)(param_1 + 0x30);
+    puVar9 = (undefined4 *)(param_1 + 0x34);
+    puVar5 = *(undefined4 **)(DAT_0918cbd0 + 0xb8);
+    puVar7 = puVar5 + 2;
+    puVar6 = puVar5 + 1;
+  }
+  else {
+    lVar4 = *(long *)(param_1 + 0x20);
+    if (lVar4 == 0) goto LAB_04131c14;
+    uVar10 = *(undefined8 *)(lVar4 + 0x10);
+LAB_04131b84:
+    uVar11 = *(undefined8 *)(lVar4 + 0x20);
+    puVar5 = (undefined4 *)(lVar4 + 0x30);
+    puVar6 = (undefined4 *)(lVar4 + 0x34);
+    puVar7 = (undefined4 *)(lVar4 + 0x38);
+    puVar8 = (undefined4 *)(lVar4 + 0x50);
+    puVar9 = (undefined4 *)(lVar4 + 0x54);
+    bVar1 = true;
+  }
+  AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainerLayer
+            (*puVar5,*puVar6,*puVar7,*(undefined4 *)(lVar4 + 0x48),*puVar8,*puVar9,uVar10,uVar11,
+             *(undefined4 *)(lVar4 + 0x60),param_2 & 1);
+  lVar4 = *(long *)(param_1 + 0x20);
+  if (lVar4 != 0) {
+    if (bVar1) {
+      uVar10 = *(undefined8 *)(lVar4 + 0x28);
+    }
+    else {
+      uVar10 = 0;
+    }
+    AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainerLayer
+              (*(undefined4 *)(lVar4 + 0x3c),*(undefined4 *)(lVar4 + 0x40),
+               *(undefined4 *)(lVar4 + 0x44),*(undefined4 *)(lVar4 + 0x4c),
+               *(undefined4 *)(lVar4 + 0x58),*(undefined4 *)(lVar4 + 0x5c),
+               *(undefined8 *)(lVar4 + 0x18),uVar10,*(undefined4 *)(lVar4 + 100),param_2 & 1);
+    return;
+  }
+LAB_04131c14:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.LateUpdate @0x4131c18
+void AnhPD_FoodOrder_SeafoodPieceDisplay__LateUpdate(long param_1)
+{
+  byte bVar1;
+  byte bVar2;
+  uint uVar3;
+  ulong uVar4;
+  undefined8 uVar5;
+  if ((DAT_0951633f & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c5650);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_09189158);
+    DAT_0951633f = 1;
+  }
+  uVar5 = *(undefined8 *)(param_1 + 0x50);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar4 = UnityEngine_Object__op_Implicit(uVar5,0);
+  if ((uVar4 & 1) == 0) {
+    uVar5 = FUN_04a6a6d8(param_1,DAT_091c5650);
+    *(undefined8 *)(param_1 + 0x50) = uVar5;
+    thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0x50),uVar5);
+  }
+  if ((*(char *)(param_1 + 0x59) != '\0') &&
+     (bVar1 = *(byte *)(param_1 + 0x5a),
+     bVar2 = AnhPD_FoodOrder_SeafoodPieceDisplay__get_OnShelf(param_1), bVar1 != (bVar2 & 1))) {
+    if (*(int *)(DAT_09189158 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar3 = AnhPD_FoodOrder_PieceSet__get_IsEmpty(param_1 + 0x60,0);
+    AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainer(param_1,(uVar3 ^ 0xffffffff) & 1);
+  }
+  AnhPD_FoodOrder_SeafoodPieceDisplay__UpdateArtworkScale(param_1);
+  return;
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.UpdateArtworkScale @0x4131d14
+void AnhPD_FoodOrder_SeafoodPieceDisplay__UpdateArtworkScale(long param_1)
+{
+  bool bVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 uVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  if ((DAT_09516342 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516342 = 1;
+  }
+  uVar4 = *(undefined8 *)(param_1 + 0x40);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if ((uVar2 & 1) == 0) {
+    return;
+  }
+  if (*(char *)(param_1 + 0x58) == '\0') {
+    uVar4 = *(undefined8 *)(param_1 + 0x50);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(uVar4,0);
+    if ((uVar2 & 1) == 0) goto LAB_04131db8;
+    lVar3 = *(long *)(param_1 + 0x50);
+    if (lVar3 == 0) goto LAB_04131e9c;
+    if (*(char *)(lVar3 + 0xe9) == '\0') {
+      bVar1 = *(char *)(lVar3 + 0xea) == '\0';
+    }
+    else {
+      bVar1 = false;
+    }
+  }
+  else {
+LAB_04131db8:
+    bVar1 = true;
+  }
+  if (DAT_09515cf3 == '\0') {
+    FUN_03f5c2a4(&DAT_0918cbd0);
+    DAT_09515cf3 = '\x01';
+  }
+  fVar5 = 1.0;
+  if (!bVar1) {
+    fVar5 = *(float *)(param_1 + 0x48);
+  }
+  if (*(long *)(param_1 + 0x40) != 0) {
+    lVar3 = *(long *)(DAT_0918cbd0 + 0xb8);
+    fVar7 = *(float *)(lVar3 + 0x14);
+    fVar8 = *(float *)(lVar3 + 0xc);
+    fVar10 = fVar8 * fVar5;
+    fVar9 = fVar7 * fVar5;
+    fVar5 = *(float *)(lVar3 + 0x10) * fVar5;
+    fVar6 = (float)UnityEngine_Transform__get_localScale(*(long *)(param_1 + 0x40),0);
+    fVar6 = fVar6 - fVar10;
+    fVar7 = fVar7 - fVar5;
+    fVar8 = fVar8 - fVar9;
+    if (fVar8 * fVar8 + fVar6 * fVar6 + fVar7 * fVar7 < 9.9999994e-11) {
+      return;
+    }
+    if (*(long *)(param_1 + 0x40) != 0) {
+      UnityEngine_Transform__set_localScale(fVar10,fVar5,fVar9,*(long *)(param_1 + 0x40),0);
+      return;
+    }
+  }
+LAB_04131e9c:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.SetSprite @0x4131ea0
+void AnhPD_FoodOrder_SeafoodPieceDisplay__SetSprite
+               (float param_1,float param_2,long param_3,long param_4)
+{
+  ulong uVar1;
+  long lVar2;
+  float fVar3;
+  float fVar4;
+  float fVar5;
+  undefined1 auStack_58 [12];
+  float local_4c;
+  float local_48;
+  if ((DAT_09516344 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516344 = 1;
+  }
+  if (param_3 != 0) {
+    UnityEngine_SpriteRenderer__set_sprite(param_3,param_4,0);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(param_4,0);
+    fVar5 = 1.0;
+    if ((uVar1 & 1) != 0) {
+      if (param_4 == 0) goto LAB_04131fb4;
+      UnityEngine_Sprite__get_bounds(auStack_58,param_4,0);
+      UnityEngine_Sprite__get_bounds(auStack_58,param_4,0);
+      fVar5 = local_4c + local_4c;
+      if (local_4c + local_4c <= local_48 + local_48) {
+        fVar5 = local_48 + local_48;
+      }
+    }
+    lVar2 = UnityEngine_Component__get_transform(param_3,0);
+    if (lVar2 != 0) {
+      fVar4 = param_1;
+      if (param_1 <= param_2) {
+        fVar4 = param_2;
+      }
+      fVar3 = 0.01;
+      if (0.01 <= fVar5) {
+        fVar3 = fVar5;
+      }
+      UnityEngine_Transform__set_localScale(param_1 / fVar3,param_2 / fVar3,fVar4 / fVar3,lVar2,0);
+      return;
+    }
+  }
+LAB_04131fb4:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay.ShowContainerLayer @0x4131fb8
+void AnhPD_FoodOrder_SeafoodPieceDisplay__ShowContainerLayer
+               (undefined4 param_1,undefined4 param_2,undefined4 param_3,float param_4,
+               undefined4 param_5,undefined4 param_6,long param_7,undefined8 param_8,
+               undefined4 param_9,uint param_10)
+{
+  uint uVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 local_80;
+  float local_78;
+  if ((DAT_09516343 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516343 = 1;
+  }
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(param_7,0);
+  if ((uVar2 & 1) == 0) {
+    return;
+  }
+  if (param_7 != 0) {
+    lVar3 = UnityEngine_Component__get_gameObject(param_7,0);
+    if ((param_10 & 1) == 0) {
+      uVar1 = 0;
+    }
+    else {
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar1 = UnityEngine_Object__op_Implicit(param_8,0);
+    }
+    if (lVar3 != 0) {
+      UnityEngine_GameObject__SetActive(lVar3,uVar1 & 1,0);
+      lVar3 = UnityEngine_Component__get_transform(param_7,0);
+      if (lVar3 != 0) {
+        UnityEngine_Transform__set_localPosition(param_1,param_2,param_3,lVar3,0);
+        lVar3 = UnityEngine_Component__get_transform(param_7,0);
+        local_80 = 0;
+        local_78 = param_4 * 0.017453292;
+        UnityEngine_Quaternion__Internal_FromEulerRad(&local_80,0);
+        if (lVar3 != 0) {
+          UnityEngine_Transform__set_localRotation(lVar3,0);
+          UnityEngine_Renderer__set_sortingOrder(param_7,param_9,0);
+          AnhPD_FoodOrder_SeafoodPieceDisplay__SetSprite(param_5,param_6,param_7,param_8);
+          return;
+        }
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.SeafoodPieceDisplay..ctor @0x4132148
+void AnhPD_FoodOrder_SeafoodPieceDisplay___ctor(long param_1)
+{
+  undefined8 uVar1;
+  long lVar2;
+  long lVar3;
+  float fVar4;
+  float fVar5;
+  if ((DAT_09516345 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c02e8);
+    FUN_03f5c2a4(&DAT_0918a7a8);
+    DAT_09516345 = 1;
+  }
+  uVar1 = thunk_FUN_03f9944c(DAT_0918a7a8);
+  AnhPD_FoodOrder_SeafoodContainerVisual___ctor();
+  *(undefined8 *)(param_1 + 0x20) = uVar1;
+  thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0x20),uVar1);
+  if (DAT_09515ce9 == '\0') {
+    FUN_03f5c2a4(&DAT_0918cb68);
+    DAT_09515ce9 = '\x01';
+  }
+  lVar2 = DAT_091c02e8;
+  uVar1 = *(undefined8 *)(*(long *)(DAT_0918cb68 + 0xb8) + 8);
+  fVar4 = (float)uVar1;
+  fVar5 = (float)((ulong)uVar1 >> 0x20);
+  *(ulong *)(param_1 + 0x30) = CONCAT44(fVar5 + fVar5,fVar4 + fVar4);
+  lVar3 = *(long *)(lVar2 + 0x38);
+  if (lVar3 == 0) {
+    FUN_03f95ac8(lVar2);
+    lVar3 = *(long *)(lVar2 + 0x38);
+  }
+  lVar3 = *(long *)(lVar3 + 0x10);
+  if ((*(ushort *)(lVar3 + 0x135) & 1) == 0) {
+    lVar3 = FUN_03f95a6c();
+  }
+  if (*(int *)(lVar3 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  lVar2 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  *(undefined8 *)(param_1 + 0x38) = **(undefined8 **)(lVar2 + 0xb8);
+  thunk_FUN_03f5d7b8();
+  *(undefined4 *)(param_1 + 0x48) = 0x3faccccd;
+  UnityEngine_MonoBehaviour___ctor(param_1,0);
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.SeafoodRecipeLayer
+//==== AnhPD.FoodOrder.SeafoodRecipeLayer..ctor @0x41322e4
+void AnhPD_FoodOrder_SeafoodRecipeLayer___ctor(long param_1)
+{
+  long lVar1;
+  long lVar2;
+  if ((DAT_09516346 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c0238);
+    DAT_09516346 = 1;
+  }
+  lVar1 = DAT_091c0238;
+  lVar2 = *(long *)(DAT_091c0238 + 0x38);
+  if (lVar2 == 0) {
+    FUN_03f95ac8(DAT_091c0238);
+    lVar2 = *(long *)(lVar1 + 0x38);
+  }
+  lVar2 = *(long *)(lVar2 + 0x10);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  if (*(int *)(lVar2 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  lVar1 = *(long *)(*(long *)(lVar1 + 0x38) + 0x10);
+  if ((*(ushort *)(lVar1 + 0x135) & 1) == 0) {
+    lVar1 = FUN_03f95a6c();
+  }
+  *(undefined8 *)(param_1 + 0x18) = **(undefined8 **)(lVar1 + 0xb8);
+  thunk_FUN_03f5d7b8();
+  lVar1 = DAT_091c0238;
+  lVar2 = *(long *)(DAT_091c0238 + 0x38);
+  if (lVar2 == 0) {
+    FUN_03f95ac8(DAT_091c0238);
+    lVar2 = *(long *)(lVar1 + 0x38);
+  }
+  lVar2 = *(long *)(lVar2 + 0x10);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  if (*(int *)(lVar2 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  lVar1 = *(long *)(*(long *)(lVar1 + 0x38) + 0x10);
+  if ((*(ushort *)(lVar1 + 0x135) & 1) == 0) {
+    lVar1 = FUN_03f95a6c();
+  }
+  *(undefined8 *)(param_1 + 0x20) = **(undefined8 **)(lVar1 + 0xb8);
+  thunk_FUN_03f5d7b8();
+  if (DAT_09515ce9 == '\0') {
+    FUN_03f5c2a4(&DAT_0918cb68);
+    DAT_09515ce9 = '\x01';
+  }
+  *(undefined8 *)(param_1 + 0x48) = *(undefined8 *)(*(long *)(DAT_0918cb68 + 0xb8) + 8);
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate
+//==== AnhPD.FoodOrder.ServePlate.get_Order @0x40bb878
+void AnhPD_FoodOrder_ServePlate__get_Order(undefined8 *param_1,long param_2)
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  uVar1 = *(undefined8 *)(param_2 + 0x88);
+  uVar3 = *(undefined8 *)(param_2 + 0xa0);
+  uVar2 = *(undefined8 *)(param_2 + 0x98);
+  param_1[1] = *(undefined8 *)(param_2 + 0x90);
+  *param_1 = uVar1;
+  param_1[3] = uVar3;
+  param_1[2] = uVar2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_Order @0x40bb888
+void AnhPD_FoodOrder_ServePlate__set_Order(long param_1,undefined8 *param_2)
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  uVar3 = param_2[1];
+  uVar2 = *param_2;
+  uVar1 = param_2[2];
+  *(undefined8 *)(param_1 + 0xa0) = param_2[3];
+  *(undefined8 *)(param_1 + 0x98) = uVar1;
+  *(undefined8 *)(param_1 + 0x90) = uVar3;
+  *(undefined8 *)(param_1 + 0x88) = uVar2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_Item @0x40bb898
+undefined8 AnhPD_FoodOrder_ServePlate__get_Item(long param_1)
+{
+  return *(undefined8 *)(param_1 + 0xa8);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_Item @0x40bb8a0
+void AnhPD_FoodOrder_ServePlate__set_Item(long param_1,undefined8 param_2)
+{
+  *(undefined8 *)(param_1 + 0xa8) = param_2;
+  thunk_FUN_03f5d7b8();
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_IsEmpty @0x40bb8a8
+uint AnhPD_FoodOrder_ServePlate__get_IsEmpty(long param_1)
+{
+  uint uVar1;
+  undefined8 uVar2;
+  if ((DAT_09515f53 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f53 = 1;
+  }
+  uVar2 = *(undefined8 *)(param_1 + 0xa8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+  return (uVar1 ^ 0xffffffff) & 1;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_ItemAnchor @0x40bb910
+undefined8 AnhPD_FoodOrder_ServePlate__get_ItemAnchor(long param_1)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  if ((DAT_09515f54 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f54 = 1;
+  }
+  uVar2 = *(undefined8 *)(param_1 + 0x20);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar2,0);
+  if ((uVar1 & 1) != 0) {
+    return *(undefined8 *)(param_1 + 0x20);
+  }
+  uVar2 = UnityEngine_Component__get_transform(param_1,0);
+  return uVar2;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_IsHidden @0x40bb98c
+undefined1 AnhPD_FoodOrder_ServePlate__get_IsHidden(long param_1)
+{
+  return *(undefined1 *)(param_1 + 0xb0);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_IsHidden @0x40bb994
+void AnhPD_FoodOrder_ServePlate__set_IsHidden(long param_1,undefined1 param_2)
+{
+  *(undefined1 *)(param_1 + 0xb0) = param_2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_IsServing @0x40bb99c
+undefined1 AnhPD_FoodOrder_ServePlate__get_IsServing(long param_1)
+{
+  return *(undefined1 *)(param_1 + 0xb1);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_IsServing @0x40bb9a4
+void AnhPD_FoodOrder_ServePlate__set_IsServing(long param_1,undefined1 param_2)
+{
+  *(undefined1 *)(param_1 + 0xb1) = param_2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_IsServeHeld @0x40bb9ac
+bool AnhPD_FoodOrder_ServePlate__get_IsServeHeld(long param_1)
+{
+  float fVar1;
+  fVar1 = (float)UnityEngine_Time__get_time(0);
+  return fVar1 < *(float *)(param_1 + 0x84);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_IsAdopting @0x40bb9d0
+undefined1 AnhPD_FoodOrder_ServePlate__get_IsAdopting(long param_1)
+{
+  return *(undefined1 *)(param_1 + 0xb2);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_IsAdopting @0x40bb9d8
+void AnhPD_FoodOrder_ServePlate__set_IsAdopting(long param_1,undefined1 param_2)
+{
+  *(undefined1 *)(param_1 + 0xb2) = param_2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_DishKey @0x40bb9e0
+undefined4 AnhPD_FoodOrder_ServePlate__get_DishKey(long param_1)
+{
+  return *(undefined4 *)(param_1 + 0xb4);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_DishKey @0x40bb9e8
+void AnhPD_FoodOrder_ServePlate__set_DishKey(long param_1,undefined4 param_2)
+{
+  *(undefined4 *)(param_1 + 0xb4) = param_2;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.get_DirtyPrefab @0x40bb9f0
+undefined8 AnhPD_FoodOrder_ServePlate__get_DirtyPrefab(long param_1)
+{
+  return *(undefined8 *)(param_1 + 0xb8);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.set_DirtyPrefab @0x40bb9f8
+void AnhPD_FoodOrder_ServePlate__set_DirtyPrefab(long param_1,undefined8 param_2)
+{
+  *(undefined8 *)(param_1 + 0xb8) = param_2;
+  thunk_FUN_03f5d7b8();
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.Awake @0x40bba00
+void AnhPD_FoodOrder_ServePlate__Awake(undefined1 param_1 [16],undefined4 param_2,long param_3)
+{
+  undefined8 uVar1;
+  ulong uVar2;
+  undefined4 uVar3;
+  if ((DAT_09515f55 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091c5848);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f55 = 1;
+  }
+  uVar1 = FUN_04a6ac70(param_3,1,DAT_091c5848);
+  *(undefined8 *)(param_3 + 0x50) = uVar1;
+  thunk_FUN_03f5d7b8((undefined8 *)(param_3 + 0x50),uVar1);
+  uVar1 = *(undefined8 *)(param_3 + 0x30);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(uVar1,0);
+  if ((uVar2 & 1) == 0) {
+    return;
+  }
+  if (*(long *)(param_3 + 0x30) != 0) {
+    uVar3 = UnityEngine_Collider2D__get_offset(*(long *)(param_3 + 0x30),0);
+    *(undefined4 *)(param_3 + 0xcc) = uVar3;
+    *(undefined4 *)(param_3 + 0xd0) = param_2;
+    if (*(long *)(param_3 + 0x30) != 0) {
+      uVar3 = UnityEngine_BoxCollider2D__get_size(*(long *)(param_3 + 0x30),0);
+      *(undefined4 *)(param_3 + 0xd4) = uVar3;
+      *(undefined4 *)(param_3 + 0xd8) = param_2;
+      return;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.HideUntilFirstItem @0x40bbad0
+void AnhPD_FoodOrder_ServePlate__HideUntilFirstItem(long param_1)
+{
+  if (*(long *)(param_1 + 0x28) != 0) {
+    UnityEngine_Rendering_SortingGroup__set_sortingOrder(*(long *)(param_1 + 0x28),0xfffffffe,0);
+    AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(param_1,0);
+    *(undefined1 *)(param_1 + 0xb0) = 1;
+    return;
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SetVisualsEnabled @0x40bbb0c
+void AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(long param_1,uint param_2)
+{
+  ulong uVar1;
+  long lVar2;
+  long lVar3;
+  ulong uVar4;
+  if ((DAT_09515f59 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f59 = 1;
+  }
+  lVar3 = *(long *)(param_1 + 0x50);
+  if ((lVar3 != 0) && (0 < (int)*(ulong *)(lVar3 + 0x18))) {
+    uVar4 = 0;
+    uVar1 = *(ulong *)(lVar3 + 0x18) & 0xffffffff;
+    do {
+      if (uVar1 <= uVar4) {
+                    
+        FUN_03f5c558();
+      }
+      lVar2 = *(long *)(lVar3 + 0x20 + uVar4 * 8);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar1 = UnityEngine_Object__op_Implicit(lVar2,0);
+      if ((uVar1 & 1) != 0) {
+        if (lVar2 == 0) {
+                    
+          FUN_03f5c550();
+        }
+        UnityEngine_Renderer__set_enabled(lVar2,param_2 & 1,0);
+      }
+      uVar1 = (ulong)*(uint *)(lVar3 + 0x18);
+      uVar4 = uVar4 + 1;
+    } while ((long)uVar4 < (long)(int)*(uint *)(lVar3 + 0x18));
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.RaiseSortingOrder @0x40bbbd8
+void AnhPD_FoodOrder_ServePlate__RaiseSortingOrder(long param_1,undefined8 param_2)
+{
+  int iVar1;
+  iVar1 = (int)param_2;
+  *(int *)(param_1 + 100) = iVar1;
+  if (*(long *)(param_1 + 0x28) != 0) {
+    UnityEngine_Rendering_SortingGroup__set_sortingOrder(*(long *)(param_1 + 0x28),param_2,0);
+    if (*(char *)(param_1 + 0xc4) == '\0') {
+      return;
+    }
+    *(int *)(param_1 + 200) = iVar1;
+    if (*(long *)(param_1 + 0x28) != 0) {
+      UnityEngine_Rendering_SortingGroup__set_sortingOrder
+                (*(long *)(param_1 + 0x28),*(int *)(param_1 + 0xc0) + iVar1,0);
+      return;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SetMergeAnimLifted @0x40bbc38
+void AnhPD_FoodOrder_ServePlate__SetMergeAnimLifted(long param_1,byte param_2)
+{
+  undefined4 uVar1;
+  int iVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  if ((DAT_09515f56 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f56 = 1;
+  }
+  if (*(byte *)(param_1 + 0xc4) != (param_2 & 1)) {
+    uVar5 = *(undefined8 *)(param_1 + 0x28);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar3 = UnityEngine_Object__op_Implicit(uVar5,0);
+    if ((uVar3 & 1) != 0) {
+      lVar4 = *(long *)(param_1 + 0x28);
+      *(byte *)(param_1 + 0xc4) = param_2 & 1;
+      if ((param_2 & 1) == 0) {
+        if (lVar4 != 0) {
+          iVar2 = *(int *)(param_1 + 200);
+LAB_040bbd00:
+          UnityEngine_Rendering_SortingGroup__set_sortingOrder(lVar4,iVar2,0);
+          return;
+        }
+      }
+      else if (lVar4 != 0) {
+        uVar1 = UnityEngine_Rendering_SortingGroup__get_sortingOrder(lVar4,0);
+        lVar4 = *(long *)(param_1 + 0x28);
+        *(undefined4 *)(param_1 + 200) = uVar1;
+        if (lVar4 != 0) {
+          iVar2 = UnityEngine_Rendering_SortingGroup__get_sortingOrder(lVar4,0);
+          iVar2 = *(int *)(param_1 + 0xc0) + iVar2;
+          goto LAB_040bbd00;
+        }
+      }
+                    
+      FUN_03f5c550();
+    }
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.ShowInstant @0x40bbd18
+void AnhPD_FoodOrder_ServePlate__ShowInstant(long param_1)
+{
+  if (*(char *)(param_1 + 0xb0) != '\0') {
+    AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(param_1,1);
+    *(undefined1 *)(param_1 + 0xb0) = 0;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.ShowAnimated @0x40bbd3c
+void AnhPD_FoodOrder_ServePlate__ShowAnimated
+               (undefined1 param_1 [16],undefined4 param_2,undefined4 param_3,undefined8 param_4,
+               long param_5)
+{
+  long lVar1;
+  long lVar2;
+  undefined8 uVar3;
+  ulong uVar4;
+  long lVar5;
+  undefined8 uVar6;
+  ulong uVar7;
+  long *plVar8;
+  undefined8 *puVar9;
+  undefined8 uVar10;
+  undefined4 uVar11;
+  float fVar12;
+  if ((DAT_09515f57 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09175e18);
+    FUN_03f5c2a4(&DAT_09175e68);
+    FUN_03f5c2a4(&DAT_09183190);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918af70);
+    FUN_03f5c2a4(&DAT_0918c148);
+    FUN_03f5c2a4(&DAT_091dbd48);
+    FUN_03f5c2a4(&DAT_091dbe80);
+    FUN_03f5c2a4(&DAT_091dbe70);
+    FUN_03f5c2a4(&DAT_091ef9e8);
+    FUN_03f5c2a4(&DAT_091943d0);
+    FUN_03f5c2a4(&DAT_091ef9f0);
+    FUN_03f5c2a4(&DAT_091ef9f8);
+    FUN_03f5c2a4(&DAT_091943d8);
+    DAT_09515f57 = 1;
+  }
+  lVar1 = thunk_FUN_03f9944c(DAT_091943d0);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 != 0) {
+    *(long *)(lVar1 + 0x30) = param_5;
+    thunk_FUN_03f5d7b8((long *)(lVar1 + 0x30),param_5);
+    if (*(char *)(param_5 + 0xb0) == '\0') {
+      return;
+    }
+    AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(param_5,1);
+    *(undefined1 *)(param_5 + 0xb0) = 0;
+    if (*(float *)(param_5 + 0x48) <= 0.0) {
+      return;
+    }
+    lVar2 = UnityEngine_Component__get_transform(param_5,0);
+    plVar8 = (long *)(lVar1 + 0x10);
+    *plVar8 = lVar2;
+    thunk_FUN_03f5d7b8(plVar8,lVar2);
+    if (*plVar8 != 0) {
+      uVar11 = UnityEngine_Transform__get_localScale(*plVar8,0);
+      *(undefined4 *)(lVar1 + 0x18) = uVar11;
+      *(undefined4 *)(lVar1 + 0x1c) = param_2;
+      *(undefined4 *)(lVar1 + 0x20) = param_3;
+      if (*(int *)(DAT_09183190 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar3 = DG_Tweening_DOTween__Sequence(0);
+      uVar10 = *(undefined8 *)(param_5 + 0x20);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424(DAT_09188ad0);
+      }
+      uVar4 = UnityEngine_Object__op_Implicit(uVar10,0);
+      uVar10 = 0;
+      if ((uVar4 & 1) != 0) {
+        uVar10 = *(undefined8 *)(param_5 + 0x20);
+        lVar2 = *plVar8;
+        if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar4 = UnityEngine_Object__op_Inequality(uVar10,lVar2,0);
+        uVar10 = 0;
+        if ((uVar4 & 1) != 0) {
+          uVar10 = *(undefined8 *)(param_5 + 0x20);
+        }
+      }
+      puVar9 = (undefined8 *)(lVar1 + 0x28);
+      *puVar9 = uVar10;
+      thunk_FUN_03f5d7b8(puVar9);
+      uVar10 = *puVar9;
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar4 = UnityEngine_Object__op_Implicit(uVar10,0);
+      if ((uVar4 & 1) != 0) {
+        lVar2 = thunk_FUN_03f9944c(DAT_091943d8);
+        System_Object___ctor(lVar2,0);
+        if (lVar2 == 0) goto LAB_040bc1b4;
+        plVar8 = (long *)(lVar2 + 0x20);
+        *plVar8 = lVar1;
+        thunk_FUN_03f5d7b8(plVar8,lVar1);
+        if ((*plVar8 == 0) || (lVar5 = *(long *)(*plVar8 + 0x28), lVar5 == 0)) goto LAB_040bc1b4;
+        uVar11 = UnityEngine_Transform__get_localScale(lVar5,0);
+        *(undefined4 *)(lVar2 + 0x14) = uVar11;
+        *(undefined4 *)(lVar2 + 0x18) = param_2;
+        *(undefined4 *)(lVar2 + 0x1c) = param_3;
+        fVar12 = *(float *)(param_5 + 0x4c);
+        if (*(float *)(param_5 + 0x4c) <= 0.01) {
+          fVar12 = 0.01;
+        }
+        *(float *)(lVar2 + 0x10) = fVar12;
+        AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_1__<ShowAnimated>g__ApplyScale_1(lVar2);
+        uVar10 = thunk_FUN_03f9944c(DAT_09175e18);
+        FUN_06dfb188(uVar10,lVar2,DAT_091ef9f0,0);
+        uVar6 = thunk_FUN_03f9944c(DAT_09175e68);
+        FUN_06dfc2b4(uVar6,lVar2,DAT_091ef9f8,0);
+        uVar11 = *(undefined4 *)(param_5 + 0x48);
+        if (*(int *)(DAT_09183190 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar10 = DG_Tweening_DOTween__To(0x3f800000,uVar11,uVar10,uVar6,0);
+        uVar10 = FUN_04d95e8c(uVar10,0x1b,DAT_091dbe80);
+        DG_Tweening_TweenSettingsExtensions__Join(uVar3,uVar10,0);
+      }
+      lVar2 = *(long *)(param_5 + 0x50);
+      if (lVar2 != 0) {
+        if (0 < (int)*(ulong *)(lVar2 + 0x18)) {
+          uVar4 = 0;
+          uVar7 = *(ulong *)(lVar2 + 0x18) & 0xffffffff;
+          do {
+            uVar11 = (undefined4)param_4;
+            if (uVar7 <= uVar4) {
+                    
+              FUN_03f5c558();
+            }
+            plVar8 = *(long **)(lVar2 + 0x20 + uVar4 * 8);
+            if ((plVar8 != (long *)0x0) && (*plVar8 == DAT_0918af70)) {
+              UnityEngine_SpriteRenderer__get_color(plVar8,0);
+              param_4 = 0;
+              UnityEngine_SpriteRenderer__set_color(plVar8,0);
+              uVar10 = DG_Tweening_DOTweenModuleSprite__DOFade
+                                 (uVar11,*(undefined4 *)(param_5 + 0x48),plVar8,0);
+              uVar10 = FUN_04d95e8c(uVar10,6,DAT_091dbe70);
+              DG_Tweening_TweenSettingsExtensions__Join(uVar3,uVar10,0);
+            }
+            uVar7 = (ulong)*(uint *)(lVar2 + 0x18);
+            uVar4 = uVar4 + 1;
+          } while ((long)uVar4 < (long)(int)*(uint *)(lVar2 + 0x18));
+        }
+        uVar10 = thunk_FUN_03f9944c(DAT_0918c148);
+        DG_Tweening_TweenCallback___ctor(uVar10,lVar1,DAT_091ef9e8,0);
+        uVar3 = FUN_04d956e8(uVar3,uVar10,DAT_091dbd48);
+        *(undefined8 *)(param_5 + 0x58) = uVar3;
+        thunk_FUN_03f5d7b8((undefined8 *)(param_5 + 0x58),uVar3);
+        return;
+      }
+    }
+  }
+LAB_040bc1b4:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.CompleteAppear @0x40bc24c
+void AnhPD_FoodOrder_ServePlate__CompleteAppear(long param_1)
+{
+  if (*(long *)(param_1 + 0x58) != 0) {
+    DG_Tweening_TweenExtensions__Complete(*(long *)(param_1 + 0x58),0);
+    return;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.RefreshContainer @0x40bc260
+void AnhPD_FoodOrder_ServePlate__RefreshContainer(long param_1)
+{
+  uint uVar1;
+  uint uVar2;
+  uint uVar3;
+  ulong uVar4;
+  long *plVar5;
+  ulong uVar6;
+  long lVar7;
+  undefined8 uVar8;
+  if ((DAT_09515f58 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f58 = 1;
+  }
+  if ((*(long *)(param_1 + 0x40) == 0) || (*(long *)(*(long *)(param_1 + 0x40) + 0x18) == 0)) {
+    return;
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0xa8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar4 = UnityEngine_Object__op_Implicit(uVar8,0);
+  if ((uVar4 & 1) == 0) {
+    uVar3 = 0;
+  }
+  else {
+    plVar5 = *(long **)(param_1 + 0xa8);
+    if (plVar5 == (long *)0x0) goto LAB_040bc3a4;
+    uVar3 = (**(code **)(*plVar5 + 0x1e8))(plVar5,*(undefined8 *)(*plVar5 + 0x1f0));
+  }
+  lVar7 = *(long *)(param_1 + 0x40);
+  if (lVar7 != 0) {
+    uVar2 = *(int *)(lVar7 + 0x18) - 1;
+    uVar1 = uVar3;
+    if ((int)uVar2 <= (int)uVar3) {
+      uVar1 = uVar2;
+    }
+    uVar2 = 0;
+    if (-1 < (int)uVar3) {
+      uVar2 = uVar1;
+    }
+    if (uVar2 == *(uint *)(param_1 + 0x60)) {
+      return;
+    }
+    uVar4 = 0;
+    *(uint *)(param_1 + 0x60) = uVar2;
+    do {
+      if ((long)(int)*(uint *)(lVar7 + 0x18) <= (long)uVar4) {
+        return;
+      }
+      if (*(uint *)(lVar7 + 0x18) <= uVar4) {
+LAB_040bc3a8:
+                    
+        FUN_03f5c558();
+      }
+      uVar8 = *(undefined8 *)(lVar7 + uVar4 * 8 + 0x20);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar6 = UnityEngine_Object__op_Implicit(uVar8,0);
+      if ((uVar6 & 1) != 0) {
+        lVar7 = *(long *)(param_1 + 0x40);
+        if (lVar7 == 0) break;
+        if (*(uint *)(lVar7 + 0x18) <= uVar4) goto LAB_040bc3a8;
+        lVar7 = *(long *)(lVar7 + uVar4 * 8 + 0x20);
+        if (lVar7 == 0) break;
+        UnityEngine_GameObject__SetActive(lVar7,uVar2 == uVar4,0);
+      }
+      lVar7 = *(long *)(param_1 + 0x40);
+      uVar4 = uVar4 + 1;
+    } while (lVar7 != 0);
+  }
+LAB_040bc3a4:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SetSlot @0x40bc3ac
+void AnhPD_FoodOrder_ServePlate__SetSlot
+               (undefined4 param_1,undefined4 param_2,undefined4 param_3,long param_4,ulong param_5)
+{
+  long lVar1;
+  lVar1 = UnityEngine_Component__get_transform(param_4,0);
+  if (lVar1 != 0) {
+    UnityEngine_Transform__get_position(lVar1,0);
+    *(undefined4 *)(param_4 + 0x68) = param_1;
+    *(undefined4 *)(param_4 + 0x6c) = param_2;
+    *(undefined4 *)(param_4 + 0x70) = param_3;
+    *(undefined1 *)(param_4 + 0x74) = 1;
+    if ((param_5 & 1) == 0) {
+      if (*(char *)(param_4 + 0xb1) == '\0') {
+        *(undefined1 *)(param_4 + 0x75) = 1;
+      }
+      return;
+    }
+    AnhPD_FoodOrder_ServePlate__StopSlide(param_4);
+    lVar1 = UnityEngine_Component__get_transform(param_4,0);
+    if (lVar1 != 0) {
+      UnityEngine_Transform__set_position
+                (*(undefined4 *)(param_4 + 0x68),*(undefined4 *)(param_4 + 0x6c),
+                 *(undefined4 *)(param_4 + 0x70),lVar1,0);
+      return;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.StopSlide @0x40bc448
+void AnhPD_FoodOrder_ServePlate__StopSlide(long param_1)
+{
+  undefined4 uVar1;
+  *(undefined1 *)(param_1 + 0x75) = 0;
+  if (DAT_09515ce6 == '\0') {
+    FUN_03f5c2a4(&DAT_0918cbd0);
+    DAT_09515ce6 = '\x01';
+  }
+  uVar1 = *(undefined4 *)(*(undefined8 **)(DAT_0918cbd0 + 0xb8) + 1);
+  *(undefined8 *)(param_1 + 0x78) = **(undefined8 **)(DAT_0918cbd0 + 0xb8);
+  *(undefined4 *)(param_1 + 0x80) = uVar1;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SlideToSlot @0x40bc4a4
+void AnhPD_FoodOrder_ServePlate__SlideToSlot(long param_1)
+{
+  if (*(char *)(param_1 + 0x74) != '\0') {
+    *(undefined1 *)(param_1 + 0x75) = 1;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.Update @0x40bc4b8
+void AnhPD_FoodOrder_ServePlate__Update
+               (undefined1 param_1 [16],undefined4 param_2,undefined4 param_3,long param_4)
+{
+  long lVar1;
+  long lVar2;
+  float fVar3;
+  float fVar4;
+  undefined4 uVar5;
+  float fVar6;
+  undefined8 local_48;
+  undefined4 local_40;
+  undefined4 local_3c;
+  undefined4 uStack_38;
+  undefined4 local_34;
+  if (*(char *)(param_4 + 0x75) == '\0') {
+    return;
+  }
+  if (*(char *)(param_4 + 0xb1) != '\0') {
+    AnhPD_FoodOrder_ServePlate__StopSlide(param_4);
+    return;
+  }
+  lVar1 = UnityEngine_Component__get_transform(param_4,0);
+  lVar2 = UnityEngine_Component__get_transform(param_4,0);
+  if (lVar2 != 0) {
+    local_3c = UnityEngine_Transform__get_position(lVar2,0);
+    local_48 = *(undefined8 *)(param_4 + 0x68);
+    local_40 = *(undefined4 *)(param_4 + 0x70);
+    fVar6 = *(float *)(param_4 + 0x38);
+    uVar5 = *(undefined4 *)(param_4 + 0x3c);
+    uStack_38 = param_2;
+    local_34 = param_3;
+    fVar3 = (float)UnityEngine_Time__get_deltaTime(0);
+    UnityEngine_Vector3__SmoothDamp(uVar5,&local_3c,&local_48,param_4 + 0x78,0);
+    if (lVar1 != 0) {
+      UnityEngine_Transform__set_position(lVar1,0);
+      lVar1 = UnityEngine_Component__get_transform(param_4,0);
+      if (lVar1 != 0) {
+        fVar4 = (float)UnityEngine_Transform__get_position(lVar1,0);
+        fVar4 = fVar4 - *(float *)(param_4 + 0x68);
+        fVar6 = fVar6 - *(float *)(param_4 + 0x6c);
+        fVar3 = fVar3 - *(float *)(param_4 + 0x70);
+        if (fVar4 * fVar4 + fVar6 * fVar6 + fVar3 * fVar3 < 1e-06) {
+          lVar1 = UnityEngine_Component__get_transform(param_4,0);
+          if (lVar1 == 0) goto LAB_040bc5fc;
+          UnityEngine_Transform__set_position
+                    (*(undefined4 *)(param_4 + 0x68),*(undefined4 *)(param_4 + 0x6c),
+                     *(undefined4 *)(param_4 + 0x70),lVar1,0);
+          AnhPD_FoodOrder_ServePlate__StopSlide(param_4);
+        }
+        return;
+      }
+    }
+  }
+LAB_040bc5fc:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SetVariant @0x40bc600
+void AnhPD_FoodOrder_ServePlate__SetVariant(long param_1,undefined4 param_2,undefined8 param_3)
+{
+  *(undefined8 *)(param_1 + 0xb8) = param_3;
+  *(undefined4 *)(param_1 + 0xb4) = param_2;
+  thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0xb8),param_3);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.HoldServe @0x40bc614
+void AnhPD_FoodOrder_ServePlate__HoldServe(float param_1,long param_2)
+{
+  float fVar1;
+  fVar1 = (float)UnityEngine_Time__get_time(0);
+  if (*(float *)(param_2 + 0x84) < fVar1 + param_1) {
+    *(float *)(param_2 + 0x84) = fVar1 + param_1;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.Adopt @0x40bc64c
+void AnhPD_FoodOrder_ServePlate__Adopt(long param_1,long param_2,ulong param_3,long param_4)
+{
+  long lVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  long *plVar6;
+  if ((DAT_09515f5a & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918c148);
+    FUN_03f5c2a4(&DAT_091dbd20);
+    FUN_03f5c2a4(&DAT_091efa00);
+    FUN_03f5c2a4(&DAT_091943e0);
+    DAT_09515f5a = 1;
+  }
+  lVar1 = thunk_FUN_03f9944c(DAT_091943e0);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 != 0) {
+    *(long *)(lVar1 + 0x10) = param_1;
+    thunk_FUN_03f5d7b8((long *)(lVar1 + 0x10),param_1);
+    plVar6 = (long *)(lVar1 + 0x18);
+    *plVar6 = param_4;
+    thunk_FUN_03f5d7b8(plVar6,param_4);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(param_2,0);
+    if ((uVar2 & 1) == 0) {
+      return;
+    }
+    *(long *)(param_1 + 0xa8) = param_2;
+    thunk_FUN_03f5d7b8((long *)(param_1 + 0xa8),param_2);
+    if (param_2 != 0) {
+      AnhPD_FoodOrder_DragItem__MarkOnDishRow(param_2,0);
+      if ((param_3 & 1) == 0) {
+        AnhPD_FoodOrder_ServePlate__AttachItem(param_1);
+        lVar1 = *plVar6;
+        if (lVar1 == 0) {
+          return;
+        }
+                    /* WARNING: Could not recover jumptable at 0x040bc804. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+        (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+        return;
+      }
+      *(undefined1 *)(param_1 + 0xb2) = 1;
+      lVar3 = AnhPD_FoodOrder_ServePlate__get_ItemAnchor(param_1);
+      if (lVar3 != 0) {
+        UnityEngine_Transform__get_position(lVar3,0);
+        uVar4 = AnhPD_FoodOrder_DragItem__JumpToTargetTween(param_2,0,0);
+        uVar5 = thunk_FUN_03f9944c(DAT_0918c148);
+        DG_Tweening_TweenCallback___ctor(uVar5,lVar1,DAT_091efa00,0);
+        FUN_04d956bc(uVar4,uVar5,DAT_091dbd20);
+        return;
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.AttachItem @0x40bc828
+void AnhPD_FoodOrder_ServePlate__AttachItem(long param_1)
+{
+  ulong uVar1;
+  long lVar2;
+  undefined4 *puVar3;
+  undefined8 uVar4;
+  if ((DAT_09515f5c & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f5c = 1;
+  }
+  lVar2 = DAT_09188ad0;
+  uVar4 = *(undefined8 *)(param_1 + 0xa8);
+  *(undefined1 *)(param_1 + 0xb2) = 0;
+  if (*(int *)(lVar2 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if ((uVar1 & 1) != 0) {
+    AnhPD_FoodOrder_ServePlate__RefreshContainer(param_1);
+    AnhPD_FoodOrder_ServePlate__ShowAnimated(param_1);
+    if (*(long *)(param_1 + 0xa8) != 0) {
+      uVar4 = AnhPD_FoodOrder_DragItemBase__get_Tf(*(long *)(param_1 + 0xa8),0);
+      DG_Tweening_ShortcutExtensions__DOKill(uVar4,0,0);
+      if (*(long *)(param_1 + 0xa8) != 0) {
+        lVar2 = UnityEngine_Component__get_transform(*(long *)(param_1 + 0xa8),0);
+        uVar4 = AnhPD_FoodOrder_ServePlate__get_ItemAnchor(param_1);
+        if (lVar2 != 0) {
+          UnityEngine_Transform__SetParent(lVar2,uVar4,1,0);
+          if (*(long *)(param_1 + 0xa8) != 0) {
+            lVar2 = UnityEngine_Component__get_transform(*(long *)(param_1 + 0xa8),0);
+            if (DAT_09515ce6 == '\0') {
+              FUN_03f5c2a4(&DAT_0918cbd0);
+              DAT_09515ce6 = '\x01';
+            }
+            if (lVar2 != 0) {
+              puVar3 = *(undefined4 **)(DAT_0918cbd0 + 0xb8);
+              UnityEngine_Transform__set_localPosition(*puVar3,puVar3[1],puVar3[2],lVar2,0);
+              lVar2 = *(long *)(param_1 + 0xa8);
+              if (lVar2 != 0) {
+                *(undefined1 *)(lVar2 + 0xea) = 1;
+                AnhPD_FoodOrder_DragItem__ClampSortingLayer(lVar2,0);
+                if (*(long *)(param_1 + 0xa8) != 0) {
+                  uVar4 = AnhPD_FoodOrder_DragItemBase__get_Tf(*(long *)(param_1 + 0xa8),0);
+                  AnhPD_APDUtilities__Appear(0x3dcccccd,uVar4,0);
+                  return;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+                    
+    FUN_03f5c550();
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.SpawnItem @0x40bc990
+undefined8 AnhPD_FoodOrder_ServePlate__SpawnItem(undefined8 param_1,undefined8 param_2)
+{
+  ulong uVar1;
+  long lVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  long lVar5;
+  if ((DAT_09515f5b & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091881a0);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f5b = 1;
+  }
+  uVar1 = System_String__IsNullOrEmpty(param_2,0);
+  uVar4 = 0;
+  if ((uVar1 & 1) == 0) {
+    uVar4 = **(undefined8 **)(DAT_091881a0 + 0xb8);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(uVar4,0);
+    uVar4 = 0;
+    if ((uVar1 & 1) != 0) {
+      lVar5 = **(long **)(DAT_091881a0 + 0xb8);
+      lVar2 = AnhPD_FoodOrder_ServePlate__get_ItemAnchor(param_1);
+      if ((lVar2 == 0) || (UnityEngine_Transform__get_position(lVar2,0), lVar5 == 0)) {
+                    
+        FUN_03f5c550();
+      }
+      uVar3 = AnhPD_FoodOrder_MessyController__SpawnAndGetDragItem(lVar5,param_2,0,0,0,0);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424(DAT_09188ad0);
+      }
+      uVar1 = UnityEngine_Object__op_Implicit(uVar3,0);
+      uVar4 = 0;
+      if ((uVar1 & 1) != 0) {
+        AnhPD_FoodOrder_ServePlate__Adopt(param_1,uVar3,0,0);
+        uVar4 = uVar3;
+      }
+    }
+  }
+  return uVar4;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.DetachItem @0x40bcac8
+long AnhPD_FoodOrder_ServePlate__DetachItem(long param_1)
+{
+  long *plVar1;
+  ulong uVar2;
+  undefined8 uVar3;
+  long lVar4;
+  long lVar5;
+  long lVar6;
+  if ((DAT_09515f5d & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f5d = 1;
+  }
+  plVar1 = (long *)(param_1 + 0xa8);
+  lVar6 = *plVar1;
+  *plVar1 = 0;
+  thunk_FUN_03f5d7b8(plVar1,0);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(lVar6,0);
+  uVar3 = 0;
+  if ((uVar2 & 1) == 0) {
+    return 0;
+  }
+  if (lVar6 != 0) {
+    lVar4 = UnityEngine_Component__get_transform(lVar6,0);
+    lVar5 = UnityEngine_Component__get_transform(param_1,0);
+    uVar3 = 0;
+    if ((lVar5 != 0) && (uVar3 = UnityEngine_Transform__GetParent(lVar5,0), lVar4 != 0)) {
+      UnityEngine_Transform__SetParent(lVar4,uVar3,1,0);
+      *(undefined1 *)(lVar6 + 0xea) = 0;
+      return lVar6;
+    }
+  }
+                    
+  FUN_03f5c550(uVar3);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.ServeTo @0x40bcb94
+void AnhPD_FoodOrder_ServePlate__ServeTo
+               (long param_1,undefined8 param_2,long param_3,long param_4,long param_5,long param_6)
+{
+  long lVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 uVar4;
+  long *plVar5;
+  long *plVar6;
+  long *plVar7;
+  undefined8 uVar8;
+  if ((DAT_09515f5e & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918c148);
+    FUN_03f5c2a4(&DAT_091dbd28);
+    FUN_03f5c2a4(&DAT_091efa08);
+    FUN_03f5c2a4(&DAT_091943e8);
+    DAT_09515f5e = 1;
+  }
+  lVar1 = thunk_FUN_03f9944c(DAT_091943e8);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 != 0) {
+    plVar6 = (long *)(lVar1 + 0x10);
+    *plVar6 = param_4;
+    thunk_FUN_03f5d7b8(plVar6,param_4);
+    *(long *)(lVar1 + 0x18) = param_1;
+    thunk_FUN_03f5d7b8((long *)(lVar1 + 0x18),param_1);
+    *(undefined8 *)(lVar1 + 0x20) = param_2;
+    thunk_FUN_03f5d7b8((undefined8 *)(lVar1 + 0x20),param_2);
+    plVar7 = (long *)(lVar1 + 0x28);
+    *plVar7 = param_5;
+    thunk_FUN_03f5d7b8(plVar7,param_5);
+    plVar5 = (long *)(lVar1 + 0x30);
+    *plVar5 = param_6;
+    thunk_FUN_03f5d7b8(plVar5,param_6);
+    uVar4 = *(undefined8 *)(param_1 + 0xa8);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Implicit(uVar4,0);
+    if ((uVar2 & 1) == 0) {
+      if (param_3 != 0) {
+        (**(code **)(param_3 + 0x18))
+                  (*(undefined8 *)(param_3 + 0x40),*(undefined8 *)(param_3 + 0x28));
+      }
+      lVar1 = *plVar6;
+      if (lVar1 != 0) {
+        (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+      }
+      lVar1 = *plVar7;
+      if (lVar1 != 0) {
+        (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+      }
+      lVar1 = *plVar5;
+      if (lVar1 != 0) {
+                    /* WARNING: Could not recover jumptable at 0x040bce80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+        (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+        return;
+      }
+      return;
+    }
+    *(undefined1 *)(param_1 + 0xb1) = 1;
+    if (*(char *)(param_1 + 0xb0) != '\0') {
+      AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(param_1,1);
+      *(undefined1 *)(param_1 + 0xb0) = 0;
+    }
+    if (*(long *)(param_1 + 0x58) != 0) {
+      DG_Tweening_TweenExtensions__Complete(*(long *)(param_1 + 0x58),0);
+    }
+    uVar4 = UnityEngine_Component__get_transform(param_1,0);
+    DG_Tweening_ShortcutExtensions__DOKill(uVar4,0,0);
+    if (param_3 != 0) {
+      (**(code **)(param_3 + 0x18))(*(undefined8 *)(param_3 + 0x40),*(undefined8 *)(param_3 + 0x28))
+      ;
+    }
+    lVar3 = *(long *)(param_1 + 0xa8);
+    if (lVar3 != 0) {
+      uVar4 = AnhPD_FoodOrder_DragItemBase__get_Tf(lVar3,0);
+      DG_Tweening_ShortcutExtensions__DOComplete(uVar4,0,0);
+      uVar4 = AnhPD_FoodOrder_DragItemBase__get_Tf(lVar3,0);
+      if (DAT_09515faa == '\0') {
+        FUN_03f5c2a4(&DAT_0918cbd0);
+        DAT_09515faa = '\x01';
+      }
+      uVar8 = *(undefined8 *)(*(long *)(DAT_0918cbd0 + 0xb8) + 0x18);
+      uVar4 = DG_Tweening_ShortcutExtensions__DOPunchPosition
+                        ((float)uVar8 * 0.3,(float)((ulong)uVar8 >> 0x20) * 0.3,
+                         *(float *)(*(long *)(DAT_0918cbd0 + 0xb8) + 0x20) * 0.3,0x3e99999a,
+                         0x3f000000,uVar4,1,0,0);
+      uVar8 = thunk_FUN_03f9944c(DAT_0918c148);
+      DG_Tweening_TweenCallback___ctor(uVar8,lVar1,DAT_091efa08,0);
+      FUN_04d956bc(uVar4,uVar8,DAT_091dbd28);
+      return;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.JumpToTarget @0x40bcea8
+void AnhPD_FoodOrder_ServePlate__JumpToTarget
+               (undefined1 param_1 [16],float param_2,undefined4 param_3,long param_4,
+               undefined8 param_5,undefined8 param_6,undefined8 param_7)
+{
+  int iVar1;
+  long lVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  undefined8 *puVar8;
+  undefined8 *puVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  if ((DAT_09515f5f & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09175e18);
+    FUN_03f5c2a4(&DAT_09175e68);
+    FUN_03f5c2a4(&DAT_09183190);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918c148);
+    FUN_03f5c2a4(&DAT_091dbcf8);
+    FUN_03f5c2a4(&DAT_091dbde0);
+    FUN_03f5c2a4(&DAT_091dbe80);
+    FUN_03f5c2a4(&DAT_091efa10);
+    FUN_03f5c2a4(&DAT_091efa18);
+    FUN_03f5c2a4(&DAT_091efa20);
+    FUN_03f5c2a4(&DAT_091efa28);
+    FUN_03f5c2a4(&DAT_091943f0);
+    DAT_09515f5f = 1;
+  }
+  lVar2 = thunk_FUN_03f9944c(DAT_091943f0);
+  System_Object___ctor(lVar2,0);
+  if (lVar2 != 0) {
+    puVar9 = (undefined8 *)(lVar2 + 0x18);
+    *puVar9 = param_5;
+    thunk_FUN_03f5d7b8(puVar9,param_5);
+    *(long *)(lVar2 + 0x30) = param_4;
+    thunk_FUN_03f5d7b8((long *)(lVar2 + 0x30),param_4);
+    puVar8 = (undefined8 *)(lVar2 + 0x38);
+    *puVar8 = param_6;
+    thunk_FUN_03f5d7b8(puVar8,param_6);
+    puVar7 = (undefined8 *)(lVar2 + 0x40);
+    *puVar7 = param_7;
+    thunk_FUN_03f5d7b8(puVar7,param_7);
+    if (*(long *)(param_4 + 0x28) != 0) {
+      iVar1 = *(int *)(param_4 + 100);
+      if (iVar1 < 0x1f) {
+        iVar1 = 0x1e;
+      }
+      UnityEngine_Rendering_SortingGroup__set_sortingOrder(*(long *)(param_4 + 0x28),iVar1,0);
+      uVar6 = *puVar9;
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar3 = UnityEngine_Object__op_Implicit(uVar6,0);
+      if ((uVar3 & 1) == 0) {
+        AnhPD_FoodOrder_ServePlate__OnArriveAtTarget(param_4,*puVar8,*puVar7);
+        return;
+      }
+      *(undefined1 *)(param_4 + 0xb1) = 1;
+      uVar6 = UnityEngine_Component__get_transform(param_4,0);
+      DG_Tweening_ShortcutExtensions__DOKill(uVar6,0,0);
+      lVar4 = UnityEngine_Component__get_transform(param_4,0);
+      if (lVar4 != 0) {
+        fVar10 = (float)UnityEngine_Transform__get_position(lVar4,0);
+        *(float *)(lVar2 + 0x20) = fVar10;
+        *(float *)(lVar2 + 0x24) = param_2;
+        *(undefined4 *)(lVar2 + 0x28) = param_3;
+        *(undefined4 *)(lVar2 + 0x2c) = param_3;
+        if (*(long *)(lVar2 + 0x18) != 0) {
+          fVar12 = param_2;
+          fVar11 = (float)UnityEngine_Transform__get_position(*(long *)(lVar2 + 0x18),0);
+          if (DAT_09515fab == '\0') {
+            FUN_03f5c2a4(&DAT_09187e80);
+            DAT_09515fab = '\x01';
+          }
+          if (*(int *)(DAT_09187e80 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          fVar12 = SQRT((fVar10 - fVar11) * (fVar10 - fVar11) +
+                        (param_2 - fVar12) * (param_2 - fVar12)) / 10.0;
+          *(undefined4 *)(lVar2 + 0x10) = 0;
+          fVar10 = 0.3;
+          if (fVar12 <= 0.3) {
+            fVar10 = fVar12;
+          }
+          fVar11 = 0.05;
+          if (0.05 <= fVar12) {
+            fVar11 = fVar10;
+          }
+          uVar6 = thunk_FUN_03f9944c(DAT_09175e18);
+          FUN_06dfb188(uVar6,lVar2,DAT_091efa10,0);
+          uVar5 = thunk_FUN_03f9944c(DAT_09175e68);
+          FUN_06dfc2b4(uVar5,lVar2,DAT_091efa18,0);
+          if (*(int *)(DAT_09183190 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          uVar6 = DG_Tweening_DOTween__To(0x3f800000,fVar11,uVar6,uVar5,0);
+          uVar6 = FUN_04d95e8c(uVar6,1,DAT_091dbe80);
+          uVar5 = thunk_FUN_03f9944c(DAT_0918c148);
+          DG_Tweening_TweenCallback___ctor(uVar5,lVar2,DAT_091efa20,0);
+          uVar6 = FUN_04d957f0(uVar6,uVar5,DAT_091dbde0);
+          uVar5 = thunk_FUN_03f9944c(DAT_0918c148);
+          DG_Tweening_TweenCallback___ctor(uVar5,lVar2,DAT_091efa28,0);
+          FUN_04d956bc(uVar6,uVar5,DAT_091dbcf8);
+          return;
+        }
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.OnArriveAtTarget @0x40bd28c
+void AnhPD_FoodOrder_ServePlate__OnArriveAtTarget(long param_1,long param_2,long param_3)
+{
+  ulong uVar1;
+  if (((param_2 != 0) &&
+      (uVar1 = (**(code **)(param_2 + 0x18))
+                         (*(undefined8 *)(param_2 + 0x40),*(undefined8 *)(param_2 + 0x28)),
+      (uVar1 & 1) == 0)) && (*(undefined1 *)(param_1 + 0xb1) = 0, *(char *)(param_1 + 0x74) != '\0')
+     ) {
+    *(undefined1 *)(param_1 + 0x75) = 1;
+  }
+  if (param_3 != 0) {
+                    /* WARNING: Could not recover jumptable at 0x040bd2e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(param_3 + 0x18))(*(undefined8 *)(param_3 + 0x40),*(undefined8 *)(param_3 + 0x28));
+    return;
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.OnPointerDown @0x40bd2f0
+void AnhPD_FoodOrder_ServePlate__OnPointerDown(long param_1)
+{
+  ulong uVar1;
+  long lVar2;
+  long *plVar3;
+  undefined8 uVar4;
+  float fVar5;
+  float fVar6;
+  if ((DAT_09515f60 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091b4c28);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f60 = 1;
+  }
+  uVar4 = *(undefined8 *)(param_1 + 0xa8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if (((((uVar1 & 1) == 0) || (*(char *)(param_1 + 0xb1) != '\0')) ||
+      (*(char *)(param_1 + 0xb2) != '\0')) || (*(char *)(param_1 + 0xb0) != '\0')) {
+    return;
+  }
+  lVar2 = *(long *)(DAT_091b4c28 + 0x20);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  lVar2 = *(long *)(*(long *)(lVar2 + 0xc0) + 0x10);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  lVar2 = **(long **)(lVar2 + 0xb8);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424(DAT_09188ad0);
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(lVar2,0);
+  if ((uVar1 & 1) != 0) {
+    if (lVar2 == 0) goto LAB_040bd444;
+    uVar1 = CakeOrder_InGame_LevelBaseCakeOrderAbstract__get_IsAllowInteract(lVar2,0);
+    if ((uVar1 & 1) == 0) {
+      return;
+    }
+  }
+  plVar3 = *(long **)(param_1 + 0xa8);
+  if (plVar3 != (long *)0x0) {
+    (**(code **)(*plVar3 + 0x1d8))(plVar3,*(undefined8 *)(*plVar3 + 0x1e0));
+    plVar3 = *(long **)(param_1 + 0xa8);
+    if (plVar3 != (long *)0x0) {
+      fVar5 = (float)(**(code **)(*plVar3 + 0x1c8))(plVar3,*(undefined8 *)(*plVar3 + 0x1d0));
+      fVar6 = (float)UnityEngine_Time__get_time(0);
+      if (fVar5 + fVar6 <= *(float *)(param_1 + 0x84)) {
+        return;
+      }
+      *(float *)(param_1 + 0x84) = fVar5 + fVar6;
+      return;
+    }
+  }
+LAB_040bd444:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.LateUpdate @0x40bd448
+void AnhPD_FoodOrder_ServePlate__LateUpdate(undefined8 param_1)
+{
+  AnhPD_FoodOrder_ServePlate__RefreshContainer();
+  AnhPD_FoodOrder_ServePlate__FitTapArea(param_1);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.FitTapArea @0x40bd460
+void AnhPD_FoodOrder_ServePlate__FitTapArea(long param_1)
+{
+  ulong uVar1;
+  long *plVar2;
+  long lVar3;
+  undefined8 uVar4;
+  float fVar5;
+  float fVar6;
+  ulong uVar7;
+  float fVar8;
+  float fVar10;
+  ulong uVar9;
+  float fVar11;
+  float fVar12;
+  float fVar14;
+  float fVar15;
+  ulong uVar13;
+  undefined8 uVar16;
+  undefined8 local_58;
+  float local_50;
+  float fStack_4c;
+  float local_48;
+  float fStack_44;
+  if ((DAT_09515f61 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f61 = 1;
+  }
+  uVar4 = *(undefined8 *)(param_1 + 0x30);
+  local_58 = 0;
+  local_50 = 0.0;
+  fStack_4c = 0.0;
+  local_48 = 0.0;
+  fStack_44 = 0.0;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if ((uVar1 & 1) == 0) {
+    return;
+  }
+  uVar16 = *(undefined8 *)(param_1 + 0xcc);
+  uVar4 = *(undefined8 *)(param_1 + 0xa8);
+  fVar11 = (float)*(undefined8 *)(param_1 + 0xd4) * 0.5;
+  fVar14 = (float)((ulong)*(undefined8 *)(param_1 + 0xd4) >> 0x20) * 0.5;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  fVar12 = (float)uVar16;
+  fVar8 = fVar12 - fVar11;
+  fVar15 = (float)((ulong)uVar16 >> 0x20);
+  fVar10 = fVar15 - fVar14;
+  uVar9 = CONCAT44(fVar10,fVar8);
+  fVar12 = fVar12 + fVar11;
+  fVar15 = fVar15 + fVar14;
+  uVar13 = CONCAT44(fVar15,fVar12);
+  uVar1 = UnityEngine_Object__op_Implicit(uVar4,0);
+  if ((uVar1 & 1) != 0) {
+    plVar2 = *(long **)(param_1 + 0xa8);
+    if (plVar2 == (long *)0x0) goto LAB_040bd690;
+    uVar1 = (**(code **)(*plVar2 + 0x1f8))(plVar2,&local_58,*(undefined8 *)(*plVar2 + 0x200));
+    if ((uVar1 & 1) != 0) {
+      if ((*(long *)(param_1 + 0x30) == 0) ||
+         (lVar3 = UnityEngine_Component__get_transform(*(long *)(param_1 + 0x30),0), lVar3 == 0))
+      goto LAB_040bd690;
+      fVar5 = (float)((ulong)local_58 >> 0x20) - local_48;
+      fVar11 = (float)UnityEngine_Transform__InverseTransformPoint
+                                (CONCAT44(fVar5,(float)local_58 - fStack_4c),fVar5,
+                                 local_50 - fStack_44,lVar3,0);
+      fVar6 = (float)((ulong)local_58 >> 0x20) + local_48;
+      fVar14 = (float)UnityEngine_Transform__InverseTransformPoint
+                                (CONCAT44(fVar6,(float)local_58 + fStack_4c),fVar6,
+                                 local_50 + fStack_44,lVar3,0);
+      uVar1 = CONCAT44(fVar6,fVar14);
+      uVar7 = uVar1 ^ (uVar1 ^ CONCAT44(fVar5,fVar11)) &
+                      CONCAT44(-(uint)(fVar5 < fVar6),-(uint)(fVar11 < fVar14));
+      uVar1 = uVar1 ^ (uVar1 ^ CONCAT44(fVar5,fVar11)) &
+                      CONCAT44(-(uint)(fVar6 < fVar5),-(uint)(fVar14 < fVar11));
+      uVar9 = uVar9 ^ (uVar9 ^ uVar7) &
+                      ~CONCAT44(-(uint)(fVar10 < (float)(uVar7 >> 0x20)),
+                                -(uint)(fVar8 < (float)uVar7));
+      uVar13 = uVar13 ^ (uVar13 ^ uVar1) &
+                        ~CONCAT44(-(uint)((float)(uVar1 >> 0x20) < fVar15),
+                                  -(uint)((float)uVar1 < fVar12));
+    }
+  }
+  if (*(long *)(param_1 + 0x30) != 0) {
+    fVar12 = (float)(uVar9 >> 0x20);
+    fVar15 = (float)(uVar13 >> 0x20);
+    fVar10 = 0.5;
+    fVar11 = ((float)uVar13 + (float)uVar9) * 0.5;
+    fVar8 = (fVar15 + fVar12) * 0.5;
+    fVar14 = (float)UnityEngine_Collider2D__get_offset(*(long *)(param_1 + 0x30),0);
+    fVar14 = fVar14 - fVar11;
+    if (1e-08 < fVar14 * fVar14 + (fVar10 - fVar8) * (fVar10 - fVar8)) {
+      if (*(long *)(param_1 + 0x30) == 0) goto LAB_040bd690;
+      UnityEngine_Collider2D__set_offset(fVar11,*(long *)(param_1 + 0x30),0);
+    }
+    if (*(long *)(param_1 + 0x30) != 0) {
+      fVar11 = (float)uVar13 - (float)uVar9;
+      fVar14 = (float)UnityEngine_BoxCollider2D__get_size(*(long *)(param_1 + 0x30),0);
+      fVar14 = fVar14 - fVar11;
+      fVar8 = fVar8 - (fVar15 - fVar12);
+      if (1e-08 < fVar14 * fVar14 + fVar8 * fVar8) {
+        if (*(long *)(param_1 + 0x30) == 0) goto LAB_040bd690;
+        UnityEngine_BoxCollider2D__set_size(fVar11,*(long *)(param_1 + 0x30),0);
+      }
+      return;
+    }
+  }
+LAB_040bd690:
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.Despawn @0x40bd694
+void AnhPD_FoodOrder_ServePlate__Despawn(long param_1)
+{
+  undefined8 uVar1;
+  long lVar2;
+  if ((DAT_09515f62 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091b4c88);
+    DAT_09515f62 = 1;
+  }
+  AnhPD_FoodOrder_ServePlate__DetachItem(param_1);
+  if (*(char *)(param_1 + 0xb0) != '\0') {
+    AnhPD_FoodOrder_ServePlate__SetVisualsEnabled(param_1,1);
+    *(undefined1 *)(param_1 + 0xb0) = 0;
+  }
+  if (*(long *)(param_1 + 0x58) != 0) {
+    DG_Tweening_TweenExtensions__Complete(*(long *)(param_1 + 0x58),0);
+  }
+  *(undefined1 *)(param_1 + 0xb2) = 0;
+  AnhPD_FoodOrder_ServePlate__StopSlide(param_1);
+  uVar1 = UnityEngine_Component__get_transform(param_1,0);
+  DG_Tweening_ShortcutExtensions__DOKill(uVar1,0,0);
+  *(undefined1 *)(param_1 + 0xb1) = 0;
+  *(undefined1 *)(param_1 + 0x74) = 0;
+  *(undefined4 *)(param_1 + 0x84) = 0;
+  *(undefined4 *)(param_1 + 100) = 0x80000000;
+  AnhPD_FoodOrder_ServePlate__SetMergeAnimLifted(param_1,0);
+  *(undefined8 *)(param_1 + 0xb8) = 0;
+  *(undefined4 *)(param_1 + 0xb4) = 0xffffffff;
+  thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0xb8),0);
+  lVar2 = *(long *)(DAT_091b4c88 + 0x20);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  lVar2 = *(long *)(*(long *)(lVar2 + 0xc0) + 0x10);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_03f95a6c();
+  }
+  lVar2 = **(long **)(lVar2 + 0xb8);
+  uVar1 = UnityEngine_Component__get_gameObject(param_1,0);
+  if (lVar2 != 0) {
+    Utilities_ObjectPoolDictArray__ReleaseGameObject(lVar2,uVar1,0);
+    return;
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate..ctor @0x40bd7b8
+void AnhPD_FoodOrder_ServePlate___ctor(long param_1)
+{
+  *(undefined8 *)(param_1 + 0x38) = 0x3df5c28f41200000;
+  *(undefined8 *)(param_1 + 0x48) = 0x3f19999a3e800000;
+  *(undefined4 *)(param_1 + 0xb4) = 0xffffffff;
+  *(undefined4 *)(param_1 + 0xc0) = 1;
+  *(undefined8 *)(param_1 + 0x60) = 0x80000000ffffffff;
+  UnityEngine_MonoBehaviour___ctor(param_1,0);
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_0
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_0..ctor @0x40bc1b8
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_0.<ShowAnimated>b__0 @0x40bd7f4
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_0__<ShowAnimated>b__0(long param_1)
+{
+  undefined8 *puVar1;
+  if (*(long *)(param_1 + 0x30) != 0) {
+    puVar1 = (undefined8 *)(*(long *)(param_1 + 0x30) + 0x58);
+    *puVar1 = 0;
+    thunk_FUN_03f5d7b8(puVar1,0);
+    return;
+  }
+                    
+  FUN_03f5c550();
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_1
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_1..ctor @0x40bc1c0
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_1___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_1.<ShowAnimated>g__ApplyScale|1 @0x40bc1c8
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_1__<ShowAnimated>g__ApplyScale_1
+               (float param_1,long param_2)
+{
+  long lVar1;
+  lVar1 = *(long *)(param_2 + 0x20);
+  *(float *)(param_2 + 0x10) = param_1;
+  if ((lVar1 != 0) && (*(long *)(lVar1 + 0x10) != 0)) {
+    UnityEngine_Transform__set_localScale
+              (*(float *)(lVar1 + 0x18) * param_1,*(float *)(lVar1 + 0x1c) * param_1,
+               *(float *)(lVar1 + 0x20) * param_1,*(long *)(lVar1 + 0x10),0);
+    if ((*(long *)(param_2 + 0x20) != 0) &&
+       (lVar1 = *(long *)(*(long *)(param_2 + 0x20) + 0x28), lVar1 != 0)) {
+      if (param_1 <= 0.01) {
+        param_1 = 0.01;
+      }
+      UnityEngine_Transform__set_localScale
+                (*(float *)(param_2 + 0x14) / param_1,*(float *)(param_2 + 0x18) / param_1,
+                 *(float *)(param_2 + 0x1c) / param_1,lVar1,0);
+      return;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass65_1.<ShowAnimated>b__2 @0x40bd810
+undefined4 AnhPD_FoodOrder_ServePlate_<>c__DisplayClass65_1__<ShowAnimated>b__2(long param_1)
+{
+  return *(undefined4 *)(param_1 + 0x10);
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate.<>c__DisplayClass75_0
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass75_0..ctor @0x40bc820
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass75_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass75_0.<Adopt>b__0 @0x40bd818
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass75_0__<Adopt>b__0(long param_1)
+{
+  long lVar1;
+  if (*(long *)(param_1 + 0x10) == 0) {
+                    
+    FUN_03f5c550();
+  }
+  AnhPD_FoodOrder_ServePlate__AttachItem();
+  lVar1 = *(long *)(param_1 + 0x18);
+  if (lVar1 != 0) {
+                    /* WARNING: Could not recover jumptable at 0x040bd844. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+    return;
+  }
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate.<>c__DisplayClass79_0
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass79_0..ctor @0x40bcea0
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass79_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass79_0.<ServeTo>b__0 @0x40bd854
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass79_0__<ServeTo>b__0(long param_1)
+{
+  long lVar1;
+  lVar1 = *(long *)(param_1 + 0x10);
+  if (lVar1 != 0) {
+    (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+  }
+  if (*(long *)(param_1 + 0x18) != 0) {
+    AnhPD_FoodOrder_ServePlate__JumpToTarget
+              (*(long *)(param_1 + 0x18),*(undefined8 *)(param_1 + 0x20),
+               *(undefined8 *)(param_1 + 0x28),*(undefined8 *)(param_1 + 0x30));
+    return;
+  }
+                    
+  FUN_03f5c550();
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0..ctor @0x40bd284
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass80_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0.<JumpToTarget>b__0 @0x40bd890
+undefined4 AnhPD_FoodOrder_ServePlate_<>c__DisplayClass80_0__<JumpToTarget>b__0(long param_1)
+{
+  return *(undefined4 *)(param_1 + 0x10);
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0.<JumpToTarget>b__1 @0x40bd898
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass80_0__<JumpToTarget>b__1
+               (undefined4 param_1,long param_2)
+{
+  *(undefined4 *)(param_2 + 0x10) = param_1;
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0.<JumpToTarget>b__2 @0x40bd8a0
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass80_0__<JumpToTarget>b__2
+               (undefined1 param_1 [16],float param_2,long param_3)
+{
+  ulong uVar1;
+  long lVar2;
+  undefined8 uVar3;
+  float fVar4;
+  float fVar5;
+  float fVar6;
+  undefined4 uVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  if ((DAT_09515f63 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09515f63 = 1;
+  }
+  uVar3 = *(undefined8 *)(param_3 + 0x18);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(uVar3,0);
+  if ((uVar1 & 1) != 0) {
+    if (*(long *)(param_3 + 0x18) != 0) {
+      fVar8 = *(float *)(param_3 + 0x20);
+      fVar9 = *(float *)(param_3 + 0x24);
+      fVar4 = (float)UnityEngine_Transform__get_position(*(long *)(param_3 + 0x18),0);
+      fVar6 = *(float *)(param_3 + 0x10);
+      fVar5 = 1.0;
+      if (fVar6 <= 1.0) {
+        fVar5 = fVar6;
+      }
+      fVar10 = 0.0;
+      if (0.0 <= fVar6) {
+        fVar10 = fVar5;
+      }
+      fVar5 = sinf(fVar6 * 3.1415927);
+      if (*(long *)(param_3 + 0x30) != 0) {
+        uVar7 = *(undefined4 *)(param_3 + 0x2c);
+        lVar2 = UnityEngine_Component__get_transform(*(long *)(param_3 + 0x30),0);
+        if (lVar2 != 0) {
+          UnityEngine_Transform__set_position
+                    (fVar8 + (fVar4 - fVar8) * fVar10,
+                     fVar5 * 1.2 + fVar9 + (param_2 - fVar9) * fVar10,uVar7,lVar2,0);
+          return;
+        }
+      }
+    }
+                    
+    FUN_03f5c550();
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServePlate.<>c__DisplayClass80_0.<JumpToTarget>b__3 @0x40bd9d8
+void AnhPD_FoodOrder_ServePlate_<>c__DisplayClass80_0__<JumpToTarget>b__3(long param_1)
+{
+  if (*(long *)(param_1 + 0x30) != 0) {
+    AnhPD_FoodOrder_ServePlate__OnArriveAtTarget
+              (*(long *)(param_1 + 0x30),*(undefined8 *)(param_1 + 0x38),
+               *(undefined8 *)(param_1 + 0x40));
+    return;
+  }
+                    
+  FUN_03f5c550();
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServeService
+//==== AnhPD.FoodOrder.ServeService.IsReserved @0x41e5d48
+uint AnhPD_FoodOrder_ServeService__IsReserved(long param_1,undefined8 param_2,undefined4 param_3)
+{
+  long lVar1;
+  uint uVar2;
+  ulong uVar3;
+  undefined8 uVar4;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  long local_58;
+  if ((DAT_09516bca & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a4268);
+    FUN_03f5c2a4(&DAT_091a4270);
+    FUN_03f5c2a4(&DAT_091a4278);
+    FUN_03f5c2a4(&DAT_091adcb0);
+    FUN_03f5c2a4(&DAT_091afe70);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bca = 1;
+  }
+  local_68 = 0;
+  uStack_60 = 0;
+  local_58 = 0;
+  AnhPD_FoodOrder_ServeService__Prune(param_1);
+  if (*(long *)(param_1 + 0x10) == 0) {
+                    
+    FUN_03f5c550();
+  }
+  FUN_057e185c(&local_68,*(long *)(param_1 + 0x10),DAT_091afe70);
+  do {
+    do {
+      uVar2 = FUN_071bd28c(&local_68,DAT_091a4270);
+      lVar1 = local_58;
+      if ((uVar2 & 1) == 0) goto LAB_041e5e78;
+      if (local_58 == 0) {
+                    
+        FUN_03f5c550();
+      }
+      uVar4 = *(undefined8 *)(local_58 + 0x18);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar3 = UnityEngine_Object__op_Equality(uVar4,param_2,0);
+    } while ((uVar3 & 1) == 0);
+    if (*(long *)(lVar1 + 0x20) == 0) {
+                    
+      FUN_03f5c550();
+    }
+    uVar3 = FUN_05797528(*(long *)(lVar1 + 0x20),param_3,DAT_091adcb0);
+  } while ((uVar3 & 1) == 0);
+LAB_041e5e78:
+  FUN_071bd288(&local_68,DAT_091a4268);
+  return uVar2 & 1;
+}
+
+//==== AnhPD.FoodOrder.ServeService.TryReserve @0x41fca14
+undefined8
+AnhPD_FoodOrder_ServeService__TryReserve
+          (undefined8 param_1,undefined8 param_2,long param_3,undefined8 param_4,undefined8 *param_5
+          )
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  long lVar3;
+  if ((DAT_09516bc3 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091add18);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bc3 = 1;
+  }
+  *param_5 = 0;
+  thunk_FUN_03f5d7b8(param_5,0);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(param_3,0);
+  if ((uVar1 & 1) != 0) {
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(param_4,0);
+    if ((uVar1 & 1) != 0) {
+      uVar2 = AnhPD_FoodOrder_ServeService__BlockedFor(param_1,param_3,0);
+      if ((param_3 == 0) ||
+         (lVar3 = AnhPD_FoodOrder_FCustomerLine__GetMatchingIndices(param_3,param_4,uVar2,0),
+         lVar3 == 0)) {
+                    
+        FUN_03f5c550();
+      }
+      if (*(int *)(lVar3 + 0x18) != 0) {
+        uVar2 = AnhPD_FoodOrder_ServeService__Open(param_1,param_2,param_3,lVar3);
+        *param_5 = uVar2;
+        thunk_FUN_03f5d7b8(param_5,uVar2);
+        return 1;
+      }
+    }
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.ServeService.BlockedFor @0x41fcb38
+long AnhPD_FoodOrder_ServeService__BlockedFor(long param_1,undefined8 param_2,long param_3)
+{
+  long lVar1;
+  long lVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  long local_98;
+  undefined8 *puStack_90;
+  long local_88;
+  long local_80;
+  undefined8 uStack_78;
+  long local_70;
+  if ((DAT_09516bce & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a4268);
+    FUN_03f5c2a4(&DAT_091a4270);
+    FUN_03f5c2a4(&DAT_091a4278);
+    FUN_03f5c2a4(&DAT_091a82e8);
+    FUN_03f5c2a4(&DAT_091a8298);
+    FUN_03f5c2a4(&DAT_09179e18);
+    FUN_03f5c2a4(&DAT_091afe70);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bce = 1;
+  }
+  local_80 = 0;
+  uStack_78 = 0;
+  local_70 = 0;
+  AnhPD_FoodOrder_ServeService__Prune(param_1);
+  if (*(long *)(param_1 + 0x10) != 0) {
+    FUN_057e185c(&local_98,*(long *)(param_1 + 0x10),DAT_091afe70);
+    lVar4 = 0;
+    local_70 = local_88;
+    uStack_78 = puStack_90;
+    local_80 = local_98;
+    local_98 = 0;
+    puStack_90 = &local_80;
+    while( true ) {
+      do {
+        uVar3 = FUN_071bd28c(&local_80,DAT_091a4270);
+        lVar2 = local_70;
+        lVar1 = local_98;
+        if ((uVar3 & 1) == 0) {
+          FUN_071bd288(puStack_90,DAT_091a4268);
+          if (lVar1 == 0) {
+            return lVar4;
+          }
+                    
+          FUN_03f5c548(lVar1);
+        }
+      } while (local_70 == param_3);
+      if (local_70 == 0) break;
+      uVar5 = *(undefined8 *)(local_70 + 0x18);
+      if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar3 = UnityEngine_Object__op_Equality(uVar5,param_2,0);
+      if ((uVar3 & 1) != 0) {
+        if (lVar4 == 0) {
+          lVar4 = thunk_FUN_03f9944c(DAT_09179e18);
+          FUN_053d6e00(lVar4,DAT_091a8298);
+          if (lVar4 == 0) {
+                    
+            FUN_03f5c550();
+          }
+        }
+        FUN_053d8058(lVar4,*(undefined8 *)(lVar2 + 0x20),DAT_091a82e8);
+      }
+    }
+                    
+    FUN_03f5c550();
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServeService.Open @0x41fcd6c
+undefined8
+AnhPD_FoodOrder_ServeService__Open
+          (long param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+{
+  uint uVar1;
+  long lVar2;
+  undefined8 uVar3;
+  long lVar4;
+  long lVar5;
+  undefined8 *puVar6;
+  if ((DAT_09516bcd & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091afe68);
+    FUN_03f5c2a4(&DAT_0918a9b8);
+    DAT_09516bcd = 1;
+  }
+  uVar3 = thunk_FUN_03f9944c(DAT_0918a9b8);
+  AnhPD_FoodOrder_ServeTicket___ctor(uVar3,param_2,param_3,param_4);
+  lVar2 = DAT_091afe68;
+  lVar4 = *(long *)(param_1 + 0x10);
+  if (lVar4 != 0) {
+    lVar5 = *(long *)(lVar4 + 0x10);
+    *(int *)(lVar4 + 0x1c) = *(int *)(lVar4 + 0x1c) + 1;
+    if (lVar5 != 0) {
+      uVar1 = *(uint *)(lVar4 + 0x18);
+      if (uVar1 < *(uint *)(lVar5 + 0x18)) {
+        *(uint *)(lVar4 + 0x18) = uVar1 + 1;
+        puVar6 = (undefined8 *)(lVar5 + (long)(int)uVar1 * 8 + 0x20);
+        *puVar6 = uVar3;
+        thunk_FUN_03f5d7b8(puVar6,uVar3);
+      }
+      else {
+        FUN_057e0c68(lVar4,uVar3,*(undefined8 *)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x70));
+      }
+      return uVar3;
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServeService.TryReserveOrder @0x41fce64
+undefined8
+AnhPD_FoodOrder_ServeService__TryReserveOrder
+          (undefined8 param_1,undefined8 param_2,long param_3,undefined4 param_4,undefined8 *param_5
+          )
+{
+  uint uVar1;
+  ulong uVar2;
+  long lVar3;
+  long lVar4;
+  undefined8 uVar5;
+  long lVar6;
+  if ((DAT_09516bc4 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091adc88);
+    FUN_03f5c2a4(&DAT_091adcb0);
+    FUN_03f5c2a4(&DAT_091adc70);
+    FUN_03f5c2a4(&DAT_0917c520);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bc4 = 1;
+  }
+  *param_5 = 0;
+  thunk_FUN_03f5d7b8(param_5,0);
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar2 = UnityEngine_Object__op_Implicit(param_3,0);
+  if ((uVar2 & 1) == 0) {
+    return 0;
+  }
+  if ((param_3 != 0) &&
+     (lVar3 = AnhPD_FoodOrder_FCustomerLine__GetOpenOrderIndices(param_3,0), lVar3 != 0)) {
+    uVar2 = FUN_05797528(lVar3,param_4,DAT_091adcb0);
+    if ((uVar2 & 1) == 0) {
+      return 0;
+    }
+    uVar2 = AnhPD_FoodOrder_ServeService__IsReserved(param_1,param_3,param_4);
+    if ((uVar2 & 1) != 0) {
+      return 0;
+    }
+    lVar4 = thunk_FUN_03f9944c(DAT_0917c520);
+    FUN_05796918(lVar4,DAT_091adc70);
+    lVar3 = DAT_091adc88;
+    if (lVar4 != 0) {
+      lVar6 = *(long *)(lVar4 + 0x10);
+      *(int *)(lVar4 + 0x1c) = *(int *)(lVar4 + 0x1c) + 1;
+      if (lVar6 != 0) {
+        uVar1 = *(uint *)(lVar4 + 0x18);
+        if (uVar1 < *(uint *)(lVar6 + 0x18)) {
+          *(uint *)(lVar4 + 0x18) = uVar1 + 1;
+          *(undefined4 *)(lVar6 + (long)(int)uVar1 * 4 + 0x20) = param_4;
+        }
+        else {
+          FUN_057971a8(lVar4,param_4,
+                       *(undefined8 *)(*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70));
+        }
+        uVar5 = AnhPD_FoodOrder_ServeService__Open(param_1,param_2,param_3,lVar4);
+        *param_5 = uVar5;
+        thunk_FUN_03f5d7b8(param_5,uVar5);
+        return 1;
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServeService.CanReserve @0x41fd01c
+undefined8
+AnhPD_FoodOrder_ServeService__CanReserve(undefined8 param_1,long param_2,undefined8 param_3)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  if ((DAT_09516bc5 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bc5 = 1;
+  }
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar1 = UnityEngine_Object__op_Implicit(param_2,0);
+  if ((uVar1 & 1) != 0) {
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar1 = UnityEngine_Object__op_Implicit(param_3,0);
+    if ((uVar1 & 1) != 0) {
+      uVar2 = AnhPD_FoodOrder_ServeService__BlockedFor(param_1,param_2,0);
+      if (param_2 != 0) {
+        uVar2 = AnhPD_FoodOrder_FCustomerLine__CanAccept(param_2,param_3,uVar2,0);
+        return uVar2;
+      }
+                    
+      FUN_03f5c550();
+    }
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.ServeService.CanDeliver @0x41fd0e8
+undefined8
+AnhPD_FoodOrder_ServeService__CanDeliver(undefined8 param_1,long param_2,undefined8 param_3)
+{
+  ulong uVar1;
+  undefined8 uVar2;
+  long lVar3;
+  if ((param_2 != 0) &&
+     (uVar1 = AnhPD_FoodOrder_ServeTicket__get_IsValid(param_2), (uVar1 & 1) != 0)) {
+    lVar3 = *(long *)(param_2 + 0x18);
+    uVar2 = AnhPD_FoodOrder_ServeService__BlockedFor(param_1,lVar3,param_2);
+    if (lVar3 != 0) {
+      uVar2 = AnhPD_FoodOrder_FCustomerLine__CanAccept(lVar3,param_3,uVar2,0);
+      return uVar2;
+    }
+                    
+    FUN_03f5c550();
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.ServeService.Deliver @0x41fd160
+bool AnhPD_FoodOrder_ServeService__Deliver
+               (undefined8 param_1,long param_2,undefined8 param_3,undefined8 param_4)
+{
+  long lVar1;
+  ulong uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  long lVar5;
+  if ((DAT_09516bc6 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09180e78);
+    FUN_03f5c2a4(&DAT_091efa30);
+    FUN_03f5c2a4(&DAT_091943f8);
+    DAT_09516bc6 = 1;
+  }
+  lVar1 = thunk_FUN_03f9944c(DAT_091943f8);
+  System_Object___ctor(lVar1,0);
+  if (lVar1 != 0) {
+    *(undefined8 *)(lVar1 + 0x18) = param_4;
+    thunk_FUN_03f5d7b8((undefined8 *)(lVar1 + 0x18),param_4);
+    uVar2 = AnhPD_FoodOrder_ServeService__CanDeliver(param_1,param_2,param_3);
+    if ((uVar2 & 1) == 0) {
+      AnhPD_FoodOrder_ServeService__Release(param_1,param_2);
+      return false;
+    }
+    if (param_2 != 0) {
+      uVar3 = AnhPD_FoodOrder_ServeService__BlockedFor
+                        (param_1,*(undefined8 *)(param_2 + 0x18),param_2);
+      AnhPD_FoodOrder_ServeService__Release(param_1,param_2);
+      lVar5 = *(long *)(param_2 + 0x18);
+      *(undefined1 *)(lVar1 + 0x10) = 0;
+      uVar4 = thunk_FUN_03f9944c(DAT_09180e78);
+      System_Action___ctor(uVar4,lVar1,DAT_091efa30,0);
+      if (lVar5 != 0) {
+        AnhPD_FoodOrder_FCustomerLine__CompareData(lVar5,param_3,uVar4,0,uVar3,0);
+        return *(char *)(lVar1 + 0x10) != '\0';
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServeService.Release @0x41fd2b4
+void AnhPD_FoodOrder_ServeService__Release(long param_1,long param_2)
+{
+  long lVar1;
+  if ((DAT_09516bc9 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091afe78);
+    DAT_09516bc9 = 1;
+  }
+  if ((param_2 != 0) && (*(char *)(param_2 + 0x2c) == '\0')) {
+    lVar1 = *(long *)(param_1 + 0x10);
+    *(undefined1 *)(param_2 + 0x2c) = 1;
+    if (lVar1 != 0) {
+      FUN_057e2274(lVar1,param_2,DAT_091afe78);
+      return;
+    }
+                    
+    FUN_03f5c550();
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServeService.CanDeliverOrder @0x41fd32c
+undefined8 AnhPD_FoodOrder_ServeService__CanDeliverOrder(undefined8 param_1,long param_2)
+{
+  undefined4 uVar1;
+  ulong uVar2;
+  long lVar3;
+  undefined8 uVar4;
+  if ((DAT_09516bc7 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091adcb0);
+    FUN_03f5c2a4(&DAT_091add18);
+    FUN_03f5c2a4(&DAT_091add20);
+    DAT_09516bc7 = 1;
+  }
+  if ((param_2 != 0) &&
+     (uVar2 = AnhPD_FoodOrder_ServeTicket__get_IsValid(param_2), (uVar2 & 1) != 0)) {
+    if (*(long *)(param_2 + 0x20) != 0) {
+      if (*(int *)(*(long *)(param_2 + 0x20) + 0x18) < 1) {
+        return 0;
+      }
+      if (*(long *)(param_2 + 0x18) != 0) {
+        uVar2 = AnhPD_FoodOrder_FCustomerLine__get_IsCustomerReady(*(long *)(param_2 + 0x18),0);
+        if ((uVar2 & 1) == 0) {
+          return 0;
+        }
+        if (*(long *)(param_2 + 0x18) != 0) {
+          lVar3 = AnhPD_FoodOrder_FCustomerLine__GetOpenOrderIndices(*(long *)(param_2 + 0x18),0);
+          if ((*(long *)(param_2 + 0x20) != 0) &&
+             (uVar1 = FUN_05796eb0(*(long *)(param_2 + 0x20),0,DAT_091add20), lVar3 != 0)) {
+            uVar4 = FUN_05797528(lVar3,uVar1,DAT_091adcb0);
+            return uVar4;
+          }
+        }
+      }
+    }
+                    
+    FUN_03f5c550();
+  }
+  return 0;
+}
+
+//==== AnhPD.FoodOrder.ServeService.DeliverOrder @0x41fd414
+uint AnhPD_FoodOrder_ServeService__DeliverOrder(undefined8 param_1,long param_2)
+{
+  undefined4 uVar1;
+  uint uVar2;
+  ulong uVar3;
+  long lVar4;
+  long lVar5;
+  if ((DAT_09516bc8 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091add18);
+    FUN_03f5c2a4(&DAT_091add20);
+    DAT_09516bc8 = 1;
+  }
+  if ((param_2 != 0) &&
+     (uVar3 = AnhPD_FoodOrder_ServeTicket__get_IsValid(param_2), (uVar3 & 1) != 0)) {
+    lVar4 = *(long *)(param_2 + 0x20);
+    if (lVar4 == 0) {
+LAB_041fd4c8:
+                    
+      FUN_03f5c550();
+    }
+    if (0 < *(int *)(lVar4 + 0x18)) {
+      lVar5 = *(long *)(param_2 + 0x18);
+      uVar1 = FUN_05796eb0(lVar4,0,DAT_091add20);
+      if (lVar5 == 0) goto LAB_041fd4c8;
+      uVar2 = AnhPD_FoodOrder_FCustomerLine__CompleteOrderAt(lVar5,uVar1,0);
+      goto LAB_041fd4ac;
+    }
+  }
+  uVar2 = 0;
+LAB_041fd4ac:
+  AnhPD_FoodOrder_ServeService__Release(param_1,param_2);
+  return uVar2 & 1;
+}
+
+//==== AnhPD.FoodOrder.ServeService.Prune @0x41fd4cc
+void AnhPD_FoodOrder_ServeService__Prune(long param_1)
+{
+  long lVar1;
+  ulong uVar2;
+  long lVar3;
+  int iVar4;
+  if ((DAT_09516bcf & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091afe80);
+    FUN_03f5c2a4(&DAT_091afe88);
+    FUN_03f5c2a4(&DAT_091afe90);
+    DAT_09516bcf = 1;
+  }
+  if (*(long *)(param_1 + 0x10) == 0) {
+LAB_041fd5ac:
+                    
+    FUN_03f5c550();
+  }
+  iVar4 = *(int *)(*(long *)(param_1 + 0x10) + 0x18);
+  if (-1 < iVar4 + -1) {
+    do {
+      if (*(long *)(param_1 + 0x10) == 0) goto LAB_041fd5ac;
+      iVar4 = iVar4 + -1;
+      lVar1 = FUN_057e0998(*(long *)(param_1 + 0x10),iVar4,DAT_091afe90);
+      if (lVar1 == 0) goto LAB_041fd5ac;
+      uVar2 = AnhPD_FoodOrder_ServeTicket__get_IsValid();
+      if ((uVar2 & 1) == 0) {
+        if ((*(long *)(param_1 + 0x10) == 0) ||
+           (lVar1 = FUN_057e0998(*(long *)(param_1 + 0x10),iVar4,DAT_091afe90), lVar1 == 0))
+        goto LAB_041fd5ac;
+        lVar3 = *(long *)(param_1 + 0x10);
+        *(undefined1 *)(lVar1 + 0x2c) = 1;
+        if (lVar3 == 0) goto LAB_041fd5ac;
+        FUN_057e251c(lVar3,iVar4,DAT_091afe80);
+      }
+    } while (0 < iVar4);
+  }
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServeService.HasReservation @0x41fd5b0
+uint AnhPD_FoodOrder_ServeService__HasReservation(long param_1,undefined8 param_2)
+{
+  uint uVar1;
+  ulong uVar2;
+  undefined8 uVar3;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  long local_48;
+  if ((DAT_09516bcb & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a4268);
+    FUN_03f5c2a4(&DAT_091a4270);
+    FUN_03f5c2a4(&DAT_091a4278);
+    FUN_03f5c2a4(&DAT_091afe70);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09516bcb = 1;
+  }
+  local_58 = 0;
+  uStack_50 = 0;
+  local_48 = 0;
+  AnhPD_FoodOrder_ServeService__Prune(param_1);
+  if (*(long *)(param_1 + 0x10) == 0) {
+                    
+    FUN_03f5c550();
+  }
+  FUN_057e185c(&local_58,*(long *)(param_1 + 0x10),DAT_091afe70);
+  do {
+    uVar1 = FUN_071bd28c(&local_58,DAT_091a4270);
+    if ((uVar1 & 1) == 0) break;
+    if (local_48 == 0) {
+                    
+      FUN_03f5c550();
+    }
+    uVar3 = *(undefined8 *)(local_48 + 0x18);
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar2 = UnityEngine_Object__op_Equality(uVar3,param_2,0);
+  } while ((uVar2 & 1) == 0);
+  FUN_071bd288(&local_58,DAT_091a4268);
+  return uVar1 & 1;
+}
+
+//==== AnhPD.FoodOrder.ServeService.BuildReport @0x41fd740
+undefined8 AnhPD_FoodOrder_ServeService__BuildReport(long param_1)
+{
+  long lVar1;
+  long *plVar2;
+  ulong uVar3;
+  long lVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  undefined8 local_98;
+  undefined8 *puStack_90;
+  long local_88;
+  undefined8 local_80;
+  undefined8 *puStack_78;
+  long local_70;
+  if ((DAT_09516bcc & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091a4268);
+    FUN_03f5c2a4(&DAT_091a4270);
+    FUN_03f5c2a4(&DAT_091a4278);
+    FUN_03f5c2a4(&DAT_091afe70);
+    FUN_03f5c2a4(&DAT_091afe88);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    FUN_03f5c2a4(&DAT_0918b348);
+    FUN_03f5c2a4(&DAT_091da200);
+    FUN_03f5c2a4(&DAT_0921fdd0);
+    FUN_03f5c2a4(&DAT_091f8a38);
+    FUN_03f5c2a4(&DAT_09220748);
+    FUN_03f5c2a4(&DAT_09226470);
+    FUN_03f5c2a4(&DAT_091f86d8);
+    FUN_03f5c2a4(&DAT_09214720);
+    DAT_09516bcc = 1;
+  }
+  local_80 = 0;
+  puStack_78 = (undefined8 *)0x0;
+  local_70 = 0;
+  AnhPD_FoodOrder_ServeService__Prune(param_1);
+  if (*(long *)(param_1 + 0x10) != 0) {
+    if (*(int *)(*(long *)(param_1 + 0x10) + 0x18) == 0) {
+      return DAT_0921fdd0;
+    }
+    plVar2 = (long *)thunk_FUN_03f9944c(DAT_0918b348);
+    System_Text_StringBuilder___ctor(plVar2,0);
+    if (*(long *)(param_1 + 0x10) != 0) {
+      FUN_057e185c(&local_98,*(long *)(param_1 + 0x10),DAT_091afe70);
+      local_70 = local_88;
+      puStack_78 = puStack_90;
+      local_80 = local_98;
+      local_98 = 0;
+      puStack_90 = &local_80;
+      while (uVar3 = FUN_071bd28c(&local_80,DAT_091a4270), lVar1 = local_70, (uVar3 & 1) != 0) {
+        if (local_70 == 0) {
+                    
+          FUN_03f5c550();
+        }
+        uVar6 = *(undefined8 *)(local_70 + 0x10);
+        uVar7 = *(undefined8 *)(local_70 + 0x18);
+        if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar3 = UnityEngine_Object__op_Implicit(uVar7,0);
+        uVar7 = DAT_09226470;
+        uVar5 = DAT_091f8a38;
+        if ((uVar3 & 1) != 0) {
+          lVar4 = *(long *)(lVar1 + 0x18);
+          if (lVar4 == 0) {
+                    
+            FUN_03f5c550();
+          }
+          uVar5 = UnityEngine_Object__GetName(lVar4,0);
+        }
+        uVar6 = System_String__Format(uVar7,uVar6,uVar5,0);
+        uVar7 = FUN_04d648f8(DAT_091f86d8,*(undefined8 *)(lVar1 + 0x20),DAT_091da200);
+        uVar6 = System_String__Concat(uVar6,DAT_09220748,uVar7,DAT_09214720,0);
+        if (plVar2 == (long *)0x0) {
+                    
+          FUN_03f5c550(uVar6,uVar6);
+        }
+        System_Text_StringBuilder__AppendLine(plVar2,uVar6,0);
+      }
+      FUN_071bd288(&local_80,DAT_091a4268);
+      if (plVar2 != (long *)0x0) {
+        uVar6 = (**(code **)(*plVar2 + 0x168))(plVar2,*(undefined8 *)(*plVar2 + 0x170));
+        return uVar6;
+      }
+    }
+  }
+                    
+  FUN_03f5c550();
+}
+
+//==== AnhPD.FoodOrder.ServeService..ctor @0x41fda68
+void AnhPD_FoodOrder_ServeService___ctor(long param_1)
+{
+  undefined8 uVar1;
+  if ((DAT_09516bd0 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_091afe60);
+    FUN_03f5c2a4(&DAT_0917cba0);
+    DAT_09516bd0 = 1;
+  }
+  uVar1 = thunk_FUN_03f9944c(DAT_0917cba0);
+  FUN_057e0400(uVar1,DAT_091afe60);
+  *(undefined8 *)(param_1 + 0x10) = uVar1;
+  thunk_FUN_03f5d7b8((undefined8 *)(param_1 + 0x10),uVar1);
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+
+########## TYPE AnhPD.FoodOrder.ServeService.<>c__DisplayClass5_0
+//==== AnhPD.FoodOrder.ServeService.<>c__DisplayClass5_0..ctor @0x41fd2ac
+void AnhPD_FoodOrder_ServeService_<>c__DisplayClass5_0___ctor(undefined8 param_1)
+{
+  System_Object___ctor(param_1,0);
+  return;
+}
+
+//==== AnhPD.FoodOrder.ServeService.<>c__DisplayClass5_0.<Deliver>b__0 @0x41fdaf0
+void AnhPD_FoodOrder_ServeService_<>c__DisplayClass5_0__<Deliver>b__0(long param_1)
+{
+  long lVar1;
+  lVar1 = *(long *)(param_1 + 0x18);
+  *(undefined1 *)(param_1 + 0x10) = 1;
+  if (lVar1 != 0) {
+                    /* WARNING: Could not recover jumptable at 0x041fdb0c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(lVar1 + 0x18))(*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28));
+    return;
+  }
+  return;
+}
+

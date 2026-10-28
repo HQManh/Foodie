@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_vi-VN
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi-VN
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Bóng bay rực rỡ khiến mỗi buổi phục vụ sushi như ngày hội.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Nhà hàng sushi đầu tiên.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Nhà hàng rộng hơn, sẵn sàng cho thêm nhiều nâng cấp sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Cây bonsai được tỉa gọn gàng, thêm một nét xanh dịu mắt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Biển hiệu chuột lang nước thân thiện cho mặt tiền.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: Chú mèo thần tài vẫy tay mời khách vào quán.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: Quầy trưng bày đầy ắp những món ngon nhất của nhà hàng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Chiếc thớt trên mái chất đầy sushi và cơm cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Cờ và mái hiên đầy màu sắc tô điểm mặt tiền nhà hàng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: Vị khách hồ ly kitsune duyên dáng gọi sushi đầy kịch tính.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Chú dê xanh mê matcha và đang tập phép lịch sự bàn ăn thật vui vẻ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Chăm chỉ nghiên cứu thực đơn nhưng rồi vẫn đổi bữa trưa lấy lá bạch đàn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Chú sư tử shishi nhỏ can đảm thách đấu mọi cuộn sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Mái nhà truyền thống nâng nhà hàng thêm một tầng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Chú chó shiba đại vô địch sumo coi mỗi mâm sushi là trận tranh đai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Ghế đẩu êm ái cho thực khách sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: Đại ca sói nói khẽ nhưng chỉ một ánh nhìn đủ khống chế cả quầy sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Bóng bay lễ hội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Mở rộng tiệm sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Vườn bonsai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Biển chuột lang nước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Mèo thần tài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Quầy trưng bày
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Thớt sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Cờ sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Tiểu thư Hồ Ly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Tiền Bối
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Mái tầng hai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Ghế đẩu sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Đại Ca Sói
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Sushi Nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Cơm nắm tay khoác một lát cá như chiếc chăn nhỏ xíu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Cơm cuộn Maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Cuộn chặt trong rong biển và cắt ngay trước khi ai kịp nhìn trộm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Sushi Gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: Chiếc thuyền rong biển nhỏ chất đầy topping tới tận miệng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Đĩa Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Cá tươi thái mỏng, chẳng còn chỗ nào để giấu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Trà xanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Ấm áp và dịu nhẹ, rót ra để cuốn trôi vị cay của wasabi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: Chú mèo thần tài vẫy tay mời khách vào quán.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Ghế đẩu êm ái cho thực khách sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Những chiếc đèn lồng giấy rực sáng thắp sáng nhà hàng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Biển hiệu chuột lang nước thân thiện cho mặt tiền.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Biển hiệu chuột lang nước thân thiện cho mặt tiền.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Một chú cá ngừ khổng lồ đậu trên mái nhà, tự hào khoe mẻ cá tươi trong ngày.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Chiếc thớt trên mái chất đầy sushi và cơm cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Mèo thần tài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Ghế đẩu sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Đèn lồng giấy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Biển chuột lang nước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Biển chuột lang nước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Cá Ngừ Khổng Lồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Thớt sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Rau củ được thái xong trước khi kịp chớp mắt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Lưỡi dao nhanh đến mức dưa leo đầu hàng từ trước.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Thái cá sống mịn màng như sashimi thượng hạng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Mỗi nhát cắt là một tác phẩm nghệ thuật. Cá cũng thấy vinh dự.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Cơm dẻo thơm trong nháy mắt. Hạt gạo xếp hàng chờ được nấu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Cơm hoàn hảo đến mức đáng được đứng dậy vỗ tay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Mài wasabi nhanh như chớp. Rơi nước mắt là tùy chọn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Mài nhanh đến mức wasabi còn chưa kịp nhận ra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Nấu ra món ngon nhanh hơn cả lúc bạn nói “umami”.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: Huyền thoại sôi sùng sục nấu ở tốc độ siêu không gian.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Trà nóng có ngay. Khách hàng bình tĩnh nhâm nhi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Rót trà hoàn hảo và sự bình yên trong tâm hồn cùng một lúc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Thớt Nhanh Như Chớp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Thớt Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Thớt Cá Sắc Bén
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Thớt Bậc Thầy Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Nồi Cơm Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Nồi Cơm Mega
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Dụng Cụ Mài Nhanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Lốc Xoáy Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Nồi Hầm Siêu Tốc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Vạc Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Ấm Trà Pha Nhanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Ấm Trà Thiền Sư
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Lá cờ sushi xanh tươi thu hút mọi ánh nhìn đang đói.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Tấm rèm noren xanh mát khẽ đung đưa phía trên lối vào.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Tấm rèm noren đỏ rực chào đón thực khách đói bụng ngay cửa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Chiếc đèn đá phủ rêu mang đến chút bình yên như chốn chùa chiền.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Cờ Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Noren Xanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Noren Đỏ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Miếu Đá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Thái cá tươi thành những lát sashimi mềm mượt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Biến rau củ giòn thành những que nhỏ gọn gàng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Mài wasabi thành món bất ngờ xanh cay nồng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Ninh nước dùng thành bát canh ấm lòng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Hấp cơm thành vàng sushi dẻo thơm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Pha trà xanh, an yên trong từng ngụm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Bàn mài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Nồi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Nồi cơm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Ấm trà
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Quả bơ béo ngậy, món quà phương Tây yêu thích dành cho sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Những khối xanh mềm sẵn sàng cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Những lát mượt phủ lên cơm như tà kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: Chiếc chén trống chờ một dòng trà rót chậm rãi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Trà xanh đánh bọt, tĩnh lặng như khu vườn Kyoto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Những khối trứng ngọt nhỏ xinh vàng óng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: Trứng cuộn ngọt, cuộn từng lớp đầy kiên nhẫn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Những lát trứng cuộn vàng óng, ngọt mềm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Loài cá thịt trắng dẹt được các bậc thầy sushi trân quý.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Khối cá bơn mềm cho một miếng thanh nhẹ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Những lát trắng mỏng manh, gần như trong suốt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Con cá bạc óng ánh đậm vị đại dương.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Cá thu cỡ miếng ăn, sẵn sàng cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Những lát cá bóng bẩy vị đậm đà.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Miếng phi lê cam rực rỡ từ vùng nước lạnh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Khối cá hồi sẵn sàng phủ lên chiếc thuyền nhỏ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Những lát cá hồi béo như bơ tan ngay đầu lưỡi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Cá ngừ đỏ thẫm, vua của chợ cá.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Khối cá ngừ cho miếng ăn chắc thịt, đậm vị.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Những lát đỏ ruby được cắt bằng dao của bậc thầy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: Chiếc thuyền rong biển chở đầy món khách muốn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Cuộn sushi làm đúng theo ý thích của khách.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Cơm nắm tay phủ món khách yêu thích.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: Đĩa cá lát tươi được chọn theo yêu cầu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: Quả chanh tươi sáng đánh thức mọi miếng ăn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Lát chanh mỏng làm cá thêm tươi sáng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Sốt mayo kiểu Nhật béo ngậy, chua nhẹ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: Con bạch tuộc sống, nhiều tay mà chẳng có kế hoạch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Luộc hồng mềm, chờ lưỡi dao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Miếng bạch tuộc nhỏ, như takoyaki không có viên bột.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Lát tako mỏng dai giòn hấp dẫn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Gạo hạt tròn đã xát trắng, chờ được vo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Cơm trộn giấm tơi xốp, linh hồn của mọi miếng sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Những viên ngọc cam tí hon nổ lách tách mỗi miếng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Trứng cá chuồn giòn tan lấp lánh như ngọc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Trứng cá hồi to bóng vỡ òa vị biển cả.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Những lá rong biển nướng giòn, sẵn sàng cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Chiếc lá thơm mang vị the mát như bạc hà.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Con tôm sống cong mình như dấu chấm hỏi nhỏ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Luộc hồng hào kiêu hãnh, sẵn sàng lên cơm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Tôm cỡ miếng ăn, sẵn sàng cuộn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Xẻ phẳng như chiếc quạt cho miếng nigiri hoàn hảo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Lá trà xanh hái từ những sườn đồi mờ sương.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: Củ rễ xù xì nổi tiếng tính khí cay nồng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: Một chút cay xanh làm thông cả mũi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Nước tinh khiết, sẵn sàng hóa thành trà.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Bơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Bơ thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Bơ lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Chén
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Thớt cá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Thớt rau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Trứng cuộn thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Trứng cuộn Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Trứng cuộn cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Cá bơn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Cá bơn thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Cá bơn lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Cá thu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Cá thu thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Cá thu lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Cá hồi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Cá hồi thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Cá hồi lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Cá ngừ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Cá ngừ thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Cá ngừ lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Sushi Gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Cơm cuộn Maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Sushi Nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Đĩa Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Chanh vàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Chanh vàng lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Sốt mayonnaise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Bạch tuộc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Bạch tuộc luộc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Bạch tuộc thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Bạch tuộc lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Gạo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Cơm sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Trứng cá trứng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Trứng cá chuồn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Trứng cá hồi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Rong biển Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Lá tía tô Nhật
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Tôm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Tôm luộc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Tôm thái hạt lựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Tôm xẻ bướm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Lá trà
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Wasabi mài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Nước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Dưa leo bị thái lát trước khi kịp nhận ra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Thớt Thái Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Một nhát chém, đủ rau cho một cuộn sushi hoàn hảo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Thớt Katana Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Lát cá mượt như lụa trong chớp mắt. Cá cũng gật gù.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Thớt Sashimi Đại Sư
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Từng nhát cắt chuẩn đến mức đầu bếp cũng phải trầm trồ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Bàn Thờ Sashimi Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Cơm dẻo thơm, chín trước khi kịp bày bát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Nồi Cơm Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Từng hạt đều hoàn hảo. Lần nào cũng vậy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Đền Gạo Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Những đám mây xanh cay xè, xong trong một giây.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Bão Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Nhanh đến mức đứng bên kia phòng cũng cay mũi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Cơn Bão Wasabi Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Nước dùng sôi sùng sục đậm đà trong chớp mắt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Núi Lửa Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: Món súp ngon nhất phố, dọn ra nhanh như chớp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Nồi Umami Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Pha sự bình yên và trà xanh nhanh hơn bao giờ hết.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Ấm Trà Giác Ngộ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Trà hoàn hảo trước cả khi bạn kịp hít một hơi sâu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Ấm Trà Thiền Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: चमकीले गुब्बारे हर सुशी सर्विस को उत्सव जैसा बना देते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: मूल सुशी रेस्टोरेंट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: और सुशी अपग्रेड के लिए तैयार बड़ा रेस्टोरेंट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: करीने से कटा हुआ बोनसाई जो हरियाली का शांत स्पर्श जोड़ता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: दुकान के सामने के लिए एक दोस्ताना कैपीबारा बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: ग्राहकों को अंदर बुलाने के लिए हाथ हिलाती स्वागत बिल्ली।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: रेस्टोरेंट के सबसे बढ़िया व्यंजनों से भरा काउंटर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: छत पर सुशी और रोल से लदा कटिंग बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: रंग-बिरंगे झंडे और शामियाने रेस्टोरेंट के सामने को सजाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: एक सुरुचिपूर्ण किट्सुने मेहमान, जो नाटकीय अंदाज़ में सुशी मंगाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: यह नीली बकरी माचा की दीवानी है और खुशमिज़ाज टेबल मैनर्स का अभ्यास करती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: मेन्यू ध्यान से पढ़ता है, फिर भी लंच के बदले यूकेलिप्टस ले लेता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: एक बहादुर नन्हा शिशी, जो हर सुशी रोल को द्वंद्व के लिए ललकारता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: पारंपरिक छत जो रेस्टोरेंट को एक और मंज़िल देती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: शिबा योकोज़ुना, जो हर सुशी थाली को चैंपियनशिप मुक़ाबला मानता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: सुशी मेहमानों के लिए आरामदायक स्टूल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: भेड़िया ओयाबुन धीमे बोलता है और एक नज़र से सुशी काउंटर पर राज करता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: त्योहार के गुब्बारे
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: सुशी विस्तार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: बोनसाई बग़ीचा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: कैपीबारा बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: लकी कैट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: डिस्प्ले काउंटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: सुशी कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: सुशी झंडे
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: किट्सुने ओजो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: आओई यागी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: कोआला सेनपाई
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: शिशी-कुन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: दूसरी मंज़िल की छत
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: शिबा योकोज़ुना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: सुशी स्टूल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: ओकामी ओयाबुन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: निगिरी सुशी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: हाथ से दबाए चावल पर मछली का टुकड़ा, जैसे छोटा-सा कंबल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: माकी रोल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: समुद्री शैवाल में कसकर लपेटा और किसी के झाँकने से पहले काट दिया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: गुनकान सुशी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: समुद्री शैवाल की छोटी-सी नाव, टॉपिंग से लबालब भरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: साशिमी प्लेट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: ताज़ी मछली के पतले टुकड़े, छिपने की कोई जगह नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: ग्रीन टी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: गरम और सुकून भरी, वसाबी की तीखाई धो देने के लिए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: ग्राहकों को अंदर बुलाने के लिए हाथ हिलाती स्वागत बिल्ली।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: सुशी मेहमानों के लिए आरामदायक स्टूल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: चमकती कागज़ की लालटेनें जो रेस्टोरेंट को रोशन करती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: दुकान के सामने के लिए एक दोस्ताना कैपीबारा बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: दुकान के सामने के लिए एक दोस्ताना कैपीबारा बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: छत पर बैठी एक विशाल ट्यूना, जो गर्व से आज का ताज़ा शिकार दिखाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: छत पर सुशी और रोल से लदा कटिंग बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: लकी कैट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: सुशी स्टूल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: कागज़ की लालटेन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: कैपीबारा बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: कैपीबारा बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: विशाल ट्यूना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: सुशी कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: सब्ज़ियाँ पलक झपकने से पहले ही कट जाती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: ब्लेड इतने तेज़ कि खीरे पहले ही हार मान लेते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: कच्ची मछली को साशिमी जैसी मुलायमियत से काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: हर कट एक कलाकृति है। मछलियाँ खुद को सम्मानित महसूस करती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: पल भर में फूला-फूला चावल। दाने कतार में लगकर पकने का इंतज़ार करते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: इतना परफ़ेक्ट चावल कि खड़े होकर तालियाँ बनती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: बिजली की रफ़्तार से वसाबी घिसता है। आँसू वैकल्पिक हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: इतनी तेज़ घिसता है कि वसाबी को पता भी नहीं चलता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: “उमामी” बोलने से पहले ही स्वाद उबाल देता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: खौलती हुई किंवदंती जो वार्प स्पीड से पकाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: गरमागरम चाय झटपट। ग्राहक शांत रहकर चुस्की लेते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: एक ही बार में बेहतरीन चाय और मन की शांति परोसता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: फुर्तीला कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: निंजा कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: तेज़ फ़िश बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: मास्टर साशिमी बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: टर्बो राइस कुकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: मेगा राइस कुकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: फुर्तीला ग्रेटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: वसाबी बवंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: स्पीडी सिमर पॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: उमामी कड़ाह
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: क्विक-ब्रू टीपॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: ज़ेन मास्टर टीपॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: एक चमकदार नीला सुशी बैनर जो हर भूखी नज़र को खींच लेता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: एक ठंडा नीला नोरेन परदा जो प्रवेश द्वार पर धीरे-धीरे लहराता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: एक शानदार लाल नोरेन परदा जो दरवाज़े पर भूखे मेहमानों का स्वागत करता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: काई लगी पत्थर की लालटेन जो मंदिर जैसी शांति का स्पर्श लाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: सुशी बैनर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: नीला नोरेन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: लाल नोरेन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: पत्थर का मंदिर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: ताज़ी मछली को मुलायम साशिमी पट्टियों में काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: कुरकुरी सब्ज़ियों को साफ़-सुथरी छोटी पट्टियों में काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: वसाबी को कद्दूकस करके तीखा हरा सरप्राइज़ बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: शोरबे को धीमी आँच पर पकाकर सुकून भरा गरम कटोरा बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: चावल को भाप में पकाकर मुलायम, चिपचिपा सुशी का सोना बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: हरी चाय बनाता है, हर घूँट में सुकून।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: कद्दूकस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: बर्तन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: राइस कुकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: केतली
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: मलाईदार एवोकाडो, सुशी को पश्चिम का पसंदीदा तोहफ़ा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: नरम हरे टुकड़े, रोल के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: रेशमी फाँकें जो चावल पर किमोनो की तरह लिपटती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: खाली कप, चाय की शांत धार का इंतज़ार करता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: फेंटी हुई हरी चाय, क्योटो के बाग़ जैसी शांत।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: मीठे ऑमलेट के छोटे सुनहरे टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: मीठा रोल्ड ऑमलेट, धैर्य से परत-दर-परत बना।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: रोल्ड अंडे की सुनहरी फाँकें, मीठी और नरम।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: सुशी उस्तादों की पसंदीदा चपटी सफ़ेद मछली।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: हल्के निवाले के लिए नरम फ़्लाउंडर के टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: नाज़ुक सफ़ेद फाँकें, लगभग पारदर्शी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: चमचमाती चाँदी जैसी मछली, समंदर के स्वाद से भरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: एक निवाले जितनी मैकेरल, रोल के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: चमकदार फाँकें, गहरे और भरपूर स्वाद वाली।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: ठंडे पानी से सीधा आया चमकीला नारंगी फ़िले।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: सैल्मन के टुकड़े, नन्ही नाव पर सजने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: मक्खन जैसे सैल्मन के टुकड़े जो ज़बान पर घुल जाएँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: गहरा लाल टूना, मछली बाज़ार का राजा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: दमदार, गूदेदार निवाले के लिए टूना के टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: उस्ताद के चाकू से कटी माणिक जैसी फाँकें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: समुद्री शैवाल की नाव, मेहमान की पसंद से लदी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: बिल्कुल मेहमान की पसंद से बना रोल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: हाथ से दबाए चावल, मेहमान की पसंदीदा टॉपिंग के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: ऑर्डर के हिसाब से चुनी ताज़ी फाँकों की प्लेट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: हर निवाले को जगाने वाला चमकीला नींबू।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: पतली नींबू फाँकें जो मछली को निखार दें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: हल्की खटास वाली मलाईदार जापानी मेयो।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: कच्चा ऑक्टोपस, भुजाएँ ढेर सारी और योजना कोई नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: गुलाबी और नरम उबला, चाकू के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: छोटे ऑक्टोपस निवाले, जैसे बिना गोले का ताकोयाकी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: पतली टाको फाँकें, चबाने वाले मज़े के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: छोटे दाने का चावल, पॉलिश किया और नहाने का इंतज़ार करता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: मुलायम सिरके वाला चावल, हर सुशी की आत्मा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: नन्हे नारंगी मोती जो हर निवाले में फूटते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: कुरकुरे फ़्लाइंग फ़िश अंडे, जो गहनों जैसे चमकते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: बड़े चमकदार सैल्मन अंडे, समंदर के स्वाद से फूटते।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: कुरकुरी सेंकी हुई समुद्री शैवाल की शीट, लपेटने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: एक सुगंधित पत्ता जो ताज़ा, पुदीने जैसा ज़ायका देता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: कच्चा झींगा, छोटे प्रश्नचिह्न की तरह मुड़ा हुआ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: उबलकर गुलाबी और गर्वित, चावल के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: एक निवाले जितने झींगे, रोल के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: पंखे की तरह खोला गया, परफ़ेक्ट निगिरी के लिए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: धुंधली पहाड़ियों से तोड़ी हरी चाय की पत्तियाँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: गाँठदार जड़, जिसका तीखा मिज़ाज मशहूर है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: हरे तीखेपन का छोटा सा टुकड़ा जो नाक खोल दे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: ताज़ा पानी, चाय बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: एवोकाडो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: कटे एवोकाडो के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: कटा एवोकाडो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: माचा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: मछली बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: सब्ज़ी बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: तामागोयाकी के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: तामागोयाकी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: कटा तामागोयाकी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: फ़्लाउंडर मछली
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: फ़्लाउंडर के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: कटी फ़्लाउंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: मैकेरल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: मैकेरल के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: कटी मैकेरल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: सैल्मन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: सैल्मन के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: कटा सैल्मन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: टूना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: टूना के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: कटा टूना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: गुनकान सुशी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: माकी रोल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: निगिरी सुशी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: साशिमी प्लेट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: नींबू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: कटा नींबू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: मेयोनीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: उबला ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: ऑक्टोपस के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: कटा ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: चावल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: सुशी चावल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: कैपेलिन रो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: टोबिको
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: इकुरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: नोरी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: शिसो पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: उबला झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: झींगा के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: बटरफ़्लाई झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: चाय की पत्तियाँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: वसाबी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: कद्दूकस वसाबी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: पानी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: खीरे को पता चलने से पहले ही वह कट जाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: समुराई स्लाइसर बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: एक वार, एक परफ़ेक्ट रोल जितनी सब्ज़ियाँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: लीजेंडरी कटाना बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: पल भर में रेशमी स्लाइस। मछलियाँ भी मानती हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: ग्रैंड साशिमी बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: इतनी सटीक कटिंग कि शेफ़ भी दंग रह जाए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: लीजेंडरी साशिमी वेदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: कटोरा रखने से पहले ही मुलायम चावल तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: टर्बो राइस कुकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: हर दाना परफ़ेक्ट। हर बार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: लीजेंडरी राइस मंदिर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: तीखे हरे बादल, एक सेकंड में तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: वसाबी टाइफ़ून
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: इतना तेज़ कि कमरे के उस पार से नाक में झनझनाहट हो।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: लीजेंडरी वसाबी तूफ़ान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: शोरबा पल भर में स्वाद से भरकर उबलने लगता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: उमामी ज्वालामुखी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: शहर का सबसे लज़ीज़ सूप, बिजली की रफ़्तार से।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: लीजेंडरी उमामी पॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: पहले से कहीं तेज़ शांति और ग्रीन टी बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: प्रबुद्ध टीपॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: गहरी साँस लेने से पहले ही परफ़ेक्ट चाय।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: लीजेंडरी ज़ेन टीपॉट
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1309985666, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Ingredient_chicken_wing_coating
+  m_EditorClassIdentifier:
+  _id: chicken_wing_coating
+  _tempNameAlias: Coated Chicken Wing
+  _tempDescription: Wings battered up before they learn to fly.
+  _locTable: Map_burger
+  _icon: {fileID: 21300000, guid: 2bcdf6d1bc40dff468832e1623d30d27, type: 2}

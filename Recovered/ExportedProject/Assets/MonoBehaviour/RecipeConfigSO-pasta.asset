@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-pasta
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: spaghetti-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0cc6f4c4f31aa144991f4f158054548a, type: 2}
+      id: spaghetti-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 323b4e582222bcf489a09f0d3552808f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 4a113c728cc801c46a5a96a341eb430f, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: manicotti-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6dc32c04542be5c46a181c933d1995e1, type: 2}
+      id: manicotti-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 263b9e20224c422438df51a3c11a7bdd, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 763bec640f9c7634c8fc2815ee717868, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 01000000
+  - id: farfalle-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c9b358c84d0524948b1475a4a7466c29, type: 2}
+      id: farfalle-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2841f01637685394aab42db7cc8fe9ac, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 93c4bcd9c9dc9584d9e5a9e69747f0dc, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: spaghetti-boiled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 77c4050c88c294744af814895cb3d2d2, type: 2}
+      id: spaghetti-boiled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 725747f40e2bdb54da24cf1cd998210b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: 6143de0c5c027c4469b74513b6c5cb46, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 00000000
+  - id: manicotti-boiled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0e1555c8777d12b46a0d985265bbbf8f, type: 2}
+      id: manicotti-boiled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: cc3739d6db25d684f82a07eaae9c539f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: da56b1efa29e1fc4f8f09137a2b5f20a, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 01000000
+  - id: farfalle-boiled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3d5d0a67e827b884fb761bc810a249bd, type: 2}
+      id: farfalle-boiled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4a95ddf19c9bf3e4b8e4ebfa276a01ee, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: 7ebf4ce9fc674dd4ab1feed4880622ef, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 02000000
+  - id: tomato-large
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 301bada0c5e37694aa54d485fa5347a1, type: 2}
+      id: tomato-large
+      type: 0
+      scale: 0.85
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ad21d6ea4e2df1149bb22fc5e326bc20, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 8ee369d30ad49ee4594326ce9d540cf5, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 03000000
+  - id: spinach
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 848f5922b2674c1409fef80bc9222ef8, type: 2}
+      id: spinach
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: a47da30fe799e504ba4b6fe568003408, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 12018150eb0a64e439ce029a057759b7, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 04000000
+  - id: cheese
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0076bf470479853498ee5b868e1022bb, type: 2}
+      id: cheese
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 58a74942e174cd943acb41b0d8c8376a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 1885dc793f588164285958d89f8bf087, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 05000000
+  - id: milk
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 722ae52a0e02960469355a5265a2ee87, type: 2}
+      id: milk
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 84a7194f7d2bb744790db2e4f8a010b0, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: c3d3860f37e484148a31680812a9c183, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 06000000
+  - id: tomato-large-chopped
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 32a5d230e72a5e541b531964f6a3fd64, type: 2}
+      id: tomato-large-chopped
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2a40a7b330fc5664c841e06f1d52eb87, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 78d2c75c929af824dab90ff868cb6ef3, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 15000000
+  - id: spinach-chopped
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e73d20d83998f5047a1f00848a148312, type: 2}
+      id: spinach-chopped
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 17206a7146b539a4082f8205765e8c1e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 87988ae4e49a7014f954d7a9075e4123, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 04000000
+  - id: cheese-chopped
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8030b28b7c3d2334d95e0f8246a13229, type: 2}
+      id: cheese-chopped
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2f5a16ae16d9b6340b3a05f9b1cb6305, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: b1727435d7114dc489413952e19f0328, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 05000000
+  - id: tomato-milk-sauce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 62543cfa858497941bc121e460c660c4, type: 2}
+      id: tomato-milk-sauce
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 79447e7ef8e73e4409e0f4f34787488f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 3d592c060f55ee74f92b2b1b8262b6fc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: spinach-milk-sauce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 45f78d5cd9f8f234a89c3ecca7276eca, type: 2}
+      id: spinach-milk-sauce
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2af2e13be0934ce4bb84991d627a69d9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 0dc14ee24f084f443b711e48c9f2acdd, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 04000000
+  - id: cheese-milk-sauce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 13b9786280c7be4458fe686ed1578164, type: 2}
+      id: cheese-milk-sauce
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 15b87264876f3b64f9d4fe9933327df7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 91625d983d57df3418b8b663fa0aa61d, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: lettuce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a12a18391928e294ba9f00361c1a467c, type: 2}
+      id: lettuce
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5fb4e571d93392e45bffac11e5d5f041, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: d50b29ca714a8994a9e30dd2845701be, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 07000000
+  - id: lettuce-cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: dfdf6116856c0a84ea1189733e91f3e3, type: 2}
+      id: lettuce-cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 064e62e8557815741889981ea13aed15, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: d1e488a0b3e161a48b5fb0329f254d2a, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: lemon
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7dc96fb603e6a354490adde579734c17, type: 2}
+      id: lemon
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 251d128eecf6d4549aa7b0250a359257, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: c81c6aa66acd2a9418c887c04e9c972a, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 09000000
+  - id: lemon-sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a6a4845652ec4954dadb2b46e43d0f20, type: 2}
+      id: lemon-sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7105f264b1f3464458c29e84d4db19aa, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 021c7cdd4b4a3274abf10535d527e2c8, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: bread-loaf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f84ccefce7c396e4aafd236301a7a45e, type: 2}
+      id: bread-loaf
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b7f6b6b0c4a21a44a84d0545f6d567f9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 2413fb9dae305a245908c9c52c04eb8a, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0a000000
+  - id: beef-steak-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 05ee5c9e38304504cb8052cf3011eb5e, type: 2}
+      id: beef-steak-raw
+      type: 0
+      scale: 0.92
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9c9c4d95b27c2004dbd4e32a0070f335, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 03ad51d103fbe0e4a84fd120d0f26d06, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0e000000
+  - id: chicken-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c4a791788ade3d044bb18f641bea08a5, type: 2}
+      id: chicken-raw
+      type: 0
+      scale: 0.95
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4005eeddf1729684c8c269c16cc0fca2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: c928ff5c5dc705c4f809f90ba8091e54, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0f000000
+  - id: bread-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a975ed039118f944da5a2459a2b1a4cc, type: 2}
+      id: bread-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b121828b4b09cdf4fbb0b30ef97ac339, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 6f74640ca7d1b9041b494ca053eec31c, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: octopus-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 043a1d4b316912241903c17c0564c5b0, type: 2}
+      id: octopus-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 771a6a62db3debb4c89b55017ec080ff, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: d3327df5490b1ed40a62bcc1570abaa1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: shrimp-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d06a5d4a07b72c048922c9741b307134, type: 2}
+      id: shrimp-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6a8b62b06c459aa42b4c03819299509b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: fbfcbe42be7c2fc42b65a6d085969d31, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: clam-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 12850f6ea1313154a9f3fd0395a58ac7, type: 2}
+      id: clam-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 96740d61b7a54a14bba2fa7124f137d8, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: e583a918b7298c94e986633d68a16753, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: beef-steak-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 843135e3d64fed9468dacc0acfe40ad8, type: 2}
+      id: beef-steak-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 894e73e6f79b7954b87315465407ea2c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: a80d3fa8b6cd16c4f87ae0f65ca314c1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: chicken-grilled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 67be65cdae3ec52428fa4012c749dd08, type: 2}
+      id: chicken-grilled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 48f7c43422012d04e89bba324395b1ec, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: 1373dda72dee822458f337ea3b26eba2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0f000000
+  - id: soda-cup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d24ff36cf5c549048a84e92b73a1eae1, type: 2}
+      id: soda-cup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: af82e28fddd8e03469727850fe978bba, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: e251f971795de2c488cedb670352c2bc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: octopus-raw-cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9c19d06d8c9d8c84aa3253fcd0e2b3fe, type: 2}
+      id: octopus-raw-cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ade355e39f22d724bbf2ff783d33ab76, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 6b6979f73ec3b6b449255e268f562b52, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0b000000
+  - id: mayonaise
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a8267091d48e48541ad58712b07fafc6, type: 2}
+      id: mayonaise
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0.19}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9f8d2698e76d1874f80f1b744bdda7c3, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 5e5f9cc8e18d157478109ec7972d783e, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 11000000
+  - id: ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0e27d1a78cd9a3f4b842104c2e0f9641, type: 2}
+      id: ice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 37846c8f935535545a40731c62f5c378, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: aceec6b8f70c4cd4fb628ff8aa494adb, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 12000000
+  - id: ground-meat-cooked
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5ba528f42babbe44a93ed850bef575de, type: 2}
+      id: ground-meat-cooked
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 46ff3424ceecf444ebaf65dd4665ded9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114243736805655561, guid: 8fb3ff9d411f4d64c91138a4d7ae22d8, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 13000000
+  - id: ground-meat-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 812ad1717b55f2a4884f36e301fb4493, type: 2}
+      id: ground-meat-raw
+      type: 0
+      scale: 0.95
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7242906feb8b3a64bb92e45d567a9bdd, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 56187370af8a6b24993a475c5022482b, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 13000000
+  - id: shrimp-raw-cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 86244713445345c4294ec0333465fd79, type: 2}
+      id: shrimp-raw-cut
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1c890c19d5af6b247bdb8d51c67f57c8, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 8f619e89ee11cb342bb98c2a0cb624d4, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0c000000
+  - id: clam-raw-cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e45eefc87216cbc42bc3013125d366a3, type: 2}
+      id: clam-raw-cut
+      type: 0
+      scale: 0.95
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 849b26dd3a0a4b14ebe8e12ae45ac54d, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 771bed8ddfff1814a95f353ee0945a58, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0d000000
+  - id: apple-cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 532038f857ea79e4999f97871e375441, type: 2}
+      id: apple-cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c741e1013f8dc4147bbf6596410f4f3f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 908872d15e589a147995249c5c0c52d1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 16000000
+  - id: apple
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9db8f20111ca95e499fe7f4921a91857, type: 2}
+      id: apple
+      type: 0
+      scale: 0.95
+      offset: {x: 0.03, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 499b0d84a8d66b141a316734a9686a03, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: ef149e038a88fc24f9d3a86169942651, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 16000000
+  - id: pasta
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5a94a83a73a9dff4bbd82bb1795dd21c, type: 2}
+      id: pasta
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 88ef47d1d4a792f49903485dbe60e251, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114693329660128220, guid: d772557252e6ebe428a8d158e3a700af, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: salad
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f933a66fca6fbc84f8e4ced5eba33cfe, type: 2}
+      id: salad
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 71ef8326967beaf45b8fc16c0557212b, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114977153420339851, guid: c5cde4d8abe89fe4a80cae567ee3d052, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: meat-food-with-topping
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8b49eb02a210bda4ab03c2737a179018, type: 2}
+      id: meat-food-with-topping
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 20249ba156ee82b449bd96359cead359, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114470112387431263, guid: a89ca852572c8354fb726c61212fbdcc, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: soda
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e9d91faedb44479439d581725dd60643, type: 2}
+      id: soda
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ae956c539c418ee44968684708cceec0, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114044625135789424, guid: 37755229da528494385a2db254cd0c9e, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: octopus-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9c19d06d8c9d8c84aa3253fcd0e2b3fe, type: 2}
+      id: octopus-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: a07f8d9e2cd96054c84d15162ea4582c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 1
+      pieces: 0b000000
+  - id: shrimp-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 86244713445345c4294ec0333465fd79, type: 2}
+      id: shrimp-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b7cb6ad21f4994c4dbd28bb51bb16919, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 1
+      pieces: 0c000000
+  - id: clam-raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e45eefc87216cbc42bc3013125d366a3, type: 2}
+      id: clam-raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 86d711c3145a47f48895c009ad98da87, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 1
+      pieces: 0d000000
+  - id: cup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 31e8a0490a195be478fa6489c9fa1f0a, type: 2}
+      id: cup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d4e607674e6fb7740a522094fd447559, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 49510905b52cfc149a7642b7cf1ae0d8, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 10000000
+  stations:
+  - id: boiler-pot
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4635a6daf5d139b4b928a5db53d30579, type: 2}
+      id: boiler-pot
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 922374217aeecde4f8042c51d41069a3, type: 2}
+    station: {fileID: 114711914853252429, guid: 327dfb47e5ea550409069891f6a2aa28, type: 2}
+    defaultDuration: 4
+    cookTimes:
+    - resultId: spaghetti-boiled
+      duration: 4
+    - resultId: manicotti-boiled
+      duration: 4
+    - resultId: farfalle-boiled
+      duration: 4
+  - id: chopping-board
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1596e3f8c673a3348b03a576170ebd4f, type: 2}
+      id: chopping-board
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 64e70ce8d9c336d4c9ed8900a7b3e00f, type: 2}
+    station: {fileID: 114587397909062814, guid: 464d4fd1e89859e4a90f32f9ffd2bd75, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: spinach-chopped
+      duration: 2
+    - resultId: cheese-chopped
+      duration: 2
+    - resultId: tomato-large-chopped
+      duration: 2
+    - resultId: lettuce-cut
+      duration: 2
+    - resultId: lemon-sliced
+      duration: 2
+    - resultId: apple-cut
+      duration: 2
+  - id: sauce-blender
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 668ac6d855e0c304e8ab2c36cdcb0bd7, type: 2}
+      id: sauce-blender
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 4197a66ad204bb647a3c58b41f8cad1f, type: 2}
+    station: {fileID: 114875609422105747, guid: 797ccd9a3f8128840ab7e69e1c532ef0, type: 2}
+    defaultDuration: 4
+    cookTimes:
+    - resultId: spinach-milk-sauce
+      duration: 4
+    - resultId: cheese-milk-sauce
+      duration: 4
+    - resultId: tomato-milk-sauce
+      duration: 4
+  - id: pan
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8630decfc49b45346b191a51275f9667, type: 2}
+      id: pan
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: e07b9074337f94d41ac8d62031d95957, type: 2}
+    station: {fileID: 114217368724061974, guid: 2ac8132313a27ce4ba79d15a56f4cebd, type: 2}
+    defaultDuration: 1
+    cookTimes:
+    - resultId: bread-grilled
+      duration: 5.1333
+    - resultId: octopus-grilled
+      duration: 4
+    - resultId: shrimp-grilled
+      duration: 3.5333
+    - resultId: clam-grilled
+      duration: 6.3
+    - resultId: ground-meat-cooked
+      duration: 7.6333
+    - resultId: chicken-grilled
+      duration: 6.6
+    - resultId: beef-steak-grilled
+      duration: 6
+  - id: soda-machine
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 448ceb0ebed5d3e49b719dc35e3e57fc, type: 2}
+      id: soda-machine
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: aa1dc311d2faebb44ac7b0d547e65b9c, type: 2}
+    station: {fileID: 114642988549198181, guid: 378f85f0e6631024ea7b0b37d216ea2f, type: 2}
+    defaultDuration: 1
+    cookTimes:
+    - resultId: soda-cup
+      duration: 1
+  recipes:
+  - resultId: spaghetti-boiled
+    combinations:
+    - components:
+      - type: 0
+        id: spaghetti-raw
+      - type: 1
+        id: boiler-pot
+    anchorIds: []
+    displayIds: []
+  - resultId: manicotti-boiled
+    combinations:
+    - components:
+      - type: 0
+        id: manicotti-raw
+      - type: 1
+        id: boiler-pot
+    anchorIds: []
+    displayIds: []
+  - resultId: farfalle-boiled
+    combinations:
+    - components:
+      - type: 0
+        id: farfalle-raw
+      - type: 1
+        id: boiler-pot
+    anchorIds: []
+    displayIds: []
+  - resultId: spinach-chopped
+    combinations:
+    - components:
+      - type: 0
+        id: spinach
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: cheese-chopped
+    combinations:
+    - components:
+      - type: 0
+        id: cheese
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato-large-chopped
+    combinations:
+    - components:
+      - type: 0
+        id: tomato-large
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: spinach-milk-sauce
+    combinations:
+    - components:
+      - type: 0
+        id: spinach-chopped
+      - type: 0
+        id: milk
+      - type: 1
+        id: sauce-blender
+    anchorIds: []
+    displayIds: []
+  - resultId: cheese-milk-sauce
+    combinations:
+    - components:
+      - type: 0
+        id: cheese-chopped
+      - type: 0
+        id: milk
+      - type: 1
+        id: sauce-blender
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato-milk-sauce
+    combinations:
+    - components:
+      - type: 0
+        id: tomato-large-chopped
+      - type: 0
+        id: milk
+      - type: 1
+        id: sauce-blender
+    anchorIds: []
+    displayIds: []
+  - resultId: lettuce-cut
+    combinations:
+    - components:
+      - type: 0
+        id: lettuce
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: lemon-sliced
+    combinations:
+    - components:
+      - type: 0
+        id: lemon
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: apple-cut
+    combinations:
+    - components:
+      - type: 0
+        id: apple
+      - type: 1
+        id: chopping-board
+    anchorIds: []
+    displayIds: []
+  - resultId: bread-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: bread-loaf
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: octopus-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: octopus-raw-cut
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: shrimp-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: shrimp-raw-cut
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: soda-cup
+    combinations:
+    - components:
+      - type: 0
+        id: cup
+      - type: 1
+        id: soda-machine
+    anchorIds: []
+    displayIds: []
+  - resultId: clam-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: clam-raw-cut
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: ground-meat-cooked
+    combinations:
+    - components:
+      - type: 0
+        id: ground-meat-raw
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: chicken-raw
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  - resultId: beef-steak-grilled
+    combinations:
+    - components:
+      - type: 0
+        id: beef-steak-raw
+      - type: 1
+        id: pan
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1
+  ingredientListShowsRaw: 1
+  ingredientCanOrder:
+  - pasta
+  - salad
+  - meat-food-with-topping
+  - soda
+  pieceEnumType: CakeOrder.InGame.Pasta.PastaPiece
+  dishEnumType: CakeOrder.InGame.Pasta.PastaDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: 5a94a83a73a9dff4bbd82bb1795dd21c, type: 2}
+    baseId: pasta
+    sprite: {fileID: 21300000, guid: d377c45f7e5d1bb4396d3411345981d3, type: 2}
+    dishName: Pasta
+    desc: Twirled, sauced and served with Italian flair. Mamma mia!
+    plate: {fileID: 114099118695303065, guid: 99de8abce6c28b6469da24b929d47afe, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: f933a66fca6fbc84f8e4ced5eba33cfe, type: 2}
+    baseId: salad
+    sprite: {fileID: 21300000, guid: 50cd0464b9e23894d91263d3707d1028, type: 2}
+    dishName: Salad
+    desc: Crisp, fresh and tossed like a true Italian garden.
+    plate: {fileID: 114099118695303065, guid: 99de8abce6c28b6469da24b929d47afe, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: 8b49eb02a210bda4ab03c2737a179018, type: 2}
+    baseId: meat-food-with-topping
+    sprite: {fileID: 21300000, guid: f7ab71641a0408445a0759b88359dbc7, type: 2}
+    dishName: Meat & Seafood
+    desc: From the grill and the sea, a feast fit for Sunday in Napoli.
+    plate: {fileID: 114099118695303065, guid: 99de8abce6c28b6469da24b929d47afe, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: e9d91faedb44479439d581725dd60643, type: 2}
+    baseId: soda
+    sprite: {fileID: 21300000, guid: fa1b598bb07a4d64a88911acb282f749, type: 2}
+    dishName: Soda
+    desc: Fizzy, cold and the perfect sidekick for every plate of pasta.
+    plate: {fileID: 114099118695303065, guid: 59537ef81966dc243b43ade708e09583, type: 2}
+    dirtyPlate: {fileID: 0}

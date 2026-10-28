@@ -1,0 +1,2265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-icecream
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: strawberry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cdb738029f230024796bcc655a67b17c, type: 2}
+      id: strawberry
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7e03d86806f0f3b44a65b57c1880d429, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6ad1342a8f48f1c45a0c9589f5c1a84f, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: banana
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4e6b06927a467f84a8c5c03e695e3ae4, type: 2}
+      id: banana
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: edafe6db6341b8c4d8e61896a8525e5e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 73c9c0a6926f1ac4c96b19c1968eb00c, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 01000000
+  - id: kiwi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 262991ff1f571734f9e8120370d30f78, type: 2}
+      id: kiwi
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9609a138a3f2c4949a9ede3af7cb3a85, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7f7bbcaf85b3035498a8a5ef87cf581a, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: cherry_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b47b617b2ba94fc4fabdb838f1e36315, type: 2}
+      id: cherry_syrup
+      type: 0
+      scale: 1
+      offset: {x: 0.03, y: 0.18}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7a2ed1807be198f4ba6cc1effeb0f0f7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 70db531df84dc2a4b85829ff03394f6e, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: grape_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a0199743a0ebb9240a68a179f65f2ac9, type: 2}
+      id: grape_syrup
+      type: 0
+      scale: 1
+      offset: {x: 0.03, y: 0.18}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6acd2eb7e944f564f8abab2068569b05, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 480eb4a0fd1f87e4aa1a183088e4b113, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: lemon_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f9294db4446696a4699494fccb1ca7a8, type: 2}
+      id: lemon_syrup
+      type: 0
+      scale: 1
+      offset: {x: 0.03, y: 0.18}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: dbbbb38d96349b44e8fc515f5f0167ad, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: f10276bf2d1222e4a99d3782388aeb4e, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 06000000
+  - id: oreo_biscuit
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cc88e63d03978e64fb8d719336f461d7, type: 2}
+      id: oreo_biscuit
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 91d4c9c242e9fc44fa9d44ff84ac9aa5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 4f0ccce25dfa9204095cd654dd766905, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: pocky
+    displayConfig:
+      sprite: {fileID: 21300000, guid: df59e8c613e29334884cda00da72e272, type: 2}
+      id: pocky
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 8bbdc6086f36be44cb9bdbee91908950, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 38fe8c305f96463418e4f42c58acfca9, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 08000000
+  - id: sprinkles
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 06bf5972baf99b34084423e15fd0fa08, type: 2}
+      id: sprinkles
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ecda4ed9305839640ac88c9617de16e7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 134e3267ea79eb84d921c1c519fb7e4b, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: vanilla_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3725bff258c74f243986f63e34d25ff8, type: 2}
+      id: vanilla_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c25f531a9ea11fd4ab1e61f580cb9a55, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 9f32d03ab2c28344bae8900a4b001ef2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: strawberry_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: aae27329b6ca6534ebee7db3eb97c7a2, type: 2}
+      id: strawberry_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 27b367d24d5c0e140833ac2fa75fc356, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: f7503c91f7aad8b4b8b5fb363a82cb17, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: chocolate_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 457580f896bda134dafa9c18be23054c, type: 2}
+      id: chocolate_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5f972dbccf1c4a741bc1196496557edc, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: c3e9f0d76c4158f49a5852c873675fa0, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: matcha_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7621db5ddccbd994ba6a5377fceeb24c, type: 2}
+      id: matcha_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2774432e74253474291a5d85982ae41b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 95c3190ebf622224b80f75cfba3422ee, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: grape_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 55c5e274f0dbad4418dce6ee544328a9, type: 2}
+      id: grape_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4ff11d5b4db034b479b3866aff1e7d81, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 019774e8f45075a40a1aa8208d05a45a, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: cone_batter
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8edfddcfc05e7634f899a17e9a859a0c, type: 2}
+      id: cone_batter
+      type: 0
+      scale: 0.7
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4bb8e0c3ac4f87240bd075ee3631456a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: bb46864b9cfff5e40a4ef835dcf030c6, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 10000000
+  - id: milk
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 117abf7f9e3a24a40946424ff38d3d16, type: 2}
+      id: milk
+      type: 0
+      scale: 1
+      offset: {x: 0.06, y: 0.08}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ddfc55cc2391c8d49856b9b63f08f6d0, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 1a84ac044e64dd44c8260f1d1849eb94, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 11000000
+  - id: ice_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 61c6e1c85041c264295084324b2a00b8, type: 2}
+      id: ice_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c99ba0154d914584eacf3d3b9191c242, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 2dc5959e8c3c2f445bd6e850c4e3d449, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 12000000
+  - id: strawberry_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 19199bb5ac35e6e48b7ecd4e6e439268, type: 2}
+      id: strawberry_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 119c36e54e37401479b141a150ce6e0f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0f0cf6e258f66d146a2e5c49c9ebbca3, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 00000000
+  - id: banana_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 73fccebb97663f74ca7741f49e24d116, type: 2}
+      id: banana_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c1a8e7f337354a846900329bb0d4bf08, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 68b9899dc1b2c5f4284be3cecd8cb512, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 01000000
+  - id: kiwi_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3c1349ac06ff87f4bb5a08eb4737cbac, type: 2}
+      id: kiwi_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3d144bcb2bf613a44804a6a27fc11f8c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: f0566a278b368ef46a1da1b890736eae, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 02000000
+  - id: waffle_cone
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3a59948e716a60a4ea631cfb400883d6, type: 2}
+      id: waffle_cone
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 41b59443896e6c445b2bf55f267f0cd2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 29de26200df1392408fa7d2271247b2b, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: vanilla_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 685f1c5779b10184f91fde49147ddc03, type: 2}
+      id: vanilla_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: dc41335b12b506643b06c22897ed7b27, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 6959374fc043e1544aafdd2f4b7e6d25, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0a000000
+  - id: strawberry_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ae291252a09e3d842b6202d1c6e54425, type: 2}
+      id: strawberry_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ff31740b21474f846855dad86aea2911, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: beeaae6bd4381ef41b262455d7ef38cd, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0b000000
+  - id: chocolate_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d4425c861f3043c4eaaae0ecbcaee764, type: 2}
+      id: chocolate_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: d23c2a90467b0e547a566a4b09cfc4b6, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 32e09084c50d8b042bb1724f6cf6f391, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0c000000
+  - id: matcha_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: be9505ab0599e7a4b9aab2cd55e997ad, type: 2}
+      id: matcha_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e940c1723c7bd4142a4d723447bdc359, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: ec369c54c0d9b6847ad2dc752ee30155, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0d000000
+  - id: grape_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3b4fe3166acff3c4193d167fe51fd04e, type: 2}
+      id: grape_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 019b7df499277ec4f8fa1ee9b15d67d6, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: bb5215926c109594dace62db67bbdc0b, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 0e000000
+  - id: strawberry_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cf1b18bcdfeb9c84aa380142fcf06a65, type: 2}
+      id: strawberry_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 054e13315cf4b7b4b8217f5b5a99c9b1, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 74357e136cfbe9f49a99fec8619e76c2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 13000000
+  - id: banana_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 619b6b1acf64a7a4c9e406a2c3fb1284, type: 2}
+      id: banana_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 21714e72eb5cadb43a5becb1ef4d5f8e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 36112435bcd0d2845a709048b8bedc90, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 14000000
+  - id: shaved_ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4cf5153e263b73d4aa6b58822c87b20a, type: 2}
+      id: shaved_ice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ee573633841b82f47995233667c732c1, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: dbb2652ef11154b40b07d3d6742c2532, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 12000000
+  - id: mango_ice_cream_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b7c83b7f71ab2634794c87fd27429427, type: 2}
+      id: mango_ice_cream_base
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: fe5b5a4aa2108b3428f33851c113bfb7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0f45b7c129a7b16428e0c4460739fb84, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 16000000
+  - id: mango_milkshake_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b61d897461ce5c44bafe8d75b1996fb0, type: 2}
+      id: mango_milkshake_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 78d89faee325aae45b6b336deae5ae1e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 6b5e0b3c96758e64ab1a94beda0fec64, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 16000000
+  - id: blueberry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9252e0a9dd453954bbf8cefef948a083, type: 2}
+      id: blueberry
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c773ecaaff3de364d8e15008c9cb8361, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0b03149479204c640b3f31d99b4b4650, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 17000000
+  - id: avocado
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 39702390de9396a40b7fe577bed42937, type: 2}
+      id: avocado
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1c5462df9aaf7004d8dc45b257661bca, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0116337a62b5719438ad19c3f04acb37, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 18000000
+  - id: orange
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8c26329bf436d8045bdb568fb9c45bb0, type: 2}
+      id: orange
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: f0fa811a166b2324b8ba1dacd605d9bc, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ef754636fd3c23f43964a2e527fc03e9, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 19000000
+  - id: avocado_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4421b0e9ba55ea84db292530238852aa, type: 2}
+      id: avocado_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: cf2f1cf069b278440adf0c1ec5125ec2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 92e7bf0ecb052b94483a077b564b0ba6, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 18000000
+  - id: orange_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 196956e1d41b7c540a757dcf6f6c9b78, type: 2}
+      id: orange_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 79146a7b029a3584aa2e1791946b0dcf, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0881902631e6bd044a9636bb5f926fe8, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 19000000
+  - id: blueberry_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9bc8bb692aebe524583dd2c83f3d0a49, type: 2}
+      id: blueberry_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b0ae5eb5afdcd9f4eb556a712a566dad, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: c18d1fe82a5f32e4ca31ebf9318ceb48, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 20000000
+  - id: avocado_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1f65b11b95010a147845d6de3d5003bf, type: 2}
+      id: avocado_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e70f6d716f3b93040b472ad523043289, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: db65b3baa232af246a4d97f705672589, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 21000000
+  - id: orange_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a7ea8682f19695b45b4dc8e17e30db57, type: 2}
+      id: orange_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c4c3e853bf2fe0948a1e30f53ca2a500, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 4cd26d2d20897ed41981ba02ecd04c50, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 22000000
+  - id: chocolate_topping_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 2cb3517b3f706b14e885c72020962582, type: 2}
+      id: chocolate_topping_syrup
+      type: 0
+      scale: 0.7
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 374be75142a030b47bfbb59474f33fd7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a25a6ffd1e0e4fa43a90ba19eb2288e6, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1a000000
+  - id: strawberry_topping_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: bc2c3978f4b87f348b1725b251f22d57, type: 2}
+      id: strawberry_topping_syrup
+      type: 0
+      scale: 0.7
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 262fc7fc128088948b9a0e0fc82a64f9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3b6414710970257479819e014a9fe210, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1b000000
+  - id: rainbow_jelly
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 395792dd48a7b3c42af51f708c3d663c, type: 2}
+      id: rainbow_jelly
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9bfc97522d43f6c4d9d9702604b81223, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 22f573069de3ec64e8d483e97a691680, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1c000000
+  - id: white_jelly
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7181356a26e64a648828e379a693c783, type: 2}
+      id: white_jelly
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5c9cd36cbe4d9cb4595873767577915b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 4a7c011747dda81459238df42155d6da, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1d000000
+  - id: cherry
+    displayConfig:
+      sprite: {fileID: 21300000, guid: adc977622ac199c47a4893f5376c2ff3, type: 2}
+      id: cherry
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 66c68df1dad8bdb458166b10bbcd666b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7edfd417ec8677a4fad8a4ff3245e774, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1e000000
+  - id: coconut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 53faf0c05d6f21c42864825b7a2d6422, type: 2}
+      id: coconut
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9c5bcaadf6b3c5a42b3bfbdbed3543df, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 013e6983f7adadd439e865b6f865a368, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 1f000000
+  - id: coconut_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fcc98d58f0f1ec14ebec954ab59dd73f, type: 2}
+      id: coconut_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4ce7fd39f3f7c154c9acf156dd1f7dce, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: dd4d7936f091c214584cbdb146ee4e8a, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 1f000000
+  - id: coconut_smoothie_base
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 10ee2d1c534036d4f8ad854e4e802a1b, type: 2}
+      id: coconut_smoothie_base
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c4cab8ed292238440a7484a8b0174b94, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: aab883126f0d7374ba49244750b9456d, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 1f000000
+  - id: green_apple_syrup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 47d760f458bc060429cb90f409ac423d, type: 2}
+      id: green_apple_syrup
+      type: 0
+      scale: 1
+      offset: {x: 0.03, y: 0.18}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2893f277d8e8561458b152f72218aec3, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 3a9ef1718a3b4cf40af4eb6ec7b42d6b, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 23000000
+  - id: greek_yogurt
+    displayConfig:
+      sprite: {fileID: 21300000, guid: eee3c3bad5ceeaf47b58b52f4cd318a4, type: 2}
+      id: greek_yogurt
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6b963cd7ae05a94499fec4141d7b5140, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7fbf1f1c17a479a43bc3918be041d2b8, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 24000000
+  - id: whipping_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: aa55311e1773f4645b27d7a736d4d4e7, type: 2}
+      id: whipping_cream
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: eaddef61536dbbb43a572bfc91ab65e7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ed6f959621b7f424cb5d83ebe88fe4aa, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 25000000
+  - id: flexible_cone
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fad2d0bccefd7564b9b94c1124e01cdf, type: 2}
+      id: flexible_cone
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: -0.02
+    ingSO: {fileID: 11400000, guid: 77e25c9caa5538c4885e9e081ad8cfc7, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114967328832014496, guid: 6af9219a265c7234fb5ba08931145244, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_cup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3f0926b620bc2f84bbaacff89769071c, type: 2}
+      id: flexible_cup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 56c7c85abbb56d944a9e51df5b8f7364, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114924050743934937, guid: 1bd4a606d9346674eba3d991cf0fc876, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_smoothie
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c26928c273721464681c595ee4e697ad, type: 2}
+      id: flexible_smoothie
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0.19
+    ingSO: {fileID: 11400000, guid: 0dec336172b76b84ba4de071ffe93b92, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114499726237547504, guid: 09c5aafd85d2a3640a4da1f740ba7d0d, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_milkshake
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 2fbe57073ef565648b1065aae8f5e6ac, type: 2}
+      id: flexible_milkshake
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0.28
+    ingSO: {fileID: 11400000, guid: c86238018edda9a4c8538b1c7e8efe0f, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114611579644537198, guid: d64c59602f20ff34287b38c9be82b27f, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_shave_ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3075105e5a8082c479024070235c769b, type: 2}
+      id: flexible_shave_ice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c27b3c785bf45dc4b8c7f0d2b852fbeb, type: 2}
+    dishKind: 5
+    gameplayConfig:
+      prefab: {fileID: 114302127217294661, guid: 94f49caf04821ed47a73aa3ddc1e5549, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  stations:
+  - id: cutting_board_ice_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cf35f2f275e22254cb42698e3698d3f3, type: 2}
+      id: cutting_board_ice_cream
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: a9ad11cd731bfeb489baca2136edffe8, type: 2}
+    station: {fileID: 114371939378208658, guid: ec3780fdd68d8324a9e22736cb170cc6, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: strawberry_sliced
+      duration: 4.67
+    - resultId: banana_sliced
+      duration: 3.33
+    - resultId: kiwi_sliced
+      duration: 4
+    - resultId: avocado_sliced
+      duration: 5.33
+    - resultId: orange_sliced
+      duration: 4.03
+    - resultId: coconut_sliced
+      duration: 5
+  - id: cone_maker_ice_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c9af98a526f5a3d44a37d6aaa52223c5, type: 2}
+      id: cone_maker_ice_cream
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 058f22730d041654899c6c9509670caa, type: 2}
+    station: {fileID: 114470112387431263, guid: 76bd5c4acb220ea4fbdde9b76a017ccf, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: waffle_cone
+      duration: 4.767
+  - id: blender_ice_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 218d264b22bb8934185d7e45959e1714, type: 2}
+      id: blender_ice_cream
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: b05adaefaafc8b64e8f6f64793bf56b6, type: 2}
+    station: {fileID: 114587397909062814, guid: a2641cc26f5529b4a953e8c8f4dbf11c, type: 2}
+    defaultDuration: 3
+    cookTimes: []
+  - id: ice_shaver_ice_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3881874773486024ab8bb00d4566f2f7, type: 2}
+      id: ice_shaver_ice_cream
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: f0f97481305a70a41a85ffaa3bd5ca8c, type: 2}
+    station: {fileID: 114002669891404536, guid: c503af1bd3ccaef488bc5edfa76861a9, type: 2}
+    defaultDuration: 3
+    cookTimes: []
+  - id: milkshake_mixer_ice_cream
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 578085991f414774cbf02d0423d4d443, type: 2}
+      id: milkshake_mixer_ice_cream
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 5c8963b8d1ac0564db144b122afdff11, type: 2}
+    station: {fileID: 114634108722742392, guid: fd430aab265b90e4da53cb8f8f193f2f, type: 2}
+    defaultDuration: 3
+    cookTimes:
+    - resultId: vanilla_milkshake_base
+      duration: 7.31
+    - resultId: strawberry_milkshake_base
+      duration: 7.31
+    - resultId: chocolate_milkshake_base
+      duration: 7.31
+    - resultId: matcha_milkshake_base
+      duration: 7.31
+    - resultId: grape_milkshake_base
+      duration: 7.31
+    - resultId: mango_milkshake_base
+      duration: 7.31
+  recipes:
+  - resultId: strawberry_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: banana_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: banana
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: kiwi_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: kiwi
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: waffle_cone
+    combinations:
+    - components:
+      - type: 0
+        id: cone_batter
+      - type: 1
+        id: cone_maker_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: vanilla_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: strawberry_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: chocolate_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: matcha_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: grape_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: mango_milkshake_base
+    combinations:
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: milk
+      - type: 1
+        id: milkshake_mixer_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: strawberry_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry_sliced
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: banana_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: banana_sliced
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: shaved_ice
+    combinations:
+    - components:
+      - type: 0
+        id: ice_cube
+      - type: 1
+        id: ice_shaver_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: avocado_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: avocado
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: orange_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: orange
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: blueberry_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: blueberry
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: avocado_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: avocado_sliced
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: orange_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: orange_sliced
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: coconut_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: coconut
+      - type: 1
+        id: cutting_board_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: coconut_smoothie_base
+    combinations:
+    - components:
+      - type: 0
+        id: coconut_sliced
+      - type: 0
+        id: ice_cube
+      - type: 0
+        id: greek_yogurt
+      - type: 1
+        id: blender_ice_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_cone
+    combinations:
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: vanilla_ice_cream_base
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: strawberry_ice_cream_base
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: chocolate_ice_cream_base
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: matcha_ice_cream_base
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: grape_ice_cream_base
+    - components:
+      - type: 0
+        id: waffle_cone
+      - type: 0
+        id: mango_ice_cream_base
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_cup
+    combinations:
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: strawberry_ice_cream_base
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: chocolate_ice_cream_base
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: matcha_ice_cream_base
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: grape_ice_cream_base
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: mango_ice_cream_base
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: vanilla_ice_cream_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: chocolate_ice_cream_base
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: matcha_ice_cream_base
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: grape_ice_cream_base
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: mango_ice_cream_base
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: strawberry_ice_cream_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: matcha_ice_cream_base
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: grape_ice_cream_base
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: mango_ice_cream_base
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: chocolate_ice_cream_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: grape_ice_cream_base
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: mango_ice_cream_base
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: matcha_ice_cream_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: mango_ice_cream_base
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: grape_ice_cream_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: mango_ice_cream_base
+      - type: 0
+        id: sprinkles
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_smoothie
+    combinations:
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: strawberry_smoothie_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: banana_smoothie_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: coconut_smoothie_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: blueberry_smoothie_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: avocado_smoothie_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: rainbow_jelly
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: white_jelly
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: orange_smoothie_base
+      - type: 0
+        id: sprinkles
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_milkshake
+    combinations:
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: vanilla_milkshake_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: strawberry_milkshake_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: chocolate_milkshake_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: matcha_milkshake_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: grape_milkshake_base
+      - type: 0
+        id: whipping_cream
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: mango_milkshake_base
+      - type: 0
+        id: whipping_cream
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_shave_ice
+    combinations:
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: cherry_syrup
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: grape_syrup
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: lemon_syrup
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: green_apple_syrup
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: strawberry_sliced
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: banana_sliced
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: kiwi_sliced
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: blueberry
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: cherry
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: orange_sliced
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: pocky
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: oreo_biscuit
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: sprinkles
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: chocolate_topping_syrup
+    - components:
+      - type: 0
+        id: shaved_ice
+      - type: 0
+        id: strawberry_topping_syrup
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1.2
+  ingredientListShowsRaw: 1
+  ingredientCanOrder:
+  - flexible_cone
+  - flexible_cup
+  - flexible_smoothie
+  - flexible_milkshake
+  - flexible_shave_ice
+  pieceEnumType: CakeOrder.InGame.IceCream.IceCreamPiece
+  dishEnumType: CakeOrder.InGame.IceCream.IceCreamDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: 1a604f9656ee8104c8997107cabf29d4, type: 2}
+    baseId: flexible_cone
+    sprite: {fileID: 21300000, guid: fad2d0bccefd7564b9b94c1124e01cdf, type: 2}
+    dishName: Ice Cream Cone
+    desc: A crisp waffle cone crowned with a cold scoop.
+    plate: {fileID: 114099118695303065, guid: 44e5c2a3b5b6ee0489a561e52ead14db, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: 66131defcbea1334da93874a1a624d42, type: 2}
+    baseId: flexible_cup
+    sprite: {fileID: 21300000, guid: 3f0926b620bc2f84bbaacff89769071c, type: 2}
+    dishName: Ice Cream Cup
+    desc: A scoop in a cup, no drips on the fingers.
+    plate: {fileID: 114703437598541787, guid: 10717a9f3886c1549aa48d6e651232eb, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: 62d7f41ecc473a242bfb70cb2be5d907, type: 2}
+    baseId: flexible_smoothie
+    sprite: {fileID: 21300000, guid: c26928c273721464681c595ee4e697ad, type: 2}
+    dishName: Smoothie
+    desc: Fresh fruit blitzed with ice until it sings.
+    plate: {fileID: 114703437598541787, guid: ff841a03eb15b95439ff139080ae4f40, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: 275769ccb04a9324996caed6ddaffea4, type: 2}
+    baseId: flexible_milkshake
+    sprite: {fileID: 21300000, guid: 2fbe57073ef565648b1065aae8f5e6ac, type: 2}
+    dishName: Milkshake
+    desc: Ice cream and milk shaken into a thick sip.
+    plate: {fileID: 114703437598541787, guid: ff841a03eb15b95439ff139080ae4f40, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 5
+    icon: {fileID: 21300000, guid: 7d24292b0a0b8b248ae8a6dd3de4539b, type: 2}
+    baseId: flexible_shave_ice
+    sprite: {fileID: 21300000, guid: 3075105e5a8082c479024070235c769b, type: 2}
+    dishName: Shave Ice
+    desc: Fluffy shaved ice soaked in bright syrup.
+    plate: {fileID: 114703437598541787, guid: aa6b5979480decc43b032092c878a433, type: 2}
+    dirtyPlate: {fileID: 0}

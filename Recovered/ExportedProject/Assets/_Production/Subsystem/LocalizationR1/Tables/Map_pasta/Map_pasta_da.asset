@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_da
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: Den hyggelige lille trattoria, hvor din pastahistorie begynder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: Giver din trattoria en hyggelig ovenpå-etage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: Pisker silkeblød sauce på et øjeblik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: En hvirvelvind af sauce. Låg kan varmt anbefales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: Tomaterne er skåret i tern, før de når at rødme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: Hakker så hurtigt, at løgene ikke engang når at græde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: Et ternet bord og bløde stole til pasta under åben himmel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: En varm lygte, der gløder ved døren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: Et stolt capybara-kokkeskilt, der kroner taget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: En kridttavle med dagens pastaretter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: Saucerne syder dobbelt så hurtigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: Ekstra syden låst op. Panden gløder af stolthed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: Friske potteplanter, der lyser indgangen op.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: Vandet koger, før du kan nå at sige al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: En boblende legende, der koger pasta med lynets hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: En fyldig drueklase pynter taget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: En kæmpe tallerken spaghetti snoet højt oppe på taget!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: Hælder boblende sodavand op på et øjeblik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: Masser af brus! En fontæne af bobler og glæde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: Trattoria ovenpå
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: Saucemixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: Saucetornado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: Hurtighakkebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: Pasta-ninjabræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: Terrassebord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: Væglygte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: Capy-kokkeskilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: Kridttavle-menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: Sydende pande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: Flammende pande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: Basilikum i potte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: Lynkoge-gryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: Mega-kogekedel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: Tagdruer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: Kæmpe spaghetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: Brusefontæne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: Sodavandsgejser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: En frygtindgydende bjørn i nålestribet jakkesæt og fedora med roser, som forventer store portioner pasta og absolut respekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: En stilfuld stribet kat i lilla hat og matchende kjole, der bestiller pasta med upåklagelig smag og en tilfreds spinden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: En velordnet chinchilla i blå postuniform, der følger duften af frisk pasta mellem leveringerne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: En stolt hane i høj hat og trefarvet skærf, der præsiderer over pastadisken med store taler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: Et blidt får med runde briller og et halstørklæde med klokke, som betragter hver pastatallerken som en festlig lejlighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: Æble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: Æblestykker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: Don Orsino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: Grillet bøf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: Rå bøf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: Kogegryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: Ristet brød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: Brød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: Grevinde Caterina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: Ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: Hakket ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: Ostesauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: Grillet kylling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: Rå kylling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: Chico Chinchilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: Skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: Grillet kammusling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: Rå kammusling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: Skåret rå kammusling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: Kød & skaldyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: Sodavand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: Kogt farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: Rå farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: Stegt hakket kød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: Råt hakket kød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: Citron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: Citronskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: Snittet salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: Kogt manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: Rå manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: Mayonnaise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: Kød & skaldyr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: Stort menukort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: Mælk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: Grillet blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: Rå blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: Skåret rå blæksprutte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: Pande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: Borgmester Gallo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: Saucemixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: Signor Woolington
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: Grillede rejer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: Rå rejer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: Skårne rå rejer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: Sodavand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: Sodavandskop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: Kogt spaghetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: Rå spaghetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: Spinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: Hakket spinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: Spinatsauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: Stor tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: Hakket tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: Tomatsauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: Et sprødt æble, der holder lægen og kedelige salater væk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: Skåret i sprøde både, klar til at komme i.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: Brunet på grillen, til den hvisker bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: Et tykt stykke oksekød med store florentinske drømme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: Koger pasta, til den er perfekt al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: Gyldent bruschetta-brød med et tilfredsstillende knas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: Et rustikt italiensk brød, sprødt udenpå og blødt indeni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: Et osthjul lagret for drama og smag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: Ostesnefnug, der venter på at falde på pastaen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: Cremet, osteagtig og glat nok til at vinde enhver diskussion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: Saftig grillet kylling med ordentlige grillstriber.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: Bleg kylling, der venter på sit øjeblik på grillen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: Hakker grøntsager hurtigere, end du kan sige ciao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: Brunede kammuslinger, søde som en venetiansk solnedgang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: En kammusling, der stadig holder skallen lukket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: Renset, trimmet og ikke længere skaldet med det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: En tom kop, der venter på noget med bobler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: Snurret, tilsat sauce og serveret med italiensk flair. Mamma mia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: Sprød, frisk og vendt som en ægte italiensk have.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: Fra grillen og havet, et festmåltid til en søndag i Napoli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: Brusende, kold og den perfekte makker til hver tallerken pasta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: Bløde butterflies, klar til middag i fint tøj.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: Små pastasommerfugle, der ikke har lært at flyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: Brunet og saftig, præcis som nonna laver det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: Hakket oksekød på vej til at blive en klassisk ragù.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: Kolde terninger, der holder hver sodavand kølig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: En solrig Amalfi-citron med en frisk personlighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: Friske citronskiver, der får hver tår til at funkle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: Et sprødt salathoved, frisk fra haven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: Snittede blade klar til en ordentlig vending.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: Møre rør, kogte og klar til at blive fyldt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: Store pastarør med masser af plads til fyld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: Den cremede dressing, der holder hver salat sammen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: Grill møder hav på én generøs tallerken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: Frisk mælk, hemmeligheden bag hver cremet sauce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: Grillet blæksprutte, en ægte smag af Middelhavet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: Otte arme og ingen anelse om, hvad der venter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: Fangarme trimmet og klar til varmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: Steger kød og saucer til gylden perfektion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: En dampende tallerken pasta, al dente og stolt af det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: Friske grøntsager vendt på italiensk vis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: Blender silkebløde saucer i én cremet hvirvel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: Sydende rejer kysset af flammerne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: Små rejer, der har krøllet sig sammen og er generte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: Pillet og klargjort uden noget skal at gemme sig i.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: En kop fuld af bobler, serveret iskold.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: En kop klar til en ny omgang bobler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: Hælder sodavand over masser af is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: Perfekt al dente og klar til at blive snurret.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: Lang, tør og stiv som en grissini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: Grønne blade med sømandsstyrke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: Fint hakkede blade klar til saucen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: Grøn, cremet og i hemmelighed sund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: En buttet tomat, modnet under den toscanske sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: Hakket tomat, det bankende hjerte i hver rød sauce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: Rosa, cremet og lyserød som en romersk solnedgang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: Kop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: Sodavandsmaskine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: Hyggelig Trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: Tomaterne er hakket, før de når at rødme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: Samurai-pastabræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: Ét sving, en hel salat. Kokkens kys.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: Legendarisk pastakniv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: Cremet sauce i en hvirvel. Servietter anbefales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: Sauce-orkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: Silkeblød sauce med en snurrens hastighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: Legendarisk saucehvirvel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: Bøfferne syder på et øjeblik. Hør den lyd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: Infernopande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: Grillet til perfektion, før du kan sige bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: Legendarisk sydepande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: Pastaen er al dente på et øjeblik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: Vulkankogegryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: Koger så hurtigt, at vandet knap opdager det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: Legendarisk pastakedel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: Den går i udbrud med bobler. Kopperne fylder sig selv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: Sodavulkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: Bobler for evigt. Tørsten har ingen chance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: Uendeligt sodavandsspringvand
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

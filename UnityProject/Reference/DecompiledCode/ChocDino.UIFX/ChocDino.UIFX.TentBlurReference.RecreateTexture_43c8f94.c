@@ -1,0 +1,101 @@
+// rea decompile_all
+// name: ChocDino.UIFX.TentBlurReference$$RecreateTexture
+// address: 0x43c8f94
+// body: available
+// range: 0x43c8f94-0x43c91a7 inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra Listing reports a terminal call at 0x43c918c to 0x862f704 UnityEngine.Texture$$set_wrapMode (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra Listing reports a terminal call at 0x43c91a4 to 0x3f5c550 FUN_03f5c550 (external=false, thunk=false, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+void ChocDino_UIFX_TentBlurReference__RecreateTexture
+               (long param_1,long *param_2,uint param_3,long *param_4)
+
+{
+  int iVar1;
+  uint uVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  undefined4 uVar6;
+  ulong uVar7;
+  long *plVar8;
+  long lVar9;
+  
+  if ((DAT_09517bcc & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184618);
+    FUN_03f5c2a4(&DAT_09188ad0);
+    DAT_09517bcc = 1;
+  }
+  lVar9 = *param_2;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar7 = UnityEngine_Object__op_Inequality(lVar9,0,0);
+  if ((uVar7 & 1) != 0) {
+    plVar8 = (long *)*param_2;
+    if (plVar8 == (long *)0x0) goto LAB_043c91a4;
+    iVar1 = (**(code **)(*plVar8 + 0x188))(plVar8,*(undefined8 *)(*plVar8 + 400));
+    plVar8 = (long *)*param_2;
+    if (plVar8 == (long *)0x0) goto LAB_043c91a4;
+    uVar2 = (**(code **)(*plVar8 + 0x1a8))(plVar8,*(undefined8 *)(*plVar8 + 0x1b0));
+    if ((uVar2 | iVar1 << 0xd) != param_3) {
+      ChocDino_UIFX_RenderTextureHelper__ReleaseTemporary(param_2,0);
+      *(undefined1 *)(param_1 + 0x44) = 1;
+    }
+  }
+  lVar9 = *param_2;
+  if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar7 = UnityEngine_Object__op_Equality(lVar9,0,0);
+  if ((uVar7 & 1) != 0) {
+    if (*(int *)(DAT_09188ad0 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    uVar7 = UnityEngine_Object__op_Inequality(param_4,0,0);
+    if ((uVar7 & 1) != 0) {
+      if (param_4 != (long *)0x0) {
+        iVar3 = (**(code **)(*param_4 + 0x188))(param_4,*(undefined8 *)(*param_4 + 400));
+        iVar4 = ChocDino_UIFX_TentBlurReference__GetDownsampleFactor(param_1);
+        iVar1 = 0;
+        if (iVar4 != 0) {
+          iVar1 = iVar3 / iVar4;
+        }
+        if (iVar1 < 2) {
+          iVar1 = 1;
+        }
+        iVar4 = (**(code **)(*param_4 + 0x1a8))(param_4,*(undefined8 *)(*param_4 + 0x1b0));
+        iVar5 = ChocDino_UIFX_TentBlurReference__GetDownsampleFactor(param_1);
+        iVar3 = 0;
+        if (iVar5 != 0) {
+          iVar3 = iVar4 / iVar5;
+        }
+        if (iVar3 < 2) {
+          iVar3 = 1;
+        }
+        uVar6 = UnityEngine_RenderTexture__get_format(param_4,0);
+        if (*(int *)(DAT_09184618 + 0xe4) == 0) {
+          FUN_03f5c424(DAT_09184618);
+        }
+        if ((*(uint *)(*(long *)(DAT_09184618 + 0xb8) + 4) & 2) != 0) {
+          uVar6 = 2;
+        }
+        lVar9 = UnityEngine_RenderTexture__GetTemporary(iVar1,iVar3,0,uVar6,1,0);
+        *param_2 = lVar9;
+        thunk_FUN_03f5d7b8(param_2,lVar9);
+        if (*param_2 != 0) {
+          UnityEngine_Texture__set_wrapMode(*param_2,1,0);
+          return;
+        }
+      }
+LAB_043c91a4:
+                    /* WARNING: Subroutine does not return */
+      FUN_03f5c550();
+    }
+  }
+  return;
+}
+

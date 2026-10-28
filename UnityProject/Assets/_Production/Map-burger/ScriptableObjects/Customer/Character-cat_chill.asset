@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1317516421, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Character-cat_chill
+  m_EditorClassIdentifier:
+  _id: cat_chill
+  _tempNameAlias: Coolcat Clyde
+  _tempDescription: Too cool to hurry and always orders with a perfectly timed purr.
+  _locTable: Map_burger
+  characterGlobalIndex: 1
+  characterType: 0
+  map: {fileID: 11400000, guid: 43dac3cfa8846834a890690d2c29fbf1, type: 2}
+  assetCharacterAnimControl:
+    m_AssetGUID: 494cc922850e0e34db16e5d1361dc436
+    m_SubObjectName:
+    m_SubObjectType:
+  assetAvatarSpineUI:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:

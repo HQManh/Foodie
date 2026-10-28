@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sandwich_da
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: f98ead670a214fa419c82916a68f9bfa, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47151316996
+    m_Localized: Pikant sandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47134539776
+    m_Localized: Ristet brød stablet med alt, hvad grillen kunne undvære.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316997
+    m_Localized: Frugtsandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316992
+    m_Localized: Blødt brød med en sky af flødeskum og farverig frugt indeni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316998
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316993
+    m_Localized: En sprød skål grønt med en klat mayo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316999
+    m_Localized: Friskpresset juice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316994
+    m_Localized: Presset efter bestilling, is efter ønske.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151317000
+    m_Localized: Suppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316995
+    m_Localized: En varm, cremet skål med lidt ekstra på toppen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833574129664
+    m_Localized: En rå baconskive, der venter på panden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295488
+    m_Localized: Et fast æg klar til sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295489
+    m_Localized: Rister brød varmt og gyldent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295490
+    m_Localized: Blødt brød skåret i pæne trekanter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295491
+    m_Localized: En smeltende skive gylden ost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295492
+    m_Localized: Rå kylling, der venter på en sprød skorpe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295493
+    m_Localized: Stegt til det er gyldent og sprødt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295494
+    m_Localized: En kølig, sprød grøn agurk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295495
+    m_Localized: Friske grønne skiver med bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295496
+    m_Localized: Skærer og hakker alt fyldet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295497
+    m_Localized: Et frisk æg med morgenmadsplaner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295498
+    m_Localized: Fløde og frugt efter gæstens valg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295499
+    m_Localized: Presset af gæstens yndlingsfrugt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295500
+    m_Localized: En frisk skål vendt efter bestilling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295501
+    m_Localized: Fyldt med gæstens yndlingsfyld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295502
+    m_Localized: En varm skål i gæstens yndlingssmag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295503
+    m_Localized: Gylden og sprød, saftig indeni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295504
+    m_Localized: Spejlæg klar til at stable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295505
+    m_Localized: Steger æg, bacon og kylling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295506
+    m_Localized: En klase søde lilla druer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295507
+    m_Localized: Sød lilla saft, friskpresset.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295508
+    m_Localized: En tynd skive krydret skinke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295509
+    m_Localized: Klirrende terninger, der holder drinks kolde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295510
+    m_Localized: Presser frugt til frisk juice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295511
+    m_Localized: En lodden frugt med et lysegrønt indre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295512
+    m_Localized: Syrlig grøn juice fuld af friskhed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295513
+    m_Localized: Grønne kiwiskiver med små frø.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295514
+    m_Localized: Et sprødt hoved frisk salat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295515
+    m_Localized: Sprøde grønne strimler til hvert lag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489792
+    m_Localized: En gylden tropisk frugt fuld af sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489793
+    m_Localized: Tyk gylden juice med tropisk smag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489794
+    m_Localized: Saftige gyldne skiver moden mango.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489795
+    m_Localized: Cremet sauce, der holder det hele sammen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489796
+    m_Localized: Frisk kold mælk til cremede drikke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489797
+    m_Localized: En buttet svamp fra skovbunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489798
+    m_Localized: Små svampetern klar til gryden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489799
+    m_Localized: Cremet og jordagtig, serveret rygende varm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489800
+    m_Localized: En frisk grøn kvist til at pynte retten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489801
+    m_Localized: Simrer supper, til de er varme og fyldige.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489802
+    m_Localized: Et rundt orange græskar, sødt indeni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489803
+    m_Localized: Orange tern klar til at simre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489804
+    m_Localized: Blød, sød og varmende.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489805
+    m_Localized: Bløde hvide skiver til enhver sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489806
+    m_Localized: Et sødt rødt bær med en grøn hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489807
+    m_Localized: Sød lyserød juice, friskpresset.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489808
+    m_Localized: Saftige røde skiver til søde sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489809
+    m_Localized: Gyldne kerner med en sød knas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489810
+    m_Localized: Varmt, gyldent og sprødt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489811
+    m_Localized: En moden rød tomat, saftig og frisk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489812
+    m_Localized: Saftige røde tern klar til at simre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489813
+    m_Localized: Saftige røde skiver til hver sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489814
+    m_Localized: Fyldig rød suppe, varm og trøstende.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489815
+    m_Localized: En luftig top af sød flødeskum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489816
+    m_Localized: Baconskive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489817
+    m_Localized: Kogt æg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489818
+    m_Localized: Brødrister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489819
+    m_Localized: Brødtrekant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489820
+    m_Localized: Osteskive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489821
+    m_Localized: Kyllingebryst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489822
+    m_Localized: Sprød bacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489823
+    m_Localized: Agurk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489824
+    m_Localized: Agurkeskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489825
+    m_Localized: Skærebræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489826
+    m_Localized: Æg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489827
+    m_Localized: Frugtsandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489828
+    m_Localized: Friskpresset juice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489829
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489830
+    m_Localized: Sandwich med fyld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489831
+    m_Localized: Suppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489832
+    m_Localized: Stegt kylling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489833
+    m_Localized: Spejlæg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489834
+    m_Localized: Stegepande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489835
+    m_Localized: Vindruer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489836
+    m_Localized: Druesaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489837
+    m_Localized: Skinkeskive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489838
+    m_Localized: Isterninger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489839
+    m_Localized: Juicer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489840
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489841
+    m_Localized: Kiwijuice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489842
+    m_Localized: Kiwiskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489843
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489844
+    m_Localized: Strimlet salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489845
+    m_Localized: Mango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489846
+    m_Localized: Mangojuice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489847
+    m_Localized: Mangoskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489848
+    m_Localized: Mayonnaise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489849
+    m_Localized: Mælk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489850
+    m_Localized: Svampe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489851
+    m_Localized: Hakkede svampe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489852
+    m_Localized: Svampesuppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489853
+    m_Localized: Persille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489854
+    m_Localized: Suppegryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489855
+    m_Localized: Græskar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489856
+    m_Localized: Græskarterninger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489857
+    m_Localized: Græskarsuppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489858
+    m_Localized: Sandwichbrød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489859
+    m_Localized: Jordbær
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489860
+    m_Localized: Jordbærjuice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489861
+    m_Localized: Jordbærskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489862
+    m_Localized: Majs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489863
+    m_Localized: Ristet brød
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489864
+    m_Localized: Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489865
+    m_Localized: Hakkede tomater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489866
+    m_Localized: Tomatskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489867
+    m_Localized: Tomatsuppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489868
+    m_Localized: Flødeskum
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

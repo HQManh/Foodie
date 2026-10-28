@@ -1,0 +1,37 @@
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+namespace UniRx.Triggers
+{
+	[DisallowMultipleComponent]
+	public class ObservablePointerEnterTrigger : ObservableTriggerBase, IEventSystemHandler, IPointerEnterHandler
+	{
+		private Subject<PointerEventData> onPointerEnter;
+
+		void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
+		{
+			if (onPointerEnter != null)
+			{
+				onPointerEnter.OnNext(eventData);
+			}
+		}
+
+		public IObservable<PointerEventData> OnPointerEnterAsObservable()
+		{
+			if (onPointerEnter == null)
+			{
+				onPointerEnter = new Subject<PointerEventData>();
+			}
+			return onPointerEnter;
+		}
+
+		protected override void RaiseOnCompletedOnDestroy()
+		{
+			if (onPointerEnter != null)
+			{
+				onPointerEnter.OnCompleted();
+			}
+		}
+	}
+}

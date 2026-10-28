@@ -1,0 +1,131 @@
+// rea decompile_all
+// name: System.Reflection.MemberInfo$$op_Equality
+// address: 0x74e0570
+// body: available
+// range: 0x74e0570-0x74e088f inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra Listing reports a terminal call at 0x74e06bc to 0x75cebec System.Type$$op_Equality (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra Listing reports a terminal call at 0x74e0870 to 0x74e08a8 System.Reflection.MethodBase$$op_Equality (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+undefined8 System_Reflection_MemberInfo__op_Equality(long *param_1,long *param_2)
+
+{
+  byte bVar1;
+  byte bVar2;
+  undefined8 uVar3;
+  ulong uVar4;
+  long lVar5;
+  long *plVar6;
+  long *plVar7;
+  
+  if ((DAT_09521592 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09184220);
+    FUN_03f5c2a4(&DAT_09184518);
+    FUN_03f5c2a4(&DAT_091881d0);
+    FUN_03f5c2a4(&DAT_09189788);
+    DAT_09521592 = 1;
+  }
+  if (param_1 == param_2) {
+    uVar3 = 1;
+  }
+  else {
+    uVar3 = 0;
+    if ((param_1 != (long *)0x0) && (param_2 != (long *)0x0)) {
+      if (*(byte *)(*param_1 + 0x130) < *(byte *)(DAT_095354b8 + 0x130)) {
+        plVar6 = (long *)0x0;
+      }
+      else {
+        plVar6 = param_1;
+        if (*(long *)(*(long *)(*param_1 + 200) + (ulong)*(byte *)(DAT_095354b8 + 0x130) * 8 + -8)
+            != DAT_095354b8) {
+          plVar6 = (long *)0x0;
+        }
+      }
+      if (*(int *)(DAT_095354b8 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar4 = System_Type__op_Inequality(plVar6,0,0);
+      if ((uVar4 & 1) != 0) {
+        if (*(byte *)(*param_2 + 0x130) < *(byte *)(DAT_095354b8 + 0x130)) {
+          plVar7 = (long *)0x0;
+        }
+        else {
+          plVar7 = param_2;
+          if (*(long *)(*(long *)(*param_2 + 200) + (ulong)*(byte *)(DAT_095354b8 + 0x130) * 8 + -8)
+              != DAT_095354b8) {
+            plVar7 = (long *)0x0;
+          }
+        }
+        if (*(int *)(DAT_095354b8 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        uVar4 = System_Type__op_Inequality(plVar7,0,0);
+        if ((uVar4 & 1) != 0) {
+          if (*(int *)(DAT_095354b8 + 0xe4) == 0) {
+            FUN_03f5c424();
+          }
+          uVar3 = System_Type__op_Equality(plVar6,plVar7,0);
+          return uVar3;
+        }
+      }
+      if (*(byte *)(*param_1 + 0x130) < *(byte *)(DAT_091881d0 + 0x130)) {
+        plVar6 = (long *)0x0;
+      }
+      else {
+        plVar6 = param_1;
+        if (*(long *)(*(long *)(*param_1 + 200) + (ulong)*(byte *)(DAT_091881d0 + 0x130) * 8 + -8)
+            != DAT_091881d0) {
+          plVar6 = (long *)0x0;
+        }
+      }
+      uVar4 = System_Reflection_MethodBase__op_Equality(plVar6,0);
+      if ((uVar4 & 1) == 0) {
+        if (*(byte *)(*param_2 + 0x130) < *(byte *)(DAT_091881d0 + 0x130)) {
+          plVar7 = (long *)0x0;
+        }
+        else {
+          plVar7 = param_2;
+          if (*(long *)(*(long *)(*param_2 + 200) + (ulong)*(byte *)(DAT_091881d0 + 0x130) * 8 + -8)
+              != DAT_091881d0) {
+            plVar7 = (long *)0x0;
+          }
+        }
+        uVar4 = System_Reflection_MethodBase__op_Equality(plVar7,0);
+        if ((uVar4 & 1) == 0) {
+          uVar3 = System_Reflection_MethodBase__op_Equality(plVar6,plVar7);
+          return uVar3;
+        }
+      }
+      lVar5 = *param_1;
+      bVar1 = *(byte *)(lVar5 + 0x130);
+      bVar2 = *(byte *)(DAT_09184518 + 0x130);
+      if ((((bVar1 < bVar2) ||
+           (*(long *)(*(long *)(lVar5 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09184518)) ||
+          (*(byte *)(*param_2 + 0x130) < bVar2)) ||
+         (*(long *)(*(long *)(*param_2 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09184518)) {
+        bVar2 = *(byte *)(DAT_09184220 + 0x130);
+        if (((bVar1 < bVar2) ||
+            (*(long *)(*(long *)(lVar5 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09184220)) ||
+           ((*(byte *)(*param_2 + 0x130) < bVar2 ||
+            (*(long *)(*(long *)(*param_2 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09184220)))) {
+          bVar2 = *(byte *)(DAT_09189788 + 0x130);
+          if (((bVar1 < bVar2) ||
+              (*(long *)(*(long *)(lVar5 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09189788)) ||
+             ((*(byte *)(*param_2 + 0x130) < bVar2 ||
+              (*(long *)(*(long *)(*param_2 + 200) + (ulong)bVar2 * 8 + -8) != DAT_09189788)))) {
+            return 0;
+          }
+        }
+      }
+                    /* WARNING: Could not recover jumptable at 0x074e088c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+      uVar3 = (**(code **)(lVar5 + 0x138))(param_1,param_2,*(undefined8 *)(lVar5 + 0x140));
+      return uVar3;
+    }
+  }
+  return uVar3;
+}
+

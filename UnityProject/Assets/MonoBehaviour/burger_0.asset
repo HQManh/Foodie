@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 977364902, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: burger
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  sourceGraphJson: "{\r\n  \"_note\": \"Map 1 (Burger) expressed as a recipe graph, with ONE deliberate design change from the runtime config: the chicken flour-coating step (see _derivation). Validated against schema.json. `idTable` is POSITIONAL — a row's index is the number level strings carry — so reordering a space renumbers it and re-aims every level string that used those indices.\",\r\n  \"_derivation\": [],\r\n  \"schemaVersion\": 1,\r\n  \"map\": {\r\n    \"id\": \"burger\",\r\n    \"name\": \"Burger\",\r\n    \"gridWidth\": 5,\r\n    \"gridHeight\": 2,\r\n    \"dirtyStackHeight\": 5,\r\n    \"visibleRows\": 3,\r\n    \"processSpeedMultiplier\": 1.5,\r\n    \"mergeSpeedMultiplier\": 1.0\r\n  },\r\n  \"idTable\": {\r\n    \"ingredient\": [\r\n      \"bun\",\r\n      \"patty\",\r\n      \"tomato\",\r\n      \"lettuce\",\r\n      \"onion\",\r\n      \"cheese\",\r\n      \"egg\",\r\n      \"cup\",\r\n      \"ice\",\r\n      \"chicken-breast\",\r\n      \"chicken-wing\",\r\n      \"chicken-thigh\",\r\n      \"chicken-nugget\",\r\n      \"potato\",\r\n      \"chili-bowl\",\r\n      \"chive\",\r\n      \"cheese-sauce\",\r\n      \"bun-sliced\",\r\n      \"patty-cooked\",\r\n      \"tomato-sliced\",\r\n      \"lettuce-sliced\",\r\n      \"onion-sliced\",\r\n      \"cheese-sliced\",\r\n      \"egg-cooked\",\r\n      \"soda-cup\",\r\n      \"chicken-breast-fried\",\r\n      \"chicken-wing-fried\",\r\n      \"chicken-thigh-fried\",\r\n      \"chicken-nugget-fried\",\r\n      \"potato-fried\",\r\n      \"chive-sliced\"\r\n    ],\r\n    \"composite\": [\r\n      \"burger\",\r\n      \"soda\",\r\n      \"fried-basket\"\r\n    ],\r\n    \"group\": [\r\n      \"burger-toppings\",\r\n      \"fried-basket-bases\",\r\n      \"fried-basket-sauces\"\r\n    ],\r\n    \"tool\": [\r\n      \"griddle\",\r\n      \"coca-machine\",\r\n      \"cutting-board\",\r\n      \"fryer\",\r\n      \"flour\"\r\n    ],\r\n    \"dirty\": [\r\n      \"dirty-plate\",\r\n      \"dirty-cup\",\r\n      \"dirty-chick-box\"\r\n    ]\r\n  },\r\n  \"vertices\": {\r\n    \"ingredient\": [\r\n      {\r\n        \"name\": \"bun\",\r\n        \"displayName\": \"Bun\",\r\n        \"pickupable\": true,\r\n        \"price\": 4,\r\n        \"code\": \"burger_bun_raw\",\r\n        \"emoji\": \"🍞\",\r\n        \"localImage\": \"Map1-burger/ingredients/burger_bun_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"patty\",\r\n        \"displayName\": \"Patty\",\r\n        \"pickupable\": true,\r\n        \"price\": 10,\r\n        \"code\": \"beef_patty_raw\",\r\n        \"emoji\": \"🥩\",\r\n        \"localImage\": \"Map1-burger/ingredients/beef_patty_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"tomato\",\r\n        \"displayName\": \"Tomato\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"code\": \"tomato\",\r\n        \"emoji\": \"🍅\",\r\n        \"localImage\": \"Map1-burger/ingredients/tomato.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"lettuce\",\r\n        \"displayName\": \"Lettuce\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"code\": \"lettuce_raw\",\r\n        \"emoji\": \"🥬\",\r\n        \"localImage\": \"Map1-burger/ingredients/lettuce_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"onion\",\r\n        \"displayName\": \"Onion\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"code\": \"onion\",\r\n        \"emoji\": \"🧅\",\r\n        \"localImage\": \"Map1-burger/ingredients/onion.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"cheese\",\r\n        \"displayName\": \"Cheese\",\r\n        \"pickupable\": true,\r\n        \"price\": 6,\r\n        \"code\": \"cheese\",\r\n        \"emoji\": \"🧀\",\r\n        \"localImage\": \"Map1-burger/ingredients/cheese.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"egg\",\r\n        \"displayName\": \"Egg\",\r\n        \"pickupable\": true,\r\n        \"price\": 7,\r\n        \"code\": \"egg\",\r\n        \"emoji\": \"🥚\",\r\n        \"localImage\": \"Map1-burger/ingredients/egg.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"cup\",\r\n        \"displayName\": \"Soda Cup (empty)\",\r\n        \"pickupable\": true,\r\n        \"price\": 8,\r\n        \"code\": \"cup\",\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map1-burger/ingredients/cup.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chicken-breast\",\r\n        \"displayName\": \"Chicken Breast\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"code\": \"chicken_breast_raw\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chicken_breast_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chicken-wing\",\r\n        \"displayName\": \"Chicken Wing\",\r\n        \"pickupable\": true,\r\n        \"price\": 20,\r\n        \"code\": \"chicken_wing_raw\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_wing_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chicken-thigh\",\r\n        \"displayName\": \"Chicken Thigh\",\r\n        \"pickupable\": true,\r\n        \"price\": 24,\r\n        \"code\": \"chicken_thigh_raw\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_thigh_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chicken-nugget\",\r\n        \"displayName\": \"Chicken Nugget\",\r\n        \"pickupable\": true,\r\n        \"price\": 28,\r\n        \"code\": \"chicken_nugget_raw\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_nugget_raw.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"potato\",\r\n        \"displayName\": \"Potato\",\r\n        \"pickupable\": true,\r\n        \"price\": 14,\r\n        \"code\": \"potato\",\r\n        \"emoji\": \"🥔\",\r\n        \"localImage\": \"Map1-burger/ingredients/potato.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chive\",\r\n        \"displayName\": \"Chive\",\r\n        \"pickupable\": true,\r\n        \"price\": 8,\r\n        \"code\": \"chive\",\r\n        \"emoji\": \"🌿\",\r\n        \"localImage\": \"Map1-burger/ingredients/chive.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"ice\",\r\n        \"displayName\": \"Ice\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"code\": \"ice\",\r\n        \"emoji\": \"🧊\",\r\n        \"localImage\": \"Map1-burger/ingredients/ice.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"chili-bowl\",\r\n        \"displayName\": \"Chili Bowl\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"code\": \"chili_bowl\",\r\n        \"emoji\": \"🌶️\",\r\n        \"localImage\": \"Map1-burger/ingredients/chili_bowl.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"cheese-sauce\",\r\n        \"displayName\": \"Cheese Sauce\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": true,\r\n        \"price\": 0,\r\n        \"code\": \"cheese_sauce\",\r\n        \"emoji\": \"🧀\",\r\n        \"localImage\": \"Map1-burger/ingredients/cheese_sauce.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 5\r\n      },\r\n      {\r\n        \"name\": \"bun-sliced\",\r\n        \"displayName\": \"Sliced Bun\",\r\n        \"emoji\": \"🍞\",\r\n        \"localImage\": \"Map1-burger/ingredients/bun-sliced.png\",\r\n        \"price\": 10,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"patty-cooked\",\r\n        \"displayName\": \"Cooked Patty\",\r\n        \"emoji\": \"🥩\",\r\n        \"localImage\": \"Map1-burger/ingredients/patty-cooked.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"tomato-sliced\",\r\n        \"displayName\": \"Tomato Slice\",\r\n        \"emoji\": \"🍅\",\r\n        \"localImage\": \"Map1-burger/ingredients/tomato-sliced.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"lettuce-sliced\",\r\n        \"displayName\": \"Lettuce Cut\",\r\n        \"emoji\": \"🥬\",\r\n        \"localImage\": \"Map1-burger/ingredients/lettuce_sliced.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"onion-sliced\",\r\n        \"displayName\": \"Onion Slice\",\r\n        \"emoji\": \"🧅\",\r\n        \"localImage\": \"Map1-burger/ingredients/onion-sliced.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"cheese-sliced\",\r\n        \"displayName\": \"Cheese Slice\",\r\n        \"emoji\": \"🧀\",\r\n        \"localImage\": \"Map1-burger/ingredients/cheese_sliced.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"egg-cooked\",\r\n        \"displayName\": \"Fried Egg\",\r\n        \"emoji\": \"🍳\",\r\n        \"localImage\": \"Map1-burger/ingredients/egg_cooked.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"soda-cup\",\r\n        \"displayName\": \"Soda Cup\",\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map1-burger/ingredients/cup_soda.png\",\r\n        \"price\": 10,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-breast-fried\",\r\n        \"displayName\": \"Fried Breast\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chicken_breast_fried.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-wing-fried\",\r\n        \"displayName\": \"Fried Wing\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_wing_fried.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-thigh-fried\",\r\n        \"displayName\": \"Fried Thigh\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_thigh_fried.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-nugget-fried\",\r\n        \"displayName\": \"Fried Nugget\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_nugget_fried.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"potato-fried\",\r\n        \"displayName\": \"Fried Potato\",\r\n        \"emoji\": \"🍟\",\r\n        \"localImage\": \"Map1-burger/ingredients/potato_fried.png\",\r\n        \"price\": 5,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chive-sliced\",\r\n        \"displayName\": \"Chive Sliced\",\r\n        \"emoji\": \"🌿\",\r\n        \"localImage\": \"Map1-burger/ingredients/chive_sliced.png\",\r\n        \"price\": 0,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-breast-flour-coated\",\r\n        \"displayName\": \"Coated Breast\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_breast_coated.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-wing-flour-coated\",\r\n        \"displayName\": \"Coated Wing\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_wing_coated.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-thigh-flour-coated\",\r\n        \"displayName\": \"Coated Thigh\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_thigh_coated.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"chicken-nugget-flour-coated\",\r\n        \"displayName\": \"Coated Nugget\",\r\n        \"emoji\": \"🍗\",\r\n        \"localImage\": \"Map1-burger/ingredients/chick_nugget_coated.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      },\r\n      {\r\n        \"name\": \"potato_sliced\",\r\n        \"displayName\": \"Sliced Potato\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map1-burger/ingredients/potato-coated.png\",\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 3\r\n      }\r\n    ],\r\n    \"tool\": [\r\n      {\r\n        \"name\": \"griddle\",\r\n        \"displayName\": \"Griddle\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          2,\r\n          2\r\n        ],\r\n        \"emoji\": \"🍳\",\r\n        \"localImage\": \"Map1-burger/tools/Asset_Tool_Pan.png\",\r\n        \"runtimeToolId\": 0\r\n      },\r\n      {\r\n        \"name\": \"coca-machine\",\r\n        \"displayName\": \"Coca Machine\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          1\r\n        ],\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map1-burger/tools/Asset_Tool_SodaMachine.png\",\r\n        \"runtimeToolId\": 1\r\n      },\r\n      {\r\n        \"name\": \"cutting-board\",\r\n        \"displayName\": \"Cutting Board\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          1\r\n        ],\r\n        \"emoji\": \"🔪\",\r\n        \"localImage\": \"Map1-burger/tools/Asset_Tool_CuttingBoard.png\",\r\n        \"runtimeToolId\": 2\r\n      },\r\n      {\r\n        \"name\": \"fryer\",\r\n        \"displayName\": \"Fryer\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          1\r\n        ],\r\n        \"emoji\": \"🍟\",\r\n        \"runtimeToolId\": 3\r\n      },\r\n      {\r\n        \"name\": \"flour\",\r\n        \"displayName\": \"Flour\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"upgradeCosts\": [\r\n          0,\r\n          1,\r\n          1\r\n        ],\r\n        \"emoji\": \"🌾\",\r\n        \"runtimeToolId\": 4\r\n      }\r\n    ],\r\n    \"group\": [\r\n      {\r\n        \"name\": \"burger-toppings\",\r\n        \"displayName\": \"Burger toppings\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"name\": \"fried-basket-bases\",\r\n        \"displayName\": \"Fried item\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"fried-basket-sauces\",\r\n        \"displayName\": \"Fried item sauces\",\r\n        \"maxQuantity\": -1\r\n      }\r\n    ],\r\n    \"composite\": [\r\n      {\r\n        \"name\": \"burger\",\r\n        \"displayName\": \"Burger\",\r\n        \"orderable\": true,\r\n        \"emoji\": \"🍔\",\r\n        \"customerSpaceHeight\": \"Full\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map1-burger/preview/Icon_Burger.png\"\r\n      },\r\n      {\r\n        \"name\": \"soda\",\r\n        \"displayName\": \"Soda\",\r\n        \"orderable\": true,\r\n        \"emoji\": \"🥤\",\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map1-burger/preview/Icon_Soda.png\"\r\n      },\r\n      {\r\n        \"name\": \"fried-basket\",\r\n        \"displayName\": \"Fried Basket\",\r\n        \"orderable\": true,\r\n        \"emoji\": \"🍟\",\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.1,\r\n        \"localImage\": \"Map1-burger/preview/Icon_Fries.png\"\r\n      }\r\n    ],\r\n    \"dirty\": [\r\n      {\r\n        \"name\": \"dirty-plate\",\r\n        \"displayName\": \"Dirty Plate\",\r\n        \"emoji\": \"🍽\",\r\n        \"localImage\": \"Map1-burger/dirty-objects/map1-burger-dirty-plate.png\",\r\n        \"runtimeDirtyId\": 0\r\n      },\r\n      {\r\n        \"name\": \"dirty-cup\",\r\n        \"displayName\": \"Dirty Cup\",\r\n        \"emoji\": \"🥤\",\r\n        \"localImage\": \"Map1-burger/dirty-objects/mpa1-burger-dirty-cup.png\",\r\n        \"runtimeDirtyId\": 1\r\n      },\r\n      {\r\n        \"name\": \"dirty-chick-box\",\r\n        \"displayName\": \"Dirty Chick Box\",\r\n        \"emoji\": \"🍱\",\r\n        \"fileId\": \"1DRgGjWYznwhgow9rlsy9-s7LP09XHOMq\",\r\n        \"runtimeDirtyId\": 2\r\n      }\r\n    ]\r\n  },\r\n  \"edges\": {\r\n    \"preservation\": [],\r\n    \"process\": [\r\n      {\r\n        \"from\": \"griddle\",\r\n        \"to\": \"patty-cooked\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"patty\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 6.94995\r\n      },\r\n      {\r\n        \"from\": \"griddle\",\r\n        \"to\": \"egg-cooked\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"egg\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 6\r\n      },\r\n      {\r\n        \"from\": \"coca-machine\",\r\n        \"to\": \"soda-cup\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"cup\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 2.0333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"bun-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"bun\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 3.3333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"tomato-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"tomato\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 3.2333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"lettuce-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"lettuce\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 3.3333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"onion-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"onion\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"cheese-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"cheese\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 3.3333\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"chive-sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chive\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 5.3333\r\n      },\r\n      {\r\n        \"from\": \"flour\",\r\n        \"to\": \"chicken-breast-flour-coated\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-breast\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 2.3333\r\n      },\r\n      {\r\n        \"from\": \"flour\",\r\n        \"to\": \"chicken-wing-flour-coated\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-wing\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 2.3333\r\n      },\r\n      {\r\n        \"from\": \"flour\",\r\n        \"to\": \"chicken-thigh-flour-coated\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-thigh\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 2.3333\r\n      },\r\n      {\r\n        \"from\": \"flour\",\r\n        \"to\": \"chicken-nugget-flour-coated\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-nugget\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 2.3333\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"chicken-breast-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-breast-flour-coated\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"chicken-wing-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-wing-flour-coated\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"chicken-thigh-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-thigh-flour-coated\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"chicken-nugget-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"chicken-nugget-flour-coated\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"potato_sliced\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"potato\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 9\r\n      },\r\n      {\r\n        \"from\": \"fryer\",\r\n        \"to\": \"potato-fried\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"potato_sliced\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"duration\": 4.6667\r\n      }\r\n    ],\r\n    \"base\": [\r\n      {\r\n        \"from\": \"burger\",\r\n        \"to\": \"bun-sliced\"\r\n      },\r\n      {\r\n        \"from\": \"soda\",\r\n        \"to\": \"soda-cup\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket\",\r\n        \"to\": \"fried-basket-bases\"\r\n      }\r\n    ],\r\n    \"topping\": [\r\n      {\r\n        \"from\": \"burger\",\r\n        \"to\": \"burger-toppings\"\r\n      },\r\n      {\r\n        \"from\": \"soda\",\r\n        \"to\": \"ice\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket\",\r\n        \"to\": \"fried-basket-sauces\"\r\n      }\r\n    ],\r\n    \"option\": [\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"patty-cooked\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"tomato-sliced\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"lettuce-sliced\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"onion-sliced\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"cheese-sliced\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"burger-toppings\",\r\n        \"to\": \"egg-cooked\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-bases\",\r\n        \"to\": \"chicken-breast-fried\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-bases\",\r\n        \"to\": \"chicken-wing-fried\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-bases\",\r\n        \"to\": \"chicken-thigh-fried\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-bases\",\r\n        \"to\": \"chicken-nugget-fried\"\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-sauces\",\r\n        \"to\": \"chili-bowl\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-sauces\",\r\n        \"to\": \"chive-sliced\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-sauces\",\r\n        \"to\": \"cheese-sauce\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"fried-basket-bases\",\r\n        \"to\": \"potato-fried\",\r\n        \"maxQuantity\": -1\r\n      }\r\n    ],\r\n    \"leavesDirty\": []\r\n  },\r\n  \"layout\": {\r\n    \"ingredient:bun\": {\r\n      \"x\": -430.47349999999994,\r\n      \"y\": 54.348179999999985\r\n    },\r\n    \"ingredient:cheese\": {\r\n      \"x\": -452.67525880999995,\r\n      \"y\": 246.72807548999998\r\n    },\r\n    \"ingredient:cheese-sauce\": {\r\n      \"x\": 1054.4981532419995,\r\n      \"y\": 153.24366264710008\r\n    },\r\n    \"ingredient:chicken-breast\": {\r\n      \"x\": -251.85330000000008,\r\n      \"y\": -428.19360000000012\r\n    },\r\n    \"ingredient:chicken-nugget\": {\r\n      \"x\": -245.99690000000007,\r\n      \"y\": -249.95530000000014\r\n    },\r\n    \"ingredient:chicken-thigh\": {\r\n      \"x\": -253.31740000000008,\r\n      \"y\": -149.31430000000015\r\n    },\r\n    \"ingredient:chicken-wing\": {\r\n      \"x\": -253.31740000000005,\r\n      \"y\": -337.10100000000034\r\n    },\r\n    \"ingredient:chili-bowl\": {\r\n      \"x\": 1050.5990108765302,\r\n      \"y\": 269.82146354038\r\n    },\r\n    \"ingredient:chive\": {\r\n      \"x\": -444.08962999999983,\r\n      \"y\": 317.31995000000012\r\n    },\r\n    \"ingredient:cup\": {\r\n      \"x\": -357.12208999999984,\r\n      \"y\": 1037.86089\r\n    },\r\n    \"ingredient:egg\": {\r\n      \"x\": -381.57929485999989,\r\n      \"y\": 827.11798046\r\n    },\r\n    \"ingredient:ice\": {\r\n      \"x\": 880.17995048219973,\r\n      \"y\": 1201.3663677406998\r\n    },\r\n    \"ingredient:lettuce\": {\r\n      \"x\": -450.17413677999991,\r\n      \"y\": 154.54398932000021\r\n    },\r\n    \"ingredient:onion\": {\r\n      \"x\": -460.89208082999983,\r\n      \"y\": 416.31827174000023\r\n    },\r\n    \"ingredient:patty\": {\r\n      \"x\": -390.15365009999988,\r\n      \"y\": 701.67203107000012\r\n    },\r\n    \"ingredient:potato\": {\r\n      \"x\": -452.3177255899999,\r\n      \"y\": 498.28754172000026\r\n    },\r\n    \"ingredient:tomato\": {\r\n      \"x\": -432.81106741899976,\r\n      \"y\": -44.277005036299443\r\n    },\r\n    \"ingredient:bun-sliced\": {\r\n      \"x\": 432.49757904000006,\r\n      \"y\": 105.66746713999994\r\n    },\r\n    \"ingredient:cheese-sliced\": {\r\n      \"x\": 389.26425000000012,\r\n      \"y\": 631.87316999999985\r\n    },\r\n    \"ingredient:chicken-breast-flour-coated\": {\r\n      \"x\": 445.68209236,\r\n      \"y\": -364.62538988999984\r\n    },\r\n    \"ingredient:chicken-nugget-flour-coated\": {\r\n      \"x\": 404.25132593,\r\n      \"y\": -149.43570604999991\r\n    },\r\n    \"ingredient:chicken-thigh-flour-coated\": {\r\n      \"x\": 432.82055950000006,\r\n      \"y\": -218.34845560999986\r\n    },\r\n    \"ingredient:chicken-wing-flour-coated\": {\r\n      \"x\": 437.10773712,\r\n      \"y\": -282.3996723099998\r\n    },\r\n    \"ingredient:chive-sliced\": {\r\n      \"x\": 1067.0759999999996,\r\n      \"y\": 56.8750000000004\r\n    },\r\n    \"ingredient:egg-cooked\": {\r\n      \"x\": 353.25054287280011,\r\n      \"y\": 880.62430632919984\r\n    },\r\n    \"ingredient:lettuce-sliced\": {\r\n      \"x\": 415.50036191520007,\r\n      \"y\": 281.87629686280019\r\n    },\r\n    \"ingredient:onion-sliced\": {\r\n      \"x\": 420.6878468354,\r\n      \"y\": 386.03249408350018\r\n    },\r\n    \"ingredient:patty-cooked\": {\r\n      \"x\": 337.68808811220009,\r\n      \"y\": 788.46907421570006\r\n    },\r\n    \"ingredient:potato-fried\": {\r\n      \"x\": 1041.0231899999994,\r\n      \"y\": -31.778949999999504\r\n    },\r\n    \"ingredient:soda-cup\": {\r\n      \"x\": 877.18651981299979,\r\n      \"y\": 999.3752111172\r\n    },\r\n    \"ingredient:tomato-sliced\": {\r\n      \"x\": 410.31287699500007,\r\n      \"y\": 486.22070283410028\r\n    },\r\n    \"ingredient:chicken-breast-fried\": {\r\n      \"x\": 1044.15765,\r\n      \"y\": -351.35392999999982\r\n    },\r\n    \"ingredient:chicken-nugget-fried\": {\r\n      \"x\": 1045.76816,\r\n      \"y\": -125.23955999999986\r\n    },\r\n    \"ingredient:chicken-thigh-fried\": {\r\n      \"x\": 1042.5471400000001,\r\n      \"y\": -198.6800499999998\r\n    },\r\n    \"ingredient:chicken-wing-fried\": {\r\n      \"x\": 1040.9366300000002,\r\n      \"y\": -280.17308999999972\r\n    },\r\n    \"composite:burger\": {\r\n      \"x\": 1546.5297194002997,\r\n      \"y\": 575.9369420474\r\n    },\r\n    \"dirty:dirty-cup\": {\r\n      \"x\": 1917.4348911945995,\r\n      \"y\": 1063.9670233628997\r\n    },\r\n    \"tool:coca-machine\": {\r\n      \"x\": 376.31501653007012,\r\n      \"y\": 1182.7527710901409\r\n    },\r\n    \"tool:cutting-board\": {\r\n      \"x\": 14.540675349475254,\r\n      \"y\": 229.78886065186998\r\n    },\r\n    \"tool:flour\": {\r\n      \"x\": 87.705499999999944,\r\n      \"y\": -325.32470000000012\r\n    },\r\n    \"tool:griddle\": {\r\n      \"x\": 28.235810668200095,\r\n      \"y\": 749.48267516219994\r\n    },\r\n    \"tool:fryer\": {\r\n      \"x\": 747.35818332,\r\n      \"y\": -310.18607337999987\r\n    },\r\n    \"group:burger-toppings\": {\r\n      \"x\": 909.65288409480013,\r\n      \"y\": 518.09889562469971\r\n    },\r\n    \"group:fried-basket-sauces\": {\r\n      \"x\": 1327.0409999999997,\r\n      \"y\": 56.27300000000011\r\n    },\r\n    \"composite:soda\": {\r\n      \"x\": 1571.0914503304994,\r\n      \"y\": 1024.2478888279998\r\n    },\r\n    \"group:fried-basket-bases\": {\r\n      \"x\": 1338.3153,\r\n      \"y\": -215.18700999999987\r\n    },\r\n    \"dirty:dirty-plate\": {\r\n      \"x\": 1897.9222159962994,\r\n      \"y\": 493.55375478929972\r\n    },\r\n    \"composite:fried-basket\": {\r\n      \"x\": 1584,\r\n      \"y\": -137.94871709999987\r\n    },\r\n    \"dirty:dirty-chick-box\": {\r\n      \"x\": 1908.6037079999999,\r\n      \"y\": -177.40556199999986\r\n    },\r\n    \"ingredient:potato_sliced\": {\r\n      \"x\": 399.51562029228012,\r\n      \"y\": -26.674830166280806\r\n    },\r\n    \"table:pickupable\": {\r\n      \"x\": -901.5616947624012,\r\n      \"y\": 172.04507069600004\r\n    }\r\n  },\r\n  \"mergeDurationOverrides\": [],\r\n  \"notes\": []\r\n}"
+  map:
+    id: burger
+    name: Burger
+    gridWidth: 5
+    gridHeight: 2
+    dirtyStackHeight: 5
+    visibleRows: 3
+    processSpeedMultiplier: 1.5
+    mergeSpeedMultiplier: 1
+  idTable:
+    ingredient:
+    - {fileID: 11400000, guid: 9892b10cd6be6654b840e2ae29d71518, type: 2}
+    - {fileID: 11400000, guid: 5cffd5b09bb9b8542a6d280f1251a453, type: 2}
+    - {fileID: 11400000, guid: 1c41e1e8a45033242973d9d33314938a, type: 2}
+    - {fileID: 11400000, guid: ab538208eb7be7a40b20fd20e3115c3e, type: 2}
+    - {fileID: 11400000, guid: 235359afe0c8c2a4d8aa74327f83b1b6, type: 2}
+    - {fileID: 11400000, guid: 3a5983605dc648848a2a860f26eab9a1, type: 2}
+    - {fileID: 11400000, guid: 2b54771c1d27a694792900d585b549d5, type: 2}
+    - {fileID: 11400000, guid: 4fd9af41f9ce3184085c0450a3d5cfd5, type: 2}
+    - {fileID: 11400000, guid: a4f3e04b17b5d4341af454ba9b086e33, type: 2}
+    - {fileID: 11400000, guid: 20b5eb1d210630a48b318b27ef96ad96, type: 2}
+    - {fileID: 11400000, guid: f8ccb916f5fa3304e897fe083b1ff7d7, type: 2}
+    - {fileID: 11400000, guid: c853b4fab11ff7541a77465e787d77de, type: 2}
+    - {fileID: 11400000, guid: e2fa338128e164d4489ab85efd4b4bb2, type: 2}
+    - {fileID: 11400000, guid: 5713722865116674ab2d8f8d615fa5c3, type: 2}
+    - {fileID: 11400000, guid: aa81372a4eeca51428a5401c02a0c6f4, type: 2}
+    - {fileID: 11400000, guid: 118f22d19cfa82340acaaa9294c76aa4, type: 2}
+    - {fileID: 11400000, guid: 801d248ea6ff8114da1ef726b0965cd2, type: 2}
+    - {fileID: 11400000, guid: a91432c434e087540bc5a09ff3905361, type: 2}
+    - {fileID: 11400000, guid: b9ed81259a7f3fb4d85dacd8208c6743, type: 2}
+    - {fileID: 11400000, guid: a5ab2986acfadc1409b21fc93a484d8e, type: 2}
+    - {fileID: 11400000, guid: 16205a3cf1dd7034487d802e33e95b4c, type: 2}
+    - {fileID: 11400000, guid: bd629ef67f4f6ae4ab801613cfd790ca, type: 2}
+    - {fileID: 11400000, guid: a980997ed4c77774a8a4c883579550ba, type: 2}
+    - {fileID: 11400000, guid: 06cbe696e1db7514dba9e1edd8760dd5, type: 2}
+    - {fileID: 11400000, guid: c00db333bfaf3cc478a57c3f9aa00605, type: 2}
+    - {fileID: 11400000, guid: 3114b461249ebc144b3683c0c6d568c2, type: 2}
+    - {fileID: 11400000, guid: 69a314dc536ffd841916e7478082a506, type: 2}
+    - {fileID: 11400000, guid: 57c6b7c5d8cb99b4d821833decfd104a, type: 2}
+    - {fileID: 11400000, guid: 20ecc10b3a6a5d040bd86084d484db6f, type: 2}
+    - {fileID: 11400000, guid: 90a3406b1004ce2458406cf18ecfdf65, type: 2}
+    - {fileID: 11400000, guid: 6ad536c63274074489396dd4e0a69b0d, type: 2}
+    composite:
+    - {fileID: 11400000, guid: afb453553418283479daf45aeb7b7391, type: 2}
+    - {fileID: 11400000, guid: 1cc63b1d593596d429d2635c25b3157a, type: 2}
+    - {fileID: 11400000, guid: f28213d4797f7144da2b91fa719a0d35, type: 2}
+    group:
+    - {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    - {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    - {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+    tool:
+    - {fileID: 11400000, guid: 0ba888ccfcb77da4aa0e456c3d61ab8d, type: 2}
+    - {fileID: 11400000, guid: b6139bc354609fc42963adad463bb1ef, type: 2}
+    - {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    - {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    - {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+    dirty:
+    - {fileID: 11400000, guid: d5e802095a486054e94450dc1089c79a, type: 2}
+    - {fileID: 11400000, guid: aa4fe106ef8250d4896c3fd009676572, type: 2}
+    - {fileID: 11400000, guid: 7574d459c6c2a1b49b8e3d482caec0c6, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 9892b10cd6be6654b840e2ae29d71518, type: 2}
+  - {fileID: 11400000, guid: 5cffd5b09bb9b8542a6d280f1251a453, type: 2}
+  - {fileID: 11400000, guid: 1c41e1e8a45033242973d9d33314938a, type: 2}
+  - {fileID: 11400000, guid: ab538208eb7be7a40b20fd20e3115c3e, type: 2}
+  - {fileID: 11400000, guid: 235359afe0c8c2a4d8aa74327f83b1b6, type: 2}
+  - {fileID: 11400000, guid: 3a5983605dc648848a2a860f26eab9a1, type: 2}
+  - {fileID: 11400000, guid: 2b54771c1d27a694792900d585b549d5, type: 2}
+  - {fileID: 11400000, guid: 4fd9af41f9ce3184085c0450a3d5cfd5, type: 2}
+  - {fileID: 11400000, guid: 20b5eb1d210630a48b318b27ef96ad96, type: 2}
+  - {fileID: 11400000, guid: f8ccb916f5fa3304e897fe083b1ff7d7, type: 2}
+  - {fileID: 11400000, guid: c853b4fab11ff7541a77465e787d77de, type: 2}
+  - {fileID: 11400000, guid: e2fa338128e164d4489ab85efd4b4bb2, type: 2}
+  - {fileID: 11400000, guid: 5713722865116674ab2d8f8d615fa5c3, type: 2}
+  - {fileID: 11400000, guid: 118f22d19cfa82340acaaa9294c76aa4, type: 2}
+  - {fileID: 11400000, guid: a4f3e04b17b5d4341af454ba9b086e33, type: 2}
+  - {fileID: 11400000, guid: aa81372a4eeca51428a5401c02a0c6f4, type: 2}
+  - {fileID: 11400000, guid: 801d248ea6ff8114da1ef726b0965cd2, type: 2}
+  - {fileID: 11400000, guid: a91432c434e087540bc5a09ff3905361, type: 2}
+  - {fileID: 11400000, guid: b9ed81259a7f3fb4d85dacd8208c6743, type: 2}
+  - {fileID: 11400000, guid: a5ab2986acfadc1409b21fc93a484d8e, type: 2}
+  - {fileID: 11400000, guid: 16205a3cf1dd7034487d802e33e95b4c, type: 2}
+  - {fileID: 11400000, guid: bd629ef67f4f6ae4ab801613cfd790ca, type: 2}
+  - {fileID: 11400000, guid: a980997ed4c77774a8a4c883579550ba, type: 2}
+  - {fileID: 11400000, guid: 06cbe696e1db7514dba9e1edd8760dd5, type: 2}
+  - {fileID: 11400000, guid: c00db333bfaf3cc478a57c3f9aa00605, type: 2}
+  - {fileID: 11400000, guid: 3114b461249ebc144b3683c0c6d568c2, type: 2}
+  - {fileID: 11400000, guid: 69a314dc536ffd841916e7478082a506, type: 2}
+  - {fileID: 11400000, guid: 57c6b7c5d8cb99b4d821833decfd104a, type: 2}
+  - {fileID: 11400000, guid: 20ecc10b3a6a5d040bd86084d484db6f, type: 2}
+  - {fileID: 11400000, guid: 90a3406b1004ce2458406cf18ecfdf65, type: 2}
+  - {fileID: 11400000, guid: 6ad536c63274074489396dd4e0a69b0d, type: 2}
+  - {fileID: 11400000, guid: c6d32e36988270a459c6b1eeb2cf27ba, type: 2}
+  - {fileID: 11400000, guid: 46878be2499f52c45a7bf94d34af6dac, type: 2}
+  - {fileID: 11400000, guid: a83fc65d2abbbb24aa09a8a4ef6142f0, type: 2}
+  - {fileID: 11400000, guid: d5668ac0a2aaf29428f2de32fd3a69fc, type: 2}
+  - {fileID: 11400000, guid: 69e2f983dc1eadf468b581f358830146, type: 2}
+  tools:
+  - {fileID: 11400000, guid: 0ba888ccfcb77da4aa0e456c3d61ab8d, type: 2}
+  - {fileID: 11400000, guid: b6139bc354609fc42963adad463bb1ef, type: 2}
+  - {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+  - {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+  - {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+  groups:
+  - {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+  - {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+  - {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+  composites:
+  - {fileID: 11400000, guid: afb453553418283479daf45aeb7b7391, type: 2}
+  - {fileID: 11400000, guid: 1cc63b1d593596d429d2635c25b3157a, type: 2}
+  - {fileID: 11400000, guid: f28213d4797f7144da2b91fa719a0d35, type: 2}
+  dirtyObjects:
+  - {fileID: 11400000, guid: d5e802095a486054e94450dc1089c79a, type: 2}
+  - {fileID: 11400000, guid: aa4fe106ef8250d4896c3fd009676572, type: 2}
+  - {fileID: 11400000, guid: 7574d459c6c2a1b49b8e3d482caec0c6, type: 2}
+  mergeDurationOverrides: []
+  exclusiveRules: []
+  executionProfile: {fileID: 11400000, guid: 65a9ad9ab9ec7c6408eb939e410c2376, type: 2}
+  runtimeOverrides: {fileID: 0}
+  processEdges:
+  - from: {fileID: 11400000, guid: 0ba888ccfcb77da4aa0e456c3d61ab8d, type: 2}
+    to: {fileID: 11400000, guid: b9ed81259a7f3fb4d85dacd8208c6743, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 5cffd5b09bb9b8542a6d280f1251a453, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 6.94995
+    chainTools: []
+  - from: {fileID: 11400000, guid: 0ba888ccfcb77da4aa0e456c3d61ab8d, type: 2}
+    to: {fileID: 11400000, guid: 06cbe696e1db7514dba9e1edd8760dd5, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 2b54771c1d27a694792900d585b549d5, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 6
+    chainTools: []
+  - from: {fileID: 11400000, guid: b6139bc354609fc42963adad463bb1ef, type: 2}
+    to: {fileID: 11400000, guid: c00db333bfaf3cc478a57c3f9aa00605, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 4fd9af41f9ce3184085c0450a3d5cfd5, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 2.0333
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: a91432c434e087540bc5a09ff3905361, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9892b10cd6be6654b840e2ae29d71518, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 3.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: a5ab2986acfadc1409b21fc93a484d8e, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 1c41e1e8a45033242973d9d33314938a, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 3.2333
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: 16205a3cf1dd7034487d802e33e95b4c, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: ab538208eb7be7a40b20fd20e3115c3e, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 3.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: bd629ef67f4f6ae4ab801613cfd790ca, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 235359afe0c8c2a4d8aa74327f83b1b6, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: a980997ed4c77774a8a4c883579550ba, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 3a5983605dc648848a2a860f26eab9a1, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 3.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: 6ad536c63274074489396dd4e0a69b0d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 118f22d19cfa82340acaaa9294c76aa4, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 5.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+    to: {fileID: 11400000, guid: c6d32e36988270a459c6b1eeb2cf27ba, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 20b5eb1d210630a48b318b27ef96ad96, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 2.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+    to: {fileID: 11400000, guid: 46878be2499f52c45a7bf94d34af6dac, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f8ccb916f5fa3304e897fe083b1ff7d7, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 2.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+    to: {fileID: 11400000, guid: a83fc65d2abbbb24aa09a8a4ef6142f0, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: c853b4fab11ff7541a77465e787d77de, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 2.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 9166265dfbbb35e45ae09cf6f30bbc07, type: 2}
+    to: {fileID: 11400000, guid: d5668ac0a2aaf29428f2de32fd3a69fc, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: e2fa338128e164d4489ab85efd4b4bb2, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 2.3333
+    chainTools: []
+  - from: {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    to: {fileID: 11400000, guid: 3114b461249ebc144b3683c0c6d568c2, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: c6d32e36988270a459c6b1eeb2cf27ba, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    to: {fileID: 11400000, guid: 69a314dc536ffd841916e7478082a506, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 46878be2499f52c45a7bf94d34af6dac, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    to: {fileID: 11400000, guid: 57c6b7c5d8cb99b4d821833decfd104a, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: a83fc65d2abbbb24aa09a8a4ef6142f0, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    to: {fileID: 11400000, guid: 20ecc10b3a6a5d040bd86084d484db6f, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: d5668ac0a2aaf29428f2de32fd3a69fc, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  - from: {fileID: 11400000, guid: d67a6549259a6d54680b28851d81c8dc, type: 2}
+    to: {fileID: 11400000, guid: 69e2f983dc1eadf468b581f358830146, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 5713722865116674ab2d8f8d615fa5c3, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 9
+    chainTools: []
+  - from: {fileID: 11400000, guid: 3f6faa9d1d8a2d341aeb574079019bd0, type: 2}
+    to: {fileID: 11400000, guid: 90a3406b1004ce2458406cf18ecfdf65, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 69e2f983dc1eadf468b581f358830146, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 1
+      value: 4.6667
+    chainTools: []
+  compositeProcesses: []
+  gridAssemblies: []
+  preservationEdges: []
+  baseEdges:
+  - from: {fileID: 11400000, guid: afb453553418283479daf45aeb7b7391, type: 2}
+    to: {fileID: 11400000, guid: a91432c434e087540bc5a09ff3905361, type: 2}
+  - from: {fileID: 11400000, guid: 1cc63b1d593596d429d2635c25b3157a, type: 2}
+    to: {fileID: 11400000, guid: c00db333bfaf3cc478a57c3f9aa00605, type: 2}
+  - from: {fileID: 11400000, guid: f28213d4797f7144da2b91fa719a0d35, type: 2}
+    to: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+  toppingEdges:
+  - from: {fileID: 11400000, guid: afb453553418283479daf45aeb7b7391, type: 2}
+    to: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+  - from: {fileID: 11400000, guid: 1cc63b1d593596d429d2635c25b3157a, type: 2}
+    to: {fileID: 11400000, guid: a4f3e04b17b5d4341af454ba9b086e33, type: 2}
+  - from: {fileID: 11400000, guid: f28213d4797f7144da2b91fa719a0d35, type: 2}
+    to: {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+  optionEdges:
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: b9ed81259a7f3fb4d85dacd8208c6743, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: a5ab2986acfadc1409b21fc93a484d8e, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: 16205a3cf1dd7034487d802e33e95b4c, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: bd629ef67f4f6ae4ab801613cfd790ca, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: a980997ed4c77774a8a4c883579550ba, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: af245adff69a37c44a22ff82925bb3d2, type: 2}
+    to: {fileID: 11400000, guid: 06cbe696e1db7514dba9e1edd8760dd5, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    to: {fileID: 11400000, guid: 3114b461249ebc144b3683c0c6d568c2, type: 2}
+    maxQuantity:
+      hasValue: 0
+      value: 0
+  - from: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    to: {fileID: 11400000, guid: 69a314dc536ffd841916e7478082a506, type: 2}
+    maxQuantity:
+      hasValue: 0
+      value: 0
+  - from: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    to: {fileID: 11400000, guid: 57c6b7c5d8cb99b4d821833decfd104a, type: 2}
+    maxQuantity:
+      hasValue: 0
+      value: 0
+  - from: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    to: {fileID: 11400000, guid: 20ecc10b3a6a5d040bd86084d484db6f, type: 2}
+    maxQuantity:
+      hasValue: 0
+      value: 0
+  - from: {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+    to: {fileID: 11400000, guid: aa81372a4eeca51428a5401c02a0c6f4, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+    to: {fileID: 11400000, guid: 6ad536c63274074489396dd4e0a69b0d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: f540bcd01585fa34ba48319a9b0b3b62, type: 2}
+    to: {fileID: 11400000, guid: 801d248ea6ff8114da1ef726b0965cd2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 76eb005678d04f04b8113f601cb57308, type: 2}
+    to: {fileID: 11400000, guid: 90a3406b1004ce2458406cf18ecfdf65, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  leavesDirtyEdges: []

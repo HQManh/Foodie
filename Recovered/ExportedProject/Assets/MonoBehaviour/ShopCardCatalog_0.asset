@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1113784101, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: ShopCardCatalog
+  m_EditorClassIdentifier:
+  _entries:
+  - shopId: bundle_small
+    cardPrefab: {fileID: 1709254077376921, guid: a68dd40484c9c5a42bbc987f1f54c638, type: 2}
+  - shopId: bundle_medium
+    cardPrefab: {fileID: 1709254077376921, guid: 12072d4b1e456fc48a5ed6616707da29, type: 2}
+  - shopId: bundle_big
+    cardPrefab: {fileID: 1709254077376921, guid: aa0ca7f37772b554cbc0fce163c93b73, type: 2}
+  - shopId: bundle_ultra
+    cardPrefab: {fileID: 1709254077376921, guid: 8b936fd73ff659a448507d4e292116e3, type: 2}
+  - shopId: starter
+    cardPrefab: {fileID: 1709254077376921, guid: 861499046536e0243ad7b4a5dc599543, type: 2}
+  - shopId: removeads_bundle
+    cardPrefab: {fileID: 1709254077376921, guid: fd0fd5c67c412e042a8e7e50b766b4ec, type: 2}
+  - shopId: removeads
+    cardPrefab: {fileID: 1709254077376921, guid: 2b88d549301f96149a4812980eb42d72, type: 2}
+  - shopId: boosterpack
+    cardPrefab: {fileID: 1709254077376921, guid: a3cec9f1fce783d41a00c486c2192df9, type: 2}
+  - shopId: boosterpack2
+    cardPrefab: {fileID: 1709254077376921, guid: 1c7ab77abfa407a4dacb5cb4afb2bf28, type: 2}
+  - shopId: revivepack
+    cardPrefab: {fileID: 1709254077376921, guid: 49e22b3a7054b29488d0f8c945dda674, type: 2}
+  - shopId: revivepack2
+    cardPrefab: {fileID: 1709254077376921, guid: 3c8ed54a7b635ef4c97b4703d8325911, type: 2}
+  - shopId: starter_sale
+    cardPrefab: {fileID: 1709254077376921, guid: 6b948a3da67d7d042b3c6331efdb3fea, type: 2}
+  - shopId: removeads_sale
+    cardPrefab: {fileID: 1709254077376921, guid: d7612ddf6f29c5940a96429e85712e4e, type: 2}
+  - shopId: revivepack3
+    cardPrefab: {fileID: 1709254077376921, guid: 56653ce6a71534e438760fa22348e6d9, type: 2}
+  - shopId: revivepack_sale
+    cardPrefab: {fileID: 1709254077376921, guid: 7bb48f69252272e48b58ee2bca78d8bc, type: 2}
+  _defaultCardPrefab: {fileID: 0}

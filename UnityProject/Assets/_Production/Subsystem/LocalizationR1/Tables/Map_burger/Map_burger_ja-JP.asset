@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_ja-JP
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja-JP
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: 最初のバーガースタンド。最初から所有しています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: 正面が広くなり、飾りを置く場所も増えた本格バーガーハウス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: はちみつみたいに甘くて、ポテトが来るとさらに倍甘えん坊。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: 完璧な焼き加減。このパティはよくできました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: レアで生のまま、鉄板に乗るのが待ちきれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: ドアの横に立つ小さなメニューボード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: 店の前に立つ背の高い広告ボード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: 何層にも重なって、ノリノリ絶好調。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: 食材をこんがりキツネ色、カリッと焼き上げます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: シュワシュワのコーラを注ぎます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: 食材を細かく切り分けます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: こんがり焼けて、鋼のようにタフなバンズ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: やっと心を開いてくれたバンズ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: まだのんびりゴロゴロしているふわふわバンズ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: 食材はここから出てきます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: 屋根の上に取り付けられたレストランの看板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: クールすぎて急がない。注文はいつも絶妙なタイミングのゴロゴロ付き。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: 小さな肉球に大きな食欲。チーズ増量に一切ためらいなし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: すりおろされる日を夢見る、可能性いっぱいの乳製品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: スライスチーズ。ハートまでとろけさせる準備OK。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: 何でもおいしくしちゃう、とろける黄金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: 小麦粉をまとったムネ肉。サクサクデビューの準備はOK。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: 地味で色白、まだ揚げられる晴れ舞台を待っている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: 外はカリッ、中はジューシー。指までコケッコーおいしい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: 小麦粉のよろいをまとった小さなナゲット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: 小さなひと口サイズで、フライヤーを夢見ている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: 小麦粉コートを着たモモ肉。むっちりスタンバイOK。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: いちばんジューシーな部位。まだ実力を隠している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: 飛び方を覚える前に衣をまとった手羽先。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: まだサクサクのかけらもない手羽先。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: 熱さを連れてくる赤い粉。クールさはゼロ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: タマネギにちょっぴり嫉妬している緑の茎。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: カリカリのお祝いに散らす、小さな緑の紙吹雪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: 生きがいに渇いている空っぽのカップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: ワクワクでシュワシュワはじける黒い炭酸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: 氷入りのコーラ。塩対応ならぬ氷対応でお出しします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: 注文ごとに積み上げたバーガー。バンズが崩れる前に召し上がれ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: キンキンの泡が、バーガーのひと口をもっとにぎやかに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: 外はこんがり中はジューシー、4口でペロリ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: 熱々でしょっぱくて、公平に分けるなんて無理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: どのバーガーも、しっぽを振って喜ぶ宝物のように味わう忠実な常連さん。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: 繊細で、プレッシャーがかかると割れちゃう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: 目玉焼きで、エッグセレントなごきげん。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: 食べ物をこんがりカリッと揚げます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: 食材に衣をまとわせます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: クールにいくと決めた水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: サクサクを全部詰め込んだ、コケッコー豪華なごちそうボックス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: シャキシャキの緑の葉っぱ。さあ、レタスタートだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: ついに株から巣立った、千切りのグリーン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: とっても冷静沈着な、まるごとレタス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: 左側に張られたストリングライト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: 屋根の上に取り付けられたレストランの看板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: ランチラッシュを役員会議のように仕切り、高級ピクルスを要求する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: 入口の横に置かれた鉢植え。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: フライドポテトのスターを夢見る素朴なジャガイモ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: スティック状に切られて、今やポテト予備軍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: 塩加減で論争が起きるほどアツアツの黄金ポテト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: チーズに埋もれたポテト。後悔なんて一切なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: お腹ペコペコで跳ねてきて、両ほっぺにパンくずをつけて帰っていく。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: 町でいちばん速い赤いしっぽの配達屋。誰かがポテトを落とさなければね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: 紫色でツンとして、実はこっそり涙もろい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: シェフを泣かせた輪切り。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: 屋根の上に乗った特大バーガーのオブジェ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: 建物の右側に下がっている看板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: 建物の右側に下がっている看板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: 丸くて赤くて、厳密にはフルーツ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: ジューシーな輪切り。もうケチャップ付けるところなし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: 屋根の端から垂れ下がるつる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: 大きな店舗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: はちみつハグベア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: ビーフパティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: 生ビーフパティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: 小さなメニューボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: 背の高いメニューボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: バーガー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: 鉄板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: コーラマシン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: 包丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: バーガーバンズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: カットバンズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: バンズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: トレー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: 日よけ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: クールキャット・クライド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: キティ・カップケーキ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: チーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: スライスチーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: チーズソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: 衣付きムネ肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: 生ムネ肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: フライドチキン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: 衣付きナゲット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: 生ナゲット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: 衣付きモモ肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: 生モモ肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: 衣付き手羽先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: 生手羽先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: チリパウダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: チャイブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: 刻みチャイブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: カップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: コーラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: アイスコーラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: クラシックバーガー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: シュワシュワコーラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: クリスピーチキン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: 黄金のポテト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: ワンワン・ベニー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: 卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: 目玉焼き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: フライヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: 小麦粉ボウル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: 氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: チキンセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: レタス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: カットレタス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: 丸ごとレタス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: ライト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: ロゴ看板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: ボス・ホグズワース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: 植木鉢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: ジャガイモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: カットポテト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: フライドポテト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: チーズポテト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: ぴょんぴょんベラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: 赤ネズミの配達屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: 赤タマネギ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: スライス赤タマネギ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: 巨大バーガー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: 吊り看板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: ポール看板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: トマト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: スライストマト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: つる草
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: レタスが赤くなるより速く野菜を刻む。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: スライス、さいの目、完了。玉ねぎに勝ち目なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: シュワシュワのコーラを泡ごと一瞬で注ぐ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: 炭酸たっぷり！ソーダと喜びの噴水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: チキンに粉を超高速でまぶす。散らかるけど美味しい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: 小麦粉の吹雪。ナゲットたちはふかふかの毛布に包まれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: こんがり黄金のポテトを最速で。カリカリ保証。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: カリカリ度アップ。ポテトも誇らしげに輝く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: パティがより速くジュージュー。お腹もより大きくグー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: 熱すぎてバーガーもひっくり返る。文字どおり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: スピードチョッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: ニンジャチョッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: シュワッと高速マシン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: コーラ間欠泉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: スピード衣づけボウル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: 小麦粉フィーバーボウル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: カリカリフライヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: ゴールデンフライヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: ジュージュー鉄板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: メガジュージュー鉄板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: レタスは着地する前に千切りに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: サムライチョッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: 空気まで切れる鋭さ。トマトも敬礼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: 伝説の刃まな板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: シュワシュワ大噴火。カップが勝手にいっぱいに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: コーラ火山
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: 泡は永遠に。のどの渇きに勝ち目なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: 無限シュワシュワ噴水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: 「サクッ」と言う間にナゲットに衣がつく。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: 小麦粉ブリザード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: ナゲットはみんな王族のような装いで登場。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: 黄金の粉ボウル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: ポテトは白く飛び込んで、黄金色で飛び出す。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: ターボフライヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: 光の速さでカリッカリ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: 伝説のフライリアクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: パティは一瞬で焼き上がる。眉毛に注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: 火山鉄板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: 太陽のように熱く、ロケットのように速い。至福のバーガー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: 伝説の太陽鉄板
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

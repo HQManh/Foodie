@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1317516421, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Character-wolf_yakuza
+  m_EditorClassIdentifier:
+  _id: wolf_yakuza
+  _tempNameAlias: Ookami Oyabun
+  _tempDescription: The wolf oyabun speaks softly and controls the sushi counter with one stare.
+  _locTable: Map_sushi
+  characterGlobalIndex: 19
+  characterType: 2
+  map: {fileID: 11400000, guid: ff8fadd83cf7b5f45a9e3fca64651b8a, type: 2}
+  assetCharacterAnimControl:
+    m_AssetGUID: e7935915fba21334bbf476b541b38dc0
+    m_SubObjectName:
+    m_SubObjectType:
+  assetAvatarSpineUI:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:

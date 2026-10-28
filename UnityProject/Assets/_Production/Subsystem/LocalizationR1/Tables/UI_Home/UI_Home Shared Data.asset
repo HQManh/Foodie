@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Home Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: UI_Home
+  m_TableCollectionNameGuidString: 282aba597e40f864b8ed4d660656d93d
+  m_Entries:
+  - m_Id: 57799240310784
+    m_Key: available_later
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518313
+  - m_Id: 57799278059520
+    m_Key: bottom
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518314
+  - m_Id: 57799278059521
+    m_Key: build
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518315
+  - m_Id: 57799278059522
+    m_Key: build_progress
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518316
+  - m_Id: 57799278059523
+    m_Key: building_upgrade
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518317
+  - m_Id: 57799278059524
+    m_Key: claim
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518318
+  - m_Id: 57799278059525
+    m_Key: claimed
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518319
+  - m_Id: 57799278059526
+    m_Key: collect_more_fame_to_unlock
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518320
+  - m_Id: 57799278059527
+    m_Key: comming_soon
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518321
+  - m_Id: 57799278059528
+    m_Key: complete_all_level_in_previous
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518322
+  - m_Id: 57799278059529
+    m_Key: completed
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518323
+  - m_Id: 57799278059530
+    m_Key: daily_gift
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518324
+  - m_Id: 57799278059531
+    m_Key: daily_rewards
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518325
+  - m_Id: 57799278059532
+    m_Key: edit_profile
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518326
+  - m_Id: 57799278059533
+    m_Key: free
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518327
+  - m_Id: 57799278059534
+    m_Key: free_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518328
+  - m_Id: 57799278059535
+    m_Key: full
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518329
+  - m_Id: 57799278059536
+    m_Key: hire_this_assistant
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518330
+  - m_Id: 57799278059537
+    m_Key: hold_to_build
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518331
+  - m_Id: 57799278059538
+    m_Key: kitchen_tools
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518332
+  - m_Id: 57799278059539
+    m_Key: language
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518333
+  - m_Id: 57799278059540
+    m_Key: live_is_required_for_playing
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518334
+  - m_Id: 57799278059541
+    m_Key: locked
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518335
+  - m_Id: 57799278059542
+    m_Key: map_is_locked
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518336
+  - m_Id: 57799278059543
+    m_Key: maxed
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518337
+  - m_Id: 57799278059544
+    m_Key: more_lives
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518338
+  - m_Id: 57799278059545
+    m_Key: music
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518339
+  - m_Id: 57799278059546
+    m_Key: name
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518340
+  - m_Id: 57799278059547
+    m_Key: new_recipe
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518341
+  - m_Id: 57799278059548
+    m_Key: pet_infor
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518342
+  - m_Id: 57799278059549
+    m_Key: profit_boost
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518343
+  - m_Id: 57799278059550
+    m_Key: recipe_guides
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518344
+  - m_Id: 57799278059551
+    m_Key: remaining_use
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518345
+  - m_Id: 57799278059552
+    m_Key: restaurant_upgrade
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518346
+  - m_Id: 57799278059553
+    m_Key: restore_purchase
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518347
+  - m_Id: 57799278059554
+    m_Key: save
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518348
+  - m_Id: 57799278059555
+    m_Key: select_an_assistant_to_see
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518349
+  - m_Id: 57799278059556
+    m_Key: settings
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518350
+  - m_Id: 57799278059557
+    m_Key: sound
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518351
+  - m_Id: 57799278059558
+    m_Key: staffs
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518352
+  - m_Id: 57799278059559
+    m_Key: tap_to_continue
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518353
+  - m_Id: 57799278059560
+    m_Key: too_fast_too_rude
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518354
+  - m_Id: 57799278059561
+    m_Key: tools_upgrade
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518355
+  - m_Id: 57799278059562
+    m_Key: top
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518356
+  - m_Id: 57799278059563
+    m_Key: unlock_map_to_see_new_assistants
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518357
+  - m_Id: 57799278059564
+    m_Key: upgrade
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518358
+  - m_Id: 57799278059565
+    m_Key: upgrade_building
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518359
+  - m_Id: 57799278059566
+    m_Key: vibration
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518360
+  - m_Id: 2945780502487040
+    m_Key: username
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813136
+  - m_Id: 3034646609649664
+    m_Key: view
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635677
+  - m_Id: 3313051225808896
+    m_Key: awesome
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706489887
+  - m_Id: 8016685305946112
+    m_Key: save_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8095980774744064
+    m_Key: save_progress_2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151017
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859018
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859018
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230172608
+    - rid: 4117827729675518313
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-Item-ToolUpgrade > UI-Item-ToolUpgrade/ratio/frame-locked/Text-Lv
+    - rid: 4117827729675518314
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UI-HomeTabPage-Journey > UI-HomeTabPage-Journey/Main/SafeArea/ScrollView/BtnBottom/Txt'
+    - rid: 4117827729675518315
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] NewHome > Canvas-Home/TabsContainer-Center/UITabPage-Main/BannerFix/Mode-Locked/Section-Available/Button - Buy/Text (TMP)'
+    - rid: 4117827729675518316
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-TabPage-ListBuildingUpgradeOptions-Card > UI-TabPage-ListBuildingUpgradeOptions-Card/Scroll View/Viewport/Content/UIReward/list/Progress/Text (TMP)
+    - rid: 4117827729675518317
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIMapDetails-Title-BuildingUpgrade > UIMapDetails-Title-BuildingUpgrade/Text-Title
+    - rid: 4117827729675518318
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UICook-DailyReward > UICook-DailyReward/VisibleGroup/ImagePanel/Zone-Free/BtnClaim/Text (Legacy) ; UIPopupCook-Login7Days > UIPopupCook-Login7Days/VisibleGroup/Panel/BtnClaim-Group/Btn-Claim/Text'
+    - rid: 4117827729675518319
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UICook-DailyReward > UICook-DailyReward/VisibleGroup/ImagePanel/Zone-Free/Claimed/Text (Legacy) ; UIItem-SlotDailyReward > UIItem-SlotDailyReward/Claimed/Text (Legacy) ; UIPopupCook-Login7Days > UIPopupCook-Login7Days/VisibleGroup/Panel/BtnClaim-Group/Btn-Claimed/Text'
+    - rid: 4117827729675518320
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Section-PetDetails > Section-PetDetails/padding/frame/panel - pet/panel - avatar/section-locked/Text (TMP)
+    - rid: 4117827729675518321
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: NewHome > Canvas-Home/TabsContainer-Center/UITabPage-Main/BannerFix/Mode-Preview/Section-Preview/Text (TMP) (1)
+    - rid: 4117827729675518322
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-UpgradeBuilding > UIPopup-UpgradeBuilding/Main/TabPageContainer/UI-TabPage-Locked/Text-Lv (1) ; UIPopup-UpgradeTool > UIPopup-UpgradeTool/Main/TabPageContainer/UI-TabPage-Locked/Text-Lv (1)
+    - rid: 4117827729675518323
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] Button - Completed - TutWrapper > Button - Completed - TutWrapper/Button - Completed/Text-Day'
+    - rid: 4117827729675518324
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopupCook-Login7Days > UIPopupCook-Login7Days/VisibleGroup/Panel/BG/frame/Text-Title
+    - rid: 4117827729675518325
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-DailyReward > UICook-DailyReward/VisibleGroup/ImagePanel/frame-BG/Title-bgr/Title
+    - rid: 4117827729675518326
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-EditProfile > UIPopup-EditProfile/Panel/Frame/Frame-Title/Text-Title
+    - rid: 4117827729675518327
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-HeartRefill > UIPopup-HeartRefill/VisibleGroup/main/ListButtons/Button-Ads/Text (TMP) ; UIPopup-HeartRefill > UIPopup-HeartRefill/VisibleGroup/main/ListButtons/Button-Free/Text (TMP)'
+    - rid: 4117827729675518328
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIItem-SlotDailyReward > UIItem-SlotDailyReward/BtnClaim/Text (Legacy) ; UIItem-SlotDailyReward > UIItem-SlotDailyReward/BtnLocked/Text (Legacy)'
+    - rid: 4117827729675518329
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-HeartRefill > UIPopup-HeartRefill/VisibleGroup/main/ListButtons/Button-HardCurrency/Text (TMP)'
+    - rid: 4117827729675518330
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] Section-PetDetails > Section-PetDetails/padding/frame/panel - button/Text (TMP)'
+    - rid: 4117827729675518331
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] NewHome > Canvas-Home/TabsContainer-Center/UITabPage-Main/BannerFix/Mode-Normal/Button - HoldToBuild - TutWrapper/Button - HoldToBuild/scale-anchor/Text-Instruct'
+    - rid: 4117827729675518332
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-UpgradeTool > UIPopup-UpgradeTool/Main/decor/Text-Title
+    - rid: 4117827729675518333
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Toggles/Language/Txt-Language
+    - rid: 4117827729675518334
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-HeartRefill > UIPopup-HeartRefill/VisibleGroup/main/Text-Desc
+    - rid: 4117827729675518335
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: NewHome > Canvas-Home/TabsContainer-Center/UITabPage-Main/BannerFix/Mode-Locked/Section-Locked/Text (TMP) (1)
+    - rid: 4117827729675518336
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-UpgradeBuilding > UIPopup-UpgradeBuilding/Main/TabPageContainer/UI-TabPage-Locked/Text-Lv ; UIPopup-UpgradeTool > UIPopup-UpgradeTool/Main/TabPageContainer/UI-TabPage-Locked/Text-Lv
+    - rid: 4117827729675518337
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] Button - Upgrade - TutWrapper - Small > Button - Upgrade - TutWrapper - Small/Button - Upgrade/scale-anchor/Section-progress/Text-maxed'
+    - rid: 4117827729675518338
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-HeartRefill > UIPopup-HeartRefill/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518339
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Toggles/Music/Text (Legacy)
+    - rid: 4117827729675518340
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Section-PetDetails > Section-PetDetails/padding/frame/panel - pet/panel - infor/Text (TMP)
+    - rid: 4117827729675518341
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Hint > UIPopup-Hint/frame/Decor/Text (TMP) (1)
+    - rid: 4117827729675518342
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Section-PetDetails > Section-PetDetails/padding/frame/panel - title/Text (TMP)
+    - rid: 4117827729675518343
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-TabPage-ListBuildingUpgradeOptions-Card > UI-TabPage-ListBuildingUpgradeOptions-Card/Scroll View/Viewport/Content/UIReward/list/Stat-PriceBoost/Text-Title
+    - rid: 4117827729675518344
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Hint > UIPopup-Hint/frame/content/Decor/Text (TMP)
+    - rid: 4117827729675518345
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Section-PetDetails > Section-PetDetails/padding/frame/panel - pet/panel - infor/Text (TMP) (1)
+    - rid: 4117827729675518346
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-UpgradeBuilding > UIPopup-UpgradeBuilding/Main/decor/Text-Title
+    - rid: 4117827729675518347
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Button-RestorePurchase/Text-main'
+    - rid: 4117827729675518348
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-EditProfile > UIPopup-EditProfile/Panel/Frame/Button-Save/Text-main'
+    - rid: 4117827729675518349
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Section-PetDetails > Section-PetDetails/padding/frame/panel - pet/panel - avatar/section-nopet/Text (TMP)
+    - rid: 4117827729675518350
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518351
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Toggles/Sfx/Text (Legacy)
+    - rid: 4117827729675518352
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIMapDetails-Title-PetStaff > UIMapDetails-Title-PetStaff/Text-Title
+    - rid: 4117827729675518353
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Hint > UIPopup-Hint/frame/Text (TMP) ; UIPopup-NewVersion > UIPopup-NewVersion/VisibleGroup/main/Label-TapToContinue ; UIPopup-ToolUpgraded > UIPopup-ToolUpgraded/VisibleGroup/main/Label-TapToContinue
+    - rid: 4117827729675518354
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: WipeWater > WipeWater/Canvas/Text (TMP)
+    - rid: 4117827729675518355
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIMapDetails-Title-ToolUpgrade > UIMapDetails-Title-ToolUpgrade/Text-Title
+    - rid: 4117827729675518356
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UI-HomeTabPage-Journey > UI-HomeTabPage-Journey/Main/SafeArea/ScrollView/BtnTop/Txt'
+    - rid: 4117827729675518357
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-ListPetAssistant > UI-ListPetAssistant/Frame/Locked/Text (TMP)
+    - rid: 4117827729675518358
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-UpgradeTool > UIPopup-UpgradeTool/Main/ToolDetails/bg/content/left/Text-Upgrade
+    - rid: 4117827729675518359
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIMapDetailsTabs > UIMapDetailsTabs/Text-Title
+    - rid: 4117827729675518360
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Toggles/Vibrate/Text (Legacy)
+    - rid: 4117827869053813136
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-EditProfile > UIPopup-EditProfile/Panel/Frame/Frame-InputName/Text Area/Placeholder
+    - rid: 5047050900543635677
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-Journey-RestaurantCard > UI-Journey-RestaurantCard/Footer-View/TxtView
+    - rid: 5047050914706489887
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-ToolUpgraded > UIPopup-ToolUpgraded/VisibleGroup/main/Button-Confirm/Txt-confirm'
+    - rid: 5047051213734151017
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-Settings > UIPopup-Settings/VisibleGroup/main/Button_SaveProgress/Text-main'

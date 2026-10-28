@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Production/Map-common_assets/Scenes/Boot.unity
+    guid: ce63d52480c7ec54382039320373e97b
+  - enabled: 1
+    path: Assets/_Production/Map-common_assets/Scenes/InitManagers.unity
+    guid: 2210fb4e3046ce043addc0d91f4df29d
+  - enabled: 1
+    path: Assets/_Production/Map-common_assets/Scenes/SceneLoadingBuffer.unity
+    guid: 1c84a8830770dc643917aaabbf7970e3
+  - enabled: 1
+    path: Assets/_Prototype01/Common/Scene/NewHome.unity
+    guid: 688145895f20da54d973da0a95fa4f0e
+  - enabled: 1
+    path: Assets/_Production/Map-common_assets/Scenes/Miniscene.unity
+    guid: 344e2e06823244a49af801a45d569738
+  - enabled: 1
+    path: Assets/_Production/Map-common_assets/Scenes/GameplayHUD.unity
+    guid: c2362615c0622c54fa384e3ad5cff051
+  - enabled: 1
+    path: Assets/_Production/Map-burger/Scenes/FSBurger.unity
+    guid: 8ebd589ecfc4b604c85ea10c08c9021c
+  - enabled: 1
+    path: Assets/_Production/Map-coffee/Scenes/FSCafe.unity
+    guid: 66c16c92369bc2b438d322fc2465b5a6
+  - enabled: 1
+    path: Assets/_Production/Map-sushi/Scenes/FSSushi.unity
+    guid: d26ad77357d0469429b905778d72028b
+  - enabled: 1
+    path: Assets/_Production/Map-pasta/Scenes/FSPasta.unity
+    guid: a67994ab80fe73d4ca9828dc7ec07090
+  - enabled: 1
+    path: Assets/_Production/Map-icecream/Scenes/FSIceCream.unity
+    guid: 7ebeb495a85019f41968c55132212daa
+  - enabled: 1
+    path: Assets/_Production/Map-sandwich/Scenes/FSSandwich.unity
+    guid: d195dbd178c8e7149940120c5ea29aac
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 2c0375195337b6f4eb451c570c498bef, type: 2}
+  m_UseUCBPForAssetBundles: 0

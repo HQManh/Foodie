@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sandwich_pt-BR
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: f98ead670a214fa419c82916a68f9bfa, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47151316996
+    m_Localized: Sanduíche salgado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47134539776
+    m_Localized: Pão tostado recheado com tudo o que a chapa conseguiu oferecer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316997
+    m_Localized: Sanduíche de frutas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316992
+    m_Localized: Pão macio com uma nuvem de creme e frutas coloridas por dentro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316998
+    m_Localized: Salada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316993
+    m_Localized: Uma tigela de folhas crocantes com um toque de maionese.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316999
+    m_Localized: Suco natural
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316994
+    m_Localized: Espremido na hora, gelo opcional.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151317000
+    m_Localized: Sopa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316995
+    m_Localized: Uma tigela quentinha e cremosa com algo por cima.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833574129664
+    m_Localized: Bacon cru esperando a frigideira.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295488
+    m_Localized: Ovo firme pronto para o sanduíche.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295489
+    m_Localized: Torra o pão quentinho e dourado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295490
+    m_Localized: Pão macio cortado em triângulos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295491
+    m_Localized: Uma fatia de queijo dourado que derrete.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295492
+    m_Localized: Frango cru esperando a casquinha crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295493
+    m_Localized: Frito até ficar dourado e crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295494
+    m_Localized: Um pepino fresquinho e crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295495
+    m_Localized: Rodelas verdes e crocantes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295496
+    m_Localized: Fatia e pica todos os recheios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295497
+    m_Localized: Um ovo fresquinho pronto para o café da manhã.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295498
+    m_Localized: Creme e frutas escolhidos pelo cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295499
+    m_Localized: Espremido da fruta favorita do cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295500
+    m_Localized: Uma tigela fresquinha montada na hora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295501
+    m_Localized: Recheado com os ingredientes favoritos do cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295502
+    m_Localized: Uma tigela quentinha no sabor favorito.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295503
+    m_Localized: Dourado e crocante, suculento por dentro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295504
+    m_Localized: Ovo com gema mole pronto para empilhar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295505
+    m_Localized: Frita ovos, bacon e frango.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295506
+    m_Localized: Um cacho de uvas roxas e doces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295507
+    m_Localized: Suco roxo e doce, feito na hora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295508
+    m_Localized: Uma fatia fina de presunto saboroso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295509
+    m_Localized: Cubos que deixam as bebidas geladinhas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295510
+    m_Localized: Espreme frutas em suco fresquinho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295511
+    m_Localized: Uma fruta peludinha de coração verde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295512
+    m_Localized: Suco verde azedinho e cheio de energia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295513
+    m_Localized: Rodelas verdes pontilhadas de sementes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295514
+    m_Localized: Um pé de alface fresquinho e crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295515
+    m_Localized: Tirinhas crocantes para cada camada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489792
+    m_Localized: Uma fruta tropical dourada cheia de sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489793
+    m_Localized: Suco dourado e encorpado com sabor tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489794
+    m_Localized: Fatias suculentas de manga madura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489795
+    m_Localized: Molho cremoso que une tudo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489796
+    m_Localized: Leite fresquinho para bebidas cremosas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489797
+    m_Localized: Um cogumelo gordinho vindo da floresta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489798
+    m_Localized: Cubinhos de cogumelo prontos para a panela.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489799
+    m_Localized: Cremosa e saborosa, servida bem quente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489800
+    m_Localized: Um raminho verde para finalizar o prato.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489801
+    m_Localized: Cozinha sopas quentinhas e caprichadas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489802
+    m_Localized: Uma abóbora redondinha, doce por dentro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489803
+    m_Localized: Cubinhos laranja prontos para cozinhar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489804
+    m_Localized: Cremosa, doce e reconfortante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489805
+    m_Localized: Fatias brancas e macias para qualquer sanduíche.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489806
+    m_Localized: Uma frutinha doce com chapéu de folhas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489807
+    m_Localized: Suco rosa e doce, feito na hora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489808
+    m_Localized: Fatias suculentas para sanduíches doces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489809
+    m_Localized: Grãos dourados docinhos e crocantes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489810
+    m_Localized: Quentinho, dourado e crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489811
+    m_Localized: Um tomate maduro, vermelho e suculento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489812
+    m_Localized: Cubinhos suculentos prontos para cozinhar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489813
+    m_Localized: Rodelas suculentas para todo sanduíche.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489814
+    m_Localized: Sopa vermelha encorpada e reconfortante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489815
+    m_Localized: Um redemoinho fofinho de creme doce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489816
+    m_Localized: Fatia de bacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489817
+    m_Localized: Ovo cozido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489818
+    m_Localized: Torradeira
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489819
+    m_Localized: Pão em triângulo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489820
+    m_Localized: Fatia de queijo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489821
+    m_Localized: Peito de frango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489822
+    m_Localized: Bacon crocante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489823
+    m_Localized: Pepino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489824
+    m_Localized: Rodelas de pepino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489825
+    m_Localized: Tábua de corte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489826
+    m_Localized: Ovo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489827
+    m_Localized: Sanduíche de frutas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489828
+    m_Localized: Suco natural
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489829
+    m_Localized: Salada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489830
+    m_Localized: Sanduíche salgado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489831
+    m_Localized: Sopa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489832
+    m_Localized: Frango frito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489833
+    m_Localized: Ovo frito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489834
+    m_Localized: Frigideira
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489835
+    m_Localized: Uvas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489836
+    m_Localized: Suco de uva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489837
+    m_Localized: Fatia de presunto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489838
+    m_Localized: Cubos de gelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489839
+    m_Localized: Espremedor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489840
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489841
+    m_Localized: Suco de kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489842
+    m_Localized: Rodelas de kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489843
+    m_Localized: Alface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489844
+    m_Localized: Alface picada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489845
+    m_Localized: Manga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489846
+    m_Localized: Suco de manga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489847
+    m_Localized: Fatias de manga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489848
+    m_Localized: Maionese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489849
+    m_Localized: Leite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489850
+    m_Localized: Cogumelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489851
+    m_Localized: Cogumelo em cubos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489852
+    m_Localized: Sopa de cogumelos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489853
+    m_Localized: Salsinha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489854
+    m_Localized: Panela de sopa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489855
+    m_Localized: Abóbora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489856
+    m_Localized: Abóbora em cubos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489857
+    m_Localized: Sopa de abóbora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489858
+    m_Localized: Pão de forma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489859
+    m_Localized: Morango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489860
+    m_Localized: Suco de morango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489861
+    m_Localized: Fatias de morango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489862
+    m_Localized: Milho-verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489863
+    m_Localized: Pão torrado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489864
+    m_Localized: Tomate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489865
+    m_Localized: Tomate em cubos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489866
+    m_Localized: Rodelas de tomate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489867
+    m_Localized: Sopa de tomate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489868
+    m_Localized: Chantilly
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

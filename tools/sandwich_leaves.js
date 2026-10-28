@@ -1,0 +1,36 @@
+const {patch}=require('D:/Unity/Foodie/tools/setbody.js');
+patch('D:/Unity/Foodie/UnityProject/Assets/Scripts/Assembly-CSharp/AnhPD/FoodOrder/SandwichOrderStrategy.cs',[
+ ['private static void CollectLeaves(RecipeConfigSO config, string id, int piece, List<string> result)',[
+  '// Rebuilt from the decompiled code: recurse through the inputs; an id with no inputs is a leaf.',
+  'List<string> inputs = new List<string>();',
+  'if (config.TryGetInputsOf(id, piece, inputs))',
+  '{',
+  '\tforeach (string input in inputs)',
+  '\t{',
+  '\t\tCollectLeaves(config, input, piece, result);',
+  '\t}',
+  '}',
+  'else',
+  '{',
+  '\tresult.Add(id);',
+  '}']],
+ ['private static bool ChainContains(RecipeConfigSO config, string id, string target, int piece)',[
+  'if (id == target)',
+  '{',
+  '\treturn true;',
+  '}',
+  'List<string> inputs = new List<string>();',
+  'if (!config.TryGetInputsOf(id, piece, inputs))',
+  '{',
+  '\treturn false;',
+  '}',
+  'foreach (string input in inputs)',
+  '{',
+  '\tif (ChainContains(config, input, target, piece))',
+  '\t{',
+  '\t\treturn true;',
+  '\t}',
+  '}',
+  'return false;']],
+]);
+console.log('ok');

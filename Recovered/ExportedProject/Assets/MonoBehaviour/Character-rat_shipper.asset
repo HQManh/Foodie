@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1317516421, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Character-rat_shipper
+  m_EditorClassIdentifier:
+  _id: rat_shipper
+  _tempNameAlias: Red Rat Courier
+  _tempDescription: The fastest red-tailed courier in town unless someone drops a fry.
+  _locTable: Map_burger
+  characterGlobalIndex: 5
+  characterType: 1
+  map: {fileID: 11400000, guid: 23be59d060ec7c946999d205d5760ae6, type: 2}
+  assetCharacterAnimControl:
+    m_AssetGUID: d7c2c38b8b1b680488488d9f95bf104f
+    m_SubObjectName:
+    m_SubObjectType:
+  assetAvatarSpineUI:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:

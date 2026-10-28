@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sandwich_id-ID
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: id-ID
+  m_SharedData: {fileID: 11400000, guid: f98ead670a214fa419c82916a68f9bfa, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47151316996
+    m_Localized: Sandwich Gurih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47134539776
+    m_Localized: Roti panggang ditumpuk dengan apa pun yang tersisa dari panggangan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316997
+    m_Localized: Sandwich Buah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316992
+    m_Localized: Roti lembut berisi awan krim dan buah-buahan cerah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316998
+    m_Localized: Salad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316993
+    m_Localized: Semangkuk sayuran renyah dengan sedikit mayones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316999
+    m_Localized: Jus Segar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316994
+    m_Localized: Diperas sesuai pesanan, es opsional.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151317000
+    m_Localized: Sup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47151316995
+    m_Localized: Semangkuk hangat nan creamy dengan sesuatu di atasnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833574129664
+    m_Localized: Bacon mentah yang menunggu digoreng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295488
+    m_Localized: Telur padat siap untuk sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295489
+    m_Localized: Memanggang roti hangat dan keemasan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295490
+    m_Localized: Roti lembut dipotong segitiga rapi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295491
+    m_Localized: Selembar keju emas yang meleleh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295492
+    m_Localized: Ayam mentah menunggu balutan renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295493
+    m_Localized: Digoreng hingga emas dan renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295494
+    m_Localized: Mentimun hijau yang segar dan renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295495
+    m_Localized: Irisan hijau segar yang renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295496
+    m_Localized: Mengiris dan memotong semua isian.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295497
+    m_Localized: Telur segar siap untuk sarapan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295498
+    m_Localized: Krim dan buah pilihan tamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295499
+    m_Localized: Diperas dari buah favorit tamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295500
+    m_Localized: Semangkuk salad segar sesuai pesanan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295501
+    m_Localized: Diisi isian favorit tamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295502
+    m_Localized: Semangkuk sup hangat rasa favorit tamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295503
+    m_Localized: Renyah keemasan, juicy di dalam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295504
+    m_Localized: Telur mata sapi siap ditumpuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295505
+    m_Localized: Menggoreng telur, bacon, dan ayam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295506
+    m_Localized: Seikat anggur ungu yang manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295507
+    m_Localized: Jus ungu manis, baru diperas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295508
+    m_Localized: Selembar tipis ham yang gurih.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295509
+    m_Localized: Es batu yang menjaga minuman tetap dingin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295510
+    m_Localized: Memeras buah menjadi jus segar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295511
+    m_Localized: Buah berbulu dengan isi hijau cerah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295512
+    m_Localized: Jus hijau segar yang asam manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295513
+    m_Localized: Irisan kiwi hijau berbintik biji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295514
+    m_Localized: Selada segar yang renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833599295515
+    m_Localized: Irisan hijau renyah untuk setiap lapisan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489792
+    m_Localized: Buah tropis keemasan penuh sinar matahari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489793
+    m_Localized: Jus kental keemasan rasa tropis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489794
+    m_Localized: Irisan mangga matang yang juicy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489795
+    m_Localized: Saus creamy yang menyatukan semuanya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489796
+    m_Localized: Susu dingin segar untuk minuman creamy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489797
+    m_Localized: Jamur gemuk dari hutan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489798
+    m_Localized: Potongan jamur kecil siap dimasak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489799
+    m_Localized: Creamy dan gurih, disajikan panas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489800
+    m_Localized: Setangkai daun segar untuk penutup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489801
+    m_Localized: Merebus sup hingga hangat dan lezat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489802
+    m_Localized: Labu oranye bulat yang manis di dalam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489803
+    m_Localized: Potongan oranye siap direbus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489804
+    m_Localized: Lembut, manis, dan menghangatkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489805
+    m_Localized: Lembaran roti putih lembut untuk semua sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489806
+    m_Localized: Beri merah manis bertopi daun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489807
+    m_Localized: Jus merah muda manis, baru diperas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489808
+    m_Localized: Irisan merah juicy untuk sandwich manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489809
+    m_Localized: Biji keemasan yang manis dan renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489810
+    m_Localized: Hangat, keemasan, dan renyah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489811
+    m_Localized: Tomat merah matang yang segar dan juicy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489812
+    m_Localized: Potongan merah juicy siap direbus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489813
+    m_Localized: Irisan merah juicy untuk setiap sandwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489814
+    m_Localized: Sup merah kental yang hangat dan nyaman.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489815
+    m_Localized: Pusaran krim manis yang lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489816
+    m_Localized: Potongan Bacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489817
+    m_Localized: Telur Rebus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489818
+    m_Localized: Pemanggang Roti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489819
+    m_Localized: Roti Segitiga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489820
+    m_Localized: Keju Lembaran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489821
+    m_Localized: Dada Ayam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489822
+    m_Localized: Bacon Renyah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489823
+    m_Localized: Mentimun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489824
+    m_Localized: Irisan Mentimun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489825
+    m_Localized: Talenan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489826
+    m_Localized: Telur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489827
+    m_Localized: Sandwich Buah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489828
+    m_Localized: Jus Segar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489829
+    m_Localized: Salad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489830
+    m_Localized: Sandwich Gurih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489831
+    m_Localized: Sup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489832
+    m_Localized: Ayam Goreng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489833
+    m_Localized: Telur Mata Sapi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489834
+    m_Localized: Wajan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489835
+    m_Localized: Anggur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489836
+    m_Localized: Jus Anggur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489837
+    m_Localized: Irisan Ham
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489838
+    m_Localized: Es Batu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489839
+    m_Localized: Juicer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489840
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489841
+    m_Localized: Jus Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489842
+    m_Localized: Irisan Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489843
+    m_Localized: Selada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489844
+    m_Localized: Selada Iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489845
+    m_Localized: Mangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489846
+    m_Localized: Jus Mangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489847
+    m_Localized: Irisan Mangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489848
+    m_Localized: Mayones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489849
+    m_Localized: Susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489850
+    m_Localized: Jamur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489851
+    m_Localized: Jamur Potong Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489852
+    m_Localized: Sup Jamur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489853
+    m_Localized: Peterseli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489854
+    m_Localized: Panci Sup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489855
+    m_Localized: Labu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489856
+    m_Localized: Labu Potong Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489857
+    m_Localized: Sup Labu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489858
+    m_Localized: Roti Tawar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489859
+    m_Localized: Stroberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489860
+    m_Localized: Jus Stroberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489861
+    m_Localized: Irisan Stroberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489862
+    m_Localized: Jagung Manis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489863
+    m_Localized: Roti Panggang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489864
+    m_Localized: Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489865
+    m_Localized: Tomat Potong Dadu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489866
+    m_Localized: Irisan Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489867
+    m_Localized: Sup Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 881833603489868
+    m_Localized: Krim Kocok
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

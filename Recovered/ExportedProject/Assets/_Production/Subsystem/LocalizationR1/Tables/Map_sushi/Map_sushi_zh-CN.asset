@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_zh-CN
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh-CN
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: 鲜艳的气球让每次寿司营业都充满节日气氛。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: 最初的寿司店。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: 更大的餐厅，准备迎接更多寿司升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: 修剪整齐的盆景，增添一抹宁静的绿意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: 店门口友善的水豚招牌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: 招手迎客进门的招财猫。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: 摆满餐厅招牌菜的展示柜台。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: 屋顶上的大砧板，摆满寿司和卷物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: 缤纷的旗帜与遮阳篷装点着餐厅门面。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: 优雅的狐仙客人，点寿司时戏剧感十足。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: 这只蓝山羊热爱抹茶，还在努力练习开朗的餐桌礼仪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: 认真研究菜单，最后还是拿午餐换了桉树叶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: 勇敢的小狮子，向每一个寿司卷发起决斗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: 传统屋顶，让餐厅更上一层楼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: 柴犬横纲，把每盘寿司都当成冠军争夺战。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: 给寿司客人坐的舒适高脚凳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: 狼老大说话轻声细语，一个眼神就能掌控整个寿司柜台。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: 节日气球
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: 寿司扩建
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: 盆景庭院
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: 水豚招牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: 招财猫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: 展示柜台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: 寿司砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: 寿司旗帜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: 狐狸大小姐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: 蓝山羊葵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: 考拉学长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: 小狮君
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: 二层屋顶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: 柴犬横纲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: 寿司高脚凳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: 狼老大
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: 握寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: 手捏的米饭盖着一片鱼，像一条小毯子。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: 寿司卷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: 用海苔紧紧卷起，趁没人偷看就切好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: 军舰寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: 一只小小的海苔船，配料堆得满满当当。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: 刺身拼盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: 新鲜的鱼切得薄薄的，什么也藏不住。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: 绿茶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: 温暖又平和，正好冲淡芥末的辣劲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: 招手迎客进门的招财猫。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: 给寿司客人坐的舒适高脚凳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: 发光的纸灯笼，照亮整间餐厅。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: 店门口友善的水豚招牌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: 店门口友善的水豚招牌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: 屋顶上趴着一条巨大的金枪鱼，骄傲地展示今日鲜货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: 屋顶上的大砧板，摆满寿司和卷物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: 招财猫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: 寿司高脚凳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: 纸灯笼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: 水豚招牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: 水豚招牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: 巨型金枪鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: 寿司砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: 蔬菜还没来得及眨眼就被切好了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: 刀快得连黄瓜都提前投降了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: 切生鱼片，丝滑更胜一筹。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: 每一刀都是艺术品，连鱼都倍感荣幸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: 米饭瞬间蓬松。米粒排着队等着被煮熟。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: 米饭完美到值得全场起立鼓掌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: 以闪电般的速度磨山葵。流泪随意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: 磨得飞快，山葵根本没看见它来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: 煮出美味的速度，比你说“鲜味”还快。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: 咕嘟冒泡的传奇，以曲速烹饪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: 热茶转眼就好。顾客安心品茶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: 一壶倒出完美好茶与内心平静。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: 迅捷切菜板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: 忍者切菜板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: 更锋利的鱼板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: 刺身大师砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: 极速电饭煲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: 超级电饭煲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: 迅捷擦板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: 山葵旋风
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: 急速炖锅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: 鲜味大锅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: 速泡茶壶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: 禅师茶壶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: 鲜亮的蓝色寿司旗，吸引每一双饥饿的眼睛。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: 清爽的蓝色暖帘在门口轻轻摇曳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: 醒目的红色暖帘，在门口迎接饥肠辘辘的客人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: 长满青苔的石灯笼，带来一丝寺庙般的宁静。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: 寿司旗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: 蓝色暖帘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: 红色暖帘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: 石祠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: 把鲜鱼切成丝滑的刺身片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: 把爽脆的蔬菜切成整齐的小条。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: 把芥末擦成辛辣的绿色惊喜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: 慢炖高汤，盛出一碗暖心的慰藉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: 把米饭蒸成松软黏糯的寿司黄金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: 冲泡绿茶，每一口都很宁静。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: 擦菜板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: 汤锅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: 电饭煲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: 茶壶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: 绵密的牛油果，西方送给寿司的最爱礼物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: 软软的绿色小方块，准备好卷进寿司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: 丝滑的薄片，像和服一样披在米饭上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: 一只空茶杯，静候一壶好茶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: 搅打起泡的抹茶，宁静如京都庭院。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: 甜蛋卷切成的金色小方块。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: 甜甜的日式卷蛋，一层一层卷满耐心。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: 金黄的卷蛋片，香甜又柔软。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: 寿司师傅珍视的扁平白身鱼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: 嫩滑的比目鱼丁，一口清爽。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: 细腻的白色鱼片，几乎透明。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: 闪闪发亮的银色鱼，满是海洋风味。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: 一口大小的鲭鱼，准备卷进寿司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: 油亮的鱼片，滋味浓郁大胆。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: 一块鲜橙色的鱼柳，直接来自冰冷海域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: 三文鱼丁，准备铺上小小的军舰寿司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: 入口即化的奶油般三文鱼片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: 深红色的金枪鱼，鱼市之王。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: 金枪鱼丁，一口扎实有嚼劲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: 用匠人之刀切出的红宝石鱼片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: 一艘海苔小船，装满客人想要的任何配料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: 完全按照客人口味卷成的寿司卷。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: 手握的醋饭，盖上客人最爱的配料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: 按客人点单挑选的新鲜刺身拼盘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: 一颗明亮的柠檬，唤醒每一口。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: 薄薄的柠檬片，让鱼肉更鲜亮。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: 带着温和酸味的日式蛋黄酱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: 一只生章鱼，腕足一大把，计划一个没有。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: 煮得粉嫩软糯，等着下刀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: 小块章鱼，就像没有面糊球的章鱼烧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: 薄薄的章鱼片，带着有嚼劲的魅力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: 精磨的短粒米，正等着好好洗个澡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: 松软的醋饭，每一贯寿司的灵魂。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: 橙色的小珍珠，每咬一口都会啵啵爆开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: 脆脆的飞鱼籽，像宝石一样闪闪发亮。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: 大颗晶亮的鲑鱼籽，迸发出大海的味道。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: 酥脆的烤海苔片，随时可以卷起来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: 一片芬芳的叶子，带来清新的薄荷味。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: 一只生虾，蜷得像个小问号。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: 煮得粉红又骄傲，准备好上饭团。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: 一口大小的虾，准备卷进寿司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: 像扇子一样摊开，正好做握寿司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: 采自云雾山坡的绿茶叶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: 一根疙疙瘩瘩的根，脾气出了名的冲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: 一小点绿色火辣，瞬间通鼻。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: 一汪清水，准备变成好茶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: 牛油果
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: 牛油果丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: 牛油果片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: 茶杯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: 抹茶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: 鱼生砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: 蔬菜砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: 玉子烧丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: 玉子烧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: 玉子烧片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: 比目鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: 比目鱼丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: 比目鱼片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: 鲭鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: 鲭鱼丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: 鲭鱼片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: 三文鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: 三文鱼丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: 三文鱼片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: 金枪鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: 金枪鱼丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: 金枪鱼片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: 军舰寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: 寿司卷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: 握寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: 刺身拼盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: 柠檬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: 柠檬片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: 蛋黄酱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: 章鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: 煮章鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: 章鱼丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: 章鱼片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: 大米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: 寿司饭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: 毛鳞鱼籽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: 飞鱼籽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: 鲑鱼籽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: 海苔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: 紫苏叶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: 虾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: 煮虾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: 虾丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: 开背虾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: 茶叶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: 山葵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: 山葵泥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: 黄瓜还没反应过来就被切好了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: 武士切片砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: 一刀下去，刚好够卷一条完美寿司的蔬菜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: 传奇武士刀砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: 丝滑切片一闪而成，鱼儿都点头认可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: 大师刺身砧板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: 切得如此精准，连主厨都惊叹。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: 传奇刺身祭坛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: 碗还没摆好，松软的米饭就煮好了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: 涡轮电饭煲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: 每一粒都完美，每一次都是。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: 传奇米饭神社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: 辛辣的绿色云朵，一秒就绪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: 芥末台风
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: 快到隔着房间鼻子都发麻。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: 传奇芥末风暴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: 高汤转眼间就咕嘟冒泡，鲜味十足。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: 鲜味火山
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: 全城最美味的汤，闪电般上桌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: 传奇鲜味锅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: 前所未有地快速泡出宁静与绿茶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: 开悟茶壶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: 你还没深呼吸，完美的茶就泡好了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: 传奇禅意茶壶
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1532266206, guid: b18d5b148d2762ff527b39cc621da701, type: 3}
+  m_Name: SODreamyStreakConfig
+  m_EditorClassIdentifier:
+  listPopup:
+  - {fileID: 114670321012828500, guid: d3bc70315a42ac34c828d7c2138092cf, type: 2}
+  - {fileID: 114256069497284392, guid: 812618a14c5c3ec478c0308af199c36c, type: 2}
+  - {fileID: 114372920208702427, guid: a2565a53e67fa624c8ee45a3fac2ec9a, type: 2}
+  listLevel:
+  - index: 0
+    point: 5
+    reward:
+      type: 3
+      value: 15
+  - index: 1
+    point: 100
+    reward:
+      type: 20
+      value: 1
+  - index: 2
+    point: 200
+    reward:
+      type: 24
+      value: 1
+  - index: 3
+    point: 300
+    reward:
+      type: 1
+      value: 100
+  - index: 4
+    point: 300
+    reward:
+      type: 22
+      value: 1
+  - index: 5
+    point: 500
+    reward:
+      type: 3
+      value: 30
+  - index: 6
+    point: 500
+    reward:
+      type: 21
+      value: 1
+  - index: 7
+    point: 300
+    reward:
+      type: 23
+      value: 1
+  - index: 8
+    point: 600
+    reward:
+      type: 24
+      value: 1
+  - index: 9
+    point: 400
+    reward:
+      type: 24
+      value: 1
+  - index: 10
+    point: 800
+    reward:
+      type: 22
+      value: 1
+  - index: 11
+    point: 600
+    reward:
+      type: 3
+      value: 60
+  - index: 12
+    point: 800
+    reward:
+      type: 5
+      value: 5
+  - index: 13
+    point: 1600
+    reward:
+      type: 1
+      value: 300
+  - index: 14
+    point: 400
+    reward:
+      type: 21
+      value: 1
+  - index: 15
+    point: 800
+    reward:
+      type: 23
+      value: 1
+  - index: 16
+    point: 700
+    reward:
+      type: 20
+      value: 2
+  - index: 17
+    point: 1000
+    reward:
+      type: 24
+      value: 1
+  - index: 18
+    point: 400
+    reward:
+      type: 3
+      value: 120
+  - index: 19
+    point: 3000
+    reward:
+      type: 1
+      value: 1000

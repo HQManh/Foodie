@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1841959934, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: UpgradePart-iceCream-roof
+  m_EditorClassIdentifier:
+  _id: roof_outhouse
+  _tempNameAlias: Striped Awning
+  _tempDescription: A shady awning with a bright shop sign.
+  _locTable: Map_icecream
+  spriteThumb: {fileID: 21300000, guid: ed1c70981f433fb43b3697c293e3bdf1, type: 2}
+  assetThumb:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:
+  upgradeType: 0
+  toolId:

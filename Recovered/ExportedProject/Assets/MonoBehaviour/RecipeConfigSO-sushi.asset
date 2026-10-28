@@ -1,0 +1,1294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-sushi
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: avocado
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8e7d5ee11a755c0479020ac9791f4ca7, type: 2}
+      id: avocado
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e4b3e320b267ce2439aac35f7505f43e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 64c79cadc9af40744bb8631f9ae61d92, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 09000000
+  - id: avocado_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6af68f8daa6a63b4da7eb662517e24c9, type: 2}
+      id: avocado_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 95d8f95c538c63540ab5032564df5df8, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 1c06cc6897505384b9d8bdcf54895abb, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: cup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b2f26832742d1da478cec12a2b998ccd, type: 2}
+      id: cup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 44831b73e6e759d499515fcf05b2ae7e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 261b391d262208741a864b5904362cda, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: cup_matcha
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 61edaf0315b1906479ede0e901dfdb5d, type: 2}
+      id: cup_matcha
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e525188ec379ca24888c2e90f7d568ae, type: 2}
+    dishKind: 5
+    gameplayConfig:
+      prefab: {fileID: 114884547391421755, guid: 987b6bbdd83943f49a0c7e142008dce2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 02000000
+  - id: egg_roll
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d125e1642e34fc847ae07a5560d4aaa6, type: 2}
+      id: egg_roll
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 00a16018491d8934da1cd1e1d19185ea, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 86eaa5beff61930468ef92d725482c28, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 12000000
+  - id: egg_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8575f33e43bffd64c96f67b62236944d, type: 2}
+      id: egg_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 25a04910b41b91a43b124f5cbe56b873, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a373e65dc1a643240ba5c14d24406bcc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 12000000
+  - id: fish_hirame
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6110c5c8d64c86e4e9e5376c38a7cc3a, type: 2}
+      id: fish_hirame
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 836147eeae8e7e34482f3117201db02e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 58ed0004f4624f74a9b9928b4f62b4d9, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 05000000
+  - id: fish_hirame_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b6c6794efa0cfc6499cbe42495bc6db5, type: 2}
+      id: fish_hirame_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b44723cc0202ad94f8b896834306cbe4, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 2d0965afb9152c742ade225023b7fc91, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: fish_mackerel
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 85b1381d562d5074a907d0c22e41af80, type: 2}
+      id: fish_mackerel
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 435dfc11a69b4ce40a2922cb36816ead, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ac3f57f3b0754a84990a3fd5fad3cbca, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 06000000
+  - id: fish_mackerel_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b7af4f63b4e0d254f9ddc8f32c724c1c, type: 2}
+      id: fish_mackerel_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b963ee9ddc1dda84eac3c3d0e3f62f02, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5c0711bb2e64f67439d9e970e73e60dd, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 06000000
+  - id: fish_salmon
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ad003d4539a25184c8c4d8d3bc79ad90, type: 2}
+      id: fish_salmon
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b4a4e2f4240e4074b8c8a6ebff4fc2eb, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7689a784113c9f9498969e1a77dd5d4c, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 04000000
+  - id: fish_salmon_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0e95b9a682c959b469ad3823e076f8ee, type: 2}
+      id: fish_salmon_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: acf18b9c492c10b4d8dfe29a8147db5e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: afcb4e1ec6fd01e4097f378d8a16ed88, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 04000000
+  - id: fish_tuna
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6eb88c52447d0c04e8de5bfce5fc9df6, type: 2}
+      id: fish_tuna
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 89dfd8d0f2620bd49a2a87f87fe98f7f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 11c6f57eabd23f04c8efa8654066fbe7, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 03000000
+  - id: fish_tuna_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 76e31b49c8be59147abb5bc863e9e7a4, type: 2}
+      id: fish_tuna_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 73a0aa5c23aedfb45a0de71b800ced52, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 46fd5743c48cd534aab6728a3685c51d, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: flexible_gunkan
+    displayConfig:
+      sprite: {fileID: 21300000, guid: ae31690f93b731e408c4401bbee9651a, type: 2}
+      id: flexible_gunkan
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 54ce89298b92883418858ef0d147638d, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114977153420339851, guid: 6137f49afed0a7d49b061e81016e4b9e, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_maki
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 96fdbdc0a80849147b3999fa0fb09d60, type: 2}
+      id: flexible_maki
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4de7d687d89262b428a06c5236bf9dc0, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114002669891404536, guid: 6ac9f3e2725a2ff458fe7769253b4e25, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_nigiri
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1a1db1e7eeb457942b3b7d0ff702e70a, type: 2}
+      id: flexible_nigiri
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 503c9319c86d9cc4696c87e801f55d4c, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114002669891404536, guid: 7a6b300c31cbb27468a217d1f29dc19c, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: flexible_sashimi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4ad35f63f6f27f649af49c4a315017ed, type: 2}
+      id: flexible_sashimi
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: cd837980a550eef4092729b290a5bbe3, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114642988549198181, guid: 458b355fa62ef8d4ba4ddc6c2c13a2b7, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: lemon
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 8e6f545352d0d094ca3ac43905285ee3, type: 2}
+      id: lemon
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: aa06b4f503a395946875776c287e1057, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 55d2f30700faa044191b78d1fa0ddee8, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 10000000
+  - id: lemon_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 30872b2619b4cc84aaab71af0957019f, type: 2}
+      id: lemon_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b17a55873d22e464e817ce74ae11cf09, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ae4441fd5a78c9d4f9f321e31800934b, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: mayonnaise
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5731242beea9ed647aa319c8a4061d61, type: 2}
+      id: mayonnaise
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: dedf379da8923764a9e86b0463b42e08, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5655a1ba5559ee0418dffb793e242ed4, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: octopus
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 4b6a12b496099244d9e25d9bd6cf922c, type: 2}
+      id: octopus
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: ed8dd42cc6251e34e9464770fc71f364, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a8b2517731b18e844986f4ce00f0a1ce, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 08000000
+  - id: octopus_boild
+    displayConfig:
+      sprite: {fileID: 21300000, guid: df32f3ff138b9ef4db9d6fbe923c29bd, type: 2}
+      id: octopus_boild
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3b200459eaea97647bbb5ff66e69bac8, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0ddf6d94a3f88384ea28c1dbf409c771, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 08000000
+  - id: octopus_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3989e00756689be46979464169063e03, type: 2}
+      id: octopus_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2b9c7c43d519b7d4885e446a9fed7c23, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: c7f204e892cc6ac4c872a7b87a591309, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 08000000
+  - id: rice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5fc342589c7c8174c8f85471c38752b4, type: 2}
+      id: rice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: bc0f27364549bdf48b773abf7d2afc12, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 21e7dc299a4dcab4aa6512f710bb5325, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: rice_cooked
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 70668fa08fb1b4f40b9e80e1c35dcb91, type: 2}
+      id: rice_cooked
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e3df261d99a705849b1c55aa065ceabf, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 924cfe4a5bdd80d48a87f44c76e438ff, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 00000000
+  - id: roe_capelin
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7c025c8c724b1d7449d14798ae00c9ef, type: 2}
+      id: roe_capelin
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1dcc7290182071e479d22704842391a5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 7824b61335e8b2343b47d5171e6c2a48, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: roe_flyingfish
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5ea5ab73809e2154fab60cccd96bbbd4, type: 2}
+      id: roe_flyingfish
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: b97ebd51ef140b54c892105b066cb8e5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 4792cee8f3882bd4daa6721bb108f6e1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: roe_salmon
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b74948d48b129af409f0789a67321d0c, type: 2}
+      id: roe_salmon
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e351c8907e06c584f8a1f162c40bf2c9, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: f19e3ac115149264b8dc78577e92edb2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: seaweed
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 2b516280fd7f64948b0f5aa4f09318d4, type: 2}
+      id: seaweed
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4f5749c9e9cca50458a05773330c6b84, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: cdeae4dfbb3f0e34dacf6f6c5c11dd3c, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 01000000
+  - id: shrimp
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3ececa9c468335f4abc0ecea09847d93, type: 2}
+      id: shrimp
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: bcc027414e1c73c43959673bfc2fff1b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 520a65a5d4459ef469d9731e704813ac, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 07000000
+  - id: shrimp_boiled
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cc859e48619168148864a764cf4898c7, type: 2}
+      id: shrimp_boiled
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c9e2a81e4fef3a84a915a060b09fced7, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: ff76ce9e39ac6844cbbb9879939ae0fe, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 07000000
+  - id: shrimp_sliced
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 013b53a2290e8cf4a92e8d0ea4a85f4f, type: 2}
+      id: shrimp_sliced
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1a974fd105ebc8a4189f91bf18931a0b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: b081cfba86c234845a39ce6d2109716f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: wasabi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1e50422b5db28a84ea19f42c5d98e83b, type: 2}
+      id: wasabi
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3ecb67dbd2797c04ba1c920cb3af61f4, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: c6b11af30d6e6f14e945a143c076518e, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0f000000
+  - id: wasabi_flour
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5dd9dfcd2630e8445a675c81bd181d2e, type: 2}
+      id: wasabi_flour
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3b8086f9f93b8b8449829a352d1e7f21, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 59f82e3c2cc57754cab074e87b2de802, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0f000000
+  - id: water
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6c84eff16122c9b4597673f3d239f26f, type: 2}
+      id: water
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e2408d3b5127a2646b2e7ca18335e84d, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 11000000
+  - id: fish_tuna_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7ab66df140e39324cbbe0dc33a77162e, type: 2}
+      id: fish_tuna_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 938bb4d8a6cf77b44ac07d28afab6850, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 32c66bdd4cee4ba41ab563742d2afd2f, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 03000000
+  - id: fish_salmon_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 9c4bcbc78845d0242b5d3567174efcca, type: 2}
+      id: fish_salmon_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: fb77c15df9e5d484eb8753cec7e543d0, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e96e1d1ea0e701440809c3cd88b8a0b1, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 04000000
+  - id: fish_hirame_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 545754217433f26429cc6fd01b66a2fb, type: 2}
+      id: fish_hirame_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 5c206a8da332b3843b474b25d95bedaa, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 6298d955f8ccccd4fa0624893911c86a, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 05000000
+  - id: fish_mackerel_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0c756ebfefe563d4687dfeac9a8343d1, type: 2}
+      id: fish_mackerel_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: a4b44e2d55a641b49a61e6cb353a0f30, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 55a70f7df38ec23459236d1735164603, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 06000000
+  - id: shrimp_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: cfe9e9962599219498d4bbe80c04d13b, type: 2}
+      id: shrimp_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 13bf408da9d2e3c4e987d102a0de3244, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 407297aaad31c7f41b5c0169f1086b28, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 07000000
+  - id: octopus_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1ff512c94ea5d31409beca7f72d99777, type: 2}
+      id: octopus_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 8ea737af6d2711942aec2eeda6b6aaa5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a95b004e032a7e64ea716dca9a14b19e, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 08000000
+  - id: avocado_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 66d286f88f05d81428b5bee8b2839a32, type: 2}
+      id: avocado_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3a544472e9b01df4bb202311e1c29c88, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 47dd55ae6fdb29d4286121254a1bf5af, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 09000000
+  - id: egg_cube
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 87fad258b26cebd48b2c56dd3f3f8e67, type: 2}
+      id: egg_cube
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6fbeceacd23d88741b1555b5c0ba71cd, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 24f05d3d399035c4a8aaaaf2c2024828, type: 2}
+    pieceConfig:
+      role: 4
+      pieces: 12000000
+  - id: shiso_leaf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d8035e30b0bfb804396576d7584dedd6, type: 2}
+      id: shiso_leaf
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 95aff63781e86d0469af889d512a5c60, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 5372b5cdb6b3d754dad4826905497c10, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: tea_leaf
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 375fbb6349b36e84f9d33dfad251533e, type: 2}
+      id: tea_leaf
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: fc8024f8796dac741b413506dbad387f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d5822c3ef4f2e0b40baff8ad1bf50b57, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 13000000
+  stations:
+  - id: cutting_board_sushi_veg
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d9ebdaa45bd1c3e4ab4d08b047029a97, type: 2}
+      id: cutting_board_sushi_veg
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 4a1cf2f01fd88754394bed3cd3e49756, type: 2}
+    station: {fileID: 114969106005120503, guid: f270d7d214c334746b7da233f7fd3fa5, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: avocado_sliced
+      duration: 5.333
+    - resultId: lemon_sliced
+      duration: 4.333
+    - resultId: egg_sliced
+      duration: 2.067
+    - resultId: avocado_cube
+      duration: 3.567
+    - resultId: egg_cube
+      duration: 2.767
+  - id: cutting_board_sushi_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 565a2c2684ef922408bb1c4d54bb5554, type: 2}
+      id: cutting_board_sushi_raw
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 91b241be8b4255d46ac35682a2407693, type: 2}
+    station: {fileID: 114371939378208658, guid: c880680872fcb724aa6e7cebe41f68e8, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: fish_hirame_sliced
+      duration: 4.833
+    - resultId: fish_hirame_cube
+      duration: 4.667
+    - resultId: fish_mackerel_sliced
+      duration: 4.333
+    - resultId: fish_mackerel_cube
+      duration: 5.6
+    - resultId: fish_salmon_sliced
+      duration: 5.667
+    - resultId: fish_salmon_cube
+      duration: 6.333
+    - resultId: fish_tuna_sliced
+      duration: 4.667
+    - resultId: fish_tuna_cube
+      duration: 5.333
+    - resultId: octopus_sliced
+      duration: 2.5
+    - resultId: octopus_cube
+      duration: 3.667
+    - resultId: shrimp_sliced
+      duration: 4.667
+    - resultId: shrimp_cube
+      duration: 5.167
+  - id: grater_sushi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5254d98e0910ab843b3d3a546630419b, type: 2}
+      id: grater_sushi
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: d6c6c20e8b12c1b49b62b0d7d86ef014, type: 2}
+    station: {fileID: 114002669891404536, guid: 7df1334c84258354293958eea9c8b8a3, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: wasabi_flour
+      duration: 6
+  - id: pot_sushi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 63782399ed8e4184fbd49f0d0b66c640, type: 2}
+      id: pot_sushi
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 2e7f0f6b9b721334e90b8f08c31115d1, type: 2}
+    station: {fileID: 114634108722742392, guid: 36ee3c2ec8d01c24ba04271cfb0eab0c, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: octopus_boild
+      duration: 4
+    - resultId: shrimp_boiled
+      duration: 4
+  - id: rice_cooker_sushi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: de250f5252d776b43ac883a13fd6b12c, type: 2}
+      id: rice_cooker_sushi
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: d5b93118ae5d1e64c836f1cb31f541fb, type: 2}
+    station: {fileID: 114313026266067498, guid: a8c25a23cf4035745a8bd5e2f69f611c, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: rice_cooked
+      duration: 4.967
+  - id: teapot_sushi
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 065bb197a70579f4899d940958d9d158, type: 2}
+      id: teapot_sushi
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 1dc619b18113e584390acc5fdee992c2, type: 2}
+    station: {fileID: 114634108722742392, guid: 1e83d6dcd404abe4c9f88db6ee592a41, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: cup_matcha
+      duration: 2.6
+  recipes:
+  - resultId: avocado_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: avocado
+      - type: 1
+        id: cutting_board_sushi_veg
+    anchorIds: []
+    displayIds: []
+  - resultId: lemon_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: lemon
+      - type: 1
+        id: cutting_board_sushi_veg
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_matcha
+    combinations:
+    - components:
+      - type: 0
+        id: cup
+      - type: 0
+        id: water
+      - type: 0
+        id: tea_leaf
+      - type: 1
+        id: teapot_sushi
+    anchorIds:
+    - tea_leaf
+    - cup
+    displayIds: []
+  - resultId: fish_hirame_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fish_hirame
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_mackerel_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fish_mackerel
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_salmon_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fish_salmon
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_tuna_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: fish_tuna
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: octopus_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: octopus_boild
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: octopus_boild
+    combinations:
+    - components:
+      - type: 0
+        id: octopus
+      - type: 1
+        id: pot_sushi
+    anchorIds: []
+    displayIds: []
+  - resultId: rice_cooked
+    combinations:
+    - components:
+      - type: 0
+        id: rice
+      - type: 0
+        id: water
+      - type: 1
+        id: rice_cooker_sushi
+    anchorIds:
+    - rice
+    displayIds: []
+  - resultId: shrimp_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: shrimp_boiled
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: shrimp_boiled
+    combinations:
+    - components:
+      - type: 0
+        id: shrimp
+      - type: 1
+        id: pot_sushi
+    anchorIds: []
+    displayIds: []
+  - resultId: wasabi_flour
+    combinations:
+    - components:
+      - type: 0
+        id: wasabi
+      - type: 1
+        id: grater_sushi
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_nigiri
+    combinations:
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: fish_tuna_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: fish_salmon_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: fish_hirame_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: fish_mackerel_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: shrimp_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: octopus_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: avocado_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: egg_sliced
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: mayonnaise
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: roe_salmon
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: roe_capelin
+    - components:
+      - type: 0
+        id: rice_cooked
+      - type: 0
+        id: roe_flyingfish
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_maki
+    combinations:
+    - components:
+      - type: 0
+        id: seaweed
+      - type: 0
+        id: rice_cooked
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_gunkan
+    combinations:
+    - components:
+      - type: 0
+        id: seaweed
+      - type: 0
+        id: rice_cooked
+    anchorIds: []
+    displayIds: []
+  - resultId: flexible_sashimi
+    combinations:
+    - components:
+      - type: 0
+        id: fish_tuna_sliced
+      - type: 0
+        id: fish_salmon_sliced
+    - components:
+      - type: 0
+        id: fish_tuna_sliced
+      - type: 0
+        id: fish_hirame_sliced
+    - components:
+      - type: 0
+        id: fish_tuna_sliced
+      - type: 0
+        id: fish_mackerel_sliced
+    - components:
+      - type: 0
+        id: fish_tuna_sliced
+      - type: 0
+        id: shrimp_sliced
+    - components:
+      - type: 0
+        id: fish_tuna_sliced
+      - type: 0
+        id: octopus_sliced
+    - components:
+      - type: 0
+        id: fish_salmon_sliced
+      - type: 0
+        id: fish_hirame_sliced
+    - components:
+      - type: 0
+        id: fish_salmon_sliced
+      - type: 0
+        id: fish_mackerel_sliced
+    - components:
+      - type: 0
+        id: fish_salmon_sliced
+      - type: 0
+        id: shrimp_sliced
+    - components:
+      - type: 0
+        id: fish_salmon_sliced
+      - type: 0
+        id: octopus_sliced
+    - components:
+      - type: 0
+        id: fish_hirame_sliced
+      - type: 0
+        id: fish_mackerel_sliced
+    - components:
+      - type: 0
+        id: fish_hirame_sliced
+      - type: 0
+        id: shrimp_sliced
+    - components:
+      - type: 0
+        id: fish_hirame_sliced
+      - type: 0
+        id: octopus_sliced
+    - components:
+      - type: 0
+        id: fish_mackerel_sliced
+      - type: 0
+        id: shrimp_sliced
+    - components:
+      - type: 0
+        id: fish_mackerel_sliced
+      - type: 0
+        id: octopus_sliced
+    - components:
+      - type: 0
+        id: shrimp_sliced
+      - type: 0
+        id: octopus_sliced
+    anchorIds: []
+    displayIds: []
+  - resultId: egg_sliced
+    combinations:
+    - components:
+      - type: 0
+        id: egg_roll
+      - type: 1
+        id: cutting_board_sushi_veg
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_tuna_cube
+    combinations:
+    - components:
+      - type: 0
+        id: fish_tuna
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_salmon_cube
+    combinations:
+    - components:
+      - type: 0
+        id: fish_salmon
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_hirame_cube
+    combinations:
+    - components:
+      - type: 0
+        id: fish_hirame
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: fish_mackerel_cube
+    combinations:
+    - components:
+      - type: 0
+        id: fish_mackerel
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: shrimp_cube
+    combinations:
+    - components:
+      - type: 0
+        id: shrimp_boiled
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: octopus_cube
+    combinations:
+    - components:
+      - type: 0
+        id: octopus_boild
+      - type: 1
+        id: cutting_board_sushi_raw
+    anchorIds: []
+    displayIds: []
+  - resultId: egg_cube
+    combinations:
+    - components:
+      - type: 0
+        id: egg_sliced
+      - type: 1
+        id: cutting_board_sushi_veg
+    anchorIds: []
+    displayIds: []
+  - resultId: avocado_cube
+    combinations:
+    - components:
+      - type: 0
+        id: avocado_sliced
+      - type: 1
+        id: cutting_board_sushi_veg
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1.2
+  ingredientListShowsRaw: 1
+  ingredientCanOrder:
+  - flexible_gunkan
+  - flexible_maki
+  - flexible_nigiri
+  - flexible_sashimi
+  - cup_matcha
+  pieceEnumType: CakeOrder.InGame.Sushi.SushiPiece
+  dishEnumType: CakeOrder.InGame.Sushi.SushiDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: b6e9cf27efe89e241be5ff26bfb0f9d1, type: 2}
+    baseId: flexible_nigiri
+    sprite: {fileID: 21300000, guid: 9b3b187cdfdb47942acb399f5b7779c9, type: 2}
+    dishName: Nigiri Sushi
+    desc: Hand-pressed rice wearing a slice of fish like a tiny blanket.
+    plate: {fileID: 114703437598541787, guid: eebea0614b914ac43acc6ba427cc0d8d, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: 389276e8137be3744bcbc771818b1950, type: 2}
+    baseId: flexible_maki
+    sprite: {fileID: 21300000, guid: fbfaa5bd43518f145bfc3735ca2c5c3f, type: 2}
+    dishName: Maki Roll
+    desc: Rolled tight in seaweed and sliced before anyone can peek inside.
+    plate: {fileID: 114703437598541787, guid: eebea0614b914ac43acc6ba427cc0d8d, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: 58efc6b4fca813747812cfc190fe1306, type: 2}
+    baseId: flexible_gunkan
+    sprite: {fileID: 21300000, guid: 1e4d8b4b0ab34c342815249d7b9581cc, type: 2}
+    dishName: Gunkan Sushi
+    desc: A little seaweed boat loaded with toppings right to the brim.
+    plate: {fileID: 114703437598541787, guid: eebea0614b914ac43acc6ba427cc0d8d, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: 21bfc4550d8e8134e98530f61a87f89f, type: 2}
+    baseId: flexible_sashimi
+    sprite: {fileID: 21300000, guid: c606854e06af6004dbf26ec69d2cee5f, type: 2}
+    dishName: Sashimi Plate
+    desc: Fresh fish sliced thin with nothing to hide behind.
+    plate: {fileID: 114884547391421755, guid: ed466a04ad48ddc41a87bca17849bb35, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 5
+    icon: {fileID: 21300000, guid: b690036fc46653d48abd51fc13e6e5e1, type: 2}
+    baseId:
+    sprite: {fileID: 21300000, guid: 9a499ea83e50be84289b255cd2fda3ce, type: 2}
+    dishName: Green Tea
+    desc: Warm and calm and poured to wash the wasabi away.
+    plate: {fileID: 114703437598541787, guid: f9e8ec1e4fe940042967727a96c4612b, type: 2}
+    dirtyPlate: {fileID: 0}

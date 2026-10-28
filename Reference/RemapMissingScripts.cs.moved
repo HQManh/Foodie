@@ -1,0 +1,90 @@
+using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
+using UnityEngine;
+
+// Re-points components whose script is missing (removed stub DLLs) at the real script
+// with the same class name. Run "Tools/Remap Missing Scripts (dry run)" first and read
+// the Console; "Tools/Remap Missing Scripts" then applies the changes to prefabs.
+public static class RemapMissingScripts
+{
+    [MenuItem("Tools/Remap Missing Scripts (dry run)")]
+    static void DryRun() => Run(false);
+
+    [MenuItem("Tools/Remap Missing Scripts")]
+    static void Apply() => Run(true);
+
+    static void Run(bool apply)
+    {
+        var monoScripts = BuildScriptIndex();
+        int remapped = 0, unresolved = 0, noName = 0;
+        var unresolvedNames = new SortedDictionary<string, int>();
+
+        foreach (var guid in AssetDatabase.FindAssets("t:Prefab"))
+        {
+            var path = AssetDatabase.GUIDToAssetPath(guid);
+            var root = PrefabUtility.LoadPrefabContents(path);
+            bool changed = false;
+            try
+            {
+                foreach (var comp in root.GetComponentsInChildren<Component>(true))
+                {
+                    if (comp == null) continue;
+                    var so = new SerializedObject(comp);
+                    var scriptProp = so.FindProperty("m_Script");
+                    if (scriptProp == null || scriptProp.objectReferenceValue != null) continue;
+
+                    var className = so.FindProperty("m_ClassName")?.stringValue;
+                    var ns = so.FindProperty("m_Namespace")?.stringValue;
+                    if (string.IsNullOrEmpty(className)) { noName++; continue; }
+
+                    var fullName = string.IsNullOrEmpty(ns) ? className : ns + "." + className;
+                    if (monoScripts.TryGetValue(fullName, out var script))
+                    {
+                        remapped++;
+                        changed = true;
+                        if (apply)
+                        {
+                            scriptProp.objectReferenceValue = script;
+                            so.ApplyModifiedProperties();
+                        }
+                    }
+                    else
+                    {
+                        unresolved++;
+                        unresolvedNames[fullName] = unresolvedNames.TryGetValue(fullName, out var c) ? c + 1 : 1;
+                    }
+                }
+
+                if (apply && changed)
+                {
+                    PrefabUtility.SaveAsPrefabAsset(root, path);
+                }
+            }
+            finally
+            {
+                PrefabUtility.UnloadPrefabContents(root);
+            }
+        }
+
+        Debug.Log($"[RemapMissingScripts] {(apply ? "APPLIED" : "DRY RUN")}: remapped={remapped}, unresolved={unresolved}, no class name={noName}");
+        foreach (var kv in unresolvedNames)
+            Debug.LogWarning($"[RemapMissingScripts] unresolved class: {kv.Key} x{kv.Value}");
+    }
+
+    // Full class name (namespace.class) -> MonoScript for every MonoScript in the project.
+    static Dictionary<string, MonoScript> BuildScriptIndex()
+    {
+        var index = new Dictionary<string, MonoScript>();
+        foreach (var guid in AssetDatabase.FindAssets("t:MonoScript"))
+        {
+            var ms = AssetDatabase.LoadAssetAtPath<MonoScript>(AssetDatabase.GUIDToAssetPath(guid));
+            if (ms == null) continue;
+            var cls = ms.GetClass();
+            if (cls == null) continue;
+            var name = cls.FullName;
+            if (!index.ContainsKey(name)) index[name] = ms;
+        }
+        return index;
+    }
+}

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -870501288, guid: b18d5b148d2762ff527b39cc621da701, type: 3}
+  m_Name: SOProfileConfig
+  m_EditorClassIdentifier:
+  listPopup:
+  - {fileID: 114161607090078389, guid: ff0295e56239d1c4394341c75e79fe72, type: 2}
+  - {fileID: 114083739296819378, guid: 8614081d8e2d61646a0af0a93c1cf9c2, type: 2}
+  - {fileID: 114009931292380359, guid: e80a41496219a724994226e4265642d1, type: 2}
+  listAvatarStt: 04000000050000000e0000000700000008000000090000000a0000000d0000000200000003000000060000000b000000000000000100000011000000120000001300000016000000170000000c0000000f000000100000001400000015000000
+  listAvatar:
+  - {fileID: 1709254077376921, guid: 197f36a6c926e344c89612c13d681ab1, type: 2}
+  - {fileID: 1709254077376921, guid: d6b6db80f73f485498074c584b67bd9e, type: 2}
+  - {fileID: 1709254077376921, guid: 8de898d54a60d4c44873a28dc30390a1, type: 2}
+  - {fileID: 1709254077376921, guid: 4c187127b8df57a4c9823b6f56f3676c, type: 2}
+  - {fileID: 1709254077376921, guid: b8281b5298c5d33489d459a4a85c0fea, type: 2}
+  - {fileID: 1709254077376921, guid: c9d3ccd29713e3f4eba6cdc983113c28, type: 2}
+  - {fileID: 1709254077376921, guid: 820ae620ad6165045991a7e3a722c6db, type: 2}
+  - {fileID: 1709254077376921, guid: a51a712223db0104e98d5d135bc1a2e6, type: 2}
+  - {fileID: 1709254077376921, guid: 5eb418ac4471fa94f9061ecf355c9fe1, type: 2}
+  - {fileID: 1709254077376921, guid: 810bf06624aabc04880e9f19825f66ac, type: 2}
+  - {fileID: 1709254077376921, guid: 190d9c7c4807bb7429e65d9f8fd66eeb, type: 2}
+  - {fileID: 1709254077376921, guid: 00dd31cce3eaa9d4984b986ec4bffd5a, type: 2}
+  - {fileID: 1709254077376921, guid: 137f889eaeb700a4fa8c59588f360476, type: 2}
+  - {fileID: 1709254077376921, guid: c83191aea8d95af4a91109edaf57b32b, type: 2}
+  - {fileID: 1709254077376921, guid: 2304a0b286318f040a44bc3c5dd02cb0, type: 2}
+  - {fileID: 1709254077376921, guid: cc15e91bb3fa8ef4c824ca0feb22fbdc, type: 2}
+  - {fileID: 1709254077376921, guid: e30ca9ef3fc5c0b4f80b4a194834d1e6, type: 2}
+  - {fileID: 1709254077376921, guid: d538995a1b5232e46ad2a8226989789e, type: 2}
+  - {fileID: 1709254077376921, guid: 9d72cd0000c120643a991755ccf6a398, type: 2}
+  - {fileID: 1709254077376921, guid: 3b369065f9c41f942a3d62c0d117b709, type: 2}
+  - {fileID: 1709254077376921, guid: 9202aebb2f8ab18498ceaed892856c18, type: 2}
+  - {fileID: 1709254077376921, guid: b825fd01ea1c967429f76b7729434360, type: 2}
+  - {fileID: 1709254077376921, guid: 6689cb025786c814ea7481b42cea9f8f, type: 2}
+  - {fileID: 1709254077376921, guid: 557fa19b12a352747898b7bcb4e52e87, type: 2}
+  listAvatarUnlock:
+  - customer: wolf_yakuza
+    mapId: sushi
+    vip: 1
+  - customer: shiba_sumo
+    mapId: sushi
+    vip: 1
+  - customer: eagle_police
+    mapId: coffee
+    vip: 1
+  - customer: bison_baron
+    mapId: coffee
+    vip: 1
+  - customer: dog_boy
+    mapId: burger
+    vip: 0
+  - customer: bear_cute
+    mapId: burger
+    vip: 0
+  - customer: lion_boy
+    mapId: sushi
+    vip: 0
+  - customer: beaver_logger
+    mapId: coffee
+    vip: 0
+  - customer: skunk_socialite
+    mapId: coffee
+    vip: 0
+  - customer: cow_rebel
+    mapId: coffee
+    vip: 0
+  - customer: tanuki_boy
+    mapId: coffee
+    vip: 0
+  - customer: fox_lady
+    mapId: sushi
+    vip: 0
+  - customer: otter_sailor
+    mapId: icecream
+    vip: 0
+  - customer: bird_shipper
+    mapId: coffee
+    vip: 0
+  - customer: rat_shipper
+    mapId: burger
+    vip: 0
+  - customer: parrot_tropical
+    mapId: icecream
+    vip: 0
+  - customer: penguin_swimmer
+    mapId: icecream
+    vip: 0
+  - customer: sheep_gentleman
+    mapId: pasta
+    vip: 0
+  - customer: cat_lady
+    mapId: pasta
+    vip: 0
+  - customer: chinchilla_postman
+    mapId: pasta
+    vip: 0
+  - customer: flamingo_diva
+    mapId: icecream
+    vip: 1
+  - customer: turtle_tycoon
+    mapId: icecream
+    vip: 1
+  - customer: rooster_mayor
+    mapId: pasta
+    vip: 1
+  - customer: bear_mafia
+    mapId: pasta
+    vip: 1
+  listFrameStt: 00000000010000000200000003000000040000000500000006000000070000000800000011000000
+  listFrame:
+  - {fileID: 1709254077376921, guid: fb33a01b6fd954543b68d37e26079431, type: 2}
+  - {fileID: 1709254077376921, guid: 478a87d39bdb21145bd294db3a478caf, type: 2}
+  - {fileID: 1709254077376921, guid: 9e479216b90dbde44a609d8a54c70f1c, type: 2}
+  - {fileID: 1709254077376921, guid: 585daa5f2fa7f4443af40edf6ee04510, type: 2}
+  - {fileID: 1709254077376921, guid: d3be087fa826a6946a2d6ac082f006da, type: 2}
+  - {fileID: 1709254077376921, guid: 4006291f009be514e95c65a7d0ef57a2, type: 2}
+  - {fileID: 1709254077376921, guid: 559f12c67017e9a4096901b8b2ee2489, type: 2}
+  - {fileID: 1709254077376921, guid: 51b057ca26333f94ba1c5fd483d893de, type: 2}
+  - {fileID: 1709254077376921, guid: c43e178692e89a74880cec080ed0304a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1709254077376921, guid: c67a2c7d73c13a94689c7a35b87ece93, type: 2}
+  listNameFxStt: 0000000001000000
+  listNameFx:
+  - {fileID: 114618682377417806, guid: 272bb72a127892f4db87ec6c0a629360, type: 2}
+  - {fileID: 114243736805655561, guid: b7181e73990ab3d47ba3f9a6497f4333, type: 2}

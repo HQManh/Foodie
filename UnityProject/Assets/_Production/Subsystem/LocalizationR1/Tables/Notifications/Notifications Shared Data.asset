@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Notifications Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Notifications
+  m_TableCollectionNameGuidString: 68dbf7e130529844b8331132a263e51a
+  m_Entries:
+  - m_Id: 5935534694400
+    m_Key: Noti1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777541
+  - m_Id: 5935534694401
+    m_Key: Noti2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777542
+  - m_Id: 5935534694402
+    m_Key: Noti3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777543
+  - m_Id: 5935534694403
+    m_Key: Noti4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777544
+  - m_Id: 5935534694404
+    m_Key: Noti5
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777545
+  - m_Id: 5935534694405
+    m_Key: Noti6
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777546
+  - m_Id: 5935534694406
+    m_Key: Noti7
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777547
+  - m_Id: 5935534694407
+    m_Key: Noti8
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777548
+  - m_Id: 5935534694408
+    m_Key: Noti9
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777549
+  - m_Id: 5935534694409
+    m_Key: Noti10
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777550
+  - m_Id: 5935534694410
+    m_Key: Noti11
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777551
+  - m_Id: 5935534694411
+    m_Key: Noti12
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777552
+  - m_Id: 5935534694412
+    m_Key: Noti13
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777553
+  - m_Id: 5935534694413
+    m_Key: Noti14
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777554
+  - m_Id: 5935534694414
+    m_Key: Noti15
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777555
+  - m_Id: 5935534694415
+    m_Key: Noti16
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777556
+  - m_Id: 5935534694416
+    m_Key: Noti17
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777557
+  - m_Id: 5935534694417
+    m_Key: Noti18
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777558
+  - m_Id: 5935534694418
+    m_Key: Noti19
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777559
+  - m_Id: 5935534694419
+    m_Key: Noti20
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777560
+  - m_Id: 5935534694420
+    m_Key: Noti21
+    m_Metadata:
+      m_Items:
+      - rid: 4117827726437777561
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859022
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859022
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230174419
+    - rid: 4117827726437777541
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777542
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777543
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777544
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777545
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777546
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777547
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777548
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777549
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777550
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777551
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777552
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777553
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777554
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777555
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777556
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777557
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777558
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777559
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777560
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.
+    - rid: 4117827726437777561
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Push notification body shown while the game is closed. Keep under ~90 characters.

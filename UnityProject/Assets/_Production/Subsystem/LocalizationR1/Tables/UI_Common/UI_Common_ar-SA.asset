@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ar-SA
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar-SA
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: جديد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: الحد الأقصى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}ي {1}س'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}د'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}س {1}د'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}س'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: مكافأة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: تم الشراء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: تم استلام المكافأة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: استلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: حسنًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: المستوى {0} -> المستوى {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: يُفتح في بداية اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: قريبًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: هذه الميزة قادمة قريبًا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: المتجر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: الرئيسية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: المطاعم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: الإنجازات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: هذه الخريطة مقفلة. أكمل الخرائط السابقة لفتحها.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: هذا اليوم مقفل. أكمل الأيام السابقة لفتحه.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: اليوم {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: اجتز اليوم {0} في المطعم السابق لفتح القفل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: صعب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: صعب جدًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: ستتوفر هذه الخريطة في تحديث قادم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'تم تقديم: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: جرّب ترقية مطعمك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: هذه العناصر التي يمكنك شراؤها
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: لنستخدم العملات التي ربحتها أمس في ترقية شيء ما!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: لننتقل الآن إلى تبويب ترقية الأدوات!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: جرّب ترقية صاج الشواء هذا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: بعد ترقية المحمصة، لنعد ونبدأ اليوم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: لنبدأ اليوم الآن!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: جرّب استخدام هذا المعزز!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: أثناء الطهي، قد تدخل في حالة خاصة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: مع كل زبون تخدمه بنجاح يزداد هذا الشريط! جرّب خدمة {0} زبائن آخرين!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: مع كل طبق تقدّمه بنجاح يزداد هذا الشريط! جرّب تقديم {0} أطباق أخرى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: رائع! في حالة انفجار النكهة يمكنك الطهي بكفاءة فائقة. استمتع!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: لا تملك عملات كافية للبناء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: المستوى الأقصى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: المستوى {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: لا يوجد ما يكفي من {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: وصلت بالفعل إلى المستوى الأقصى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} مرات'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: استلام x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: المعزز متاح في اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: تفعيل سرعة x{0} لمدة {1} دقائق؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: تم الاستلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: تمت إزالة الإعلانات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: اسم المعزز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: أنقذني لإضافة +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: طهي تلقائي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: اجمع المكونات تلقائيًا وحضّر طبقًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: مكنسة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: إزالة كومة متسخة من الطاولة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: ملقط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: اختر طبق مكونات واحدًا بحرية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: تحتاج إلى خانات أكثر؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: افتح خانات إضافية لحفظ الأطباق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: خلط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: تبديل صفوف المكونات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: سرعة x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: اطبخ وقدّم أسرع بسرعة x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: استعادة {0} قلوب؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: هل تجرب خلط المكونات؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: هل تنقل 5 مكونات إلى كيس؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: إعادة ملء وقت انتظار الزبائن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: برغر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: قهوة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: تعارض في البيانات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: جارٍ التحميل...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: جارٍ التحميل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: ارتقى المطعم مستوى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: انقر للمتابعة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: الرئيس متطلب ويفقد صبره بسرعة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: تهانينا على مطعم الوجبات السريعة الخاص بك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: لنبدأ العمل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: إنها تريد برغر شهيًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: انقر على المكوّن الذي تريد استخدامه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: انقر على طلب الزبون لتغيير العرض
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: يستلم عامل التوصيل عدة طلبات قبل انتهاء الوقت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: استخدام السحابة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: استخدام المحلي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: مكافآتك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: تفريغ {0} خانات ومواصلة الطهي؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "هل تستمتع باللعبة؟\nاترك تقييمًا!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: قيّم اللعبة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: لذيذ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: شهي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: لذيذ جدًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: أعجبني
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: أريد المزيد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: لا يقاوم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: طعم خيالي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: فاخر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: تسلم يدك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: تحفة فنية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: اجتز {0} في {1} لفتح أيام إضافية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: يتطلب اتصالاً بالإنترنت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: الإعلان غير جاهز، حاول مرة أخرى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: يجب أن يتكون الاسم من {0} أحرف على الأقل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: يجب ألا يتجاوز الاسم {0} حرفًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: يمكن أن يحتوي الاسم على حروف وأرقام ومسافات و_ فقط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: عُد بعد {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: اجمع المكافأة المجانية أولاً!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: اجمع المكافأة السابقة أولاً!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: حسنًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: يُفتح في اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: سوشي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: رائع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: يوم إضافي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: مقفل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: متجر الطهي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: تمت ترقية الأداة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: زادت سرعة {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} تعمل الآن بأقصى سرعة'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: فتح الأيام الإضافية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: الأخبار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: أجزاء ترقية جديدة متاحة لمطاعمك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} فيها أيام إضافية جديدة!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: تم تعديل أسعار الترقية، وأُعيد إليك الذهب الذي دفعته زيادة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: قيّمنا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: فعل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: تم التفعيل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: الفريق موجود بالفعل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: الفريق مكتمل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: الفريق ليس فارغاً!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: الفريق غير موجود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: لا يمكن للقائد أن يرحل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: ممنوع الإذن!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: خطأ في الخادم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: انضم المستخدم إلى الفريق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: غادر المستخدم مؤخراً!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: المستخدم ليس ضمن الفريق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: بسأل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: أفاتار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: بنك المكافآت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: أكمل الأيام لتجميع الذهب في بنكك واستلمه في نهاية الفعالية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: فعّل <color=yellow>Dreamy Pass</color> لفتح <color=yellow>Bonus Bank</color> في نهاية المراحل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: لا يمكن حفظ بياناتك على الخادم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: محادثة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: يختار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: مطالبة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: قريباً!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: مكتمل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: يتأكد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: تهانينا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: يكمل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: تم النسخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: دولة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: يخلق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: كوّن فريقك وقم بقيادته!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: يمسح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'وصف:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: ممر الأحلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: مرحباً بك في <color=yellow>Dreamy Pass!</color> إليك مكافأتك الأولى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: أكمل الأيام واجمع <color=yellow>المفاتيح</color> لفتح المكافآت. انقر لمعرفة كيفية جمعها!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: تفعيل <color=yellow>Dreamy Pass</color> سيمنحك إمكانية الوصول إلى مكافآت خاصة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: افتح هذه المرحلة وقم بتفعيل <color=yellow>Dreamy Pass</color> للحصول على هذه المكافأة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: خط الأحلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: أكمل الأيام دون إخفاق لتحصل على مكافآت أكثر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: أكمل الأيام دون أن تخسر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: قم بزيادة مُضاعف نقاطك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: اربح جوائز مذهلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: كل فشل يعيد ضبط مضاعفك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: برج الأحلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: أكمل الأيام تباعًا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: انهضوا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: كل فشل يعيد ضبط تقدم نقطة التفتيش!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: يحرر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: تعديل الاسم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: اختر اسم المستخدم الخاص بك قبل الانضمام إلى لوحة المتصدرين
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: تعديل الملف الشخصي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: فريق التحرير
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: فارغ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: انتهى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: أدخل النص...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: أدخل الوصف...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: أدخل اسم الفريق...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: ينهي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: الفوز من المحاولة الأولى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: إطار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: حر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: قلب حر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: مكافآت مجانية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: حياة حرة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: إحصائيات عامة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: يذهب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: يساعد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: المساعدة التي تم صنعها
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: المساعدات المستلمة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: صندوق الوارد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: معلومات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: ينضم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: انضم إلى فريق واحصل على أرواح مجانية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: الفرصة الأخيرة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: قائد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: لوحة المتصدرين
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: يترك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: هل ستغادر الفريق؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: سيتعين عليك الانتظار لمدة 30 دقيقة قبل أن تتمكن من إنشاء فريق جديد أو الانضمام إليه!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: مستوى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: الوصول إلى <color=yellow>اليوم {0}</color> لفتح المسابقة الأسبوعية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: حياتكم مليئة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: حمولة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: تم تحميل البيانات من الخادم بنجاح! أعد تشغيل اللعبة لتطبيق البيانات الجديدة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: محلي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: المستوى {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: الوصول إلى <color=yellow>اليوم {0}</color> لفتح لوحة المتصدرين!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: الوصول إلى <color=yellow>اليوم {0}</color> للانضمام إلى الفريق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: الأعلى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: لا يمكنك طلب أرواح إضافية. لديك أكثر من 10 أرواح مجانية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: انضم {0} إلى الفريق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: تم طرد {0} بواسطة {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} غادر الفريق!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: أعضاء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: فريقي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: اسم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: يجب أن يتكون الاسم من 6 أحرف على الأقل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: خطأ في الشبكة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: خطأ في الشبكة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: جديد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: لا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: بلا اسم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: لا مساهمة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: لا يوجد فريق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: لا يوجد ذهب كافٍ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: يفتح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: ستمنحك بطاقة الأحلام فرصة الحصول على مكافآت خاصة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: ستحصل على مكافآت حصرية حتى نهاية الفعالية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: ثمانية أرواح بدلاً من خمسة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: تفعيل بنك المكافآت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: إطار صورة شخصية ذهبي واسم ذهبي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: انتهى عرض ""دريمي باس""! لم تعد مكافآتك فعّالة. سيبدأ عرض ""دريمي باس"" جديد قريبًا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: أكمل الأيام!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: اجمع المفاتيح!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: افتح المكافآت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: يمكنك تفعيل بطاقة الأحلام (Dreamy Pass) للحصول على مكافأة حصرية إضافية!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: انطلقت <color=Yellow>التذكرة الحالمة</color> الجديدة! أكمل الأيام وافتح <color=Yellow>التذكرة</color> لتحصل على مكافآت قيّمة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: ممر الأحلام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0} ضع المكافأة!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: اللاعبون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: خاص
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: حساب تعريفي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: تم تحديث الملف الشخصي!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: عام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: تم حفظ بياناتك على الخادم بنجاح!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: إعادة الاتصال
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: ينعش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: إزالة العضو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: أطلب الحياة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'اليوم المطلوب:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: أكمل اليوم {0} لزيادة الحد الأقصى لليوم المطلوب!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: إعادة تشغيل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: يحفظ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: نتيجة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: يبحث
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: اختر الشعار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: أرسل لك حياة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: الخادم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: مكافآت خاصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: سباق مراحل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: لقد خسرت السباق! حاول مرة أخرى للفوز بجوائز مذهلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: تهانينا! لقد فزت بالسباق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: أكمل <color=yellow>{0} أيام</color> قبل الآخرين للفوز والتقدم إلى المرحلة التالية للحصول على جوائز أكبر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: كيف تلعب؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: أكمل الأيام قبل الآخرين لإنهاء السباق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: أنهِ السباق قبل الآخرين!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: انتقل إلى المرحلة التالية لتحصل على جوائز أكبر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: الفوز بسباق المراحل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: المرحلة {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: نجم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: يبدأ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: مزامنة البيانات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: انقر للمتابعة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: انقر لفتح الصفحة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: انقر للمطالبة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: انقر للإغلاق!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: معلومات الفريق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'شعار الفريق:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'عند انضمامك إلى فريق ستحصل على:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: فريق الحصاد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: اجمع الذرة من المستويات!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: حققوا أهدافكم مع فريقكم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: اربح مكافآت مذهلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'عادي: حبة ذرة واحدة - صعب: 3 حبات ذرة - شديد الصعوبة: 5 حبات ذرة'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: احصد الذرة مع فريقك واربح مكافآت مذهلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'اسم الفريق:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: الفرق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'نتيجة الفريق:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'نوع الفريق:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'حياة حرة تماماً:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'إجمالي المساعدات:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: إجمالي النجوم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: أعلى برج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: قائد التحويل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: إليكم مكافآتكم غير المطالب بها!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: يُفتح في اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: يُفتح عند اجتياز اليوم {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: يستخدم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: منظر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: عرض الملف الشخصي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: يرجى الانتظار قليلاً حتى يقوم الخادم بالمعالجة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: أسبوعي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: المسابقة الأسبوعية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: ابذل جهدًا أكبر في المرة القادمة لتحصل على مكافآت قيّمة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: أكمل الأيام!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: خذ زمام المبادرة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: عالم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: نعم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: لوحة المتصدرين
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: فريق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: ستتوفر الترقيات في التحديث القادم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: اليوم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'عند انضمامك إلى فريق، ستتمكن من:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: احصل على قلوب <color=#7CF73F>مجانية</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: دردش مع أصدقائك وشارك في التحديات معهم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: المناطق المكتملة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: صل إلى اليوم {0} للمتابعة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: اليوم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: اجتز {0} في {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: طوّر {0} إلى مرحلتها الأخيرة أولًا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: ترقيات {0} متاحة الآن!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: مستويات ترقية جديدة للأدوات في {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: اشترِ الكل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: مكافأة إضافية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: لمرة واحدة فقط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: تخفيضات إضافية {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: اجتز {0} في مطعم {1} لفتح القفل!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

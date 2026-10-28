@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_ar-SA
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar-SA
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: التراتوريا الصغيرة الدافئة حيث تبدأ قصة الباستا الخاصة بك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: يضيف طابقًا علويًا دافئًا إلى التراتوريا الخاصة بك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: يحضّر صلصة ناعمة في لمح البصر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: دوّامة من الصلصة. يُنصح بشدة بإغلاق الغطاء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: تُقطَّع الطماطم مكعبات قبل أن تحمرّ خجلاً.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: يفرم بسرعة لا تترك للبصل وقتًا للبكاء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: طاولة مربعات وكراسٍ مريحة لتناول الباستا في الهواء الطلق.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: فانوس دافئ يتوهج بجوار الباب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: لافتة فخورة للطاهي الكابيبارا تتوّج السطح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: سبورة تعرض أطباق الباستا المميزة لليوم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: تئزّ الصلصات بسرعة مضاعفة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: تم فتح أزيز إضافي. المقلاة تتوهج بفخر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: نباتات خضراء طازجة في أصص تزيّن المدخل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: يغلي الماء قبل أن تقول ألدنتي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: أسطورة تغلي وتطهو الباستا بسرعة البرق.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: عنقود عنب ممتلئ يزيّن السطح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: طبق سباغيتي عملاق ملفوف عاليًا فوق السطح!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: يسكب صودا فوّارة في لحظة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: فوران رائع! نافورة من الفقاعات والفرح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: الطابق العلوي للتراتوريا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: خلاط الصلصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: إعصار الصلصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: لوح التقطيع السريع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: لوح نينجا الباستا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: طاولة الشرفة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: فانوس جداري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: لافتة الطاهي كابي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: قائمة الطباشير
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: مقلاة الأزيز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: مقلاة اللهب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: ريحان في أصيص
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: قدر الغليان السريع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: مرجل الغليان الضخم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: عنب السطح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: سباغيتي عملاقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: نافورة الفوار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: ينبوع الصودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: دب مهيب ببدلة مقلمة وقبعة فيدورا مزينة بوردة، يتوقع أطباق معكرونة سخية واحترامًا مطلقًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: قطة مخططة أنيقة بقبعة بنفسجية وفستان متناسق، تطلب المعكرونة بذوق رفيع وخرخرة رضا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: شنشيلة مرتبة بزي ساعي بريد أزرق، تتبع رائحة المعكرونة الطازجة بين جولات التوصيل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: ديك فخور بقبعة عالية ووشاح ثلاثي الألوان، يترأس منضدة المعكرونة بخطب رنانة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: خروف لطيف بنظارة مستديرة ووشاح مربوط بجرس، يعتبر كل طبق معكرونة مناسبة تستحق الاحتفاء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: تفاح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: تفاح مقطع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: دون أورسينو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: شريحة لحم مشوية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: شريحة لحم نيئة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: قدر الغلي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: خبز محمص
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: رغيف خبز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: الكونتيسة كاترينا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: جبن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: جبن مفروم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: صلصة الحليب بالجبن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: دجاج مشوي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: دجاج نيء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: تشيكو الشنشيلة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: لوح التقطيع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: أسقلوب مشوي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: أسقلوب نيء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: أسقلوب نيء مقطع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: معكرونة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: سلطة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: لحوم ومأكولات بحرية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: صودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: فارفالي مسلوقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: فارفالي نيئة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: لحم مفروم مطبوخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: لحم مفروم نيء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: ثلج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: ليمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: شرائح ليمون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: خس
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: خس مقطع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: مانيكوتي مسلوقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: مانيكوتي نيئة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: مايونيز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: لحوم ومأكولات بحرية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: قائمة كبرى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: حليب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: أخطبوط مشوي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: أخطبوط نيء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: أخطبوط نيء مقطع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: مقلاة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: معكرونة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: العمدة غالو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: سلطة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: خلاط الصلصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: السنيور وولينغتون
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: روبيان مشوي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: روبيان نيء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: روبيان نيء مقطع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: صودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: كوب صودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: سباغيتي مسلوقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: سباغيتي نيئة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: سبانخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: سبانخ مفرومة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: صلصة الحليب بالسبانخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: طماطم كبيرة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: طماطم مفرومة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: صلصة الحليب بالطماطم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: تفاحة مقرمشة تُبعد الطبيب والسلطات المملة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: مقطعة إلى شرائح مقرمشة، جاهزة للخلط.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: 'مشوية حتى تهمس: بيليسيمو.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: قطعة لحم بقري سميكة تحلم بفلورنسا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: يسلق المعكرونة حتى تصبح ألدنتي تمامًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: خبز بروسكيتا ذهبي بقرمشة لذيذة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: رغيف إيطالي ريفي، مقرمش من الخارج وطري من الداخل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: عجلة جبن معتّقة من أجل الإثارة والنكهة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: رقائق جبن كالثلج تنتظر أن تتساقط على المعكرونة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: كريمية وغنية بالجبن وناعمة بما يكفي لتربح أي نقاش.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: دجاج مشوي طري بخطوط شواء مثالية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: دجاج شاحب ينتظر لحظته على الشواية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: 'يقطّع الخضار أسرع مما تقول: تشاو.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: أسقلوب محمّر، حلو كغروب الشمس في البندقية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: أسقلوب ما زال يُحكم إغلاق صدفته.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: نظيفة ومهذبة ولم تعد منغلقة على نفسها.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: كوب فارغ ينتظر شيئًا فوّارًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: ملفوفة ومغطاة بالصلصة ومقدمة بلمسة إيطالية. ماما ميا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: مقرمشة وطازجة ومقلّبة كحديقة إيطالية أصيلة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: من الشواية والبحر، وليمة تليق بيوم أحد في نابولي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: فوّار وبارد والرفيق المثالي لكل طبق معكرونة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: ربطات عنق طرية متأنقة للعشاء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: فراشات معكرونة صغيرة لم تتعلم الطيران بعد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: محمّر وغني بالصلصة، تمامًا كما تعدّه الجدة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: لحم مفروم في طريقه ليصبح صلصة راغو كلاسيكية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: مكعبات باردة تُبقي كل صودا منعشة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: ليمونة أمالفي مشمسة بشخصية منعشة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: شرائح ليمون مشرقة تجعل كل رشفة تتلألأ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: رأس خس مقرمش طازج من الحديقة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: أوراق مقطعة جاهزة للخلط كما يجب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: أنابيب طرية مطبوخة وجاهزة للحشو.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: أنابيب معكرونة كبيرة فيها متسع للحشوة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: الصلصة الكريمية التي تجمع كل سلطة معًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: الشواية تلتقي بالبحر في طبق سخي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: حليب طازج، سر كل صلصة كريمية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: أخطبوط مشوي، طعم المتوسط الأصيل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: ثماني أذرع ولا فكرة عمّا ينتظره.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: مجسات مهذبة وجاهزة للحرارة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: يحمّر اللحوم والصلصات حتى الكمال الذهبي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: طبق معكرونة يتصاعد منه البخار، ألدنتي وفخور بذلك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: خضار طازجة مقلّبة على الطريقة الإيطالية.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: يخلط صلصات حريرية في دوامة كريمية واحدة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: روبيان يئزّ قبّلته النيران.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: روبيان صغير ملتف وخجول.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: مقشّر ومُجهّز، لم تبقَ قشرة يختبئ فيها.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: كوب فقاعات فوّار يُقدّم مثلجًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: كوب جاهز لإعادة تعبئة فوّارة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: يصب الصودا الفوارة فوق الكثير من الثلج.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: ألدنتي تمامًا وجاهزة للّف.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: طويلة وجافة ومتصلبة كأصابع الخبز.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: خضار ورقية بقوة البحّارة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: خضار مفرومة ناعمًا وجاهزة للصلصة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: خضراء وكريمية ومفيدة لك سرًا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: طماطم ممتلئة نضجت تحت شمس توسكانا.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: طماطم مكعبات، القلب النابض لكل صلصة حمراء.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: وردية وكريمية كغروب الشمس في روما.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: كوب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: آلة الصودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: مطعم إيطالي دافئ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: تُفرم الطماطم قبل أن تخجل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: لوح الباستا الساموراي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: ضربة واحدة، سلطة كاملة. قبلة الطاهي.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: نصل الباستا الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: صلصة كريمية في دوامة. يُنصح بالمناديل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: إعصار الصلصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: صلصة حريرية بسرعة دورة واحدة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: دوامة الصلصة الأسطورية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: تتحمّر الستيك في لحظة. اسمع هذا الصوت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: مقلاة الجحيم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: مشوي بإتقان قبل أن تقول «بيليسيمو».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: المقلاة الأسطورية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: المعكرونة «ألدينتي» في لمح البصر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: قدر البركان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: يغلي بسرعة لا يكاد الماء يلاحظها.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: مرجل الباستا الأسطوري
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: ينفجر بالفقاعات. الأكواب تمتلئ وحدها.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: بركان الصودا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: فقاعات إلى الأبد. لا فرصة للعطش.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: نافورة الصودا اللانهائية
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

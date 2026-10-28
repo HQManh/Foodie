@@ -1,0 +1,41 @@
+namespace CakeOrder.InGame.IceCream
+{
+	public enum IceCreamPiece
+	{
+		Strawberry = 0,
+		Banana = 1,
+		Kiwi = 2,
+		CherrySyrup = 3,
+		GrapeSyrup = 5,
+		LemonSyrup = 6,
+		Oreo = 7,
+		Pocky = 8,
+		Sprinkles = 9,
+		VanillaIceCream = 10,
+		StrawberryIceCream = 11,
+		ChocolateIceCream = 12,
+		MatchaIceCream = 13,
+		GrapeIceCream = 14,
+		ConeBatter = 16,
+		Milk = 17,
+		IceCube = 18,
+		SmoothieStrawberry = 19,
+		SmoothieBanana = 20,
+		MangoIceCream = 22,
+		Blueberry = 23,
+		Avocado = 24,
+		Orange = 25,
+		ChocolateToppingSyrup = 26,
+		StrawberryToppingSyrup = 27,
+		RainbowJelly = 28,
+		WhiteJelly = 29,
+		Cherry = 30,
+		Coconut = 31,
+		SmoothieBlueberry = 32,
+		SmoothieAvocado = 33,
+		SmoothieOrange = 34,
+		GreenAppleSyrup = 35,
+		GreekYogurt = 36,
+		WhippingCream = 37
+	}
+}

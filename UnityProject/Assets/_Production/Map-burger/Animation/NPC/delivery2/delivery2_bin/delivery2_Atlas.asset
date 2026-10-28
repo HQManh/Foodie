@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: delivery2_Atlas
+  m_EditorClassIdentifier: spine-unity::Spine.Unity.SpineAtlasAsset
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: cbda5f7c3a1092a4fb1db4d1ccf0b2e0, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 2375f8dbd5b7a8546844e2026b30bd14, type: 2}
+  - {fileID: 2100000, guid: c67324554c5b16c4ba703aa45494d2b5, type: 2}
+  - {fileID: 2100000, guid: 58de9894454cb2841a2c6565a40b5778, type: 2}
+  - {fileID: 2100000, guid: 98de2068ac72a7744af87df249dec00c, type: 2}
+  - {fileID: 2100000, guid: af801284aaf3f2e41af9070f1d3df982, type: 2}

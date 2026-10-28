@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1531286736, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: fresh-juice
+  m_EditorClassIdentifier:
+  nodeName: fresh-juice
+  displayName: Fresh Juice
+  emoji: 🧃
+  sprite: {fileID: 0}
+  orderable: 1
+  toppingRequired: 0
+  preMerge: 0
+  ordering: 0
+  processedFrom: {fileID: 0}
+  processId:
+  combinationRulesJson: '{"containers":[],"combinations":[{"id":"stack-fresh-juice-strawberry-juice","composite":"fresh-juice","base":"strawberry-juice","mode":"stacked","baseTransform":{"pos":{"x":0,"y":0},"scale":{"x":0.82,"y":0.82},"rot":0},"toppings":[{"item":"ice-cubes","sortOrder":1,"pos":{"x":-5,"y":-19},"rot":0,"scale":{"x":0.2,"y":0.2},"localImage":"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp"}]},{"id":"stack-fresh-juice-kiwi-juice","composite":"fresh-juice","base":"kiwi-juice","mode":"stacked","baseTransform":{"pos":{"x":0,"y":0},"scale":{"x":0.82,"y":0.82},"rot":0},"toppings":[{"item":"ice-cubes","sortOrder":1,"pos":{"x":-5,"y":-19},"rot":0,"scale":{"x":0.2,"y":0.2},"localImage":"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp"}]},{"id":"stack-fresh-juice-mango-juice","composite":"fresh-juice","base":"mango-juice","mode":"stacked","baseTransform":{"pos":{"x":0,"y":0},"scale":{"x":0.82,"y":0.82},"rot":0},"toppings":[{"item":"ice-cubes","sortOrder":1,"pos":{"x":-5,"y":-19},"rot":0,"scale":{"x":0.2,"y":0.2},"localImage":"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp"}]},{"id":"stack-fresh-juice-grape-juice","composite":"fresh-juice","base":"grape-juice","mode":"stacked","baseTransform":{"pos":{"x":0,"y":0},"scale":{"x":0.82,"y":0.82},"rot":0},"toppings":[{"item":"ice-cubes","sortOrder":1,"pos":{"x":-5,"y":-19},"rot":0,"scale":{"x":0.2,"y":0.2},"localImage":"Map6-sanwich/Ingredients/Done Food/Icon_Ice_1.webp"}]}]}'
+  customerSpaceHeight: Half
+  mergeDuration: 0.5

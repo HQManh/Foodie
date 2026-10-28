@@ -1,0 +1,27 @@
+using System;
+
+namespace UniRx
+{
+	public sealed class BooleanDisposable : IDisposable, ICancelable
+	{
+		public bool IsDisposed { get; private set; }
+
+		public BooleanDisposable()
+		{
+		}
+
+		internal BooleanDisposable(bool isDisposed)
+		{
+			IsDisposed = isDisposed;
+		}
+
+		public void Dispose()
+		{
+			if (IsDisposed)
+			{
+				return;
+			}
+			IsDisposed = true;
+		}
+	}
+}

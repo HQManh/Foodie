@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_da
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: Start-burgerbod. Ejet fra begyndelsen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: Et fuldt burgerhus med bredere facade og mere plads til pynt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: Sød som honning og dobbelt så nuttet, når pomfritterne kommer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: Grillet til perfektion – denne bøf har gjort det godt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: Rå, ustegt og klar til kamp på stegepladen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: Lille menutavle ved døren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: Højt reklameskilt foran butikken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: Stablet, lagdelt og helt oppe at køre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: Steg ingredienserne gyldne og sprøde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: Hælder brusende cola op.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: Hakker ingredienser i stykker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: Ristet bolle med stålsat bagdel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: En bolle, der endelig har åbnet sig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: En blød bolle, der stadig driver den af.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: Her kommer ingredienserne fra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: Restaurantskilt monteret over taglinjen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: For cool til at skynde sig og bestiller altid med en perfekt timet spinden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: Små poter, stor appetit og ingen skam over ekstra ost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: En klump mejeri med revet potentiale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: Skiveskåret ost, klar til at smelte nogle hjerter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: Smeltet guld, der gør alt fantastisk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: Bryst klædt i mel, klar til sin sprøde debut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: Bleg og almindelig, venter stadig på sin store fritering.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: Sprød udenpå, saftig indeni – så god, at du klukker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: En lille nugget i sin melrustning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: Lille, bidstor og drømmer om frituregryden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: Lår i melfrakke, buttet og klar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: Det saftigste stykke, der stadig skjuler sit potentiale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: Vinger overtrukket med dej, før de når at lære at flyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: En vinge, der endnu ikke har noget knas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: Rødt støv, der bringer varmen – ingen kulde her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: Grønne stilke med et mildt tilfælde af løgmisundelse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: Lille grøn konfetti til en sprød fest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: En tom kop, der tørster efter et formål.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: Mørk sodavand, der bobler af begejstring.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: Cola på is, serveret med en kold skulder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: Stablet efter bestilling og bedst spist, før bollen giver op.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: Iskolde bobler, der gør hver burgerbid højere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: Gylden udenpå, saftig indeni og væk på fire bid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: Varm, salt og umulig at dele retfærdigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: En trofast lille gæst, der behandler hver burger som en logrende skat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: Skrøbelig, og den knækker under pres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: Spejlæg med solsiden op og æg-stremt glad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: Frituresteger maden gylden og sprød.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: Dækker ingredienser med et lag dej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: Vand, der har besluttet sig for at holde hovedet koldt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: Alt det sprøde samlet i én herlig kyllingefest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: Sprøde grønne blade – så lad os salat-starte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: Snittede grøntsager, der endelig har forladt hovedet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: Et helt salathoved, der har hovedet koldt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: Lyskæde langs venstre side.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: Restaurantskilt monteret over taglinjen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: Styrer frokostrushet som et bestyrelsesmøde og kræver premium-pickles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: Potteplante ved indgangen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: En beskeden kartoffel med pomfrit-stjernedrømme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: Skåret i stave – nu en pomfrit i venteposition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: Gyldne pomfritter, varme nok til at starte en saltdebat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: Pomfritter begravet i ost – ingen fortrydelse overhovedet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: Hopper sulten ind og går med krummer på begge kinder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: Byens hurtigste rødhalede bud – medmindre nogen taber en pomfrit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: Lilla, skarp og hemmeligt følsom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: Skårne ringe, der fik kokken til at græde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: En kæmpe burgerfigur oven på taget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: Skilt, der hænger på bygningens højre side.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: Skilt, der hænger på bygningens højre side.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: Rund, rød og teknisk set en frugt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: Saftige skiver, som ikke mangler noget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: Hængende ranker hen over tagkanten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: Større hus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: Honningkrammebjørn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: Bøf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: Rå bøf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: Lille menutavle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: Høj menutavle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: Stegeplade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: Colamaskine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: Kokkekniv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: Burgerbolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: Delt bolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: Bolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: Bakke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: Markise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: Coolcat Clyde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: Kitty Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: Ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: Osteskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: Ostesauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: Paneret kyllingebryst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: Råt kyllingebryst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: Stegt kylling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: Paneret nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: Rå nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: Paneret kyllingelår
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: Råt kyllingelår
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: Paneret kyllingevinge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: Rå kyllingevinge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: Chilipulver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: Purløg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: Hakket purløg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: Kop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: Cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: Iskold cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: Klassisk burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: Brusende cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: Sprød kylling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: Gyldne pomfritter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: Benny Bark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: Æg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: Spejlæg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: Frituregryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: Skål med mel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: Kyllingemenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: Salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: Snittet salat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: Salathoved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: Lys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: Logoskilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: Boss Hogsworth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: Plantekrukke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: Kartoffel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: Skåret kartoffel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: Pomfritter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: Ostefritter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: Bunbun Bella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: Rotte-budet Røde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: Rødløg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: Snittet rødløg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: Kæmpeburger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: Hængeskilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: Pæleskilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: Tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: Tomatskiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: Ranker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: Hakker grøntsager hurtigere, end en salat kan rødme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: Skær, tern, færdig. Løgene havde ingen chance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: Hælder brusende cola på et blink, bobler og det hele.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: Masser af brus! En fontæne af sodavand og glæde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: Panerer kylling i mel med topfart. Rodet, men lækkert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: En snestorm af mel. Hver nugget får et lunt tæppe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: Gyldne pommes frites i rekordtid. Knas garanteret.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: Ekstra sprødhed er låst op. Pommes fritesene stråler af stolthed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: Bøfferne syder hurtigere. Maverne knurrer højere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: Så varm, at burgerne vender sig for den. Bogstaveligt talt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: Hurtig hakker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: Ninja-hakker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: Brusehurtig maskine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: Cola-gejser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: Hurtig panérskål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: Mel-vanvid-skål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: Sprød friture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: Guld-friture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: Sizzle-grill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: Mega-sizzle-grill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: Salaten er strimlet, før den overhovedet lander.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: Samurai-hakker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: Så skarp, at den skærer luften. Tomaterne gør honnør.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: Legendarisk knivbræt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: Den går i udbrud med bobler. Kopperne fylder sig selv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: Cola-vulkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: Bobler for evigt. Tørsten har ingen chance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: Uendelig boblespringvand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: Paner nuggets hurtigere, end du kan sige knas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: Melsnestorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: Hver nugget kommer ud klædt som kongelige.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: Gylden pulverskål
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: Fritterne hopper blege i og springer gyldne ud.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: Turbofrituregryde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: Sprødt med lysets hastighed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: Legendarisk friturereaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: Bøfferne steges på et øjeblik. Pas på øjenbrynene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: Vulkangrill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: Varm som solen, hurtig som en raket. Burgerlykke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: Legendarisk solgrill
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

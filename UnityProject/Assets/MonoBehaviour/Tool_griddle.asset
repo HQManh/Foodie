@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1637380146, guid: 6733ac909235047ba694bb394ff0c109, type: 3}
+  m_Name: Tool_griddle
+  m_EditorClassIdentifier:
+  _id: burger_0_griddle
+  _tempNameAlias: Griddle
+  _tempDescription: Fry the ingredients until golden brown and crispy.
+  _locTable: Map_burger
+  _icon: {fileID: 21300000, guid: fe833d30f4870174eac2be5b53ad500f, type: 2}
+  _tags: []

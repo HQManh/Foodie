@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_zh-CN
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh-CN
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: 新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: 已满
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}天{1}小时'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}分钟'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}小时{1}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}小时'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: 已购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: 已获得奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: 领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: 确定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: 等级{0} -> 等级{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: 第{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: 第{0}天开始时解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: 敬请期待
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: 该功能即将推出！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: 商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: 主页
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: 餐厅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: 对战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: 成就
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: 该地图尚未解锁。请先通关之前的地图。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: 这一天尚未解锁。请先通过之前的日子。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: 第{0}-{1}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: 通过上一家餐厅的第{0}天即可解锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: 困难
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: 超难
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: 该地图将在未来的更新中推出。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 已上菜：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: 试着升级你的餐厅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: 这些是你可以购买的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: 用昨天赚到的金币来升级点什么吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: 现在去厨具升级页面吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: 试着升级这个煎板！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: 烤面包机升级好了，回去开始新的一天吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: 现在开始新的一天吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: 试试这个道具！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: 烹饪时，你有机会进入特殊状态！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: 每成功服务一位顾客，这个进度条就会增长！再服务{0}位顾客试试！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: 每成功上一道菜，这个进度条就会增长！再上{0}道菜试试！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: 太棒了！进入风味爆发状态后，你可以超高效地烹饪。玩得开心！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: 金币不足，无法建造
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: 等级MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: 等级{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0}不足'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: 已达到最高等级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0}次'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: 领取 x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: 该道具将在第{0}天开放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: 启用{0}倍速度，持续{1}分钟？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: 已领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: 已移除广告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: 道具名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: 复活以增加 +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: 自动烹饪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: 自动收集食材并制作一道菜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: 清洁刷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: 清除桌上的一叠脏盘子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: 夹子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: 自由选取一盘食材。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: 需要更多槽位？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: 解锁更多槽位来存放菜品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: 洗牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: 交换食材行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: 2倍速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: 以2倍速度更快地烹饪和上菜！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: 恢复{0}颗爱心？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: 试试打乱食材？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: 把5份食材放进袋子里？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: 补满顾客的等待时间
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: 汉堡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: 咖啡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: 数据冲突
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: 加载中...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: 加载中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: 餐厅升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: 点击继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: 老板要求很高，很容易失去耐心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: 恭喜你拥有了自己的快餐店！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: 开始营业吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: 她想要一个多汁的汉堡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: 点击你想使用的食材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: 点击顾客的订单可切换显示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: 外卖员会在时间耗尽前取走多份订单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: 使用云端
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: 使用本地
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: 你的奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: 清理{0}个格子，继续烹饪？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "玩得开心吗？\n留下评价吧！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: 为游戏评分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: 好吃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: 真香
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: 超好吃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: 爱了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: 再来一份
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: 人间美味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: 绝妙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: 极品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: 顶级料理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: 神级料理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: 通过{1}的{0}即可解锁额外天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: 需要网络连接！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: 广告尚未准备好，请重试！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: 名字至少需要{0}个字符
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: 名字最多只能有{0}个字符
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: 名字只能包含字母、数字、空格和 _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: '{0}后再来吧！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: 请先领取免费奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: 请先领取上一个奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: 确定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: 第{0}天解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: 寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: 太棒了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: 额外一天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: 未解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: 美食商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: 工具已升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0}变得更快了'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0}已达到最高速度！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: 解锁额外天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: 新消息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: 餐厅有新的升级部件可用了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0}新增了额外天数！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: 升级价格已调整，多付的金币已退还给你！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: 给我们评分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: 激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: 活性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: 团队已经存在了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: 团队已满！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: 团队并不空！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: 团队不存在！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: 领导不能离开！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: 未经许可！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: 服务器错误
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: 用户已加入团队！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: 用户最近离开了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: 用户不在团队中！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: 问
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: 阿凡达
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: 红利银行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: 完成营业日即可在银行中积累金币，并在活动结束时取回！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: 激活<color=yellow>梦幻通行证</color>，即可在关卡末尾解锁<color=yellow>奖励金库</color>！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: 无法将您的数据保存到服务器！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: 聊天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: 选择
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: 宣称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: 即将推出！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: 完全的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: 确认
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: 恭喜！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: 继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: 已复制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: 国家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: 创造
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: 创建并领导你的团队！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: 删除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 描述：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: 梦幻通道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: 欢迎来到<color=yellow>梦幻通行证！</color>这是您的第一份奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: 完成每一天并收集<color=yellow>钥匙</color>，即可解锁奖励。点击了解收集方法！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: 激活<color=yellow>梦幻通行证</color>即可获得特殊奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: 解锁此关卡并激活<color=yellow>梦幻通行证</color>即可获得此奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: 梦幻连击
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: 连续完成每一天不失败，获得更多奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: 不失败地完成每一天！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: 提高你的得分倍率！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: 赢取丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: 每次失败都会重置你的倍率！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: 梦幻塔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: 连续完成多天！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: 起来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: 每次失败都会重置检查点进度！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: 编辑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: 编辑名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: 加入排行榜前请选择您的用户名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: 编辑个人资料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: 编辑团队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: 空的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: 结束了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: 请输入文字...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: 请输入描述...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: 请输入队伍名称……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: 结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: 首次尝试即获胜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: 框架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: 自由的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>免费</color> 心形'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: 免费奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: 自由生活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: 一般统计数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: 去
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: 帮助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: 帮助制造
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: 收到的帮助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: 收件箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: 信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: 加入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: 加入团队，赢取免费生命！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: 最后机会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: 领导者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: 排行榜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: 离开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: 离开团队？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: 您需要等待 30 分钟才能创建或加入新团队！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: 等级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: 达到<color=yellow>第{0}天</color>即可解锁每周竞赛！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: 你们的生活充实而美好！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: 加载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: 服务器数据加载完成！请重启游戏以应用新数据！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: 当地的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: 等级{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: 达到 <color=yellow>第{0}天</color> 即可解锁排行榜！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: 达到 <color=yellow>第{0}天</color> 即可加入团队！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: 最大限度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: 你不能要求获得生命。你已经拥有超过10条免费生命！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} 加入了团队！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} 被 {1} 踢出去了！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} 已离开团队！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: 成员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: 我的团队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: 姓名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: 名称长度必须至少为 6 个字符
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: 网络错误！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: 网络错误
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: 新的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: 不
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: 无名氏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: 无贡献
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: 没有球队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: 黄金不够！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: 打开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: 梦幻通行证将让您有机会获得特殊奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: 活动期间您将享有专属奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8条命而不是5条
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: 激活奖励银行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: 金色头像框和金色名字
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: 梦幻通行证已结束！您的奖励已失效。新的梦幻通行证即将开启！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: 完成更多天！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: 收集钥匙！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: 解锁奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: 您可以激活<color=yellow>梦幻通行证</color>，获得额外的专属奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: 全新<color=Yellow>梦幻通行证</color>已开启！完成每一天并解锁<color=Yellow>通行证</color>，领取丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: 梦幻通道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0} 名次奖励！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: 球员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: 私人的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: 轮廓
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: 个人资料已更新！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: 民众
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: 数据保存到服务器已完成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: 重新连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: 刷新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: 移除成员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: 请求生命！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 所需天数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: 完成第{0}天即可提升所需天数上限！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: 重启
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: 节省
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: 分数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: 搜索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: 选择徽章
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: 送你一条命！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: 服务器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: 特别奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: 赛段赛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "你输掉了比赛！\n再试一次，赢取丰厚奖励！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: 恭喜！你赢得了比赛！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: 比其他人更快完成<color=yellow>{0}天</color>即可获胜并晋级下一阶段，赢取更丰厚的奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: 怎么玩？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: 比别人更快完成每一天，冲过终点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: 比其他人更快到达终点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: 晋级下一阶段，赢取更丰厚奖品！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: 赛段赛冠军
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: 阶段 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: 星星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: 开始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: 同步数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: 点击继续！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: 点击打开！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: 点击领取！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: 点击关闭！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: 团队信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 团队徽章：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 加入团队后，您将获得：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: 团队收割
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: 从各个关卡中收集玉米！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: 与你的团队一起实现目标！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: 赢取丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 普通：1 颗玉米 - 困难：3 颗玉米 - 超困难：5 颗玉米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: 和你的团队一起收割玉米，赢取丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 团队名称：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: 团队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 团队得分：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 团队类型：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 完全自由的生命：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 总帮助次数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: 总星级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: 塔最高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: 转会负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: 以下是您尚未领取的奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: 第{0}天解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: 通过第{0}天时解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: 使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: 看法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: 查看个人资料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: 请稍等片刻，服务器正在处理！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: 每周
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: 每周竞赛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: 下次再努力，赢取丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: 完成更多天！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: 率先！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: 世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: 是的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: 排行榜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: 团队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: 升级功能将在下次更新中开放！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: 天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 加入团队后，你可以：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: 获得<color=#7CF73F>免费</color>爱心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: 与好友聊天，一起参加挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: 已完成区域
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: 到达第{0}天即可继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: 天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: 通过{1}的{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: 请先将{0}升级到最终阶段！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0}的升级现已开放！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: '{0}新增了工具升级等级！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: 全部购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: 额外奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: 仅限一次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: 额外促销 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: 通过{1}餐厅的{0}即可解锁！
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

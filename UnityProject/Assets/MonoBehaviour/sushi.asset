@@ -1,0 +1,609 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 977364902, guid: 4585ac8c8e3c1ab8bae02d8730bfab83, type: 3}
+  m_Name: sushi
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  sourceGraphJson: "{\r\n  \"schemaVersion\": 1,\r\n  \"map\": {\r\n    \"id\": \"sushi\",\r\n    \"name\": \"sushi\",\r\n    \"gridWidth\": 5,\r\n    \"gridHeight\": 2,\r\n    \"dirtyStackHeight\": 3,\r\n    \"visibleRows\": 3,\r\n    \"processSpeedMultiplier\": 1.0,\r\n    \"mergeSpeedMultiplier\": 1.0\r\n  },\r\n  \"idTable\": {\r\n    \"ingredient\": [\r\n      \"wasabi\",\r\n      \"teacup-empty\",\r\n      \"water\",\r\n      \"rice\",\r\n      \"fish-salmon\",\r\n      \"fish-tuna\",\r\n      \"fish-roe-orange\",\r\n      \"fish-roe-black\",\r\n      \"fish-roe-green\",\r\n      \"fish-salmon-cut\",\r\n      \"fish-tuna-cut\",\r\n      \"rice-cooked\",\r\n      \"seaweed\",\r\n      \"avocado\",\r\n      \"lemon\",\r\n      \"avocado-cut\",\r\n      \"lemon-cut\",\r\n      \"shrimp-boiled\",\r\n      \"wasabi-flour\",\r\n      \"teacup\",\r\n      \"fish-hirame\",\r\n      \"fish-mackerel\",\r\n      \"fish-hirame-cut\",\r\n      \"fish-mackerel-cut\",\r\n      \"shrimp\",\r\n      \"octopus\",\r\n      \"octopus-boiled\",\r\n      \"tea-leaf\",\r\n      \"shiso-leaf\",\r\n      \"eggroll-cut\",\r\n      \"fish-salmon-cube\",\r\n      \"fish-tuna-cube\",\r\n      \"fish-hirame-cube\",\r\n      \"fish-mackerel-cube\",\r\n      \"shrimp-cube\",\r\n      \"octopus-cube\",\r\n      \"eggroll-cube\",\r\n      \"avocado-cube\",\r\n      \"shrimp-cut\",\r\n      \"octopus-cut\",\r\n      \"eggroll\"\r\n    ],\r\n    \"composite\": [\r\n      \"maki-with-decor\",\r\n      \"gunkan-with-decor\",\r\n      \"nigiri-with-top\",\r\n      \"sashimi-with-decor\",\r\n      \"teacup-with-topping\",\r\n      \"nigiri-with-decor\"\r\n    ],\r\n    \"group\": [\r\n      \"single-fish-roe\",\r\n      \"common-decor\",\r\n      \"sliced-foods\",\r\n      \"cut-fishes\",\r\n      \"gunkan-main\",\r\n      \"cut-food\"\r\n    ],\r\n    \"tool\": [\r\n      \"cutting-board-raw\",\r\n      \"rice-cooker\",\r\n      \"teapot\",\r\n      \"grater\",\r\n      \"cutting-board\",\r\n      \"pot\"\r\n    ],\r\n    \"dirty\": [\r\n      \"dirty-plate\",\r\n      \"dirty-teacup\",\r\n      \"dirty-bowl\"\r\n    ]\r\n  },\r\n  \"vertices\": {\r\n    \"ingredient\": [\r\n      {\r\n        \"name\": \"rice\",\r\n        \"displayName\": \"rice\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍚\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Rice.png\",\r\n        \"pieceIndex\": \"0\"\r\n      },\r\n      {\r\n        \"name\": \"water\",\r\n        \"displayName\": \"water\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"💧\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Water_Filled.png\",\r\n        \"pieceIndex\": \"17\"\r\n      },\r\n      {\r\n        \"name\": \"rice-cooked\",\r\n        \"displayName\": \"rice-cooked\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍚\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_RiceBowl_Cooked.png\",\r\n        \"pieceIndex\": \"0\"\r\n      },\r\n      {\r\n        \"name\": \"teacup-empty\",\r\n        \"displayName\": \"teacup-empty\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🍵\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_TeaCup_1.png\",\r\n        \"pieceIndex\": \"2\"\r\n      },\r\n      {\r\n        \"name\": \"teacup\",\r\n        \"displayName\": \"teacup\",\r\n        \"pickupable\": false,\r\n        \"price\": 10,\r\n        \"emoji\": \"🍵\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_TeaCup_Filled.png\",\r\n        \"pieceIndex\": \"2\"\r\n      },\r\n      {\r\n        \"name\": \"wasabi\",\r\n        \"displayName\": \"wasabi\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🌿\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Wasabi.png\",\r\n        \"pieceIndex\": \"15\"\r\n      },\r\n      {\r\n        \"name\": \"wasabi-flour\",\r\n        \"displayName\": \"wasabi-flour\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"emoji\": \"🟢\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Wasabi.png\",\r\n        \"pieceIndex\": \"15\"\r\n      },\r\n      {\r\n        \"name\": \"fish-salmon-cut\",\r\n        \"displayName\": \"fish-salmon-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Sashimi_Salmon_Cut.png\",\r\n        \"pieceIndex\": \"4\"\r\n      },\r\n      {\r\n        \"name\": \"fish-salmon\",\r\n        \"displayName\": \"fish-salmon\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐟\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Salmon.png\",\r\n        \"pieceIndex\": \"4\"\r\n      },\r\n      {\r\n        \"name\": \"fish-tuna\",\r\n        \"displayName\": \"fish-tuna\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐟\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Tuna.png\",\r\n        \"pieceIndex\": \"3\"\r\n      },\r\n      {\r\n        \"name\": \"fish-tuna-cut\",\r\n        \"displayName\": \"fish-tuna-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Sashimi_Tuna_Cut.png\",\r\n        \"pieceIndex\": \"3\"\r\n      },\r\n      {\r\n        \"name\": \"fish-roe-orange\",\r\n        \"displayName\": \"fish-roe-orange\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟠\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_FishRoe_Orange.png\",\r\n        \"pieceIndex\": \"10\"\r\n      },\r\n      {\r\n        \"name\": \"fish-roe-black\",\r\n        \"displayName\": \"fish-roe-black\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"⚫\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_FishRoe_Black.png\",\r\n        \"pieceIndex\": \"11\"\r\n      },\r\n      {\r\n        \"name\": \"fish-roe-green\",\r\n        \"displayName\": \"fish-roe-green\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🟢\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_FishRoe_Green.png\",\r\n        \"pieceIndex\": \"12\"\r\n      },\r\n      {\r\n        \"name\": \"seaweed\",\r\n        \"displayName\": \"seaweed\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🌿\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Seaweed.png\",\r\n        \"pieceIndex\": \"1\"\r\n      },\r\n      {\r\n        \"name\": \"avocado\",\r\n        \"displayName\": \"avocado\",\r\n        \"pickupable\": true,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥑\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Avocado.png\",\r\n        \"pieceIndex\": \"9\"\r\n      },\r\n      {\r\n        \"name\": \"avocado-cut\",\r\n        \"displayName\": \"avocado-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 5,\r\n        \"emoji\": \"🥑\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Avocado_Sliced.png\",\r\n        \"pieceIndex\": \"9\"\r\n      },\r\n      {\r\n        \"name\": \"lemon\",\r\n        \"displayName\": \"lemon\",\r\n        \"pickupable\": true,\r\n        \"price\": 0,\r\n        \"emoji\": \"🍋\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Lemon.png\",\r\n        \"pieceIndex\": \"16\"\r\n      },\r\n      {\r\n        \"name\": \"lemon-cut\",\r\n        \"displayName\": \"lemon-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 0,\r\n        \"emoji\": \"🍋\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Lemon_Sliced.png\",\r\n        \"pieceIndex\": \"16\"\r\n      },\r\n      {\r\n        \"name\": \"shrimp-boiled\",\r\n        \"displayName\": \"shrimp-boiled\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍤\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Shrimp_Boil.png\",\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"fish-hirame\",\r\n        \"displayName\": \"fish-hirame\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐟\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Hirame.png\",\r\n        \"pieceIndex\": \"5\"\r\n      },\r\n      {\r\n        \"name\": \"fish-mackerel\",\r\n        \"displayName\": \"fish-mackerel\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐟\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Mackerel.png\",\r\n        \"pieceIndex\": \"6\"\r\n      },\r\n      {\r\n        \"name\": \"fish-hirame-cut\",\r\n        \"displayName\": \"fish-hirame-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Sashimi_Hirame_Cut.png\",\r\n        \"pieceIndex\": \"5\"\r\n      },\r\n      {\r\n        \"name\": \"fish-mackerel-cut\",\r\n        \"displayName\": \"fish-mackerel-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Sashimi_Mackerel_Cut.png\",\r\n        \"pieceIndex\": \"6\"\r\n      },\r\n      {\r\n        \"name\": \"octopus-boiled\",\r\n        \"displayName\": \"octopus-boiled\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐙\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Octopus_Boil.png\",\r\n        \"pieceIndex\": \"8\"\r\n      },\r\n      {\r\n        \"name\": \"shrimp-cut\",\r\n        \"displayName\": \"shrimp-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍤\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Nigiri_Shrimp_cut.png\",\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"octopus-cut\",\r\n        \"displayName\": \"octopus-cut\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Sashimi_Octopus_Cut.png\",\r\n        \"pieceIndex\": \"8\"\r\n      },\r\n      {\r\n        \"name\": \"shrimp\",\r\n        \"displayName\": \"shrimp\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🦐\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Shrimp_1.png\",\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"octopus\",\r\n        \"displayName\": \"octopus\",\r\n        \"pickupable\": true,\r\n        \"price\": 15,\r\n        \"emoji\": \"🐙\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Octopus.png\",\r\n        \"pieceIndex\": \"8\"\r\n      },\r\n      {\r\n        \"name\": \"tea-leaf\",\r\n        \"displayName\": \"tea-leaf\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 5,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_TeaLeaf.png\",\r\n        \"pieceIndex\": \"19\"\r\n      },\r\n      {\r\n        \"name\": \"eggroll\",\r\n        \"displayName\": \"eggroll\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Eggroll.png\",\r\n        \"pieceIndex\": \"18\"\r\n      },\r\n      {\r\n        \"name\": \"eggroll-cut\",\r\n        \"displayName\": \"eggroll-cut\",\r\n        \"pickupable\": false,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Egg_Cut.png\",\r\n        \"pieceIndex\": \"18\"\r\n      },\r\n      {\r\n        \"name\": \"eggroll-cube\",\r\n        \"displayName\": \"eggroll-cube\",\r\n        \"pickupable\": false,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 10,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Egg_Cube.png\",\r\n        \"pieceIndex\": \"18\"\r\n      },\r\n      {\r\n        \"name\": \"avocado-cube\",\r\n        \"displayName\": \"avocado-cube\",\r\n        \"pickupable\": false,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 5,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Avocado_Cube.png\",\r\n        \"pieceIndex\": \"9\"\r\n      },\r\n      {\r\n        \"name\": \"shiso-leaf\",\r\n        \"displayName\": \"shiso-leaf\",\r\n        \"pickupable\": true,\r\n        \"multipleUsage\": false,\r\n        \"stackMin\": 1,\r\n        \"stackMax\": 1,\r\n        \"price\": 0,\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_ShisoLeaf.png\",\r\n        \"pieceIndex\": \"13\"\r\n      },\r\n      {\r\n        \"name\": \"fish-salmon-cube\",\r\n        \"displayName\": \"fish-salmon-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Salmon_Cube.png\",\r\n        \"pieceIndex\": \"4\"\r\n      },\r\n      {\r\n        \"name\": \"fish-tuna-cube\",\r\n        \"displayName\": \"fish-tuna-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Tuna_Cube.png\",\r\n        \"pieceIndex\": \"3\"\r\n      },\r\n      {\r\n        \"name\": \"fish-hirame-cube\",\r\n        \"displayName\": \"fish-hirame-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Hirame_Cube.png\",\r\n        \"pieceIndex\": \"5\"\r\n      },\r\n      {\r\n        \"name\": \"fish-mackerel-cube\",\r\n        \"displayName\": \"fish-mackerel-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Mackerel_Cube.png\",\r\n        \"pieceIndex\": \"6\"\r\n      },\r\n      {\r\n        \"name\": \"shrimp-cube\",\r\n        \"displayName\": \"shrimp-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍤\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Shrimp_Cube.png\",\r\n        \"pieceIndex\": \"7\"\r\n      },\r\n      {\r\n        \"name\": \"octopus-cube\",\r\n        \"displayName\": \"octopus-cube\",\r\n        \"pickupable\": false,\r\n        \"price\": 15,\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/ingredients/Icon_Octopus_Cube.png\",\r\n        \"pieceIndex\": \"8\"\r\n      }\r\n    ],\r\n    \"tool\": [\r\n      {\r\n        \"name\": \"cutting-board-raw\",\r\n        \"displayName\": \"cutting-board-raw\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🔪\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_Raw_CuttingBoard.png\"\r\n      },\r\n      {\r\n        \"name\": \"rice-cooker\",\r\n        \"displayName\": \"rice-cooker\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"water\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"name\": \"rice\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🍚\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_Cooker_1.png\"\r\n      },\r\n      {\r\n        \"name\": \"teapot\",\r\n        \"displayName\": \"teapot\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"tea\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"name\": \"cup-slot\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"name\": \"water\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🫖\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_TeaPot_1.png\"\r\n      },\r\n      {\r\n        \"name\": \"grater\",\r\n        \"displayName\": \"grater\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"⚙️\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_Grater.png\"\r\n      },\r\n      {\r\n        \"name\": \"cutting-board\",\r\n        \"displayName\": \"cutting-board\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🔪\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_CuttingBoard.png\"\r\n      },\r\n      {\r\n        \"name\": \"pot\",\r\n        \"displayName\": \"pot\",\r\n        \"slotConfigs\": [\r\n          {\r\n            \"name\": \"Slot\",\r\n            \"slot\": 1\r\n          }\r\n        ],\r\n        \"cookingTime\": 1,\r\n        \"emoji\": \"🍲\",\r\n        \"localImage\": \"Map3-sushi/tools/Icon_Pot_1.png\"\r\n      }\r\n    ],\r\n    \"group\": [\r\n      {\r\n        \"name\": \"single-fish-roe\",\r\n        \"displayName\": \"single-fish-roe\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"common-decor\",\r\n        \"displayName\": \"common-decor\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"name\": \"sliced-foods\",\r\n        \"displayName\": \"sliced-foods\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"cut-fishes\",\r\n        \"displayName\": \"cut-fishes\",\r\n        \"maxQuantity\": 3\r\n      },\r\n      {\r\n        \"name\": \"gunkan-main\",\r\n        \"displayName\": \"gunkan-main\",\r\n        \"minQuantity\": 0,\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"name\": \"cut-food\",\r\n        \"displayName\": \"cut-food\",\r\n        \"minQuantity\": 0,\r\n        \"maxQuantity\": 1\r\n      }\r\n    ],\r\n    \"composite\": [\r\n      {\r\n        \"name\": \"nigiri-with-top\",\r\n        \"displayName\": \"nigiri-with-top\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Nigiri.png\"\r\n      },\r\n      {\r\n        \"name\": \"sashimi-with-decor\",\r\n        \"displayName\": \"sashimi-with-decor\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🐟\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_SashimiBowl.png\"\r\n      },\r\n      {\r\n        \"name\": \"maki-with-decor\",\r\n        \"displayName\": \"maki-with-decor\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Sushi.png\"\r\n      },\r\n      {\r\n        \"name\": \"teacup-with-topping\",\r\n        \"displayName\": \"teacup-with-topping\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍵\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_CupTea.png\"\r\n      },\r\n      {\r\n        \"name\": \"maki\",\r\n        \"displayName\": \"maki\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍣\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Sushi.png\"\r\n      },\r\n      {\r\n        \"name\": \"seaweed-and-rice\",\r\n        \"displayName\": \"seaweed-and-rice\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍚\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Sushi.png\"\r\n      },\r\n      {\r\n        \"name\": \"gunkan-with-decor\",\r\n        \"displayName\": \"gunkan-with-decor\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍙\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Gunkan.png\"\r\n      },\r\n      {\r\n        \"name\": \"nigiri-with-decor\",\r\n        \"displayName\": \"nigiri-with-decor\",\r\n        \"orderable\": true,\r\n        \"toppingRequired\": false,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"emoji\": \"🍱\",\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Nigiri.png\"\r\n      },\r\n      {\r\n        \"name\": \"gunkan\",\r\n        \"displayName\": \"gunkan\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Gunkan.png\"\r\n      },\r\n      {\r\n        \"name\": \"nigiri\",\r\n        \"displayName\": \"nigiri\",\r\n        \"orderable\": false,\r\n        \"toppingRequired\": true,\r\n        \"customerSpaceHeight\": \"Half\",\r\n        \"mergeDuration\": 0.5,\r\n        \"localImage\": \"Map3-sushi/preview/Icon_Nigiri.png\"\r\n      }\r\n    ],\r\n    \"dirty\": [\r\n      {\r\n        \"name\": \"dirty-plate\",\r\n        \"displayName\": \"dirty-plate\",\r\n        \"emoji\": \"🍽️\",\r\n        \"localImage\": \"Map3-sushi/dirty-objects/dirty-plate.png\"\r\n      },\r\n      {\r\n        \"name\": \"dirty-teacup\",\r\n        \"displayName\": \"dirty-teacup\",\r\n        \"emoji\": \"🍵\",\r\n        \"localImage\": \"Map3-sushi/dirty-objects/dirty-teacup.png\"\r\n      },\r\n      {\r\n        \"name\": \"dirty-bowl\",\r\n        \"displayName\": \"dirty-bowl\",\r\n        \"emoji\": \"🥣\",\r\n        \"localImage\": \"Map3-sushi/dirty-objects/dirty-bowl.png\"\r\n      }\r\n    ]\r\n  },\r\n  \"edges\": {\r\n    \"preservation\": [],\r\n    \"process\": [\r\n      {\r\n        \"from\": \"rice-cooker\",\r\n        \"to\": \"rice-cooked\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"rice\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"ingredient\": \"water\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1\r\n      },\r\n      {\r\n        \"from\": \"teapot\",\r\n        \"to\": \"teacup\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"teacup-empty\",\r\n            \"slot\": 1\r\n          },\r\n          {\r\n            \"ingredient\": \"water\",\r\n            \"slot\": 2\r\n          },\r\n          {\r\n            \"ingredient\": \"tea-leaf\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1\r\n      },\r\n      {\r\n        \"from\": \"grater\",\r\n        \"to\": \"wasabi-flour\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"wasabi\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-salmon-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-salmon\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"lemon-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"lemon\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-tuna-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-tuna\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-hirame-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-hirame\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-mackerel-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-mackerel\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"avocado-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"avocado\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"avocado-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"avocado-cut\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"eggroll-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"eggroll\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board\",\r\n        \"to\": \"eggroll-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"eggroll-cut\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"shrimp-boiled\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"shrimp\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"pot\",\r\n        \"to\": \"octopus-boiled\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"octopus\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": true\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"shrimp-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"shrimp-boiled\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"octopus-cut\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"octopus-boiled\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-salmon-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-salmon\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-tuna-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-tuna\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-hirame-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-hirame\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"fish-mackerel-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"fish-mackerel\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"shrimp-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"shrimp-boiled\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      },\r\n      {\r\n        \"from\": \"cutting-board-raw\",\r\n        \"to\": \"octopus-cube\",\r\n        \"inputs\": [\r\n          {\r\n            \"ingredient\": \"octopus-boiled\",\r\n            \"slot\": 0\r\n          }\r\n        ],\r\n        \"amount\": 1,\r\n        \"auto\": false\r\n      }\r\n    ],\r\n    \"base\": [\r\n      {\r\n        \"from\": \"teacup-with-topping\",\r\n        \"to\": \"teacup\"\r\n      },\r\n      {\r\n        \"from\": \"seaweed-and-rice\",\r\n        \"to\": \"seaweed\"\r\n      },\r\n      {\r\n        \"from\": \"maki\",\r\n        \"to\": \"seaweed-and-rice\"\r\n      },\r\n      {\r\n        \"from\": \"maki-with-decor\",\r\n        \"to\": \"maki\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri-with-decor\",\r\n        \"to\": \"nigiri-with-top\"\r\n      },\r\n      {\r\n        \"from\": \"gunkan\",\r\n        \"to\": \"seaweed-and-rice\"\r\n      },\r\n      {\r\n        \"from\": \"gunkan-with-decor\",\r\n        \"to\": \"gunkan\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri-with-top\",\r\n        \"to\": \"nigiri\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri\",\r\n        \"to\": \"rice-cooked\"\r\n      },\r\n      {\r\n        \"from\": \"sashimi-with-decor\",\r\n        \"to\": \"cut-fishes\"\r\n      }\r\n    ],\r\n    \"topping\": [\r\n      {\r\n        \"from\": \"seaweed-and-rice\",\r\n        \"to\": \"rice-cooked\"\r\n      },\r\n      {\r\n        \"from\": \"maki-with-decor\",\r\n        \"to\": \"common-decor\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri-with-decor\",\r\n        \"to\": \"common-decor\"\r\n      },\r\n      {\r\n        \"from\": \"gunkan-with-decor\",\r\n        \"to\": \"common-decor\"\r\n      },\r\n      {\r\n        \"from\": \"sashimi-with-decor\",\r\n        \"to\": \"common-decor\"\r\n      },\r\n      {\r\n        \"from\": \"gunkan\",\r\n        \"to\": \"gunkan-main\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri\",\r\n        \"to\": \"cut-food\"\r\n      },\r\n      {\r\n        \"from\": \"maki\",\r\n        \"to\": \"cut-food\"\r\n      },\r\n      {\r\n        \"from\": \"nigiri-with-top\",\r\n        \"to\": \"single-fish-roe\"\r\n      }\r\n    ],\r\n    \"option\": [\r\n      {\r\n        \"from\": \"single-fish-roe\",\r\n        \"to\": \"fish-roe-orange\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"single-fish-roe\",\r\n        \"to\": \"fish-roe-black\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"single-fish-roe\",\r\n        \"to\": \"fish-roe-green\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"common-decor\",\r\n        \"to\": \"wasabi-flour\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"common-decor\",\r\n        \"to\": \"lemon-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"common-decor\",\r\n        \"to\": \"shiso-leaf\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"fish-salmon-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"fish-tuna-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"fish-hirame-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"fish-mackerel-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"shrimp-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"octopus-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"eggroll-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"sliced-foods\",\r\n        \"to\": \"avocado-cube\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"fish-salmon-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"fish-tuna-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"fish-hirame-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"fish-mackerel-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"shrimp-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"cut-fishes\",\r\n        \"to\": \"octopus-cut\",\r\n        \"maxQuantity\": 1\r\n      },\r\n      {\r\n        \"from\": \"gunkan-main\",\r\n        \"to\": \"sliced-foods\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"cut-food\",\r\n        \"to\": \"avocado-cut\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"cut-food\",\r\n        \"to\": \"eggroll-cut\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"gunkan-main\",\r\n        \"to\": \"single-fish-roe\",\r\n        \"maxQuantity\": -1\r\n      },\r\n      {\r\n        \"from\": \"cut-food\",\r\n        \"to\": \"cut-fishes\",\r\n        \"maxQuantity\": -1\r\n      }\r\n    ],\r\n    \"leavesDirty\": []\r\n  },\r\n  \"layout\": {\r\n    \"table:orderable\": {\r\n      \"x\": 2746.1258192505743,\r\n      \"y\": 395.16368955221895\r\n    },\r\n    \"table:pickupable\": {\r\n      \"x\": -1176.9672160599985,\r\n      \"y\": 556.80233872\r\n    },\r\n    \"tool:rice-cooker\": {\r\n      \"x\": 183.30339596411142,\r\n      \"y\": 211.79677371692054\r\n    },\r\n    \"tool:teapot\": {\r\n      \"x\": 192.21290109427443,\r\n      \"y\": -41.240017393318531\r\n    },\r\n    \"tool:grater\": {\r\n      \"x\": 222.33510172212394,\r\n      \"y\": 2123.9443020292233\r\n    },\r\n    \"ingredient:rice\": {\r\n      \"x\": -115.55731217554717,\r\n      \"y\": 300.36971715661156\r\n    },\r\n    \"ingredient:water\": {\r\n      \"x\": -110.62361229695716,\r\n      \"y\": 206.77504758410234\r\n    },\r\n    \"ingredient:rice-cooked\": {\r\n      \"x\": 467.098505232244,\r\n      \"y\": 242.73092896345554\r\n    },\r\n    \"ingredient:teacup-empty\": {\r\n      \"x\": -99.8058168287848,\r\n      \"y\": 42.437704742880257\r\n    },\r\n    \"ingredient:teacup\": {\r\n      \"x\": 455.13847880254457,\r\n      \"y\": -6.8512514868767838\r\n    },\r\n    \"ingredient:wasabi\": {\r\n      \"x\": -16.092727200349408,\r\n      \"y\": 2151.7345479723267\r\n    },\r\n    \"ingredient:wasabi-flour\": {\r\n      \"x\": 459.86166574461583,\r\n      \"y\": 2161.685268943233\r\n    },\r\n    \"ingredient:fish-salmon\": {\r\n      \"x\": -93.570904871068549,\r\n      \"y\": 1116.3545922463295\r\n    },\r\n    \"ingredient:fish-tuna\": {\r\n      \"x\": -103.4617070635417,\r\n      \"y\": 1177.5026006132439\r\n    },\r\n    \"tool:cutting-board\": {\r\n      \"x\": 235.77368515492174,\r\n      \"y\": 790.29716471825759\r\n    },\r\n    \"ingredient:fish-roe-orange\": {\r\n      \"x\": 461.49953765008013,\r\n      \"y\": 485.8287402468772\r\n    },\r\n    \"ingredient:fish-roe-black\": {\r\n      \"x\": 464.00300765008024,\r\n      \"y\": 543.57872024687674\r\n    },\r\n    \"ingredient:fish-roe-green\": {\r\n      \"x\": 465.85043765008027,\r\n      \"y\": 603.43168024687645\r\n    },\r\n    \"group:single-fish-roe\": {\r\n      \"x\": 707.9555056500792,\r\n      \"y\": 536.07832424687672\r\n    },\r\n    \"ingredient:seaweed\": {\r\n      \"x\": 471.38058579818443,\r\n      \"y\": 156.05412121289066\r\n    },\r\n    \"ingredient:avocado\": {\r\n      \"x\": -21.731779579909421,\r\n      \"y\": 858.93748814639935\r\n    },\r\n    \"ingredient:lemon\": {\r\n      \"x\": -20.314972891507598,\r\n      \"y\": 794.75454426272745\r\n    },\r\n    \"dirty:dirty-plate\": {\r\n      \"x\": 2695.3717416988366,\r\n      \"y\": 1027.807298870709\r\n    },\r\n    \"dirty:dirty-teacup\": {\r\n      \"x\": 2694.175490378002,\r\n      \"y\": 949.58874385979334\r\n    },\r\n    \"dirty:dirty-bowl\": {\r\n      \"x\": 2697.2051558473368,\r\n      \"y\": 1104.2900398325676\r\n    },\r\n    \"composite:teacup-with-topping\": {\r\n      \"x\": 2414.055089176808,\r\n      \"y\": -38.630611400990261\r\n    },\r\n    \"composite:seaweed-and-rice\": {\r\n      \"x\": 797.59085348473639,\r\n      \"y\": 149.22275714311556\r\n    },\r\n    \"ingredient:fish-hirame\": {\r\n      \"x\": -99.016107677227438,\r\n      \"y\": 1234.6079226591787\r\n    },\r\n    \"ingredient:fish-mackerel\": {\r\n      \"x\": -104.83208404496187,\r\n      \"y\": 1306.5917979409217\r\n    },\r\n    \"ingredient:shrimp-boiled\": {\r\n      \"x\": -90.679479049218585,\r\n      \"y\": 1497.9425569051321\r\n    },\r\n    \"ingredient:octopus-boiled\": {\r\n      \"x\": -86.582722631688327,\r\n      \"y\": 1585.8405281049718\r\n    },\r\n    \"ingredient:shrimp\": {\r\n      \"x\": -567.07644548555822,\r\n      \"y\": 1483.2654426397394\r\n    },\r\n    \"ingredient:octopus\": {\r\n      \"x\": -569.27068019630212,\r\n      \"y\": 1562.9008889207307\r\n    },\r\n    \"tool:pot\": {\r\n      \"x\": -326.19437488378077,\r\n      \"y\": 1506.3856368507973\r\n    },\r\n    \"ingredient:tea-leaf\": {\r\n      \"x\": -95.352115438018558,\r\n      \"y\": -46.18978843599897\r\n    },\r\n    \"ingredient:eggroll\": {\r\n      \"x\": -24.528095820029321,\r\n      \"y\": 922.59891352226919\r\n    },\r\n    \"ingredient:eggroll-cut\": {\r\n      \"x\": 490.5103106142688,\r\n      \"y\": 963.22833400335935\r\n    },\r\n    \"ingredient:avocado-cut\": {\r\n      \"x\": 485.65783920295996,\r\n      \"y\": 823.561884344747\r\n    },\r\n    \"ingredient:lemon-cut\": {\r\n      \"x\": 483.9453744117983,\r\n      \"y\": 715.98474036009827\r\n    },\r\n    \"ingredient:shiso-leaf\": {\r\n      \"x\": 460.78995732586333,\r\n      \"y\": 2087.476512994207\r\n    },\r\n    \"composite:nigiri-with-decor\": {\r\n      \"x\": 2414.013125377357,\r\n      \"y\": 492.49645558131726\r\n    },\r\n    \"composite:gunkan-with-decor\": {\r\n      \"x\": 2416.0783850738444,\r\n      \"y\": 653.63514886745259\r\n    },\r\n    \"composite:sashimi-with-decor\": {\r\n      \"x\": 2420.9483315229709,\r\n      \"y\": 798.5714704039259\r\n    },\r\n    \"group:common-decor\": {\r\n      \"x\": 829.76692815141,\r\n      \"y\": 2102.0087892558813\r\n    },\r\n    \"ingredient:fish-salmon-cut\": {\r\n      \"x\": 477.11422473093904,\r\n      \"y\": 1143.3895819532277\r\n    },\r\n    \"ingredient:fish-tuna-cut\": {\r\n      \"x\": 471.47060861523664,\r\n      \"y\": 1215.290832174818\r\n    },\r\n    \"ingredient:fish-hirame-cut\": {\r\n      \"x\": 474.63713499082832,\r\n      \"y\": 1273.4340174479908\r\n    },\r\n    \"ingredient:fish-mackerel-cut\": {\r\n      \"x\": 481.15737466024967,\r\n      \"y\": 1352.2414802579081\r\n    },\r\n    \"ingredient:shrimp-cut\": {\r\n      \"x\": 479.89409351586141,\r\n      \"y\": 1414.1650979180313\r\n    },\r\n    \"ingredient:octopus-cut\": {\r\n      \"x\": 481.27920996965554,\r\n      \"y\": 1484.200169292938\r\n    },\r\n    \"tool:cutting-board-raw\": {\r\n      \"x\": 220.62172092810505,\r\n      \"y\": 1182.7856905214578\r\n    },\r\n    \"composite:gunkan\": {\r\n      \"x\": 1768.2269116877615,\r\n      \"y\": 579.91343288735573\r\n    },\r\n    \"composite:maki\": {\r\n      \"x\": 1719.0626323712625,\r\n      \"y\": 114.26044663503504\r\n    },\r\n    \"composite:maki-with-decor\": {\r\n      \"x\": 2410.9371041763452,\r\n      \"y\": 341.01636488207151\r\n    },\r\n    \"group:sliced-foods\": {\r\n      \"x\": 833.98922379567512,\r\n      \"y\": 1532.4037519491626\r\n    },\r\n    \"group:gunkan-main\": {\r\n      \"x\": 1467.3705117521997,\r\n      \"y\": 926.82493888805129\r\n    },\r\n    \"composite:nigiri-with-top\": {\r\n      \"x\": 1983.395470541205,\r\n      \"y\": 349.63329290704576\r\n    },\r\n    \"composite:nigiri\": {\r\n      \"x\": 1711.7674727606122,\r\n      \"y\": 288.85462539800506\r\n    },\r\n    \"group:cut-fishes\": {\r\n      \"x\": 817.96906983573672,\r\n      \"y\": 1332.5075285730079\r\n    },\r\n    \"group:cut-food\": {\r\n      \"x\": 1067.2399227712192,\r\n      \"y\": 1019.1638007340109\r\n    },\r\n    \"ingredient:fish-salmon-cube\": {\r\n      \"x\": 475.81422473093926,\r\n      \"y\": 1600.1829567227069\r\n    },\r\n    \"ingredient:fish-tuna-cube\": {\r\n      \"x\": 479.76045745821204,\r\n      \"y\": 1675.1875263896904\r\n    },\r\n    \"ingredient:fish-hirame-cube\": {\r\n      \"x\": 467.04292011479555,\r\n      \"y\": 1744.3893893488134\r\n    },\r\n    \"ingredient:fish-mackerel-cube\": {\r\n      \"x\": 473.25737466025,\r\n      \"y\": 1814.0414802579041\r\n    },\r\n    \"ingredient:shrimp-cube\": {\r\n      \"x\": 476.39409351586164,\r\n      \"y\": 1886.9650979180271\r\n    },\r\n    \"ingredient:octopus-cube\": {\r\n      \"x\": 478.21920996965576,\r\n      \"y\": 1954.9101692929339\r\n    },\r\n    \"ingredient:avocado-cube\": {\r\n      \"x\": 489.70009292818531,\r\n      \"y\": 891.78252100473969\r\n    },\r\n    \"ingredient:eggroll-cube\": {\r\n      \"x\": 482.26419548118827,\r\n      \"y\": 1036.5711500099724\r\n    }\r\n  },\r\n  \"notes\": [],\r\n  \"mergeDurationOverrides\": []\r\n}"
+  map:
+    id: sushi
+    name: sushi
+    gridWidth: 5
+    gridHeight: 2
+    dirtyStackHeight: 3
+    visibleRows: 3
+    processSpeedMultiplier: 1
+    mergeSpeedMultiplier: 1
+  idTable:
+    ingredient:
+    - {fileID: 11400000, guid: b2d185b1beaf8054c858bb83ef26d156, type: 2}
+    - {fileID: 11400000, guid: 0bf016cb70adbc84aa7990da14ae2995, type: 2}
+    - {fileID: 11400000, guid: cdb25d2574dce0245b9be4ba2431b124, type: 2}
+    - {fileID: 11400000, guid: a0eeb2de0e34ba24695dc899a81f717c, type: 2}
+    - {fileID: 11400000, guid: 0d28b6a557d5f1142b0e16552763bf11, type: 2}
+    - {fileID: 11400000, guid: f9381c7199d31d643b48b0872929b406, type: 2}
+    - {fileID: 11400000, guid: afffe2b34aa5afe4fa4b91c92a58aaf2, type: 2}
+    - {fileID: 11400000, guid: 4c05ff33e1e80014191b9b45736a7961, type: 2}
+    - {fileID: 11400000, guid: 1c22562184215fb4b9655bbf0b478ae2, type: 2}
+    - {fileID: 11400000, guid: f58eb52a4396c6747b96aa00e31e7acc, type: 2}
+    - {fileID: 11400000, guid: 22184387a71c01c43beb3955bb70debf, type: 2}
+    - {fileID: 11400000, guid: 7e5e2ef719e9de345b0ba8c51e873e70, type: 2}
+    - {fileID: 11400000, guid: c20a3cb5c13b801409fa0c081fb991f1, type: 2}
+    - {fileID: 11400000, guid: 9e9cc6b7d9c238c4286d63a4f65c0700, type: 2}
+    - {fileID: 11400000, guid: 18e92611c7770344a8cf772227ac7124, type: 2}
+    - {fileID: 11400000, guid: 680dd63ce18c0a749b3d58f8f7ce7f59, type: 2}
+    - {fileID: 11400000, guid: 9c449900d5778464e8d3d5639f8aef91, type: 2}
+    - {fileID: 11400000, guid: 9bc3a67d276d54f4cbd2f94b0fdb1ab1, type: 2}
+    - {fileID: 11400000, guid: c3c6cb66dc46976499216baa5af2738c, type: 2}
+    - {fileID: 11400000, guid: a6da4442f3b285842ba716046a0918e0, type: 2}
+    - {fileID: 11400000, guid: b0bb89aedeb6be442891887ff2b93798, type: 2}
+    - {fileID: 11400000, guid: f63680a17618dba4f93c37e1467f193e, type: 2}
+    - {fileID: 11400000, guid: bb0d2caeaefc37842a8259ca73dda574, type: 2}
+    - {fileID: 11400000, guid: 02ac6494c1effa74ab200828a7dd1997, type: 2}
+    - {fileID: 11400000, guid: 53b81b0a20b7b6343b2e3fbc086280e3, type: 2}
+    - {fileID: 11400000, guid: 242eeecbccf704346809aadb0cdb4227, type: 2}
+    - {fileID: 11400000, guid: a91e0aa422a07d246a0bcb695fa5ac49, type: 2}
+    - {fileID: 11400000, guid: 82973a094b3b62c44a72cc14b001489d, type: 2}
+    - {fileID: 11400000, guid: f5260ef4ad4c1784ea5f8d5ef6898e87, type: 2}
+    - {fileID: 11400000, guid: 786d82fec826728439751efbba16dfd3, type: 2}
+    - {fileID: 11400000, guid: b4e8bef19a8d3d8499809c983dc7faba, type: 2}
+    - {fileID: 11400000, guid: db397cda9c74c6a47ad4d38d6409d4a4, type: 2}
+    - {fileID: 11400000, guid: b6ed6d0894fb91f4682607a81e578ae5, type: 2}
+    - {fileID: 11400000, guid: af6e79f7268abd8409d7698b9801509a, type: 2}
+    - {fileID: 11400000, guid: bba3c3e9a3bb73c47a476b24c0742e60, type: 2}
+    - {fileID: 11400000, guid: bfbbc7d688596f84dbcd79c4188859aa, type: 2}
+    - {fileID: 11400000, guid: 6e7e42a72716c90478ff5f7678176d04, type: 2}
+    - {fileID: 11400000, guid: 678a0a04434b1c14a910479a53cbbfe2, type: 2}
+    - {fileID: 11400000, guid: 0e38d0eb24c7a56448e68c9a5398155d, type: 2}
+    - {fileID: 11400000, guid: b1d50b39d0689bd419cb74c046f7bdc6, type: 2}
+    - {fileID: 11400000, guid: e2521eabeba184f4cb36c2bc7b9ffece, type: 2}
+    composite:
+    - {fileID: 11400000, guid: dc827fe5dfc2d9946befc2553f5c6e59, type: 2}
+    - {fileID: 11400000, guid: 465d20ac65188974d908e996cb0a2b55, type: 2}
+    - {fileID: 11400000, guid: 611a7ccde9f61dd48bc587dd152062f7, type: 2}
+    - {fileID: 11400000, guid: 760692c658e848946828d28559d394a7, type: 2}
+    - {fileID: 11400000, guid: f5efbd7b2aacb9c4e9e715796471e922, type: 2}
+    - {fileID: 11400000, guid: 652478ad8537f7e40be0f56745036d2d, type: 2}
+    group:
+    - {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+    - {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+    - {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    - {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    - {fileID: 11400000, guid: a4b3e67378a1a7249a1d83d30bb6509b, type: 2}
+    - {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+    tool:
+    - {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    - {fileID: 11400000, guid: 9111e0f7765e1454798e6330b6ec510c, type: 2}
+    - {fileID: 11400000, guid: 6bb053d6e3f99f044963af0dc47a6cf5, type: 2}
+    - {fileID: 11400000, guid: d2e3fcfc157bffa45a66fd86ae8264fb, type: 2}
+    - {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    - {fileID: 11400000, guid: 28dc205b04459ac4088f53df5001aa06, type: 2}
+    dirty:
+    - {fileID: 11400000, guid: 0841715d9cf58244bba158b3a3eace86, type: 2}
+    - {fileID: 11400000, guid: 287e1639a52457b4b84e9e8e5f00ad87, type: 2}
+    - {fileID: 11400000, guid: 7c1492a8a805f6c49a1c5c65dbc83db3, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: a0eeb2de0e34ba24695dc899a81f717c, type: 2}
+  - {fileID: 11400000, guid: cdb25d2574dce0245b9be4ba2431b124, type: 2}
+  - {fileID: 11400000, guid: 7e5e2ef719e9de345b0ba8c51e873e70, type: 2}
+  - {fileID: 11400000, guid: 0bf016cb70adbc84aa7990da14ae2995, type: 2}
+  - {fileID: 11400000, guid: a6da4442f3b285842ba716046a0918e0, type: 2}
+  - {fileID: 11400000, guid: b2d185b1beaf8054c858bb83ef26d156, type: 2}
+  - {fileID: 11400000, guid: c3c6cb66dc46976499216baa5af2738c, type: 2}
+  - {fileID: 11400000, guid: f58eb52a4396c6747b96aa00e31e7acc, type: 2}
+  - {fileID: 11400000, guid: 0d28b6a557d5f1142b0e16552763bf11, type: 2}
+  - {fileID: 11400000, guid: f9381c7199d31d643b48b0872929b406, type: 2}
+  - {fileID: 11400000, guid: 22184387a71c01c43beb3955bb70debf, type: 2}
+  - {fileID: 11400000, guid: afffe2b34aa5afe4fa4b91c92a58aaf2, type: 2}
+  - {fileID: 11400000, guid: 4c05ff33e1e80014191b9b45736a7961, type: 2}
+  - {fileID: 11400000, guid: 1c22562184215fb4b9655bbf0b478ae2, type: 2}
+  - {fileID: 11400000, guid: c20a3cb5c13b801409fa0c081fb991f1, type: 2}
+  - {fileID: 11400000, guid: 9e9cc6b7d9c238c4286d63a4f65c0700, type: 2}
+  - {fileID: 11400000, guid: 680dd63ce18c0a749b3d58f8f7ce7f59, type: 2}
+  - {fileID: 11400000, guid: 18e92611c7770344a8cf772227ac7124, type: 2}
+  - {fileID: 11400000, guid: 9c449900d5778464e8d3d5639f8aef91, type: 2}
+  - {fileID: 11400000, guid: 9bc3a67d276d54f4cbd2f94b0fdb1ab1, type: 2}
+  - {fileID: 11400000, guid: b0bb89aedeb6be442891887ff2b93798, type: 2}
+  - {fileID: 11400000, guid: f63680a17618dba4f93c37e1467f193e, type: 2}
+  - {fileID: 11400000, guid: bb0d2caeaefc37842a8259ca73dda574, type: 2}
+  - {fileID: 11400000, guid: 02ac6494c1effa74ab200828a7dd1997, type: 2}
+  - {fileID: 11400000, guid: a91e0aa422a07d246a0bcb695fa5ac49, type: 2}
+  - {fileID: 11400000, guid: 0e38d0eb24c7a56448e68c9a5398155d, type: 2}
+  - {fileID: 11400000, guid: b1d50b39d0689bd419cb74c046f7bdc6, type: 2}
+  - {fileID: 11400000, guid: 53b81b0a20b7b6343b2e3fbc086280e3, type: 2}
+  - {fileID: 11400000, guid: 242eeecbccf704346809aadb0cdb4227, type: 2}
+  - {fileID: 11400000, guid: 82973a094b3b62c44a72cc14b001489d, type: 2}
+  - {fileID: 11400000, guid: e2521eabeba184f4cb36c2bc7b9ffece, type: 2}
+  - {fileID: 11400000, guid: 786d82fec826728439751efbba16dfd3, type: 2}
+  - {fileID: 11400000, guid: 6e7e42a72716c90478ff5f7678176d04, type: 2}
+  - {fileID: 11400000, guid: 678a0a04434b1c14a910479a53cbbfe2, type: 2}
+  - {fileID: 11400000, guid: f5260ef4ad4c1784ea5f8d5ef6898e87, type: 2}
+  - {fileID: 11400000, guid: b4e8bef19a8d3d8499809c983dc7faba, type: 2}
+  - {fileID: 11400000, guid: db397cda9c74c6a47ad4d38d6409d4a4, type: 2}
+  - {fileID: 11400000, guid: b6ed6d0894fb91f4682607a81e578ae5, type: 2}
+  - {fileID: 11400000, guid: af6e79f7268abd8409d7698b9801509a, type: 2}
+  - {fileID: 11400000, guid: bba3c3e9a3bb73c47a476b24c0742e60, type: 2}
+  - {fileID: 11400000, guid: bfbbc7d688596f84dbcd79c4188859aa, type: 2}
+  tools:
+  - {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+  - {fileID: 11400000, guid: 9111e0f7765e1454798e6330b6ec510c, type: 2}
+  - {fileID: 11400000, guid: 6bb053d6e3f99f044963af0dc47a6cf5, type: 2}
+  - {fileID: 11400000, guid: d2e3fcfc157bffa45a66fd86ae8264fb, type: 2}
+  - {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+  - {fileID: 11400000, guid: 28dc205b04459ac4088f53df5001aa06, type: 2}
+  groups:
+  - {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+  - {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+  - {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+  - {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+  - {fileID: 11400000, guid: a4b3e67378a1a7249a1d83d30bb6509b, type: 2}
+  - {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+  composites:
+  - {fileID: 11400000, guid: 611a7ccde9f61dd48bc587dd152062f7, type: 2}
+  - {fileID: 11400000, guid: 760692c658e848946828d28559d394a7, type: 2}
+  - {fileID: 11400000, guid: dc827fe5dfc2d9946befc2553f5c6e59, type: 2}
+  - {fileID: 11400000, guid: f5efbd7b2aacb9c4e9e715796471e922, type: 2}
+  - {fileID: 11400000, guid: b12f3ec24da93c343a85e8273b4f5a39, type: 2}
+  - {fileID: 11400000, guid: a353852e452935d47a378b759ac2b04e, type: 2}
+  - {fileID: 11400000, guid: 465d20ac65188974d908e996cb0a2b55, type: 2}
+  - {fileID: 11400000, guid: 652478ad8537f7e40be0f56745036d2d, type: 2}
+  - {fileID: 11400000, guid: 5d64754905b0af944a18168375a0988b, type: 2}
+  - {fileID: 11400000, guid: 54b72c7c8987d454d9ec69ac583a11e5, type: 2}
+  dirtyObjects:
+  - {fileID: 11400000, guid: 0841715d9cf58244bba158b3a3eace86, type: 2}
+  - {fileID: 11400000, guid: 287e1639a52457b4b84e9e8e5f00ad87, type: 2}
+  - {fileID: 11400000, guid: 7c1492a8a805f6c49a1c5c65dbc83db3, type: 2}
+  mergeDurationOverrides: []
+  exclusiveRules: []
+  executionProfile: {fileID: 11400000, guid: 65a9ad9ab9ec7c6408eb939e410c2376, type: 2}
+  runtimeOverrides: {fileID: 0}
+  processEdges:
+  - from: {fileID: 11400000, guid: 9111e0f7765e1454798e6330b6ec510c, type: 2}
+    to: {fileID: 11400000, guid: 7e5e2ef719e9de345b0ba8c51e873e70, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: a0eeb2de0e34ba24695dc899a81f717c, type: 2}
+      slot: 1
+    - ingredient: {fileID: 11400000, guid: cdb25d2574dce0245b9be4ba2431b124, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 6bb053d6e3f99f044963af0dc47a6cf5, type: 2}
+    to: {fileID: 11400000, guid: a6da4442f3b285842ba716046a0918e0, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0bf016cb70adbc84aa7990da14ae2995, type: 2}
+      slot: 1
+    - ingredient: {fileID: 11400000, guid: cdb25d2574dce0245b9be4ba2431b124, type: 2}
+      slot: 2
+    - ingredient: {fileID: 11400000, guid: 82973a094b3b62c44a72cc14b001489d, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: d2e3fcfc157bffa45a66fd86ae8264fb, type: 2}
+    to: {fileID: 11400000, guid: c3c6cb66dc46976499216baa5af2738c, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: b2d185b1beaf8054c858bb83ef26d156, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: f58eb52a4396c6747b96aa00e31e7acc, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0d28b6a557d5f1142b0e16552763bf11, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    to: {fileID: 11400000, guid: 9c449900d5778464e8d3d5639f8aef91, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 18e92611c7770344a8cf772227ac7124, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: 22184387a71c01c43beb3955bb70debf, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f9381c7199d31d643b48b0872929b406, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: bb0d2caeaefc37842a8259ca73dda574, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: b0bb89aedeb6be442891887ff2b93798, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: 02ac6494c1effa74ab200828a7dd1997, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f63680a17618dba4f93c37e1467f193e, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    to: {fileID: 11400000, guid: 680dd63ce18c0a749b3d58f8f7ce7f59, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9e9cc6b7d9c238c4286d63a4f65c0700, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    to: {fileID: 11400000, guid: 678a0a04434b1c14a910479a53cbbfe2, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 680dd63ce18c0a749b3d58f8f7ce7f59, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    to: {fileID: 11400000, guid: 786d82fec826728439751efbba16dfd3, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: e2521eabeba184f4cb36c2bc7b9ffece, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: ba1c9ffb9eaa09149a3a826707e0c427, type: 2}
+    to: {fileID: 11400000, guid: 6e7e42a72716c90478ff5f7678176d04, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 786d82fec826728439751efbba16dfd3, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 28dc205b04459ac4088f53df5001aa06, type: 2}
+    to: {fileID: 11400000, guid: 9bc3a67d276d54f4cbd2f94b0fdb1ab1, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 53b81b0a20b7b6343b2e3fbc086280e3, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: 28dc205b04459ac4088f53df5001aa06, type: 2}
+    to: {fileID: 11400000, guid: a91e0aa422a07d246a0bcb695fa5ac49, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 242eeecbccf704346809aadb0cdb4227, type: 2}
+      slot: 0
+    amount: 1
+    auto: 1
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: 0e38d0eb24c7a56448e68c9a5398155d, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9bc3a67d276d54f4cbd2f94b0fdb1ab1, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: b1d50b39d0689bd419cb74c046f7bdc6, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: a91e0aa422a07d246a0bcb695fa5ac49, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: b4e8bef19a8d3d8499809c983dc7faba, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 0d28b6a557d5f1142b0e16552763bf11, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: db397cda9c74c6a47ad4d38d6409d4a4, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f9381c7199d31d643b48b0872929b406, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: b6ed6d0894fb91f4682607a81e578ae5, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: b0bb89aedeb6be442891887ff2b93798, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: af6e79f7268abd8409d7698b9801509a, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: f63680a17618dba4f93c37e1467f193e, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: bba3c3e9a3bb73c47a476b24c0742e60, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: 9bc3a67d276d54f4cbd2f94b0fdb1ab1, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  - from: {fileID: 11400000, guid: e6a192fdbc0d59049b07a825477f7d51, type: 2}
+    to: {fileID: 11400000, guid: bfbbc7d688596f84dbcd79c4188859aa, type: 2}
+    inputs:
+    - ingredient: {fileID: 11400000, guid: a91e0aa422a07d246a0bcb695fa5ac49, type: 2}
+      slot: 0
+    amount: 1
+    auto: 0
+    entryMode:
+    duration:
+      hasValue: 0
+      value: 0
+    chainTools: []
+  compositeProcesses: []
+  gridAssemblies: []
+  preservationEdges: []
+  baseEdges:
+  - from: {fileID: 11400000, guid: f5efbd7b2aacb9c4e9e715796471e922, type: 2}
+    to: {fileID: 11400000, guid: a6da4442f3b285842ba716046a0918e0, type: 2}
+  - from: {fileID: 11400000, guid: a353852e452935d47a378b759ac2b04e, type: 2}
+    to: {fileID: 11400000, guid: c20a3cb5c13b801409fa0c081fb991f1, type: 2}
+  - from: {fileID: 11400000, guid: b12f3ec24da93c343a85e8273b4f5a39, type: 2}
+    to: {fileID: 11400000, guid: a353852e452935d47a378b759ac2b04e, type: 2}
+  - from: {fileID: 11400000, guid: dc827fe5dfc2d9946befc2553f5c6e59, type: 2}
+    to: {fileID: 11400000, guid: b12f3ec24da93c343a85e8273b4f5a39, type: 2}
+  - from: {fileID: 11400000, guid: 652478ad8537f7e40be0f56745036d2d, type: 2}
+    to: {fileID: 11400000, guid: 611a7ccde9f61dd48bc587dd152062f7, type: 2}
+  - from: {fileID: 11400000, guid: 5d64754905b0af944a18168375a0988b, type: 2}
+    to: {fileID: 11400000, guid: a353852e452935d47a378b759ac2b04e, type: 2}
+  - from: {fileID: 11400000, guid: 465d20ac65188974d908e996cb0a2b55, type: 2}
+    to: {fileID: 11400000, guid: 5d64754905b0af944a18168375a0988b, type: 2}
+  - from: {fileID: 11400000, guid: 611a7ccde9f61dd48bc587dd152062f7, type: 2}
+    to: {fileID: 11400000, guid: 54b72c7c8987d454d9ec69ac583a11e5, type: 2}
+  - from: {fileID: 11400000, guid: 54b72c7c8987d454d9ec69ac583a11e5, type: 2}
+    to: {fileID: 11400000, guid: 7e5e2ef719e9de345b0ba8c51e873e70, type: 2}
+  - from: {fileID: 11400000, guid: 760692c658e848946828d28559d394a7, type: 2}
+    to: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+  toppingEdges:
+  - from: {fileID: 11400000, guid: a353852e452935d47a378b759ac2b04e, type: 2}
+    to: {fileID: 11400000, guid: 7e5e2ef719e9de345b0ba8c51e873e70, type: 2}
+  - from: {fileID: 11400000, guid: dc827fe5dfc2d9946befc2553f5c6e59, type: 2}
+    to: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+  - from: {fileID: 11400000, guid: 652478ad8537f7e40be0f56745036d2d, type: 2}
+    to: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+  - from: {fileID: 11400000, guid: 465d20ac65188974d908e996cb0a2b55, type: 2}
+    to: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+  - from: {fileID: 11400000, guid: 760692c658e848946828d28559d394a7, type: 2}
+    to: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+  - from: {fileID: 11400000, guid: 5d64754905b0af944a18168375a0988b, type: 2}
+    to: {fileID: 11400000, guid: a4b3e67378a1a7249a1d83d30bb6509b, type: 2}
+  - from: {fileID: 11400000, guid: 54b72c7c8987d454d9ec69ac583a11e5, type: 2}
+    to: {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+  - from: {fileID: 11400000, guid: b12f3ec24da93c343a85e8273b4f5a39, type: 2}
+    to: {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+  - from: {fileID: 11400000, guid: 611a7ccde9f61dd48bc587dd152062f7, type: 2}
+    to: {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+  optionEdges:
+  - from: {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+    to: {fileID: 11400000, guid: afffe2b34aa5afe4fa4b91c92a58aaf2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+    to: {fileID: 11400000, guid: 4c05ff33e1e80014191b9b45736a7961, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+    to: {fileID: 11400000, guid: 1c22562184215fb4b9655bbf0b478ae2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+    to: {fileID: 11400000, guid: c3c6cb66dc46976499216baa5af2738c, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+    to: {fileID: 11400000, guid: 9c449900d5778464e8d3d5639f8aef91, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: dc4f8dcb487bd3848ba640963cc97156, type: 2}
+    to: {fileID: 11400000, guid: f5260ef4ad4c1784ea5f8d5ef6898e87, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: b4e8bef19a8d3d8499809c983dc7faba, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: db397cda9c74c6a47ad4d38d6409d4a4, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: b6ed6d0894fb91f4682607a81e578ae5, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: af6e79f7268abd8409d7698b9801509a, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: bba3c3e9a3bb73c47a476b24c0742e60, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: bfbbc7d688596f84dbcd79c4188859aa, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: 6e7e42a72716c90478ff5f7678176d04, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    to: {fileID: 11400000, guid: 678a0a04434b1c14a910479a53cbbfe2, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: f58eb52a4396c6747b96aa00e31e7acc, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: 22184387a71c01c43beb3955bb70debf, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: bb0d2caeaefc37842a8259ca73dda574, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: 02ac6494c1effa74ab200828a7dd1997, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: 0e38d0eb24c7a56448e68c9a5398155d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    to: {fileID: 11400000, guid: b1d50b39d0689bd419cb74c046f7bdc6, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: 1
+  - from: {fileID: 11400000, guid: a4b3e67378a1a7249a1d83d30bb6509b, type: 2}
+    to: {fileID: 11400000, guid: b842140a0a049bf4388945ba8aece319, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+    to: {fileID: 11400000, guid: 680dd63ce18c0a749b3d58f8f7ce7f59, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+    to: {fileID: 11400000, guid: 786d82fec826728439751efbba16dfd3, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: a4b3e67378a1a7249a1d83d30bb6509b, type: 2}
+    to: {fileID: 11400000, guid: 44384c117d7e1cb45b04ff108482d43d, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  - from: {fileID: 11400000, guid: c5e2c84b3938b6343bbdf53dc0e1952a, type: 2}
+    to: {fileID: 11400000, guid: 304ca6af4d4be354abcaede982e2f90b, type: 2}
+    maxQuantity:
+      hasValue: 1
+      value: -1
+  leavesDirtyEdges: []

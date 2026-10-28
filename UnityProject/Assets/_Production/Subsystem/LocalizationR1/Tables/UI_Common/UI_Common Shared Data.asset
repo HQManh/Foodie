@@ -1,0 +1,3020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: UI_Common
+  m_TableCollectionNameGuidString: 65ec899311f44144aa2802728e56a904
+  m_Entries:
+  - m_Id: 57759188901888
+    m_Key: badge_new
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518555
+  - m_Id: 57759214067712
+    m_Key: heart_max
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518556
+  - m_Id: 57759214067713
+    m_Key: time_days_hours
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518557
+  - m_Id: 57759214067714
+    m_Key: time_minutes
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518558
+  - m_Id: 57759214067715
+    m_Key: time_hours_minutes
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518559
+  - m_Id: 57759214067716
+    m_Key: time_hours
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518560
+  - m_Id: 57759214067717
+    m_Key: title_reward
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518561
+  - m_Id: 57759214067718
+    m_Key: title_purchased
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518562
+  - m_Id: 57759214067719
+    m_Key: reward_received
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518563
+  - m_Id: 57759214067720
+    m_Key: btn_claim
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518564
+  - m_Id: 57759214067721
+    m_Key: btn_ok
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518565
+  - m_Id: 57759214067722
+    m_Key: level_up_from_to
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518566
+  - m_Id: 57759214067723
+    m_Key: day_n
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518567
+  - m_Id: 57759214067724
+    m_Key: unlocks_on_day_n
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518568
+  - m_Id: 57759214067725
+    m_Key: coming_soon
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518569
+  - m_Id: 57759214067726
+    m_Key: feature_coming_soon
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518570
+  - m_Id: 57759218262016
+    m_Key: tab_shop
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518571
+  - m_Id: 57759218262017
+    m_Key: tab_home
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518572
+  - m_Id: 57759218262018
+    m_Key: tab_journey
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518573
+  - m_Id: 57759218262019
+    m_Key: tab_pvp
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518574
+  - m_Id: 57759218262020
+    m_Key: tab_achievement
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518575
+  - m_Id: 57759218262021
+    m_Key: toast_map_locked
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518576
+  - m_Id: 57759218262022
+    m_Key: toast_level_locked
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518577
+  - m_Id: 57759218262023
+    m_Key: level_range
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518578
+  - m_Id: 57759218262024
+    m_Key: map_locked_pass_day
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518579
+  - m_Id: 2990464650174464
+    m_Key: level_locked_pass_map_day
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813691
+  - m_Id: 3215172213661696
+    m_Key: extra_day
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543636422
+  - m_Id: 3215172247216128
+    m_Key: extra_day_locked
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543636423
+  - m_Id: 3232415119040512
+    m_Key: btn_unlock_extra_days
+    m_Metadata:
+      m_Items:
+      - rid: 5047050912717603348
+  - m_Id: 57759218262025
+    m_Key: difficulty_hard
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518580
+  - m_Id: 57759218262026
+    m_Key: difficulty_super_hard
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518581
+  - m_Id: 5541756459278336
+    m_Key: upgrade_available_next_update
+    m_Metadata:
+      m_Items:
+      - rid: 5047051027523568227
+  - m_Id: 57759218262027
+    m_Key: map_preview_future_update
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518582
+  - m_Id: 57759218262028
+    m_Key: dish_served_n
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518583
+  - m_Id: 57759218262029
+    m_Key: tut_home_upgrade_restaurant
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518584
+  - m_Id: 57759218262030
+    m_Key: tut_home_items_to_buy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518585
+  - m_Id: 57759218262031
+    m_Key: tut_home_coins_upgrade
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518586
+  - m_Id: 57759218262032
+    m_Key: tut_home_go_tool_tab
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518587
+  - m_Id: 57759218262033
+    m_Key: tut_home_upgrade_griddle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518588
+  - m_Id: 57759218262034
+    m_Key: tut_home_after_upgrade_tool
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518589
+  - m_Id: 57759218262035
+    m_Key: tut_home_start_day
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518590
+  - m_Id: 57759218262036
+    m_Key: tut_try_booster
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518591
+  - m_Id: 57759218262037
+    m_Key: tut_combo_intro
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518592
+  - m_Id: 57759218262038
+    m_Key: tut_combo_serve_customers
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518593
+  - m_Id: 57759222456320
+    m_Key: tut_combo_serve_dishes
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518594
+  - m_Id: 57759222456321
+    m_Key: tut_combo_activated
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518595
+  - m_Id: 57759222456322
+    m_Key: toast_not_enough_coins_build
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518596
+  - m_Id: 57759222456323
+    m_Key: lv_max
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518597
+  - m_Id: 57759222456324
+    m_Key: lv_n
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518598
+  - m_Id: 57759222456325
+    m_Key: toast_not_enough_x
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518599
+  - m_Id: 57759222456326
+    m_Key: toast_already_max_level
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518600
+  - m_Id: 57759222456327
+    m_Key: times_n
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518601
+  - m_Id: 57759222456328
+    m_Key: btn_claim_multiplier
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518602
+  - m_Id: 57759222456329
+    m_Key: toast_booster_unlock_day
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518603
+  - m_Id: 57759222456330
+    m_Key: speed_up_confirm
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518604
+  - m_Id: 57759226650624
+    m_Key: reward_claimed
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518605
+  - m_Id: 57759247622144
+    m_Key: reward_remove_ads_activated
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518606
+  - m_Id: 57760069705728
+    m_Key: popup_booster_base_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518607
+  - m_Id: 57761084727296
+    m_Key: popup_saveme_base_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518608
+  - m_Id: 57761831313408
+    m_Key: popup_speedup_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Key: popup_booster_auto_cook_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518609
+  - m_Id: 57762263326721
+    m_Key: popup_booster_auto_cook_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518610
+  - m_Id: 57762741477376
+    m_Key: popup_booster_clean_dirty_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518611
+  - m_Id: 57762741477377
+    m_Key: popup_booster_clean_dirty_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518612
+  - m_Id: 57763244793856
+    m_Key: popup_booster_ingredient_pick_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518613
+  - m_Id: 57763244793857
+    m_Key: popup_booster_ingredient_pick_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518614
+  - m_Id: 57763660029952
+    m_Key: popup_booster_moreserveslot_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518615
+  - m_Id: 57763660029953
+    m_Key: popup_booster_moreserveslot_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518616
+  - m_Id: 57764142374912
+    m_Key: popup_booster_shift_up_row_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518617
+  - m_Id: 57764142374913
+    m_Key: popup_booster_shift_up_row_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518618
+  - m_Id: 57764616331264
+    m_Key: popup_buyspeedup_title
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518619
+  - m_Id: 57764616331265
+    m_Key: popup_buyspeedup_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518620
+  - m_Id: 57765178368000
+    m_Key: popup_saveme_outofhearts_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518621
+  - m_Id: 57765627158528
+    m_Key: popup_saveme_outofingredient_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518622
+  - m_Id: 57766021423104
+    m_Key: popup_saveme_outofmove_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518623
+  - m_Id: 57766499573760
+    m_Key: popup_saveme_outofserveslots_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518624
+  - m_Id: 57766990307328
+    m_Key: popup_saveme_outofservetime_desc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518625
+  - m_Id: 57808354533376
+    m_Key: Chapter_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518626
+  - m_Id: 57808354533377
+    m_Key: Chapter_coffee
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518627
+  - m_Id: 57808354533378
+    m_Key: data_conflict
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518628
+  - m_Id: 57808354533379
+    m_Key: loading
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518629
+  - m_Id: 57808354533380
+    m_Key: loading_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518630
+  - m_Id: 57808354533381
+    m_Key: restaurant_level_up
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518631
+  - m_Id: 57808354533382
+    m_Key: tap_to_continue
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518632
+  - m_Id: 57808354533383
+    m_Key: tut_boss_0_0
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518633
+  - m_Id: 57808354533384
+    m_Key: tut_first_0_0
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518634
+  - m_Id: 57808354533385
+    m_Key: tut_first_0_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518635
+  - m_Id: 57808354533386
+    m_Key: tut_first_2_0
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518636
+  - m_Id: 57808358727680
+    m_Key: tut_first_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518637
+  - m_Id: 57808358727681
+    m_Key: tut_second_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518638
+  - m_Id: 57808358727682
+    m_Key: tut_shipper_0_0
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518639
+  - m_Id: 57808358727683
+    m_Key: use_cloud
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518640
+  - m_Id: 57808358727684
+    m_Key: use_local
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518641
+  - m_Id: 57808358727685
+    m_Key: your_rewards
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518642
+  - m_Id: 791130227597312
+    m_Key: enjoying_the_game_leave_a_review
+    m_Metadata:
+      m_Items:
+      - rid: 4117827772976990097
+  - m_Id: 791130252763136
+    m_Key: rate_the_game
+    m_Metadata:
+      m_Items:
+      - rid: 4117827772976990098
+  - m_Id: 791130252763137
+    m_Key: combo_nice
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312495
+  - m_Id: 791130252763138
+    m_Key: combo_good
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312496
+  - m_Id: 791130252763139
+    m_Key: combo_great
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312497
+  - m_Id: 791130252763140
+    m_Key: combo_wow
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312498
+  - m_Id: 791130252763141
+    m_Key: combo_amazing
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312499
+  - m_Id: 791130252763142
+    m_Key: combo_perfect
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312500
+  - m_Id: 791130252763143
+    m_Key: combo_beautiful
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312501
+  - m_Id: 791130252763144
+    m_Key: combo_bravo
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312502
+  - m_Id: 791130252763145
+    m_Key: combo_excellent
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312503
+  - m_Id: 791130252763146
+    m_Key: combo_unbelievable
+    m_Metadata:
+      m_Items:
+      - rid: 1196766266338312504
+  - m_Id: 3010538542981120
+    m_Key: ok
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366590
+  - m_Id: 3034555391926272
+    m_Key: toast_require_internet
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635839
+  - m_Id: 3034555412897792
+    m_Key: toast_ad_not_ready
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635840
+  - m_Id: 3034555412897793
+    m_Key: toast_name_too_short
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635841
+  - m_Id: 3034555412897794
+    m_Key: toast_name_too_long
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635842
+  - m_Id: 3034555417092096
+    m_Key: toast_name_illegal_chars
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635843
+  - m_Id: 3034555417092097
+    m_Key: toast_come_back_in
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635844
+  - m_Id: 3034555417092098
+    m_Key: toast_claim_free_first
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635845
+  - m_Id: 3034555417092099
+    m_Key: toast_claim_previous_first
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635846
+  - m_Id: 3034655686123520
+    m_Key: Chapter_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635847
+  - m_Id: 3034886662250496
+    m_Key: unlock_level_n
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543636055
+  - m_Id: 3035441900019712
+    m_Key: awesome
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543636263
+  - m_Id: 3223690643759104
+    m_Key: shop_title
+    m_Metadata:
+      m_Items:
+      - rid: 5047050912717603297
+  - m_Id: 3229043783622656
+    m_Key: title_tool_upgraded
+    m_Metadata:
+      m_Items:
+      - rid: 5047050912717603327
+  - m_Id: 3229043821371392
+    m_Key: tool_now_faster
+    m_Metadata:
+      m_Items:
+      - rid: 5047050912717603328
+  - m_Id: 3229043821371393
+    m_Key: tool_now_max_speed
+    m_Metadata:
+      m_Items:
+      - rid: 5047050912717603329
+  - m_Id: 3257663805710336
+    m_Key: new_version_title
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706489472
+  - m_Id: 3257663847653376
+    m_Key: nv_1_3_new_parts
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706489474
+  - m_Id: 3257663847653377
+    m_Key: nv_1_3_extra_levels
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706489475
+  - m_Id: 3257663847653378
+    m_Key: nv_1_3_refund
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706489476
+  - m_Id: 3313060306477056
+    m_Key: rate_us
+    m_Metadata:
+      m_Items:
+      - rid: 5047050914706490049
+  - m_Id: 5326573421977600
+    m_Key: r1plugin_Activate
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087498
+  - m_Id: 5326573547806720
+    m_Key: r1plugin_Activated
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087499
+  - m_Id: 5326573547806721
+    m_Key: r1plugin_api_clan_existed
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087500
+  - m_Id: 5326573547806722
+    m_Key: r1plugin_api_clan_is_full
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087501
+  - m_Id: 5326573552001024
+    m_Key: r1plugin_api_clan_not_empty
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087502
+  - m_Id: 5326573552001025
+    m_Key: r1plugin_api_clan_not_exist
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087503
+  - m_Id: 5326573552001026
+    m_Key: r1plugin_api_leader_cannot_leave
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087504
+  - m_Id: 5326573552001027
+    m_Key: r1plugin_api_not_permission
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087505
+  - m_Id: 5326573556195328
+    m_Key: r1plugin_api_server_error
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087506
+  - m_Id: 5326573556195329
+    m_Key: r1plugin_api_user_had_joined_clan
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087507
+  - m_Id: 5326573556195330
+    m_Key: r1plugin_api_user_had_left_recently
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087508
+  - m_Id: 5326573556195331
+    m_Key: r1plugin_api_user_not_joined_clan
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087509
+  - m_Id: 5326573556195332
+    m_Key: r1plugin_ASK
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087510
+  - m_Id: 5326573556195333
+    m_Key: r1plugin_Avatar
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087511
+  - m_Id: 5326573560389632
+    m_Key: r1plugin_BonusBank
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087512
+  - m_Id: 5326573560389633
+    m_Key: r1plugin_BonusBankActivated
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087513
+  - m_Id: 5326573560389634
+    m_Key: r1plugin_BonusBankLock
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087514
+  - m_Id: 5326573560389635
+    m_Key: r1plugin_cannot_save_data_to_server
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087515
+  - m_Id: 5326573560389636
+    m_Key: r1plugin_Chat
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087516
+  - m_Id: 5326573564583936
+    m_Key: r1plugin_Choose
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087517
+  - m_Id: 5326573564583937
+    m_Key: r1plugin_Claim
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087518
+  - m_Id: 5326573564583938
+    m_Key: r1plugin_ComingSoon
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087519
+  - m_Id: 5326573564583939
+    m_Key: r1plugin_completed
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087520
+  - m_Id: 5326573564583940
+    m_Key: r1plugin_Confirm
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087521
+  - m_Id: 5326573564583941
+    m_Key: r1plugin_Congratulations
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087522
+  - m_Id: 5326573568778240
+    m_Key: r1plugin_Continue
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087523
+  - m_Id: 5326573568778241
+    m_Key: r1plugin_Copied
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087524
+  - m_Id: 5326573568778242
+    m_Key: r1plugin_Country
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087525
+  - m_Id: 5326573568778243
+    m_Key: r1plugin_Create
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087526
+  - m_Id: 5326573568778244
+    m_Key: r1plugin_CreateTeamDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087527
+  - m_Id: 5326573568778245
+    m_Key: r1plugin_Delete
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087528
+  - m_Id: 5326573572972544
+    m_Key: r1plugin_Description
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087529
+  - m_Id: 5326573572972545
+    m_Key: r1plugin_dreamy_pass
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087530
+  - m_Id: 5326573572972546
+    m_Key: r1plugin_dreamy_pass_intro_1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087531
+  - m_Id: 5326573572972547
+    m_Key: r1plugin_dreamy_pass_intro_2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087532
+  - m_Id: 5326573572972548
+    m_Key: r1plugin_dreamy_pass_intro_3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087533
+  - m_Id: 5326573572972549
+    m_Key: r1plugin_dreamy_pass_unlock_stage
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087534
+  - m_Id: 5326573572972550
+    m_Key: r1plugin_DreamyStreak
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087535
+  - m_Id: 5326573572972551
+    m_Key: r1plugin_DreamyStreakDes
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087536
+  - m_Id: 5326573572972552
+    m_Key: r1plugin_DreamyStreakInfo1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087537
+  - m_Id: 5326573572972553
+    m_Key: r1plugin_DreamyStreakInfo2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087538
+  - m_Id: 5326573577166848
+    m_Key: r1plugin_DreamyStreakInfo3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087539
+  - m_Id: 5326573577166849
+    m_Key: r1plugin_DreamyStreakInfo4
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087540
+  - m_Id: 5326573581361152
+    m_Key: r1plugin_DreamyTower
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087541
+  - m_Id: 5326573581361153
+    m_Key: r1plugin_DreamyTower_Info1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087542
+  - m_Id: 5326573581361154
+    m_Key: r1plugin_DreamyTower_Info2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087543
+  - m_Id: 5326573581361155
+    m_Key: r1plugin_DreamyTower_Info4
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087544
+  - m_Id: 5326573581361156
+    m_Key: r1plugin_Edit
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087545
+  - m_Id: 5326573581361157
+    m_Key: r1plugin_EditName
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087546
+  - m_Id: 5326573585555456
+    m_Key: r1plugin_EditNameDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087547
+  - m_Id: 5326573585555457
+    m_Key: r1plugin_EditProfile
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087548
+  - m_Id: 5326573585555458
+    m_Key: r1plugin_EditTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087549
+  - m_Id: 5326573585555459
+    m_Key: r1plugin_Empty!
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087550
+  - m_Id: 5326573585555460
+    m_Key: r1plugin_Ended
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087551
+  - m_Id: 5326573585555461
+    m_Key: r1plugin_enter_text
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087552
+  - m_Id: 5326573585555462
+    m_Key: r1plugin_EnterDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087553
+  - m_Id: 5326573589749760
+    m_Key: r1plugin_EnterTeamName
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087554
+  - m_Id: 5326573589749761
+    m_Key: r1plugin_Finish
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087555
+  - m_Id: 5326573589749762
+    m_Key: r1plugin_FirstTryWin
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087556
+  - m_Id: 5326573589749763
+    m_Key: r1plugin_Frame
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087557
+  - m_Id: 5326573589749764
+    m_Key: r1plugin_Free
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087558
+  - m_Id: 5326573589749765
+    m_Key: r1plugin_free_heart
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087559
+  - m_Id: 5326573593944064
+    m_Key: r1plugin_free_reward
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087560
+  - m_Id: 5326573593944065
+    m_Key: r1plugin_FreeLives
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087561
+  - m_Id: 5326573593944066
+    m_Key: r1plugin_GeneralStats
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087562
+  - m_Id: 5326573593944067
+    m_Key: r1plugin_Go
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087563
+  - m_Id: 5326573593944068
+    m_Key: r1plugin_Help
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087564
+  - m_Id: 5326573593944069
+    m_Key: r1plugin_HelpsMade
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087565
+  - m_Id: 5326573598138368
+    m_Key: r1plugin_HelpsReceived
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087566
+  - m_Id: 5326573598138369
+    m_Key: r1plugin_Inbox
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087567
+  - m_Id: 5326573598138370
+    m_Key: r1plugin_Info
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087568
+  - m_Id: 5326573598138371
+    m_Key: r1plugin_Join
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087569
+  - m_Id: 5326573598138372
+    m_Key: r1plugin_join_a_team_go_get_free_lives
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087570
+  - m_Id: 5326573602332672
+    m_Key: r1plugin_LastChance
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087571
+  - m_Id: 5326573602332673
+    m_Key: r1plugin_Leader
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087572
+  - m_Id: 5326573602332674
+    m_Key: r1plugin_Leaderboard
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087573
+  - m_Id: 5326573602332675
+    m_Key: r1plugin_Leave
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087574
+  - m_Id: 5326573602332676
+    m_Key: r1plugin_leave_team
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087575
+  - m_Id: 5326573602332677
+    m_Key: r1plugin_LeaveTeamWarning
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087576
+  - m_Id: 5326573606526976
+    m_Key: r1plugin_Level
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087577
+  - m_Id: 5326573606526977
+    m_Key: r1plugin_LevelUnlockWeeklyContest
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087578
+  - m_Id: 5326573606526978
+    m_Key: r1plugin_LivesAreaFull
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087579
+  - m_Id: 5326573606526979
+    m_Key: r1plugin_Load
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087580
+  - m_Id: 5326573606526980
+    m_Key: r1plugin_load_data_from_server_completed
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087581
+  - m_Id: 5326573606526981
+    m_Key: r1plugin_Local
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087582
+  - m_Id: 5326573606526982
+    m_Key: r1plugin_lv
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087583
+  - m_Id: 5326573610721280
+    m_Key: r1plugin_LvUnlockRank
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087584
+  - m_Id: 5326573610721281
+    m_Key: r1plugin_LvUnlockTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087585
+  - m_Id: 5326573610721282
+    m_Key: r1plugin_MAX
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087586
+  - m_Id: 5326573610721283
+    m_Key: r1plugin_MaxLifeHelpStack
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087587
+  - m_Id: 5326573610721284
+    m_Key: r1plugin_MemberJoinTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087588
+  - m_Id: 5326573610721285
+    m_Key: r1plugin_MemberKickedOut
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087589
+  - m_Id: 5326573610721286
+    m_Key: r1plugin_MemberLeftTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087590
+  - m_Id: 5326573614915584
+    m_Key: r1plugin_Members
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087591
+  - m_Id: 5326573614915585
+    m_Key: r1plugin_MyTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087592
+  - m_Id: 5326573614915586
+    m_Key: r1plugin_Name
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087593
+  - m_Id: 5326573614915587
+    m_Key: r1plugin_NameMinLen
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087594
+  - m_Id: 5326573614915588
+    m_Key: r1plugin_NetworkError
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087595
+  - m_Id: 5326573619109888
+    m_Key: r1plugin_NetworkErrorTitle
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087596
+  - m_Id: 5326573619109889
+    m_Key: r1plugin_NEW
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087597
+  - m_Id: 5326573623304192
+    m_Key: r1plugin_No
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087598
+  - m_Id: 5326573623304193
+    m_Key: r1plugin_no_name
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087599
+  - m_Id: 5326573623304194
+    m_Key: r1plugin_NoContribution
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087600
+  - m_Id: 5326573623304195
+    m_Key: r1plugin_NoTeam
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087601
+  - m_Id: 5326573627498496
+    m_Key: r1plugin_NotEnoughGold
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087602
+  - m_Id: 5326573627498497
+    m_Key: r1plugin_Open
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087603
+  - m_Id: 5326573627498498
+    m_Key: r1plugin_PackingPassActivate1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087604
+  - m_Id: 5326573627498499
+    m_Key: r1plugin_PackingPassActivate2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087605
+  - m_Id: 5326573627498500
+    m_Key: r1plugin_PackingPassActivate3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087606
+  - m_Id: 5326573627498501
+    m_Key: r1plugin_PackingPassActivate4
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087607
+  - m_Id: 5326573631692800
+    m_Key: r1plugin_PackingPassActivate5
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087608
+  - m_Id: 5326573631692801
+    m_Key: r1plugin_PackingPassFinishDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087609
+  - m_Id: 5326573631692802
+    m_Key: r1plugin_PackingPassInfo1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087610
+  - m_Id: 5326573631692803
+    m_Key: r1plugin_PackingPassInfo2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087611
+  - m_Id: 5326573631692804
+    m_Key: r1plugin_PackingPassInfo3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087612
+  - m_Id: 5326573631692805
+    m_Key: r1plugin_PackingPassInfo4
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087613
+  - m_Id: 5326573631692806
+    m_Key: r1plugin_PackingPassStartDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087614
+  - m_Id: 5326573631692807
+    m_Key: r1plugin_PackingPassTitle
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087615
+  - m_Id: 5326573631692808
+    m_Key: r1plugin_PlaceReward
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087616
+  - m_Id: 5326573635887104
+    m_Key: r1plugin_Players
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087617
+  - m_Id: 5326573635887105
+    m_Key: r1plugin_Private
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087618
+  - m_Id: 5326573635887106
+    m_Key: r1plugin_Profile
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087619
+  - m_Id: 5326573635887107
+    m_Key: r1plugin_ProfileUpdated
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087620
+  - m_Id: 5326573635887108
+    m_Key: r1plugin_Public
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087621
+  - m_Id: 5326573635887109
+    m_Key: r1plugin_PushDataOk
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087622
+  - m_Id: 5326573635887110
+    m_Key: r1plugin_Reconnect
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087623
+  - m_Id: 5326573635887111
+    m_Key: r1plugin_Refresh
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087624
+  - m_Id: 5326573635887112
+    m_Key: r1plugin_RemoveMember
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087625
+  - m_Id: 5326573635887113
+    m_Key: r1plugin_RequestingLife
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087626
+  - m_Id: 5326573635887114
+    m_Key: r1plugin_RequiredLevel
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087627
+  - m_Id: 5326573640081408
+    m_Key: r1plugin_RequiredLevelLimitWarning
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087628
+  - m_Id: 5326573640081409
+    m_Key: r1plugin_Restart
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087629
+  - m_Id: 5326573640081410
+    m_Key: r1plugin_Save
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087630
+  - m_Id: 5326573640081411
+    m_Key: r1plugin_Score
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087631
+  - m_Id: 5326573640081412
+    m_Key: r1plugin_Search
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087632
+  - m_Id: 5326573640081413
+    m_Key: r1plugin_SelectFlag
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087633
+  - m_Id: 5326573640081414
+    m_Key: r1plugin_SendYouALife
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087634
+  - m_Id: 5326573640081415
+    m_Key: r1plugin_Server
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087635
+  - m_Id: 5326573640081416
+    m_Key: r1plugin_SpecialRewards
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087636
+  - m_Id: 5326573640081417
+    m_Key: r1plugin_StageRace
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087637
+  - m_Id: 5326573640081418
+    m_Key: r1plugin_StageRaceDescLose
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087638
+  - m_Id: 5326573644275712
+    m_Key: r1plugin_StageRaceDescWin
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087639
+  - m_Id: 5326573644275713
+    m_Key: r1plugin_StageRaceDescX
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087640
+  - m_Id: 5326573644275714
+    m_Key: r1plugin_StageRaceInfo1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087641
+  - m_Id: 5326573644275715
+    m_Key: r1plugin_StageRaceInfo2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087642
+  - m_Id: 5326573644275716
+    m_Key: r1plugin_StageRaceInfo3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087643
+  - m_Id: 5326573644275717
+    m_Key: r1plugin_StageRaceInfo5
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087644
+  - m_Id: 5326573644275718
+    m_Key: r1plugin_StageRaceWin
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087645
+  - m_Id: 5326573648470016
+    m_Key: r1plugin_StageX
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087646
+  - m_Id: 5326573648470017
+    m_Key: r1plugin_Star
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087647
+  - m_Id: 5326573648470018
+    m_Key: r1plugin_Start
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087648
+  - m_Id: 5326573648470019
+    m_Key: r1plugin_SyncData
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087649
+  - m_Id: 5326573648470020
+    m_Key: r1plugin_TapContinue
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087650
+  - m_Id: 5326573648470021
+    m_Key: r1plugin_TapOpen
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087651
+  - m_Id: 5326573648470022
+    m_Key: r1plugin_TapToClaim
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087652
+  - m_Id: 5326573648470023
+    m_Key: r1plugin_TapToClose
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087653
+  - m_Id: 5326573648470024
+    m_Key: r1plugin_team_information
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087654
+  - m_Id: 5326573648470025
+    m_Key: r1plugin_TeamBadge
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087655
+  - m_Id: 5326573652664320
+    m_Key: r1plugin_TeamDesc0
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087656
+  - m_Id: 5326573652664321
+    m_Key: r1plugin_TeamHarvest
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087657
+  - m_Id: 5326573652664322
+    m_Key: r1plugin_TeamHarvestInfo1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087658
+  - m_Id: 5326573652664323
+    m_Key: r1plugin_TeamHarvestInfo2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087659
+  - m_Id: 5326573652664324
+    m_Key: r1plugin_TeamHarvestInfo3
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087660
+  - m_Id: 5326573652664325
+    m_Key: r1plugin_TeamHarvestInfo4
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087661
+  - m_Id: 5326573652664326
+    m_Key: r1plugin_TeamHarvestStart
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087662
+  - m_Id: 5326573652664327
+    m_Key: r1plugin_TeamName
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087663
+  - m_Id: 5326573652664328
+    m_Key: r1plugin_Teams
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087664
+  - m_Id: 5326573652664329
+    m_Key: r1plugin_TeamScore
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087665
+  - m_Id: 5326573656858624
+    m_Key: r1plugin_TeamType
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087666
+  - m_Id: 5326573656858625
+    m_Key: r1plugin_TotalFreeLives
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087667
+  - m_Id: 5326573656858626
+    m_Key: r1plugin_TotalHelp
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087668
+  - m_Id: 5326573656858627
+    m_Key: r1plugin_TotalStars
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087669
+  - m_Id: 5326573661052928
+    m_Key: r1plugin_TowerHighest
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087670
+  - m_Id: 5326573661052929
+    m_Key: r1plugin_TransferLeader
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087671
+  - m_Id: 5326573661052930
+    m_Key: r1plugin_UnclaimedRewardDesc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087672
+  - m_Id: 5326573661052931
+    m_Key: r1plugin_UnlockAtLevel
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087673
+  - m_Id: 5326573661052932
+    m_Key: r1plugin_UnlockWhenPassLevel
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087674
+  - m_Id: 5326573661052933
+    m_Key: r1plugin_Use
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087675
+  - m_Id: 5326573661052934
+    m_Key: r1plugin_View
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087676
+  - m_Id: 5326573661052935
+    m_Key: r1plugin_ViewProfile
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087677
+  - m_Id: 5326573661052936
+    m_Key: r1plugin_WaitServerProcess
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087678
+  - m_Id: 5326573661052937
+    m_Key: r1plugin_Weekly
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087679
+  - m_Id: 5326573661052938
+    m_Key: r1plugin_WeeklyContest
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087680
+  - m_Id: 5326573665247232
+    m_Key: r1plugin_WeeklyContestFinish
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087681
+  - m_Id: 5326573665247233
+    m_Key: r1plugin_WeeklyContestInfo1
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087682
+  - m_Id: 5326573665247234
+    m_Key: r1plugin_WeeklyContestInfo2
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087683
+  - m_Id: 5326573665247235
+    m_Key: r1plugin_World
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087684
+  - m_Id: 5326573665247236
+    m_Key: r1plugin_Yes
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087685
+  - m_Id: 5341621762646016
+    m_Key: tab_rank
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087721
+  - m_Id: 5341621796200448
+    m_Key: tab_team
+    m_Metadata:
+      m_Items:
+      - rid: 1315317362053087722
+  - m_Id: 5763998799618048
+    m_Key: r1plugin_Day
+    m_Metadata:
+      m_Items:
+      - rid: 1315317384363639316
+  - m_Id: 5763998824783872
+    m_Key: r1plugin_team_lock_desc
+    m_Metadata:
+      m_Items:
+      - rid: 1315317384363639317
+  - m_Id: 5763998824783873
+    m_Key: r1plugin_team_lock_free_heart
+    m_Metadata:
+      m_Items:
+      - rid: 1315317384363639318
+  - m_Id: 5763998824783874
+    m_Key: r1plugin_team_lock_chat
+    m_Metadata:
+      m_Items:
+      - rid: 1315317384363639319
+  - m_Id: 5810606518034432
+    m_Key: r1plugin_AreaCompleted
+    m_Metadata:
+      m_Items:
+      - rid: 1315317384363639580
+  - m_Id: 5861410784403456
+    m_Key: toast_unlock_level_n_to_continue
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642290
+  - m_Id: 5861410801180672
+    m_Key: journey_day
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642291
+  - m_Id: 6955239243505664
+    m_Key: unlock_pass_day_of_map
+    m_Metadata:
+      m_Items:
+      - rid: 5047051145359130785
+  - m_Id: 8072005344550912
+    m_Key: upgrade_locked_prev_map
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150476
+  - m_Id: 8072005365522432
+    m_Key: nv_upgrades_open
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150477
+  - m_Id: 8072005365522433
+    m_Key: nv_new_tool_levels
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150478
+  - m_Id: 8065948018794496
+    m_Key: r1plugin_BUYALL
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150591
+  - m_Id: 8065948035571712
+    m_Key: r1plugin_ExtraBonus
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150592
+  - m_Id: 8065948035571713
+    m_Key: r1plugin_1-TimeOnly
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150593
+  - m_Id: 8065948035571714
+    m_Key: r1plugin_ExtraSale
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150594
+  - m_Id: 8072005365522434
+    m_Key: r1plugin_AvatarUnlockPassDayOfMap
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150595
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819858996
+  references:
+    version: 2
+    RefIds:
+    - rid: 1196766266338312495
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312496
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312497
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312498
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312499
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312500
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312501
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312502
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312503
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1196766266338312504
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: VFXComboControl.cs:32'
+    - rid: 1315317362053087498
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Activate): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab ; EventLoop/DreamyPass/Scripts/UIElement/DreamyPassPackUICtrl.cs'
+    - rid: 1315317362053087499
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Activated): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087500
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_clan_existed): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087501
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_clan_is_full): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087502
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_clan_not_empty): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087503
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_clan_not_exist): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087504
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_leader_cannot_leave): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087505
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_not_permission): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087506
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_server_error): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087507
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_user_had_joined_clan): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087508
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_user_had_left_recently): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087509
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key api_user_not_joined_clan): MainFeature/Team/Scripts/TeamManager.cs'
+    - rid: 1315317362053087510
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key ASK): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087511
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Avatar): MainFeature/Profile/SOPrefabs/Popup/PopupProfileEdit.prefab'
+    - rid: 1315317362053087512
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key BonusBank): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_BonusBank.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087513
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key BonusBankActivated): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087514
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key BonusBankLock): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087515
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key cannot_save_data_to_server): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataFailed.prefab'
+    - rid: 1315317362053087516
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Chat): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087517
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Choose): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087518
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Claim): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_FirstOpen.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab ; EventLoop/DreamyPass/SOPrefabs/UIElement/DreamyPass_LevelUI.prefab'
+    - rid: 1315317362053087519
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key ComingSoon): MainFeature/Profile/Scripts/UIElement/FrameItemUICtrl.cs ; MainFeature/Profile/Scripts/UIElement/NameFxItemUICtrl.cs'
+    - rid: 1315317362053087520
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key completed): MainFeature/SaveGame/SOPrefabs/Popup/PopupRestartRequired.prefab ; MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataCompleted.prefab'
+    - rid: 1315317362053087521
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Confirm): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataCompleted.prefab ; MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataFailed.prefab'
+    - rid: 1315317362053087522
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Congratulations): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Finish.prefab ; EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Finish.prefab'
+    - rid: 1315317362053087523
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Continue): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Start.prefab ; EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Running.prefab'
+    - rid: 1315317362053087524
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Copied): MainFeature/Profile/Scripts/Popup/PopupProfilePreviewCtrl.cs'
+    - rid: 1315317362053087525
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Country): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Player.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Team.prefab'
+    - rid: 1315317362053087526
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Create): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_ListTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087527
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key CreateTeamDesc): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087528
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Delete): MainFeature/Inbox/SOPrefabs/Popup/Popup_Inbox_Detail.prefab'
+    - rid: 1315317362053087529
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Description): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087530
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key dreamy_pass): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Start.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_UnclaimedReward.prefab'
+    - rid: 1315317362053087531
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key dreamy_pass_intro_1): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_FirstOpen.prefab'
+    - rid: 1315317362053087532
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key dreamy_pass_intro_2): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_FirstOpen.prefab'
+    - rid: 1315317362053087533
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key dreamy_pass_intro_3): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_FirstOpen.prefab'
+    - rid: 1315317362053087534
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key dreamy_pass_unlock_stage): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087535
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreak): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak.prefab ; EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak_Info.prefab'
+    - rid: 1315317362053087536
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreakDes): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak.prefab'
+    - rid: 1315317362053087537
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreakInfo1): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak_Info.prefab'
+    - rid: 1315317362053087538
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreakInfo2): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak_Info.prefab'
+    - rid: 1315317362053087539
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreakInfo3): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak_Info.prefab ; EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower_Info.prefab ; EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab'
+    - rid: 1315317362053087540
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyStreakInfo4): EventLoop/DreamyStreak/SOPrefabs/Popup/Popup_WinStreak_Info.prefab'
+    - rid: 1315317362053087541
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyTower): EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower.prefab ; EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower_Info.prefab'
+    - rid: 1315317362053087542
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyTower_Info1): EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower_Info.prefab'
+    - rid: 1315317362053087543
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyTower_Info2): EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower_Info.prefab'
+    - rid: 1315317362053087544
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key DreamyTower_Info4): EventLoop/DreamyTower/SOPrefabs/Popup/Popup_DreamyTower_Info.prefab'
+    - rid: 1315317362053087545
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Edit): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087546
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EditName): MainFeature/Profile/SOPrefabs/Popup/PopupEditUserName.prefab'
+    - rid: 1315317362053087547
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EditNameDesc): MainFeature/Profile/SOPrefabs/Popup/PopupEditUserName.prefab'
+    - rid: 1315317362053087548
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EditProfile): MainFeature/Profile/SOPrefabs/Popup/PopupProfileEdit.prefab'
+    - rid: 1315317362053087549
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EditTeam): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab'
+    - rid: 1315317362053087550
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Empty!): MainFeature/Inbox/SOPrefabs/Popup/Popup_Inbox.prefab'
+    - rid: 1315317362053087551
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Ended): EventLoop/DreamyPass/Scripts/Popup/PopupDreamyPassCtrl.cs ; EventLoop/DreamyPass/Scripts/UIElement/DreamyPassFIconCtrl.cs ; EventLoop/DreamyStreak/Scripts/Popup/PopupDreamyStreakCtrl.cs'
+    - rid: 1315317362053087552
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key enter_text): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087553
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EnterDesc): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087554
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key EnterTeamName): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_ListTeam.prefab'
+    - rid: 1315317362053087555
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Finish): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure.prefab'
+    - rid: 1315317362053087556
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key FirstTryWin): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087557
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Frame): MainFeature/Profile/SOPrefabs/Popup/PopupProfileEdit.prefab'
+    - rid: 1315317362053087558
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Free): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087559
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key free_heart): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087560
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key free_reward): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087561
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key FreeLives): MainFeature/Team/SOPrefabs/Popup/PopupFreeLives.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087562
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key GeneralStats): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087563
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Go): MainFeature/Inbox/SOPrefabs/Popup/Popup_Inbox_Detail.prefab'
+    - rid: 1315317362053087564
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Help): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab ; MainFeature/Team/SOPrefabs/UIElement/Mem_LifeReq.prefab ; MainFeature/Team/SOPrefabs/UIElement/TeamMemberItemUI.prefab'
+    - rid: 1315317362053087565
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key HelpsMade): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087566
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key HelpsReceived): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087567
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Inbox): MainFeature/Inbox/SOPrefabs/Popup/Popup_Inbox.prefab'
+    - rid: 1315317362053087568
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Info): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087569
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Join): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Start.prefab ; MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_ListTeam.prefab'
+    - rid: 1315317362053087570
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key join_a_team_go_get_free_lives): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Join.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087571
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LastChance): EventLoop/DreamyPass/Scripts/Popup/PopupDreamyPassActivateCtrl.cs'
+    - rid: 1315317362053087572
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Leader): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab ; MainFeature/Team/SOPrefabs/UIElement/TeamMemberItemUI.prefab'
+    - rid: 1315317362053087573
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Leaderboard): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab'
+    - rid: 1315317362053087574
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Leave): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087575
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key leave_team): MainFeature/Team/SOPrefabs/Popup/PopupLeaveTeam.prefab'
+    - rid: 1315317362053087576
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LeaveTeamWarning): MainFeature/Team/SOPrefabs/Popup/PopupLeaveTeam.prefab ; MainFeature/Team/Scripts/Popup/PopupTeamInfoCtrl.cs ; MainFeature/Team/Scripts/UIPanel/UITabTeamTabCreateCtrl.cs'
+    - rid: 1315317362053087577
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Level): MainFeature/Leaderboard/SOPrefabs/Player/Player_RankItemUI_Top1.prefab ; MainFeature/Leaderboard/SOPrefabs/Player/Player_RankItemUI_Top2.prefab ; MainFeature/Leaderboard/SOPrefabs/Player/Player_RankItemUI_Top3.prefab'
+    - rid: 1315317362053087578
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LevelUnlockWeeklyContest): EventLoop/WeeklyContest/Scripts/UIElement/WeeklyContestHomeTabUICtrl.cs'
+    - rid: 1315317362053087579
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LivesAreaFull): MainFeature/Team/Scripts/UIElement/LifeHelpItemUICtrl.cs'
+    - rid: 1315317362053087580
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Load): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncData.prefab'
+    - rid: 1315317362053087581
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key load_data_from_server_completed): MainFeature/SaveGame/SOPrefabs/Popup/PopupRestartRequired.prefab'
+    - rid: 1315317362053087582
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Local): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncData.prefab'
+    - rid: 1315317362053087583
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key lv): MainFeature/Profile/Scripts/Popup/PopupProfilePreviewCtrl.cs ; MainFeature/SaveGame/Scripts/Popup/PopupSyncDataCtrl.cs'
+    - rid: 1315317362053087584
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LvUnlockRank): MainFeature/Leaderboard/Scripts/UIPanel/UILeaderboardCtrl.cs'
+    - rid: 1315317362053087585
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key LvUnlockTeam): MainFeature/Team/Scripts/UIPanel/UITabTeamCtrl.cs'
+    - rid: 1315317362053087586
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MAX): EventLoop/DreamyPass/Scripts/Popup/PopupDreamyPassCtrl.cs'
+    - rid: 1315317362053087587
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MaxLifeHelpStack): MainFeature/Team/Scripts/UIPanel/UITabTeamTabMyTeamCtrl.cs'
+    - rid: 1315317362053087588
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MemberJoinTeam): MainFeature/Team/Scripts/UIElement/NotiChatItemUICtrl.cs'
+    - rid: 1315317362053087589
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MemberKickedOut): MainFeature/Team/Scripts/UIElement/NotiChatItemUICtrl.cs'
+    - rid: 1315317362053087590
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MemberLeftTeam): MainFeature/Team/Scripts/UIElement/NotiChatItemUICtrl.cs'
+    - rid: 1315317362053087591
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Members): MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top1.prefab ; MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top2.prefab ; MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top3.prefab'
+    - rid: 1315317362053087592
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key MyTeam): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_MyTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087593
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Name): MainFeature/Profile/SOPrefabs/Popup/PopupProfileEdit.prefab'
+    - rid: 1315317362053087594
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NameMinLen): MainFeature/Profile/Scripts/Popup/PopupEditProfileCtrl.cs ; MainFeature/Profile/Scripts/Popup/PopupEditProfileNameCtrl.cs ; MainFeature/Team/Scripts/Popup/PopupTeamEditCtrl.cs'
+    - rid: 1315317362053087595
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NetworkError): EventLoop/StageRace/Scripts/UIElement/StageRaceFIconCtrl.cs ; EventLoop/TeamTreasure/Scripts/UIElement/TeamTreasureFIconCtrl.cs ; MainFeature/Inbox/Scripts/Popup/PopupInboxDetailCtrl.cs'
+    - rid: 1315317362053087596
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NetworkErrorTitle): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataFailed.prefab'
+    - rid: 1315317362053087597
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NEW): EventLoop/DreamyPass/Scripts/UIElement/DreamyPassFIconCtrl.cs'
+    - rid: 1315317362053087598
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key No): MainFeature/Team/SOPrefabs/Popup/PopupLeaveTeam.prefab'
+    - rid: 1315317362053087599
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key no_name): LocalizeHelper'
+    - rid: 1315317362053087600
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NoContribution): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure.prefab'
+    - rid: 1315317362053087601
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NoTeam): LocalizeHelper ; MainFeature/Leaderboard/Scripts/UIElement/PlayerRankItemUICtrl.cs ; MainFeature/Profile/Scripts/Popup/PopupProfilePreviewCtrl.cs'
+    - rid: 1315317362053087602
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key NotEnoughGold): MainFeature/Team/Scripts/Popup/PopupTeamEditCtrl.cs ; MainFeature/Team/Scripts/UIPanel/UITabTeamTabCreateCtrl.cs'
+    - rid: 1315317362053087603
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Open): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Finish.prefab ; EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Finish.prefab'
+    - rid: 1315317362053087604
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassActivate1): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087605
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassActivate2): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087606
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassActivate3): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087607
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassActivate4): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087608
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassActivate5): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087609
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassFinishDesc): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Main.prefab'
+    - rid: 1315317362053087610
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassInfo1): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab'
+    - rid: 1315317362053087611
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassInfo2): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab'
+    - rid: 1315317362053087612
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassInfo3): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab'
+    - rid: 1315317362053087613
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassInfo4): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab'
+    - rid: 1315317362053087614
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassStartDesc): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Start.prefab'
+    - rid: 1315317362053087615
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PackingPassTitle): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab'
+    - rid: 1315317362053087616
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PlaceReward): EventLoop/TeamTreasure/Scripts/Popup/PopupTeamTreasureTopRewardCtrl.cs'
+    - rid: 1315317362053087617
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Players): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab'
+    - rid: 1315317362053087618
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Private): MainFeature/Team/Scripts/Popup/PopupTeamInfoCtrl.cs'
+    - rid: 1315317362053087619
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Profile): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087620
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key ProfileUpdated): MainFeature/Profile/Scripts/Popup/PopupEditProfileCtrl.cs ; MainFeature/Profile/Scripts/Popup/PopupEditProfileNameCtrl.cs'
+    - rid: 1315317362053087621
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Public): MainFeature/Team/Scripts/Popup/PopupTeamInfoCtrl.cs'
+    - rid: 1315317362053087622
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key PushDataOk): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncDataCompleted.prefab'
+    - rid: 1315317362053087623
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Reconnect): EventLoop/WeeklyContest/SOPrefabs/UIElement/Leaderboard_Tab_Contest.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Weekly.prefab'
+    - rid: 1315317362053087624
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Refresh): EventLoop/WeeklyContest/SOPrefabs/UIElement/Leaderboard_Tab_Contest.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Weekly.prefab'
+    - rid: 1315317362053087625
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key RemoveMember): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087626
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key RequestingLife): MainFeature/Team/SOPrefabs/UIElement/Mem_LifeReq.prefab ; MainFeature/Team/SOPrefabs/UIElement/Self_LifeReq.prefab'
+    - rid: 1315317362053087627
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key RequiredLevel): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab'
+    - rid: 1315317362053087628
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key RequiredLevelLimitWarning): MainFeature/Team/Scripts/Popup/PopupTeamEditCtrl.cs ; MainFeature/Team/Scripts/UIPanel/UITabTeamTabCreateCtrl.cs'
+    - rid: 1315317362053087629
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Restart): MainFeature/SaveGame/SOPrefabs/Popup/PopupRestartRequired.prefab'
+    - rid: 1315317362053087630
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Save): MainFeature/Profile/SOPrefabs/Popup/PopupEditUserName.prefab ; MainFeature/Profile/SOPrefabs/Popup/PopupProfileEdit.prefab ; MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncData.prefab'
+    - rid: 1315317362053087631
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Score): MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top1.prefab ; MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top2.prefab ; MainFeature/Leaderboard/SOPrefabs/Team/Team_RankItemUI_Top3.prefab'
+    - rid: 1315317362053087632
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Search): MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_ListTeam.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Search.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087633
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key SelectFlag): MainFeature/Team/SOPrefabs/Popup/PopupSelectFlag.prefab'
+    - rid: 1315317362053087634
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key SendYouALife): MainFeature/Team/SOPrefabs/UIElement/LifeHelp_ItemUI.prefab'
+    - rid: 1315317362053087635
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Server): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncData.prefab'
+    - rid: 1315317362053087636
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key SpecialRewards): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Activate.prefab'
+    - rid: 1315317362053087637
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRace): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Running.prefab ; EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Start.prefab ; EventLoop/StageRace/SOPrefabs/UIElement/StageRace_InLevel.prefab'
+    - rid: 1315317362053087638
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceDescLose): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Running.prefab'
+    - rid: 1315317362053087639
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceDescWin): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Running.prefab'
+    - rid: 1315317362053087640
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceDescX): EventLoop/StageRace/Scripts/Popup/PopupStageRaceRunningCtrl.cs ; EventLoop/StageRace/Scripts/Popup/PopupStageRaceStartCtrl.cs'
+    - rid: 1315317362053087641
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceInfo1): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab'
+    - rid: 1315317362053087642
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceInfo2): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab'
+    - rid: 1315317362053087643
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceInfo3): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab'
+    - rid: 1315317362053087644
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceInfo5): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab'
+    - rid: 1315317362053087645
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageRaceWin): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087646
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key StageX): EventLoop/StageRace/Scripts/Popup/PopupStageRaceRunningCtrl.cs ; EventLoop/StageRace/Scripts/Popup/PopupStageRaceStartCtrl.cs ; EventLoop/StageRace/Scripts/UIElement/StageRaceInLevelUICtrl.cs'
+    - rid: 1315317362053087647
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Star): EventLoop/WeeklyContest/SOPrefabs/UIElement/Leaderboard_Tab_Contest.prefab ; EventLoop/WeeklyContest/SOPrefabs/UIElement/WC_RankItemUI_TopX.prefab ; EventLoop/WeeklyContest/Scripts/UIElement/PlayerWCRankItemUICtrl.cs'
+    - rid: 1315317362053087648
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Start): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Start.prefab ; EventLoop/StageRace/SOPrefabs/UIElement/StageRace_InLevel.prefab'
+    - rid: 1315317362053087649
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key SyncData): MainFeature/SaveGame/SOPrefabs/Popup/PopupSyncData.prefab'
+    - rid: 1315317362053087650
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TapContinue): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_Info.prefab ; EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Info.prefab'
+    - rid: 1315317362053087651
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TapOpen): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_BonusBank.prefab'
+    - rid: 1315317362053087652
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TapToClaim): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_BonusBank.prefab ; EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_UnclaimedReward.prefab'
+    - rid: 1315317362053087653
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TapToClose): EventLoop/StageRace/SOPrefabs/Popup/PopupStageRace_Info.prefab ; EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab ; EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_TopRw.prefab'
+    - rid: 1315317362053087654
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key team_information): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087655
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamBadge): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087656
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamDesc0): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087657
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvest): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure.prefab ; EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab ; EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Start.prefab'
+    - rid: 1315317362053087658
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvestInfo1): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab'
+    - rid: 1315317362053087659
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvestInfo2): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab'
+    - rid: 1315317362053087660
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvestInfo3): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab'
+    - rid: 1315317362053087661
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvestInfo4): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Info.prefab'
+    - rid: 1315317362053087662
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamHarvestStart): EventLoop/TeamTreasure/SOPrefabs/Popup/Popup_TeamTreasure_Start.prefab'
+    - rid: 1315317362053087663
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamName): MainFeature/Team/SOPrefabs/Popup/PopupTeamEdit.prefab ; MainFeature/Team/SOPrefabs/UIPanel/TeamHomeTab_Create.prefab ; MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317362053087664
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Teams): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab'
+    - rid: 1315317362053087665
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamScore): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087666
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TeamType): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087667
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TotalFreeLives): MainFeature/Team/SOPrefabs/Popup/PopupFreeLives.prefab'
+    - rid: 1315317362053087668
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TotalHelp): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087669
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TotalStars): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087670
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TowerHighest): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 1315317362053087671
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key TransferLeader): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087672
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key UnclaimedRewardDesc): EventLoop/DreamyPass/SOPrefabs/Popup/Popup_DreamyPass_UnclaimedReward.prefab'
+    - rid: 1315317362053087673
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key UnlockAtLevel): EventLoop/DreamyStreak/Scripts/UIElement/DreamyStreakFIconCtrl.cs ; MainFeature/Team/Scripts/Popup/PopupTeamInfoCtrl.cs'
+    - rid: 1315317362053087674
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key UnlockWhenPassLevel): MainFeature/Profile/Scripts/UIElement/FrameItemUICtrl.cs'
+    - rid: 1315317362053087675
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Use): MainFeature/Team/SOPrefabs/UIElement/LifeHelp_ItemUI.prefab'
+    - rid: 1315317362053087676
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key View): MainFeature/Team/SOPrefabs/UIElement/Self_LifeReq.prefab'
+    - rid: 1315317362053087677
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key ViewProfile): MainFeature/Team/SOPrefabs/Popup/PopupTeamInfo.prefab'
+    - rid: 1315317362053087678
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key WaitServerProcess): MainFeature/Team/Scripts/TeamManager.cs ; MainFeature/Team/Scripts/UIPanel/UITabTeamTabMyTeamCtrl.cs'
+    - rid: 1315317362053087679
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Weekly): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab'
+    - rid: 1315317362053087680
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key WeeklyContest): EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Info.prefab ; EventLoop/WeeklyContest/SOPrefabs/UIElement/Leaderboard_Tab_Contest.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab'
+    - rid: 1315317362053087681
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key WeeklyContestFinish): EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Finish.prefab'
+    - rid: 1315317362053087682
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key WeeklyContestInfo1): EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Info.prefab'
+    - rid: 1315317362053087683
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key WeeklyContestInfo2): EventLoop/WeeklyContest/SOPrefabs/Popup/Popup_WeeklyContest_Info.prefab'
+    - rid: 1315317362053087684
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key World): MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_HomeTab.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Player.prefab ; MainFeature/Leaderboard/SOPrefabs/UIPanel/LeaderBoard_Tab_Team.prefab'
+    - rid: 1315317362053087685
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key Yes): MainFeature/Team/SOPrefabs/Popup/PopupLeaveTeam.prefab'
+    - rid: 1315317362053087721
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:54'
+    - rid: 1315317362053087722
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:55'
+    - rid: 1315317384363639316
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (CookOrder key Day): MainFeature/Leaderboard/SOPrefabs/Player/Player_RankItemUI_U.prefab'
+    - rid: 1315317384363639317
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (CookOrder key team_lock_desc): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317384363639318
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (CookOrder key team_lock_free_heart): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317384363639319
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (CookOrder key team_lock_chat): MainFeature/Team/SOPrefabs/UIPanel/Team_HomeTab.prefab'
+    - rid: 1315317384363639580
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (CookOrder key AreaCompleted): MainFeature/Profile/SOPrefabs/Popup/PopupProfilePreview.prefab'
+    - rid: 4117827698819858996
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230170452
+    - rid: 4117827729675518555
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: CakeIngredientSO.cs:22 ; CakeToolSO.cs:13 ; PetAssistantSO.cs:49 ; SimpleItemWithIconIdSO.cs:11'
+    - rid: 4117827729675518556
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHeartCounter.cs:16'
+    - rid: 4117827729675518557
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIHeartCounter.cs:17'
+    - rid: 4117827729675518558
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: HeartSystemController.cs:44'
+    - rid: 4117827729675518559
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: HeartSystemController.cs:45'
+    - rid: 4117827729675518560
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: HeartSystemController.cs:46'
+    - rid: 4117827729675518561
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupListRewardClaimed.cs:80'
+    - rid: 4117827729675518562
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupListRewardClaimed.cs:81'
+    - rid: 4117827729675518563
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupListRewardClaimed.cs:82'
+    - rid: 4117827729675518564
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupNewBooster.cs:42'
+    - rid: 4117827729675518565
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupNewBooster.cs:43'
+    - rid: 4117827729675518566
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPopupRestaurantUpgradeReward.cs:24'
+    - rid: 4117827729675518567
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: GameProgressScenario.cs:254 ; UIJourneyRestaurantCard.cs:33 ; HomeLevelNode.cs:56 ; UIHomeTabPageMainNormalMode.cs:46'
+    - rid: 4117827729675518568
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: GameProgressScenario.cs:255'
+    - rid: 4117827729675518569
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: GameProgressScenario.cs:256 ; UIHomeTabPageJourney.cs:14 ; UIHomeTabPageJourneyCards.cs:188 ; UIJourneyRestaurantCard.cs:36'
+    - rid: 4117827729675518570
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: GameProgressScenario.cs:257'
+    - rid: 4117827729675518571
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:49'
+    - rid: 4117827729675518572
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:50'
+    - rid: 4117827729675518573
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:51'
+    - rid: 4117827729675518574
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:52'
+    - rid: 4117827729675518575
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeControllerCookOrder.cs:53'
+    - rid: 4117827729675518576
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageJourney.cs:15 ; UIHomeTabPageLevelPath.cs:13'
+    - rid: 4117827729675518577
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageJourney.cs:16 ; UIHomeTabPageLevelPath.cs:14'
+    - rid: 4117827729675518578
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIJourneyChapterCard.cs:10'
+    - rid: 4117827729675518579
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIHomeTabPageMainLockedMode.cs:22'
+    - rid: 4117827729675518580
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:51'
+    - rid: 4117827729675518581
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:51'
+    - rid: 4117827729675518582
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIJourneyRestaurantCard.cs:38 ; UIHomeTabPageMainPreviewMode.cs:14'
+    - rid: 4117827729675518583
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIItemToolRecipeCard.cs:26'
+    - rid: 4117827729675518584
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeRestaurant.cs:21'
+    - rid: 4117827729675518585
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeRestaurant.cs:44'
+    - rid: 4117827729675518586
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeTool.cs:20'
+    - rid: 4117827729675518587
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeTool.cs:44'
+    - rid: 4117827729675518588
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeTool.cs:65'
+    - rid: 4117827729675518589
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeTool.cs:86'
+    - rid: 4117827729675518590
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: HomeUITutorialProcessUpgradeRestaurant.cs:72 ; HomeUITutorialProcessUpgradeTool.cs:108'
+    - rid: 4117827729675518591
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: InGameUITutorialProcessBooster.cs:102'
+    - rid: 4117827729675518592
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: InGameUITutorialProcessCombo.cs:23'
+    - rid: 4117827729675518593
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: InGameUITutorialProcessCombo.cs:24'
+    - rid: 4117827729675518594
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: InGameUITutorialProcessCombo.cs:25'
+    - rid: 4117827729675518595
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: InGameUITutorialProcessCombo.cs:27'
+    - rid: 4117827729675518596
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIItemUpgradeBuildingOption.cs:19'
+    - rid: 4117827729675518597
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIItemToolDetails.cs:18 ; UIItemToolUpgrade.cs:16'
+    - rid: 4117827729675518598
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIItemToolDetails.cs:19 ; UIItemToolUpgrade.cs:17'
+    - rid: 4117827729675518599
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPetAssistantDetails.cs:22 ; UIItemToolDetails.cs:20 ; UIItemToolUpgrade.cs:18'
+    - rid: 4117827729675518600
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIItemToolUpgrade.cs:19'
+    - rid: 4117827729675518601
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPetAssistantDetails.cs:21'
+    - rid: 4117827729675518602
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIEndGameWin.cs:26'
+    - rid: 4117827729675518603
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIInLevelCakeOrder.cs:71'
+    - rid: 4117827729675518604
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIInLevelCakeOrder.cs:72'
+    - rid: 4117827729675518605
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIItemSlotDailyRewards.cs:12'
+    - rid: 4117827729675518606
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: InAppShopDataAccess.cs:193'
+    - rid: 4117827729675518607
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-Base.prefab > UIPopup-Booster-Base (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518608
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-Base.prefab > UIPopup-SaveMe-Base (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518609
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-auto_cook Variant.prefab > UIPopup-Booster-auto_cook Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518610
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-auto_cook Variant.prefab > UIPopup-Booster-auto_cook Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518611
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-clean_dirty Variant.prefab > UIPopup-Booster-clean_dirty Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518612
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-clean_dirty Variant.prefab > UIPopup-Booster-clean_dirty Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518613
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-ingredient_pick Variant.prefab > UIPopup-Booster-ingredient_pick Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518614
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-ingredient_pick Variant.prefab > UIPopup-Booster-ingredient_pick Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518615
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-MoreServeSlot Variant.prefab > UIPopup-Booster-MoreServeSlot Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518616
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-MoreServeSlot Variant.prefab > UIPopup-Booster-MoreServeSlot Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518617
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-shift_up_row Variant.prefab > UIPopup-Booster-shift_up_row Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518618
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-Booster-shift_up_row Variant.prefab > UIPopup-Booster-shift_up_row Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518619
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-BuySpeedUp Variant.prefab > UIPopup-BuySpeedUp Variant (UIPopupCakeConfirmUseBooster._titleKey)'
+    - rid: 4117827729675518620
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-BuySpeedUp Variant.prefab > UIPopup-BuySpeedUp Variant (UIPopupCakeConfirmUseBooster._dataKey)'
+    - rid: 4117827729675518621
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-OutOfHearts Variant.prefab > UIPopup-SaveMe-OutOfHearts Variant (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518622
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-OutOfIngredient Variant.prefab > UIPopup-SaveMe-OutOfIngredient Variant (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518623
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-OutOfMove Variant.prefab > UIPopup-SaveMe-OutOfMove Variant (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518624
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-OutOfServeSlots Variant.prefab > UIPopup-SaveMe-OutOfServeSlots Variant (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518625
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: Assets/_Production/Map-common_assets/Prefabs/UI/InGame/SaveMe_Boosters/UIPopup-SaveMe-OutOfServeTime Variant.prefab > UIPopup-SaveMe-OutOfServeTime Variant (UICakePopupSaveMe._dataKey)'
+    - rid: 4117827729675518626
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Journey chapter name burger
+    - rid: 4117827729675518627
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Journey chapter name coffee
+    - rid: 4117827729675518628
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Canvas-CloudSaveDataConflict-Mockup > Canvas-CloudSaveDataConflict-Mockup/Popup/ImagePanel/Title
+    - rid: 4117827729675518629
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: SceneTransition-FoodieFever > SceneTransition-FoodieFever/LoadProgress/Image/Text (TMP)
+    - rid: 4117827729675518630
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: SceneTransition-Weather > SceneTransition-Weather/LoadProgress/Mask/Text (Legacy)
+    - rid: 4117827729675518631
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-RestaurantLvUp > UIPopup-RestaurantLvUp/main/Top/Title
+    - rid: 4117827729675518632
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-RewardClaimed > UIPopup-RewardClaimed/VisibleGroup/Button-Confirm/Txt-confirm ; UIPopup-RewardPurchased > UIPopup-RewardPurchased/VisibleGroup/main/Label-TapToContinue'
+    - rid: 4117827729675518633
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-boss step 0 line 0
+    - rid: 4117827729675518634
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-first step 0 line 0
+    - rid: 4117827729675518635
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-first step 0 line 1
+    - rid: 4117827729675518636
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-first step 2 line 0
+    - rid: 4117827729675518637
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-first step 3 (tap hint)
+    - rid: 4117827729675518638
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-second step 1 (tap hint)
+    - rid: 4117827729675518639
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Tutorial TutorialSequence-shipper step 0 line 0
+    - rid: 4117827729675518640
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] Canvas-CloudSaveDataConflict-Mockup > Canvas-CloudSaveDataConflict-Mockup/Popup/ImagePanel/Btns (1)/Btn-Cloud/Text (1)'
+    - rid: 4117827729675518641
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] Canvas-CloudSaveDataConflict-Mockup > Canvas-CloudSaveDataConflict-Mockup/Popup/ImagePanel/Btns (1)/Btn-Local/Text'
+    - rid: 4117827729675518642
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'UIPopup-RestaurantLvUp > UIPopup-RestaurantLvUp/main/Title-NewUnlock:'
+    - rid: 4117827772976990097
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-RateGame > UIPopup-RateGame/VisibleGroup/Main/Prompt
+    - rid: 4117827772976990098
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-RateGame > UIPopup-RateGame/VisibleGroup/Main/Title/Title-Text
+    - rid: 4117827869053813691
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: GameProgressScenario.cs:356'
+    - rid: 5047050900543635839
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: InternetGate.cs:19 ; SceneMainUI.cs:601 ; UIHomeTabPageMain.cs:169'
+    - rid: 5047050900543635840
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: SceneMainUI.cs:602'
+    - rid: 5047050900543635841
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: PlayerNameRules.cs:16'
+    - rid: 5047050900543635842
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: PlayerNameRules.cs:17'
+    - rid: 5047050900543635843
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: PlayerNameRules.cs:18'
+    - rid: 5047050900543635844
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPopupDailyRewards.cs:157'
+    - rid: 5047050900543635845
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupDailyRewards.cs:158'
+    - rid: 5047050900543635846
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupDailyRewards.cs:159'
+    - rid: 5047050900543635847
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Journey chapter name sushi
+    - rid: 5047050900543636055
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIJourneyRestaurantCard.cs:29'
+    - rid: 5047050900543636263
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-RewardPurchased > UIPopup-RewardPurchased/VisibleGroup/main/Button-Confirm/Txt-confirm'
+    - rid: 5047050900543636422
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:47'
+    - rid: 5047050900543636423
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:48'
+    - rid: 5047050912717603297
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UICookOrderShop.cs:74'
+    - rid: 5047050912717603327
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupToolUpgraded.cs:13'
+    - rid: 5047050912717603328
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPopupToolUpgraded.cs:14'
+    - rid: 5047050912717603329
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIPopupToolUpgraded.cs:15'
+    - rid: 5047050912717603348
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:49'
+    - rid: 5047050914706489472
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIPopupNewVersion.cs:20'
+    - rid: 5047050914706489474
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UpgradeRebalanceNotice.cs:16'
+    - rid: 5047050914706489475
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UpgradeRebalanceNotice.cs:17'
+    - rid: 5047050914706489476
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UpgradeRebalanceNotice.cs:45'
+    - rid: 5047050914706490049
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-RateGame > UIPopup-RateGame/VisibleGroup/Main/Button-Rate/Txt-confirm'
+    - rid: 5047051027523568227
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIHomeTabPageMainNormalMode.cs:78'
+    - rid: 5047051076574642290
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIHomeTabPageJourneyCards.cs:189'
+    - rid: 5047051076574642291
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIJourneyMilestoneItem.cs:17'
+    - rid: 5047051145359130785
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIJourneyRestaurantCard.cs:31'
+    - rid: 5047051213734150476
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: UIHomeTabPageMainNormalMode.cs:79'
+    - rid: 5047051213734150477
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: LevelCoinRefundNotice.cs:30'
+    - rid: 5047051213734150478
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] Code: LevelCoinRefundNotice.cs:31'
+    - rid: 5047051213734150591
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key BUYALL): EventLoop/EventSale/SOPrefabs/Halloween2026/Popup_Halloween2026.prefab'
+    - rid: 5047051213734150592
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key ExtraBonus): EventLoop/EventSale/SOPrefabs/Halloween2026/Popup_Halloween2026.prefab'
+    - rid: 5047051213734150593
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'R1Plugins (TidyRoom key 1-TimeOnly): EventLoop/EventSale/SOPrefabs/Halloween2026/Popup_Halloween2026.prefab'
+    - rid: 5047051213734150594
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0} placeholder] R1Plugins (TidyRoom key ExtraSale): EventLoop/EventSale/SOPrefabs/Halloween2026/Popup_Halloween2026.prefab'
+    - rid: 5047051213734150595
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Keep {0}/{1} placeholders] R1Plugins (CookOrder key AvatarUnlockPassDayOfMap): MainFeature/Profile/Scripts/ProfileManager.cs'
+    - rid: 8515899034614366590
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-RewardClaimed > UIPopup-RewardClaimed/main/Button-Confirm/Txt-confirm'

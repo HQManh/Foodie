@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 70ba2199d21f4314980f738ed34bd399, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57789920567296
+    m_Localized: Başlangıç burger tezgâhı. En baştan senin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927424
+    m_Localized: Daha geniş cepheli ve süslemelere daha çok yer açan tam bir burger evi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927425
+    m_Localized: Bal gibi tatlı, patatesler gelince iki kat sevimli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927426
+    m_Localized: Mükemmel ızgara, bu köfte tam kıvamında.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927427
+    m_Localized: Az pişmiş, çiğ ve ızgaraya çıkmak için sabırsız.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927428
+    m_Localized: Kapının yanında duran küçük menü tahtası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927429
+    m_Localized: Dükkânın önünde duran uzun reklam panosu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927430
+    m_Localized: Kat kat dizilmiş ve tamamen formunda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927431
+    m_Localized: Malzemeleri altın rengi ve çıtır olana dek kızartır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927432
+    m_Localized: Gazlı kola doldurur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927433
+    m_Localized: Malzemeleri parçalara doğrar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927434
+    m_Localized: Çelik gibi sağlam kızarmış ekmek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927435
+    m_Localized: Sonunda içini açan bir ekmek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927436
+    m_Localized: Hâlâ tembellik eden yumuşacık bir ekmek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927437
+    m_Localized: Malzemelerin geldiği yer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927438
+    m_Localized: Çatının üstüne monte edilmiş restoran tabelası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927439
+    m_Localized: Acele etmek için fazla havalı, siparişini hep tam zamanında bir mırlamayla verir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927440
+    m_Localized: Minik patiler, büyük iştah ve ekstra peynirden hiç utanmıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927441
+    m_Localized: Rendelenmeye hazır, potansiyeli yüksek bir süt ürünü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927442
+    m_Localized: Dilim peynir, birkaç kalbi eritmeye hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927443
+    m_Localized: Her şeyi harika yapan erimiş altın.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927444
+    m_Localized: Una bulanmış göğüs, çıtır çıtır sahneye hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927445
+    m_Localized: Sade ve solgun, hâlâ büyük kızartma anını bekliyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927446
+    m_Localized: Dışı çıtır, içi sulu, parmak yedirten lezzet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927447
+    m_Localized: Un zırhını giymiş küçük bir nugget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927448
+    m_Localized: Küçük, lokmalık ve fritözün hayalini kuruyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927449
+    m_Localized: Un paltolu but, dolgun ve hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927450
+    m_Localized: En sulu parça, potansiyelini hâlâ saklıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927451
+    m_Localized: Uçmayı öğrenmeden hamura bulanmış kanatlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927452
+    m_Localized: Henüz hiç çıtırlığı olmayan bir kanat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927453
+    m_Localized: Ateşi getiren kırmızı toz, sakinlik yok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927454
+    m_Localized: Soğanı biraz kıskanan yeşil saplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927455
+    m_Localized: Çıtır bir kutlama için minik yeşil konfeti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927456
+    m_Localized: Bir amaca susamış boş bir bardak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927457
+    m_Localized: Heyecandan köpüren koyu gazlı içecek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927458
+    m_Localized: Buzlu kola, buz gibi bir tavırla servis edilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927459
+    m_Localized: Siparişe göre dizilir, ekmek pes etmeden yenmesi en iyisi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927460
+    m_Localized: Her burger lokmasını daha coşkulu yapan buz gibi kabarcıklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927461
+    m_Localized: Dışı altın rengi, içi sulu ve dört ısırıkta biter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927462
+    m_Localized: Sıcak, tuzlu ve adil paylaşılması imkânsız.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927463
+    m_Localized: Her burgeri kuyruk sallatan bir hazine gibi gören sadık küçük müşteri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927464
+    m_Localized: Kırılgandır, baskı altında çatlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927465
+    m_Localized: Güneşli tarafı yukarıda ve yumurta gibi neşeli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927466
+    m_Localized: Yiyecekleri altın rengi ve çıtır olana dek kızartır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927467
+    m_Localized: Malzemeleri bir kat hamurla kaplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927468
+    m_Localized: Soğukkanlı olmaya karar veren su.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927469
+    m_Localized: Çıtır olan her şey tek kutuda, muhteşem bir tavuk ziyafeti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927470
+    m_Localized: Çıtır yeşil yapraklar, hadi marul marul başlayalım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927471
+    m_Localized: Sonunda baştan ayrılan kıyılmış yeşillikler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927472
+    m_Localized: Aklı başında kocaman bir marul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927473
+    m_Localized: Sol taraf boyunca asılı ip ışıklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927474
+    m_Localized: Çatının üstüne monte edilmiş restoran tabelası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927475
+    m_Localized: Öğle telaşını yönetim kurulu gibi yönetir ve birinci sınıf turşu ister.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927476
+    m_Localized: Girişin yanındaki saksı bitkisi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927477
+    m_Localized: Kızartma yıldızı olmayı hayal eden mütevazı bir patates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927478
+    m_Localized: Çubuk şeklinde doğrandı, artık kızartılmayı bekleyen bir patates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927479
+    m_Localized: Tuz tartışması başlatacak kadar sıcak altın patatesler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927480
+    m_Localized: Peynirin altına gömülmüş patates, hiç pişmanlık yok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927481
+    m_Localized: Aç aç zıplayarak gelir, iki yanağında kırıntılarla gider.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927482
+    m_Localized: Şehrin en hızlı kırmızı kuyruklu kuryesi, tabii biri patates düşürmezse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927483
+    m_Localized: Mor, keskin ve gizliden gizliye duygusal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927484
+    m_Localized: Şefi ağlatan halka dilimler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927485
+    m_Localized: Çatının üstünde duran dev bir burger maketi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927486
+    m_Localized: Binanın sağ tarafından sarkan tabela.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927487
+    m_Localized: Binanın sağ tarafından sarkan tabela.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927488
+    m_Localized: Yuvarlak, kırmızı ve teknik olarak bir meyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927489
+    m_Localized: Artık hiçbir eksiği kalmamış sulu dilimler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927490
+    m_Localized: Çatı kenarından sarkan sarmaşıklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927491
+    m_Localized: Daha Büyük Ev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927492
+    m_Localized: Bal Kucak Ayı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927493
+    m_Localized: Dana Köfte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927494
+    m_Localized: Çiğ Köfte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927495
+    m_Localized: Küçük Menü Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927496
+    m_Localized: Uzun Menü Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927497
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927498
+    m_Localized: Izgara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927499
+    m_Localized: Kola Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927500
+    m_Localized: Bıçak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927501
+    m_Localized: Burger Ekmeği
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927502
+    m_Localized: İkiye Bölünmüş Ekmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927503
+    m_Localized: Ekmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927504
+    m_Localized: Tepsi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927505
+    m_Localized: Tente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927506
+    m_Localized: Coolcat Clyde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927507
+    m_Localized: Kitty Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927508
+    m_Localized: Peynir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927509
+    m_Localized: Dilim Peynir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927510
+    m_Localized: Peynir Sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927511
+    m_Localized: Kaplamalı Tavuk Göğsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927512
+    m_Localized: Çiğ Tavuk Göğsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927513
+    m_Localized: Kızarmış Tavuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927514
+    m_Localized: Kaplamalı Nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927515
+    m_Localized: Çiğ Nugget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927516
+    m_Localized: Kaplamalı Tavuk But
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927517
+    m_Localized: Çiğ Tavuk But
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927518
+    m_Localized: Kaplamalı Tavuk Kanat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927519
+    m_Localized: Çiğ Tavuk Kanat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927520
+    m_Localized: Pul Biber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927521
+    m_Localized: Frenk Soğanı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927522
+    m_Localized: Doğranmış Frenk Soğanı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927523
+    m_Localized: Bardak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927524
+    m_Localized: Kola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927525
+    m_Localized: Buzlu Kola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927526
+    m_Localized: Klasik Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927527
+    m_Localized: Gazlı Kola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927528
+    m_Localized: Çıtır Tavuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927529
+    m_Localized: Altın Patates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927530
+    m_Localized: Benny Bark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927531
+    m_Localized: Yumurta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927532
+    m_Localized: Sahanda Yumurta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927533
+    m_Localized: Fritöz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927534
+    m_Localized: Un Kâsesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927535
+    m_Localized: Buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927536
+    m_Localized: Tavuk Menü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927537
+    m_Localized: Marul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927538
+    m_Localized: Doğranmış Marul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927539
+    m_Localized: Bütün Marul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927540
+    m_Localized: Işıklar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927541
+    m_Localized: Logo Tabelası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927542
+    m_Localized: Patron Hogsworth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927543
+    m_Localized: Saksı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927544
+    m_Localized: Patates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927545
+    m_Localized: Doğranmış Patates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927546
+    m_Localized: Patates Kızartması
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927547
+    m_Localized: Peynirli Patates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927548
+    m_Localized: Bunbun Bella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927549
+    m_Localized: Kırmızı Fare Kurye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927550
+    m_Localized: Kırmızı Soğan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927551
+    m_Localized: Doğranmış Kırmızı Soğan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927552
+    m_Localized: Dev Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927553
+    m_Localized: Asma Tabela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927554
+    m_Localized: Direk Tabela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927555
+    m_Localized: Domates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927556
+    m_Localized: Dilim Domates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57789949927557
+    m_Localized: Sarmaşıklar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520264204288
+    m_Localized: Sebzeleri marulun kızarmasından daha hızlı doğrar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758720
+    m_Localized: Dilimle, küp küp doğra, bitti. Soğanların hiç şansı yoktu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758721
+    m_Localized: Gazlı kolayı bir anda doldurur, köpüğüyle birlikte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758722
+    m_Localized: Bol köpük! Gazoz ve neşe fıskiyesi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758723
+    m_Localized: Tavuğu en yüksek hızda una bular. Dağınık ama lezzetli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758724
+    m_Localized: Bir un kar fırtınası. Her nugget rahat bir battaniye alıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758725
+    m_Localized: Rekor sürede altın sarısı patates. Çıtırlık garantili.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758726
+    m_Localized: Ekstra çıtırlık açıldı. Patatesler gururla parlıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758727
+    m_Localized: Köfteler daha hızlı cızırdar. Mideler daha çok guruldar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758728
+    m_Localized: O kadar sıcak ki burgerler kendiliğinden ters dönüyor. Kelimenin tam anlamıyla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758729
+    m_Localized: Hızlı Doğrayıcı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758730
+    m_Localized: Ninja Doğrayıcı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758731
+    m_Localized: Hızlı Gazlı İçecek Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758732
+    m_Localized: Kola Gayzeri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758733
+    m_Localized: Hızlı Panelek Kasesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758734
+    m_Localized: Un Çılgınlığı Kasesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758735
+    m_Localized: Çıtır Fritöz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758736
+    m_Localized: Altın Fritöz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758737
+    m_Localized: Cızırtılı Izgara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010520297758738
+    m_Localized: Mega Cızırtılı Izgara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138441297920
+    m_Localized: Marul daha yere düşmeden doğranıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138487435264
+    m_Localized: Samuray Doğrayıcı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629568
+    m_Localized: Öyle keskin ki havayı kesiyor. Domatesler selam duruyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629569
+    m_Localized: Efsanevi Bıçak Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629570
+    m_Localized: Köpükle patlıyor. Bardaklar kendiliğinden doluyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629571
+    m_Localized: Kola Yanardağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629572
+    m_Localized: Sonsuza dek köpük. Susuzluğun hiç şansı yok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629573
+    m_Localized: Sonsuz Köpük Çeşmesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138491629574
+    m_Localized: Siz çıtır diyene kadar nuggetlar kaplanıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823872
+    m_Localized: Un Tipisi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823873
+    m_Localized: Her nugget kraliyet ailesi gibi giyinip çıkıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823874
+    m_Localized: Altın Toz Kâsesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823875
+    m_Localized: Patatesler soluk girip altın gibi fırlıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823876
+    m_Localized: Turbo Fritöz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823877
+    m_Localized: Işık hızında çıtır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823878
+    m_Localized: Efsanevi Kızartma Reaktörü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823879
+    m_Localized: Köfteler göz açıp kapayana kadar pişiyor. Kaşlarına dikkat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138495823880
+    m_Localized: Yanardağ Izgara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018176
+    m_Localized: Güneş kadar sıcak, roket kadar hızlı. Burger cenneti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069138500018177
+    m_Localized: Efsanevi Güneş Izgarası
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Utilities;
+
+[Serializable]
+public class BoolModifierWithRegisteredSource
+{
+	private List<int> _sources;
+
+	private bool _value;
+
+	private Action _onChanged;
+
+	public bool Value => false;
+
+	public BoolModifierWithRegisteredSource()
+	{
+	}
+
+	public BoolModifierWithRegisteredSource(Action onChanged)
+	{
+	}
+
+	public void AddModifier(Object @object)
+	{
+	}
+
+	public void AddModifier(int id)
+	{
+	}
+
+	public void RemoveModifier(Object @object)
+	{
+	}
+
+	public void RemoveModifier(int id)
+	{
+	}
+
+	public void ClearAll()
+	{
+	}
+
+	public void AppendSources(BoolModifierWithRegisteredSource other)
+	{
+	}
+}

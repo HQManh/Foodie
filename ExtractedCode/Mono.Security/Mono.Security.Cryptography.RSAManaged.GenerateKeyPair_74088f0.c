@@ -1,0 +1,135 @@
+// rea decompile_all
+// name: Mono.Security.Cryptography.RSAManaged$$GenerateKeyPair
+// address: 0x74088f0
+// body: available
+// range: 0x74088f0-0x7408bef inclusive
+// non_contiguous: false
+// provider: Ghidra 12.1.4 (ghidra)
+// analysis_profile: 64e910c91993829e5e724662ba81449dbf792c1cb8314b33f5f163c4d0b382f6
+// limitations: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.; The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.; Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.; Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.; Ghidra Listing reports a terminal call at 0x7408bec to 0x3f5c550 FUN_03f5c550 (external=false, thunk=false, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return.; Ghidra analysis was seeded before auto-analysis from /root/work/seeds.json (sha256 9bc4c8d559493c7b7b20677f2c259be4cb73fa7ba09f128838d915f9a12aa69f: 147485 function, 0 code, 0 label entries). Seeded functions, code and names are caller assertions, not Ghidra discoveries.; Seed outcome: 146901 functions created, 584 already present, 0 failed; 0 code seeds decoded, 0 failed; 0 labels applied, 0 failed; 0 seeds outside initialized memory.; Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.; External functions and functions without an analyzable body return null; other decompiler failures remain explicit.
+// pseudocode: provider-specific; not original source
+
+
+void Mono_Security_Cryptography_RSAManaged__GenerateKeyPair(long *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  long lVar5;
+  ulong uVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  long *plVar10;
+  long *plVar11;
+  long lVar12;
+  
+  if ((DAT_09520ed5 & 1) == 0) {
+    FUN_03f5c2a4(&DAT_09181b68);
+    DAT_09520ed5 = 1;
+  }
+  iVar1 = (**(code **)(*param_1 + 0x198))(param_1,*(undefined8 *)(*param_1 + 0x1a0));
+  iVar1 = iVar1 + 1 >> 1;
+  iVar2 = (**(code **)(*param_1 + 0x198))(param_1,*(undefined8 *)(*param_1 + 0x1a0));
+  if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  lVar5 = Mono_Math_BigInteger__op_Implicit(0x10001);
+  plVar10 = param_1 + 0xc;
+  *plVar10 = lVar5;
+  thunk_FUN_03f5d7b8(plVar10,lVar5);
+  plVar11 = param_1 + 6;
+  do {
+    if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    lVar5 = Mono_Math_BigInteger__GeneratePseudoPrime(iVar1);
+    *plVar11 = lVar5;
+    thunk_FUN_03f5d7b8(plVar11,lVar5);
+    iVar3 = Mono_Math_BigInteger_Kernel__DwordMod(*plVar11,0x10001);
+  } while (iVar3 == 1);
+  while( true ) {
+    do {
+      do {
+        if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+          FUN_03f5c424();
+        }
+        lVar5 = Mono_Math_BigInteger__GeneratePseudoPrime(iVar2 - iVar1);
+        param_1[7] = lVar5;
+        thunk_FUN_03f5d7b8(param_1 + 7,lVar5);
+        iVar3 = Mono_Math_BigInteger_Kernel__DwordMod(param_1[7],0x10001);
+      } while (iVar3 == 1);
+      lVar5 = *plVar11;
+      lVar12 = param_1[7];
+      if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+        FUN_03f5c424();
+      }
+      uVar6 = Mono_Math_BigInteger__op_Inequality(lVar5,lVar12);
+    } while ((uVar6 & 1) == 0);
+    lVar5 = *plVar11;
+    lVar12 = param_1[7];
+    if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    lVar5 = Mono_Math_BigInteger__op_Multiply(lVar5,lVar12);
+    param_1[0xb] = lVar5;
+    thunk_FUN_03f5d7b8(param_1 + 0xb,lVar5);
+    if (param_1[0xb] == 0) goto LAB_07408bec;
+    iVar3 = Mono_Math_BigInteger__BitCount();
+    iVar4 = (**(code **)(*param_1 + 0x198))(param_1,*(undefined8 *)(*param_1 + 0x1a0));
+    lVar5 = param_1[6];
+    if (iVar3 == iVar4) break;
+    lVar12 = param_1[7];
+    if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+      FUN_03f5c424();
+    }
+    iVar3 = Mono_Math_BigInteger_Kernel__Compare(lVar5,lVar12);
+    if (iVar3 < 0) {
+      *plVar11 = param_1[7];
+      thunk_FUN_03f5d7b8(plVar11);
+    }
+  }
+  if (*(int *)(DAT_09181b68 + 0xe4) == 0) {
+    FUN_03f5c424();
+  }
+  uVar7 = Mono_Math_BigInteger__op_Implicit(1);
+  uVar7 = Mono_Math_BigInteger__op_Subtraction(lVar5,uVar7);
+  lVar5 = param_1[7];
+  uVar8 = Mono_Math_BigInteger__op_Implicit(1);
+  uVar8 = Mono_Math_BigInteger__op_Subtraction(lVar5,uVar8);
+  uVar9 = Mono_Math_BigInteger__op_Multiply(uVar7,uVar8);
+  if (*plVar10 != 0) {
+    lVar5 = Mono_Math_BigInteger_Kernel__modInverse(*plVar10,uVar9);
+    plVar10 = param_1 + 5;
+    *plVar10 = lVar5;
+    thunk_FUN_03f5d7b8(plVar10,lVar5);
+    lVar5 = Mono_Math_BigInteger__op_Modulus(*plVar10,uVar7);
+    param_1[8] = lVar5;
+    thunk_FUN_03f5d7b8();
+    lVar5 = Mono_Math_BigInteger__op_Modulus(*plVar10,uVar8);
+    param_1[9] = lVar5;
+    thunk_FUN_03f5d7b8(param_1 + 9,lVar5);
+    if (param_1[7] != 0) {
+      lVar5 = Mono_Math_BigInteger_Kernel__modInverse(param_1[7],param_1[6]);
+      param_1[10] = lVar5;
+      thunk_FUN_03f5d7b8(param_1 + 10,lVar5);
+      lVar5 = param_1[0xd];
+      *(undefined1 *)((long)param_1 + 0x22) = 1;
+      *(undefined1 *)(param_1 + 4) = 1;
+      if (lVar5 == 0) {
+        return;
+      }
+                    /* WARNING: Could not recover jumptable at 0x07408bd4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+      (**(code **)(lVar5 + 0x18))
+                (*(undefined8 *)(lVar5 + 0x40),param_1,0,*(undefined8 *)(lVar5 + 0x28));
+      return;
+    }
+  }
+LAB_07408bec:
+                    /* WARNING: Subroutine does not return */
+  FUN_03f5c550();
+}
+

@@ -1,0 +1,1882 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Map_icecream
+  m_TableCollectionNameGuidString: b697bdfea082e0841aab0d60c6c7db03
+  m_Entries:
+  - m_Id: 2508023086964736
+    m_Key: Desc_flamingo_diva
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849331
+  - m_Id: 2508023116324864
+    m_Key: Desc_otter_sailor
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849332
+  - m_Id: 2508023116324865
+    m_Key: Desc_parrot_tropical
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849333
+  - m_Id: 2508023116324866
+    m_Key: Desc_penguin_swimmer
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849334
+  - m_Id: 2508023116324867
+    m_Key: Desc_turtle_tycoon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849335
+  - m_Id: 2508023116324868
+    m_Key: Title_flamingo_diva
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849336
+  - m_Id: 2508023116324869
+    m_Key: Title_otter_sailor
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849337
+  - m_Id: 2508023116324870
+    m_Key: Title_parrot_tropical
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849338
+  - m_Id: 2508023116324871
+    m_Key: Title_penguin_swimmer
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849339
+  - m_Id: 2508023116324872
+    m_Key: Title_turtle_tycoon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849340
+  - m_Id: 3886976947191808
+    m_Key: Desc_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604485
+  - m_Id: 3886976968163328
+    m_Key: Desc_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604486
+  - m_Id: 3886976972357632
+    m_Key: Desc_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604487
+  - m_Id: 3886976972357633
+    m_Key: Desc_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604488
+  - m_Id: 3886976972357634
+    m_Key: Desc_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604489
+  - m_Id: 3886976972357635
+    m_Key: Title_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604490
+  - m_Id: 3886976972357636
+    m_Key: Title_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604491
+  - m_Id: 3886976972357637
+    m_Key: Title_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604492
+  - m_Id: 3886976972357638
+    m_Key: Title_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604493
+  - m_Id: 3886976972357639
+    m_Key: Title_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 2393388644896604494
+  - m_Id: 4741118217412608
+    m_Key: Desc_blender-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150432
+  - m_Id: 4741118242578432
+    m_Key: Title_blender-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150433
+  - m_Id: 4741118246772736
+    m_Key: Desc_blender-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150434
+  - m_Id: 4741118246772737
+    m_Key: Title_blender-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150435
+  - m_Id: 4741118246772738
+    m_Key: Desc_cone-maker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150436
+  - m_Id: 4741118246772739
+    m_Key: Title_cone-maker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150437
+  - m_Id: 4741118246772740
+    m_Key: Desc_cone-maker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150438
+  - m_Id: 4741118246772741
+    m_Key: Title_cone-maker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150439
+  - m_Id: 4741118246772742
+    m_Key: Desc_cutting-board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150440
+  - m_Id: 4741118246772743
+    m_Key: Title_cutting-board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150441
+  - m_Id: 4741118246772744
+    m_Key: Desc_cutting-board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150442
+  - m_Id: 4741118246772745
+    m_Key: Title_cutting-board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150443
+  - m_Id: 4741118246772746
+    m_Key: Desc_ice-shaver-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150444
+  - m_Id: 4741118246772747
+    m_Key: Title_ice-shaver-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150445
+  - m_Id: 4741118246772748
+    m_Key: Desc_ice-shaver-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150446
+  - m_Id: 4741118246772749
+    m_Key: Title_ice-shaver-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150447
+  - m_Id: 4741118250967040
+    m_Key: Desc_milkshake-mixer-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150448
+  - m_Id: 4741118250967041
+    m_Key: Title_milkshake-mixer-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150449
+  - m_Id: 4741118250967042
+    m_Key: Desc_milkshake-mixer-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150450
+  - m_Id: 4741118250967043
+    m_Key: Title_milkshake-mixer-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150451
+  - m_Id: 4376029102596096
+    m_Key: Title_cutting-board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150971
+  - m_Id: 4376029127761920
+    m_Key: Desc_cutting-board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150972
+  - m_Id: 4376040288804864
+    m_Key: Title_cutting-board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150973
+  - m_Id: 4376040288804865
+    m_Key: Desc_cutting-board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150974
+  - m_Id: 4376050443214848
+    m_Key: Title_cone-maker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150975
+  - m_Id: 4376050443214849
+    m_Key: Desc_cone-maker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150976
+  - m_Id: 4376060580847616
+    m_Key: Title_cone-maker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150977
+  - m_Id: 4376060580847617
+    m_Key: Desc_cone-maker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150978
+  - m_Id: 4376070466822144
+    m_Key: Title_blender-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150979
+  - m_Id: 4376070466822145
+    m_Key: Desc_blender-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150980
+  - m_Id: 4376080600260608
+    m_Key: Title_blender-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150981
+  - m_Id: 4376080600260609
+    m_Key: Desc_blender-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150982
+  - m_Id: 4376090578509824
+    m_Key: Title_ice-shaver-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150983
+  - m_Id: 4376090578509825
+    m_Key: Desc_ice-shaver-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150984
+  - m_Id: 4376100359626752
+    m_Key: Title_ice-shaver-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150985
+  - m_Id: 4376100359626753
+    m_Key: Desc_ice-shaver-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150986
+  - m_Id: 4376110191075328
+    m_Key: Title_milkshake-mixer-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150987
+  - m_Id: 4376110191075329
+    m_Key: Desc_milkshake-mixer-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150988
+  - m_Id: 4376120353873920
+    m_Key: Title_milkshake-mixer-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150989
+  - m_Id: 4376120353873921
+    m_Key: Desc_milkshake-mixer-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150990
+  - m_Id: 4376130302763008
+    m_Key: Title_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150991
+  - m_Id: 4376130302763009
+    m_Key: Desc_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150992
+  - m_Id: 4376140046131200
+    m_Key: Title_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150993
+  - m_Id: 4376140046131201
+    m_Key: Desc_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150994
+  - m_Id: 4376150624165888
+    m_Key: Title_logo-capy-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150995
+  - m_Id: 4376150624165889
+    m_Key: Desc_logo-capy-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150996
+  - m_Id: 4376162473074688
+    m_Key: Title_menu
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150997
+  - m_Id: 4376162473074689
+    m_Key: Desc_menu
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150998
+  - m_Id: 4376173952884736
+    m_Key: Title_roof_outhouse
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150999
+  - m_Id: 4376173952884737
+    m_Key: Desc_roof_outhouse
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151000
+  - m_Id: 4376183629144064
+    m_Key: Title_ice-cream-cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151001
+  - m_Id: 4376183629144065
+    m_Key: Desc_ice-cream-cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151002
+  - m_Id: 4376192844029952
+    m_Key: Title_door
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151003
+  - m_Id: 4376192844029953
+    m_Key: Desc_door
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151004
+  - m_Id: 4376202776141824
+    m_Key: Title_skateboard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151005
+  - m_Id: 4376202776141825
+    m_Key: Desc_skateboard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151006
+  - m_Id: 4376212494344192
+    m_Key: Title_decor-outside
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151007
+  - m_Id: 4376212494344193
+    m_Key: Desc_decor-outside
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151008
+  - m_Id: 4376222468399104
+    m_Key: Title_freezer
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151009
+  - m_Id: 4376222468399105
+    m_Key: Desc_freezer
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151010
+  - m_Id: 4376233121931264
+    m_Key: Title_roof-rainbow
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151011
+  - m_Id: 4376233121931265
+    m_Key: Desc_roof-rainbow
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151012
+  - m_Id: 4376244396220416
+    m_Key: Title_roof-grant-cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151013
+  - m_Id: 4376244396220417
+    m_Key: Desc_roof-grant-cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151014
+  - m_Id: 4376254550630400
+    m_Key: Title_roof-grant-cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151015
+  - m_Id: 4376254550630401
+    m_Key: Desc_roof-grant-cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734151016
+  - m_Id: 4769246990032896
+    m_Key: Desc_avocado
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373414
+  - m_Id: 4769247036170240
+    m_Key: Desc_avocado_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373415
+  - m_Id: 4769247036170241
+    m_Key: Desc_avocado_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373416
+  - m_Id: 4769247036170242
+    m_Key: Desc_banana
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373417
+  - m_Id: 4769247036170243
+    m_Key: Desc_banana_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373418
+  - m_Id: 4769247036170244
+    m_Key: Desc_banana_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373419
+  - m_Id: 4769247036170245
+    m_Key: Desc_blender_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373420
+  - m_Id: 4769247036170246
+    m_Key: Desc_blueberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373421
+  - m_Id: 4769247036170247
+    m_Key: Desc_blueberry_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373422
+  - m_Id: 4769247036170248
+    m_Key: Desc_cherry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373423
+  - m_Id: 4769247036170249
+    m_Key: Desc_cherry_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373424
+  - m_Id: 4769247036170250
+    m_Key: Desc_chocolate_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373425
+  - m_Id: 4769247036170251
+    m_Key: Desc_chocolate_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373426
+  - m_Id: 4769247036170252
+    m_Key: Desc_chocolate_topping_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373427
+  - m_Id: 4769247036170253
+    m_Key: Desc_coconut
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373428
+  - m_Id: 4769247036170254
+    m_Key: Desc_coconut_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373429
+  - m_Id: 4769247040364544
+    m_Key: Desc_coconut_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373430
+  - m_Id: 4769247040364545
+    m_Key: Desc_cone_batter
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373431
+  - m_Id: 4769247040364546
+    m_Key: Desc_cone_maker_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373432
+  - m_Id: 4769247040364547
+    m_Key: Desc_cutting_board_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373433
+  - m_Id: 4769247040364548
+    m_Key: Desc_flexible_cone
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373434
+  - m_Id: 4769247040364549
+    m_Key: Desc_flexible_cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373435
+  - m_Id: 4769247040364550
+    m_Key: Desc_flexible_milkshake
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373436
+  - m_Id: 4769247040364551
+    m_Key: Desc_flexible_shave_ice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373437
+  - m_Id: 4769247040364552
+    m_Key: Desc_flexible_smoothie
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373438
+  - m_Id: 4769247040364553
+    m_Key: Desc_grape_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373439
+  - m_Id: 4769247040364554
+    m_Key: Desc_grape_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373440
+  - m_Id: 4769247040364555
+    m_Key: Desc_grape_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373441
+  - m_Id: 4769247040364556
+    m_Key: Desc_greek_yogurt
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373442
+  - m_Id: 4769247040364557
+    m_Key: Desc_green_apple_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373443
+  - m_Id: 4769247040364558
+    m_Key: Desc_ice_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373444
+  - m_Id: 4769247040364559
+    m_Key: Desc_ice_shaver_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373445
+  - m_Id: 4769247040364560
+    m_Key: Desc_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373446
+  - m_Id: 4769247040364561
+    m_Key: Desc_kiwi_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373447
+  - m_Id: 4769247040364562
+    m_Key: Desc_lemon_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373448
+  - m_Id: 4769247040364563
+    m_Key: Desc_mango_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373449
+  - m_Id: 4769247040364564
+    m_Key: Desc_mango_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373450
+  - m_Id: 4769247040364565
+    m_Key: Desc_matcha_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373451
+  - m_Id: 4769247040364566
+    m_Key: Desc_matcha_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373452
+  - m_Id: 4769247040364567
+    m_Key: Desc_milk
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373453
+  - m_Id: 4769247040364568
+    m_Key: Desc_milkshake_mixer_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373454
+  - m_Id: 4769247040364569
+    m_Key: Desc_orange
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373455
+  - m_Id: 4769247040364570
+    m_Key: Desc_orange_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373456
+  - m_Id: 4769247040364571
+    m_Key: Desc_orange_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373457
+  - m_Id: 4769247040364572
+    m_Key: Desc_oreo_biscuit
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373458
+  - m_Id: 4769247040364573
+    m_Key: Desc_pocky
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373459
+  - m_Id: 4769247040364574
+    m_Key: Desc_rainbow_jelly
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373460
+  - m_Id: 4769247044558848
+    m_Key: Desc_shaved_ice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373461
+  - m_Id: 4769247044558849
+    m_Key: Desc_sprinkles
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373462
+  - m_Id: 4769247044558850
+    m_Key: Desc_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373463
+  - m_Id: 4769247044558851
+    m_Key: Desc_strawberry_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373464
+  - m_Id: 4769247044558852
+    m_Key: Desc_strawberry_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373465
+  - m_Id: 4769247044558853
+    m_Key: Desc_strawberry_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373466
+  - m_Id: 4769247044558854
+    m_Key: Desc_strawberry_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373467
+  - m_Id: 4769247044558855
+    m_Key: Desc_strawberry_topping_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373468
+  - m_Id: 4769247044558856
+    m_Key: Desc_vanilla_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373469
+  - m_Id: 4769247044558857
+    m_Key: Desc_vanilla_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373470
+  - m_Id: 4769247044558858
+    m_Key: Desc_waffle_cone
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373471
+  - m_Id: 4769247044558859
+    m_Key: Desc_whipping_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373472
+  - m_Id: 4769247044558860
+    m_Key: Desc_white_jelly
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373473
+  - m_Id: 4769247044558861
+    m_Key: Title_avocado
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373474
+  - m_Id: 4769247044558862
+    m_Key: Title_avocado_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373475
+  - m_Id: 4769247044558863
+    m_Key: Title_avocado_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373476
+  - m_Id: 4769247044558864
+    m_Key: Title_banana
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373477
+  - m_Id: 4769247044558865
+    m_Key: Title_banana_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373478
+  - m_Id: 4769247044558866
+    m_Key: Title_banana_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373479
+  - m_Id: 4769247044558867
+    m_Key: Title_blender_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373480
+  - m_Id: 4769247044558868
+    m_Key: Title_blueberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373481
+  - m_Id: 4769247044558869
+    m_Key: Title_blueberry_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373482
+  - m_Id: 4769247044558870
+    m_Key: Title_cherry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373483
+  - m_Id: 4769247044558871
+    m_Key: Title_cherry_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373484
+  - m_Id: 4769247044558872
+    m_Key: Title_chocolate_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373485
+  - m_Id: 4769247044558873
+    m_Key: Title_chocolate_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373486
+  - m_Id: 4769247044558874
+    m_Key: Title_chocolate_topping_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373487
+  - m_Id: 4769247044558875
+    m_Key: Title_coconut
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373488
+  - m_Id: 4769247044558876
+    m_Key: Title_coconut_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373489
+  - m_Id: 4769247044558877
+    m_Key: Title_coconut_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373490
+  - m_Id: 4769247044558878
+    m_Key: Title_cone_batter
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373491
+  - m_Id: 4769247044558879
+    m_Key: Title_cone_maker_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373492
+  - m_Id: 4769247044558880
+    m_Key: Title_cutting_board_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373493
+  - m_Id: 4769247044558881
+    m_Key: Title_flexible_cone
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373494
+  - m_Id: 4769247044558882
+    m_Key: Title_flexible_cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373495
+  - m_Id: 4769247044558883
+    m_Key: Title_flexible_milkshake
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373496
+  - m_Id: 4769247044558884
+    m_Key: Title_flexible_shave_ice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373497
+  - m_Id: 4769247044558885
+    m_Key: Title_flexible_smoothie
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373498
+  - m_Id: 4769247044558886
+    m_Key: Title_grape_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373499
+  - m_Id: 4769247044558887
+    m_Key: Title_grape_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373500
+  - m_Id: 4769247044558888
+    m_Key: Title_grape_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373501
+  - m_Id: 4769247044558889
+    m_Key: Title_greek_yogurt
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373502
+  - m_Id: 4769247044558890
+    m_Key: Title_green_apple_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373503
+  - m_Id: 4769247044558891
+    m_Key: Title_ice_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373504
+  - m_Id: 4769247044558892
+    m_Key: Title_ice_shaver_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373505
+  - m_Id: 4769247044558893
+    m_Key: Title_kiwi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373506
+  - m_Id: 4769247044558894
+    m_Key: Title_kiwi_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373507
+  - m_Id: 4769247044558895
+    m_Key: Title_lemon_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373508
+  - m_Id: 4769247044558896
+    m_Key: Title_mango_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373509
+  - m_Id: 4769247044558897
+    m_Key: Title_mango_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373510
+  - m_Id: 4769247044558898
+    m_Key: Title_matcha_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373511
+  - m_Id: 4769247044558899
+    m_Key: Title_matcha_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373512
+  - m_Id: 4769247044558900
+    m_Key: Title_milk
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373513
+  - m_Id: 4769247044558901
+    m_Key: Title_milkshake_mixer_ice_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373514
+  - m_Id: 4769247044558902
+    m_Key: Title_orange
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373515
+  - m_Id: 4769247044558903
+    m_Key: Title_orange_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373516
+  - m_Id: 4769247044558904
+    m_Key: Title_orange_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373517
+  - m_Id: 4769247044558905
+    m_Key: Title_oreo_biscuit
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373518
+  - m_Id: 4769247044558906
+    m_Key: Title_pocky
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373519
+  - m_Id: 4769247044558907
+    m_Key: Title_rainbow_jelly
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373520
+  - m_Id: 4769247044558908
+    m_Key: Title_shaved_ice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373521
+  - m_Id: 4769247044558909
+    m_Key: Title_sprinkles
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373522
+  - m_Id: 4769247044558910
+    m_Key: Title_strawberry
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373523
+  - m_Id: 4769247044558911
+    m_Key: Title_strawberry_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373524
+  - m_Id: 4769247044558912
+    m_Key: Title_strawberry_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373525
+  - m_Id: 4769247044558913
+    m_Key: Title_strawberry_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373526
+  - m_Id: 4769247044558914
+    m_Key: Title_strawberry_smoothie_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373527
+  - m_Id: 4769247044558915
+    m_Key: Title_strawberry_topping_syrup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373528
+  - m_Id: 4769247044558916
+    m_Key: Title_vanilla_ice_cream_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373529
+  - m_Id: 4769247044558917
+    m_Key: Title_vanilla_milkshake_base
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373530
+  - m_Id: 4769247044558918
+    m_Key: Title_waffle_cone
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373531
+  - m_Id: 4769247044558919
+    m_Key: Title_whipping_cream
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373532
+  - m_Id: 4769247044558920
+    m_Key: Title_white_jelly
+    m_Metadata:
+      m_Items:
+      - rid: 5047051217500373533
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5047050914706490151
+  references:
+    version: 2
+    RefIds:
+    - rid: 2393388644896604485
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[0] (description)
+    - rid: 2393388644896604486
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[1] (description)
+    - rid: 2393388644896604487
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[2] (description)
+    - rid: 2393388644896604488
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[3] (description)
+    - rid: 2393388644896604489
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[4] (description)
+    - rid: 2393388644896604490
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[0] (name)
+    - rid: 2393388644896604491
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[1] (name)
+    - rid: 2393388644896604492
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[2] (name)
+    - rid: 2393388644896604493
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[3] (name)
+    - rid: 2393388644896604494
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-icecream[4] (name)
+    - rid: 5047050914706490151
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1791023651997
+    - rid: 5047051070982849331
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-flamingo_diva (description)
+    - rid: 5047051070982849332
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-otter_sailor (description)
+    - rid: 5047051070982849333
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-parrot_tropical (description)
+    - rid: 5047051070982849334
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-penguin_swimmer (description)
+    - rid: 5047051070982849335
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-turtle_tycoon (description)
+    - rid: 5047051070982849336
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-flamingo_diva (name)
+    - rid: 5047051070982849337
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-otter_sailor (name)
+    - rid: 5047051070982849338
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-parrot_tropical (name)
+    - rid: 5047051070982849339
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-penguin_swimmer (name)
+    - rid: 5047051070982849340
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-turtle_tycoon (name)
+    - rid: 5047051213734150432
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv4 (description)
+    - rid: 5047051213734150433
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv4 (name)
+    - rid: 5047051213734150434
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv5 (description)
+    - rid: 5047051213734150435
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv5 (name)
+    - rid: 5047051213734150436
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv4 (description)
+    - rid: 5047051213734150437
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv4 (name)
+    - rid: 5047051213734150438
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv5 (description)
+    - rid: 5047051213734150439
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv5 (name)
+    - rid: 5047051213734150440
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv4 (description)
+    - rid: 5047051213734150441
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv4 (name)
+    - rid: 5047051213734150442
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv5 (description)
+    - rid: 5047051213734150443
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv5 (name)
+    - rid: 5047051213734150444
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv4 (description)
+    - rid: 5047051213734150445
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv4 (name)
+    - rid: 5047051213734150446
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv5 (description)
+    - rid: 5047051213734150447
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv5 (name)
+    - rid: 5047051213734150448
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv4 (description)
+    - rid: 5047051213734150449
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv4 (name)
+    - rid: 5047051213734150450
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv5 (description)
+    - rid: 5047051213734150451
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv5 (name)
+    - rid: 5047051213734150971
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv2 (name)
+    - rid: 5047051213734150972
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv2 (description)
+    - rid: 5047051213734150973
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv3 (name)
+    - rid: 5047051213734150974
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cutting-board-lv3 (description)
+    - rid: 5047051213734150975
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv2 (name)
+    - rid: 5047051213734150976
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv2 (description)
+    - rid: 5047051213734150977
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv3 (name)
+    - rid: 5047051213734150978
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-cone-maker-lv3 (description)
+    - rid: 5047051213734150979
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv2 (name)
+    - rid: 5047051213734150980
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv2 (description)
+    - rid: 5047051213734150981
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv3 (name)
+    - rid: 5047051213734150982
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-blender-lv3 (description)
+    - rid: 5047051213734150983
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv2 (name)
+    - rid: 5047051213734150984
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv2 (description)
+    - rid: 5047051213734150985
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv3 (name)
+    - rid: 5047051213734150986
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-ice-shaver-lv3 (description)
+    - rid: 5047051213734150987
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv2 (name)
+    - rid: 5047051213734150988
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv2 (description)
+    - rid: 5047051213734150989
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv3 (name)
+    - rid: 5047051213734150990
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-icecream-tool-milkshake-mixer-lv3 (description)
+    - rid: 5047051213734150991
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-base (name)
+    - rid: 5047051213734150992
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-base (description)
+    - rid: 5047051213734150993
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-base_lv2 (name)
+    - rid: 5047051213734150994
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-base_lv2 (description)
+    - rid: 5047051213734150995
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-logo-lv1 (name)
+    - rid: 5047051213734150996
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-logo-lv1 (description)
+    - rid: 5047051213734150997
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-menu (name)
+    - rid: 5047051213734150998
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-menu (description)
+    - rid: 5047051213734150999
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-roof (name)
+    - rid: 5047051213734151000
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-roof (description)
+    - rid: 5047051213734151001
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-decor (name)
+    - rid: 5047051213734151002
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-decor (description)
+    - rid: 5047051213734151003
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-door (name)
+    - rid: 5047051213734151004
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-door (description)
+    - rid: 5047051213734151005
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-skateboard (name)
+    - rid: 5047051213734151006
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-skateboard (description)
+    - rid: 5047051213734151007
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-decoroutside (name)
+    - rid: 5047051213734151008
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-decoroutside (description)
+    - rid: 5047051213734151009
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-freezer (name)
+    - rid: 5047051213734151010
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-freezer (description)
+    - rid: 5047051213734151011
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-rainbow (name)
+    - rid: 5047051213734151012
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-rainbow (description)
+    - rid: 5047051213734151013
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-grantcream (name)
+    - rid: 5047051213734151014
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-grantcream (description)
+    - rid: 5047051213734151015
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-grantcup (name)
+    - rid: 5047051213734151016
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-iceCream-grantcup (description)
+    - rid: 5047051217500373414
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado (description)
+    - rid: 5047051217500373415
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_sliced (description)
+    - rid: 5047051217500373416
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_smoothie_base (description)
+    - rid: 5047051217500373417
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana (description)
+    - rid: 5047051217500373418
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana_sliced (description)
+    - rid: 5047051217500373419
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana_smoothie_base (description)
+    - rid: 5047051217500373420
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO blender_ice_cream (description)
+    - rid: 5047051217500373421
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO blueberry (description)
+    - rid: 5047051217500373422
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO blueberry_smoothie_base (description)
+    - rid: 5047051217500373423
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cherry (description)
+    - rid: 5047051217500373424
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cherry_syrup (description)
+    - rid: 5047051217500373425
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_ice_cream_base (description)
+    - rid: 5047051217500373426
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_milkshake_base (description)
+    - rid: 5047051217500373427
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_topping_syrup (description)
+    - rid: 5047051217500373428
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut (description)
+    - rid: 5047051217500373429
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut_sliced (description)
+    - rid: 5047051217500373430
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut_smoothie_base (description)
+    - rid: 5047051217500373431
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cone_batter (description)
+    - rid: 5047051217500373432
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cone_maker_ice_cream (description)
+    - rid: 5047051217500373433
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_ice_cream (description)
+    - rid: 5047051217500373434
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_cone (description)
+    - rid: 5047051217500373435
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_cup (description)
+    - rid: 5047051217500373436
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_milkshake (description)
+    - rid: 5047051217500373437
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_shave_ice (description)
+    - rid: 5047051217500373438
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_smoothie (description)
+    - rid: 5047051217500373439
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_ice_cream_base (description)
+    - rid: 5047051217500373440
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_milkshake_base (description)
+    - rid: 5047051217500373441
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_syrup (description)
+    - rid: 5047051217500373442
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO greek_yogurt (description)
+    - rid: 5047051217500373443
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO green_apple_syrup (description)
+    - rid: 5047051217500373444
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice_cube (description)
+    - rid: 5047051217500373445
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO ice_shaver_ice_cream (description)
+    - rid: 5047051217500373446
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi (description)
+    - rid: 5047051217500373447
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_sliced (description)
+    - rid: 5047051217500373448
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon_syrup (description)
+    - rid: 5047051217500373449
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_ice_cream_base (description)
+    - rid: 5047051217500373450
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_milkshake_base (description)
+    - rid: 5047051217500373451
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO matcha_ice_cream_base (description)
+    - rid: 5047051217500373452
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO matcha_milkshake_base (description)
+    - rid: 5047051217500373453
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (description)
+    - rid: 5047051217500373454
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO milkshake_mixer_ice_cream (description)
+    - rid: 5047051217500373455
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange (description)
+    - rid: 5047051217500373456
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange_sliced (description)
+    - rid: 5047051217500373457
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange_smoothie_base (description)
+    - rid: 5047051217500373458
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO oreo_biscuit (description)
+    - rid: 5047051217500373459
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pocky (description)
+    - rid: 5047051217500373460
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rainbow_jelly (description)
+    - rid: 5047051217500373461
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shaved_ice (description)
+    - rid: 5047051217500373462
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sprinkles (description)
+    - rid: 5047051217500373463
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry (description)
+    - rid: 5047051217500373464
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_ice_cream_base (description)
+    - rid: 5047051217500373465
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_milkshake_base (description)
+    - rid: 5047051217500373466
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_sliced (description)
+    - rid: 5047051217500373467
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_smoothie_base (description)
+    - rid: 5047051217500373468
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_topping_syrup (description)
+    - rid: 5047051217500373469
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO vanilla_ice_cream_base (description)
+    - rid: 5047051217500373470
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO vanilla_milkshake_base (description)
+    - rid: 5047051217500373471
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO waffle_cone (description)
+    - rid: 5047051217500373472
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO whipping_cream (description)
+    - rid: 5047051217500373473
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO white_jelly (description)
+    - rid: 5047051217500373474
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado (name)
+    - rid: 5047051217500373475
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_sliced (name)
+    - rid: 5047051217500373476
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_smoothie_base (name)
+    - rid: 5047051217500373477
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana (name)
+    - rid: 5047051217500373478
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana_sliced (name)
+    - rid: 5047051217500373479
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO banana_smoothie_base (name)
+    - rid: 5047051217500373480
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO blender_ice_cream (name)
+    - rid: 5047051217500373481
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO blueberry (name)
+    - rid: 5047051217500373482
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO blueberry_smoothie_base (name)
+    - rid: 5047051217500373483
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cherry (name)
+    - rid: 5047051217500373484
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cherry_syrup (name)
+    - rid: 5047051217500373485
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_ice_cream_base (name)
+    - rid: 5047051217500373486
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_milkshake_base (name)
+    - rid: 5047051217500373487
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO chocolate_topping_syrup (name)
+    - rid: 5047051217500373488
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut (name)
+    - rid: 5047051217500373489
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut_sliced (name)
+    - rid: 5047051217500373490
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO coconut_smoothie_base (name)
+    - rid: 5047051217500373491
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cone_batter (name)
+    - rid: 5047051217500373492
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cone_maker_ice_cream (name)
+    - rid: 5047051217500373493
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_ice_cream (name)
+    - rid: 5047051217500373494
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_cone (name)
+    - rid: 5047051217500373495
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_cup (name)
+    - rid: 5047051217500373496
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_milkshake (name)
+    - rid: 5047051217500373497
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_shave_ice (name)
+    - rid: 5047051217500373498
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_smoothie (name)
+    - rid: 5047051217500373499
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_ice_cream_base (name)
+    - rid: 5047051217500373500
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_milkshake_base (name)
+    - rid: 5047051217500373501
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO grape_syrup (name)
+    - rid: 5047051217500373502
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO greek_yogurt (name)
+    - rid: 5047051217500373503
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO green_apple_syrup (name)
+    - rid: 5047051217500373504
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO ice_cube (name)
+    - rid: 5047051217500373505
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO ice_shaver_ice_cream (name)
+    - rid: 5047051217500373506
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi (name)
+    - rid: 5047051217500373507
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO kiwi_sliced (name)
+    - rid: 5047051217500373508
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon_syrup (name)
+    - rid: 5047051217500373509
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_ice_cream_base (name)
+    - rid: 5047051217500373510
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mango_milkshake_base (name)
+    - rid: 5047051217500373511
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO matcha_ice_cream_base (name)
+    - rid: 5047051217500373512
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO matcha_milkshake_base (name)
+    - rid: 5047051217500373513
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO milk (name)
+    - rid: 5047051217500373514
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO milkshake_mixer_ice_cream (name)
+    - rid: 5047051217500373515
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange (name)
+    - rid: 5047051217500373516
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange_sliced (name)
+    - rid: 5047051217500373517
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO orange_smoothie_base (name)
+    - rid: 5047051217500373518
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO oreo_biscuit (name)
+    - rid: 5047051217500373519
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO pocky (name)
+    - rid: 5047051217500373520
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rainbow_jelly (name)
+    - rid: 5047051217500373521
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shaved_ice (name)
+    - rid: 5047051217500373522
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO sprinkles (name)
+    - rid: 5047051217500373523
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry (name)
+    - rid: 5047051217500373524
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_ice_cream_base (name)
+    - rid: 5047051217500373525
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_milkshake_base (name)
+    - rid: 5047051217500373526
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_sliced (name)
+    - rid: 5047051217500373527
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_smoothie_base (name)
+    - rid: 5047051217500373528
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO strawberry_topping_syrup (name)
+    - rid: 5047051217500373529
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO vanilla_ice_cream_base (name)
+    - rid: 5047051217500373530
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO vanilla_milkshake_base (name)
+    - rid: 5047051217500373531
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO waffle_cone (name)
+    - rid: 5047051217500373532
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO whipping_cream (name)
+    - rid: 5047051217500373533
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO white_jelly (name)

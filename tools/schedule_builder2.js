@@ -1,0 +1,40 @@
+const {patch}=require('D:/Unity/Foodie/tools/setbody.js');
+const p='D:/Unity/Foodie/UnityProject/Assets/Plugins/CakeOrder/CakeOrder.InGame/CustomerScheduleBuilder.cs';
+patch(p,[
+ ['private void CollectRecipePieces(OrderMemberData member, List<int> pieces)',[
+  'if (member == null)',
+  '{',
+  '\treturn;',
+  '}',
+  'if (member.kind == 0)',
+  '{',
+  '\tif (member.asset is IngredientNodeAsset ingredient && _ingredientLookup.TryGetServableRecipePieceIndex(ingredient, out var pieceIndex))',
+  '\t{',
+  '\t\tpieces.Add(pieceIndex);',
+  '\t}',
+  '\telse',
+  '\t{',
+  '\t\tUnityEngine.Debug.LogWarning("[CustomerScheduleBuilder] order member " + member.id + " is not a servable recipe piece in " + _ingredientLookup.name, _ingredientLookup);',
+  '\t}',
+  '}',
+  'if (member.members != null)',
+  '{',
+  '\tforeach (OrderMemberData child in member.members)',
+  '\t{',
+  '\t\tCollectRecipePieces(child, pieces);',
+  '\t}',
+  '}']],
+ ['private int DishOf(DishOrderData dish)',[
+  'if (!_ingredientLookup.HasDishes)',
+  '{',
+  '\treturn 0;',
+  '}',
+  'OrderMemberData root = dish != null ? dish.root : null;',
+  'if (root != null && root.asset is CompositeNodeAsset composite && _ingredientLookup.TryGetDishKind(composite, out var kind))',
+  '{',
+  '\treturn kind;',
+  '}',
+  'UnityEngine.Debug.LogWarning("[CustomerScheduleBuilder] dish root " + (root != null ? root.id.ToString() : "null") + " has no dish kind in " + _ingredientLookup.name, _ingredientLookup);',
+  'return 0;']],
+],{methodTabs:1});
+console.log('ok');

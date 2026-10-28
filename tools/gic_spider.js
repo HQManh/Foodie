@@ -1,0 +1,56 @@
+const fs=require('fs');
+const {patch}=require('D:/Unity/Foodie/tools/setbody.js');
+const p='D:/Unity/Foodie/UnityProject/Assets/Scripts/Assembly-CSharp/AnhPD/FoodOrder/GridIngController.cs';
+let s=fs.readFileSync(p,'utf8'); const nl=s.includes('\r\n')?'\r\n':'\n';
+const attr='\t\t[IteratorStateMachine(typeof(_003CSpiderCleanRoutine_003Ed__102))]'+nl+'\t\tprivate IEnumerator SpiderCleanRoutine(';
+if(!s.includes(attr)) throw new Error('nf attr');
+s=s.replace(attr,'\t\tprivate IEnumerator SpiderCleanRoutine('); fs.writeFileSync(p,s);
+patch(p,[['private IEnumerator SpiderCleanRoutine(Action onFinished)',[
+ '// Rebuilt from the decompiled state machine, written as a real iterator.',
+ '_spiderRunning = true;',
+ 'SetInteractBlocked(true);',
+ 'List<DragItemStackable> targets;',
+ 'if (!spiderCleansAllStacks)',
+ '{',
+ '\ttargets = _dirtyCleaner.TallestStackOnly();',
+ '}',
+ 'else',
+ '{',
+ '\ttargets = _dirtyCleaner.GatherByType(out float gatherWait);',
+ '\tif (gatherWait > 0f)',
+ '\t{',
+ '\t\tyield return new WaitForSeconds(gatherWait);',
+ '\t}',
+ '}',
+ 'if (targets.Count > 0)',
+ '{',
+ '\tbool finished = false;',
+ '\t// The original spawns the spider from a pool; a plain instance is used here and destroyed once it reports done.',
+ '\tSpiderCleanerFx spider = Instantiate(spiderPrefab, transform.position, Quaternion.identity);',
+ '\tspider.gameObject.SetActive(true);',
+ '\tspider.Play(targets, delegate(DragItem item)',
+ '\t{',
+ '\t\tif (MessyController.Ins != null)',
+ '\t\t{',
+ '\t\t\tMessyController.Ins.DespawnItem(item);',
+ '\t\t}',
+ '\t}, delegate',
+ '\t{',
+ '\t\tfinished = true;',
+ '\t});',
+ '\tfloat waited = 0f;',
+ '\twhile (!finished && waited < SpiderTimeout)',
+ '\t{',
+ '\t\twaited += Time.deltaTime;',
+ '\t\tyield return null;',
+ '\t}',
+ '\tif (spider != null)',
+ '\t{',
+ '\t\tDestroy(spider.gameObject);',
+ '\t}',
+ '}',
+ 'RefreshCellDishes();',
+ '_spiderRunning = false;',
+ 'SetInteractBlocked(false);',
+ 'onFinished?.Invoke();']]],{methodTabs:2});
+console.log('ok');

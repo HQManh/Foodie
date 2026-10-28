@@ -1,0 +1,1095 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41bad7d4975b3cd3b55837c4b5cec18, type: 3}
+  m_Name: RecipeConfigSO-burger
+  m_EditorClassIdentifier:
+  ingredients:
+  - id: burger
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 7b1f112f8ce23684aa169b836a141ec0, type: 2}
+      id: burger
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 966e5341fc305864a84034c2f85ef00e, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114589667821646929, guid: e7b2da333bb422b48a434e73f4d8cec2, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: burger_bun_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 67e9db3a947e64a4095dd8cdca83b01d, type: 2}
+      id: burger_bun_raw
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 45c83676d6d825645b6601476cf9a29d, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 057dfcce4368f2f418c930eefc736a3f, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 00000000
+  - id: burger_bun
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f6495b7fd64ef95489c1975fa35a3c8d, type: 2}
+      id: burger_bun
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e1eb92f5cb81e394faaa58cd18611ded, type: 2}
+    dishKind: 1
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 2a483e20ead798e4288c957c18033281, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 00000000
+  - id: beef_patty_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5231dd94ccd9175498da6729e56470d6, type: 2}
+      id: beef_patty_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4bbca408e694dca4997efc3598f58f58, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: fae30bdbba215244b95d77e56a2c0304, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 01000000
+  - id: beef_patty
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 60a2ba9780d73a54694b49b3ae9fe887, type: 2}
+      id: beef_patty
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 391b980cb095134479d6d9b470567e5c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 90a49da3f3a9bb04b95946953750b4c8, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 01000000
+  - id: cheese
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fdb1a8ee77306494c9924b1e1f5ca604, type: 2}
+      id: cheese
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 02722d7d54fbbea4bb26415a7645d6b1, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a9f25d4d3154f194188e4d2694b0ccb9, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 05000000
+  - id: cheese_cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f15ce3d206e95c344bd02dd387a58efd, type: 2}
+      id: cheese_cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c3842772dc4bd1b4b87db68886463651, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 0499e05926fd7034ab922dd4045362ed, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 05000000
+  - id: lettuce_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a6899ba2f855a70489d6e4c55d236f70, type: 2}
+      id: lettuce_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c70e6b9bb0b215341b1ab112dd5e30a2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 42802f34c14dfe548818644f78a77efe, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 03000000
+  - id: lettuce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3d3875ad9ff8bd64bae5eefb5fb8f133, type: 2}
+      id: lettuce
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7de1c2821365bcb4cbda2d56713a090a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: b9f9cfc2e3cea434e8f7179ab53253f5, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 03000000
+  - id: tomato
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 2975fef846e96fd4d86d9f9950ada125, type: 2}
+      id: tomato
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 36aa83702a98ab44a9f1e42f92628c23, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: df9dc27078a0cc94e98fe0560479b302, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 02000000
+  - id: tomato_cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: c07197e99d3a3454eaad2da24736e41f, type: 2}
+      id: tomato_cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: cd748fc8d5c2da04f95f31cd8624598f, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 34ffb1d4849eca442ae69d6a9a687553, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 02000000
+  - id: red_onion
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3e8a5293f1d7c284a9f0afef74f53cf6, type: 2}
+      id: red_onion
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 35507e0193b06d6468cac34bafeaed7e, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: a61be09a65cfd79429e21d33a38e886d, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 04000000
+  - id: red_onion_cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 428beecaa37e5f0409f66b187392bd97, type: 2}
+      id: red_onion_cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e0bd7ede0c9cc164191ada5d76632037, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 587abde581e41074f98ebc67a04ba2c2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 04000000
+  - id: egg
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 81d63492025f80847a1b1fbc945653f1, type: 2}
+      id: egg
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3d85503e889f7dd498a447ea0dd5863a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e3e1f93273b74ca4daea9856ca876bce, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 06000000
+  - id: egg_fried
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fc025d9be5067024399e04aeeee523a4, type: 2}
+      id: egg_fried
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 9a93143c5ed2a3a4b9ab2e56ef4353c5, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 70c20e04e70490f4fbebe485f5966eac, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 06000000
+  - id: cup
+    displayConfig:
+      sprite: {fileID: 21300000, guid: b3c681c15ec0fe548936b153d48e76a8, type: 2}
+      id: cup
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7e8dacd67b66b1e4a99fa4ddff6ec2ec, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: e8b65b9d3f31c9a41bad8dfddd44a208, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 07000000
+  - id: cup_coca
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 89e680ce27deb7749bfacf1b356f9e99, type: 2}
+      id: cup_coca
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 6bae1f33e1213684aa0cac9adc586602, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: d1527f7eaaa1aeb4d995a7d8e7715abc, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 07000000
+  - id: cup_coca_ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 5267014010fae794a8cc3b8f15dc9175, type: 2}
+      id: cup_coca_ice
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: c05e06a4c699d0f41afabf20b0cd8c7a, type: 2}
+    dishKind: 2
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: da9aa9253359a8443983653b7fa0fd6d, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0700000008000000
+  - id: ice
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 46b71e7cb81d0854886d9bb54ada1eab, type: 2}
+      id: ice
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 52bf21b15af901c4b879beba80b87ccd, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 247ab63a3297ae7469097a4b6b74ba29, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 08000000
+  - id: kfc_combo
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 20f420826acc7c746b213d52f4a7d8fd, type: 2}
+      id: kfc_combo
+      type: 0
+      scale: 3.7
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: eba28b8cef4694d4a9442736cb9e3503, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114841364053301648, guid: c21c04ceeb1c3c449adc57a24a0579b6, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: chicken_breast_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e9dc33e3a3c084844976b1faa8bc9959, type: 2}
+      id: chicken_breast_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 1532b8d57e4fa964286158c0218c8aca, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 52c3f16a7f1546f499ba1ed18af4407e, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 09000000
+  - id: chicken_thigh_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 14cfe84fd73c9f343ab612f4d1aaf481, type: 2}
+      id: chicken_thigh_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 311e3570783246e488f66c148ee437d2, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 886c3edb4c180944f851c174f360d247, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0b000000
+  - id: chicken_wing_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 0249efb2d5f4759408bb4a6aab0d9f90, type: 2}
+      id: chicken_wing_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7764e5299c7421b4e84d5214cf0dafd8, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 11213b69a4d8eec43a3b6917f6802ca6, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0a000000
+  - id: chicken_nugget_raw
+    displayConfig:
+      sprite: {fileID: 21300000, guid: adfa32c08a495a44592fea93d20657af, type: 2}
+      id: chicken_nugget_raw
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 8838468225807b146b36f7550c0110a1, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 1a81df5e8c0f3164385c2f7dfbec8f6d, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0c000000
+  - id: chicken_wing_coating
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 2bcdf6d1bc40dff468832e1623d30d27, type: 2}
+      id: chicken_wing_coating
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 2a4373fa16ed9a54685af237a8a5a9f0, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: b0c5437de8b77a844af3d43a3cf000d3, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 0a000000
+  - id: chicken_thigh_coating
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 181870bbc57bf4d418c7b75c39045167, type: 2}
+      id: chicken_thigh_coating
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 57b0b0e419f409e46a6bb4dda991de0b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: b2fe39ce2d82b2a4889bebf8317f3362, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 0b000000
+  - id: chicken_nugget_coating
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 64bf9a4eb4e6d7c41a5c0abda3c0905e, type: 2}
+      id: chicken_nugget_coating
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 3a2ab4f6c4901f947961cac48b345826, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 802ab78ac40e6fd46ac8d6d21efe2d8c, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 0c000000
+  - id: chicken_breast_coating
+    displayConfig:
+      sprite: {fileID: 21300000, guid: da40b839f5c42714bba4704df26743d5, type: 2}
+      id: chicken_breast_coating
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 7ffd549e1fa054b4893d4e94403a1f6b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d9946bcb5e6f2334aa81b762a7c94530, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 09000000
+  - id: display_wing
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1972b8c580dee054681612dadb5fae2b, type: 2}
+      id: display_wing
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 2
+      pieces: 0a000000
+  - id: display_thigh
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 649f889b067374949b00958936c6f106, type: 2}
+      id: display_thigh
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 2
+      pieces: 0b000000
+  - id: display_nugget
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 6b0830d0beb0b504291916478337f26b, type: 2}
+      id: display_nugget
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 2
+      pieces: 0c000000
+  - id: display_breast
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 81087c5cfa6cd46478bd3330539fa1ca, type: 2}
+      id: display_breast
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 0}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 0}
+    pieceConfig:
+      role: 2
+      pieces: 09000000
+  - id: chicken_kfc
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 649f889b067374949b00958936c6f106, type: 2}
+      id: chicken_kfc
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: eb9a70203f2ab3b4fa041b5fd172a6d8, type: 2}
+    dishKind: 3
+    gameplayConfig:
+      prefab: {fileID: 114632457200066912, guid: ad9169da3c234f940b22ee7b40ab3659, type: 2}
+    pieceConfig:
+      role: 0
+      pieces:
+  - id: chili_powder
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 3834641ae7e271344aa0d4fa436f32a8, type: 2}
+      id: chili_powder
+      type: 0
+      scale: 0.9
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e3299760474660744ae3128f327b1343, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: cb6afca2fc0f96d4e9de425bd74019a1, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0e000000
+  - id: potato
+    displayConfig:
+      sprite: {fileID: 21300000, guid: fe449bd8ede3f214394bc53d27a431b5, type: 2}
+      id: potato
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 786a05a34f02ebe4d9aadcbdcb40a91a, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 17b8d295f3abdde45976eb4ec624ecd5, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0d000000
+  - id: potato_cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 67c16a80f6ead484aa2afbf02e22ca86, type: 2}
+      id: potato_cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e19998d8114d07a44b56c9df7c30097c, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: fd5e927250bd26642a813658d0b2f0ec, type: 2}
+    pieceConfig:
+      role: 3
+      pieces: 0d000000
+  - id: potato_fried
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 532652879e5d07f4a8931bed0ce14e57, type: 2}
+      id: potato_fried
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 62f3b11ad89811d45a0ae6ecee7ede7f, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 5585bfefe837ae34f928f829048616d2, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d000000
+  - id: potato_fried_cheese
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 1aa8cd6487a15024d91d3807e41e2c53, type: 2}
+      id: potato_fried_cheese
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 50112beadb59c5f4eaa74e35e5061936, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114099118695303065, guid: 09a1e5786484b9f468ba347bb982565f, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d00000010000000
+  - id: cheese_sauce
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 23a3131e4c09aeb45b7d91713319d752, type: 2}
+      id: cheese_sauce
+      type: 0
+      scale: 1
+      offset: {x: 0, y: -0.05}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 73b09b8f9b9ea1b4fadd7ed9aaeadc4b, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 47ad904739efd6d459c25e6771719cf3, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 10000000
+  - id: chives
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d78573255ac6fa942a5f3bf9e8e95056, type: 2}
+      id: chives
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e59b0132ac6e2ff4c93249b7a6731731, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: 4336569f95734684da588e2f4f87d1b9, type: 2}
+    pieceConfig:
+      role: 1
+      pieces: 0f000000
+  - id: chives_cut
+    displayConfig:
+      sprite: {fileID: 21300000, guid: e6c9bbaec7d7cbe4fa8e2e4da8587aea, type: 2}
+      id: chives_cut
+      type: 0
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 4c40dd01ef4ce944fa4072d0189b8ed4, type: 2}
+    dishKind: 0
+    gameplayConfig:
+      prefab: {fileID: 114618682377417806, guid: d4381d3a34449064795a0738849225ac, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0f000000
+  - id: potato_fried_chives
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 67c0e3a0f73479d42b018ceb3ccc0e25, type: 2}
+      id: potato_fried_chives
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: 85e53d42fe5524e49854648a061e0607, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 5e4bdb2e91ef60942a8484da69717166, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d0000000f000000
+  - id: potato_fried_chives_cheese
+    displayConfig:
+      sprite: {fileID: 21300000, guid: f747c08b6d917e94faaec945a8e81792, type: 2}
+      id: potato_fried_chives_cheese
+      type: 0
+      scale: 0.8
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    ingSO: {fileID: 11400000, guid: e480f96f39ea08a4ead0b33cf3d9315d, type: 2}
+    dishKind: 4
+    gameplayConfig:
+      prefab: {fileID: 114703437598541787, guid: 4b41b731acc475648b9af2dad27da8a0, type: 2}
+    pieceConfig:
+      role: 2
+      pieces: 0d0000000f00000010000000
+  stations:
+  - id: burger_0_griddle
+    displayConfig:
+      sprite: {fileID: 21300000, guid: abea8b5dab6acfd47a1da84454a7c728, type: 2}
+      id: burger_0_griddle
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 808b0639a722ec84c9467efef75c9e1e, type: 2}
+    station: {fileID: 114946936116752871, guid: d0e514d0321f62a46b9c13c522776c29, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: beef_patty
+      duration: 5.433
+    - resultId: egg_fried
+      duration: 6
+  - id: burger_1_coca_machine
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d96dbf5bcb3c7e74e87611bff8f7e470, type: 2}
+      id: burger_1_coca_machine
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 82517b2fe5516ee47b443da5d9b4943f, type: 2}
+    station: {fileID: 114632457200066912, guid: 17db73cb91b0ab44ba7e844c6b5dcff2, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: cup_coca
+      duration: 3
+  - id: burger_2_cutting_board
+    displayConfig:
+      sprite: {fileID: 21300000, guid: 54c2a5fe4993db54494381ab922f6414, type: 2}
+      id: burger_2_cutting_board
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 194cf1cec6a170b458909133320922cd, type: 2}
+    station: {fileID: 114900271049623953, guid: 449ba34af9985fb468468424262beea1, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: burger_bun
+      duration: 3.333
+    - resultId: cheese_cut
+      duration: 3.333
+    - resultId: lettuce
+      duration: 3.333
+    - resultId: red_onion_cut
+      duration: 4.667
+    - resultId: potato_cut
+      duration: 9
+    - resultId: chives_cut
+      duration: 5.333
+    - resultId: tomato_cut
+      duration: 3.233
+  - id: ff_0_deep_fryer
+    displayConfig:
+      sprite: {fileID: 21300000, guid: a89429010d0cf1f46acdcf2ba2df58d3, type: 2}
+      id: ff_0_deep_fryer
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 789f00887400d2040aecf78eb7a70850, type: 2}
+    station: {fileID: 114711914853252429, guid: 04dbc3d8b118adb47833f462c6132726, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: chicken_kfc
+      duration: 4.667
+    - resultId: potato_fried
+      duration: 4.667
+  - id: ff_6_bowl_coating
+    displayConfig:
+      sprite: {fileID: 21300000, guid: d1e4a3b5fd0656446a5702b5346309f9, type: 2}
+      id: ff_6_bowl_coating
+      type: 1
+      scale: 1
+      offset: {x: 0, y: 0}
+      hintCrop: 0
+      hintCropY: 0
+    toolSO: {fileID: 11400000, guid: 0680776ecd87fc242b3c9a3891ed3784, type: 2}
+    station: {fileID: 114969106005120503, guid: 0e16f15947c595c46b4bea56f8bba726, type: 2}
+    defaultDuration: 2
+    cookTimes:
+    - resultId: chicken_breast_coating
+      duration: 2.333
+    - resultId: chicken_wing_coating
+      duration: 2.333
+    - resultId: chicken_nugget_coating
+      duration: 2.333
+    - resultId: chicken_thigh_coating
+      duration: 2.333
+  recipes:
+  - resultId: burger
+    combinations:
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: beef_patty
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: cheese_cut
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: lettuce
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: tomato_cut
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: red_onion_cut
+    - components:
+      - type: 0
+        id: burger_bun
+      - type: 0
+        id: egg_fried
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_coca
+    combinations:
+    - components:
+      - type: 0
+        id: cup
+      - type: 1
+        id: burger_1_coca_machine
+    anchorIds: []
+    displayIds: []
+  - resultId: cup_coca_ice
+    combinations:
+    - components:
+      - type: 0
+        id: cup_coca
+      - type: 0
+        id: ice
+    anchorIds: []
+    displayIds: []
+  - resultId: burger_bun
+    combinations:
+    - components:
+      - type: 0
+        id: burger_bun_raw
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: beef_patty
+    combinations:
+    - components:
+      - type: 0
+        id: beef_patty_raw
+      - type: 1
+        id: burger_0_griddle
+    anchorIds: []
+    displayIds: []
+  - resultId: egg_fried
+    combinations:
+    - components:
+      - type: 0
+        id: egg
+      - type: 1
+        id: burger_0_griddle
+    anchorIds: []
+    displayIds: []
+  - resultId: tomato_cut
+    combinations:
+    - components:
+      - type: 0
+        id: tomato
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: lettuce
+    combinations:
+    - components:
+      - type: 0
+        id: lettuce_raw
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: cheese_cut
+    combinations:
+    - components:
+      - type: 0
+        id: cheese
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken_wing_coating
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_wing_raw
+      - type: 1
+        id: ff_6_bowl_coating
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken_thigh_coating
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_thigh_raw
+      - type: 1
+        id: ff_6_bowl_coating
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken_nugget_coating
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_nugget_raw
+      - type: 1
+        id: ff_6_bowl_coating
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken_breast_coating
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_breast_raw
+      - type: 1
+        id: ff_6_bowl_coating
+    anchorIds: []
+    displayIds: []
+  - resultId: chicken_kfc
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_breast_coating
+      - type: 1
+        id: ff_0_deep_fryer
+    - components:
+      - type: 0
+        id: chicken_wing_coating
+      - type: 1
+        id: ff_0_deep_fryer
+    - components:
+      - type: 0
+        id: chicken_thigh_coating
+      - type: 1
+        id: ff_0_deep_fryer
+    - components:
+      - type: 0
+        id: chicken_nugget_coating
+      - type: 1
+        id: ff_0_deep_fryer
+    anchorIds: []
+    displayIds: []
+  - resultId: potato_cut
+    combinations:
+    - components:
+      - type: 0
+        id: potato
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: potato_fried
+    combinations:
+    - components:
+      - type: 0
+        id: potato_cut
+      - type: 1
+        id: ff_0_deep_fryer
+    anchorIds: []
+    displayIds: []
+  - resultId: potato_fried_cheese
+    combinations:
+    - components:
+      - type: 0
+        id: potato_fried
+      - type: 0
+        id: cheese_sauce
+    anchorIds: []
+    displayIds: []
+  - resultId: potato_fried_chives
+    combinations:
+    - components:
+      - type: 0
+        id: potato_fried
+      - type: 0
+        id: chives_cut
+    anchorIds: []
+    displayIds: []
+  - resultId: potato_fried_chives_cheese
+    combinations:
+    - components:
+      - type: 0
+        id: potato_fried_chives
+      - type: 0
+        id: cheese_sauce
+    - components:
+      - type: 0
+        id: potato_fried_cheese
+      - type: 0
+        id: chives_cut
+    anchorIds: []
+    displayIds:
+    - potato_fried
+    - chives_cut
+    - cheese_sauce
+  - resultId: kfc_combo
+    combinations:
+    - components:
+      - type: 0
+        id: chicken_kfc
+      - type: 0
+        id: chicken_kfc
+    anchorIds: []
+    displayIds: []
+  - resultId: chives_cut
+    combinations:
+    - components:
+      - type: 0
+        id: chives
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  - resultId: red_onion_cut
+    combinations:
+    - components:
+      - type: 0
+        id: red_onion
+      - type: 1
+        id: burger_2_cutting_board
+    anchorIds: []
+    displayIds: []
+  cookSpeed: 1.5
+  ingredientListShowsRaw: 0
+  ingredientCanOrder:
+  - burger
+  - cup_coca
+  - cup_coca_ice
+  - chicken_kfc
+  - potato_fried
+  - potato_fried_cheese
+  - kfc_combo
+  - potato_fried_chives
+  - potato_fried_chives_cheese
+  pieceEnumType: CakeOrder.InGame.Burger.BurgerPiece
+  dishEnumType: CakeOrder.InGame.Burger.BurgerDish
+  dishInfos:
+  - dishKind: 1
+    icon: {fileID: 21300000, guid: f48462abc6d1d974f896243e6b71b84f, type: 2}
+    baseId: burger
+    sprite: {fileID: 21300000, guid: 7b1f112f8ce23684aa169b836a141ec0, type: 2}
+    dishName: Classic Burger
+    desc: Stacked to order and best eaten before the bun gives up.
+    plate: {fileID: 114703437598541787, guid: ff86f00b77bc72d4e8ec61d670c0fb2f, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 2
+    icon: {fileID: 21300000, guid: d2a608d8854553d4d988e1bc32f57656, type: 2}
+    baseId: cup
+    sprite: {fileID: 21300000, guid: 77a8b8df7ce2931449c6057b72cdea39, type: 2}
+    dishName: Fizzy Cola
+    desc: Ice cold bubbles that make every bite of the burger louder.
+    plate: {fileID: 114703437598541787, guid: f9e8ec1e4fe940042967727a96c4612b, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 3
+    icon: {fileID: 21300000, guid: c1555cf733e4a0f4e9c521c4f8cbf3c6, type: 2}
+    baseId: chicken_kfc
+    sprite: {fileID: 21300000, guid: f0690a414405b5746a05e5866f72c2d8, type: 2}
+    dishName: Crispy Chicken
+    desc: Golden outside juicy inside and gone in about four bites.
+    plate: {fileID: 114884547391421755, guid: e8d368d94d8fb7d419606e70b5a074ee, type: 2}
+    dirtyPlate: {fileID: 0}
+  - dishKind: 4
+    icon: {fileID: 21300000, guid: 8f666b3cafde6694b8ecd56886e9a7a7, type: 2}
+    baseId: potato_fried
+    sprite: {fileID: 21300000, guid: 543b501792f78e24992f2b38bf55c2d5, type: 2}
+    dishName: Golden Fries
+    desc: Hot salty and impossible to share fairly.
+    plate: {fileID: 114703437598541787, guid: f9e8ec1e4fe940042967727a96c4612b, type: 2}
+    dirtyPlate: {fileID: 0}
