@@ -620,8 +620,13 @@ namespace AnhPD.FoodOrder
 			_pickAnyCamHome = _pickAnyCam.transform.position;
 			_pickup.PickAnyMode = true;
 			_pickup.OnPicked = OnPickedAnyIngredient;
-			// TODO(unrecovered): arrival callback passed to MoveCameraTo could not be identified; none is passed.
-			MoveCameraTo(_pickAnyCamHome + Vector3.down * pickAnyCameraDrop);
+			MoveCameraTo(_pickAnyCamHome + Vector3.down * pickAnyCameraDrop, () =>
+			{
+				if (_pickAnyActive)
+				{
+					GameEventBus.Publish(default(PickAnyReadyEvent));
+				}
+			});
 			return true;
 		}
 

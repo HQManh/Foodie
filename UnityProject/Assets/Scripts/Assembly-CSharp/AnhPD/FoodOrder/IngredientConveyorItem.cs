@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CakeOrder;
 using DG.Tweening;
 using TMPro;
+using TrungKienPack.Particle;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
@@ -581,7 +582,10 @@ namespace AnhPD.FoodOrder
 				return;
 			}
 			_cooldown--;
-			// TODO(unrecovered): freeze-tick particle spawn (singleton chain to a PoolingParticle prefab, ParticleRequest At/Scale/Volume/Play) not identified; counter and visual are done.
+			if (PoolingParticle.Instance)
+			{
+				PoolingParticle.Instance.Spawn((ParticleType)1).At(transform.position).Scale(0.5f).Volume(0.25f).Play();
+			}
 			RefreshFreezeVisual();
 		}
 
@@ -602,7 +606,10 @@ namespace AnhPD.FoodOrder
 			if (remaining > 0)
 			{
 				_cooldown = 0;
-				// TODO(unrecovered): clear-freeze particle spawn (same unrecovered singleton/particle chain as TickFreeze); counter and visuals are done.
+				if (PoolingParticle.Instance)
+				{
+					PoolingParticle.Instance.Spawn((ParticleType)1).At(transform.position).Scale(0.5f).Volume(0.25f).Play();
+				}
 				RefreshFreezeVisual();
 				PlayThawHop();
 			}
@@ -802,12 +809,21 @@ namespace AnhPD.FoodOrder
 						_releaseSeq.AppendInterval(_releaseStepInterval);
 					}
 					IngredientState copyItem = item;
-					// TODO(unrecovered): per-copy index and slot (_slots[i]) are passed to the spawn callback in the pseudocode, but Action<IngredientState> has no slot/index; spawn lambda body not read.
+					IngredientRenderSlot slot = (_slots != null && i < _slots.Length) ? _slots[i] : null;
+					int remainingCopies = c;
 					_releaseSeq.AppendCallback(() =>
 					{
-						if (spawnOne != null)
+						spawnOne(copyItem);
+						if (slot)
 						{
-							spawnOne(copyItem);
+							if (remainingCopies == 0)
+							{
+								slot.SetVisible(false);
+							}
+							else
+							{
+								slot.SetCount(remainingCopies);
+							}
 						}
 					});
 					first = false;
@@ -815,6 +831,8 @@ namespace AnhPD.FoodOrder
 			}
 			_releaseSeq.OnComplete(() =>
 			{
+				_releaseSeq = null;
+				_releaseSeqAbort = null;
 				if (onDone != null)
 				{
 					onDone();
@@ -872,9 +890,9 @@ namespace AnhPD.FoodOrder
 					// fade start value 1f inferred from ResetReleasePop (alpha reset to 1)
 					_releasePop.Join(DOTween.To(() => 1f, a => SetAlpha(a), 0f, releasePopDuration).SetEase(releaseFadeEase));
 				}
-				// TODO(unrecovered): completion lambda body (DAT_091eb980) not read; only onComplete is invoked here, ReleasePopPending is not cleared.
 				_releasePop.OnComplete(() =>
 				{
+					_releasePop = null;
 					if (onComplete != null)
 					{
 						onComplete();
