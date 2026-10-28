@@ -1775,7 +1775,23 @@ namespace AnhPD.FoodOrder
 
 		public bool PromiseDirect(string id)
 		{
-			return false;
+			if (_wholeDishServing || string.IsNullOrEmpty(id)) return false;
+			LevelInfo info = Info;
+			if (info == null) return false;
+			PieceOffer offer = info.GetIdPieceOffer(id);
+			string baseId = FlexibleId.BaseOf(id);
+			_snapshot.MarkDirty();
+			if (!TryPickMergeTarget(offer, baseId, info, out ServePlate plate, out int newPlateDish, out int _)) return false;
+			if (!plate)
+			{
+				plate = CreatePlate(newPlateDish);
+			}
+			if (!plate) return false;
+			TryResolveMerge(plate, baseId, info, out string resultId);
+			_merges.AddPromise(plate, baseId, offer.pieces, resultId);
+			_activeMergePlate = plate;
+			_snapshot.MarkDirty();
+			return true;
 		}
 
 		public void CancelPromise(string id)
@@ -1790,7 +1806,29 @@ namespace AnhPD.FoodOrder
 
 		private bool TryKeepPromise(DragItem item)
 		{
-			return false;
+			if (!item || item.IsOnDishRow) return false;
+			if (_merges.IsInFlight(item)) return false;
+			ShelfMergeQueue.Request promise = _merges.FindPromise(item.GetBaseId());
+			if (promise == null) return false;
+			ServePlate plate = promise.Plate;
+			if (!CanPlateStillTake(plate))
+			{
+				AbortRemaining(plate);
+				FlushDropBacks();
+				return false;
+			}
+			ShelfMergeQueue.Bind(promise, item);
+			PieceLedger.Step(item, string.Format(/* literal recovered by guess */ "keep promise {0}", _plates.IndexOf(plate)));
+			_snapshot.MarkDirty();
+			if (PrimeForMerge(item))
+			{
+				SchedulePump(plate, mergePrimeDelay);
+			}
+			else
+			{
+				PumpLaunches(plate);
+			}
+			return true;
 		}
 
 		public Vector3 GetSlotWorldCenter(int index)
@@ -2295,12 +2333,20 @@ namespace AnhPD.FoodOrder
 
 		public IEnumerable<DragItem> GetMergingItems()
 		{
-			return null;
+			return _merges.Items;
 		}
 
 		private void RequestServeAfterAssemble(ServePlate plate)
 		{
-			// TODO(unrecovered): when plate.Item reports a positive wait (virtual call at vtable +0x1c8, not named in the stubs), the pseudocode raises a ServePlate float at +0x84 and schedules a delayed callback via DOVirtual.DelayedCall (ease/target set from unnamed statics); not reconstructed. The trailing RequestServe is applied.
+			if (plate && plate.Item)
+			{
+				float wait = plate.Item.AssembleAnimDuration;
+				if (wait > 0f)
+				{
+					plate.HoldServe(wait);
+					DOVirtual.DelayedCall(wait, RequestServe, true).SetTarget(this);
+				}
+			}
 			RequestServe();
 		}
 
@@ -2340,7 +2386,7 @@ namespace AnhPD.FoodOrder
 				{
 					if (plate == null || plate.IsEmpty) continue;
 					if (_serving.Contains(plate)) continue;
-					// TODO(unrecovered): ServePlate float at +0x84 (serve-not-before time, not a stub member) must be <= Time.time for the plate to serve; the gate is assumed open here.
+					if (plate.IsServeHeld) continue;
 					if (IsResultAnimPlaying(plate)) continue;
 					if (_merges.HasInbound(plate)) continue;
 					if (handle.TryGetServableLine(plate.Item, out FCustomerLine line))
@@ -2436,22 +2482,42 @@ namespace AnhPD.FoodOrder
 
 		private void TryMergeFromSaveMeBag()
 		{
-			// TODO(unrecovered): reads the SpawnBagSaveMe singleton through an unnamed static (DAT_0918aec0 +0xb8) and a display-class predicate; not reconstructed.
+			SpawnBagSaveMe bag = SpawnBagSaveMe.Active;
+			if (!bag || bag.IsEmpty || IsInteractBlocked || !MessyController.Ins)
+			{
+				return;
+			}
+			if (bag.TryTakeUsable(item => TryAutoMergeToPlate(item, false, false), out DragItem taken))
+			{
+				bag.CommitTake(taken);
+			}
 		}
 
 		public bool TryTakeDirect(DragItem item, bool planned = false)
 		{
-			return false;
+			if (IsDirectTakeBlocked && !planned) return false;
+			_snapshot.MarkDirty();
+			if (!_wholeDishServing)
+			{
+				if (planned && TryKeepPromise(item)) return true;
+				return TryAutoMergeToPlate(item, false, true);
+			}
+			return WholeDish.TryCaptureWith(item);
 		}
 
 		public bool IsHeldAtSource(DragItem item)
 		{
-			return false;
+			return _wholeDishServing && WholeDish.IsHeld(item);
 		}
 
 		public void WhenSourceFreed(DragItem item, Action onFreed)
 		{
-			// TODO(unrecovered): when not whole-dish, the pseudocode invokes a delegate held in an unnamed source-owner object (+0x18 vtable call with +0x40/+0x28 args); owner type not identified.
+			if (!_wholeDishServing)
+			{
+				onFreed?.Invoke();
+				return;
+			}
+			WholeDish.WhenFreed(item, onFreed);
 		}
 
 		private void ScanGridItems()
