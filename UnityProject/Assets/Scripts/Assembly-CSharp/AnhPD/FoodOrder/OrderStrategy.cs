@@ -32,8 +32,10 @@ namespace AnhPD.FoodOrder
 
 		public virtual List<OrderSpec> GetItemOrderSpecs(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id members used for DisplayId/BaseId (field at 0x78 and a virtual getter) are not identified
-			return null;
+			PieceOffer offer = GetItemPieceOffer(item);
+			List<OrderSpec> specs = new List<OrderSpec>();
+			specs.Add(new OrderSpec(item.GetId(), item.GetBaseId(), offer != null ? offer.pieces : PieceSet.Empty, offer != null));
+			return specs;
 		}
 
 		public OrderSpec BuildSpec(string orderId)
@@ -140,8 +142,7 @@ namespace AnhPD.FoodOrder
 
 		public virtual PieceOffer GetItemPieceOffer(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id field (offset 0x78) passed to GetIdPieceOffer is not identified
-			return null;
+			return GetIdPieceOffer(item.GetBaseId());
 		}
 
 		public virtual PieceOffer GetIdPieceOffer(string id)
