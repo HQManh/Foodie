@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using CakeOrder;
+using CakeOrder.InGame;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.CompilerServices;
 using EssentialSystemR1;
@@ -13,54 +14,7 @@ namespace AnhPD.FoodOrder
 {
 	public class TutorialManager : MonoSingleton<TutorialManager>
 	{
-		[StructLayout((LayoutKind)3)]
-		[CompilerGenerated]
-		private struct _003CPlay_003Ed__23 : IAsyncStateMachine
-		{
-			public int _003C_003E1__state;
-
-			public AsyncUniTaskMethodBuilder _003C_003Et__builder;
-
-			public TutorialManager _003C_003E4__this;
-
-			public TutorialSequenceSO sequence;
-
-			public Action onDone;
-
-			public TutorialPause pause;
-
-			private List<TutorialStep>.Enumerator _003C_003E7__wrap1;
-
-			private TutorialStep _003Cstep_003E5__3;
-
-			private UniTask.Awaiter _003C_003Eu__1;
-
-			private void MoveNext()
-			{
-				// TODO(unrecovered): the state machine body relies on UniTask awaiter dispatch (FUN_03f95da8),
-				// a closure type not in the stubs, and TutorialStep/TutorialContext calls not recovered here.
-			}
-
-			void IAsyncStateMachine.MoveNext()
-			{
-				//ILSpy generated this explicit interface implementation from .override directive in MoveNext
-				this.MoveNext();
-			}
-
-			[DebuggerHidden]
-			private void SetStateMachine(IAsyncStateMachine stateMachine)
-			{
-			}
-
-			void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
-			{
-				//ILSpy generated this explicit interface implementation from .override directive in SetStateMachine
-				this.SetStateMachine(stateMachine);
-			}
-		}
-
-		// TODO(unrecovered): the ctor sets shipperTutId, bossTutId and pickUpTutId from string literals that were
-		// only available as unresolved DAT refs, and the stub declares no constructor to hold them.
+		// shipperTutId / bossTutId / pickUpTutId default to short ids in the original ctor; the shipped values live in the serialized scene data
 		public static bool Enabled = true;
 
 		[SerializeField]
@@ -109,12 +63,14 @@ namespace AnhPD.FoodOrder
 
 		private void OnEnable()
 		{
-			// TODO(unrecovered): event subscription helpers (FUN_070a9190 / FUN_04b7a4a4 bus calls) are not in the stubs; bus type and handler wiring unknown
+			GameEventBus.Subscribe<OrderShownEvent>(OnOrderShown);
+			GameEventBus.Subscribe<PickAnyReadyEvent>(OnPickAnyReady);
 		}
 
 		private void OnDisable()
 		{
-			// TODO(unrecovered): event unsubscription helpers (FUN_070a9190 / FUN_04b7b954 bus calls) are not in the stubs; bus type and handler wiring unknown
+			GameEventBus.Unsubscribe<OrderShownEvent>(OnOrderShown);
+			GameEventBus.Unsubscribe<PickAnyReadyEvent>(OnPickAnyReady);
 		}
 
 		public bool HasLevelTutorial(string tutId)
@@ -144,11 +100,32 @@ namespace AnhPD.FoodOrder
 
 		private void OnOrderShown(OrderShownEvent evt)
 		{
-			// TODO(unrecovered): decompile treats the event argument as FCustomerLine (SpawnData lookup); event-to-line field mapping unknown
+			if (!Enabled || _isRunning || !evt.line)
+			{
+				return;
+			}
+			CustomerSpawnData data = evt.line.SpawnData;
+			if (data == null)
+			{
+				return;
+			}
+			if (data.IsShipper)
+			{
+				TryPlayCustomerTut(evt.line, CakeOrderTutorialStateControl.TutType.Shipper, shipperTutId);
+			}
+			else if (data.IsBoss)
+			{
+				TryPlayCustomerTut(evt.line, CakeOrderTutorialStateControl.TutType.Boss, bossTutId);
+			}
 		}
 
 		private void TryPlayCustomerTut(FCustomerLine line, CakeOrderTutorialStateControl.TutType type, string tutId)
 		{
+			_context.TriggerLine = line;
+			if (!TryPlayEventTut(type, tutId, TutorialPause.HoldTimers))
+			{
+				_context.TriggerLine = null;
+			}
 		}
 
 		private void OnPickAnyReady(PickAnyReadyEvent _)
@@ -187,9 +164,17 @@ namespace AnhPD.FoodOrder
 
 		private bool TryPlayEventTut(CakeOrderTutorialStateControl.TutType type, string tutId, TutorialPause pause)
 		{
-			// TODO(unrecovered): calls CakeOrderTutorialStateControl.IsShownTut / SetDoneTut and UniTask.Forget;
-			// CakeOrderTutorialStateControl is referenced by the stub but not defined in the project.
-			return false;
+			if (CakeOrderTutorialStateControl.IsShownTut(type))
+			{
+				return false;
+			}
+			TutorialSequenceSO sequence = FindSequence(tutId);
+			if (!sequence || sequence.steps == null || sequence.steps.Count == 0)
+			{
+				return false;
+			}
+			Play(sequence, () => CakeOrderTutorialStateControl.SetDoneTut(type), pause).Forget();
+			return true;
 		}
 
 		private TutorialSequenceSO FindSequence(string tutId)
@@ -216,18 +201,44 @@ namespace AnhPD.FoodOrder
 			return null;
 		}
 
-		[AsyncStateMachine(typeof(_003CPlay_003Ed__23))]
-		public UniTask Play(TutorialSequenceSO sequence, Action onDone, TutorialPause pause = TutorialPause.None)
+		public async UniTask Play(TutorialSequenceSO sequence, Action onDone, TutorialPause pause = TutorialPause.None)
 		{
-			// TODO(unrecovered): async body lives in <Play>d__23.MoveNext, which is outside this batch part
-			return default;
+			if (!_isRunning && sequence != null && sequence.steps != null && sequence.steps.Count != 0)
+			{
+				_isRunning = true;
+				_pause = pause;
+				Begin();
+				try
+				{
+					foreach (TutorialStep step in sequence.steps)
+					{
+						if (step == null)
+						{
+							continue;
+						}
+						await _context.PrepareTarget(step.target);
+						_context.BeginStep(step);
+						ApplyStep(step);
+						await step.Run(_context);
+					}
+				}
+				finally
+				{
+					End();
+					_isRunning = false;
+				}
+			}
+			onDone?.Invoke();
 		}
 
 		private void Begin()
 		{
-			// TODO(unrecovered): pseudocode first sets a static flag on an unidentified class, and the StopTime branch
-			// calls CakeOrder TimeControlCakeOrder.StopTime, which is not in the stubs. Those parts are omitted.
-			if (_pause == TutorialPause.HoldTimers)
+			TutorialGate.Begin();
+			if (_pause == TutorialPause.StopTime)
+			{
+				TimeControlCakeOrder.StopTime(this);
+			}
+			else if (_pause == TutorialPause.HoldTimers)
 			{
 				HoldCustomerTimers();
 			}
@@ -245,7 +256,7 @@ namespace AnhPD.FoodOrder
 				SetNewActionsHeld(false);
 				if (_pause == TutorialPause.StopTime)
 				{
-					// TODO(unrecovered): TimeControlCakeOrder.ResumeTime is not in the stubs.
+					TimeControlCakeOrder.ResumeTime(this);
 				}
 				else if (_pause == TutorialPause.HoldTimers)
 				{
@@ -278,8 +289,22 @@ namespace AnhPD.FoodOrder
 
 		private void SetNewActionsHeld(bool held)
 		{
-			// TODO(unrecovered): resolves the target station through an unidentified singleton chain and calls
-			// Utilities.BoolModifierWithRegisteredSource (not in the stubs).
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level != null)
+			{
+				if (held)
+				{
+					level.inputBlockers.AddModifier(TutBlockId);
+				}
+				else
+				{
+					level.inputBlockers.RemoveModifier(TutBlockId);
+				}
+			}
+			if (MessyController.Ins)
+			{
+				MessyController.Ins.SetStationsPaused(held);
+			}
 		}
 
 		private void End()
@@ -306,8 +331,27 @@ namespace AnhPD.FoodOrder
 
 		private void ApplyStep(TutorialStep step)
 		{
-			// TODO(unrecovered): focus/target resolution (TutorialTargetResolver.Resolve, focus rect and
-			// TutorialFocusCanvasView.Focus overloads) is not recovered reliably; omitted.
+			TutorialGate.AllowOnly(step.target, _context.NeededIngredientItem);
+			if (!focusView)
+			{
+				return;
+			}
+			Transform resolved = TutorialTargetResolver.Resolve(step.target, _context.TriggerLine, _context.NeededIngredientItem);
+			TutorialFocusSetting setting = step.focus;
+			if (setting != null && setting.enabled && resolved)
+			{
+				if (setting.follow)
+				{
+					focusView.Focus(resolved, setting.size, setting.offset, setting.shrinkDuration);
+				}
+				else
+				{
+					Vector3 p = resolved.position;
+					focusView.Focus(new Vector2(p.x + setting.offset.x, p.y + setting.offset.y), setting.size, setting.shrinkDuration);
+				}
+				return;
+			}
+			focusView.Clear(0.2f);
 		}
 
 		protected override void OnDestroy()
