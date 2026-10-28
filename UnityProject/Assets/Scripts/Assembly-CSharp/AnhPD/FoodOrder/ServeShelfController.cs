@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
+using CakeOrder;
 using CakeOrder.InGame;
 using DG.Tweening;
 using TrungKienPack.Particle;
@@ -1794,19 +1795,45 @@ namespace AnhPD.FoodOrder
 
 		public Vector3 GetSlotWorldCenter(int index)
 		{
-			// TODO(unrecovered): pseudocode returns a single float (Origin + (index + 0.5) * cellSize) but the stub signature is Vector3; the Vector2/Vector3 return shape is unclear
-			return default;
+			// the native return only exposes x; y is the plate row and z the shelf's own depth
+			Vector2 origin = Origin;
+			return new Vector3(origin.x + (index + 0.5f) * cellSize.x, origin.y + cellSize.y * 0.5f, transform.position.z);
 		}
 
 		private void Start()
 		{
-			// TODO(unrecovered): wires LineHandle.onAnyOrderShown/onAnyMysteryRevealed and MessyController.onBlockPlayerInteractChanged with delegate targets (DAT_091d8c00/DAT_091d8bf0/DAT_091d8be8) that are not mapped to stub methods; also copies _wholeDishServing from a singleton byte at +0x40 whose name is unknown.
+			if (CheatManagerCakeOrder.instance)
+			{
+				_wholeDishServing = CheatManagerCakeOrder.instance.IsWholeDishServing;
+			}
+			FCustomerLineHandle handle = LineHandle;
+			if (handle)
+			{
+				handle.onAnyOrderShown += RequestServe;
+				handle.onAnyMysteryRevealed += RequestServe;
+			}
+			GameEventBus.Subscribe<GridItemLandedEvent>(OnGridItemLanded);
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level)
+			{
+				level.onBlockPlayerInteractChanged += OnBlockInteractChanged;
+			}
 		}
 
 		private void OnDestroy()
 		{
-			// TODO(unrecovered): unsubscribe the LineHandle onAnyOrderShown/onAnyMysteryRevealed handlers; the delegate target (DAT_091d8c00) is not mapped to a stub method.
-			// TODO(unrecovered): unsubscribe OnBlockInteractChanged from the level's block-interact event; owner chain (DAT_091b4c28 -> +0x20 -> +0xc0 -> +0x10 -> +0xb8) is not mapped.
+			FCustomerLineHandle handle = LineHandle;
+			if (handle)
+			{
+				handle.onAnyOrderShown -= RequestServe;
+				handle.onAnyMysteryRevealed -= RequestServe;
+			}
+			GameEventBus.Unsubscribe<GridItemLandedEvent>(OnGridItemLanded);
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level)
+			{
+				level.onBlockPlayerInteractChanged -= OnBlockInteractChanged;
+			}
 			DOTween.Kill(this);
 			StopAllFocus();
 		}
@@ -1816,9 +1843,11 @@ namespace AnhPD.FoodOrder
 			if (serveRecheckInterval > 0f && Time.time >= _nextRecheckTime)
 			{
 				_nextRecheckTime = Time.time + serveRecheckInterval;
-				if (!_isServing && !IsInteractBlocked)
+				if (!_isServing && !IsInteractBlocked && MessyController.Ins && MessyController.Ins.IsLevelSetupComplete)
 				{
-					// TODO(unrecovered): the gate is MessyController.Ins plus LevelBaseCakeOrderAbstract.get_IsLevelSetupComplete, which is not present in the stubs; when it passes the body runs PruneStaleMerges, SweepOrphanPlates and RequestServe.
+					PruneStaleMerges();
+					SweepOrphanPlates();
+					RequestServe();
 				}
 			}
 		}
@@ -1853,22 +1882,36 @@ namespace AnhPD.FoodOrder
 			if (!EnsureSnapshot()) return;
 			if (_snapshot == null) return;
 			_snapshot.Solve();
-			// TODO(unrecovered): per-plate write-back of assigned order (ServePlate fields at +0x88..+0xa0 and the PieceSet/sequence compare) is not mapped to named members; plates are not updated.
+			for (int i = 0; i < _plates.Count; i++)
+			{
+				ServePlate plate = _plates[i];
+				if (!plate) continue;
+				int assigned = _snapshot.AssignOf(i);
+				PieceSet? label = assigned >= 0 ? _snapshot.OrderPieces(assigned) : (PieceSet?)null;
+				PieceSet? current = plate.Order;
+				bool same = label.HasValue == current.HasValue && (!current.HasValue || current.Value == label.Value);
+				if (!same)
+				{
+					plate.Order = label;
+					_snapshot.MarkDirty();
+				}
+			}
 		}
 
 		private void SweepOrphanPlates()
 		{
-			if (_plates == null) return;
 			for (int i = _plates.Count - 1; i >= 0; i--)
 			{
 				ServePlate plate = _plates[i];
-				if (plate == null)
+				if (!plate)
 				{
 					_plates.RemoveAt(i);
-					if (_snapshot != null) _snapshot.MarkDirty();
-					continue;
+					_snapshot.MarkDirty();
 				}
-				// TODO(unrecovered): orphan test needs ServePlate byte flags at +0xb1/+0xb2 (not stub members); removal of empty unreferenced plates (not in _serving, no inbound merge) is not applied.
+				else if (plate.IsEmpty && !plate.IsAdopting && !plate.IsServing && !_serving.Contains(plate) && !_merges.HasInbound(plate))
+				{
+					RemovePlate(plate);
+				}
 			}
 		}
 
@@ -1998,17 +2041,56 @@ namespace AnhPD.FoodOrder
 
 		public void GetGatheredPieces(IReadOnlyList<OrderSpec> orders, List<PieceSet> results)
 		{
-			// TODO(unrecovered): pseudocode (about 300 lines of inlined PieceSet arithmetic and OrderSpec offsets) not reconstructed in this pass.
+			if (results == null) return;
+			results.Clear();
+			if (orders == null) return;
+			LevelInfo info = Info;
+			_gatherClaimed.Clear();
+			for (int i = 0; i < orders.Count; i++)
+			{
+				OrderSpec spec = orders[i];
+				results.Add(info != null && spec.HasPieces && !spec.Pieces.IsEmpty ? GatherFor(spec.Pieces, info) : PieceSet.Empty);
+			}
 		}
 
 		private PieceSet GatherFor(PieceSet order, LevelInfo info)
 		{
-			return default;
+			foreach (ServePlate plate in _plates)
+			{
+				if (!plate || !plate.Order.HasValue || plate.Order.Value != order) continue;
+				if (!_gatherClaimed.Add(plate)) continue;
+				return PlateHas(plate, info) ?? PieceSet.Empty;
+			}
+			return PieceSet.Empty;
 		}
 
 		public void GetPotentialPieces(IReadOnlyList<OrderSpec> orders, List<PieceSet> results)
 		{
-			// TODO(unrecovered): pseudocode (inlined PieceSet/OrderSpec arithmetic and list enumeration through unnamed helpers) not reconstructed in this pass.
+			GetGatheredPieces(orders, results);
+			LevelInfo info = Info;
+			if (info == null) return;
+			for (int i = 0; i < orders.Count; i++)
+			{
+				OrderSpec spec = orders[i];
+				if (!spec.HasPieces || spec.Pieces.IsEmpty || !results[i].IsEmpty) continue;
+				int dish = info.DishKeyOfOrder(spec);
+				PieceSet best = PieceSet.Empty;
+				int bestCount = 0;
+				foreach (ServePlate plate in _plates)
+				{
+					if (!plate) continue;
+					if (!(plate.DishKey == dish || (plate.DishKey | dish) < 0)) continue;
+					PieceSet? has = PlateHas(plate, info);
+					if (!has.HasValue || has.Value.IsEmpty || !spec.Pieces.Covers(has.Value)) continue;
+					int count = has.Value.TotalCount;
+					if (bestCount < count)
+					{
+						best = has.Value;
+						bestCount = count;
+					}
+				}
+				results[i] = best;
+			}
 		}
 
 		private static bool DishFits(int plateDish, int itemDish)
@@ -2277,7 +2359,73 @@ namespace AnhPD.FoodOrder
 
 		private bool ServePlateTo(ServePlate plate, DragItem item, FCustomerLine line, int orderIndex = -1)
 		{
-			return false;
+			ServeService serve = MessyController.Ins.Serve;
+			ServeTicket ticket;
+			bool reserved = orderIndex < 0
+				? serve.TryReserve(plate, line, item, out ticket)
+				: serve.TryReserveOrder(plate, line, orderIndex, out ticket);
+			if (!reserved)
+			{
+				return false;
+			}
+			Transform target = line.GetOrderTarget(ticket.Indices[0]);
+			_serving.Add(plate);
+			PieceLedger.Step(item, "serve " + line.name);
+			bool deliverable = false;
+			Action onDelivered = null;
+			plate.ServeTo(
+				target,
+				() => line.PunchMatchingOrder(item),
+				null,
+				() =>
+				{
+					if (CheatManagerCakeOrder.IsServeFxEnabled)
+					{
+						PoolingParticle.Instance.Spawn((ParticleType)2).At(target.position).Scale(0.5f).Volume(0.5f).Play();
+					}
+					deliverable = serve.CanDeliver(ticket, item);
+					if (!deliverable && grid)
+					{
+						if (!plate.DirtyPrefab)
+						{
+							UnityEngine.Debug.LogWarning(string.Format("[ServeShelf] plate dish {0} has no dirty-plate prefab for {1}", plate.DishKey, item.GetId()), this);
+						}
+						grid.SpawnDirtyPlateAt(target ? target.position : item.Tf.position, plate.DirtyPrefab);
+					}
+					return deliverable;
+				},
+				() =>
+				{
+					_serving.Remove(plate);
+					if (!deliverable)
+					{
+						serve.Release(ticket);
+					}
+					else
+					{
+						RemovePlate(plate);
+						if (onDelivered == null)
+						{
+							onDelivered = () =>
+							{
+								MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.LightImpact);
+								Vector3 servedAt = target ? target.position : item.Tf.position;
+								GameEventBus.Publish(new CustomerServedEvent { item = item, pos = servedAt });
+							};
+						}
+						if (!serve.Deliver(ticket, item, onDelivered))
+						{
+							MessyController.Ins.DropItemToGrid(item);
+						}
+						else
+						{
+							PieceLedger.Finish(item, PieceLedger.End.Served, line ? line.name : null);
+							MessyController.Ins.DespawnItem(item);
+						}
+					}
+					RequestServe();
+				});
+			return true;
 		}
 
 		private void ScanSources()
