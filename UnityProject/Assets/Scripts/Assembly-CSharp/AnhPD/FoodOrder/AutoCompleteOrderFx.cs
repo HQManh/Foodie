@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
+using CakeOrder.InGame;
 using DG.Tweening;
 using MoreMountains.NiceVibrations;
 using TrungKienPack.Particle;
@@ -189,7 +190,10 @@ namespace AnhPD.FoodOrder
 			_served = false;
 			_isPlaying = true;
 			_repicked = false;
-			// TODO(unrecovered): input-block modifier (BoolModifierWithRegisteredSource.AddModifier(BlockId) on an unidentified manager singleton)
+			if (LevelBaseCakeOrderAbstract.Instance)
+			{
+				LevelBaseCakeOrderAbstract.Instance.inputBlockers.AddModifier(BlockId);
+			}
 			_pausedStations.Clear();
 			if ((bool)MessyController.Ins)
 			{
@@ -215,7 +219,10 @@ namespace AnhPD.FoodOrder
 			StopTornado();
 			_serve.Release(_ticket);
 			_ticket = null;
-			// TODO(unrecovered): input-block modifier removal (RemoveModifier(BlockId)) and its game-state guard on an unidentified manager singleton
+			if (LevelBaseCakeOrderAbstract.Instance)
+			{
+				LevelBaseCakeOrderAbstract.Instance.inputBlockers.RemoveModifier(BlockId);
+			}
 			foreach (CookingStation station in _pausedStations)
 			{
 				if ((bool)station)

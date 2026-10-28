@@ -1,3 +1,4 @@
+using CakeOrder;
 using UnityEngine;
 
 namespace AnhPD.FoodOrder
@@ -75,7 +76,10 @@ namespace AnhPD.FoodOrder
 			{
 				level.RaiseFastForwardEndgame(TimeScale);
 			}
-			// TODO(unrecovered): time-scale manager singleton (HasInstance check + FloatModifier.AddModifier(1.75f, TimeScaleSourceId)) is not identifiable from the pseudocode
+			if (TimeControlCakeOrder.Instance)
+			{
+				TimeControlCakeOrder.SetTimeScale(TimeScaleSourceId, TimeScale);
+			}
 		}
 
 		public void Dispose()
@@ -83,7 +87,10 @@ namespace AnhPD.FoodOrder
 			if (IsEngaged)
 			{
 				IsEngaged = false;
-				// TODO(unrecovered): time-scale manager singleton (FloatModifier.RemoveModifier(TimeScaleSourceId)) is not identifiable from the pseudocode
+				if (TimeControlCakeOrder.Instance)
+				{
+					TimeControlCakeOrder.ResumeTime(TimeScaleSourceId);
+				}
 				MessyController level = MessyController.Ins;
 				if ((bool)level)
 				{
