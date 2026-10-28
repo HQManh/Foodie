@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using CakeOrder;
 using CakeOrder.InGame;
@@ -508,8 +509,31 @@ namespace AnhPD.FoodOrder
 
 		public List<RcDishInfo> GetDishInfosInLevelOrders()
 		{
-			// TODO(unrecovered): walks CakeLevelInitData level/order lists; member layout is not in the stubs.
-			return null;
+			List<RcDishInfo> dishes = new List<RcDishInfo>();
+			HashSet<int> seen = new HashSet<int>();
+			CakeLevelInitData initData = InitData;
+			if (initData != null && initData.customerSpawnData != null)
+			{
+				foreach (CustomerSpawnData customer in initData.customerSpawnData)
+				{
+					if (customer == null || customer.orders == null) continue;
+					foreach (CustomerSingleOrderSpawnData order in customer.orders)
+					{
+						if (order == null || string.IsNullOrEmpty(order.recipe)) continue;
+						foreach (OrderSpec spec in ConvertOrderData(order.recipe))
+						{
+							int dishKind = _recipe.GetDishKind(spec.BaseId);
+							if (dishKind == 0 || !seen.Add(dishKind)) continue;
+							RcDishInfo info = _recipe.GetDishInfo(dishKind);
+							if (info != null)
+							{
+								dishes.Add(info);
+							}
+						}
+					}
+				}
+			}
+			return dishes;
 		}
 
 		public List<List<RcDisplayConfig>> GetAllDisplayConfigInRecipe(string id, bool includeStations = true)
@@ -936,7 +960,11 @@ namespace AnhPD.FoodOrder
 
 		public Sprite SkinSpriteFor(LevelSkinPart part)
 		{
-			// TODO(unrecovered): needs the level difficulty tag from CakeLevelInitData (member not in the stubs).
+			SingleLevelMetadata metadata = InitData != null ? InitData.levelMetadata : null;
+			if (_levelSkin && metadata != null)
+			{
+				return _levelSkin.GetSprite(part, metadata.difficultyTag);
+			}
 			return null;
 		}
 
@@ -947,14 +975,48 @@ namespace AnhPD.FoodOrder
 
 		public List<GridEffectType> GetAppliedGridEffects()
 		{
-			// TODO(unrecovered): reads CakeLevelInitData grid-effect list (member not in the stubs).
-			return null;
+			List<GridEffectType> effects = new List<GridEffectType>();
+			CakeLevelInitData initData = InitData;
+			if (initData != null && initData.gridConfig)
+			{
+				GridCellEffectData[] cells = initData.gridConfig.GridData;
+				if (cells != null)
+				{
+					foreach (GridCellEffectData cell in cells)
+					{
+						if (cell != null && cell.type != 0 && !effects.Contains(cell.type))
+						{
+							effects.Add(cell.type);
+						}
+					}
+				}
+			}
+			return effects;
 		}
 
 		public List<IngredientSlotStatus> GetAppliedSlotStatuses()
 		{
-			// TODO(unrecovered): depends on StackModeService.ResolveQueues output layout and CakeLevelInitData members.
-			return null;
+			List<IngredientSlotStatus> statuses = new List<IngredientSlotStatus>();
+			SingleIngredientQueueInLevel[] queues = StackModeService.ResolveQueues(InitData);
+			if (queues != null)
+			{
+				foreach (SingleIngredientQueueInLevel queue in queues)
+				{
+					if (queue == null || queue.encodedQueue == null) continue;
+					foreach (IngredientData data in queue.encodedQueue)
+					{
+						if (data.statuses == null) continue;
+						foreach (int status in data.statuses)
+						{
+							if (status != 0 && Enum.IsDefined(typeof(IngredientSlotStatus), status) && !statuses.Contains((IngredientSlotStatus)status))
+							{
+								statuses.Add((IngredientSlotStatus)status);
+							}
+						}
+					}
+				}
+			}
+			return statuses;
 		}
 	}
 }
