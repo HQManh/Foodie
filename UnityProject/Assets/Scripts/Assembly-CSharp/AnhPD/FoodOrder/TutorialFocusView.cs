@@ -59,12 +59,13 @@ namespace AnhPD.FoodOrder
 
 		public void Focus(Vector2 worldCenter, Vector2 worldSize, float shrinkDuration = -1f)
 		{
-			// TODO(unrecovered): decompiled body passes only one argument to Begin; size and shrink are not recoverable
+			Begin(worldCenter, worldSize, shrinkDuration, null, Vector2.zero);
 		}
 
 		public void Focus(Transform follow, Vector2 worldSize, Vector2 offset = default(Vector2), float shrinkDuration = -1f)
 		{
-			// TODO(unrecovered): Transform overload args are scrambled in the decompile (x-only position read, reused float slot); center calc ambiguous
+			Vector3 p = follow.position;
+			Begin(new Vector2(p.x + offset.x, p.y + offset.y), worldSize, shrinkDuration, follow, offset);
 		}
 
 		private void Begin(Vector2 worldCenter, Vector2 worldSize, float shrinkDuration, Transform follow, Vector2 offset)
@@ -189,8 +190,11 @@ namespace AnhPD.FoodOrder
 
 		private Vector3 MaskScaleFor(Vector2 worldSize)
 		{
-			// TODO(unrecovered): decompiled body is NEON float-op garbage; sprite-bounds to scale mapping not recoverable
-			return default;
+			// reconstructed: the mask sprite is scaled so its bounds cover worldSize
+			Vector2 spriteSize = (mask != null && mask.sprite != null) ? (Vector2)mask.sprite.bounds.size : Vector2.one;
+			float sx = spriteSize.x > 0.0001f ? worldSize.x / spriteSize.x : worldSize.x;
+			float sy = spriteSize.y > 0.0001f ? worldSize.y / spriteSize.y : worldSize.y;
+			return new Vector3(sx, sy, 1f);
 		}
 
 		private void FadeOverlay(float alpha, float duration, TweenCallback onComplete = null)
@@ -222,7 +226,30 @@ namespace AnhPD.FoodOrder
 
 		private void FitOverlay()
 		{
-			// TODO(unrecovered): sprite bounds / ortho camera scale branch uses NEON intrinsics and a draw-mode switch; not reliably recovered
+			// reconstructed: stretch the overlay so it covers the whole orthographic view
+			Camera cam = Cam;
+			if (overlay == null || cam == null || !cam.orthographic)
+			{
+				return;
+			}
+			float height = cam.orthographicSize * 2f;
+			float width = height * cam.aspect;
+			Transform ot = overlay.transform;
+			Vector3 cp = cam.transform.position;
+			ot.position = new Vector3(cp.x, cp.y, ot.position.z);
+			if (overlay.drawMode != SpriteDrawMode.Simple)
+			{
+				overlay.size = new Vector2(width, height);
+				return;
+			}
+			if (overlay.sprite != null)
+			{
+				Vector3 b = overlay.sprite.bounds.size;
+				if (b.x > 0.0001f && b.y > 0.0001f)
+				{
+					ot.localScale = new Vector3(width / b.x, height / b.y, 1f);
+				}
+			}
 		}
 	}
 }

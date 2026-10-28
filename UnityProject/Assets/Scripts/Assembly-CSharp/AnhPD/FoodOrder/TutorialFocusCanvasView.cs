@@ -140,7 +140,12 @@ namespace AnhPD.FoodOrder
 
 		public void Focus(Transform follow, Vector2 worldSize, Vector2 offset = default(Vector2), float shrinkDuration = -1f)
 		{
-			// TODO(unrecovered): Transform overload args are scrambled in the decompile (x-only position read, reused float slot); center calc ambiguous
+			Vector3 p = follow.position;
+			WorldRectToLocal(new Vector2(p.x + offset.x, p.y + offset.y), worldSize, out Vector2 center, out Vector2 size);
+			Begin(center, size, shrinkDuration);
+			_followWorld = follow;
+			_followOffset = offset;
+			_worldSize = worldSize;
 		}
 
 		public void Focus(RectTransform target, Vector2 padding = default(Vector2), float shrinkDuration = -1f)

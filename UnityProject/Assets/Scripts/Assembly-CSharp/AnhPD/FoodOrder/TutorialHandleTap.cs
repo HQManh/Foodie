@@ -54,12 +54,33 @@ namespace AnhPD.FoodOrder
 
 		public override void Show(List<Transform> points)
 		{
-			// TODO(unrecovered): decompiled body reads an extra stack argument for the Vector2 y component; not recoverable
+			Transform first = (points != null && points.Count > 0) ? points[0] : null;
+			Transform anchor = first != null ? first : transform;
+			Show(new List<Vector2> { (Vector2)anchor.position });
+			_follow = first;
 		}
 
 		public override void Show(List<Vector2> positions)
 		{
-			// TODO(unrecovered): decompiled body uses a second argument slot that has no counterpart in the stub; sequence wiring not recoverable
+			_follow = null;
+			transform.position = positions[0];
+			if (_seq != null)
+			{
+				_seq.Kill();
+			}
+			_seq = DOTween.Sequence();
+			_seq.AppendCallback(() =>
+			{
+				Vector3 e = tfHand.localEulerAngles;
+				e.z = 0f;
+				tfHand.localEulerAngles = e;
+			});
+			_seq.Append(HandDownTween());
+			_seq.AppendInterval(0.2f);
+			_seq.AppendCallback(() => handPointer.SetActive(false));
+			_seq.Append(HandUpTween());
+			_seq.SetLoops(-1);
+			_seq.SetUpdate(true);
 		}
 
 		private void Update()
