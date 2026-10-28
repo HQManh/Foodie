@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using CakeOrder;
+using CakeOrder.InGame;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -75,8 +77,10 @@ namespace AnhPD.FoodOrder
 
 		protected override void Setup()
 		{
-			// TODO(unrecovered): the pseudocode Setup takes extra (x, y, z) float arguments that the stub
-			// signature does not have, so the _itemRootHome y/z source cannot be matched.
+			if (itemRoot)
+			{
+				_itemRootHome = itemRoot.localPosition;
+			}
 		}
 
 		public void AddIngredients(List<IngredientState> picked, Action onEmptied = null)
@@ -116,9 +120,37 @@ namespace AnhPD.FoodOrder
 
 		public bool TryTakeUsable(Func<DragItem, bool> canUse, out DragItem taken)
 		{
-			// TODO(unrecovered): depends on the base SpawnBag byte flag at +0x28 (no matching stub field),
-			// CakeOrder interact checks and the spawn/adopt sequence through PieceLedger, not recovered.
 			taken = null;
+			if (isBlock || !MessyController.Ins)
+			{
+				return false;
+			}
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level && !level.IsAllowInteract)
+			{
+				return false;
+			}
+			for (int i = 0; i < _entries.Count; i++)
+			{
+				DragItem item;
+				using (PieceLedger.Mute())
+				{
+					item = MessyController.Ins.SpawnAndGetDragItem(_entries[i].id, MouthPosition, false, false);
+				}
+				if (!item)
+				{
+					continue;
+				}
+				item.SetSortingOrder(SpawnedSortingOrder);
+				if (canUse(item))
+				{
+					_entries.RemoveAt(i);
+					PieceLedger.Adopt(item, PieceLedger.Source.SaveMeBag, /* literal recovered by guess */ "save-me bag");
+					taken = item;
+					return true;
+				}
+				MessyController.Ins.DespawnItem(item);
+			}
 			return false;
 		}
 
@@ -158,8 +190,10 @@ namespace AnhPD.FoodOrder
 
 		private void ApplySortingByPosition()
 		{
-			// TODO(unrecovered): the pseudocode takes a float sort argument and the owning object as separate
-			// parameters; the stub method has no parameters, so the sorting value source is not recoverable.
+			if (sortingGroup)
+			{
+				sortingGroup.sortingOrder = (int)-transform.position.y;
+			}
 		}
 
 		public void OnPointerDown(PointerEventData eventData)
@@ -169,13 +203,45 @@ namespace AnhPD.FoodOrder
 
 		private void CyclePreview()
 		{
-			// TODO(unrecovered): gated on the base-class flag at +0x28 (no matching stub field) and on CakeOrder
-			// interact checks; the cycle logic itself is in the pseudocode but the gate cannot be named.
+			if (isBlock || _entries.Count <= 1)
+			{
+				return;
+			}
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level && !level.IsAllowInteract)
+			{
+				return;
+			}
+			if (_swapTween != null && _swapTween.IsActive())
+			{
+				return;
+			}
+			IngredientState first = _entries[0];
+			_entries.RemoveAt(0);
+			_entries.Add(first);
+			InvokeSpawnEffect();
+			PlaySwapAnim();
 		}
 
 		private void PlaySwapAnim()
 		{
-			// TODO(unrecovered): DOTween sequence uses unnamed ease constants and an unnamed static tween callback.
+			if (_swapTween != null)
+			{
+				_swapTween.Kill();
+			}
+			if (!itemRoot || swapDuration <= 0f || swapDropDistance <= 0f)
+			{
+				ClearPreview();
+				BuildPreview();
+				return;
+			}
+			float half = swapDuration * 0.5f;
+			Sequence swap = DOTween.Sequence();
+			swap.Append(itemRoot.DOLocalMoveY(_itemRootHome.y - swapDropDistance, half).SetEase(Ease.InQuad));
+			swap.AppendCallback(SwapPreviewNow);
+			swap.Append(itemRoot.DOLocalMoveY(_itemRootHome.y, half).SetEase(Ease.OutBack));
+			swap.SetTarget(this);
+			_swapTween = swap;
 		}
 
 		private void SwapPreviewNow()
@@ -217,20 +283,58 @@ namespace AnhPD.FoodOrder
 
 		private void DropUnusableToStation()
 		{
-			// TODO(unrecovered): relies on CakeOrder interact checks, LevelInfo station lookup, LevelPieceBook
-			// wanted-as-is test and PieceLedger spawn-to-station calls whose signatures are not in the stubs.
+			if (isBlock || !MessyController.Ins)
+			{
+				return;
+			}
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+			if (level && !level.IsAllowInteract)
+			{
+				return;
+			}
+			LevelInfo info = MessyController.Ins.Info;
+			if (info == null)
+			{
+				return;
+			}
+			LevelPieceBook book = info.Pieces;
+			PieceSet missing = GetMissingPieces();
+			for (int i = 0; i < _entries.Count; i++)
+			{
+				string id = _entries[i].id;
+				if (book != null && book.TakeWantedAsIs(id, ref missing))
+				{
+					continue;
+				}
+				if (!info.TryGetInteractableStation(id, MouthPosition, out CookingStation station) || !info.WantsAutoFeed(station, id))
+				{
+					continue;
+				}
+				_entries.RemoveAt(i);
+				InvokeSpawnEffect();
+				ClearPreview();
+				using (PieceLedger.From(PieceLedger.Source.SaveMeBag, /* literal recovered by guess */ "save-me -> " + station.name))
+				{
+					MessyController.Ins.SpawnToStation(id, MouthPosition, station, DragOrigin.None, spawned =>
+					{
+						spawned.SetSortingOrder(SpawnedSortingOrder);
+						_lastOut = spawned;
+					});
+				}
+				ShowNext();
+				return;
+			}
 		}
 
 		private static PieceSet GetMissingPieces()
 		{
-			// TODO(unrecovered): PieceSet is built from LevelPieceBook.OpenOrderMissing or a static fallback set.
-			return default;
+			LevelPieceBook book = (MessyController.Ins && MessyController.Ins.Info != null) ? MessyController.Ins.Info.Pieces : null;
+			return book != null ? book.OpenOrderMissing() : PieceSet.Empty;
 		}
 
 		private static bool WantedAsIs(LevelInfo info, string id, PieceSet missing)
 		{
-			// TODO(unrecovered): PieceSet.IsEmpty and LevelPieceBook.OpenOrderWantsAsIs are not in the stubs.
-			return false;
+			return !missing.IsEmpty && info.Pieces != null && info.Pieces.OpenOrderWantsAsIs(id, missing);
 		}
 
 		private void MoveToFront(int index)
@@ -281,15 +385,46 @@ namespace AnhPD.FoodOrder
 
 		private void BuildPreview()
 		{
-			// TODO(unrecovered): the pseudocode mutes a PieceLedger scope around the spawn, spawns the drag item
-			// through MessyController and then applies a flexible-id init step; the scope and flexible-id calls
-			// have no stub signatures to match.
+			if (_entries.Count == 0)
+			{
+				return;
+			}
+			IngredientState entry = _entries[0];
+			DragItem prefab = MessyController.Ins.Info.GetIngredientPrefab(entry.id);
+			if (!prefab)
+			{
+				return;
+			}
+			Transform anchor = itemRoot ? itemRoot : transform;
+			DragItem item;
+			using (PieceLedger.Mute())
+			{
+				item = MessyController.Ins.SpawnDragItemPrefab(prefab, anchor.position, false);
+			}
+			if (!item)
+			{
+				return;
+			}
+			if (item is FlexibleDragItem flexible && FlexibleId.IsFlexible(entry.id))
+			{
+				flexible.Display(entry.id);
+			}
+			AdoptAsPreview(item);
 		}
 
 		private void AdoptAsPreview(DragItem item)
 		{
-			// TODO(unrecovered): the preview local position and scale come from unnamed static settings and the
-			// item's scale fields, neither matched to stub members.
+			_preview = item;
+			if (!_preview)
+			{
+				return;
+			}
+			Transform parent = itemRoot ? itemRoot : transform;
+			Transform t = _preview.transform;
+			t.SetParent(parent, false);
+			t.localPosition = Vector3.zero;
+			t.localScale = _preview.SizeInit * scaleRation;
+			_preview.ClampSortingLayer();
 		}
 
 		private void RefreshCount()
@@ -320,14 +455,29 @@ namespace AnhPD.FoodOrder
 			if (item != null)
 			{
 				item.transform.SetParent(null, true);
-				// TODO(unrecovered): the pseudocode restores the item's local scale from its stored scale fields,
-				// which have no matching stub members.
+				item.transform.localScale = item.SizeInit;
 			}
 		}
 
 		private void PromotePreferredToFront()
 		{
-			// TODO(unrecovered): depends on GetMissingPieces, WantedAsIs and the LevelInfo piece-book lookup.
+			PieceSet missing = GetMissingPieces();
+			if (missing.IsEmpty)
+			{
+				return;
+			}
+			LevelInfo info = MessyController.Ins.Info;
+			for (int i = 0; i < _entries.Count; i++)
+			{
+				if (WantedAsIs(info, _entries[i].id, missing))
+				{
+					if (i != 0)
+					{
+						MoveToFront(i);
+					}
+					return;
+				}
+			}
 		}
 	}
 }
