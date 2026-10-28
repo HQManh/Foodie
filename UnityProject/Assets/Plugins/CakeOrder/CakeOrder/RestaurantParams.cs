@@ -17,12 +17,14 @@ public class RestaurantParams
 
 	public int GetPricePercentageByEmotion(CustomerEmotion emotion)
 	{
-		return 0;
+		int i = (int)emotion;
+		return i < emotionToPricePercentage.Length ? emotionToPricePercentage[i] : 0;
 	}
 
 	public int GetNumCoinsByEmotion(CustomerEmotion emotion)
 	{
-		return 0;
+		int i = (int)emotion;
+		return i < emotionToNumCoins.Length ? emotionToNumCoins[i] : 0;
 	}
 }
 }

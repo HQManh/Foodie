@@ -34,14 +34,27 @@ public class CustomerSpawnData
 
 	private bool? _isShipper;
 
-	public bool IsCleanDishStaff => false;
+	public bool IsCleanDishStaff => (int)customerType == 1;
 
-	public bool IsBoss => false;
+	public bool IsBoss => IsCharacterType(CharacterType.Boss, ref _isBoss);
 
-	public bool IsShipper => false;
+	public bool IsShipper => IsCharacterType(CharacterType.Shipper, ref _isShipper);
 
 	private bool IsCharacterType(CharacterType type, ref bool? cache)
 	{
+		if (cache.HasValue)
+		{
+			return cache.Value;
+		}
+		if (!string.IsNullOrEmpty(customerId) && CakeOrderDatabaseSO.Instance != null)
+		{
+			CakeCharacterSO character = CakeOrderDatabaseSO.Instance.GetCharacterSOById(customerId);
+			if (character != null)
+			{
+				cache = character.characterType == type;
+				return cache.Value;
+			}
+		}
 		return false;
 	}
 }

@@ -16,22 +16,32 @@ public static class StringExtension
 
 		public StringSplitEnumerator(ReadOnlySpan<char> str, char separator)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000a: Unknown result type (might be due to invalid IL or missing references)
-			_str = default(ReadOnlySpan<char>);
-			_separator = '\0';
+			_str = str;
+			_separator = separator;
 			Current = default(StringSplitEntry);
 		}
 
 		public StringSplitEnumerator GetEnumerator()
 		{
-			return default(StringSplitEnumerator);
+			return this;
 		}
 
 		public bool MoveNext()
 		{
-			return false;
+			if (_str.Length == 0)
+			{
+				return false;
+			}
+			int index = _str.IndexOf(_separator);
+			if (index < 0)
+			{
+				Current = new StringSplitEntry(_str);
+				_str = default(ReadOnlySpan<char>);
+				return true;
+			}
+			Current = new StringSplitEntry(_str.Slice(0, index));
+			_str = _str.Slice(index + 1);
+			return true;
 		}
 	}
 
@@ -41,41 +51,32 @@ public static class StringExtension
 
 		public StringSplitEntry(ReadOnlySpan<char> line)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000a: Unknown result type (might be due to invalid IL or missing references)
-			Str = default(ReadOnlySpan<char>);
+			Str = line;
 		}
 
 		public static implicit operator ReadOnlySpan<char>(StringSplitEntry entry)
 		{
-			//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-			return default(ReadOnlySpan<char>);
+			return entry.Str;
 		}
 
 		public bool TryParseInt(out int result)
 		{
-			result = default(int);
-			return false;
+			return int.TryParse(Str, System.Globalization.NumberStyles.Integer, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseLong(out long result)
 		{
-			result = default(long);
-			return false;
+			return long.TryParse(Str, System.Globalization.NumberStyles.Integer, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseFloat(out float result)
 		{
-			result = default(float);
-			return false;
+			return float.TryParse(Str, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseEnum<T>(out T value, bool ignoreCase = true) where T : struct, Enum
 		{
-			value = default(T);
-			return false;
+			return Enum.TryParse(Str.ToString(), ignoreCase, out value);
 		}
 	}
 
@@ -89,22 +90,26 @@ public static class StringExtension
 
 		public StringSplitEnumeratorFixedCharCount(ReadOnlySpan<char> str, int chunkSize)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000a: Unknown result type (might be due to invalid IL or missing references)
-			_str = default(ReadOnlySpan<char>);
-			_chunkSize = 0;
+			_str = str;
+			_chunkSize = chunkSize;
 			Current = default(StringSplitEntryFixedCharCount);
 		}
 
 		public StringSplitEnumeratorFixedCharCount GetEnumerator()
 		{
-			return default(StringSplitEnumeratorFixedCharCount);
+			return this;
 		}
 
 		public bool MoveNext()
 		{
-			return false;
+			if (_str.Length == 0 || _chunkSize <= 0)
+			{
+				return false;
+			}
+			int take = Math.Min(_chunkSize, _str.Length);
+			Current = new StringSplitEntryFixedCharCount(_str.Slice(0, take));
+			_str = _str.Slice(take);
+			return true;
 		}
 	}
 
@@ -114,91 +119,118 @@ public static class StringExtension
 
 		public StringSplitEntryFixedCharCount(ReadOnlySpan<char> line)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000a: Unknown result type (might be due to invalid IL or missing references)
-			Str = default(ReadOnlySpan<char>);
+			Str = line;
 		}
 
 		public static implicit operator ReadOnlySpan<char>(StringSplitEntryFixedCharCount entry)
 		{
-			//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-			return default(ReadOnlySpan<char>);
+			return entry.Str;
 		}
 
 		public bool TryParseInt(out int result)
 		{
-			result = default(int);
-			return false;
+			return int.TryParse(Str, System.Globalization.NumberStyles.Integer, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseLong(out long result)
 		{
-			result = default(long);
-			return false;
+			return long.TryParse(Str, System.Globalization.NumberStyles.Integer, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseFloat(out float result)
 		{
-			result = default(float);
-			return false;
+			return float.TryParse(Str, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out result);
 		}
 
 		public bool TryParseEnum<T>(out T value, bool ignoreCase = true) where T : struct, Enum
 		{
-			value = default(T);
-			return false;
+			return Enum.TryParse(Str.ToString(), ignoreCase, out value);
 		}
 	}
 
-	private static string[] RomanLetters;
+	private static string[] RomanLetters = new string[13] { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
-	private static int[] RomanNumbers;
+	private static int[] RomanNumbers = new int[13] { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
 
 	public static string IntToRoman(int num)
 	{
-		return null;
+		if (num <= 0)
+		{
+			return num.ToString();
+		}
+		System.Text.StringBuilder sb = new System.Text.StringBuilder();
+		for (int i = 0; i < RomanNumbers.Length; i++)
+		{
+			while (num >= RomanNumbers[i])
+			{
+				sb.Append(RomanLetters[i]);
+				num -= RomanNumbers[i];
+			}
+		}
+		return sb.ToString();
 	}
 
 	public static string SecondToTimeMMSS(float second)
 	{
-		return null;
+		int total = Mathf.Max(0, Mathf.CeilToInt(second));
+		return string.Format("{0:00}:{1:00}", total / 60, total % 60);
 	}
 
 	public static string TimeSpanToString(TimeSpan time)
 	{
-		return null;
+		if (time.TotalDays >= 1.0)
+		{
+			return string.Format("{0}d {1:00}h", (int)time.TotalDays, time.Hours);
+		}
+		if (time.TotalHours >= 1.0)
+		{
+			return string.Format("{0:00}:{1:00}:{2:00}", (int)time.TotalHours, time.Minutes, time.Seconds);
+		}
+		return string.Format("{0:00}:{1:00}", time.Minutes, time.Seconds);
 	}
 
 	public static string NumberToKMBFormat(long num, SystemLanguage systemLanguage = (SystemLanguage)10)
 	{
-		return null;
+		double abs = Math.Abs((double)num);
+		string sign = num < 0 ? "-" : string.Empty;
+		if (abs >= 1000000000.0)
+		{
+			return sign + (abs / 1000000000.0).ToString("0.##") + "B";
+		}
+		if (abs >= 1000000.0)
+		{
+			return sign + (abs / 1000000.0).ToString("0.##") + "M";
+		}
+		if (abs >= 1000.0)
+		{
+			return sign + (abs / 1000.0).ToString("0.##") + "K";
+		}
+		return num.ToString();
 	}
 
 	public static StringSplitEnumerator SplitNonAlloc(this string str, char separator)
 	{
-		return default(StringSplitEnumerator);
+		return new StringSplitEnumerator(str.AsSpan(), separator);
 	}
 
 	public static StringSplitEnumerator SplitNonAlloc(this StringSplitEntry entry, char separator)
 	{
-		return default(StringSplitEnumerator);
+		return new StringSplitEnumerator(entry.Str, separator);
 	}
 
 	public static StringSplitEnumerator SplitNonAlloc(this ReadOnlySpan<char> str, char separator)
 	{
-		return default(StringSplitEnumerator);
+		return new StringSplitEnumerator(str, separator);
 	}
 
 	public static StringSplitEnumeratorFixedCharCount SplitNonAlloc(this string str, int chunkSize)
 	{
-		return default(StringSplitEnumeratorFixedCharCount);
+		return new StringSplitEnumeratorFixedCharCount(str.AsSpan(), chunkSize);
 	}
 
 	public static StringSplitEnumeratorFixedCharCount SplitNonAlloc(this ReadOnlySpan<char> str, int chunkSize)
 	{
-		return default(StringSplitEnumeratorFixedCharCount);
+		return new StringSplitEnumeratorFixedCharCount(str, chunkSize);
 	}
 }
 }
