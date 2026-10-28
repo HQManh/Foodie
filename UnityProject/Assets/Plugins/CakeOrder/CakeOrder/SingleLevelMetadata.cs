@@ -21,7 +21,15 @@ public class SingleLevelMetadata
 
 	public SingleLevelMetadata Clone()
 	{
-		return null;
+		return new SingleLevelMetadata
+		{
+			weatherEffect = weatherEffect,
+			difficultyTag = difficultyTag,
+			numCustomers = numCustomers,
+			numDishs = numDishs,
+			numIngredients = numIngredients,
+			tutId = tutId
+		};
 	}
 }
 }
