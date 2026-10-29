@@ -12,11 +12,11 @@ public struct ToolUpgradeStat
 
 	public float speedOffset;
 
-	public static ToolUpgradeStat Default => default(ToolUpgradeStat);
+	public static ToolUpgradeStat Default => new ToolUpgradeStat { level = 1, speedMultiplier = 1f, speedOffset = 0f };
 
 	public float ApplySpeed(float baseSpeed)
 	{
-		return 0f;
+		return speedMultiplier * baseSpeed + speedOffset;
 	}
 }
 }

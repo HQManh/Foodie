@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using CakeOrder.DataSO;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
+using Utilities;
 
 namespace CakeOrder
 {
@@ -26,18 +27,22 @@ public class MapToolConfig : MonoBehaviour, IMapDataConfig
 
 		public float[] speedOffsets;
 
-		public int MaxLevel => 0;
+		public int MaxLevel => Math.Max(DefaultSpeedMultipliers.Length, Math.Max(speedMultipliers != null ? speedMultipliers.Length : 0, speedOffsets != null ? speedOffsets.Length : 0));
 
 		public int[] upgradePrices => null;
 
 		public ToolUpgradeStat GetStat(int level)
 		{
-			return default(ToolUpgradeStat);
+			int clamped = level < 1 ? 1 : Math.Min(level, MaxLevel);
+			int index = clamped - 1;
+			float multiplier = speedMultipliers != null && index < speedMultipliers.Length && speedMultipliers[index] > 0f ? speedMultipliers[index] : DefaultAt(DefaultSpeedMultipliers, index);
+			float offset = speedOffsets != null && index < speedOffsets.Length ? speedOffsets[index] : DefaultAt(DefaultSpeedOffsets, index);
+			return new ToolUpgradeStat { level = clamped, speedMultiplier = multiplier, speedOffset = offset };
 		}
 
 		private static float DefaultAt(float[] defaults, int index)
 		{
-			return 0f;
+			return defaults[Math.Max(0, Math.Min(index, defaults.Length - 1))];
 		}
 	}
 
@@ -128,61 +133,163 @@ public class MapToolConfig : MonoBehaviour, IMapDataConfig
 
 	private string _mapId;
 
-	public IReadOnlyList<CakeToolSO> ToolSOs => null;
+	public IReadOnlyList<CakeToolSO> ToolSOs => toolSO;
 
-	public IReadOnlyList<ToolData> ToolDatas => null;
+	public IReadOnlyList<ToolData> ToolDatas => _toolDatas;
 
 	public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings)
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-		return default(UniTask);
+		_mapId = mapId;
+		if (remoteConfigStrings != null && remoteConfigStrings.Length != 0 && !string.IsNullOrEmpty(remoteConfigStrings[0]))
+		{
+			ToolData[] imported = ImportData(remoteConfigStrings[0]);
+			if (imported.Length != 0)
+			{
+				_toolDatas = imported;
+			}
+		}
+		return UniTask.CompletedTask;
 	}
 
 	public int GetToolIndex(string id)
 	{
-		return 0;
+		for (int i = 0; i < toolSO.Length; i++)
+		{
+			if (toolSO[i].Id == id)
+			{
+				return i;
+			}
+		}
+		return -1;
 	}
 
 	public CakeToolSO GetToolSO(int index)
 	{
-		return null;
+		return index >= 0 && index < toolSO.Length ? toolSO[index] : null;
 	}
 
 	public CakeToolSO GetToolSO(string id)
 	{
+		foreach (CakeToolSO tool in toolSO)
+		{
+			if (tool.Id == id)
+			{
+				return tool;
+			}
+		}
 		return null;
 	}
 
 	public ToolData GetToolData(int index)
 	{
-		return null;
+		return GetToolData(index >= 0 && index < toolSO.Length ? toolSO[index].Id : null);
 	}
 
 	public ToolData GetToolData(string toolId)
 	{
-		return null;
+		if (!string.IsNullOrEmpty(toolId) && _toolDatas != null)
+		{
+			foreach (ToolData data in _toolDatas)
+			{
+				if (data != null && data.toolId == toolId)
+				{
+					return data;
+				}
+			}
+		}
+		return DefaultRow;
 	}
 
 	public ToolUpgradeStat GetUpgradeStat(string toolId, int level)
 	{
-		return default(ToolUpgradeStat);
+		return GetToolData(toolId).GetStat(level);
 	}
 
-	[IteratorStateMachine(typeof(_003CEnumerateToolIds_003Ed__16))]
 	public IEnumerable<string> EnumerateToolIds()
 	{
-		return null;
+		HashSet<string> seen = new HashSet<string>();
+		foreach (ToolData data in _toolDatas)
+		{
+			if (data != null && !string.IsNullOrEmpty(data.toolId) && seen.Add(data.toolId))
+			{
+				yield return data.toolId;
+			}
+		}
+		foreach (CakeToolSO tool in toolSO)
+		{
+			if (tool != null && !string.IsNullOrEmpty(tool.Id) && seen.Add(tool.Id))
+			{
+				yield return tool.Id;
+			}
+		}
 	}
 
 	private ToolData[] ImportData(string data)
 	{
-		return null;
+		// tools are separated by '|', fields by ';': toolId;speedMultipliers;speedOffsets (lists separated by ',')
+		List<ToolData> tools = new List<ToolData>();
+		foreach (StringExtension.StringSplitEntry toolEntry in data.SplitNonAlloc('|'))
+		{
+			if (toolEntry.Str.Length == 0)
+			{
+				continue;
+			}
+			ToolData tool = new ToolData();
+			int field = 0;
+			foreach (StringExtension.StringSplitEntry fieldEntry in toolEntry.SplitNonAlloc(';'))
+			{
+				switch (field)
+				{
+				case 0:
+					tool.toolId = fieldEntry.Str.ToString().Trim();
+					break;
+				case 1:
+					tool.speedMultipliers = ParseFloatList(fieldEntry.Str.ToString(), 1f);
+					break;
+				case 2:
+					tool.speedOffsets = ParseFloatList(fieldEntry.Str.ToString(), 0f);
+					break;
+				}
+				field++;
+			}
+			if (string.IsNullOrEmpty(tool.toolId))
+			{
+				UnityEngine.Debug.LogWarning("[MapToolConfig] Skipping tool entry without id: " + toolEntry.Str.ToString());
+				continue;
+			}
+			if (field < 3)
+			{
+				tool.speedOffsets = new float[tool.speedMultipliers.Length];
+			}
+			tools.Add(tool);
+		}
+		return tools.ToArray();
 	}
 
 	private static float[] ParseFloatList(string text, float fallback)
 	{
-		return null;
+		List<float> values = new List<float>();
+		if (text != null)
+		{
+			foreach (string part in text.Split(','))
+			{
+				string trimmed = part.Trim();
+				if (trimmed.Length == 0)
+				{
+					continue;
+				}
+				if (float.TryParse(trimmed, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out float value))
+				{
+					values.Add(value);
+				}
+				else
+				{
+					UnityEngine.Debug.LogWarning("[MapToolConfig] Cannot parse '" + trimmed + "' as float, using " + fallback);
+					values.Add(fallback);
+				}
+			}
+		}
+		return values.ToArray();
 	}
 }
 }
