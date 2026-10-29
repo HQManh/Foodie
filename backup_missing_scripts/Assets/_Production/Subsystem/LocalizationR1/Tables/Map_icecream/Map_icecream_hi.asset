@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: आइसक्रीम कोन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: कुरकुरे वफ़ल कोन पर ठंडी आइसक्रीम का स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: आइसक्रीम कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: कप में एक स्कूप, उंगलियों पर एक बूंद भी नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: ताज़े फल बर्फ़ के साथ तब तक ब्लेंड, जब तक गुनगुनाने न लगें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: आइसक्रीम और दूध को हिलाकर बना गाढ़ा घूंट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: बर्फ़ का गोला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: रुई-सी मुलायम बर्फ़, चटक सिरप में भीगी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: मैडम फ़्लेमिंगो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: एक ग्लैमरस दिवा पालतू, नियॉन पंखों का चोगा, बड़ी चौड़ी किनारी वाली टोपी और नगों जड़े कैट-आई चश्मे में आराम फरमाती हुई।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: ओली ऊदबिलाव
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: एक चंचल पालतू, जिसने आइसक्रीम प्रिंट वाली ढीली ट्रॉपिकल शर्ट और गुड़हल के फूल वाली छोटी-सी तिनके की टोपी पहनी है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: सनी तोता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: पेस्टल स्विमवियर में सजा एक प्यारा पालतू, साथ में कुतरे हुए डोनट वाला फ्लोटी और चेक वाला बंदाना।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: पिप्पा पेंगुइन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: एक ट्रेंडी पालतू, चटक झालरदार टॉप, बड़े पीले धूप के चश्मे और कागज़ की कॉकटेल छतरी लगे छोटे बेंत के बैग के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: सर शेलडन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: एक अमीर VIP पालतू, आलीशान रेशमी चोगे, सुनहरी कढ़ाई वाली कप्तानी टोपी और भारी-भरकम गहनों में।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: फुर्तीला फल बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: पलक झपकते फलों के टुकड़ों का ढेर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: निंजा फल बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: यह बोर्ड आते ही कीवी काँप उठते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: कुरकुरा कोन मेकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: गर्म, कुरकुरे कोन थोड़ा और जल्दी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: गोल्डन कोन प्रेस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: सुनहरे कोन निकलते हैं, हर बार कुरकुरे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: तेज़ ब्लेंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: कुछ ही चक्करों में फल मुलायम हो जाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: स्मूदी बवंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: फलों का बवंडर। ढक्कन लगाए रखें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: फ़्रॉस्टी शेवर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: बर्फ़ और जल्दी मुलायम फाहों में बदलती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: स्नोफ़्लेक शेवर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: पल भर में मुलायम बर्फ़ के फाहे गिरते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: तेज़ शेक मिक्सर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: शेक और जल्दी गाढ़े और मलाईदार बनते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: सुपर शेक मिक्सर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: सुपर भँवर के साथ मलाईदार शेक।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: आइसक्रीम कियोस्क
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: धूप में ठंडी मिठाइयाँ परोसने वाला छोटा कियोस्क।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: उष्णकटिबंधीय आइसक्रीम दुकान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: रंग-बिरंगी ठंडी मिठाइयों के लिए ज़्यादा जगह।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: कैपी आइसक्रीम बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: एक खुशमिज़ाज कैपीबारा आइसक्रीम प्रेमियों का स्वागत करता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: आइसक्रीम मेन्यू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: ठंडी मिठाइयों से भरा मेन्यू बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: धारीदार छज्जा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: चमकीले दुकान बोर्ड के साथ छायादार छज्जा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: मिठाई काउंटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: फल, मिठाई बनाने की मशीन और परोसने के लिए तैयार कप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: दुकान के दरवाज़े और खिड़कियाँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: रोशन खिड़कियों के बीच स्वागत करता दरवाज़ा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: सर्फिंग कोना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: सर्फबोर्ड, फलों की पेटियाँ और समुद्रतट का संकेत।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: कोन और तैरने वाला घेरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: विशाल कोन और तैरने वाला घेरा समुद्रतट का मज़ा लाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: आइसक्रीम फ़्रीज़र
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: रंगीन फ़्रीज़र आइसक्रीम को ठंडा रखता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: छत पर इंद्रधनुष
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: आइसक्रीम दुकान के ऊपर चमकीला इंद्रधनुष।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: विशाल आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: शानदार समापन के लिए छत पर विशाल आइसक्रीम।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: विशाल मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: ऊँचा मिल्कशेक छत को सजाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: फल अंदर, ठंडी स्मूदी का तूफ़ान बाहर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: स्मूदी चक्रवात
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: इतना तेज़ ब्लेंड करे कि दुकान में बर्फ़ गिरने लगे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: लीजेंडरी बर्फ़ीला ब्लेंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: कुरकुरे कोन एक के बाद एक निकलते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: टर्बो कोन मेकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: रिकॉर्ड रफ़्तार से सुनहरे वफ़ल कोन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: लीजेंडरी वफ़ल भट्टी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: स्ट्रॉबेरी पलक झपकने से पहले ही कट जाती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: समुराई फ्रूट बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: एक वार, पूरी कटोरी टॉपिंग।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: लीजेंडरी फ्रूट ब्लेड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: पल भर में मुलायम बर्फ़। चम्मच उठाइए!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: बर्फ़ीले तूफ़ान वाला शेवर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: एक साँस में शेव्ड आइस का पहाड़।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: लीजेंडरी ग्लेशियर शेवर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: पल भर में गाढ़े, क्रीमी शेक।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: मिल्कशेक टॉरनेडो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: इतनी तेज़ी से शेक करे कि स्ट्रॉ नाचने लगें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: लीजेंडरी शेक इंजन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: मलाईदार हरा फल, मुलायम स्मूदी के लिए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: मुलायम हरे टुकड़े, ब्लेंडर के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: ताज़े एवोकाडो का मुलायम, मलाईदार मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: प्राकृतिक मिठास से भरा धूप-सा केला।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: मीठे केले के टुकड़े, ब्लेंड करने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: पके केले का गाढ़ा, मीठा मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: फलों को मुलायम स्मूदी में बदलता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: स्वाद से भरी नन्ही बेरीज़।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: ताज़ी ब्लूबेरी का चमकीला बैंगनी मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: सबसे ऊपर सजाने को चमकदार लाल चेरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: घिसी बर्फ़ पर डालने को मीठा लाल सिरप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: कोको प्रेमियों के लिए गाढ़ी चॉकलेट स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: चॉकलेट आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: ऊपर डालने को चमकदार चॉकलेट सॉस।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: रोएँदार खोल में छिपी मीठी गिरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: उष्णकटिबंधीय स्वाद वाले सफ़ेद नारियल टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: मलाईदार मिश्रण जिसमें समुद्र तट का स्वाद है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: मीठा घोल जो जल्द ही कुरकुरा कोन बनेगा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: घोल से कुरकुरे वफ़ल कोन बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: टॉपिंग और स्मूदी के लिए फल काटता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: मेहमान की पसंद से सजा कोन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: मेहमान की पसंद के स्कूप वाला कप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: मेहमान के पसंदीदा स्वाद में गाढ़ा शेक।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: मेहमान के पसंदीदा सिरप वाली मुलायम बर्फ़।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: ऑर्डर पर बना फलों का मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: रसीले अंगूर के स्वाद वाले बैंगनी स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: अंगूर आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: घिसी बर्फ़ के लिए मीठा बैंगनी सिरप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: गाढ़ा खट्टा दही, स्मूदी को और मुलायम बनाए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: सेब की खटास वाला हरा सिरप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: खनकती बर्फ़ जो सब कुछ ठंडा रखे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: बर्फ़ के टुकड़ों को मुलायम बर्फ़ बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: रोएँदार फल, अंदर से चमकीला हरा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: बीजों से सजे हरे कीवी के टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: खट्टे झटके वाला ताज़गी भरा पीला सिरप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: उष्णकटिबंधीय आम से भरे सुनहरे स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: आम आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: हल्की मीठी ग्रीन टी स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: माचा आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: मलाईदार पेय के लिए ताज़ा ठंडा दूध।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: आइसक्रीम और दूध को गाढ़ा होने तक मिलाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: धूप से भरा रसीला संतरा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: ब्लेंड करने को तैयार चमकीली फाँकें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: ताज़े संतरे का चटपटा मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: स्कूप के ऊपर कुरकुरा बिस्कुट।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: चॉकलेट में डूबी कुरकुरी स्टिक।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: इंद्रधनुष के हर रंग की लचीली जेली।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: बर्फ़ जैसी मुलायम, सिरप के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: ऊपर रंग-बिरंगी पार्टी के लिए स्प्रिंकल्स।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: पत्तों की टोपी वाली मीठी लाल बेरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: असली बेरी स्वाद वाले गुलाबी स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: स्ट्रॉबेरी आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: ब्लेंड करने को रसीले लाल टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: ताज़ी स्ट्रॉबेरी का गुलाबी मिश्रण।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: ऊपर डालने को मीठा गुलाबी सॉस।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: सबकी पसंदीदा क्लासिक मलाईदार स्कूप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: वनीला आइसक्रीम, शेक बनने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: स्कूप के लिए कुरकुरा सुनहरा कोन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: मीठी क्रीम का हल्का-फुल्का घुमाव।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: हल्की मिठास वाले मुलायम जेली के टुकड़े।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: एवोकाडो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: कटा एवोकाडो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: एवोकाडो स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: केला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: कटा केला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: केला स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: ब्लेंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: ब्लूबेरी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: ब्लूबेरी स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: चेरी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: चेरी सिरप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: चॉकलेट आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: चॉकलेट मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: चॉकलेट सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: नारियल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: नारियल के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: नारियल स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: कोन बैटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: कोन मेकर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: आइसक्रीम कोन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: आइसक्रीम कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: बर्फ़ का गोला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: अंगूर आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: अंगूर मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: अंगूर सिरप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: ग्रीक योगर्ट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: हरा सेब सिरप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: बर्फ़ के टुकड़े
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: बर्फ़ घिसने की मशीन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: कीवी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: कटी कीवी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: नींबू सिरप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: आम आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: आम मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: माचा आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: माचा मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: दूध
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: मिल्कशेक मिक्सर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: संतरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: कटा संतरा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: संतरा स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: चॉकलेट बिस्कुट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: चॉकलेट स्टिक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: इंद्रधनुषी जेली
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: घिसी बर्फ़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: स्प्रिंकल्स
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: स्ट्रॉबेरी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: स्ट्रॉबेरी आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: स्ट्रॉबेरी मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: कटी स्ट्रॉबेरी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: स्ट्रॉबेरी स्मूदी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: स्ट्रॉबेरी सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: वनीला आइसक्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: वनीला मिल्कशेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: वफ़ल कोन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: व्हिप्ड क्रीम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: सफ़ेद जेली
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

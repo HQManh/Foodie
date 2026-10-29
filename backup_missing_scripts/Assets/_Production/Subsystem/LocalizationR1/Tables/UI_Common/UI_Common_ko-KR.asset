@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ko-KR
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko-KR
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: 최대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}일 {1}시간'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}분'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}시간 {1}분'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}시간'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: 보상
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: 구매 완료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: 보상을 받았어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: 받기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: 확인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Lv.{0} -> Lv.{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: '{0}일차'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: '{0}일차 시작 시 해제'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: 곧 출시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: 이 기능은 곧 출시돼요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: 상점
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: 홈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: 레스토랑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: 대전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: 업적
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: 이 맵은 잠겨 있어요. 이전 맵을 클리어하면 열려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: 이 일차는 잠겨 있어요. 이전 일차를 클리어하면 열려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: '{0}~{1}일차'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: 이전 레스토랑의 {0}일차를 통과하면 잠금 해제돼요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: 어려움
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: 매우 어려움
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: 이 맵은 향후 업데이트에서 만나 보실 수 있어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: '서빙: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: 레스토랑을 업그레이드해 보세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: 구매할 수 있는 아이템이에요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: 어제 번 코인으로 무언가를 업그레이드해 봐요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: 이제 도구 업그레이드 탭으로 가 볼까요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: 이 그리들을 업그레이드해 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: 토스터를 업그레이드했으니, 돌아가서 하루를 시작해요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: 이제 하루를 시작해 봐요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: 이 부스터를 사용해 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: 요리하다 보면 특별한 상태가 될 수 있어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: 손님을 성공적으로 응대할 때마다 이 바가 올라가요! 손님 {0}명을 더 응대해 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: 요리를 성공적으로 낼 때마다 이 바가 올라가요! 요리 {0}개를 더 내 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: 좋아요! 맛 폭발 상태에서는 아주 효율적으로 요리할 수 있어요. 즐겁게 플레이하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: 건설할 코인이 부족해요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Lv.MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0}이(가) 부족해요'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: 이미 최대 레벨입니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0}회'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: x{0} 받기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: 이 부스터는 {0}일차부터 사용할 수 있어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: x{0} 속도를 {1}분 동안 활성화할까요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: 받음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: 광고가 제거되었어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: 부스터 이름
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: 구조하고 +{0} XXX 추가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: 자동 요리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: 재료를 자동으로 모아 요리를 만듭니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: 청소 도구
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: 테이블 위의 더러운 더미 하나를 치웁니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: 집게
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: 원하는 재료 접시 하나를 자유롭게 고르세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: 슬롯이 더 필요하나요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: 요리를 보관할 슬롯을 더 해제하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: 섞기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: 재료 줄 바꾸기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: x2 속도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: x2 속도로 더 빠르게 요리하고 서빙하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: 하트 {0}개를 회복할까요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: 재료를 섞어 볼까요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: 재료 5개를 가방에 넣을까요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: 손님 대기 시간 채우기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: 버거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: 커피
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: 데이터 충돌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: 로딩 중...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: 로딩 중
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: 레스토랑 레벨 업!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: 탭하여 계속
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: 보스는 까다롭고 쉽게 인내심을 잃어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: 나만의 패스트푸드점을 갖게 된 걸 축하해요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: 영업을 시작해 볼까요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: 그녀는 육즙 가득한 버거를 원해요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: 사용할 재료를 탭하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: 손님 주문을 탭하면 표시가 바뀌어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: 배달원은 시간이 다 되기 전에 여러 주문을 가져가요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: 클라우드 사용
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: 로컬 사용
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: 내 보상
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: '{0}칸을 비우고 계속 요리할까요?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "게임이 재미있나요?\n리뷰를 남겨 주세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: 게임 평가하기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: 냠냠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: 맛있어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: 꿀맛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: 반했어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: 더 주세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: 환상의 맛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: 감동의 맛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: 일품이에요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: 최고의 요리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: 걸작이에요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: 추가 일차를 잠금 해제하려면 {1}의 {0}를 통과하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: 인터넷 연결이 필요해요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: 광고가 아직 준비되지 않았어요. 다시 시도해 주세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: 이름은 {0}자 이상이어야 해요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: 이름은 {0}자 이하여야 해요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: 이름에는 문자, 숫자, 공백, _만 사용할 수 있어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: '{0} 후에 다시 와 주세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: 먼저 무료 보상을 받아 주세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: 먼저 이전 보상을 받아 주세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: 확인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: '{0}일차에 해금'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: 스시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: 좋아요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: 추가 일차
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: 잠김
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: 요리 상점
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: 도구 업그레이드 완료!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0}이(가) 더 빨라졌어요'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0}이(가) 최고 속도가 되었어요'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: 추가 일차 해제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: 소식
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: 레스토랑에 새로운 업그레이드 파츠가 추가됐어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0}에 새로운 추가 일차가 생겼어요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: 업그레이드 가격이 조정되었어요. 더 낸 골드는 돌려드렸어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: 평가하기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: 활성화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: 활성화됨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: 팀이 이미 존재합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: 팀이 꽉 찼습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: 팀이 비어 있지 않습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: 팀이 존재하지 않습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: 리더는 떠날 수 없습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: 권한이 없습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: 서버 오류
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: 사용자가 팀에 가입했습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: 사용자가 최근에 떠났습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: 사용자가 팀에 없습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: 요청
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: 아바타
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: 보너스 뱅크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: 일차를 완료해 금화를 저축하고 이벤트가 끝나면 돌려받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: '<color=yellow>드리미 패스</color>를 활성화하여 스테이지 마지막에 <color=yellow>보너스 뱅크</color>를 잠금 해제세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: 데이터를 서버에 저장할 수 없습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: 채팅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: 선택
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: 받기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: 곧 출시!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: 완료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: 확인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: 축하해요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: 계속
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: 복사됨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: 국가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: 생성
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: 팀을 만들고 이끄세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: 삭제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: '설명:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: 드리미 패스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: '<color=yellow>드리미 패스!</color>에 오신 것을 환영합니다! 첫 보상을 받으세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: 일차를 클리어하고 <color=yellow>열쇠</color>를 모아 보상을 잠금 해제하세요. 모으는 방법은 탭!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: '<color=yellow>드리미 패스</color>를 활성화하면 특별 보상을 받을 수 있어요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: 이 단계를 잠금 해제하고 <color=yellow>드리미 패스</color>를 활성화해 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: 드리미 연승
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: 실패 없이 일차를 클리어하고 더 많은 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: 지지 않고 일차를 클리어하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: 점수 배수를 높이세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: 놀라운 보상을 획득하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: 실패할 때마다 배수가 초기화됩니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: 드리미 타워
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: 일차를 연속으로 클리어하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: 일어나라!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: 실패할 때마다 체크포인트 진행 상황이 초기화됩니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: 편집
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: 이름 편집
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: 순위표에 참여하기 전에 사용자 이름을 선택하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: 프로필 편집
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: 팀 편집
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: 비어 있는!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: 종료됨!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: 텍스트 입력...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: 설명 입력...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: 팀 이름 입력...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: 마치다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: 첫 시도 승리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: 프레임
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: 무료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>무료</color> 하트'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: '<color=#7CF73F>무료</color> 보상'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: 무료 하트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: 일반 통계
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: 이동
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: 도움말
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: 제공한 도움
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: 받은 도움
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: 받은편지함
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: 정보
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: 가입
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: 팀에 가입하고 무료 하트를 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: 마지막 기회
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: 리더
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: 순위표
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: 나가기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: 팀을 나갈까요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: 새 팀을 만들거나 가입하려면 30분을 기다려야 합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: 레벨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: 주간 콘테스트를 잠금 해제하려면 <color=yellow>{0}일차</color>를 달성하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: 생명이 가득 찼습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: 불러오기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: 서버에서 데이터 불러오기 완료! 게임을 재시작하여 새 데이터를 적용하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: 로컬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: '<color=yellow>{0}일차</color>에 도달하여 순위표를 잠금 해제하세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: '<color=yellow>{0}일차</color>에 도달하여 팀에 가입하세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: 최대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: 하트를 요청할 수 없습니다. 무료 하트가 10개 이상 있습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0}님이 팀에 합류했습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0}님이 {1}님에 의해 추방되었습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0}님이 팀을 떠났습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: 멤버
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: 내 팀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: 이름
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: 이름은 6자 이상이어야 합니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: 네트워크 오류!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: 네트워크 오류
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: 새로운
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: 아니요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: 이름 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: 기여 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: 팀 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: 골드가 부족합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: 열기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>드리미 패스</color>를 통해 특별한 보상을 얻을 수 있는 기회가 제공됩니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: 이벤트가 종료될 때까지 전용 보너스를 받게 됩니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 하트 5개 대신 8개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: 보너스 뱅크 활성화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: 황금색 프로필 사진 테두리 및 황금색 이름
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>드리미 패스</color>가 종료되었습니다! 보너스가 더 이상 활성화되지 않습니다. 새로운 <color=yellow>드리미 패스</color>가 곧 시작됩니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: 일차 클리어!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: 열쇠 수집!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: 보상 잠금 해제!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: '<color=yellow>드리미 패스</color>를 활성화하여 추가 전용 보상을 획득할 수 있습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: 새로운 <color=Yellow>드리미 패스</color>가 시작되었습니다! 일차를 클리어하고 <color=Yellow>패스</color>를 잠금 해제해 값진 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: 드리미 패스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0}위 보상!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: 플레이어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: 비공개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: 프로필
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: 프로필이 업데이트되었습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: 공개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: 서버에 데이터 저장이 완료되었습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: 재연결
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: 새로고침
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: 멤버 추방
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: 하트 요청 중!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: '필요 일차:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: '{0}일차를 완료하여 필요 일차 제한을 높이세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: 다시 시작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: 저장
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: 점수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: 검색
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: 배지 선택
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: 하트를 보냈습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: 서버
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: 특별 보상
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: 스테이지 레이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: 경주에서 졌어요! 다시 도전해서 멋진 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: 축하합니다! 경주에서 우승하셨습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: 다른 플레이어보다 먼저 <color=yellow>{0}일차</color>를 클리어하고 승리해 다음 단계에서 더 큰 상품을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: 게임 방법은 무엇인가요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: 다른 사람보다 먼저 일차를 클리어하고 레이스를 완주하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: 다른 사람들보다 먼저 결승선을 통과하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: 더 큰 상품을 받으려면 다음 단계로 진출하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: 스테이지 레이스 승리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: 단계 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: 별
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: 시작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: 데이터 동기화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: 탭해서 계속하기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: 탭해서 열기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: 탭해서 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: 탭하여 닫기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: 팀 정보
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: '팀 배지:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: '팀에 가입하면 다음을 얻게 됩니다:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: 팀 수확
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: 레벨에서 옥수수를 수집하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: 팀과 함께 목표를 달성하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: 멋진 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: '일반: 옥수수 1개 - 어려움: 옥수수 3개 - 매우 어려움: 옥수수 5개'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: 팀과 함께 옥수수를 수확하고 멋진 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: '팀 이름:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: 팀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: '팀 점수:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: '팀 유형:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: '총 무료 하트:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: '총 도움:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: 총 별
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: 타워 최고층
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: 리더 양도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: 수령하지 않은 보상입니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: '{0}일차에 잠금 해제'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: '{0}일차 통과 시 잠금 해제'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: 사용
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: 보기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: 프로필 보기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: 서버가 처리할 때까지 조금만 더 기다려 주세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: 주간
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: 주간 콘테스트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: 다음에는 더 노력해서 값진 보상을 획득해 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: 일차 클리어!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: 선두를 차지하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: 세계
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: 네
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: 순위표
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: 팀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: 업그레이드는 다음 업데이트에서 이용할 수 있어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: 일차
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: '팀에 가입하면:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: '<color=#7CF73F>무료</color> 하트 받기'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: 친구들과 채팅하고 함께 도전에 참여하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: 완성한 구역
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: '{0}일차에 도달하면 계속할 수 있어요'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: 일차
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: '{1} {0} 통과'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: 먼저 {0}을(를) 마지막 단계까지 업그레이드하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0} 업그레이드가 열렸어요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: '{0}에 새로운 도구 업그레이드 레벨이 생겼어요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: 모두 구매
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: 추가 보너스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: 1회 한정
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: 추가 세일 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: '{1} 레스토랑의 {0}을(를) 통과하면 잠금 해제!'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

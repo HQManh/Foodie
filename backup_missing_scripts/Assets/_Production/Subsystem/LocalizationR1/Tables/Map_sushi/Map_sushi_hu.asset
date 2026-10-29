@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Élénk lufik teszik ünnepivé minden sushis kiszolgálást.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Az eredeti sushiétterem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Nagyobb étterem, készen még több sushis fejlesztésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Gondosan metszett bonsai, amely nyugodt zöld színfoltot ad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Barátságos vízidisznós cégtábla a homlokzatra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: Hívogató macska, aki beinti a vendégeket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: Teli pult az étterem legjobb ételeivel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Tetőre tett vágódeszka tele sushival és tekercsekkel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Színes zászlók és előtetők díszítik az étterem homlokzatát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: Kecses kitsune vendég, aki színpadias eleganciával rendel sushit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Ez a kék kecske imádja a matchát, és vidám asztali illemet gyakorol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Szorgalmasan tanulmányozza az étlapot, mégis eukaliptuszra cseréli az ebédet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Bátor kis shishi, aki minden sushitekercset párbajra hív.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Hagyományos tető, amely újabb szintet ad az étteremnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Shiba yokozuna, akinek minden sushitál bajnoki mérkőzés.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Kényelmes bárszékek a sushi vendégeinek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: A farkas oyabun halkan beszél, és egyetlen pillantással uralja a sushipultot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Fesztiválos lufik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Sushi-bővítés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Bonsaikert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Vízidisznós tábla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Szerencsemacska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Kirakatpult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Sushis vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Sushis zászlók
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Emeleti tető
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Sushis bárszékek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Nigiri szusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Kézzel formázott rizs, rajta egy szelet hal, mint egy apró takaró.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Maki tekercs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Szorosan tengeri algába tekerve, és felszeletelve, mielőtt bárki belekukucskálna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Gunkan szusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: Egy kis algacsónak, színültig megrakva feltéttel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Szasimi tál
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Vékonyra szeletelt friss hal, semmi mögé nem bújhat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Zöld tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Meleg és nyugtató, hogy elmossa a wasabi csípősségét.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: Hívogató macska, aki beinti a vendégeket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Kényelmes bárszékek a sushi vendégeinek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Világító papírlampionok, amelyek bevilágítják az éttermet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Barátságos vízidisznós cégtábla a homlokzatra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Barátságos vízidisznós cégtábla a homlokzatra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Egy hatalmas tonhal a tetőn, amely büszkén mutatja a mai friss fogást.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Tetőre tett vágódeszka tele sushival és tekercsekkel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Szerencsemacska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Sushis bárszékek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Papírlampionok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Vízidisznós tábla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Vízidisznós tábla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Óriás tonhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Sushis vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: A zöldség felaprózódik, mielőtt pislantana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Olyan gyors a penge, hogy az uborkák előre megadják magukat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Nyers halat szeletel extra sashimi-selymességgel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Minden vágás műalkotás. A halak megtisztelve érzik magukat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Bolyhos rizs egy szempillantás alatt. A szemek sorban állnak, hogy megfőjenek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Annyira tökéletes rizs, hogy állva tapsolni kell neki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Villámgyorsan reszeli a wasabit. A könnyek opcionálisak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Olyan gyorsan reszel, hogy a wasabi észre sem veszi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: 'Gyorsabban főzi a finomságot, mint hogy kimondhatnád: umami.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: Egy bugyborékoló legenda, amely fénysebességgel főz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Forró tea egy pillanat alatt. A vendégek nyugodtan kortyolgatnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Egyetlen mozdulattal tölt tökéletes teát és belső békét.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Fürge vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Nindzsa vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Élesebb halvágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Sashimi-mester vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Turbó rizsfőző
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Mega rizsfőző
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Fürge reszelő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Wasabi-forgószél
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Gyors rotyogó fazék
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Umami üst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Gyorsfőző teáskanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Zen mester teáskanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Egy élénkkék sushi-zászló, amely minden éhes tekintetet magához vonz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Egy hűvös kék noren függöny leng finoman a bejárat felett.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Egy élénkpiros noren függöny köszönti az éhes vendégeket az ajtóban.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Mohos kőlámpás, amely egy csipetnyi templomi nyugalmat hoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Sushi-zászló
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Kék noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Piros noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Kőszentély
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: A friss halat selymes szasimi csíkokra szeleteli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: A ropogós zöldségekből takaros kis hasábokat vág.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: A wasabit csípős zöld meglepetéssé reszeli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Az alaplét egy tál meleg, megnyugtató levessé főzi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: A rizst puha, ragacsos szusiaranyra párolja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Zöld teát főz, minden kortyban nyugalom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Reszelő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Fazék
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Rizsfőző
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Teáskanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Krémes avokádó, a Nyugat kedvenc ajándéka a szusinak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Puha zöld kockák, készen a tekercsre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Selymes szeletek, amik kimonóként borulnak a rizsre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: Üres csésze, ami egy nyugodt teatöltésre vár.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Felvert zöld tea, nyugodt, mint egy kiotói kert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Apró aranyló kockák édes omlettből.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: Édes, feltekert omlett, türelemmel rétegezve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Aranyló szeletek a feltekert tojásból, édesek és puhák.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Lapos fehér hal, amit a szusimesterek nagyra tartanak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Puha lepényhalkockák egy könnyű falathoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Finom fehér szeletek, szinte áttetszők.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Csillogó ezüsthal, tele az óceán ízével.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Falatnyi makréla, készen a tekercsre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Fényes szeletek merész, gazdag ízzel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Élénk narancs filé, egyenesen a hideg vizekből.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Lazackockák, készen egy kis csónak tetejére.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Vajpuha lazacszeletek, amik elolvadnak a nyelven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Mélyvörös tonhal, a halpiac királya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Tonhalkockák egy merész, húsos falathoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Rubinszín szeletek mesteri késsel vágva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: Hínárcsónak, megrakva azzal, amit a vendég kíván.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Tekercs pontosan úgy, ahogy a vendég szereti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Kézzel formázott rizs a vendég kedvencével a tetején.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: Egy tál friss szelet, rendelés szerint válogatva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: Ragyogó citrom, ami minden falatot felébreszt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Vékony citromszeletek, amik felragyogtatják a halat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Krémes japán majonéz enyhe savanykássággal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: Nyers polip, csupa kar, semmi terv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Rózsaszínre és puhára főzve, készen a késre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Apró polipfalatok, mint a takoyaki gombóc nélkül.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Vékony tako szeletek rágós bájjal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Rövid szemű rizs, fényezve, a fürdőjére várva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Puha ecetes rizs, minden szusi lelke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Apró narancs gyöngyök, amik minden falatnál kipattannak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Ropogós repülőhal-ikra, ami ékszerként csillog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Nagy, fényes lazacikra, ami a tenger ízével pattan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Ropogós, pirított hínárlapok, készen a tekerésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Illatos levél, ami friss, mentás löketet ad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Nyers garnéla, összegömbölyödve, mint egy kis kérdőjel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Rózsaszínre főzve, büszkén, készen a rizsre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Falatnyi garnéla, készen a tekercsre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Legyezőként kiterítve a tökéletes nigirihez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Ködös hegyoldalakon szedett zöld tealevelek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: Göcsörtös gyökér, híresen csípős vérmérséklettel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: Egy zöld csipetnyi tűz, ami kitisztítja az orrot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Friss víz, készen arra, hogy tea legyen belőle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Avokádó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Kockázott avokádó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Szeletelt avokádó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Csésze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Halvágó deszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Zöldségvágó deszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Kockázott tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Szeletelt tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Lepényhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Kockázott lepényhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Szeletelt lepényhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Makréla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Kockázott makréla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Szeletelt makréla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Lazac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Kockázott lazac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Szeletelt lazac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Tonhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Kockázott tonhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Szeletelt tonhal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Gunkan szusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Maki tekercs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Nigiri szusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Szasimi tál
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Citrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Szeletelt citrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Majonéz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Főtt polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Kockázott polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Szeletelt polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Rizs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Szusirizs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Kapelán ikra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Shiso levél
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Garnéla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Főtt garnéla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Kockázott garnéla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Pillangóvágású garnéla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Tealevelek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Reszelt wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Víz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Az uborkák fel vannak szeletelve, mielőtt észrevennék.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Szamuráj szeletelődeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Egyetlen suhintás, egy tökéletes tekercsnyi zöldség.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Legendás katanadeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Selymes szeletek egy szempillantás alatt. A halak jóváhagyják.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Nagy szasimideszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Olyan precíz vágások, hogy még a séf is elámul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Legendás szasimioltár
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Puha rizs, kész, mielőtt a tál az asztalra kerül.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Turbó rizsfőző
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Minden szem tökéletes. Minden alkalommal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Legendás rizsszentély
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Csípős zöld felhők, egy másodperc alatt kész.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Wasabi tájfun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Olyan gyors, hogy a szoba másik végéből is csiklandozza az orrod.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Legendás wasabivihar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: A leves pillanatok alatt ízesen bugyog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Umami vulkán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: A város legfinomabb levese, villámgyorsan tálalva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Legendás umami fazék
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Nyugalmat és zöld teát főz gyorsabban, mint valaha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Megvilágosodott teáskanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Tökéletes tea, mielőtt mély levegőt vennél.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Legendás zen teáskanna
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -383,6 +383,11 @@ namespace AnhPD.FoodOrder
 			return false;
 		}
 
+		public RcDishInfo GetDishInfoOfId(string id)
+		{
+			return _recipe != null ? _recipe.GetDishInfoOfId(id) : null;
+		}
+
 		public bool TryGetPlateVariant(int dishKey, out ServePlate plate, out DragItem dirtyPlate)
 		{
 			plate = null;

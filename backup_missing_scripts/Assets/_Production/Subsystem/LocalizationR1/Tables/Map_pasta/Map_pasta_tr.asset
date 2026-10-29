@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: Makarna hikâyenin başladığı şirin küçük trattoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: Trattoria'na şirin bir üst kat ekler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: Göz açıp kapayıncaya kadar ipeksi sos hazırlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: Bir sos kasırgası. Kapak kesinlikle önerilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: Domatesler kızaramadan küp küp doğranır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: O kadar hızlı doğrar ki soğanlar ağlamaya bile fırsat bulamaz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: Açık havada makarna için kareli masa ve rahat sandalyeler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: Kapının yanında parlayan sıcacık bir fener.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: Çatıyı süsleyen gururlu kapibara şef tabelası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: Günün özel makarnalarını gösteren kara tahta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: Soslar iki kat hızlı cızırdar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: Ekstra cızırtı açıldı. Tava gururla parlıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: Kapıyı şenlendiren taze saksı bitkileri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: Daha al dente diyemeden su kaynar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: Makarnayı ışık hızında pişiren fokur fokur bir efsane.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: Çatıyı süsleyen dolgun bir üzüm salkımı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: Çatının tepesinde sarılmış dev bir tabak spagetti!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: Köpüklü gazozu bir çırpıda doldurur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: Bol köpük! Kabarcık ve neşe fıskiyesi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: Üst Katlı Trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: Sos Blenderi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: Sos Kasırgası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: Hızlı Doğrama Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: Makarna Ninja Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: Bahçe Masası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: Duvar Feneri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: Capy Şef Tabelası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: Tebeşir Menü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: Cızırtılı Tava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: Alevli Tava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: Saksıda Fesleğen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: Hızlı Kaynatma Tenceresi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: Mega Kaynatma Kazanı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: Çatı Üzümleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: Dev Spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: Köpüklü Çeşme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: Gazoz Gayzeri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: Çizgili takım elbisesi ve gül süslü fötr şapkasıyla heybetli bir ayı; bol porsiyon makarna ve mutlak saygı bekler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: Mor şapkası ve uyumlu elbisesiyle şık bir tekir; makarnasını kusursuz bir zevkle ısmarlar ve memnun memnun mırlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: Mavi postacı üniformalı, derli toplu bir çinçilla; teslimatlar arasında taze makarna kokusunun peşine düşer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: Silindir şapkalı, üç renkli kuşaklı gururlu bir horoz; makarna tezgâhını görkemli konuşmalarla yönetir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: Yuvarlak gözlüklü, çıngıraklı atkılı nazik bir koyun; her tabak makarnayı özel bir an sayar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: Elma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: Dilim Elma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: Don Orsino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: Izgara Biftek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: Çiğ Biftek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: Haşlama Tenceresi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: Kızarmış Ekmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: Somun Ekmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: Kontes Caterina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: Peynir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: Doğranmış Peynir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: Peynirli Süt Sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: Izgara Tavuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: Çiğ Tavuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: Çinçilla Chico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: Kesme Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: Izgara Deniz Tarağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: Çiğ Deniz Tarağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: Kesilmiş Çiğ Deniz Tarağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: Makarna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: Salata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: Et ve Deniz Ürünleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: Gazoz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: Haşlanmış Farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: Çiğ Farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: Pişmiş Kıyma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: Çiğ Kıyma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: Buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: Limon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: Dilim Limon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: Marul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: Doğranmış Marul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: Haşlanmış Manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: Çiğ Manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: Mayonez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: Et ve Deniz Ürünleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: Büyük Menü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: Süt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: Izgara Ahtapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: Çiğ Ahtapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: Kesilmiş Çiğ Ahtapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: Tava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: Makarna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: Belediye Başkanı Gallo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: Salata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: Sos Blenderı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: Sinyor Woolington
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: Izgara Karides
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: Çiğ Karides
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: Kesilmiş Çiğ Karides
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: Gazoz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: Gazoz Bardağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: Haşlanmış Spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: Çiğ Spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: Ispanak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: Doğranmış Ispanak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: Ispanaklı Süt Sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: Büyük Domates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: Doğranmış Domates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: Domatesli Süt Sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: Doktoru da sıkıcı salataları da uzak tutan çıtır bir elma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: Çıtır dilimlere ayrıldı, karıştırmaya hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: Izgarada bellissimo diye fısıldayana kadar pişti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: Floransa hayalleri kuran kalın bir dana eti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: Makarnayı tam al dente olana dek haşlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: Doyurucu bir çıtırtıyla altın sarısı bruschetta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: Dışı çıtır, içi yumuşak rustik bir İtalyan ekmeği.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: Drama ve lezzet için olgunlaştırılmış bir teker peynir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: Makarnanın üstüne yağmayı bekleyen peynir karları.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: Kremalı, peynirli ve her tartışmayı kazanacak kadar pürüzsüz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: Tam kıvamında ızgara izli, sulu tavuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: Izgaradaki anını bekleyen solgun tavuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: Sebzeleri ciao demenizden hızlı doğrar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: Venedik gün batımı kadar tatlı, mühürlenmiş deniz tarağı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: Kabuğunu hâlâ sıkıca kapalı tutan bir deniz tarağı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: Temizlendi, ayıklandı ve artık kabuğuna çekilmiyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: Köpüklü bir şeyler bekleyen boş bir bardak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: Sarıldı, soslandı ve İtalyan usulü servis edildi. Mamma mia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: Gerçek bir İtalyan bahçesi gibi çıtır, taze ve karışık.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: Izgaradan ve denizden, Napoli'de bir pazara yaraşır ziyafet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: Köpüklü, soğuk ve her tabak makarnanın en iyi yardımcısı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: Akşam yemeği için şıklaşmış yumuşak papyonlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: Henüz uçmayı öğrenmemiş minik makarna kelebekleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: Tıpkı nonnanın yaptığı gibi kızarmış ve soslu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: Klasik bir ragù olma yolunda kıyma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: Her gazozu serin tutan soğuk küpler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: Neşeli karakterli, güneşli bir Amalfi limonu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: Her yudumu ışıldatan parlak limon dilimleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: Bahçeden yeni gelmiş çıtır bir marul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: Güzelce karıştırılmaya hazır doğranmış yapraklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: Haşlanmış, doldurulmaya hazır yumuşacık borular.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: İç harç için bolca yeri olan iri makarna boruları.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: Her salatayı bir arada tutan kremalı sos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: Izgara ile deniz cömert bir tabakta buluşuyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: Her kremalı sosun sırrı, taze süt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: Gerçek bir Akdeniz lezzeti, közlenmiş ahtapot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: Sekiz kol ve başına geleceklerden habersiz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: Ayıklanmış dokunaçlar, ateşe hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: Eti ve sosları altın kıvamına kadar cızırdatır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: Dumanı tüten, al dente olmasıyla gurur duyan bir tabak makarna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: İtalyan usulü karıştırılmış taze yeşillikler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: Tek kremalı bir girdapta ipeksi soslar hazırlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: Alevlerin öptüğü cızırdayan karidesler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: Kıvrılmış, utangaç minik karidesler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: Ayıklandı, saklanacak kabuk kalmadı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: Buz gibi servis edilen bir bardak kabarcık.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: Köpüklü bir dolum için hazır bardak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: Bol buzun üstüne köpüklü gazoz döker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: Tam al dente, sarılmaya hazır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: Uzun, kuru ve grissini kadar sert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: Denizci gücünde yeşil yapraklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: Sosa hazır ince doğranmış yeşillikler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: Yeşil, kremalı ve gizliden gizliye sağlıklı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: Toskana güneşinde olgunlaşmış dolgun bir domates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: Her kırmızı sosun atan kalbi, küp domates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: Roma gün batımı kadar pembe ve kremalı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: Bardak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: Gazoz Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: Sıcak Trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: Domatesler kızaramadan doğranıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: Samuray Makarna Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: Tek vuruş, koca bir salata. Şefin öpücüğü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: Efsanevi Makarna Bıçağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: Bir dönüşte kremalı sos. Peçete tavsiye edilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: Sos Kasırgası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: Bir dönüş hızında ipeksi sos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: Efsanevi Sos Girdabı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: Biftekler bir anda cızırdıyor. Şu sese bak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: Cehennem Tavası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: Siz bellissimo diyene kadar mükemmel ızgara.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: Efsanevi Cızırtı Tavası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: Makarna bir anda al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: Yanardağ Haşlama Tenceresi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: O kadar hızlı kaynatıyor ki su bile fark etmiyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: Efsanevi Makarna Kazanı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: Köpükle patlıyor. Bardaklar kendiliğinden doluyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: Gazoz Yanardağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: Sonsuza dek köpük. Susuzluğun hiç şansı yok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: Sonsuz Gazoz Çeşmesi
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

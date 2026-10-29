@@ -169,7 +169,7 @@ namespace AnhPD.FoodOrder
 
 		private static void PlayAt(AudioClip clip, float rate)
 		{
-			AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(clip, (AudioManagerCakeOrder.AudioTrack)5, 1f, rate);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(clip, (AudioManagerCakeOrder.AudioTrack)5, 1f, rate);
 		}
 
 		private void KillPendingSfx()

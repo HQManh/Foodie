@@ -738,14 +738,11 @@ namespace AnhPD.FoodOrder
 
 		public IReadOnlyList<ServePlate> Plates => _plates;
 
-		// TODO(unrecovered): reads a singleton chain (DAT_091881a0 -> +0xb8 -> +0x110) whose owner type is not in this batch
-		private static LevelInfo Info => null;
+		private static LevelInfo Info => MessyController.Ins != null ? MessyController.Ins.Info : null;
 
-		// TODO(unrecovered): depends on the same singleton chain as Info, plus MessyController.get_LineHandle which is not in this batch
-		private static FCustomerLineHandle LineHandle => null;
+		private static FCustomerLineHandle LineHandle => MessyController.Ins != null ? MessyController.Ins.LineHandle : null;
 
-		// TODO(unrecovered): depends on a multi-level singleton chain and LevelBaseCakeOrderAbstract.IsAllowInteract, owner fields not mapped
-		private static bool IsInteractBlocked => false;
+		private static bool IsInteractBlocked => LevelBaseCakeOrderAbstract.Instance == null || LevelBaseCakeOrderAbstract.Instance.PlayState != LevelPlayState.Playing;
 
 		// TODO(unrecovered): depends on IsInteractBlocked and MessyController.Spawner, whose owner is not in this batch
 		private static bool IsDirectTakeBlocked => false;
@@ -775,10 +772,229 @@ namespace AnhPD.FoodOrder
 			// TODO(unrecovered): nested plate-component probes (vtable calls at +0x12e/+0xb0 plate slots, DragItem-state checks) and ShelfMergeQueue.RemoveAllOf/PlatesOf loop with unresolved offsets; not mapped in this pass
 		}
 
+		private readonly HashSet<DragItem> _directServing = new HashSet<DragItem>();
+
+		private sealed class Assembly
+		{
+			public FCustomerLine Line;
+			public int Index;
+			public ServeTicket Ticket;
+			public string OrderId;
+			public FlexibleDragItem Dish;
+			public ServePlate Plate;
+			public bool DishReady;
+			public bool Delivering;
+			public readonly List<string> Remaining = new List<string>();
+			public int InFlight;
+		}
+
+		private readonly List<Assembly> _assemblies = new List<Assembly>();
+
+		// Plate prefab of the dish kind the id belongs to (RecipeConfigSO.dishInfos[].plate); null when the recipe has none.
+		private ServePlate SpawnPlateFor(string id, Vector3 pos)
+		{
+			LevelInfo info = Info;
+			RcDishInfo dish = info != null ? info.GetDishInfoOfId(FlexibleId.BaseOf(id)) : null;
+			if (dish == null || dish.plate == null) return null;
+			ServePlate plate = Instantiate(dish.plate, pos, Quaternion.identity);
+			plate.SetVariant(dish.dishKind, dish.dirtyPlate);
+			plate.SetSlot(pos, true);
+			plate.ShowInstant();
+			return plate;
+		}
+
+		private static void DestroyPlate(ServePlate plate)
+		{
+			if (plate == null) return;
+			plate.Despawn();
+			Destroy(plate.gameObject);
+		}
+
+		private Vector3 AssemblyPosition(int slot)
+		{
+			Vector3 origin = transform.position;
+			float width = cellSize.x > 0.1f ? cellSize.x : 1.2f;
+			int slots = Mathf.Max(1, slotCount);
+			// Slots are centred on the shelf: Origin.x = position.x - cellSize.x * slots * 0.5 (see the Origin pseudocode note).
+			return new Vector3(origin.x - width * slots * 0.5f + (slot + 0.5f) * width, origin.y, origin.z);
+		}
+
+		private void PruneAssemblies()
+		{
+			for (int i = _assemblies.Count - 1; i >= 0; i--)
+			{
+				Assembly a = _assemblies[i];
+				if (a.Delivering) continue;
+				bool alive = a.Line != null && a.Line.IsCustomerReady && a.Ticket != null && a.Ticket.IsValid;
+				if (alive) continue;
+				MessyController messy = MessyController.Ins;
+				if (messy != null) messy.Serve.Release(a.Ticket);
+				if (a.Dish != null && a.InFlight == 0) a.Dish.Despawn();
+				if (a.InFlight == 0) DestroyPlate(a.Plate);
+				_assemblies.RemoveAt(i);
+			}
+		}
+
+		// Collects raw pieces for flexible orders (burgers etc.) onto a dish, then flies the finished dish to its customer.
+		private bool TryGatherForFlexibleOrder(DragItem item)
+		{
+			MessyController messy = MessyController.Ins;
+			FCustomerLineHandle handle = LineHandle;
+			LevelInfo info = Info;
+			if (messy == null || handle == null || info == null) return false;
+			PruneAssemblies();
+			string itemId = item.GetId();
+			Assembly target = null;
+			foreach (Assembly a in _assemblies)
+			{
+				if (!a.Delivering && a.Remaining.Contains(itemId)) { target = a; break; }
+			}
+			if (target == null)
+			{
+				if (_assemblies.Count >= Mathf.Max(1, Capacity)) return false;
+				foreach (FCustomerLine line in handle.OrderLines)
+				{
+					if (line == null || !line.IsCustomerReady) continue;
+					List<int> open = line.GetOpenOrderIndices();
+					if (open == null) continue;
+					foreach (int index in open)
+					{
+						string display = line.GetOrderIds(index).Item1;
+						if (!FlexibleId.IsFlexible(display)) continue;
+						DragItem prefab = info.GetIngredientPrefab(FlexibleId.BaseOf(display));
+						FlexibleDragItem flexPrefab = prefab as FlexibleDragItem;
+						if (flexPrefab == null) continue;
+						List<string> need = flexPrefab.GetIngIds(display);
+						if (need == null || !need.Contains(itemId)) continue;
+						if (!messy.Serve.TryReserveOrder(this, line, index, out ServeTicket ticket)) continue;
+						target = new Assembly { Line = line, Index = index, Ticket = ticket, OrderId = display };
+						target.Remaining.AddRange(need);
+						_assemblies.Add(target);
+						break;
+					}
+					if (target != null) break;
+				}
+			}
+			if (target == null) return false;
+			int slot = _assemblies.IndexOf(target);
+			Vector3 dishPos = AssemblyPosition(slot);
+			if (target.Dish == null)
+			{
+				DragItem spawned = messy.SpawnAndGetDragItem(FlexibleId.BaseOf(target.OrderId), dishPos, false, false);
+				target.Dish = spawned as FlexibleDragItem;
+				if (target.Dish == null)
+				{
+					if (spawned != null) spawned.Despawn();
+					_assemblies.Remove(target);
+					messy.Serve.Release(target.Ticket);
+					return false;
+				}
+				target.Plate = SpawnPlateFor(target.OrderId, dishPos);
+				if (target.Plate != null) target.Plate.Adopt(target.Dish, false);
+			}
+			target.Remaining.Remove(itemId);
+			target.InFlight++;
+			_directServing.Add(item);
+			item.UnregisterCell();
+			messy.RefreshCellDishes();
+			Assembly assembly = target;
+			Tween tween = item.JumpToTargetTween(dishPos, true, 0.6f);
+			Action arrive = () =>
+			{
+				_directServing.Remove(item);
+				assembly.InFlight--;
+				if (assembly.Dish != null && !(assembly.Dish is FlexibleBurger && itemId == "burger_bun")) assembly.Dish.AddIng(itemId); // the bun is the base of a burger, not a filling (it would put "00" into the id)
+				if (item != null) item.Despawn();
+				if (assembly.Remaining.Count == 0 && assembly.InFlight == 0) DeliverAssembly(assembly);
+				RequestServe();
+			};
+			if (tween != null) tween.OnComplete(() => arrive()); else arrive();
+			return true;
+		}
+
+		private void DeliverAssembly(Assembly a)
+		{
+			MessyController messy = MessyController.Ins;
+			if (messy == null || a.Dish == null) return;
+			if (a.Line == null || !messy.Serve.CanDeliverOrder(a.Ticket))
+			{
+				return;
+			}
+			a.Delivering = true;
+			Transform target = a.Line.GetOrderTarget(a.Index);
+			if (target == null) target = a.Line.targetPos;
+			Tween tween = null;
+			if (target != null)
+			{
+				// The plate carries the finished dish to the customer in a hop.
+				Transform carrier = a.Plate != null ? a.Plate.transform : a.Dish.transform;
+				tween = carrier.DOJump(target.position, 1.2f, 1, 0.5f).SetEase(Ease.Linear);
+			}
+			Action done = () =>
+			{
+				messy.Serve.DeliverOrder(a.Ticket);
+				GlobalAudio.Play((GlobalSfx)3, 1f);
+				if (a.Plate != null) a.Plate.DetachItem();
+				if (a.Dish != null) a.Dish.Despawn();
+				DestroyPlate(a.Plate);
+				_assemblies.Remove(a);
+				RequestServe();
+			};
+			if (tween != null) tween.OnComplete(() => done()); else done();
+		}
+
+
+		// Simplified serve path (the original routes through plates and merge queues): the dish flies straight to a customer order that accepts it.
 		private bool TryAutoMergeToPlate(DragItem item, bool requireLanded = true, bool directTake = false)
 		{
-			// TODO(unrecovered): DragItem raw fields at +0xe9 (flag) and +0x78/+0xa0 (base id / booked ref) are not confirmed against the DragItem stub; TryPickMergeTarget result and SchedulePump argument order also unresolved
-			return false;
+			if (item == null || IsInteractBlocked) return false;
+			if (requireLanded && !item.IsLandedInCell) return false;
+			if (_directServing.Contains(item)) return false;
+			FCustomerLineHandle handle = LineHandle;
+			MessyController messy = MessyController.Ins;
+			if (handle == null || messy == null) return false;
+			if (!handle.TryGetServableLine(item, out FCustomerLine line) || line == null) return TryGatherForFlexibleOrder(item);
+			if (!messy.Serve.TryReserve(this, line, item, out ServeTicket ticket) || ticket == null) return false;
+			Transform target = line.GetOrderTarget(ticket.Indices[0]);
+			if (target == null) target = line.targetPos;
+			if (target == null)
+			{
+				messy.Serve.Release(ticket);
+				return false;
+			}
+			_directServing.Add(item);
+			item.UnregisterCell();
+			messy.RefreshCellDishes();
+			ServePlate plate = SpawnPlateFor(item.GetId(), item.transform.position);
+			Tween tween;
+			if (plate != null)
+			{
+				plate.Adopt(item, false);
+				tween = plate.transform.DOJump(target.position, 1.2f, 1, 0.5f).SetEase(Ease.Linear);
+			}
+			else
+			{
+				tween = item.JumpToTargetTween(target.position, true, 0.6f);
+			}
+			Action arrive = () =>
+			{
+				_directServing.Remove(item);
+				if (plate != null) plate.DetachItem();
+				if (item == null) { messy.Serve.Release(ticket); DestroyPlate(plate); return; }
+				if (messy.Serve.Deliver(ticket, item))
+				{
+					GlobalAudio.Play((GlobalSfx)3, 1f);
+					item.Despawn();
+				}
+				else
+				{
+					DropBackToGrid(item);
+				}
+				DestroyPlate(plate);
+				RequestServe();
+			};
+			if (tween != null) tween.OnComplete(() => arrive()); else arrive();
+			return true;
 		}
 
 		private bool PrimeForMerge(DragItem item)
@@ -1189,7 +1405,7 @@ namespace AnhPD.FoodOrder
 				_nextRecheckTime = Time.time + serveRecheckInterval;
 				if (!_isServing && !IsInteractBlocked)
 				{
-					// TODO(unrecovered): the gate is MessyController.Ins plus LevelBaseCakeOrderAbstract.get_IsLevelSetupComplete, which is not present in the stubs; when it passes the body runs PruneStaleMerges, SweepOrphanPlates and RequestServe.
+					RequestServe();
 				}
 			}
 		}
@@ -1522,12 +1738,12 @@ namespace AnhPD.FoodOrder
 
 		public bool TryTakeDirect(DragItem item, bool planned = false)
 		{
-			return false;
+			return TryAutoMergeToPlate(item, false, true);
 		}
 
 		public bool IsHeldAtSource(DragItem item)
 		{
-			return false;
+			return item != null && _directServing.Contains(item);
 		}
 
 		public void WhenSourceFreed(DragItem item, Action onFreed)

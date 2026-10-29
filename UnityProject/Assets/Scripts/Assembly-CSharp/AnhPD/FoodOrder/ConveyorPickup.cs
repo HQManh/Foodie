@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace AnhPD.FoodOrder
 {
-	public class ConveyorPickup : MonoBehaviour
+	public class ConveyorPickup
 	{
 		private readonly struct Handout
 		{

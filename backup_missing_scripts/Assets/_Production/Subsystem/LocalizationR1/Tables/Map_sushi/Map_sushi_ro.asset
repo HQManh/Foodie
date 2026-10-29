@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_ro
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ro
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Baloanele colorate fac fiecare serviciu de sushi festiv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Restaurantul de sushi original.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Un restaurant mai mare, pregătit pentru mai multe îmbunătățiri sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Un bonsai tuns îngrijit care adaugă o notă liniștitoare de verde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: O firmă prietenoasă cu capibara pentru fațadă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: O pisică primitoare care le face semn clienților să intre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: O tejghea plină cu cele mai bune feluri ale restaurantului.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Un tocător pe acoperiș încărcat cu sushi și rulouri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Steaguri și copertine colorate împodobesc fațada restaurantului.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: O oaspete kitsune grațioasă care comandă sushi cu eleganță teatrală.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Această capră albastră iubește matcha și exersează maniere vesele la masă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Studiază meniul cu sârguință, dar tot își schimbă prânzul pe eucalipt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Un mic shishi curajos care provoacă fiecare rulou de sushi la duel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Un acoperiș tradițional care adaugă restaurantului încă un etaj.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Un shiba yokozuna care tratează fiecare platou de sushi ca pe o finală de campionat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Taburete comode pentru oaspeții de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: Oyabunul lup vorbește încet și controlează tejgheaua de sushi dintr-o privire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Baloane de festival
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Extindere sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Grădină bonsai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Firmă cu capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Pisica norocoasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Tejghea de expunere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Tocător pentru sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Steaguri sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Acoperișul etajului
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Taburete sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Sushi nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Orez modelat de mână, acoperit cu o felie de pește ca o pătură mică.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Rulou maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Rulat strâns în alge și tăiat înainte să tragă cineva cu ochiul înăuntru.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Sushi gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: O bărcuță de alge încărcată cu topping până la buză.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Platou de sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Pește proaspăt tăiat subțire, fără nimic în spatele căruia să se ascundă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Ceai verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Cald și liniștitor, turnat ca să alunge iuțeala wasabiului.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: O pisică primitoare care le face semn clienților să intre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Taburete comode pentru oaspeții de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Lampioane de hârtie strălucitoare care luminează restaurantul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: O firmă prietenoasă cu capibara pentru fațadă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: O firmă prietenoasă cu capibara pentru fațadă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Un ton uriaș cocoțat pe acoperiș, care arată cu mândrie captura proaspătă a zilei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Un tocător pe acoperiș încărcat cu sushi și rulouri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Pisica norocoasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Taburete sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Lampioane de hârtie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Firmă cu capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Firmă cu capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Ton Uriaș
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Tocător pentru sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Legumele sunt tăiate înainte să clipească.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Lame atât de rapide încât castraveții se predau din start.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Taie peștele crud cu o fragezime de sashimi în plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Fiecare tăietură e o operă de artă. Peștii se simt onorați.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Orez pufos într-o clipită. Boabele stau la coadă să fie gătite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Un orez atât de perfect încât merită ovații în picioare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Rade wasabi cu viteza fulgerului. Lacrimile sunt opționale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Rade atât de repede încât wasabi nici n-a observat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Fierbe bunătăți mai repede decât spui „umami”.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: O legendă clocotitoare care gătește cu viteza warp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Ceai fierbinte într-o clipă. Clienții rămân calmi și sorb.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Toarnă ceai perfect și pace interioară dintr-o dată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Tocător Iute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Tocător Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Tocător Ascuțit pentru Pește
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Tocătorul Maestrului Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Aparat de Orez Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Aparat de Orez Mega
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Răzătoare Iute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Vârtej de Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Oală Rapidă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Cazanul Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Ceainic Rapid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Ceainicul Maestrului Zen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Un banner de sushi albastru aprins care atrage orice privire flămândă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: O perdea noren albastră răcoroasă care se leagănă ușor deasupra intrării.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: O perdea noren roșie vibrantă care întâmpină clienții flămânzi la ușă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Un felinar de piatră acoperit de mușchi care aduce o notă de liniște de templu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Banner Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Noren Albastru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Noren Roșu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Altar de Piatră
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Taie peștele proaspăt în fâșii fine de sashimi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Transformă legumele crocante în bețișoare ordonate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Rade wasabi într-o surpriză verde și picantă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Fierbe încet supa într-un bol cald și reconfortant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Gătește orezul la abur până devine aur pentru sushi, pufos și lipicios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Prepară ceai verde, liniște în fiecare înghițitură.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Răzătoare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Oală
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Aparat de orez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Ceainic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Un avocado cremos, darul preferat al Occidentului pentru sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Cuburi verzi moi, gata de rulat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Felii mătăsoase care învelesc orezul ca un kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: O ceașcă goală care așteaptă un ceai turnat liniștit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Ceai verde bătut, liniștit ca o grădină din Kyoto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Cubulețe aurii de omletă dulce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: O omletă dulce rulată, stratificată cu răbdare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Felii aurii de ou rulat, dulci și moi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Un pește plat și alb, prețuit de maeștrii sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Cuburi fragede de calcan pentru o îmbucătură ușoară.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Felii albe delicate, aproape transparente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Un pește argintiu strălucitor, plin de gust de mare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Macrou cât o îmbucătură, gata de rulat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Felii lucioase cu un gust intens și bogat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Un file portocaliu aprins, direct din ape reci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Cuburi de somon gata să încoroneze o bărcuță.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Felii de somon untoase care se topesc pe limbă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Ton roșu intens, regele pieței de pește.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Cuburi de ton pentru o îmbucătură intensă și cărnoasă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Felii rubinii tăiate cu un cuțit de maestru.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: O bărcuță de alge încărcată cu ce dorește oaspetele.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Un rulou făcut exact cum îi place oaspetelui.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Orez presat cu mâna, cu topping-ul preferat al oaspetelui.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: O farfurie de felii proaspete alese la comandă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: O lămâie vie care trezește fiecare îmbucătură.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Felii subțiri de lămâie care înviorează peștele.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Maioneză japoneză cremoasă, ușor acidulată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: O caracatiță crudă, numai brațe și niciun plan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Fiartă roz și fragedă, gata de cuțit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Bucățele de caracatiță, ca takoyaki fără bilă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Felii subțiri de tako cu un farmec elastic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Orez cu bob scurt, șlefuit și așteptându-și baia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Orez pufos cu oțet, sufletul oricărui sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Perle portocalii mici care pocnesc la fiecare îmbucătură.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Icre crocante de pește zburător care sclipesc ca bijuteriile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Icre mari și lucioase de somon care explodează cu gust de mare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Foi crocante de alge, prăjite și gata de rulat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: O frunză aromată care adaugă o notă proaspătă, mentolată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Un crevete crud, încovoiat ca un mic semn de întrebare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Fiert roz și mândru, gata de orez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Crevete cât o îmbucătură, gata de rulat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Deschis ca un evantai pentru nigiri perfect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Frunze de ceai verde culese de pe dealuri cețoase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: O rădăcină noduroasă cu un temperament faimos de iute.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: O picătură verde de iuțeală care desfundă nasul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Apă proaspătă, gata să devină ceai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Avocado cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Avocado feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Ceașcă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Tocător pentru pește
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Tocător pentru legume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Tamagoyaki cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Tamagoyaki feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Calcan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Calcan cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Calcan feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Macrou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Macrou cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Macrou feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Somon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Somon cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Somon feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Ton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Ton cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Ton feliat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Sushi gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Rulou maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Sushi nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Platou de sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Lămâie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Lămâie feliată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Maioneză
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Caracatiță
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Caracatiță fiartă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Caracatiță cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Caracatiță feliată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Orez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Orez pentru sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Icre de capelin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Frunză de shiso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Crevete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Crevete fiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Crevete cuburi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Crevete deschis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Frunze de ceai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Wasabi ras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Apă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Castraveții sunt feliați înainte să-și dea seama.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Tocătorul de Feliat Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: O singură lovitură, legume pentru o ruladă perfectă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Tocătorul Katana Legendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Felii mătăsoase cât ai clipi. Peștii aprobă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Marele Tocător de Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Tăieturi atât de precise încât până și bucătarul rămâne uimit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Altarul de Sashimi Legendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Orez pufos, gata înainte să pui castronul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Aragazul de Orez Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Fiecare bob e perfect. De fiecare dată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Altarul Orezului Legendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Nori verzi picante, gata într-o secundă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Taifunul Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Atât de rapid încât îți furnică nasul din celălalt capăt al camerei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Furtuna Wasabi Legendară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Supa clocotește plină de aromă cât ai clipi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Vulcanul Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: Cea mai gustoasă supă din oraș, servită cu viteza fulgerului.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Oala Umami Legendară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Prepară liniște și ceai verde mai repede ca oricând.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Ceainicul Iluminat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Ceai perfect înainte să respiri adânc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Ceainicul Zen Legendar
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

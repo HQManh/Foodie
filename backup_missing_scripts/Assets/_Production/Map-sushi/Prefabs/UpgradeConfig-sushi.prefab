@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: UpgradeConfig-sushi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1527669047, guid: 9b79db7996b03fc716c579f61e0ccf78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _itemConfigs:
+  - id: base
+    price: 0
+  - id: chairs-lv1
+    price: 350
+  - id: board-lv2
+    price: 500
+  - id: logo-capy-lv1
+    price: 450
+  - id: board-raw-lv2
+    price: 600
+  - id: flag-lv1
+    price: 450
+  - id: cat-lv1
+    price: 450
+  - id: noren-red
+    price: 450
+  - id: noren-blue
+    price: 500
+  - id: cooker-lv2
+    price: 700
+  - id: base_lv2
+    price: 1200
+  - id: logo-capy-lv2
+    price: 500
+  - id: roof_board
+    price: 600
+  - id: pot-lv2
+    price: 850
+  - id: counter_food
+    price: 600
+  - id: grater-lv2
+    price: 950
+  - id: lights
+    price: 700
+  - id: teapot-lv2
+    price: 1050
+  - id: bonsai
+    price: 800
+  - id: stone-shrine
+    price: 800
+  - id: roof-fish
+    price: 2500
+  - id: board-lv3
+    price: 750
+  - id: pot-lv3
+    price: 800
+  - id: board-lv4
+    price: 850
+  - id: pot-lv4
+    price: 900
+  - id: board-lv5
+    price: 950
+  - id: pot-lv5
+    price: 1000
+  - id: teapot-lv3
+    price: 800
+  - id: cooker-lv3
+    price: 800
+  - id: cooker-lv4
+    price: 950
+  - id: teapot-lv4
+    price: 900
+  - id: cooker-lv5
+    price: 1050
+  - id: teapot-lv5
+    price: 1000
+  - id: board-raw-lv3
+    price: 850
+  - id: grater-lv3
+    price: 850
+  - id: board-raw-lv4
+    price: 950
+  - id: grater-lv4
+    price: 950
+  - id: board-raw-lv5
+    price: 1050
+  - id: grater-lv5
+    price: 1050
+  _assetTopology:
+    m_AssetGUID: 3a7805626037447ea4a37d756efd0399
+    m_SubObjectName:
+    m_SubObjectType:
+  _rewardFullUpgrade:
+    itemPacks:
+    - itemId: hard
+      amount: 100
+    - itemId: booster_auto_cook
+      amount: 1
+  _rewardAllItems:
+    itemPacks:
+    - itemId: booster_ingredient_pick
+      amount: 1
+    - itemId: booster_shift_up_row
+      amount: 1

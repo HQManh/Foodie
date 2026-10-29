@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_en-GB
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en-GB
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Bright balloons make every sushi service feel festive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: The original sushi restaurant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: A larger restaurant ready for more sushi upgrades.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: A neatly trimmed bonsai that adds a calm touch of green.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: A friendly capybara sign for the storefront.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: A welcoming cat that waves customers inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: A full counter displaying the restaurant's best dishes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: A rooftop cutting board loaded with sushi and rolls.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Colorful flags and awnings dress the restaurant facade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: A graceful kitsune guest who orders sushi with theatrical elegance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: This blue goat loves matcha and practices cheerful table manners.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Studies the menu diligently but still trades lunch for eucalyptus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: A brave little shishi who challenges every sushi roll to a duel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: A traditional roof that gives the restaurant another level.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: A shiba yokozuna who treats every sushi platter like a championship bout.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Comfortable stools for sushi guests.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: The wolf oyabun speaks softly and controls the sushi counter with one stare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Festival Balloons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Sushi Expansion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Bonsai Garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Capybara Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Lucky Cat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Display Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Sushi Cutting Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Sushi Flags
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Second Floor Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Sushi Stools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Nigiri Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Hand-pressed rice wearing a slice of fish like a tiny blanket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Maki Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Rolled tight in seaweed and sliced before anyone can peek inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Gunkan Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: A little seaweed boat loaded with toppings right to the brim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Sashimi Plate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Fresh fish sliced thin with nothing to hide behind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Green Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Warm and calm and poured to wash the wasabi away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: A welcoming cat that waves customers inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Comfortable stools for sushi guests.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Glowing paper lanterns that light up the restaurant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: A friendly capybara sign for the storefront.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: A friendly capybara sign for the storefront.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: A huge tuna perched on the roof, proudly showing off today's fresh catch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: A rooftop cutting board loaded with sushi and rolls.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Lucky Cat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Sushi Stools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Paper Lanterns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Capybara Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Capybara Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Giant Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Sushi Cutting Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Veggies get chopped before they can even blink.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Blades so fast, the cucumbers surrender in advance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Slices raw fish with extra sashimi smoothness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Every cut is a work of art. The fish feel honored.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Fluffy rice in a flash. Grains line up to get cooked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Rice so perfect it deserves a standing ovation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: A bright blue sushi banner that catches every hungry eye.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Grates wasabi at lightning speed. Tears optional.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Grates so fast the wasabi never saw it coming.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: A cool blue noren curtain swaying gently over the entrance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: A bold red noren curtain that welcomes hungry guests at the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Boils up goodness faster than you can say umami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: A bubbling legend that cooks at warp speed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: A mossy stone lantern that brings a touch of temple calm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Hot tea in no time. Customers stay calm and sip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Pours perfect tea and inner peace in one go.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Swift Slicer Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Ninja Slicer Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Sharper Fish Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Master Sashimi Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Turbo Rice Cooker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Mega Rice Cooker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Sushi Banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Zippy Grater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Wasabi Whirlwind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Blue Noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Red Noren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Speedy Simmer Pot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Umami Cauldron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Stone Shrine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Quick-Brew Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Zen Master Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Slices fresh fish into silky sashimi strips.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Turns crunchy veggies into neat little sticks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Grates wasabi into a spicy green surprise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Simmers broth into a warm bowl of comfort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Steams rice into fluffy, sticky sushi gold.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Brews green tea, calm in every sip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Grater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Pot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Cooker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: A creamy avocado, the West's favorite gift to sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Soft green cubes ready for a roll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Silky slices that drape over rice like a kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: An empty cup waiting for a calm pour of tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Whisked green tea, calm as a Kyoto garden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Little golden cubes of sweet omelet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: A sweet rolled omelet, layered with patience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Golden slices of rolled egg, sweet and soft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: A flat white fish prized by sushi masters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Tender flounder cubes for a light bite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Delicate white slices, almost see-through.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: A shiny silver fish full of ocean flavor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Bite-sized mackerel ready for a roll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Glossy slices with a bold, rich taste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: A bright orange fillet straight from cold waters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Salmon cubes ready to top a little boat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Buttery salmon slices that melt on the tongue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Deep red tuna, the king of the fish market.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Tuna cubes for a bold, meaty bite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Ruby slices cut with a master's knife.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: A seaweed boat loaded with whatever the guest wishes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: A roll made just the way the guest likes it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Hand-pressed rice topped with the guest's favorite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: A plate of fresh slices picked to order.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: A bright lemon to wake up every bite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Thin lemon slices that brighten the fish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Creamy Japanese mayo with a gentle tang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: A raw octopus, all arms and no plans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Boiled pink and tender, ready for the knife.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Little octopus bites, like takoyaki without the ball.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Thin tako slices with a chewy charm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Short-grain rice, polished and waiting for its bath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Fluffy vinegared rice, the soul of every sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Tiny orange pearls that pop with every bite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Crunchy flying fish roe that sparkles like jewels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Big shiny salmon roe bursting with the taste of the sea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Crisp sheets of seaweed, toasted and ready to wrap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: A fragrant leaf that adds a fresh, minty kick.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: A raw shrimp curled up like a little question mark.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Boiled pink and proud, ready for the rice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Bite-sized shrimp ready for a roll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Opened flat like a fan for the perfect nigiri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Green tea leaves picked from misty hillsides.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: A gnarly root with a famously sharp temper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: A green dab of heat that clears the nose.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Fresh water, ready to become tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Diced Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Sliced Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Cup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Fish Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Veggie Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Diced Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Sliced Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Flounder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Diced Flounder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Sliced Flounder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Mackerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Diced Mackerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Sliced Mackerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Diced Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Sliced Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Diced Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Sliced Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Gunkan Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Maki Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Nigiri Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Sashimi Plate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Sliced Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Mayonnaise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Boiled Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Diced Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Sliced Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Rice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Sushi Rice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Capelin Roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Shiso Leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Shrimp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Boiled Shrimp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Diced Shrimp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Butterflied Shrimp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Tea Leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Grated Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Cucumbers are sliced before they know it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Samurai Slicer Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: A single swing, a perfect roll's worth of veggies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Legendary Katana Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Silky slices in a flash. The fish approve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Grand Sashimi Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Cuts so precise, even the chef gasps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Legendary Sashimi Altar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Fluffy rice, ready before the bowl is set.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Turbo Rice Cooker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Every grain is perfect. Every time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Legendary Rice Shrine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Spicy green clouds, ready in a second.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Wasabi Typhoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: So fast your nose tingles from across the room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Legendary Wasabi Storm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Broth bubbles up full of flavor in no time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Umami Volcano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: The tastiest soup in town, served at lightning speed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Legendary Umami Pot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Brews calm and green tea faster than ever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Enlightened Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Perfect tea before you even take a deep breath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Legendary Zen Teapot
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

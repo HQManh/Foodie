@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ru-RU
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru-RU
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: НОВОЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Макс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}д {1}ч'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}м'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}ч {1}м'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}ч'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: НАГРАДА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: КУПЛЕНО
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Награда получена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Забрать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: ОК
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Ур. {0} -> Ур. {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: День {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Откроется в начале дня {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Скоро
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Эта функция скоро появится!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Главная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Рестораны
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Достижения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Эта карта закрыта. Пройдите предыдущие карты, чтобы открыть её.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Этот день закрыт. Пройдите предыдущие дни, чтобы открыть его.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Дни {0}–{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Пройдите день {0} в предыдущем ресторане, чтобы открыть.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Сложно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Очень сложно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Эта карта появится в одном из следующих обновлений.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Подано: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Попробуйте улучшить ресторан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Вот что можно купить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Потратим вчерашние монеты на улучшение!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Теперь перейдём на вкладку улучшения приборов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Попробуйте улучшить эту жарочную поверхность!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Тостер улучшен — возвращаемся и начинаем день!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: А теперь начнём день!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Попробуйте этот бустер!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Во время готовки можно войти в особое состояние!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: С каждым обслуженным посетителем эта шкала растёт! Обслужите ещё {0} посетителей!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: С каждым поданным блюдом эта шкала растёт! Подайте ещё {0} блюд!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Отлично! Во время Взрыва вкуса вы готовите суперэффективно. Удачи!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Недостаточно монет для постройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Ур. МАКС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Ур. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: 'Недостаточно: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Уже максимальный уровень
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} раз'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Забрать x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Бустер станет доступен в день {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Включить скорость x{0} на {1} мин.?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Получено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Реклама отключена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Название бустера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Спасите меня, чтобы добавить +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Автоготовка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Автоматически собирает ингредиенты и готовит блюдо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Уборка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Убирает одну грязную стопку со стола
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Щипцы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Возьмите любую тарелку с ингредиентами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Нужно больше мест?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Откройте больше мест для хранения блюд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Перемешать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Поменять ряды ингредиентов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Скорость x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Готовьте и подавайте быстрее со скоростью x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: 'Восстановить сердца: {0}?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Перемешать ингредиенты?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Переложить 5 ингредиентов в пакет?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Восполнить время ожидания посетителей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Бургеры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Кофе
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Конфликт данных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Загрузка...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Загрузка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Ресторан повысил уровень!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Нажмите, чтобы продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Босс требовательный и быстро теряет терпение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Поздравляем с собственным рестораном фастфуда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Открываемся!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Она хочет сочный бургер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Нажмите на нужный ингредиент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Нажмите на заказ посетителя, чтобы сменить отображение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Курьер забирает несколько заказов, пока не кончилось время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Из облака
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: С устройства
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Ваши награды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Освободить {0} ячейки и продолжить готовить?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Нравится игра?\nОставь отзыв!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: ОЦЕНИ ИГРУ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Ням
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Вкусно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Очень вкусно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Обожаю
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Хочу ещё
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Божественно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Изысканно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Восхитительно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Высокая кухня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Шедевр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Пройдите {0} в «{1}», чтобы открыть дополнительные дни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Требуется подключение к интернету!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Реклама ещё не готова, попробуй ещё раз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Имя должно содержать не менее {0} символов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Имя должно содержать не более {0} символов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Имя может содержать только буквы, цифры, пробел и _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Возвращайся через {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Сначала забери бесплатную награду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Сначала забери предыдущую награду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: ОК
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: ОТКРОЕТСЯ В ДЕНЬ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Отлично
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Доп. день
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Закрыто
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: КУЛИНАРНАЯ ЛАВКА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: ИНСТРУМЕНТ УЛУЧШЕН!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} теперь работает быстрее'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} теперь работает на максимальной скорости'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Открыть доп. дни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Новости
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Для ваших ресторанов доступны новые улучшения!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: В {0} появились новые дополнительные дни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Цены на улучшения изменены. Лишнее золото возвращено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Оценить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Активировать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Активировано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Команда уже существует!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Команда заполнена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Команда не пустая!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Команды не существует!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Лидер не может уйти!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: Нет прав!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Ошибка сервера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Пользователь присоединился к команде!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: Пользователь недавно покинул команду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: Пользователь не в команде!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: ПОПРОСИТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Аватар
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Бонус-Банк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Проходите дни, чтобы копить золото в банке, и заберите его в конце события!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Активируйте <color=yellow>Пропуск мечты</color>, чтобы разблокировать <color=yellow>Бонус-Банк</color> в конце этапов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Не удалось сохранить данные на сервер!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Чат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Выбрать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Забрать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Скоро будет!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Готово
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Подтвердить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Поздравляем!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Скопировано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Страна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Создать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Создайте и возглавьте свою команду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Удалить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Описание:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Пропуск мечты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Добро пожаловать в <color=yellow>Пропуск мечты!</color> Вот твоя первая награда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Проходите дни и собирайте <color=yellow>Ключи</color>, чтобы открывать награды. Нажмите, чтобы узнать как!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Активируйте <color=yellow>Пропуск мечты</color>, чтобы получить особые награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Откройте этот этап и активируйте <color=yellow>Пропуск мечты</color>, чтобы получить эту награду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Серия мечты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Проходите дни без поражений, чтобы получить больше наград!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Проходите дни без поражений!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Увеличивайте множитель очков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Выигрывайте потрясающие награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Каждая неудача сбрасывает ваш множитель!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Башня мечты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Проходите дни подряд!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Вставайте!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Каждая неудача сбрасывает прогресс контрольной точки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Редактировать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Редактировать имя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Выберите имя пользователя перед присоединением к таблице лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Редактировать профиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Редактировать команду
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Пустой!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Завершено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Введите текст...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Введите описание...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Введите название команды...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Заканчивать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: Победа с первой попытки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Рамка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Бесплатно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>БЕСПЛАТНОЕ</color> СЕРДЦЕ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: '<color=#7CF73F>БЕСПЛАТНЫЕ</color> НАГРАДЫ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Бесплатные жизни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Общая статистика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Вперед
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Помощь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Оказано помощи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Получено помощи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Входящие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Инфо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Присоединиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Вступите в команду и получайте бесплатные жизни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Последний шанс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Лидер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Таблица лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Покинуть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Покинуть команду?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Вам придется подождать 30 минут, прежде чем вы сможете создать новую команду или присоединиться к ней!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Уровень
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Достигни <color=yellow>дня {0}</color>, чтобы разблокировать еженедельное соревнование!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Ваши жизни полны!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Загрузить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Загрузка данных с сервера завершена! Перезапустите игру, чтобы применить новые данные!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Локально
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: ДОСТИГНИТЕ <color=yellow> дня {0}</color>, чтобы разблокировать таблицу лидеров!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: ДОСТИГНИТЕ <color=yellow> дня {0}</color>, чтобы вступить в команду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: МАКС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Вы не можете просить жизни. У вас более 10 бесплатных жизней!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} присоединился к команде!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} был исключен пользователем {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} покинул команду!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Участники
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Моя команда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Имя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: Имя должно содержать не менее 6 символов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Ошибка сети!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Сетевая ошибка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: НОВЫЙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: Без имени
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Без Вклада
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Нет команды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Недостаточно золота!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Открыть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>Пропуск мечты</color> даст вам шанс получить специальные награды!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: У вас будут эксклюзивные бонусы до окончания события!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 жизней вместо 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Активировать Бонус-Банк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Золотая рамка профиля и золотое имя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>Пропуск мечты</color> завершен! Ваши бонусы больше не активны. Скоро начнется новый <color=yellow>Пропуск мечты</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Проходите дни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Собирайте ключи!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Открывайте награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Вы можете активировать <color=yellow>Пропуск мечты</color>, чтобы получить дополнительную эксклюзивную награду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: Начался новый <color=Yellow>Пропуск мечты</color>! Проходите дни и разблокируйте <color=Yellow>Пропуск</color>, чтобы получить ценные награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Пропуск мечты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: Награда за {0}-е место!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Игроки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Частная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Профиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Профиль обновлен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Публичная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Сохранение ваших данных на сервер завершено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Переподключиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Обновить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Удалить участника
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Запрос жизни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Требуемый день:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Пройдите день {0}, чтобы увеличить лимит требуемого дня!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Начать заново
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Сохранить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Счёт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Поиск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Выбрать значок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Отправляет вам жизнь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Сервер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Специальные награды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Многодневная гонка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "Вы проиграли гонку!\nПопробуйте ещё раз, чтобы выиграть потрясающие награды!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: Поздравляем! Вы выиграли гонку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Пройдите <color=yellow>{0} дн.</color> раньше других, чтобы победить и перейти на следующий этап с более ценными призами!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Как играть?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Проходите дни быстрее других, чтобы финишировать!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Завершите гонку раньше всех!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Проходите на следующий этап и получайте более ценные призы!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Победа в гонке уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Этап {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Звезда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Начинать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Синхронизация данных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Нажмите, чтобы продолжить!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Нажмите, чтобы открыть!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Нажмите, чтобы забрать!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Нажмите, чтобы закрыть!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Информация о команде
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Значок команды:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Когда вы присоединитесь к команде, вы получите:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Командный Урожай
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Собирайте кукурузу на уровнях!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Достигайте целей вместе со своей командой!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Выигрывайте потрясающие награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Обычный: 1 кукуруза - Сложный: 3 кукурузы - Суперсложный: 5 кукуруз'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Собирайте кукурузу вместе со своей командой и получайте потрясающие награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Название команды:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Команды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Счет команды:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Тип команды:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Всего бесплатных жизней:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Всего помощи:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Всего звезд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Рекорд башни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Передать лидерство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Вот ваши незабранные награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Открывается на {0}-й день
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Открывается после прохождения дня {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Использовать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Просмотр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Посмотреть профиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Пожалуйста, подождите еще немного, пока сервер обработает данные!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Еженедельно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Еженедельное соревнование
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Постарайтесь в следующий раз, чтобы получить ценные награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Проходите дни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Займи лидерство!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Мир
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Да
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Таблица лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Команда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Улучшения станут доступны в следующем обновлении!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: День
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Вступив в команду, ты сможешь:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Получай <color=#7CF73F>бесплатные</color> сердца
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Общайся и участвуй в испытаниях вместе с друзьями
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Завершённые зоны
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Дойдите до дня {0}, чтобы продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: День
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Пройди {0} в {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Сначала улучшите {0} до последнего этапа!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: Улучшения {0} теперь открыты!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Новые уровни улучшения инструментов в {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: КУПИТЬ ВСЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Дополнительный бонус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Только 1 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Дополнительная распродажа {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Пройди {0} в ресторане «{1}», чтобы открыть!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

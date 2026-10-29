@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: Külah dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: Üstünde soğuk bir top dondurmayla çıtır waffle külah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: Kupta dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: Kupta bir top, parmaklara damla yok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: Taze meyve, şarkı söyleyene kadar buzla çırpıldı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: Dondurma ve süt çalkalanıp koyu bir yudum oldu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: Rendelenmiş Buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: Parlak şurupla ıslatılmış pofuduk rendelenmiş buz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: Madam Flamingo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: Neon tüylü bir sabahlık, devasa geniş kenarlı bir şapka ve taşlı kedi gözü güneş gözlüğüyle keyif yapan göz alıcı bir diva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: Su Samuru Ollie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: Dondurma desenli bol bir tropik gömlek ve hibiskus çiçekli minik bir hasır şapka giyen oyuncu bir dost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: Papağan Sunny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: Pastel mayolu, ısırılmış donut şeklinde simidi ve pötikareli bandanasıyla tatlı bir dost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: Penguen Pippa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: Parlak fırfırlı bir bluz, kocaman sarı güneş gözlüğü ve kâğıt kokteyl şemsiyeli mini hasır sırt çantasıyla havalı bir dost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: Sör Shelldon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: Lüks ipek bir sabahlık, altın işlemeli kaptan şapkası ve iri mücevherler takan zengin bir VIP dost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: Çevik Meyve Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: Meyve dilimleri göz açıp kapayıncaya dek yığılır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: Ninja Meyve Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: Bu tahta çıkınca kiviler titrer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: Çıtır Külah Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: Sıcak, çıtır külahlar biraz daha hızlı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: Altın Külah Presi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: Altın külahlar, her seferinde çıtır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: Hızlı Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: Birkaç hızlı turda meyveler pürüzsüz olur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: Smoothie Kasırgası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: Meyveli bir kasırga. Kapağı sıkı tut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: Buzlu Rende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: Buz daha hızlı yumuşak pullara dönüşür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: Kar Tanesi Rendesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: Yumuşacık kar taneleri saniyeler içinde yağar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: Hızlı Milkshake Mikseri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: Milkshake'ler daha hızlı koyulaşıp kremsi olur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: Süper Milkshake Mikseri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: Süper bir girdapla kremsi milkshake'ler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: Dondurma Büfesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: Güneş altında serin lezzetler sunan küçük bir büfe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: Tropik Dondurmacı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: Renkli buzlu lezzetler için daha fazla alan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: Capy Tabelası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: Neşeli bir kapibara dondurma severleri karşılar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: Dondurma Menüsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: Serin lezzetlerle dolu bir menü tahtası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: Çizgili Tente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: Parlak dükkân tabelasıyla gölgeli bir tente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: Tatlı Tezgâhı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: Meyveler, tatlı makinesi ve servise hazır bardaklar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: Dükkân Vitrini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: Aydınlık pencereler arasında davetkâr bir kapı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: Sörf Köşesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: Bir sörf tahtası, meyve kasaları ve sahil tabelası.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: Külah ve Simit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: Dev külah ve yüzme simidi sahil neşesi getirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: Dondurma Dolabı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: Renkli dolap dondurma toplarını serin tutar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: Çatı Gökkuşağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: Dondurmacının üzerinde parlak bir gökkuşağı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: Dev Dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: Büyük final için çatıda dev bir dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: Dev Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: Çatıyı süsleyen kocaman bir milkshake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: Meyve giriyor, buz gibi smoothie fırtınası çıkıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: Smoothie Siklonu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: O kadar hızlı karıştırıyor ki dükkâna kar yağıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: Efsanevi Tipi Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: Çıtır külahlar art arda fırlıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: Turbo Külah Makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: Rekor hızda altın waffle külahlar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: Efsanevi Waffle Ocağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: Çilekler göz kırpamadan dilimleniyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: Samuray Meyve Tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: Tek vuruş, koca bir kâse süsleme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: Efsanevi Meyve Bıçağı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: Göz açıp kapayana kadar pofuduk kar. Kaşığını kap!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: Kar Fırtınası Rendesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: Tek nefeste bir dağ kar buzu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: Efsanevi Buzul Rendesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: Bir dönüşte koyu, kremalı milkshake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: Milkshake Hortumu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: O kadar hızlı çalkalıyor ki pipetler dans etmeye başlıyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: Efsanevi Shake Motoru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: İpeksi bir smoothie için kremsi yeşil meyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: Blender için hazır yumuşak yeşil dilimler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: Taze avokadodan kremsi bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: Doğal tatlılıkla dolu güneş gibi bir muz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: Blenderlık tatlı muz dilimleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: Olgun muzdan koyu ve tatlı bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: Meyveleri pürüzsüz smoothie yapar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: Lezzet dolu minik meyveler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: Taze yaban mersininden mor bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: En üste parlak kırmızı bir kiraz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: Kar buzu için tatlı kırmızı şurup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: Kakao severler için yoğun çikolata topları.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: Çalkalanmaya hazır çikolatalı dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: Üstüne gezdirmek için parlak çikolata sosu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: Tüylü kabuğunda tatlı tropik meyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: Tropik tatlı bembeyaz hindistan cevizi parçaları.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: Tadı plajı andıran kremsi bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: Çıtır külah olmayı bekleyen tatlı hamur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: Hamuru çıtır külaha dönüştürür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: Süsleme ve smoothie için meyve doğrar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: Misafirin zevkine göre süslenmiş külah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: Siparişe göre hazırlanmış kup dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: Misafirin sevdiği tatta koyu bir milkshake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: Seçilen şurupla yumuşacık kar buzu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: Siparişe göre hazırlanan meyveli karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: Sulu üzüm tadında mor toplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: Çalkalanmaya hazır üzümlü dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: Kar buzu için tatlı mor şurup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: Daha kremsi bir karışım için koyu, ekşimsi yoğurt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: Elma tadında ekşimsi yeşil şurup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: Her şeyi buz gibi tutan şıngırdayan küpler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: Buz küplerini yumuşacık kara çevirir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: İçi parlak yeşil, tüylü bir meyve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: Çekirdekli yeşil kivi dilimleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: Ekşi tadıyla ferahlatıcı sarı şurup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: Tropik mango dolu altın sarısı toplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: Çalkalanmaya hazır mangolu dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: Hafif tatlı yeşil çay topları.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: Çalkalanmaya hazır matcha dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: Kremsi içecekler için taze soğuk süt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: Dondurma ve sütü koyulaşana dek çalkalar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: Güneş dolu sulu bir portakal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: Blenderlık parlak portakal dilimleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: Taze portakaldan ferah bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: Topun üstüne çıtır bir bisküvi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: Çikolataya batırılmış çıtır çubuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: Gökkuşağının her renginde titrek jöle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: Şurup bekleyen kar gibi yumuşak buz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: Üstte parti havası için renkli şeker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: Yaprak şapkalı tatlı kırmızı çilek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: Gerçek çilek tadında pembe toplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: Çalkalanmaya hazır çilekli dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: Blenderlık sulu kırmızı dilimler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: Taze çilekten pembe bir karışım.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: Üstüne gezdirmek için tatlı pembe sos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: Herkesin sevdiği klasik kremsi toplar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: Çalkalanmaya hazır vanilyalı dondurma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: Toplar için çıtır, altın sarısı külah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: Yumuşacık bir tatlı krema kıvrımı.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: Hafif tatlı, yumuşak jöle küpleri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: Avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: Dilimlenmiş avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: Avokadolu smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: Muz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: Dilimlenmiş muz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: Muzlu smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: Yaban mersini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: Yaban mersinli smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: Kiraz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: Kiraz şurubu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: Çikolatalı dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: Çikolatalı milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: Çikolata sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: Hindistan cevizi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: Dilimlenmiş hindistan cevizi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: Hindistan cevizli smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: Külah hamuru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: Külah makinesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: Kesme tahtası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: Külah dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: Kup dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: Kar buzu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: Üzümlü dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: Üzümlü milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: Üzüm şurubu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: Süzme yoğurt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: Yeşil elma şurubu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: Buz küpleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: Buz rendesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: Kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: Dilimlenmiş kivi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: Limon şurubu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: Mangolu dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: Mangolu milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: Matcha dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: Matcha milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: Süt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: Milkshake mikseri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: Portakal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: Portakal dilimleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: Portakallı smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: Çikolatalı bisküvi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: Çikolatalı çubuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: Gökkuşağı jölesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: Rendelenmiş buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: Renkli şeker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: Çilek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: Çilekli dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: Çilekli milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: Dilimlenmiş çilek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: Çilekli smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: Çilek sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: Vanilyalı dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: Vanilyalı milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: Waffle külah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: Krem şanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: Beyaz jöle
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

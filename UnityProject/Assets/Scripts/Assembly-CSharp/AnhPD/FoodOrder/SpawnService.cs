@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -64,8 +65,26 @@ namespace AnhPD.FoodOrder
 
 		public DragItem SpawnSingle(DragItem prefab, Vector3 position, bool isJump = true, bool registerCell = true, DragOrigin origin = DragOrigin.None)
 		{
-			// TODO(unrecovered): instantiation helper (FUN_04c37c04) and its parent transform are not recovered; SetActive, init virtual call (+0x1a8) and origin field (+0xec) also not mapped.
-			return null;
+			// Rebuilt from the decompiled code: take an instance from the pool at the prefab's rotation, activate and initialise it for dragging,
+			// tag where it came from, and optionally register it into a grid cell. The init call is the virtual at vtable +0x1a8 (taken to be
+			// InitForDrag).
+			if (prefab == null)
+			{
+				return null;
+			}
+			DragItem item = Utilities.ObjectPoolDictArray.Instance.GetGameObject(prefab, position, prefab.transform.rotation);
+			if (item == null)
+			{
+				return null;
+			}
+			item.gameObject.SetActive(true);
+			item.InitForDrag();
+			item.DragOrigin = origin;
+			if (registerCell && _area.TryGetCell(item, out var cell))
+			{
+				item.RegisterCell(cell, isJump);
+			}
+			return item;
 		}
 
 		public void SpawnIngredient(string id, int count, Vector3 position, DragOrigin origin = DragOrigin.None, Action<DragItem> onSpawned = null)
@@ -186,10 +205,32 @@ namespace AnhPD.FoodOrder
 
 		private void ThrowToStation(DragItem item, CookingStation station)
 		{
-			if (_info != null && station != null)
+			// Rebuilt from the decompiled code and its two closures: reserve the station slot, fly the item to it, and on arrival hand it to the
+			// landed callback and release the reservation (also released if the tween is killed before it arrives).
+			if (_info == null || station == null || item == null)
 			{
-				// TODO(unrecovered): LevelInfo.MarkInbound(station, id) needs the item id (DragItem +0x78 not mapped); the flight tween chain (virtual call +0x1a8, CreateIngredientFlight, DOTween callbacks and append) is a closure not fully recovered.
+				return;
 			}
+			string id = item.GetId();
+			_info.MarkInbound(station, id);
+			PieceLedger.Step(item, "to station " + station.name);
+			InteractVector vector = station.GetInteractVector(id);
+			bool arrived = false;
+			station.CreateIngredientFlight(item, vector).OnComplete(delegate
+			{
+				arrived = true;
+				if (_onItemLanded != null)
+				{
+					_onItemLanded(item, station);
+				}
+				_info.ClearInbound(station, id);
+			}).OnKill(delegate
+			{
+				if (!arrived)
+				{
+					_info.ClearInbound(station, id);
+				}
+			});
 		}
 
 		public void Despawn(DragItem item)

@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_ro
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ro
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: Cornet de înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: Un cornet crocant de vafă, încoronat cu o cupă rece.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: Cupă de înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: O cupă în pahar, fără picături pe degete.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: Fructe proaspete mixate cu gheață până încep să cânte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: Înghețată și lapte agitate într-o înghițitură groasă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: Gheață rasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: Gheață rasă pufoasă, înmuiată în sirop colorat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: Madame Flamingo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: O divă glamuroasă care lenevește într-un halat de pene neon, cu o pălărie uriașă cu boruri largi și ochelari de soare cat-eye cu strasuri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: Ollie Vidra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: Un animăluț jucăuș, îmbrăcat într-o cămașă tropicală supradimensionată cu imprimeu de înghețată și o pălărie mică de paie cu o floare de hibiscus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: Sunny Papagalul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: Un animăluț drăguț în costum de baie pastelat, cu un colac în formă de gogoașă mușcată și o bandană în carouri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: Pinguina Pippa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: Un animăluț în trend, cu un top viu colorat cu volănașe, ochelari de soare galbeni supradimensionați și un mini rucsac din ratan cu o umbreluță de cocktail din hârtie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: Sir Shelldon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: Un animăluț VIP bogat, într-un halat luxos de mătase, cu o șapcă de căpitan brodată cu aur și bijuterii masive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: Tocător Rapid de Fructe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: Feliile de fructe se adună cât ai clipi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: Tocător Ninja de Fructe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: Kiwii tremură când apare acest tocător.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: Aparat de Cornete Crocante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: Cornete calde și crocante, puțin mai repede.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: Presă Aurie de Cornete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: Cornete aurii, crocante de fiecare dată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: Blender Rapid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: Câteva rotiri și fructele devin fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: Vârtej de Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: Un vârtej de fructe. Ține capacul!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: Răzătoare Înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: Gheața devine fulgi moi mai repede.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: Răzătoare Fulg de Nea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: Fulgi moi de nea cad în câteva clipe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: Mixer Rapid de Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: Milkshake-urile devin cremoase mai repede.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: Super Mixer de Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: Milkshake-uri cremoase într-un super vârtej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: Chioșc de Înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: Un mic chioșc cu delicii reci la soare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: Gelaterie Tropicală
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: Mai mult loc pentru delicii înghețate și colorate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: Firmă Capy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: O capibara veselă întâmpină iubitorii de înghețată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: Meniu de Înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: O tablă plină cu delicii reci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: Copertină în Dungi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: O copertină umbroasă cu o firmă veselă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: Tejghea de Deserturi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: Fructe, un aparat de deserturi și pahare gata de servit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: Vitrina Magazinului
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: O ușă primitoare între ferestre luminoase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: Colț de Surf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: O placă de surf, lăzi cu fructe și un indicator de plajă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: Cornet și Colac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: Un cornet uriaș și un colac aduc veselia plajei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: Congelator de Înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: Un congelator colorat păstrează înghețata rece.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: Curcubeu pe Acoperiș
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: Un curcubeu strălucitor deasupra gelateriei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: Înghețată Uriașă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: O înghețată uriașă pe acoperiș pentru marele final.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: Milkshake Uriaș
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: Un milkshake înalt decorează acoperișul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: Intră fructe, iese o furtună de smoothie înghețat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: Ciclonul de Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: Mixează atât de repede încât ninge în magazin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: Blenderul Viscol Legendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: Cornete crocante ies unul după altul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: Aparatul de Cornete Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: Cornete aurii de vafă cu viteză record.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: Forja de Vafe Legendară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: Căpșunile sunt feliate înainte să clipească.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: Tocătorul de Fructe Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: O lovitură, un castron întreg de toppinguri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: Lama de Fructe Legendară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: Zăpadă pufoasă cât ai clipi. Ia o lingură!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: Răzătoarea Viscol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: Un munte de gheață rasă într-o singură suflare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: Răzătoarea Ghețar Legendară
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: Shake-uri groase și cremoase într-un vârtej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: Tornada de Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: Agită atât de repede încât paiele încep să danseze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: Motorul de Shake Legendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: Fruct verde și cremos pentru un smoothie catifelat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: Felii verzi și moi, gata de mixat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: Un amestec cremos de avocado proaspăt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: O banană însorită, dulce din natură.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: Rondele dulci de banană, gata de mixat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: Un amestec dens și dulce de banană coaptă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: Transformă fructele în smoothie-uri fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: Fructe mici, pline de aromă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: Un amestec violet de afine proaspete.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: O cireașă roșie lucioasă pentru vârf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: Sirop roșu și dulce pentru gheața rasă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: Cupe bogate pentru iubitorii de cacao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: Înghețată de ciocolată, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: Sos lucios de ciocolată pentru stropit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: O coajă păroasă cu miez dulce tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: Bucăți albe de cocos cu gust tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: Un amestec cremos cu gust de plajă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: Aluat dulce care va deveni un cornet crocant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: Coace aluatul în cornete crocante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: Taie fructe pentru toppinguri și smoothie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: Un cornet ornat după gustul clientului.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: O cupă cu cupele alese de client.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: Un milkshake dens cu aroma preferată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: Gheață pufoasă cu siropul ales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: Un amestec de fructe făcut la comandă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: Cupe violete cu gust de struguri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: Înghețată de struguri, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: Sirop violet și dulce pentru gheața rasă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: Iaurt dens și acrișor pentru mai multă cremozitate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: Sirop verde acrișor cu gust de măr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: Cuburi care țin totul la rece.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: Transformă gheața în zăpadă pufoasă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: Un fruct pufos cu miez verde aprins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: Rondele verzi presărate cu semințe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: Sirop galben și acrișor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: Cupe aurii pline de mango tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: Înghețată de mango, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: Cupe de ceai verde, ușor dulci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: Înghețată matcha, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: Lapte proaspăt pentru băuturi cremoase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: Agită înghețata cu laptele până se îngroașă.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: O portocală zemoasă plină de soare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: Felii de portocală gata de mixat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: Un amestec răcoritor de portocală.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: Un biscuit crocant pentru vârful cupei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: Un bețișor crocant îmbrăcat în ciocolată.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: Jeleu tremurător în toate culorile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: Gheață pufoasă ca zăpada, gata de sirop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: Ornamente colorate pentru o petrecere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: O căpșună dulce cu pălărie de frunze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: Cupe roz cu gust adevărat de căpșuni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: Înghețată de căpșuni, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: Felii zemoase gata de mixat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: Un amestec roz de căpșuni proaspete.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: Sos roz și dulce pentru stropit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: Cupe clasice pe care le iubește toată lumea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: Înghețată de vanilie, gata de agitat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: Un cornet auriu și crocant pentru cupe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: Un vârtej pufos de frișcă dulce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: Cubulețe moi de jeleu, ușor dulci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: Avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: Felii de avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: Smoothie de avocado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: Banană
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: Felii de banană
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: Smoothie de banană
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: Afină
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: Smoothie de afine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: Cireașă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: Sirop de cireșe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: Înghețată de ciocolată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: Milkshake de ciocolată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: Sos de ciocolată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: Nucă de cocos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: Bucăți de cocos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: Smoothie de cocos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: Aluat de cornet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: Aparat de cornete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: Tocător
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: Cornet de înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: Cupă de înghețată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: Gheață rasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: Înghețată de struguri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: Milkshake de struguri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: Sirop de struguri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: Iaurt grecesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: Sirop de măr verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: Cuburi de gheață
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: Răzătoare de gheață
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: Felii de kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: Sirop de lămâie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: Înghețată de mango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: Milkshake de mango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: Înghețată matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: Milkshake matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: Lapte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: Mixer de milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: Portocală
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: Felii de portocală
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: Smoothie de portocale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: Biscuit cu ciocolată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: Bețișor cu ciocolată
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: Jeleu curcubeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: Gheață rasă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: Ornamente colorate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: Căpșună
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: Înghețată de căpșuni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: Milkshake de căpșuni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: Felii de căpșuni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: Smoothie de căpșuni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: Sos de căpșuni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: Înghețată de vanilie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: Milkshake de vanilie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: Cornet de napolitană
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: Frișcă
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: Jeleu alb
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

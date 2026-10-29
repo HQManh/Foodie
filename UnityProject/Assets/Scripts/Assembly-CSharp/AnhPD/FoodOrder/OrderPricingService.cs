@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using CakeOrder.InGame;
 using UnityEngine;
@@ -8,7 +9,11 @@ namespace AnhPD.FoodOrder
 	{
 		public void SpawnCoin(Vector2 pos, CustomerLeaveData customerLeaveData)
 		{
-			// TODO(unrecovered): OrderPricingInput / OrderPricingCalculator result members are not available in this project; SpawnCoinAmount call needs the calculated amount and coin count
+			// Approximation: OrderPricingCalculator is an empty DLL shell, so the original price formula is unknown. Pays a flat amount per dish.
+			if (customerLeaveData.spawnData != null && customerLeaveData.spawnData.IsCleanDishStaff) return;
+			if (!customerLeaveData.isSatisfied) return;
+			int dishes = Math.Max(1, customerLeaveData.numDish);
+			SpawnCoinAmount(pos, dishes * 10, Math.Min(5, dishes * 2), false);
 		}
 
 		private void SpawnCoinAmount(Vector2 pos, int amount, int numCoins, bool isTip)

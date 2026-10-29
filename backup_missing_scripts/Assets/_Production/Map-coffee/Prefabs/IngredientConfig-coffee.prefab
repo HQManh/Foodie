@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: IngredientConfig-coffee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -911457927, guid: 9b79db7996b03fc716c579f61e0ccf78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _ingredientProcessConfigs:
+  - id: 0
+    toolChain:
+    outputRecipePieceIndexes: 00000000
+    outputRecipePieceNums: 01000000
+  - id: 1
+    toolChain:
+    outputRecipePieceIndexes: 00000000
+    outputRecipePieceNums: 01000000
+  - id: 2
+    toolChain:
+    outputRecipePieceIndexes: 00000000
+    outputRecipePieceNums: 01000000
+  - id: 3
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 4
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 5
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 6
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 7
+    toolChain:
+    outputRecipePieceIndexes: 03000000
+    outputRecipePieceNums: 01000000
+  - id: 8
+    toolChain:
+    outputRecipePieceIndexes: 03000000
+    outputRecipePieceNums: 01000000
+  - id: 9
+    toolChain:
+    outputRecipePieceIndexes: 02000000
+    outputRecipePieceNums: 01000000
+  - id: 10
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 11
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 12
+    toolChain:
+    outputRecipePieceIndexes: 01000000
+    outputRecipePieceNums: 01000000
+  - id: 13
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 14
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 15
+    toolChain:
+    outputRecipePieceIndexes:
+    outputRecipePieceNums:
+  - id: 16
+    toolChain:
+    outputRecipePieceIndexes: 04000000
+    outputRecipePieceNums: 01000000
+  - id: 17
+    toolChain:
+    outputRecipePieceIndexes: 04000000
+    outputRecipePieceNums: 01000000
+  - id: 18
+    toolChain:
+    outputRecipePieceIndexes: 04000000
+    outputRecipePieceNums: 01000000
+  - id: 19
+    toolChain:
+    outputRecipePieceIndexes: 04000000
+    outputRecipePieceNums: 01000000
+  _recipePieceConfigs:
+  - id: 0
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 1
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 2
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 3
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 4
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 5
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 6
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 7
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 8
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 9
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 0
+  - id: 10
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 2
+    price: 5
+  - id: 11
+    requiredBases:
+    limitInOrder: 7
+    usageNum: 1
+    price: 5
+  - id: 12
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: 13
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 14
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 15
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 16
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 17
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 18
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: 19
+    requiredBases:
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  _dirtyObjectConfigs:
+  - id: 0
+    maxStack: 1
+    fromIngredients: 05000000
+    enabled: 0
+  - id: 1
+    maxStack: 1
+    fromIngredients: 05000000
+    enabled: 0
+  - id: 2
+    maxStack: 1
+    fromIngredients: 03000000
+    enabled: 0

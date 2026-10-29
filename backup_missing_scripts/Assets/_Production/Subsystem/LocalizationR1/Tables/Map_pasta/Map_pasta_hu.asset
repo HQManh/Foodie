@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: A hangulatos kis trattoria, ahol a tésztatörténeted kezdődik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: Hangulatos emeletet ad a trattoriádnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: Pillanatok alatt selymes szószt kever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: Szószforgószél. A fedő erősen ajánlott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: A paradicsom felkockázódik, mielőtt elpirulna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: Olyan gyorsan aprít, hogy a hagymának sírni sincs ideje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: Kockás asztal és kényelmes székek a szabadtéri tésztázáshoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: Meleg fényű lámpás világít az ajtó mellett.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: Büszke kapibara séf tábla koronázza a tetőt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: Krétatábla a mai tésztakülönlegességekkel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: A szószok kétszer olyan gyorsan sercegnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: Extra sercegés feloldva. A serpenyő büszkén izzik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: Friss cserepes zöldek, amelyek feldobják a bejáratot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: 'A víz felforr, mielőtt kimondanád: al dente.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: Bugyogó legenda, amely fénysebességgel főzi a tésztát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: Egy dús szőlőfürt díszíti a tetőt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: Óriási tányér spagetti feltekerve a tető tetején!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: Egy szempillantás alatt tölti a pezsgő szódát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: Bődületes pezsgés! Buborékok és öröm szökőkútja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: Emeletes trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: Szószos turmix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: Szósztornádó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: Gyorsaprító deszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: Tészta-nindzsa deszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: Teraszasztal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: Fali lámpás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: Capy séf tábla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: Krétás étlap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: Sercegő serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: Lángoló serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: Cserepes bazsalikom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: Gyorsforraló fazék
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: Mega forraló üst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: Tetőszőlő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: Óriás spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: Pezsgő kút
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: Szódagejzír
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: Félelmetes medve csíkos öltönyben és rózsás fedorában, aki bőséges tésztaadagot és feltétlen tiszteletet vár.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: Elegáns cirmos lila kalapban és hozzáillő ruhában, aki kifogástalan ízléssel rendel tésztát, elégedett dorombolással.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: Rendes csincsilla kék postásegyenruhában, aki kézbesítések között a friss tészta illatát követi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: Büszke kakas cilinderben és háromszínű vállszalaggal, aki nagy beszédekkel elnököl a tésztapult felett.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: Szelíd bárány kerek szemüvegben és csengős sálban, akinek minden tányér tészta ünnepi alkalom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: Alma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: Szeletelt alma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: Don Orsino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: Grillezett marhasteak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: Nyers marhasteak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: Főzőedény
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: Pirított kenyér
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: Kenyér
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: Caterina grófnő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: Sajt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: Aprított sajt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: Sajtos tejszósz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: Grillezett csirke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: Nyers csirke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: Csincsilla Chico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: Vágódeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: Grillezett fésűkagyló
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: Nyers fésűkagyló
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: Vágott nyers fésűkagyló
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: Tészta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: Saláta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: Hús és tenger gyümölcsei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: Üdítő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: Főtt farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: Nyers farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: Sült darált hús
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: Nyers darált hús
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: Jég
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: Citrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: Szeletelt citrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: Saláta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: Vágott saláta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: Főtt manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: Nyers manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: Majonéz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: Hús és tenger gyümölcsei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: Nagy étlap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: Tej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: Grillezett polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: Nyers polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: Vágott nyers polip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: Serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: Tészta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: Gallo polgármester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: Saláta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: Szószturmix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: Woolington úr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: Grillezett garnélarák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: Nyers garnélarák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: Vágott nyers garnélarák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: Üdítő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: Üdítős pohár
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: Főtt spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: Nyers spagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: Spenót
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: Aprított spenót
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: Spenótos tejszósz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: Nagy paradicsom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: Aprított paradicsom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: Paradicsomos tejszósz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: Ropogós alma, ami távol tartja az orvost és az unalmas salátákat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: Ropogós cikkekre vágva, készen a keverésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: 'Addig sült a grillen, míg azt nem suttogja: bellissimo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: Vastag marhaszelet nagy firenzei álmokkal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: Addig főzi a tésztát, míg tökéletesen al dente nem lesz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: Aranyló bruschetta pirítós, finoman ropogós.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: Rusztikus olasz cipó, kívül ropogós, belül puha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: Drámára és ízre érlelt sajtkerék.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: Sajtos hópelyhek, amik a tésztára várnak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: Krémes, sajtos, és olyan selymes, hogy minden vitát megnyer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: Szaftos grillcsirke rendes grillcsíkokkal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: Sápadt csirke, ami a grillen való nagy pillanatára vár.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: 'Gyorsabban vágja a zöldséget, mint ahogy azt mondod: ciao.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: Pirított fésűkagyló, édes, mint egy velencei naplemente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: Fésűkagyló, ami még szorosan zárva tartja a héját.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: Megtisztítva, megnyitva, már nem zárkózott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: Üres pohár, ami valami pezsgőre vár.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: Feltekerve, szósszal, olasz lendülettel tálalva. Mamma mia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: Ropogós, friss, és úgy keverve, mint egy igazi olasz kert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: A grillről és a tengerből, nápolyi vasárnaphoz illő lakoma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: Pezsgő, hideg, és minden tányér tészta tökéletes társa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: Puha csokornyakkendők, kiöltözve a vacsorára.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: Apró tésztapillangók, akik még nem tanultak meg repülni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: Lepirítva, szaftosan, ahogy a nonna csinálja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: Darált marha, úton egy klasszikus ragù felé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: Hideg kockák, amik minden üdítőt lazán hűtenek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: Napsütötte amalfi citrom, pikáns egyéniséggel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: Ragyogó citromkarikák, amitől minden korty szikrázik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: Ropogós salátafej, frissen a kertből.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: Vágott levelek, készen egy alapos keverésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: Puha csövek, megfőzve és töltésre készen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: Nagy tésztacsövek, rengeteg hellyel a töltelénknek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: A krémes öntet, ami minden salátát összetart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: A grill és a tenger egy bőséges tányéron találkozik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: Friss tej, minden krémes szósz titka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: Grillezett polip, a Földközi-tenger igazi íze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: Nyolc kar, és fogalma sincs, mi vár rá.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: Megtisztított csápok, készen a tűzre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: Aranyló tökéletességig sercegteti a húst és a szószokat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: Gőzölgő tányér tészta, al dente, és büszke rá.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: Friss zöldek olasz módra összeforgatva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: Egy krémes örvénnyel selymes szószokat turmixol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: Sercegő garnélák, amiket megcsókolt a láng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: Apró garnélák összegömbölyödve, szégyenlősen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: Megpucolva, előkészítve, nincs több héj, ahová bújhatna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: Egy pohár buborék, jéghidegen tálalva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: Pohár, ami készen áll egy pezsgő utántöltésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: Pezsgő üdítőt tölt rengeteg jégre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: Tökéletesen al dente, és készen a tekerésre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: Hosszú, száraz és merev, mint egy grissini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: Zöld levelek tengerészerővel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: Finomra vágott zöldek, készen a szószhoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: Zöld, krémes, és titokban egészséges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: Telt paradicsom, a toszkán nap alatt érlelve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: Kockázott paradicsom, minden vörös szósz dobogó szíve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: Rózsás, krémes, rózsaszín, mint egy római naplemente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: Pohár
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: Üdítőgép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: Hangulatos Trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: A paradicsomok fel vannak aprítva, mielőtt elpirulnának.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: Szamuráj tésztadeszka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: Egy suhintás, egy egész saláta. Séfcsók.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: Legendás tésztapenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: Krémes szósz egy pörgéssel. Szalvéta ajánlott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: Szószhurrikán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: Selymes szósz egyetlen pörgés alatt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: Legendás szószörvény
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: A steakek egy pillanat alatt sercegnek. Hallod ezt a hangot?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: Pokoli serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: 'Tökéletesre sül, mielőtt kimondanád: bellissimo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: Legendás sercegő serpenyő
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: A tészta egy szempillantás alatt al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: Vulkán főzőfazék
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: Olyan gyorsan forral, hogy a víz alig veszi észre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: Legendás tésztaüst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: Buborékokkal tör ki. A poharak maguktól megtelnek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: Üdítővulkán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: Örök buborékok. A szomjúságnak esélye sincs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: Végtelen üdítőkút
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

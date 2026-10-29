@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace AnhPD.FoodOrder
 {
-	public class AutoCompleteOrderFx : MonoBehaviour
+	public class AutoCompleteOrderFx
 	{
 		private class Candidate
 		{

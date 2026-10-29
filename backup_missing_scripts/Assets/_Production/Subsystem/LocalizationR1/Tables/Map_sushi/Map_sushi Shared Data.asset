@@ -1,0 +1,1981 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Map_sushi
+  m_TableCollectionNameGuidString: 0ee3069c677b1d344ade71dbf750228d
+  m_Entries:
+  - m_Id: 57786321854464
+    m_Key: Desc_balloons
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518666
+  - m_Id: 57786351214592
+    m_Key: Desc_base
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518667
+  - m_Id: 57786351214593
+    m_Key: Desc_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518668
+  - m_Id: 57786351214594
+    m_Key: Desc_bonsai
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518669
+  - m_Id: 57786351214595
+    m_Key: Desc_capy_sign
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518670
+  - m_Id: 57786351214596
+    m_Key: Desc_cat
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518671
+  - m_Id: 57786351214597
+    m_Key: Desc_counter_food
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518672
+  - m_Id: 57786351214598
+    m_Key: Desc_cutting_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518673
+  - m_Id: 57786351214625
+    m_Key: Desc_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518700
+  - m_Id: 57786351214627
+    m_Key: Desc_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518702
+  - m_Id: 57786351214629
+    m_Key: Desc_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518704
+  - m_Id: 57786351214631
+    m_Key: Desc_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518706
+  - m_Id: 57786351214633
+    m_Key: Desc_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518708
+  - m_Id: 57786351214599
+    m_Key: Desc_flag
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518674
+  - m_Id: 57786351214600
+    m_Key: Desc_fox_lady
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518675
+  - m_Id: 57786351214601
+    m_Key: Desc_goat_emo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518676
+  - m_Id: 57786351214602
+    m_Key: Desc_koala_seifuku
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518677
+  - m_Id: 57786351214603
+    m_Key: Desc_lion_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518678
+  - m_Id: 57786351214604
+    m_Key: Desc_second_floor_roof
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518679
+  - m_Id: 57786351214605
+    m_Key: Desc_shiba_sumo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518680
+  - m_Id: 57786351214606
+    m_Key: Desc_stool
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518681
+  - m_Id: 57786351214607
+    m_Key: Desc_wolf_yakuza
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518682
+  - m_Id: 57786351214608
+    m_Key: Title_balloons
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518683
+  - m_Id: 57786351214609
+    m_Key: Title_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518684
+  - m_Id: 57786351214610
+    m_Key: Title_bonsai
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518685
+  - m_Id: 57786351214611
+    m_Key: Title_capy_sign
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518686
+  - m_Id: 57786351214612
+    m_Key: Title_cat
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518687
+  - m_Id: 57786351214613
+    m_Key: Title_counter_food
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518688
+  - m_Id: 57786351214614
+    m_Key: Title_cutting_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518689
+  - m_Id: 57786351214624
+    m_Key: Title_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518699
+  - m_Id: 57786351214626
+    m_Key: Title_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518701
+  - m_Id: 57786351214628
+    m_Key: Title_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518703
+  - m_Id: 57786351214630
+    m_Key: Title_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518705
+  - m_Id: 57786351214632
+    m_Key: Title_dish_5
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518707
+  - m_Id: 57786351214615
+    m_Key: Title_flag
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518690
+  - m_Id: 57786351214616
+    m_Key: Title_fox_lady
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518691
+  - m_Id: 57786351214617
+    m_Key: Title_goat_emo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518692
+  - m_Id: 57786351214618
+    m_Key: Title_koala_seifuku
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518693
+  - m_Id: 57786351214619
+    m_Key: Title_lion_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518694
+  - m_Id: 57786351214620
+    m_Key: Title_second_floor_roof
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518695
+  - m_Id: 57786351214621
+    m_Key: Title_shiba_sumo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518696
+  - m_Id: 57786351214622
+    m_Key: Title_stool
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518697
+  - m_Id: 57786351214623
+    m_Key: Title_wolf_yakuza
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518698
+  - m_Id: 2945767655333888
+    m_Key: Desc_cat-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813098
+  - m_Id: 2945767667916800
+    m_Key: Desc_chairs-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813099
+  - m_Id: 2945767667916801
+    m_Key: Desc_lights
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813100
+  - m_Id: 2945767667916802
+    m_Key: Desc_logo-capy-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813101
+  - m_Id: 2945767667916803
+    m_Key: Desc_logo-capy-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813102
+  - m_Id: 2945767672111104
+    m_Key: Desc_roof-fish
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813103
+  - m_Id: 2945767672111105
+    m_Key: Desc_roof_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813104
+  - m_Id: 2945767672111106
+    m_Key: Title_cat-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813105
+  - m_Id: 2945767672111107
+    m_Key: Title_chairs-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813106
+  - m_Id: 2945767672111108
+    m_Key: Title_lights
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813107
+  - m_Id: 2945767672111109
+    m_Key: Title_logo-capy-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813108
+  - m_Id: 2945767672111110
+    m_Key: Title_logo-capy-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813109
+  - m_Id: 2945767672111111
+    m_Key: Title_roof-fish
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813110
+  - m_Id: 2945767672111112
+    m_Key: Title_roof_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813111
+  - m_Id: 3010516803903488
+    m_Key: Desc_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366423
+  - m_Id: 3010516829069312
+    m_Key: Desc_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366424
+  - m_Id: 3010516829069313
+    m_Key: Desc_board-raw-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366425
+  - m_Id: 3010516829069314
+    m_Key: Desc_board-raw-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366426
+  - m_Id: 3010516829069315
+    m_Key: Desc_cooker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366427
+  - m_Id: 3010516829069316
+    m_Key: Desc_cooker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366428
+  - m_Id: 3010516829069317
+    m_Key: Desc_flag-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366429
+  - m_Id: 3010516829069318
+    m_Key: Desc_grater-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366430
+  - m_Id: 3010516829069319
+    m_Key: Desc_grater-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366431
+  - m_Id: 3010516829069320
+    m_Key: Desc_noren-blue
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366432
+  - m_Id: 3010516829069321
+    m_Key: Desc_noren-red
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366433
+  - m_Id: 3010516829069322
+    m_Key: Desc_pot-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366434
+  - m_Id: 3010516829069323
+    m_Key: Desc_pot-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366435
+  - m_Id: 3010516833263616
+    m_Key: Desc_stone-shrine
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366436
+  - m_Id: 3010516833263617
+    m_Key: Desc_teapot-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366437
+  - m_Id: 3010516833263618
+    m_Key: Desc_teapot-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366438
+  - m_Id: 3010516833263619
+    m_Key: Title_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366439
+  - m_Id: 3010516833263620
+    m_Key: Title_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366440
+  - m_Id: 3010516833263621
+    m_Key: Title_board-raw-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366441
+  - m_Id: 3010516833263622
+    m_Key: Title_board-raw-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366442
+  - m_Id: 3010516833263623
+    m_Key: Title_cooker-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366443
+  - m_Id: 3010516833263624
+    m_Key: Title_cooker-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366444
+  - m_Id: 3010516833263625
+    m_Key: Title_flag-lv1
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366445
+  - m_Id: 3010516833263626
+    m_Key: Title_grater-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366446
+  - m_Id: 3010516833263627
+    m_Key: Title_grater-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366447
+  - m_Id: 3010516833263628
+    m_Key: Title_noren-blue
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366448
+  - m_Id: 3010516833263629
+    m_Key: Title_noren-red
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366449
+  - m_Id: 3010516833263630
+    m_Key: Title_pot-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366450
+  - m_Id: 3010516833263631
+    m_Key: Title_pot-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366451
+  - m_Id: 3010516833263632
+    m_Key: Title_stone-shrine
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366452
+  - m_Id: 3010516833263633
+    m_Key: Title_teapot-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366453
+  - m_Id: 3010516833263634
+    m_Key: Title_teapot-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366454
+  - m_Id: 5836103830462464
+    m_Key: Desc_cutting_board_sushi_raw
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849410
+  - m_Id: 5836103851433984
+    m_Key: Desc_cutting_board_sushi_veg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849411
+  - m_Id: 5836103851433985
+    m_Key: Desc_grater_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849412
+  - m_Id: 5836103851433986
+    m_Key: Desc_pot_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849413
+  - m_Id: 5836103851433987
+    m_Key: Desc_rice_cooker_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849414
+  - m_Id: 5836103851433988
+    m_Key: Desc_teapot_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849415
+  - m_Id: 5836103851433989
+    m_Key: Title_grater_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849416
+  - m_Id: 5836103851433990
+    m_Key: Title_pot_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849417
+  - m_Id: 5836103851433991
+    m_Key: Title_rice_cooker_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849418
+  - m_Id: 5836103851433992
+    m_Key: Title_teapot_sushi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849419
+  - m_Id: 5867052983115776
+    m_Key: Desc_avocado
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642594
+  - m_Id: 5867053008281600
+    m_Key: Desc_avocado_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642595
+  - m_Id: 5867053008281601
+    m_Key: Desc_avocado_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642596
+  - m_Id: 5867053012475904
+    m_Key: Desc_cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642597
+  - m_Id: 5867053012475905
+    m_Key: Desc_cup_matcha
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642598
+  - m_Id: 5867053012475906
+    m_Key: Desc_egg_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642599
+  - m_Id: 5867053012475907
+    m_Key: Desc_egg_roll
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642600
+  - m_Id: 5867053012475908
+    m_Key: Desc_egg_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642601
+  - m_Id: 5867053012475909
+    m_Key: Desc_fish_hirame
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642602
+  - m_Id: 5867053012475910
+    m_Key: Desc_fish_hirame_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642603
+  - m_Id: 5867053012475911
+    m_Key: Desc_fish_hirame_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642604
+  - m_Id: 5867053012475912
+    m_Key: Desc_fish_mackerel
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642605
+  - m_Id: 5867053012475913
+    m_Key: Desc_fish_mackerel_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642606
+  - m_Id: 5867053012475914
+    m_Key: Desc_fish_mackerel_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642607
+  - m_Id: 5867053012475915
+    m_Key: Desc_fish_salmon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642608
+  - m_Id: 5867053012475916
+    m_Key: Desc_fish_salmon_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642609
+  - m_Id: 5867053012475917
+    m_Key: Desc_fish_salmon_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642610
+  - m_Id: 5867053012475918
+    m_Key: Desc_fish_tuna
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642611
+  - m_Id: 5867053012475919
+    m_Key: Desc_fish_tuna_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642612
+  - m_Id: 5867053012475920
+    m_Key: Desc_fish_tuna_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642613
+  - m_Id: 5867053012475921
+    m_Key: Desc_flexible_gunkan
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642614
+  - m_Id: 5867053012475922
+    m_Key: Desc_flexible_maki
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642615
+  - m_Id: 5867053012475923
+    m_Key: Desc_flexible_nigiri
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642616
+  - m_Id: 5867053012475924
+    m_Key: Desc_flexible_sashimi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642617
+  - m_Id: 5867053012475925
+    m_Key: Desc_lemon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642618
+  - m_Id: 5867053012475926
+    m_Key: Desc_lemon_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642619
+  - m_Id: 5867053012475927
+    m_Key: Desc_mayonnaise
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642620
+  - m_Id: 5867053012475928
+    m_Key: Desc_octopus
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642621
+  - m_Id: 5867053012475929
+    m_Key: Desc_octopus_boild
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642622
+  - m_Id: 5867053012475930
+    m_Key: Desc_octopus_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642623
+  - m_Id: 5867053012475931
+    m_Key: Desc_octopus_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642624
+  - m_Id: 5867053012475932
+    m_Key: Desc_rice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642625
+  - m_Id: 5867053012475933
+    m_Key: Desc_rice_cooked
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642626
+  - m_Id: 5867053012475934
+    m_Key: Desc_roe_capelin
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642627
+  - m_Id: 5867053012475935
+    m_Key: Desc_roe_flyingfish
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642628
+  - m_Id: 5867053012475936
+    m_Key: Desc_roe_salmon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642629
+  - m_Id: 5867053012475937
+    m_Key: Desc_seaweed
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642630
+  - m_Id: 5867053012475938
+    m_Key: Desc_shiso_leaf
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642631
+  - m_Id: 5867053012475939
+    m_Key: Desc_shrimp
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642632
+  - m_Id: 5867053012475940
+    m_Key: Desc_shrimp_boiled
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642633
+  - m_Id: 5867053012475941
+    m_Key: Desc_shrimp_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642634
+  - m_Id: 5867053012475942
+    m_Key: Desc_shrimp_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642635
+  - m_Id: 5867053012475943
+    m_Key: Desc_tea_leaf
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642636
+  - m_Id: 5867053012475944
+    m_Key: Desc_wasabi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642637
+  - m_Id: 5867053012475945
+    m_Key: Desc_wasabi_flour
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642638
+  - m_Id: 5867053012475946
+    m_Key: Desc_water
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642639
+  - m_Id: 5867053012475947
+    m_Key: Title_avocado
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642640
+  - m_Id: 5867053012475948
+    m_Key: Title_avocado_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642641
+  - m_Id: 5867053012475949
+    m_Key: Title_avocado_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642642
+  - m_Id: 5867053012475950
+    m_Key: Title_cup
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642643
+  - m_Id: 5867053012475951
+    m_Key: Title_cup_matcha
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642644
+  - m_Id: 5867053012475952
+    m_Key: Title_cutting_board_sushi_raw
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642645
+  - m_Id: 5867053012475953
+    m_Key: Title_cutting_board_sushi_veg
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642646
+  - m_Id: 5867053012475954
+    m_Key: Title_egg_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642647
+  - m_Id: 5867053012475955
+    m_Key: Title_egg_roll
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642648
+  - m_Id: 5867053012475956
+    m_Key: Title_egg_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642649
+  - m_Id: 5867053012475957
+    m_Key: Title_fish_hirame
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642650
+  - m_Id: 5867053012475958
+    m_Key: Title_fish_hirame_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642651
+  - m_Id: 5867053012475959
+    m_Key: Title_fish_hirame_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642652
+  - m_Id: 5867053012475960
+    m_Key: Title_fish_mackerel
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642653
+  - m_Id: 5867053012475961
+    m_Key: Title_fish_mackerel_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642654
+  - m_Id: 5867053012475962
+    m_Key: Title_fish_mackerel_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642655
+  - m_Id: 5867053012475963
+    m_Key: Title_fish_salmon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642656
+  - m_Id: 5867053012475964
+    m_Key: Title_fish_salmon_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642657
+  - m_Id: 5867053012475965
+    m_Key: Title_fish_salmon_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642658
+  - m_Id: 5867053012475966
+    m_Key: Title_fish_tuna
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642659
+  - m_Id: 5867053012475967
+    m_Key: Title_fish_tuna_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642660
+  - m_Id: 5867053012475968
+    m_Key: Title_fish_tuna_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642661
+  - m_Id: 5867053012475969
+    m_Key: Title_flexible_gunkan
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642662
+  - m_Id: 5867053012475970
+    m_Key: Title_flexible_maki
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642663
+  - m_Id: 5867053012475971
+    m_Key: Title_flexible_nigiri
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642664
+  - m_Id: 5867053012475972
+    m_Key: Title_flexible_sashimi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642665
+  - m_Id: 5867053016670208
+    m_Key: Title_lemon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642666
+  - m_Id: 5867053016670209
+    m_Key: Title_lemon_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642667
+  - m_Id: 5867053016670210
+    m_Key: Title_mayonnaise
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642668
+  - m_Id: 5867053016670211
+    m_Key: Title_octopus
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642669
+  - m_Id: 5867053016670212
+    m_Key: Title_octopus_boild
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642670
+  - m_Id: 5867053016670213
+    m_Key: Title_octopus_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642671
+  - m_Id: 5867053016670214
+    m_Key: Title_octopus_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642672
+  - m_Id: 5867053016670215
+    m_Key: Title_rice
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642673
+  - m_Id: 5867053016670216
+    m_Key: Title_rice_cooked
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642674
+  - m_Id: 5867053016670217
+    m_Key: Title_roe_capelin
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642675
+  - m_Id: 5867053016670218
+    m_Key: Title_roe_flyingfish
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642676
+  - m_Id: 5867053016670219
+    m_Key: Title_roe_salmon
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642677
+  - m_Id: 5867053016670220
+    m_Key: Title_seaweed
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642678
+  - m_Id: 5867053016670221
+    m_Key: Title_shiso_leaf
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642679
+  - m_Id: 5867053016670222
+    m_Key: Title_shrimp
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642680
+  - m_Id: 5867053016670223
+    m_Key: Title_shrimp_boiled
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642681
+  - m_Id: 5867053016670224
+    m_Key: Title_shrimp_cube
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642682
+  - m_Id: 5867053016670225
+    m_Key: Title_shrimp_sliced
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642683
+  - m_Id: 5867053016670226
+    m_Key: Title_tea_leaf
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642684
+  - m_Id: 5867053016670227
+    m_Key: Title_wasabi
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642685
+  - m_Id: 5867053016670228
+    m_Key: Title_wasabi_flour
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642686
+  - m_Id: 5867053016670229
+    m_Key: Title_water
+    m_Metadata:
+      m_Items:
+      - rid: 5047051076574642687
+  - m_Id: 8069165779771392
+    m_Key: Desc_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150388
+  - m_Id: 8069165817520128
+    m_Key: Title_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150389
+  - m_Id: 8069165821714432
+    m_Key: Desc_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150390
+  - m_Id: 8069165825908736
+    m_Key: Title_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150391
+  - m_Id: 8069165834297344
+    m_Key: Desc_board-raw-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150392
+  - m_Id: 8069165880434688
+    m_Key: Title_board-raw-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150393
+  - m_Id: 8069165884628992
+    m_Key: Desc_board-raw-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150394
+  - m_Id: 8069165888823296
+    m_Key: Title_board-raw-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150395
+  - m_Id: 8069165897211904
+    m_Key: Desc_cooker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150396
+  - m_Id: 8069165901406208
+    m_Key: Title_cooker-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150397
+  - m_Id: 8069165905600512
+    m_Key: Desc_cooker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150398
+  - m_Id: 8069165913989120
+    m_Key: Title_cooker-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150399
+  - m_Id: 8069165918183424
+    m_Key: Desc_grater-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150400
+  - m_Id: 8069165922377728
+    m_Key: Title_grater-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150401
+  - m_Id: 8069165922377729
+    m_Key: Desc_grater-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150402
+  - m_Id: 8069165930766336
+    m_Key: Title_grater-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150403
+  - m_Id: 8069165934960640
+    m_Key: Desc_pot-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150404
+  - m_Id: 8069165934960641
+    m_Key: Title_pot-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150405
+  - m_Id: 8069166039818240
+    m_Key: Desc_pot-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150406
+  - m_Id: 8069166039818241
+    m_Key: Title_pot-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150407
+  - m_Id: 8069166044012544
+    m_Key: Desc_teapot-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150408
+  - m_Id: 8069166044012545
+    m_Key: Title_teapot-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150409
+  - m_Id: 8069166044012546
+    m_Key: Desc_teapot-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150410
+  - m_Id: 8069166044012547
+    m_Key: Title_teapot-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150411
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859025
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859025
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230175729
+    - rid: 4117827729675518666
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-balloons (description)
+    - rid: 4117827729675518667
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-base (description)
+    - rid: 4117827729675518668
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-base_lv2 (description)
+    - rid: 4117827729675518669
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-bonsai (description)
+    - rid: 4117827729675518670
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-capy_sign (description)
+    - rid: 4117827729675518671
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cat (description)
+    - rid: 4117827729675518672
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-counter_food (description)
+    - rid: 4117827729675518673
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cutting_board (description)
+    - rid: 4117827729675518674
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-flag (description)
+    - rid: 4117827729675518675
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-fox_lady (description)
+    - rid: 4117827729675518676
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-goat_emo (description)
+    - rid: 4117827729675518677
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-koala_seifuku (description)
+    - rid: 4117827729675518678
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-lion_boy (description)
+    - rid: 4117827729675518679
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-second_floor_roof (description)
+    - rid: 4117827729675518680
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-shiba_sumo (description)
+    - rid: 4117827729675518681
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stool (description)
+    - rid: 4117827729675518682
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-wolf_yakuza (description)
+    - rid: 4117827729675518683
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-balloons (name)
+    - rid: 4117827729675518684
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-base_lv2 (name)
+    - rid: 4117827729675518685
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-bonsai (name)
+    - rid: 4117827729675518686
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-capy_sign (name)
+    - rid: 4117827729675518687
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cat (name)
+    - rid: 4117827729675518688
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-counter_food (name)
+    - rid: 4117827729675518689
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cutting_board (name)
+    - rid: 4117827729675518690
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-flag (name)
+    - rid: 4117827729675518691
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-fox_lady (name)
+    - rid: 4117827729675518692
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-goat_emo (name)
+    - rid: 4117827729675518693
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-koala_seifuku (name)
+    - rid: 4117827729675518694
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-lion_boy (name)
+    - rid: 4117827729675518695
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-second_floor_roof (name)
+    - rid: 4117827729675518696
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-shiba_sumo (name)
+    - rid: 4117827729675518697
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stool (name)
+    - rid: 4117827729675518698
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-wolf_yakuza (name)
+    - rid: 4117827729675518699
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[0] (name)
+    - rid: 4117827729675518700
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[0] (description)
+    - rid: 4117827729675518701
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[1] (name)
+    - rid: 4117827729675518702
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[1] (description)
+    - rid: 4117827729675518703
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[2] (name)
+    - rid: 4117827729675518704
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[2] (description)
+    - rid: 4117827729675518705
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[3] (name)
+    - rid: 4117827729675518706
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[3] (description)
+    - rid: 4117827729675518707
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[4] (name)
+    - rid: 4117827729675518708
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-sushi[4] (description)
+    - rid: 4117827869053813098
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cat (description)
+    - rid: 4117827869053813099
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stool (description)
+    - rid: 4117827869053813100
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-light (description)
+    - rid: 4117827869053813101
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-logo-lv1 (description)
+    - rid: 4117827869053813102
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-logo-lv2 (description)
+    - rid: 4117827869053813103
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-fish (description)
+    - rid: 4117827869053813104
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-roof-board (description)
+    - rid: 4117827869053813105
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-cat (name)
+    - rid: 4117827869053813106
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stool (name)
+    - rid: 4117827869053813107
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-light (name)
+    - rid: 4117827869053813108
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-logo-lv1 (name)
+    - rid: 4117827869053813109
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-logo-lv2 (name)
+    - rid: 4117827869053813110
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-fish (name)
+    - rid: 4117827869053813111
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-roof-board (name)
+    - rid: 5047051070982849410
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sushi_raw (description)
+    - rid: 5047051070982849411
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sushi_veg (description)
+    - rid: 5047051070982849412
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO grater_sushi (description)
+    - rid: 5047051070982849413
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO pot_sushi (description)
+    - rid: 5047051070982849414
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO rice_cooker_sushi (description)
+    - rid: 5047051070982849415
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO teapot_sushi (description)
+    - rid: 5047051070982849416
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO grater_sushi (name)
+    - rid: 5047051070982849417
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO pot_sushi (name)
+    - rid: 5047051070982849418
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO rice_cooker_sushi (name)
+    - rid: 5047051070982849419
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO teapot_sushi (name)
+    - rid: 5047051076574642594
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado (description)
+    - rid: 5047051076574642595
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_cube (description)
+    - rid: 5047051076574642596
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_sliced (description)
+    - rid: 5047051076574642597
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup (description)
+    - rid: 5047051076574642598
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_matcha (description)
+    - rid: 5047051076574642599
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_cube (description)
+    - rid: 5047051076574642600
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_roll (description)
+    - rid: 5047051076574642601
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_sliced (description)
+    - rid: 5047051076574642602
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame (description)
+    - rid: 5047051076574642603
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame_cube (description)
+    - rid: 5047051076574642604
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame_sliced (description)
+    - rid: 5047051076574642605
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel (description)
+    - rid: 5047051076574642606
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel_cube (description)
+    - rid: 5047051076574642607
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel_sliced (description)
+    - rid: 5047051076574642608
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon (description)
+    - rid: 5047051076574642609
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon_cube (description)
+    - rid: 5047051076574642610
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon_sliced (description)
+    - rid: 5047051076574642611
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna (description)
+    - rid: 5047051076574642612
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna_cube (description)
+    - rid: 5047051076574642613
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna_sliced (description)
+    - rid: 5047051076574642614
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_gunkan (description)
+    - rid: 5047051076574642615
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_maki (description)
+    - rid: 5047051076574642616
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_nigiri (description)
+    - rid: 5047051076574642617
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_sashimi (description)
+    - rid: 5047051076574642618
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon (description)
+    - rid: 5047051076574642619
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon_sliced (description)
+    - rid: 5047051076574642620
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mayonnaise (description)
+    - rid: 5047051076574642621
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus (description)
+    - rid: 5047051076574642622
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_boild (description)
+    - rid: 5047051076574642623
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_cube (description)
+    - rid: 5047051076574642624
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_sliced (description)
+    - rid: 5047051076574642625
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rice (description)
+    - rid: 5047051076574642626
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rice_cooked (description)
+    - rid: 5047051076574642627
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_capelin (description)
+    - rid: 5047051076574642628
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_flyingfish (description)
+    - rid: 5047051076574642629
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_salmon (description)
+    - rid: 5047051076574642630
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO seaweed (description)
+    - rid: 5047051076574642631
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shiso_leaf (description)
+    - rid: 5047051076574642632
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp (description)
+    - rid: 5047051076574642633
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_boiled (description)
+    - rid: 5047051076574642634
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_cube (description)
+    - rid: 5047051076574642635
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_sliced (description)
+    - rid: 5047051076574642636
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tea_leaf (description)
+    - rid: 5047051076574642637
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO wasabi (description)
+    - rid: 5047051076574642638
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO wasabi_flour (description)
+    - rid: 5047051076574642639
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO water (description)
+    - rid: 5047051076574642640
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado (name)
+    - rid: 5047051076574642641
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_cube (name)
+    - rid: 5047051076574642642
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO avocado_sliced (name)
+    - rid: 5047051076574642643
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup (name)
+    - rid: 5047051076574642644
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cup_matcha (name)
+    - rid: 5047051076574642645
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sushi_raw (name)
+    - rid: 5047051076574642646
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO cutting_board_sushi_veg (name)
+    - rid: 5047051076574642647
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_cube (name)
+    - rid: 5047051076574642648
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_roll (name)
+    - rid: 5047051076574642649
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO egg_sliced (name)
+    - rid: 5047051076574642650
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame (name)
+    - rid: 5047051076574642651
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame_cube (name)
+    - rid: 5047051076574642652
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_hirame_sliced (name)
+    - rid: 5047051076574642653
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel (name)
+    - rid: 5047051076574642654
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel_cube (name)
+    - rid: 5047051076574642655
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_mackerel_sliced (name)
+    - rid: 5047051076574642656
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon (name)
+    - rid: 5047051076574642657
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon_cube (name)
+    - rid: 5047051076574642658
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_salmon_sliced (name)
+    - rid: 5047051076574642659
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna (name)
+    - rid: 5047051076574642660
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna_cube (name)
+    - rid: 5047051076574642661
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO fish_tuna_sliced (name)
+    - rid: 5047051076574642662
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_gunkan (name)
+    - rid: 5047051076574642663
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_maki (name)
+    - rid: 5047051076574642664
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_nigiri (name)
+    - rid: 5047051076574642665
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO flexible_sashimi (name)
+    - rid: 5047051076574642666
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon (name)
+    - rid: 5047051076574642667
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO lemon_sliced (name)
+    - rid: 5047051076574642668
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO mayonnaise (name)
+    - rid: 5047051076574642669
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus (name)
+    - rid: 5047051076574642670
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_boild (name)
+    - rid: 5047051076574642671
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_cube (name)
+    - rid: 5047051076574642672
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO octopus_sliced (name)
+    - rid: 5047051076574642673
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rice (name)
+    - rid: 5047051076574642674
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO rice_cooked (name)
+    - rid: 5047051076574642675
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_capelin (name)
+    - rid: 5047051076574642676
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_flyingfish (name)
+    - rid: 5047051076574642677
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO roe_salmon (name)
+    - rid: 5047051076574642678
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO seaweed (name)
+    - rid: 5047051076574642679
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shiso_leaf (name)
+    - rid: 5047051076574642680
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp (name)
+    - rid: 5047051076574642681
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_boiled (name)
+    - rid: 5047051076574642682
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_cube (name)
+    - rid: 5047051076574642683
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO shrimp_sliced (name)
+    - rid: 5047051076574642684
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO tea_leaf (name)
+    - rid: 5047051076574642685
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO wasabi (name)
+    - rid: 5047051076574642686
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO wasabi_flour (name)
+    - rid: 5047051076574642687
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO water (name)
+    - rid: 5047051213734150388
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv4 (description)
+    - rid: 5047051213734150389
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv4 (name)
+    - rid: 5047051213734150390
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv5 (description)
+    - rid: 5047051213734150391
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv5 (name)
+    - rid: 5047051213734150392
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv4 (description)
+    - rid: 5047051213734150393
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv4 (name)
+    - rid: 5047051213734150394
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv5 (description)
+    - rid: 5047051213734150395
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv5 (name)
+    - rid: 5047051213734150396
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv4 (description)
+    - rid: 5047051213734150397
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv4 (name)
+    - rid: 5047051213734150398
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv5 (description)
+    - rid: 5047051213734150399
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv5 (name)
+    - rid: 5047051213734150400
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv4 (description)
+    - rid: 5047051213734150401
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv4 (name)
+    - rid: 5047051213734150402
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv5 (description)
+    - rid: 5047051213734150403
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv5 (name)
+    - rid: 5047051213734150404
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv4 (description)
+    - rid: 5047051213734150405
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv4 (name)
+    - rid: 5047051213734150406
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv5 (description)
+    - rid: 5047051213734150407
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv5 (name)
+    - rid: 5047051213734150408
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv4 (description)
+    - rid: 5047051213734150409
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv4 (name)
+    - rid: 5047051213734150410
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv5 (description)
+    - rid: 5047051213734150411
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv5 (name)
+    - rid: 8515899034614366423
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv2 (description)
+    - rid: 8515899034614366424
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv3 (description)
+    - rid: 8515899034614366425
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv2 (description)
+    - rid: 8515899034614366426
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv3 (description)
+    - rid: 8515899034614366427
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv2 (description)
+    - rid: 8515899034614366428
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv3 (description)
+    - rid: 8515899034614366429
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-flag-lv1 (description)
+    - rid: 8515899034614366430
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv2 (description)
+    - rid: 8515899034614366431
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv3 (description)
+    - rid: 8515899034614366432
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-noren-blue (description)
+    - rid: 8515899034614366433
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-noren-red (description)
+    - rid: 8515899034614366434
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv2 (description)
+    - rid: 8515899034614366435
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv3 (description)
+    - rid: 8515899034614366436
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stone-shrine (description)
+    - rid: 8515899034614366437
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv2 (description)
+    - rid: 8515899034614366438
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv3 (description)
+    - rid: 8515899034614366439
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv2 (name)
+    - rid: 8515899034614366440
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-lv3 (name)
+    - rid: 8515899034614366441
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv2 (name)
+    - rid: 8515899034614366442
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-board-raw-lv3 (name)
+    - rid: 8515899034614366443
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv2 (name)
+    - rid: 8515899034614366444
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-cooker-lv3 (name)
+    - rid: 8515899034614366445
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-flag-lv1 (name)
+    - rid: 8515899034614366446
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv2 (name)
+    - rid: 8515899034614366447
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-grater-lv3 (name)
+    - rid: 8515899034614366448
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-noren-blue (name)
+    - rid: 8515899034614366449
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-noren-red (name)
+    - rid: 8515899034614366450
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv2 (name)
+    - rid: 8515899034614366451
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-pot-lv3 (name)
+    - rid: 8515899034614366452
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-stone-shrine (name)
+    - rid: 8515899034614366453
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv2 (name)
+    - rid: 8515899034614366454
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-sushi-tool-teapot-lv3 (name)

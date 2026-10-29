@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: छोटा-सा आरामदायक ट्रैटोरिया, जहाँ से आपकी पास्ता कहानी शुरू होती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: आपके ट्रैटोरिया में एक आरामदायक ऊपरी मंज़िल जोड़ता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: पल भर में मुलायम सॉस तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: सॉस का बवंडर। ढक्कन लगाना बेहद ज़रूरी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: टमाटर शर्म से लाल होने से पहले ही कट जाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: इतनी तेज़ी से काटता है कि प्याज़ को रोने का मौका ही नहीं मिलता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: खुले आसमान तले पास्ता के लिए चेक वाली मेज़ और आरामदायक कुर्सियाँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: दरवाज़े के पास जगमगाती गर्माहट भरी लालटेन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: छत की शान बढ़ाता कैपीबारा शेफ़ का गर्वीला बोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: आज के ख़ास पास्ता बताता चॉकबोर्ड।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: सॉस दोगुनी तेज़ी से छनछनाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: एक्स्ट्रा छनछनाहट अनलॉक। कड़ाही गर्व से दमक रही है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: ताज़ी गमले वाली हरियाली, जो दरवाज़े को रौनक देती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: आप अल डेंटे कहें, उससे पहले ही पानी उबल जाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: उबलता हुआ दिग्गज, जो पास्ता बिजली की रफ़्तार से पकाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: छत को सजाता अंगूरों का भरा-पूरा गुच्छा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: छत पर ऊँचाई तक लिपटी स्पेगेटी की एक विशाल प्लेट!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: चुटकियों में बुलबुलेदार सोडा भरता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: ज़बरदस्त फ़िज़! बुलबुलों और ख़ुशियों का फ़व्वारा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: ट्रैटोरिया की ऊपरी मंज़िल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: सॉसी ब्लेंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: सॉस बवंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: झटपट कटिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: पास्ता निंजा बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: आँगन की मेज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: दीवार लालटेन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: कैपी शेफ़ बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: चॉक मेन्यू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: छनछनाती कड़ाही
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: धधकती कड़ाही
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: गमले में तुलसी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: तेज़ उबाल पतीला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: मेगा उबाल कड़ाह
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: छत के अंगूर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: विशाल स्पेगेटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: फ़िज़ फ़व्वारा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: सोडा गीज़र
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: पिनस्ट्राइप सूट और गुलाब सजी फ़ेडोरा टोपी में एक रौबदार भालू, जो भरपूर पास्ता और पूरा सम्मान चाहता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: बैंगनी टोपी और मैचिंग ड्रेस में एक स्टाइलिश धारीदार बिल्ली, जो बेहतरीन पसंद से पास्ता मँगाती है और संतोष से घुरघुराती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: नीली डाक वर्दी में एक सलीकेदार चिनचिला, जो डिलीवरी के बीच ताज़े पास्ता की खुशबू के पीछे चला आता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: टॉप हैट और तिरंगी पट्टी में एक गर्वीला मुर्गा, जो लंबे-चौड़े भाषणों के साथ पास्ता काउंटर की अध्यक्षता करता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: गोल चश्मे और घंटी बंधे स्कार्फ़ में एक सौम्य भेड़, जो पास्ता की हर प्लेट को एक ख़ास मौक़ा मानती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: सेब
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: कटा सेब
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: डॉन ओर्सिनो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: ग्रिल्ड बीफ़ स्टेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: कच्चा बीफ़ स्टेक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: उबालने का बर्तन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: सिंकी ब्रेड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: ब्रेड लोफ़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: काउंटेस कैटरीना
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: चीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: कटा चीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: चीज़ मिल्क सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: ग्रिल्ड चिकन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: कच्चा चिकन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: चिको चिनचिला
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: चॉपिंग बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: ग्रिल्ड स्कैलप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: कच्चा स्कैलप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: कटा कच्चा स्कैलप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: पास्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: सलाद
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: मीट और सीफ़ूड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: सोडा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: उबला फ़ारफ़ाले
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: कच्चा फ़ारफ़ाले
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: पका कीमा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: कच्चा कीमा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: बर्फ़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: नींबू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: कटा नींबू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: सलाद पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: कटा सलाद पत्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: उबला मैनिकोटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: कच्चा मैनिकोटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: मेयोनीज़
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: मीट और सीफ़ूड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: बड़ा मेन्यू
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: दूध
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: ग्रिल्ड ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: कच्चा ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: कटा कच्चा ऑक्टोपस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: पैन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: पास्ता
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: मेयर गैलो
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: सलाद
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: सॉस ब्लेंडर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: सिन्योर वूलिंगटन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: ग्रिल्ड झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: कच्चा झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: कटा कच्चा झींगा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: सोडा
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: सोडा कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: उबली स्पेगेटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: कच्ची स्पेगेटी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: पालक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: कटा पालक
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: पालक मिल्क सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: बड़ा टमाटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: कटा बड़ा टमाटर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: टमाटर मिल्क सॉस
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: एक कुरकुरा सेब जो डॉक्टर और फीके सलाद दोनों को दूर रखता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: कुरकुरी फाँकों में कटा, मिलाने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: ग्रिल पर तब तक सेंका गया जब तक यह बेलिस्सिमो न फुसफुसाए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: मोटा कटा बीफ़, जो फ़्लोरेंस के बड़े सपने देखता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: पास्ता को बिल्कुल अल डेंटे तक उबालता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: सुनहरा ब्रुस्केटा टोस्ट, मज़ेदार कुरकुराहट के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: देसी इटालियन ब्रेड, बाहर से कुरकुरी और अंदर से नरम।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: ड्रामा और स्वाद के लिए पकाया गया चीज़ का पहिया।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: चीज़ की बर्फ़ीली फुहार, पास्ता पर गिरने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: मलाईदार, चीज़ी और इतनी स्मूद कि हर बहस जीत ले।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: रसीला ग्रिल्ड चिकन, बढ़िया ग्रिल निशानों के साथ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: फीका चिकन, ग्रिल पर अपनी बारी का इंतज़ार करता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: सब्ज़ियाँ इतनी तेज़ी से काटे कि आप चाओ भी न कह पाएँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: सिकी हुई स्कैलप, वेनिस की शाम जैसी मीठी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: एक स्कैलप जो अब भी अपना खोल कसकर बंद रखे है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: साफ़, छँटा हुआ और अब बिल्कुल खुला-खुला।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: खाली कप, किसी झागदार चीज़ का इंतज़ार करता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: घुमाया, सॉस डाला और इटालियन अंदाज़ में परोसा। मम्मा मिया!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: कुरकुरा, ताज़ा और असली इटालियन बगीचे जैसा मिला हुआ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: ग्रिल और समंदर से, नेपल्स के रविवार लायक दावत।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: झागदार, ठंडा और पास्ता की हर प्लेट का परफ़ेक्ट साथी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: नरम बो टाई, डिनर के लिए सज-धज कर तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: पास्ता की नन्ही तितलियाँ, जिन्होंने अभी उड़ना नहीं सीखा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: भुना और रसीला, बिल्कुल नन्ना के हाथों जैसा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: कीमा बीफ़, क्लासिक रागू बनने की राह पर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: ठंडे टुकड़े जो हर सोडा को कूल रखते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: धूप में पला अमाल्फ़ी नींबू, चटपटे मिज़ाज वाला।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: चमकीली नींबू की फाँकें, हर घूँट में चमक भर दें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: बगीचे से ताज़ा, कुरकुरा सलाद पत्ता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: कटी हुई पत्तियाँ, अच्छे से मिलाने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: नरम नलियाँ, पकी हुई और भरने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: बड़ी पास्ता नलियाँ, भरावन के लिए भरपूर जगह।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: मलाईदार ड्रेसिंग जो हर सलाद को एक साथ रखती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: ग्रिल और समंदर, एक भरपूर प्लेट में मिलते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: ताज़ा दूध, हर मलाईदार सॉस का राज़।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: भुना ऑक्टोपस, भूमध्य सागर का असली स्वाद।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: आठ भुजाएँ और कोई अंदाज़ा नहीं कि आगे क्या होगा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: कटे हुए टेंटेकल, आँच के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: मांस और सॉस को सुनहरी परफ़ेक्शन तक भूनता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: भाप उड़ाती पास्ता की प्लेट, अल डेंटे और इस पर गर्वित।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: इटालियन अंदाज़ में मिलाई ताज़ी हरी सब्ज़ियाँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: एक मलाईदार भंवर में रेशमी सॉस बनाता है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: लपटों से चूमे गए छनछनाते झींगे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: छोटे झींगे, सिकुड़े हुए और शरमाए हुए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: छिले और तैयार, अब छिपने को कोई खोल नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: बुलबुलों से भरा कप, बर्फ़ जैसा ठंडा।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: झागदार रीफ़िल के लिए तैयार कप।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: ढेर सारी बर्फ़ पर झागदार सोडा डालती है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: बिल्कुल अल डेंटे और घुमाने को तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: लंबी, सूखी और ब्रेडस्टिक जैसी सख़्त।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: नाविक जैसी ताक़त वाली हरी पत्तियाँ।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: बारीक कटी पत्तियाँ, सॉस के लिए तैयार।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: हरी, मलाईदार और चुपके से सेहतमंद।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: टस्कनी की धूप में पका गुदगुदा टमाटर।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: कटा टमाटर, हर लाल सॉस का धड़कता दिल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: गुलाबी, मलाईदार, रोम की ढलती शाम जैसी।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: कप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: सोडा मशीन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: आरामदायक ट्रैटोरिया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: टमाटर शरमाने से पहले ही कट जाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: समुराई पास्ता बोर्ड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: एक वार, पूरा सलाद। शेफ़ का चुंबन।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: लीजेंडरी पास्ता ब्लेड
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: पल भर में क्रीमी सॉस। नैपकिन रखिए।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: सॉस तूफ़ान
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: एक घुमाव में रेशमी सॉस।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: लीजेंडरी सॉस भंवर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: स्टेक पल भर में सिज़ल करते हैं। वो आवाज़ सुनिए!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: इन्फ़र्नो पैन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: आप 'बेलिसिमो' कहें, उससे पहले ही परफ़ेक्ट ग्रिल।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: लीजेंडरी सिज़ल पैन
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: पास्ता पल भर में अल डेंटे।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: ज्वालामुखी उबाल पॉट
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: इतना तेज़ उबालता है कि पानी को पता भी नहीं चलता।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: लीजेंडरी पास्ता कड़ाह
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: बुलबुलों का विस्फोट। कप अपने आप भर जाते हैं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: सोडा ज्वालामुखी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: हमेशा बुलबुले। प्यास की कोई गुंजाइश नहीं।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: अनंत सोडा फव्वारा
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

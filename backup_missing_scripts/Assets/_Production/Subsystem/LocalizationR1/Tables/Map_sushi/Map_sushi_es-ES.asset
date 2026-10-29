@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_es-ES
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es-ES
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Globos brillantes hacen que cada servicio de sushi sea festivo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: El restaurante de sushi original.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Un restaurante más grande, listo para más mejoras de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Un bonsái bien podado que añade un toque tranquilo de verde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Un simpático letrero de capibara para la fachada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: Un gato acogedor que invita a entrar a los clientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: Un mostrador lleno con los mejores platos del restaurante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Una tabla de cortar en el tejado cargada de sushi y rollos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Banderas y toldos de colores visten la fachada del restaurante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: Una elegante clienta kitsune que pide sushi con una gracia teatral.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Esta cabra azul adora el matcha y practica alegres modales en la mesa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Estudia el menú con esmero, pero aun así cambia el almuerzo por eucalipto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Un pequeño shishi valiente que reta a duelo a cada rollo de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Un tejado tradicional que da al restaurante otro nivel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Un shiba yokozuna que trata cada bandeja de sushi como un combate por el título.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Taburetes cómodos para los clientes de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: El oyabun lobo habla en voz baja y controla la barra de sushi con una mirada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Globos de festival
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Ampliación de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Jardín de bonsáis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Letrero de capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Gato de la suerte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Mostrador expositor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Tabla de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Banderas de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Kitsune Ojou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Aoi Yagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Koala Senpai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Shishi-kun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Tejado del segundo piso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Shiba Yokozuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Taburetes de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Ookami Oyabun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Sushi nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Arroz moldeado a mano con una loncha de pescado encima, como una mantita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Bien enrollado en alga y cortado antes de que nadie pueda mirar dentro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Sushi gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: Un barquito de alga cargado de ingredientes hasta el borde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Plato de sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Pescado fresco cortado fino, sin nada detrás de lo que esconderse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Té verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Calentito y relajante, servido para quitar el picor del wasabi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: Un gato acogedor que invita a entrar a los clientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Taburetes cómodos para los clientes de sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Farolillos de papel que iluminan el restaurante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Un simpático letrero de capibara para la fachada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Un simpático letrero de capibara para la fachada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Un atún gigante posado en el tejado que presume con orgullo de la pesca fresca del día.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Una tabla de cortar en el tejado cargada de sushi y rollos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Gato de la suerte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Taburetes de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Farolillos de papel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Letrero de capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Letrero de capibara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Atún Gigante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Tabla de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Las verduras se cortan antes de que puedan parpadear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Cuchillas tan rápidas que los pepinos se rinden de antemano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Corta pescado crudo con una suavidad de sashimi extra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Cada corte es una obra de arte. Los peces se sienten honrados.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Arroz esponjoso en un santiamén. Los granos hacen fila para cocinarse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Un arroz tan perfecto que merece una ovación de pie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Ralla wasabi a la velocidad del rayo. Las lágrimas son opcionales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Ralla tan rápido que el wasabi ni lo vio venir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Hierve delicias más rápido de lo que dices «umami».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: Una leyenda burbujeante que cocina a velocidad de curvatura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Té caliente en un santiamén. Los clientes se mantienen tranquilos y sorben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Sirve té perfecto y paz interior de una sola vez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Tabla Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Tabla Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Tabla de Pescado Afilada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Tabla del Maestro Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Arrocera Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Arrocera Mega
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Rallador Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Torbellino de Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Olla Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Caldero Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Tetera Rápida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Tetera del Maestro Zen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Un estandarte de sushi azul brillante que atrae todas las miradas hambrientas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Una fresca cortina noren azul que se mece suavemente sobre la entrada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Una cortina noren roja y vistosa que da la bienvenida a los clientes hambrientos en la puerta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Una linterna de piedra cubierta de musgo que aporta un toque de calma de templo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Estandarte de Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Noren Azul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Noren Rojo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Santuario de Piedra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Corta el pescado fresco en finas tiras de sashimi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Convierte las verduras crujientes en bastoncitos perfectos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Ralla el wasabi en una sorpresa verde y picante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Cuece el caldo a fuego lento hasta un cuenco cálido y reconfortante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Cuece el arroz al vapor hasta un oro de sushi esponjoso y pegajoso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Prepara té verde, calma en cada sorbo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Rallador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Olla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Arrocera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Tetera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Un aguacate cremoso, el regalo favorito de Occidente al sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Dados verdes suaves listos para un rollo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Láminas sedosas que visten el arroz como un kimono.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: Una taza vacía esperando un té servido con calma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Té verde batido, sereno como un jardín de Kioto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Dados dorados de tortilla dulce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: Una tortilla dulce enrollada, hecha capa a capa con paciencia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Lonchas doradas de huevo enrollado, dulces y tiernas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Un pescado plano y blanco apreciado por los maestros del sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Dados tiernos de lenguado para un bocado ligero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Láminas blancas delicadas, casi transparentes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Un pez plateado y brillante lleno de sabor a mar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Caballa en bocados lista para un rollo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Láminas brillantes de sabor intenso y rico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Un filete naranja intenso recién llegado de aguas frías.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Dados de salmón listos para coronar un barquito.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Láminas de salmón mantecosas que se deshacen en la boca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Atún rojo intenso, el rey de la lonja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Dados de atún para un bocado intenso y carnoso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Láminas color rubí cortadas con cuchillo de maestro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: Un barquito de alga cargado con lo que el cliente desee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Un rollo hecho justo como le gusta al cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Arroz prensado a mano con el favorito del cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: Un plato de láminas frescas elegidas al gusto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: Un limón brillante para despertar cada bocado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Finas rodajas de limón que avivan el pescado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Mayonesa japonesa cremosa con un toque ácido suave.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: Un pulpo crudo, todo brazos y ningún plan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Cocido, rosado y tierno, listo para el cuchillo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Bocaditos de pulpo, como takoyaki sin la bola.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Láminas finas de tako con un encanto elástico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Arroz de grano corto, pulido y esperando su baño.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Arroz esponjoso con vinagre, el alma de todo sushi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Diminutas perlas naranjas que estallan en cada bocado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Huevas crujientes de pez volador que brillan como joyas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Grandes huevas de salmón brillantes que estallan con sabor a mar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Láminas de alga crujientes, tostadas y listas para enrollar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Una hoja fragante que aporta un toque fresco a menta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Una gamba cruda curvada como un pequeño signo de interrogación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Cocida, rosada y orgullosa, lista para el arroz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Gambas en bocados listas para un rollo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Abierta como un abanico para el nigiri perfecto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Hojas de té verde recogidas en laderas brumosas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: Una raíz nudosa con un genio famosamente picante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: Un toque verde de picante que despeja la nariz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Agua fresca, lista para convertirse en té.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Aguacate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Aguacate en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Aguacate en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Taza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Tabla para pescado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Tabla para verduras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Tamagoyaki en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Tamagoyaki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Tamagoyaki en lonchas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Lenguado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Lenguado en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Lenguado en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Caballa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Caballa en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Caballa en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Salmón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Salmón en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Salmón en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Atún
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Atún en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Atún en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Sushi gunkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Maki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Sushi nigiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Plato de sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Limón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Limón en rodajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Mayonesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Pulpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Pulpo cocido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Pulpo en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Pulpo en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Arroz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Arroz de sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Huevas de capelán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Tobiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Ikura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Nori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Hoja de shiso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Gamba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Gamba cocida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Gamba en dados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Gamba abierta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Hojas de té
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Wasabi rallado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Agua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Los pepinos quedan en rodajas antes de darse cuenta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Tabla Rebanadora Samurái
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Un solo tajo, verduras para un rollo perfecto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Tabla Katana Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Lonchas sedosas en un instante. Los peces lo aprueban.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Gran Tabla de Sashimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Cortes tan precisos que hasta el chef se queda sin aliento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Altar de Sashimi Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Arroz esponjoso, listo antes de poner el cuenco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Arrocera Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Cada grano es perfecto. Siempre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Santuario del Arroz Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Nubes verdes picantes, listas en un segundo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Tifón de Wasabi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Tan rápido que te pica la nariz desde el otro lado de la sala.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Tormenta de Wasabi Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: El caldo burbujea lleno de sabor en un instante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Volcán Umami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: La sopa más rica de la ciudad, servida a la velocidad del rayo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Olla Umami Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Prepara calma y té verde más rápido que nunca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Tetera Iluminada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Té perfecto antes incluso de respirar hondo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Tetera Zen Legendaria
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -24,7 +24,14 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			// TODO(unrecovered): UIInLevelCakeOrder.InstanceUIInLevel money-effect target (field @0x218) and UIMoneyEffect.Play(pos, target, numCoinSpawn, OnCoinArrived(value)) types are not in the stubs; when the UI target is missing the pseudocode falls back to the loop below.
+			// The original reads the effect from UIInLevelCakeOrder (an empty shell here), so it is looked up in the loaded HUD instead.
+			CakeOrder.InGame.UIMoneyEffect effect = UnityEngine.Object.FindFirstObjectByType<CakeOrder.InGame.UIMoneyEffect>();
+			if (effect != null)
+			{
+				_pendingCoins += numCoinSpawn;
+				effect.Play(pos, numCoinSpawn, () => OnCoinArrived(value));
+				return;
+			}
 			do
 			{
 				_onCoinPickUp?.Invoke(value);

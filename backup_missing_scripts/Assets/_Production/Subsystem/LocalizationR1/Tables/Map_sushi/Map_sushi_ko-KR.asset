@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_ko-KR
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko-KR
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: 화사한 풍선이 모든 스시 영업을 축제처럼 만들어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: 원조 스시 레스토랑.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: 더 많은 스시 업그레이드를 위한 더 큰 레스토랑.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: 단정하게 다듬은 분재가 차분한 초록빛을 더해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: 가게 앞을 꾸미는 친근한 카피바라 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: 손짓으로 손님을 불러들이는 환영 고양이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: 레스토랑 최고의 요리가 가득 진열된 카운터.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: 스시와 롤이 가득 올라간 지붕 위 도마.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: 알록달록한 깃발과 차양이 레스토랑 외관을 꾸며요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: 연극적인 우아함으로 스시를 주문하는 기품 있는 여우 손님.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: 말차를 사랑하는 이 파란 염소는 명랑한 식사 예절을 연습 중이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: 메뉴를 열심히 공부하지만, 결국 점심을 유칼립투스와 바꿔요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: 모든 스시 롤에 결투를 신청하는 용감한 꼬마 시시.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: 레스토랑에 한 층을 더해 주는 전통 지붕.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: 모든 스시 접시를 챔피언 결정전처럼 대하는 시바 요코즈나.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: 스시 손님을 위한 편안한 스툴.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: 늑대 두목은 조용히 말하고, 눈빛 하나로 스시 카운터를 장악해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: 축제 풍선
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: 스시 확장
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: 분재 정원
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: 카피바라 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: 행운의 고양이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: 진열 카운터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: 스시 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: 스시 깃발
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: 여우 아가씨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: 아오이 야기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: 코알라 선배
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: 시시 군
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: 2층 지붕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: 시바 요코즈나
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: 스시 스툴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: 늑대 두목
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: 니기리 초밥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: 손으로 쥔 밥 위에 생선 한 점을 작은 이불처럼 덮었어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: 마키 롤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: 김으로 단단히 말아 누가 엿보기 전에 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: 군함말이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: 작은 김 배에 토핑을 가득 실었어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: 사시미 모둠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: 얇게 썬 신선한 생선, 숨을 곳이 없어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: 녹차
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: 따뜻하고 차분하게, 와사비의 매운맛을 씻어 줘요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: 손짓으로 손님을 불러들이는 환영 고양이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: 스시 손님을 위한 편안한 스툴.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: 레스토랑을 환하게 밝혀 주는 종이 등불.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: 가게 앞을 꾸미는 친근한 카피바라 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: 가게 앞을 꾸미는 친근한 카피바라 간판.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: 지붕 위에 앉은 거대한 참치가 오늘의 신선함을 자랑해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: 스시와 롤이 가득 올라간 지붕 위 도마.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: 행운의 고양이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: 스시 스툴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: 종이 등불
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: 카피바라 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: 카피바라 간판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: 거대 참치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: 스시 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: 채소가 눈 깜짝할 새에 썰려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: 칼날이 너무 빨라서 오이가 미리 항복해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: 날생선을 한층 부드러운 사시미 결로 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: 한 번 썰 때마다 예술 작품! 생선도 영광이에요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: 순식간에 폭신한 밥 완성. 밥알들이 줄 서서 익기를 기다려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: 너무 완벽한 밥이라 기립박수를 받아 마땅해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: 번개 같은 속도로 와사비를 갈아요. 눈물은 선택 사항!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: 너무 빨라서 와사비가 눈치채지도 못해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: “우마미”라고 말하기도 전에 맛있게 끓어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: 보글보글 끓는 전설, 워프 속도로 요리해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: 뜨거운 차가 순식간에! 손님들은 차분히 홀짝여요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: 완벽한 차와 마음의 평화를 한 번에 따라줘요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: 날쌘 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: 닌자 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: 더 날카로운 생선 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: 사시미 달인 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: 터보 밥솥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: 메가 밥솥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: 날쌘 강판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: 와사비 회오리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: 스피디 조림냄비
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: 우마미 가마솥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: 속성 찻주전자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: 선승 찻주전자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: 밝은 파란 스시 깃발이 배고픈 눈길을 사로잡아요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: 시원한 파란 노렌이 입구 위에서 살랑살랑 흔들려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: 선명한 빨간 노렌이 문 앞에서 배고픈 손님을 반겨요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: 이끼 낀 석등이 사찰 같은 고요함을 더해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: 스시 깃발
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: 파란 노렌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: 빨간 노렌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: 돌 사당
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: 신선한 생선을 부드러운 회로 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: 아삭한 채소를 가지런한 막대 모양으로 썰어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: 와사비를 갈아 매콤한 초록 서프라이즈를 만들어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: 육수를 뭉근히 끓여 따뜻한 한 그릇을 만들어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: 밥을 폭신하고 찰진 초밥용 황금으로 지어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: 녹차를 우려내요. 한 모금마다 차분해져요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: 강판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: 냄비
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: 밥솥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: 찻주전자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: 서양이 초밥에게 준 최고의 선물, 크리미한 아보카도.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: 롤에 들어갈 준비가 된 부드러운 초록 큐브.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: 기모노처럼 밥 위에 드리우는 실크 같은 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: 차분히 차가 따라지기를 기다리는 빈 찻잔.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: 교토 정원처럼 차분한, 거품 낸 말차.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: 달콤한 계란말이로 만든 작은 황금 큐브.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: 인내심으로 한 겹씩 말아 낸 달콤한 계란말이.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: 달콤하고 부드러운 황금빛 계란말이 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: 초밥 장인들이 아끼는 납작한 흰살생선.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: 가볍게 한입 먹기 좋은 부드러운 광어 큐브.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: 거의 비칠 만큼 섬세한 흰 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: 바다 맛 가득한 반짝이는 은빛 생선.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: 롤에 넣기 좋은 한입 크기 고등어.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: 진하고 풍부한 맛의 윤기 나는 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: 차가운 바다에서 바로 온 선명한 주황빛 필레.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: 작은 군함말이 위에 올릴 연어 큐브.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: 혀에서 녹는 버터 같은 연어 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: 어시장의 왕, 진홍빛 참치.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: 든든하고 진한 한입을 위한 참치 큐브.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: 장인의 칼로 썬 루비빛 회.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: 손님이 원하는 대로 가득 실은 김 배.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: 손님 취향대로 딱 맞게 만든 롤.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: 손으로 쥔 밥 위에 손님이 좋아하는 재료를 올렸어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: 주문에 맞춰 고른 신선한 회 한 접시.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: 모든 한입을 깨워 주는 상큼한 레몬.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: 생선을 더 산뜻하게 해 주는 얇은 레몬 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: 은은한 새콤함이 있는 크리미한 일본식 마요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: 다리는 많고 계획은 없는 생문어.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: 분홍빛으로 부드럽게 삶아 칼질만 기다려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: 공 없는 타코야키 같은 작은 문어 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: 쫄깃한 매력의 얇은 타코 조각.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: 윤기 나는 단립미, 목욕할 차례를 기다려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: 폭신한 초밥, 모든 스시의 영혼.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: 한입마다 톡톡 터지는 작은 주황 진주.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: 보석처럼 반짝이는 톡톡 날치알.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: 바다 맛이 톡 터지는 큼직하고 윤기 나는 연어알.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: 바삭하게 구운 김, 말 준비 완료.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: 상쾌한 민트 향을 더해 주는 향긋한 잎.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: 작은 물음표처럼 몸을 만 생새우.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: 분홍빛으로 당당하게 삶아져 밥을 기다려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: 롤에 넣기 좋은 한입 크기 새우.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: 완벽한 니기리를 위해 부채처럼 펼쳤어요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: 안개 낀 언덕에서 딴 녹차 잎.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: 성깔 매운 걸로 유명한 울퉁불퉁한 뿌리.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: 코가 뻥 뚫리는 초록빛 매운 한 점.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: 차가 될 준비가 된 깨끗한 물.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: 아보카도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: 깍둑 아보카도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: 슬라이스 아보카도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: 찻잔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: 말차
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: 생선 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: 채소 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: 깍둑 다마고야키
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: 다마고야키
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: 슬라이스 다마고야키
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: 광어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: 깍둑 광어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: 광어 회
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: 고등어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: 깍둑 고등어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: 고등어 회
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: 연어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: 깍둑 연어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: 연어 회
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: 참치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: 깍둑 참치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: 참치 회
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: 군함말이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: 마키 롤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: 니기리 초밥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: 사시미 모둠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: 레몬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: 썬 레몬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: 마요네즈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: 문어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: 삶은 문어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: 깍둑 문어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: 문어 슬라이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: 쌀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: 초밥용 밥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: 열빙어 알
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: 날치알
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: 연어알
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: 김
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: 시소 잎
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: 새우
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: 삶은 새우
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: 깍둑 새우
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: 나비 모양 새우
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: 찻잎
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: 와사비
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: 간 와사비
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: 물
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: 오이가 눈치채기도 전에 썰려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: 사무라이 슬라이서 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: 한 번 휘두르면 완벽한 롤 하나 분량의 채소!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: 전설의 카타나 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: 순식간에 비단결 같은 회! 생선도 인정해요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: 그랜드 사시미 도마
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: 셰프도 감탄할 만큼 정교한 칼질!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: 전설의 사시미 제단
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: 그릇을 놓기도 전에 폭신한 밥 완성!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: 터보 밥솥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: 모든 밥알이 완벽해요. 언제나요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: 전설의 쌀 신사
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: 매콤한 초록 구름이 1초 만에 완성!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: 와사비 태풍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: 방 건너편에서도 코가 찡할 만큼 빨라요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: 전설의 와사비 폭풍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: 눈 깜짝할 새 육수가 맛있게 보글보글!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: 감칠맛 화산
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: 동네 최고의 수프를 번개처럼 빠르게!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: 전설의 감칠맛 냄비
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: 그 어느 때보다 빠르게 평온과 녹차를 우려요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: 깨달음의 찻주전자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: 깊게 숨 쉬기도 전에 완벽한 차 한 잔!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: 전설의 선 찻주전자
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

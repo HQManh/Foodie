@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_id-ID
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: id-ID
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: BARU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Maks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}h {1}j'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}j {1}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}j'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: HADIAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: DIBELI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Hadiah Diterima!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Klaim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Lv.{0} -> Lv.{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Terbuka di awal hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Segera Hadir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Fitur ini segera hadir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Toko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Beranda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Restoran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Pencapaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Peta ini terkunci. Selesaikan peta sebelumnya untuk membuka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Hari tersebut terkunci. Selesaikan hari-hari sebelumnya untuk membuka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Hari {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Selesaikan hari {0} di restoran sebelumnya untuk membuka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Sulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Super Sulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Peta ini akan tersedia di pembaruan mendatang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Disajikan: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Coba tingkatkan restoranmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Ini barang yang bisa kamu beli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Dengan koin yang kamu dapat kemarin, ayo tingkatkan sesuatu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Sekarang, ayo ke tab peningkatan alat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Coba tingkatkan panggangan ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Pemanggang roti sudah ditingkatkan, ayo kembali dan mulai hari ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Sekarang, ayo mulai hari ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Coba gunakan booster ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Saat memasak, ada peluang masuk ke kondisi spesial!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Setiap pelanggan yang berhasil dilayani, bar ini bertambah! Coba layani {0} pelanggan lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Setiap hidangan yang berhasil disajikan, bar ini bertambah! Coba sajikan {0} hidangan lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Hebat! Dalam mode Ledakan Rasa, kamu bisa memasak super efisien. Selamat bersenang-senang!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Koin tidak cukup untuk membangun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Lv.MAKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0} tidak cukup'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Sudah di level maksimum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} kali'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Klaim x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Booster tersedia di hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Aktifkan kecepatan x{0} selama {1} menit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Diklaim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Iklan dihapus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Nama Booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Selamatkan aku untuk menambah +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Masak Otomatis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Kumpulkan bahan dan buat hidangan secara otomatis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Sapu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Singkirkan satu tumpukan kotor di meja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Penjepit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Pilih satu piring bahan sesukamu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Butuh slot lebih?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Buka lebih banyak slot untuk menyimpan hidangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Acak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Tukar baris bahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Kecepatan x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Masak dan sajikan lebih cepat dengan kecepatan x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Pulihkan {0} hati?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Coba acak bahan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Pindahkan 5 bahan ke dalam tas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Isi ulang waktu tunggu pelanggan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Kopi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Konflik Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Memuat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Memuat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Restoran Naik Level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Ketuk untuk lanjut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Bos itu banyak maunya dan cepat kehilangan kesabaran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Selamat atas restoran cepat saji milikmu sendiri!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Ayo mulai usaha!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Dia ingin burger yang juicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Ketuk bahan yang ingin kamu gunakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Ketuk pesanan pelanggan untuk mengganti tampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Kurir mengambil beberapa pesanan sebelum waktu habis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Pakai Cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Pakai Lokal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Hadiahmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Bersihkan {0} slot dan terus memasak?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Suka dengan gamenya?\nBeri ulasan!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: BERI NILAI GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Nyam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Enak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Enak banget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Suka banget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Nambah dong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Nikmat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Mantap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Istimewa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Juara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Mahakarya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Selesaikan {0} di {1} untuk membuka hari tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Memerlukan koneksi internet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Iklan belum siap, coba lagi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Nama minimal {0} karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Nama maksimal {0} karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Nama hanya boleh berisi huruf, angka, spasi, dan _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Kembali lagi dalam {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Klaim hadiah gratis dulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Klaim hadiah sebelumnya dulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: TERBUKA DI HARI {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Keren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Hari Ekstra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Terkunci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: TOKO KULINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: ALAT DIUPGRADE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} sekarang lebih cepat'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} kini berada di kecepatan maksimum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Buka Hari Ekstra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Berita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Bagian upgrade baru tersedia untuk restoranmu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} punya hari ekstra baru!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Harga upgrade disesuaikan. Emas yang kamu bayar berlebih telah dikembalikan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Beri Nilai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Aktifkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Diresmikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Tim sudah ada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Tim sudah penuh!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Tim tidak kosong!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Tim tidak ada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Pemimpin tidak bisa keluar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: Tidak Ada Izin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Kesalahan Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Pengguna bergabung dengan tim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: Pengguna baru saja keluar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: Pengguna tidak ada dalam tim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: MINTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Bank Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Selesaikan hari untuk mengumpulkan emas di bankmu dan ambil kembali di akhir acara!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Aktifkan <color=yellow>Tiket Impian</color> untuk membuka <color=yellow>Bank Bonus</color> di akhir babak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Tidak dapat menyimpan datamu ke server!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Obrolan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Pilih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Klaim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Segera hadir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Selesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Konfirmasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Selamat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Lanjutkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Disalin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Negara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Buat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Buat dan pimpin timmu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Hapus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Deskripsi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Tiket Impian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Selamat datang di <color=yellow>Tiket Impian!</color> Ini hadiah pertamamu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Selesaikan hari dan kumpulkan <color=yellow>Kunci</color> untuk buka hadiah. Ketuk untuk tahu caranya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Aktifkan <color=yellow>Tiket Impian</color> untuk akses hadiah spesial!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Buka tahap ini dan aktifkan <color=yellow>Tiket Impian</color> untuk dapat hadiah ini!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Kemenangan Impian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Selesaikan hari tanpa gagal untuk dapat lebih banyak hadiah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Selesaikan hari tanpa kalah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Tingkatkan pengganda skormu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Menangkan Hadiah luar biasa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Setiap kegagalan mereset penggandamu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Menara Impian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Selesaikan hari berturut-turut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Bangkit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Setiap kegagalan akan mengatur ulang kemajuan pos pemeriksaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Edit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Edit Nama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Pilih nama pengguna Anda sebelum bergabung dengan Papan Peringkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Edit Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Edit Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Kosong!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Berakhir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Masukkan teks...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Masukkan deskripsi...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Masukkan nama tim...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Menyelesaikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: Menang Percobaan Pertama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Bingkai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: HATI <color=#7CF73F>GRATIS</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: HADIAH <color=#7CF73F>GRATIS</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Nyawa Gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Statistik Umum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Pergi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Bantuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Bantuan Diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Bantuan Diterima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Kotak Masuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Gabung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Gabung tim untuk dapat nyawa gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Kesempatan Terakhir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Pemimpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Papan Peringkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Keluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Tinggalkan Tim?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Anda harus menunggu 30 menit sebelum dapat membuat atau bergabung dengan tim baru!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Capai <color=yellow>Hari {0}</color> Untuk Membuka Kontes Mingguan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Nyawamu penuh!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Muat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Memuat data dari server selesai! Mulai ulang game untuk menerapkan data baru!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Lokal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: CAPAI <color=yellow> Hari {0}</color> Untuk Membuka Papan Peringkat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: CAPAI <color=yellow> Hari {0}</color> Untuk Bergabung dengan Tim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Kamu tidak bisa meminta nyawa. Kamu memiliki lebih dari 10 nyawa gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} bergabung dengan tim!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} telah dikeluarkan oleh {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} telah keluar dari tim!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Anggota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Tim Saya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Nama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: Nama minimal 6 karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Kesalahan Jaringan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Kesalahan Jaringan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: BARU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Tidak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: Tanpa nama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Tanpa Kontribusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Tidak Ada Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Emas tidak cukup!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Buka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>Tiket Impian</color> akan memberimu kesempatan untuk mendapatkan hadiah spesial!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: Kamu akan memiliki bonus eksklusif hingga acara berakhir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 nyawa, bukan 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Aktifkan Bank Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Bingkai foto profil emas dan nama emas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>Tiket Impian</color> telah berakhir! Bonusmu sudah tidak aktif lagi. <color=yellow>Tiket Impian</color> baru akan segera dimulai!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Selesaikan Hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Kumpulkan Kunci!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Buka Hadiah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Kamu bisa mengaktifkan <color=yellow>Tiket Impian</color> untuk mendapatkan hadiah eksklusif tambahan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: '<color=Yellow>Tiket Impian</color> baru telah dimulai! Selesaikan hari dan buka <color=Yellow>Tiket</color> untuk klaim hadiah berharga!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Tiket Impian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: Hadiah Peringkat Ke-{0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Pemain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Privat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Profil telah diperbarui!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Publik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Simpan Data Anda Ke Server Selesai!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Hubungkan kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Segarkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Hapus Anggota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Meminta Nyawa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Hari yang dibutuhkan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Selesaikan Hari {0} untuk meningkatkan batas Hari yang Dibutuhkan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Mulai ulang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Simpan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Skor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Cari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Pilih Lencana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Mengirimimu nyawa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Hadiah spesial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Balapan Etape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "Anda kalah dalam perlombaan!\nCoba lagi untuk memenangkan hadiah menarik!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: "Selamat!\nAnda telah memenangkan perlombaan!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Selesaikan <color=yellow>{0} hari</color> lebih dulu dari yang lain untuk menang dan maju ke tahap berikutnya demi hadiah lebih besar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Bagaimana cara bermainnya?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Selesaikan hari lebih dulu dari yang lain untuk menuntaskan balapan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Selesaikan balapan sebelum yang lain!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Lanjutkan ke tahap berikutnya untuk hadiah yang lebih besar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Kemenangan Balapan Tahap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Tahap {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Bintang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Awal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Sinkronkan Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Ketuk untuk Melanjutkan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Ketuk untuk Membuka!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Ketuk untuk Klaim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Ketuk untuk menutup!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Info Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Lencana Tim:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Saat Anda bergabung dengan tim, Anda akan mendapatkan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Panen Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Kumpulkan jagung dari level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Capai Target Bersama Timmu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Menangkan Hadiah Luar Biasa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Normal: 1 Jagung - Sulit: 3 Jagung - Sangat Sulit: 5 Jagung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Panen jagung bersama timmu dan dapatkan hadiah luar biasa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Nama Tim:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Skor Tim:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Tipe Tim:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Total nyawa gratis:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Total Bantuan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Total Bintang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Menara Tertinggi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Transfer Pemimpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Ini hadiahmu yang belum diklaim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Buka pada Hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Terbuka saat melewati hari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Gunakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Lihat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Lihat Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Harap tunggu sedikit lebih lama agar server memproses!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Mingguan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Kontes Mingguan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Berusahalah lebih keras lain kali untuk mendapatkan hadiah berharga!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Selesaikan Hari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Ambil Alih Pimpinan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Dunia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Ya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Papan Peringkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Peningkatan akan tersedia di pembaruan berikutnya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Hari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Saat bergabung dengan tim, kamu akan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Dapatkan Hati <color=#7CF73F>Gratis</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Mengobrol dan ikuti tantangan bersama teman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Area Selesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Capai Hari {0} untuk lanjut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Hari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Selesaikan {0} di {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Tingkatkan {0} ke tahap akhir dulu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: Peningkatan {0} kini sudah terbuka!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Level peningkatan alat baru di {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: BELI SEMUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Bonus Tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Hanya 1 Kali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Diskon Ekstra {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Selesaikan {0} di restoran {1} untuk membuka!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

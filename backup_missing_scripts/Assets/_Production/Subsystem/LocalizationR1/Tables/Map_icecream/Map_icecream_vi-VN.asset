@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_vi-VN
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi-VN
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: Kem ốc quế
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: Ốc quế giòn rụm đội một viên kem mát lạnh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: Kem ly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: Một viên kem trong ly, chẳng lo chảy dính tay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: Sinh tố
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: Trái cây tươi xay cùng đá đến khi rộn ràng ca hát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: Sữa lắc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: Kem và sữa lắc đều thành ngụm đặc sánh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: Đá bào
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: Đá bào bông xốp thấm đẫm siro rực rỡ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: Quý bà Hồng Hạc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: Một cô thú cưng diva lộng lẫy thư thái trong áo choàng lông vũ neon, chiếc mũ rộng vành khổng lồ và kính mát mắt mèo đính đá.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: Rái cá Ollie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: Một bé thú cưng tinh nghịch mặc áo sơ mi nhiệt đới rộng thùng thình in hình kem, đội chiếc mũ cói tí hon cài hoa dâm bụt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: Vẹt Sunny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: Một bé thú cưng ngọt ngào trong bộ đồ bơi pastel, kèm phao bơi hình bánh donut bị cắn dở và khăn bandana kẻ caro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: Chim cánh cụt Pippa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: Một bé thú cưng sành điệu với áo bèo nhún rực rỡ, kính mát vàng ngoại cỡ và chiếc balo mây mini cắm ô cocktail bằng giấy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: Ngài Shelldon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: Một bé thú cưng VIP giàu sụ khoác áo choàng lụa sang trọng, đội mũ thuyền trưởng thêu chỉ vàng và đeo trang sức to bản.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: Thớt Trái Cây Nhanh Nhẹn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: Trái cây cắt lát chất đống trong nháy mắt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: Thớt Trái Cây Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: Kiwi run rẩy khi chiếc thớt này xuất hiện.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: Máy Làm Ốc Quế Giòn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: Ốc quế giòn ấm ra lò nhanh hơn chút.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: Máy Ép Ốc Quế Vàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: Ốc quế vàng ruộm, lần nào cũng giòn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: Máy Xay Tốc Hành
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: Vài vòng quay là trái cây mịn màng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: Lốc Xoáy Sinh Tố
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: Lốc xoáy trái cây. Nhớ đậy nắp nhé!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: Máy Bào Băng Giá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: Đá thành bông tuyết mềm nhanh hơn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: Máy Bào Bông Tuyết
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: Bông tuyết mềm rơi chỉ trong tích tắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: Máy Lắc Tốc Hành
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: Sữa lắc sánh mịn nhanh hơn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: Máy Lắc Siêu Cấp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: Sữa lắc béo mịn với vòng xoáy siêu tốc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: Quầy Kem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: Quầy nhỏ bán món ngọt mát lạnh dưới nắng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: Tiệm Kem Nhiệt Đới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: Thêm không gian cho những món kem rực rỡ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: Biển Capy Bán Kem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: Capybara vui vẻ chào đón những người mê kem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: Bảng Thực Đơn Kem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: Bảng thực đơn đầy những món mát lạnh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: Mái Hiên Sọc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: Mái hiên mát mẻ cùng biển hiệu nổi bật.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: Quầy Món Ngọt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: Trái cây, máy làm món ngọt và cốc luôn sẵn sàng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: Cửa Tiệm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: Cửa ra vào thân thiện bên những ô cửa sáng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: Góc Lướt Sóng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: Ván lướt sóng, thùng trái cây và biển chỉ đường ven biển.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: Góc Kem Và Phao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: Ốc quế khổng lồ và phao bơi mang đến niềm vui mùa hè.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: Tủ Kem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: Tủ kem rực rỡ giữ từng viên kem mát lạnh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: Cầu Vồng Trên Mái
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: Cầu vồng rực rỡ phía trên tiệm kem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: Kem Khổng Lồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: Cây kem khổng lồ trên mái hoàn thiện tiệm kem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: Sữa Lắc Khổng Lồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: Ly sữa lắc cao lớn trang trí mái tiệm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: Trái cây vào, cơn bão sinh tố mát lạnh ra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: Lốc Xoáy Sinh Tố
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: Xay nhanh đến mức tuyết rơi trong tiệm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: Máy Xay Bão Tuyết Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: Ốc quế giòn tan bật ra liên tục.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: Máy Làm Ốc Quế Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: Ốc quế vàng ruộm với tốc độ kỷ lục.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: Lò Rèn Bánh Quế Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: Dâu tây bị thái lát trước khi kịp chớp mắt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: Thớt Trái Cây Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: Một nhát chém, nguyên bát topping.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: Lưỡi Dao Trái Cây Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: Tuyết bông xốp trong chớp mắt. Lấy thìa ra nào!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: Máy Bào Đá Bão Tuyết
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: Cả một núi đá bào chỉ trong một hơi thở.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: Máy Bào Đá Sông Băng Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: Sữa lắc sánh mịn chỉ trong một vòng xoáy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: Lốc Xoáy Sữa Lắc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: Lắc nhanh đến mức ống hút cũng nhảy múa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: Động Cơ Sữa Lắc Huyền Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: Trái cây xanh béo ngậy cho ly sinh tố mịn màng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: Những lát bơ mềm sẵn sàng cho vào máy xay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: Sinh tố bơ tươi mịn và béo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: Quả chuối vàng ươm ngọt tự nhiên.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: Chuối cắt khoanh ngọt lịm, sẵn sàng xay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: Sinh tố chuối chín sánh mịn, ngọt ngào.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: Xay trái cây thành sinh tố mịn màng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: Những quả mọng nhỏ xíu đậm vị.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: Sinh tố việt quất tươi tím biếc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: Quả anh đào đỏ bóng để trang trí trên cùng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: Siro đỏ ngọt rưới lên đá bào.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: Những viên kem sô-cô-la đậm đà cho tín đồ cacao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: Kem sô-cô-la sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: Sốt sô-cô-la bóng mượt rưới lên trên.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: Lớp vỏ xơ giấu cùi dừa ngọt lịm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: Cùi dừa trắng ngần đậm vị nhiệt đới.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: Sinh tố dừa béo ngậy vị biển xanh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: Bột ngọt sắp thành vỏ ốc quế giòn tan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: Nướng bột thành vỏ ốc quế giòn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: Cắt trái cây làm topping và sinh tố.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: Kem ốc quế theo đúng ý khách.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: Ly kem đúng theo yêu cầu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: Ly sữa lắc sánh mịn vị khách thích.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: Đá bào bông xốp với siro khách chọn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: Sinh tố trái cây xay theo yêu cầu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: Viên kem tím vị nho mọng nước.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: Kem nho sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: Siro tím ngọt rưới lên đá bào.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: Sữa chua sánh, chua nhẹ cho ly sinh tố mịn hơn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: Siro xanh chua ngọt vị táo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: Đá viên lanh canh giữ mọi thứ mát lạnh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: Biến đá viên thành tuyết bông xốp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: Trái cây vỏ lông, ruột xanh tươi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: Những lát kiwi xanh lấm tấm hạt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: Siro vàng chua chua thanh mát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: Viên kem vàng óng ngập vị xoài.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: Kem xoài sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: Kem trà xanh ngọt dịu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: Kem trà xanh sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: Sữa tươi mát lạnh cho đồ uống béo ngậy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: Lắc kem và sữa đến khi sánh mịn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: Quả cam mọng nước tràn ngập nắng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: Múi cam tươi sẵn sàng xay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: Sinh tố cam tươi thanh mát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: Bánh quy giòn rụm trên đỉnh viên kem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: Bánh que giòn phủ sô-cô-la.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: Thạch dẻo đủ sắc cầu vồng.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: Đá bào mềm như tuyết chờ rưới siro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: Cốm màu rắc lên như một bữa tiệc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: Quả dâu đỏ ngọt đội mũ lá xanh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: Viên kem hồng đậm vị dâu thật.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: Kem dâu sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: Lát dâu mọng nước sẵn sàng xay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: Sinh tố dâu tươi hồng xinh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: Sốt hồng ngọt ngào rưới lên trên.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: Kem vani béo ngậy ai cũng mê.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: Kem vani sẵn sàng lắc thành sữa lắc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: Vỏ ốc quế vàng giòn để đựng kem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: Một vòng kem tươi bông mềm ngọt ngào.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: Thạch mềm vị ngọt thanh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: Bơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: Bơ cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: Sinh tố bơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: Chuối
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: Chuối cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: Sinh tố chuối
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: Máy xay sinh tố
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: Việt quất
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: Sinh tố việt quất
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: Anh đào
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: Siro anh đào
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: Kem sô-cô-la
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: Sữa lắc sô-cô-la
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: Sốt sô-cô-la
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: Dừa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: Cùi dừa cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: Sinh tố dừa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: Bột vỏ ốc quế
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: Máy làm vỏ ốc quế
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: Thớt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: Kem ốc quế
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: Kem ly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: Sữa lắc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: Đá bào
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: Sinh tố
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: Kem nho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: Sữa lắc nho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: Siro nho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: Sữa chua Hy Lạp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: Siro táo xanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: Đá viên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: Máy bào đá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: Kiwi cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: Siro chanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: Kem xoài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: Sữa lắc xoài
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: Kem trà xanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: Sữa lắc trà xanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: Sữa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: Máy lắc sữa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: Cam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: Cam cắt múi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: Sinh tố cam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: Bánh quy sô-cô-la
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: Bánh que sô-cô-la
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: Thạch cầu vồng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: Đá bào mịn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: Cốm màu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: Dâu tây
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: Kem dâu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: Sữa lắc dâu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: Dâu tây cắt lát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: Sinh tố dâu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: Sốt dâu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: Kem vani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: Sữa lắc vani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: Vỏ ốc quế
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: Kem tươi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: Thạch trắng
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

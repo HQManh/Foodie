@@ -689,7 +689,7 @@ namespace AnhPD.FoodOrder
 				beltRoot = base.transform;
 			}
 			_freeze = new ConveyorFreeze(freezeChance, freezeTurns);
-			_pickup = new ConveyorPickup(ReleaseItem);
+			_pickup = new ConveyorPickup(RemoveBeltItem);
 			_pickup.OnPickedItem = OnItemPicked;
 			_pickup.OnRejectedItem = OnItemRejected;
 			_tapState = new ConveyorTapState(_pickup);
@@ -997,6 +997,23 @@ namespace AnhPD.FoodOrder
 			component.SetHidden(bundle.Hidden);
 			component.SetKey(bundle.KeyColor);
 			return component;
+		}
+
+		// A picked item leaves the belt through the grid, which frees its slot so the rows behind it advance, and then pools it.
+		private void RemoveBeltItem(IngredientConveyorItem item)
+		{
+			if (item == null)
+			{
+				return;
+			}
+			if (_grid != null)
+			{
+				_grid.ReleaseFor(item);
+			}
+			if (item != null && item.gameObject.activeSelf)
+			{
+				ReleaseItem(item);
+			}
 		}
 
 		public void ReleaseItem(IngredientConveyorItem item)

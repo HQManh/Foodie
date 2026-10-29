@@ -32,8 +32,8 @@ namespace AnhPD.FoodOrder
 
 		public virtual List<OrderSpec> GetItemOrderSpecs(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id members used for DisplayId/BaseId (field at 0x78 and a virtual getter) are not identified
-			return null;
+			if (item == null) return null;
+			return new List<OrderSpec> { BuildSpec(item.GetId()) };
 		}
 
 		public OrderSpec BuildSpec(string orderId)

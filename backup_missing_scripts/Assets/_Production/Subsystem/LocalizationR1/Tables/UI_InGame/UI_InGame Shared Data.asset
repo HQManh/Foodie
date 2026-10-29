@@ -1,0 +1,572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_InGame Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: UI_InGame
+  m_TableCollectionNameGuidString: c7c5f939efb6223449ebc99db07dacad
+  m_Entries:
+  - m_Id: 57797273182208
+    m_Key: all_heart_broken
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518015
+  - m_Id: 57797302542336
+    m_Key: as_good_as_usual
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518016
+  - m_Id: 57797302542337
+    m_Key: can_not_pick_frozen_ingredient
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518017
+  - m_Id: 57797302542338
+    m_Key: claim
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518018
+  - m_Id: 57797302542339
+    m_Key: find_key_somewhere_in_ingredient
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518019
+  - m_Id: 57797302542340
+    m_Key: flavor_burst
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518020
+  - m_Id: 57797302542341
+    m_Key: food_bundle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518021
+  - m_Id: 57797302542342
+    m_Key: free
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518022
+  - m_Id: 57797302542343
+    m_Key: frozen_item
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518023
+  - m_Id: 57797302542344
+    m_Key: got_it
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518024
+  - m_Id: 57797302542345
+    m_Key: hard_level
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518025
+  - m_Id: 57797302542346
+    m_Key: hello_nice_to_meet_you
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518026
+  - m_Id: 57797302542347
+    m_Key: hidden_item
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518027
+  - m_Id: 57797302542348
+    m_Key: hidden_item_can_conly_revealed
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518028
+  - m_Id: 57797302542349
+    m_Key: hold_to_see_map
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518029
+  - m_Id: 57797302542350
+    m_Key: hold_to_view
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518030
+  - m_Id: 57797302542351
+    m_Key: home
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518031
+  - m_Id: 57797302542352
+    m_Key: ice_block
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518032
+  - m_Id: 57797302542353
+    m_Key: ingredients_ran_out
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518033
+  - m_Id: 57797302542354
+    m_Key: leave
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518034
+  - m_Id: 57797302542355
+    m_Key: lets_start_business
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518035
+  - m_Id: 57797302542356
+    m_Key: linked_items
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518036
+  - m_Id: 57797302542357
+    m_Key: lock_key
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518037
+  - m_Id: 57797302542358
+    m_Key: music
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518038
+  - m_Id: 57797302542359
+    m_Key: new_booster
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518039
+  - m_Id: 57797302542360
+    m_Key: new_ingredient
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518040
+  - m_Id: 57797302542361
+    m_Key: ok
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518041
+  - m_Id: 57797302542362
+    m_Key: opp
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518042
+  - m_Id: 57797302542363
+    m_Key: out_of_move
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518043
+  - m_Id: 57797302542364
+    m_Key: out_of_patience
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518044
+  - m_Id: 57797302542365
+    m_Key: out_of_slots
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518045
+  - m_Id: 57797302542366
+    m_Key: paused
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518046
+  - m_Id: 57797302542367
+    m_Key: perfect
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518047
+  - m_Id: 57797302542368
+    m_Key: pick_linked_slots_together_once
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518048
+  - m_Id: 57797302542369
+    m_Key: quit_level
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518049
+  - m_Id: 57797302542370
+    m_Key: retry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518050
+  - m_Id: 57797302542371
+    m_Key: serve_a_number_of_customer_to
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518051
+  - m_Id: 57797302542372
+    m_Key: something_wrong_better_retry
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518052
+  - m_Id: 57797302542373
+    m_Key: sound
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518053
+  - m_Id: 57797302542374
+    m_Key: super_hard_level
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518054
+  - m_Id: 57797302542375
+    m_Key: tap_to_continue
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518055
+  - m_Id: 57797302542376
+    m_Key: tap_to_play
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518056
+  - m_Id: 57797302542377
+    m_Key: taste_growing
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518057
+  - m_Id: 57797302542378
+    m_Key: these_foods_move_and_are_picked
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518058
+  - m_Id: 57797302542379
+    m_Key: tongs
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518059
+  - m_Id: 57797302542380
+    m_Key: vibration
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518060
+  - m_Id: 57797302542381
+    m_Key: watch
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518061
+  - m_Id: 57797302542382
+    m_Key: you_will_lose_1_heart
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518062
+  - m_Id: 57797302542383
+    m_Key: boss_appear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791119221743616
+    m_Key: boss_appear_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827772976990026
+  - m_Id: 791119234326528
+    m_Key: out_of_slot
+    m_Metadata:
+      m_Items:
+      - rid: 4117827772976990027
+  - m_Id: 5836114773401600
+    m_Key: frozen_tile
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849195
+  - m_Id: 5836114806956032
+    m_Key: new_feature
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849196
+  - m_Id: 5838819617136640
+    m_Key: new_restaurant
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849491
+  - m_Id: 5838819617136641
+    m_Key: new_restaurant_coming
+    m_Metadata:
+      m_Items:
+      - rid: 5047051070982849492
+  - m_Id: 7340303286525952
+    m_Key: well_served
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875273
+  - m_Id: 7340303307497472
+    m_Key: day_failed
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875274
+  - m_Id: 7542428218155008
+    m_Key: endgame_win_hard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875356
+  - m_Id: 7542428239126528
+    m_Key: endgame_win_superhard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875357
+  - m_Id: 7542428243320832
+    m_Key: endgame_lose_hard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875358
+  - m_Id: 7542428243320833
+    m_Key: endgame_lose_superhard
+    m_Metadata:
+      m_Items:
+      - rid: 5047051170150875359
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859019
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859019
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230173087
+    - rid: 4117827729675518015
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-OutOfHearts Variant > UIPopup-SaveMe-OutOfHearts Variant/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518016
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Minigame > UIPopup-Minigame/frame/view/UIResult-Minigame-Win/Text-CommentSmall
+    - rid: 4117827729675518017
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Slot-Frozen Variant > UIPopup-IntroMechanic-Slot-Frozen Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518018
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-EndGame-Win > UIPopup-EndGame-Win/Visible/main/Buttons/Layout-Win/Buttons/Next Day/Text (TMP)'
+    - rid: 4117827729675518019
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Grid-ColorLock Variant > UIPopup-IntroMechanic-Grid-ColorLock Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518020
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-Bar-Combo > UI-Bar-Combo/Slider/Text (TMP) - Activating
+    - rid: 4117827729675518021
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-DupleFood Variant > UIPopup-IntroMechanic-DupleFood Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518022
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-Booster-Base > UIPopup-Booster-Base/VisibleGroup/main/ListButtons/Button-Free/Text (TMP) ; UIPopup-SaveMe-Base > UIPopup-SaveMe-Base/VisibleGroup/main/ListButtons/Button-Free (1)/Text (TMP)'
+    - rid: 4117827729675518023
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Slot-Frozen Variant > UIPopup-IntroMechanic-Slot-Frozen Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518024
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-IntroMechanic-_BASE > UIPopup-IntroMechanic-_BASE/VisibleGroup/main/Button-Confirm/Txt-confirm'
+    - rid: 4117827729675518025
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Alert > UIPopup-Alert/frame/board-hard/Text (TMP)
+    - rid: 4117827729675518026
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CookingGameplay-burger > TutorialManager (1)/Canvas/Panel - Talk/text-only/Text (TMP) ; CookingGameplay-sushi > TutorialManager (1)/Canvas/Panel - Talk/text-only/Text (TMP)
+    - rid: 4117827729675518027
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Slot-Hidden Variant > UIPopup-IntroMechanic-Slot-Hidden Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518028
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Slot-Hidden Variant > UIPopup-IntroMechanic-Slot-Hidden Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518029
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-EndGame-Lose > UIPopup-EndGame-Lose/Visible/Text (TMP) ; UIPopup-SaveMe-Base > UIPopup-SaveMe-Base/VisibleGroup/Text-HoldToView
+    - rid: 4117827729675518030
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-Base > UIPopup-SaveMe-Base/main/Text-HoldToView
+    - rid: 4117827729675518031
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-EndGame-Lose > UIPopup-EndGame-Lose/Visible/main/Buttons/Layout-Lose/Buttons/Home-small/Text (TMP)'
+    - rid: 4117827729675518032
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Grid-OrderLock Variant > UIPopup-IntroMechanic-Grid-OrderLock Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518033
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-OutOfIngredient Variant > UIPopup-SaveMe-OutOfIngredient Variant/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518034
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-ConfirmQuitLevel > UIPopup-ConfirmQuitLevel/VisibleGroup/main/Button-Leave/Text (TMP)'
+    - rid: 4117827729675518035
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CookingGameplay-burger > TutorialManager (1)/Canvas/Panel - Talk/character/Image - Text/Text (TMP) ; CookingGameplay-sushi > TutorialManager (1)/Canvas/Panel - Talk/character/Image - Text/Text (TMP)
+    - rid: 4117827729675518036
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Link-Slot Variant > UIPopup-IntroMechanic-Link-Slot Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518037
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Grid-ColorLock Variant > UIPopup-IntroMechanic-Grid-ColorLock Variant/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518038
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-PauseInGame > UIPopup-PauseInGame/VisibleGroup/main/Toggles/Music/Text (Legacy)
+    - rid: 4117827729675518039
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroNewBooster > UIPopup-IntroNewBooster/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518040
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroNewIngredients > UIPopup-IntroNewIngredients/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518041
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-IntroNewIngredients > UIPopup-IntroNewIngredients/VisibleGroup/main/Button-Confirm/Txt-confirm'
+    - rid: 4117827729675518042
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Minigame > UIPopup-Minigame/frame/view/UIResult-Lose/Text-Title
+    - rid: 4117827729675518043
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-OutOfMove Variant > UIPopup-SaveMe-OutOfMove Variant/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518044
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-OutOfServeTime Variant > UIPopup-SaveMe-OutOfServeTime Variant/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518045
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-SaveMe-OutOfServeSlots Variant > UIPopup-SaveMe-OutOfServeSlots Variant/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518046
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-PauseInGame > UIPopup-PauseInGame/VisibleGroup/main/Title/Txt-Title
+    - rid: 4117827729675518047
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Minigame > UIPopup-Minigame/frame/view/UIResult-Minigame-Win/Text-Title
+    - rid: 4117827729675518048
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Link-Slot Variant > UIPopup-IntroMechanic-Link-Slot Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518049
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-ConfirmQuitLevel > UIPopup-ConfirmQuitLevel/VisibleGroup/main/Title/Text-Title
+    - rid: 4117827729675518050
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-EndGame-Lose > UIPopup-EndGame-Lose/Visible/main/Buttons/Layout-Lose/Buttons/Retry/Text (TMP)'
+    - rid: 4117827729675518051
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-Grid-OrderLock Variant > UIPopup-IntroMechanic-Grid-OrderLock Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518052
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Minigame > UIPopup-Minigame/frame/view/UIResult-Lose/Text-CommentSmall
+    - rid: 4117827729675518053
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-PauseInGame > UIPopup-PauseInGame/VisibleGroup/main/Toggles/Sfx/Text (Legacy)
+    - rid: 4117827729675518054
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Alert > UIPopup-Alert/frame/board-superhard/Text (TMP)
+    - rid: 4117827729675518055
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: FSBurger > TutorialManager (1)/Canvas/Panel - Talk/character/Image - Text/Text (TMP) ; FSBurger > TutorialManager (1)/Canvas/Panel - Talk/text-only/Text (TMP)
+    - rid: 4117827729675518056
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroNewIngredients > UIPopup-IntroNewIngredients/VisibleGroup/main/Txt-tap-to-continue
+    - rid: 4117827729675518057
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UI-Bar-Combo > UI-Bar-Combo/Slider/Text (TMP)
+    - rid: 4117827729675518058
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-DupleFood Variant > UIPopup-IntroMechanic-DupleFood Variant/VisibleGroup/main/Txt-Desc
+    - rid: 4117827729675518059
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-IntroMechanic-_BASE > UIPopup-IntroMechanic-_BASE/VisibleGroup/main/Txt-Name
+    - rid: 4117827729675518060
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-PauseInGame > UIPopup-PauseInGame/VisibleGroup/main/Toggles/Vibrate/Text (Legacy)
+    - rid: 4117827729675518061
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIPopup-Booster-Base > UIPopup-Booster-Base/VisibleGroup/main/ListButtons/Button-Ads/Text (TMP) ; UIPopup-SaveMe-Base > UIPopup-SaveMe-Base/VisibleGroup/main/ListButtons/Button-Ads (1)/Text (TMP)'
+    - rid: 4117827729675518062
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-ConfirmQuitLevel > UIPopup-ConfirmQuitLevel/VisibleGroup/main/Text-Desc
+    - rid: 4117827772976990026
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Alert > UIPopup-Alert/frame/board-boss/Board/Text (TMP)
+    - rid: 4117827772976990027
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-Alert > UIPopup-Alert/frame/board-outofslot/Image/Text (TMP)
+    - rid: 5047051070982849195
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-NewFeature > UIPopup-NewFeature/Visible/main/frame-win/Top/Feather Tile
+    - rid: 5047051070982849196
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UIButton-NextFeature > UIButton-NextFeature/Text (TMP) - New'
+    - rid: 5047051070982849491
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UINewFeartherConfig featherNameKey (Restaurant-*)'
+    - rid: 5047051070982849492
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UINewFeartherConfig featherDescKey (Restaurant-*)'
+    - rid: 5047051170150875273
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-EndGame-Win > UIPopup-EndGame-Win/Visible/main/frame-win/Top/Header
+    - rid: 5047051170150875274
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-EndGame-Lose > UIPopup-EndGame-Lose/Visible/main/frame-lose/Top/Header
+    - rid: 5047051170150875356
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIEndGameWin.HeaderKeyFor - win title on Hard days (Normal = well_served)'
+    - rid: 5047051170150875357
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIEndGameWin.HeaderKeyFor - win title on Super Hard days (Normal = well_served)'
+    - rid: 5047051170150875358
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIEndGameLose.HeaderKeyFor - lose title on Hard days (Normal = day_failed)'
+    - rid: 5047051170150875359
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: 'Code: UIEndGameLose.HeaderKeyFor - lose title on Super Hard days (Normal = day_failed)'

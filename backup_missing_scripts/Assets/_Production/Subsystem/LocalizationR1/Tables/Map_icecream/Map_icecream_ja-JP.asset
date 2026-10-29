@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_ja-JP
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja-JP
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: アイスクリームコーン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: サクサクのワッフルコーンに冷たいアイスをひとすくい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: カップアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: カップにひとすくい。指がベタつく心配なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: スムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: 新鮮なフルーツを氷と一緒に、歌い出すまでブレンド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: ミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: アイスとミルクをシェイクした、濃厚なひと口。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: かき氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: ふわふわのかき氷に、鮮やかなシロップをたっぷり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: マダム・フラミンゴ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: ネオンカラーの羽根のローブに特大つば広帽子、ラインストーンのキャットアイサングラスでくつろぐ、華やかな歌姫ペット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: カワウソのオリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: アイス柄のぶかぶかトロピカルシャツに、ハイビスカスを挿した小さな麦わら帽子をかぶった遊び好きなペット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: オウムのサニー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: パステルカラーの水着に、かじりかけドーナツの浮き輪とギンガムチェックのバンダナを合わせたかわいいペット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: ペンギンのピッパ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: 鮮やかなフリルトップスに特大の黄色いサングラス、紙のカクテル傘を挿したミニラタンリュックを合わせたおしゃれなペット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: シェルドン卿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: 豪華なシルクのローブに金刺繍のキャプテン帽、ゴツいジュエリーを身につけたお金持ちのVIPペット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: スピードフルーツ板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: フルーツスライスがあっという間に山盛り。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: 忍者フルーツ板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: この板が出るとキウイも震え上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: サクサクコーンメーカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: あったかサクサクのコーンを少し早く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: ゴールデンコーンプレス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: 黄金のコーンが次々と。いつでもサクサク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: スピードミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: 数回まわせばフルーツなめらか。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: スムージー旋風
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: フルーツの旋風。フタはしっかり！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: フロスティかき氷機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: 氷がもっと早くふわふわに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: スノーフレークかき氷機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: ふわふわの雪があっという間に積もる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: スピードシェイクミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: シェイクがもっと早く濃厚クリーミーに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: スーパーシェイクミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: スーパーな渦でクリーミーなシェイクに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: アイスクリーム屋台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: 日差しの中で冷たいスイーツを売る小さな屋台。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: 南国アイスクリーム店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: カラフルな冷たいスイーツのためにお店を広く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: カピバラの看板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: 陽気なカピバラがアイス好きのお客様をお出迎え。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: アイスメニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: 冷たいスイーツがいっぱいのメニューボード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: しま模様の日よけ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: 明るい看板を添えた涼しい日よけ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: デザートカウンター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: フルーツとデザートマシン、カップの準備も万端。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: お店の窓とドア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: 明るい窓に囲まれた、入りやすいドア。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: サーフィンコーナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: サーフボードとフルーツ箱、海辺の案内板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: コーンと浮き輪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: 大きなコーンと浮き輪でビーチ気分に。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: アイス冷凍ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: カラフルな冷凍ケースでアイスをひんやり保存。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: 屋根の虹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: アイスクリーム店の上に輝く虹。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: 巨大アイスクリーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: 屋根の巨大アイスで華やかに仕上げよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: 巨大ミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: そびえ立つミルクシェイクが屋根を飾る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: フルーツを入れると、ひんやりスムージーの嵐が出てくる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: スムージーサイクロン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: 速すぎてお店に雪が降る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: 伝説のブリザードブレンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: サクサクのコーンが次々と飛び出す。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: ターボコーンメーカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: 記録的な速さで黄金のワッフルコーン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: 伝説のワッフル工房
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: イチゴはまばたきする前にスライス済み。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: サムライフルーツまな板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: ひと振りでトッピングがボウルいっぱい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: 伝説のフルーツブレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: ふわふわの雪が一瞬で。スプーンを用意して！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: 吹雪かき氷機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: ひと息でかき氷の山が完成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: 伝説の氷河かき氷機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: ひと回しで濃厚クリーミーなシェイク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: ミルクシェイクトルネード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: ストローが踊り出すほど高速シェイク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: 伝説のシェイクエンジン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: クリーミーな緑の果実。なめらかスムージーに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: ミキサーにかける準備OKのやわらかスライス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: 新鮮なアボカドのなめらかクリーミーな一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: 自然な甘さたっぷりのバナナ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: ミキサー待ちの甘いバナナスライス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: 完熟バナナの濃厚で甘い一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: フルーツをなめらかスムージーに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: 味がぎゅっと詰まった小さなベリー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: 新鮮ブルーベリーの鮮やかな紫の一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: てっぺんに飾るつやつやのさくらんぼ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: かき氷にかける甘い赤シロップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: ココア好きにはたまらない濃厚チョコ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: シェイク待ちのチョコアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: 上からとろりとかけるつやチョコソース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: 毛むくじゃらの殻に甘い南国の果肉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: 南国気分の真っ白なココナッツ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: ひと口でビーチ気分のクリーミーな一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: サクサクのコーンになる甘い生地。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: 生地を焼いてサクサクのコーンに。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: トッピングやスムージー用にフルーツをカット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: お客さんの好みに合わせたコーン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: 注文どおりに盛ったカップアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: お客さんの好きな味の濃厚シェイク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: 好きなシロップをかけたふわふわ氷。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: 注文を受けて作るフルーツの一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: ジューシーなぶどう味の紫アイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: シェイク待ちのぶどうアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: かき氷にかける甘い紫シロップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: もっとなめらかにする濃厚ヨーグルト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: 甘酸っぱい青りんごの緑シロップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: カランと鳴って全部ひんやり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: 氷をふわふわの雪に変身。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: 中は鮮やかな緑のふわふわ果実。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: 種のつぶつぶが並ぶ緑の輪切り。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: キュッと酸っぱい爽やかな黄色シロップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: 南国マンゴーたっぷりの黄金アイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: シェイク待ちのマンゴーアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: ほんのり甘い抹茶アイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: シェイク待ちの抹茶アイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: クリーミーなドリンク用の冷たい牛乳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: アイスと牛乳を濃厚になるまでシェイク。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: 太陽をたっぷり浴びたジューシーなオレンジ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: ミキサー待ちの鮮やかなオレンジ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: 新鮮オレンジの爽やかな一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: アイスのてっぺんにサクサククッキー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: チョコをまとったサクサクスティック。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: 虹色に揺れるぷるぷるゼリー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: シロップを待つ雪のようなふわふわ氷。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: 上にかけるだけでパーティー気分。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: 葉っぱの帽子をかぶった甘いいちご。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: 本物のいちご味のピンクアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: シェイク待ちのいちごアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: ミキサー待ちのジューシーないちご。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: 新鮮いちごのピンクの一杯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: 上からかける甘いピンクのソース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: みんな大好き定番のクリーミーアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: シェイク待ちのバニラアイス。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: アイスをのせるサクサクの黄金コーン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: ふわふわの甘いホイップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: ほんのり甘いやわらかゼリー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: アボカド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: スライスアボカド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: アボカドスムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: バナナ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: スライスバナナ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: バナナスムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: ミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: ブルーベリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: ブルーベリースムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: さくらんぼ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: チェリーシロップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: チョコアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: チョコミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: チョコソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: ココナッツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: カットココナッツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: ココナッツスムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: コーン生地
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: コーンメーカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: まな板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: ソフトクリーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: カップアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: ミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: かき氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: スムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: ぶどうアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: ぶどうミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: ぶどうシロップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: ギリシャヨーグルト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: 青りんごシロップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: 氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: かき氷機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: キウイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: スライスキウイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: レモンシロップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: マンゴーアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: マンゴーミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: 抹茶アイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: 抹茶ミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: 牛乳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: シェイクミキサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: オレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: カットオレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: オレンジスムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: チョコクッキー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: チョコスティック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: レインボーゼリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: 削り氷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: カラースプレー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: いちご
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: いちごアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: いちごミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: スライスいちご
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: いちごスムージー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: いちごソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: バニラアイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: バニラミルクシェイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: ワッフルコーン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: ホイップクリーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: 白ゼリー
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

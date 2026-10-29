@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_ms
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: Aiskrim Kon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: Kon wafel rangup dengan sesudu aiskrim sejuk di atasnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: Aiskrim Cawan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: Sesudu dalam cawan, tiada titisan di jari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: Buah segar dikisar bersama ais sehingga ia menyanyi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: Aiskrim dan susu digoncang menjadi tegukan pekat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: Ais Serut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: Ais serut gebu yang dibasahi sirap berwarna-warni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: Madame Flamingo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: Haiwan peliharaan diva yang glamor bersantai dengan jubah bulu neon, topi lebar gergasi dan cermin mata hitam cat-eye bertatah berlian tiruan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: Ollie Memerang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: Haiwan peliharaan yang suka bermain memakai baju tropika besar bercorak aiskrim dan topi jerami kecil berhias bunga raya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: Sunny Burung Kakak Tua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: Haiwan peliharaan comel berpakaian renang pastel, lengkap dengan pelampung donat digigit dan bandana kotak-kotak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: Pippa Penguin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: Haiwan peliharaan bergaya dengan baju ropol cerah, cermin mata hitam kuning bersaiz besar dan beg galas rotan mini berhias payung koktel kertas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: Sir Shelldon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: Haiwan peliharaan VIP yang kaya raya memakai jubah sutera mewah, topi kapten bersulam emas dan barang kemas besar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: Papan Buah Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: Hirisan buah bertimbun sekelip mata.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: Papan Buah Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: Kiwi menggeletar bila papan ini keluar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: Pembuat Kon Rangup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: Kon panas dan rangup, lebih pantas sedikit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: Penekan Kon Emas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: Kon emas keluar, sentiasa rangup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: Pengisar Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: Beberapa pusingan pantas, buah jadi lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: Pusaran Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: Pusaran buah. Jangan buka penutup!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: Pencukur Ais Beku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: Ais lebih cepat jadi kepingan lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: Pencukur Kepingan Salji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: Kepingan salji lembut turun sekelip mata.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: Pengadun Shake Pantas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: Shake lebih cepat pekat dan berkrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: Pengadun Shake Super
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: Shake berkrim dengan pusaran super.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: Kiosk Aiskrim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: Kiosk kecil yang menyajikan hidangan sejuk di bawah mentari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: Kedai Aiskrim Tropika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: Lebih ruang untuk hidangan beku berwarna-warni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: Papan Tanda Capy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: Kapibara ceria menyambut peminat aiskrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: Menu Aiskrim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: Papan yang penuh dengan hidangan sejuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: Sengkuap Berjalur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: Sengkuap teduh dengan papan tanda ceria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: Kaunter Pencuci Mulut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: Buah, mesin pencuci mulut dan cawan sedia dihidang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: Tingkap Kedai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: Pintu mesra diapit tingkap yang terang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: Sudut Luncur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: Papan luncur, peti buah dan papan tanda pantai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: Kon dan Pelampung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: Kon gergasi dan pelampung membawa keceriaan pantai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: Peti Aiskrim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: Peti beku berwarna-warni memastikan aiskrim sejuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: Pelangi di Bumbung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: Pelangi terang di atas kedai aiskrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: Aiskrim Gergasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: Aiskrim gergasi di bumbung sebagai sentuhan terakhir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: Susu Kocak Gergasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: Susu kocak yang menjulang menghiasi bumbung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: Buah masuk, ribut smoothie sejuk keluar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: Siklon Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: Mengisar begitu laju hingga salji turun di kedai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: Pengisar Ribut Salji Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: Kon rangup keluar satu demi satu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: Pembuat Kon Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: Kon wafel keemasan pada kelajuan rekod.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: Tempa Wafel Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: Strawberi sudah dihiris sebelum sempat berkelip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: Papan Buah Samurai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: Satu hayunan, semangkuk topping penuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: Pisau Buah Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: Salji gebu sekelip mata. Ambil sudu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: Pengikis Ribut Salji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: Segunung ais kisar dalam satu nafas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: Pengikis Glasier Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: Milkshake pekat dan berkrim dalam satu pusaran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: Puting Beliung Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: Menggoncang begitu laju hingga straw mula menari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: Enjin Shake Legenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: Buah hijau berkrim untuk smoothie yang lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: Hirisan hijau lembut sedia untuk dikisar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: Adunan avokado segar yang lembut dan berkrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: Pisang ceria penuh kemanisan semula jadi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: Hirisan pisang manis sedia dikisar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: Adunan pisang masak yang pekat dan manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: Mengisar buah jadi smoothie lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: Beri kecil yang penuh rasa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: Adunan ungu cerah beri biru segar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: Ceri merah berkilat untuk hiasan atas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: Sirap merah manis untuk ais kacang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: Skup coklat pekat untuk peminat koko.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: Aiskrim Coklat sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: Sos coklat berkilat untuk dititis di atas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: Tempurung berbulu berisi isi manis tropika.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: Kepingan kelapa putih berperisa tropika.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: Adunan berkrim yang terasa seperti di pantai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: Adunan manis yang bakal jadi kon rangup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: Membakar adunan jadi kon rangup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: Memotong buah untuk hiasan dan smoothie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: Kon dihias ikut citarasa pelanggan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: Secawan aiskrim ikut pesanan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: Milkshake pekat perisa kegemaran pelanggan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: Ais lembut dengan sirap pilihan pelanggan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: Adunan buah yang dibuat ikut pesanan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: Skup ungu berperisa anggur yang segar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: Aiskrim Anggur sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: Sirap ungu manis untuk ais kacang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: Yogurt pekat dan masam untuk adunan lebih lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: Sirap hijau masam dengan rasa epal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: Ketulan ais yang mengekalkan kesejukan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: Menukar ais jadi salji lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: Buah berbulu dengan isi hijau terang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: Hirisan kiwi hijau berbintik biji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: Sirap kuning segar dengan rasa masam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: Skup keemasan penuh rasa mangga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: Aiskrim Mangga sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: Skup teh hijau yang manis lembut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: Aiskrim Matcha sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: Susu sejuk segar untuk minuman berkrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: Mengocak aiskrim dan susu hingga pekat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: Oren berjus penuh cahaya matahari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: Hirisan oren cerah sedia dikisar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: Adunan segar daripada oren segar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: Biskut rangup untuk hiasan atas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: Batang biskut rangup bersalut coklat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: Jeli kenyal dalam semua warna pelangi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: Ais lembut seperti salji, sedia untuk sirap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: Taburan berwarna untuk pesta di atas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: Beri merah manis bertopi daun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: Skup merah jambu berperisa beri asli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: Aiskrim Strawberi sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: Hirisan merah berjus sedia dikisar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: Adunan merah jambu strawberi segar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: Sos merah jambu manis untuk dititis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: Skup klasik berkrim kegemaran semua.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: Aiskrim Vanila sedia dikocak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: Kon keemasan rangup untuk aiskrim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: Pusaran krim manis yang gebu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: Kiub jeli lembut dengan manis yang ringan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: Avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: Hirisan Avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: Smoothie Avokado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: Pisang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: Hirisan Pisang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: Smoothie Pisang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: Pengisar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: Beri Biru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: Smoothie Beri Biru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: Ceri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: Sirap Ceri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: Aiskrim Coklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: Milkshake Coklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: Sos Coklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: Kelapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: Hirisan Kelapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: Smoothie Kelapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: Adunan Kon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: Pembuat Kon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: Papan Pemotong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: Aiskrim Kon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: Aiskrim Cawan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: Ais Kacang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: Aiskrim Anggur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: Milkshake Anggur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: Sirap Anggur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: Yogurt Greek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: Sirap Epal Hijau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: Ketulan Ais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: Mesin Ais Kacang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: Hirisan Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: Sirap Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: Aiskrim Mangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: Milkshake Mangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: Aiskrim Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: Milkshake Matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: Susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: Pengadun Milkshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: Oren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: Hirisan Oren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: Smoothie Oren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: Biskut Coklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: Batang Coklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: Jeli Pelangi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: Ais Parut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: Taburan Warna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: Aiskrim Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: Milkshake Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: Hirisan Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: Smoothie Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: Sos Strawberi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: Aiskrim Vanila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: Milkshake Vanila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: Kon Wafel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: Krim Putar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: Jeli Putih
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

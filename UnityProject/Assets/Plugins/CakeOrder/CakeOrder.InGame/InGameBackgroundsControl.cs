@@ -202,12 +202,28 @@ public class InGameBackgroundsControl : MonoBehaviour
 	{
 	}
 
-	[AsyncStateMachine(typeof(_003CSetUp_003Ed__16))]
-	public UniTask SetUp(WeatherEffect initWeatherEffect)
+	// Rebuilt: loads the prefab configured for the weather and parents it under the background container.
+	public async UniTask SetUp(WeatherEffect initWeatherEffect)
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-		return default(UniTask);
+		CurrentWeather = initWeatherEffect;
+		if (_configByWeathers == null) return;
+		BackgroundConfigByWeather config = null;
+		foreach (BackgroundConfigByWeather c in _configByWeathers)
+		{
+			if (c != null && c.weatherType == initWeatherEffect) { config = c; break; }
+		}
+		if (config == null && _configByWeathers.Length > 0) config = _configByWeathers[0];
+		if (config == null || config.assetBackgroundControl == null || !config.assetBackgroundControl.RuntimeKeyIsValid()) return;
+		config.opLoad = config.assetBackgroundControl.LoadAssetAsync<GameObject>();
+		await config.opLoad.Task;
+		GameObject prefab = config.opLoad.Result;
+		if (prefab == null) return;
+		Transform parent = _sharedData != null && _sharedData.backgroundContainer != null ? _sharedData.backgroundContainer : transform;
+		GameObject instance = Instantiate(prefab, parent);
+		config.spawnedBackgroundControl = instance.GetComponent<InGameSingleBackground>();
+		config.isShowing = true;
+		_currentWeatherTintSharedBgr = config.tintSharedBgr;
+		_currentWeatherTintTool = config.tintTool;
 	}
 
 	private void OnDestroy()

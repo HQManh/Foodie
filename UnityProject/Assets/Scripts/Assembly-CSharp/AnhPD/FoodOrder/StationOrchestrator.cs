@@ -63,12 +63,43 @@ namespace AnhPD.FoodOrder
 
 		public void TryStartProcess(InteractVector vector)
 		{
-			// TODO(unrecovered): needs the StationGroupView virtual calls (vtable +0x1a8 float duration query and +0x218 start call) and the AutoProcessor duration write-back; the view member signatures are not in the stubs.
+			if (vector.groupIndex < 0 || vector.interactIndex < 0) return;
+			if (_state.IsWorking) return;
+			StationInteractGroup group = _groups[vector.groupIndex];
+			if (group == null || !group.IsReadyToProcess()) return;
+			_state.Current = vector;
+			_state.IsWorking = true;
+			_onWorkingChanged?.Invoke(true);
+			StationGroupView view = group.View;
+			if (view != null)
+			{
+				float duration = view.GetProcessDuration(_processor.GetExecutionContext().duration);
+				if (duration > 0f) _processor.SetDuration(duration);
+			}
+			ExecutionContext ctx = _processor.GetExecutionContext();
+			group.OnProcessStart(ctx);
+			_processor.StartProcess(_progress, () => HandleComplete(true));
 		}
 
 		private void HandleComplete(bool success = true)
 		{
-			// TODO(unrecovered): completion VFX chain (PoolingParticle spawn via singleton lookups, ParticleRequest At/Volume/Play) is built from struct copies and singleton accessors that do not map cleanly to the stubs; not guessing.
+			int groupIndex = _state.Current.groupIndex;
+			if (groupIndex < 0 || groupIndex >= _groups.Length || _groups[groupIndex] == null) return;
+			if (!success)
+			{
+				DoReset(groupIndex);
+				return;
+			}
+			if (_state.IsResultSpawned)
+			{
+				_onComplete?.Invoke(groupIndex, true, 0);
+				DoReset(groupIndex);
+				return;
+			}
+			_pendingGroupIndex = groupIndex;
+			_batchStarted = false;
+			_pendingRemaining = Math.Max(1, _groups[groupIndex].GetResultNumber());
+			PumpPending();
 		}
 
 		private void PumpPending()

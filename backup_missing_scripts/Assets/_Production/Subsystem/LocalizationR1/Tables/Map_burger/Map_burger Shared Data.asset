@@ -1,0 +1,1603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_burger Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Map_burger
+  m_TableCollectionNameGuidString: 0fee8b437214f63449d23ad360257d32
+  m_Entries:
+  - m_Id: 57789920567296
+    m_Key: Desc_base
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518155
+  - m_Id: 57789949927424
+    m_Key: Desc_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518156
+  - m_Id: 57789949927425
+    m_Key: Desc_bear_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518157
+  - m_Id: 57789949927426
+    m_Key: Desc_beef_patty
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518158
+  - m_Id: 57789949927427
+    m_Key: Desc_beef_patty_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518159
+  - m_Id: 57789949927428
+    m_Key: Desc_board_small
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518160
+  - m_Id: 57789949927429
+    m_Key: Desc_board_tall
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518161
+  - m_Id: 57789949927430
+    m_Key: Desc_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518162
+  - m_Id: 57789949927431
+    m_Key: Desc_burger_0_griddle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518163
+  - m_Id: 57789949927432
+    m_Key: Desc_burger_1_coca_machine
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518164
+  - m_Id: 57789949927433
+    m_Key: Desc_burger_2_cutting_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518165
+  - m_Id: 57789949927434
+    m_Key: Desc_burger_bun
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518166
+  - m_Id: 57789949927435
+    m_Key: Desc_burger_bun_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518167
+  - m_Id: 57789949927436
+    m_Key: Desc_burger_bun_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518168
+  - m_Id: 57789949927437
+    m_Key: Desc_burger_tray
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518169
+  - m_Id: 57789949927438
+    m_Key: Desc_canopy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518170
+  - m_Id: 57789949927439
+    m_Key: Desc_cat_chill
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518171
+  - m_Id: 57789949927440
+    m_Key: Desc_cat_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518172
+  - m_Id: 57789949927441
+    m_Key: Desc_cheese
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518173
+  - m_Id: 57789949927442
+    m_Key: Desc_cheese_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518174
+  - m_Id: 57789949927443
+    m_Key: Desc_cheese_sauce
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518175
+  - m_Id: 57789949927444
+    m_Key: Desc_chicken_breast_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518176
+  - m_Id: 57789949927445
+    m_Key: Desc_chicken_breast_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518177
+  - m_Id: 57789949927446
+    m_Key: Desc_chicken_kfc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518178
+  - m_Id: 57789949927447
+    m_Key: Desc_chicken_nugget_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518179
+  - m_Id: 57789949927448
+    m_Key: Desc_chicken_nugget_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518180
+  - m_Id: 57789949927449
+    m_Key: Desc_chicken_thigh_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518181
+  - m_Id: 57789949927450
+    m_Key: Desc_chicken_thigh_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518182
+  - m_Id: 57789949927451
+    m_Key: Desc_chicken_wing_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518183
+  - m_Id: 57789949927452
+    m_Key: Desc_chicken_wing_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518184
+  - m_Id: 57789949927453
+    m_Key: Desc_chili_powder
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518185
+  - m_Id: 57789949927454
+    m_Key: Desc_chives
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518186
+  - m_Id: 57789949927455
+    m_Key: Desc_chives_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518187
+  - m_Id: 57789949927456
+    m_Key: Desc_cup
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518188
+  - m_Id: 57789949927457
+    m_Key: Desc_cup_coca
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518189
+  - m_Id: 57789949927458
+    m_Key: Desc_cup_coca_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518190
+  - m_Id: 57789949927459
+    m_Key: Desc_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518191
+  - m_Id: 57789949927460
+    m_Key: Desc_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518192
+  - m_Id: 57789949927461
+    m_Key: Desc_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518193
+  - m_Id: 57789949927462
+    m_Key: Desc_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518194
+  - m_Id: 57789949927463
+    m_Key: Desc_dog_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518195
+  - m_Id: 57789949927464
+    m_Key: Desc_egg
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518196
+  - m_Id: 57789949927465
+    m_Key: Desc_egg_fried
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518197
+  - m_Id: 57789949927466
+    m_Key: Desc_ff_0_deep_fryer
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518198
+  - m_Id: 57789949927467
+    m_Key: Desc_ff_6_bowl_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518199
+  - m_Id: 57789949927468
+    m_Key: Desc_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518200
+  - m_Id: 57789949927469
+    m_Key: Desc_kfc_combo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518201
+  - m_Id: 57789949927470
+    m_Key: Desc_lettuce
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518202
+  - m_Id: 57789949927471
+    m_Key: Desc_lettuce_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518203
+  - m_Id: 57789949927472
+    m_Key: Desc_lettuce_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518204
+  - m_Id: 57789949927473
+    m_Key: Desc_light
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518205
+  - m_Id: 57789949927474
+    m_Key: Desc_logo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518206
+  - m_Id: 57789949927475
+    m_Key: Desc_pig_boss
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518207
+  - m_Id: 57789949927476
+    m_Key: Desc_pot
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518208
+  - m_Id: 57789949927477
+    m_Key: Desc_potato
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518209
+  - m_Id: 57789949927478
+    m_Key: Desc_potato_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518210
+  - m_Id: 57789949927479
+    m_Key: Desc_potato_fried
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518211
+  - m_Id: 57789949927480
+    m_Key: Desc_potato_fried_cheese
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518212
+  - m_Id: 57789949927481
+    m_Key: Desc_rabbit_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518213
+  - m_Id: 57789949927482
+    m_Key: Desc_rat_shipper
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518214
+  - m_Id: 57789949927483
+    m_Key: Desc_red_onion
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518215
+  - m_Id: 57789949927484
+    m_Key: Desc_red_onion_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518216
+  - m_Id: 57789949927485
+    m_Key: Desc_roof_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518217
+  - m_Id: 57789949927486
+    m_Key: Desc_sign
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518218
+  - m_Id: 57789949927487
+    m_Key: Desc_sign_pole
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518219
+  - m_Id: 57789949927488
+    m_Key: Desc_tomato
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518220
+  - m_Id: 57789949927489
+    m_Key: Desc_tomato_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518221
+  - m_Id: 57789949927490
+    m_Key: Desc_vine
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518222
+  - m_Id: 57789949927491
+    m_Key: Title_base_lv2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518223
+  - m_Id: 57789949927492
+    m_Key: Title_bear_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518224
+  - m_Id: 57789949927493
+    m_Key: Title_beef_patty
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518225
+  - m_Id: 57789949927494
+    m_Key: Title_beef_patty_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518226
+  - m_Id: 57789949927495
+    m_Key: Title_board_small
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518227
+  - m_Id: 57789949927496
+    m_Key: Title_board_tall
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518228
+  - m_Id: 57789949927497
+    m_Key: Title_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518229
+  - m_Id: 57789949927498
+    m_Key: Title_burger_0_griddle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518230
+  - m_Id: 57789949927499
+    m_Key: Title_burger_1_coca_machine
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518231
+  - m_Id: 57789949927500
+    m_Key: Title_burger_2_cutting_board
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518232
+  - m_Id: 57789949927501
+    m_Key: Title_burger_bun
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518233
+  - m_Id: 57789949927502
+    m_Key: Title_burger_bun_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518234
+  - m_Id: 57789949927503
+    m_Key: Title_burger_bun_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518235
+  - m_Id: 57789949927504
+    m_Key: Title_burger_tray
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518236
+  - m_Id: 57789949927505
+    m_Key: Title_canopy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518237
+  - m_Id: 57789949927506
+    m_Key: Title_cat_chill
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518238
+  - m_Id: 57789949927507
+    m_Key: Title_cat_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518239
+  - m_Id: 57789949927508
+    m_Key: Title_cheese
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518240
+  - m_Id: 57789949927509
+    m_Key: Title_cheese_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518241
+  - m_Id: 57789949927510
+    m_Key: Title_cheese_sauce
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518242
+  - m_Id: 57789949927511
+    m_Key: Title_chicken_breast_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518243
+  - m_Id: 57789949927512
+    m_Key: Title_chicken_breast_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518244
+  - m_Id: 57789949927513
+    m_Key: Title_chicken_kfc
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518245
+  - m_Id: 57789949927514
+    m_Key: Title_chicken_nugget_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518246
+  - m_Id: 57789949927515
+    m_Key: Title_chicken_nugget_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518247
+  - m_Id: 57789949927516
+    m_Key: Title_chicken_thigh_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518248
+  - m_Id: 57789949927517
+    m_Key: Title_chicken_thigh_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518249
+  - m_Id: 57789949927518
+    m_Key: Title_chicken_wing_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518250
+  - m_Id: 57789949927519
+    m_Key: Title_chicken_wing_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518251
+  - m_Id: 57789949927520
+    m_Key: Title_chili_powder
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518252
+  - m_Id: 57789949927521
+    m_Key: Title_chives
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518253
+  - m_Id: 57789949927522
+    m_Key: Title_chives_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518254
+  - m_Id: 57789949927523
+    m_Key: Title_cup
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518255
+  - m_Id: 57789949927524
+    m_Key: Title_cup_coca
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518256
+  - m_Id: 57789949927525
+    m_Key: Title_cup_coca_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518257
+  - m_Id: 57789949927526
+    m_Key: Title_dish_1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518258
+  - m_Id: 57789949927527
+    m_Key: Title_dish_2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518259
+  - m_Id: 57789949927528
+    m_Key: Title_dish_3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518260
+  - m_Id: 57789949927529
+    m_Key: Title_dish_4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518261
+  - m_Id: 57789949927530
+    m_Key: Title_dog_boy
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518262
+  - m_Id: 57789949927531
+    m_Key: Title_egg
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518263
+  - m_Id: 57789949927532
+    m_Key: Title_egg_fried
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518264
+  - m_Id: 57789949927533
+    m_Key: Title_ff_0_deep_fryer
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518265
+  - m_Id: 57789949927534
+    m_Key: Title_ff_6_bowl_coating
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518266
+  - m_Id: 57789949927535
+    m_Key: Title_ice
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518267
+  - m_Id: 57789949927536
+    m_Key: Title_kfc_combo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518268
+  - m_Id: 57789949927537
+    m_Key: Title_lettuce
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518269
+  - m_Id: 57789949927538
+    m_Key: Title_lettuce_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518270
+  - m_Id: 57789949927539
+    m_Key: Title_lettuce_raw
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518271
+  - m_Id: 57789949927540
+    m_Key: Title_light
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518272
+  - m_Id: 57789949927541
+    m_Key: Title_logo
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518273
+  - m_Id: 57789949927542
+    m_Key: Title_pig_boss
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518274
+  - m_Id: 57789949927543
+    m_Key: Title_pot
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518275
+  - m_Id: 57789949927544
+    m_Key: Title_potato
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518276
+  - m_Id: 57789949927545
+    m_Key: Title_potato_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518277
+  - m_Id: 57789949927546
+    m_Key: Title_potato_fried
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518278
+  - m_Id: 57789949927547
+    m_Key: Title_potato_fried_cheese
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518279
+  - m_Id: 57789949927548
+    m_Key: Title_rabbit_cute
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518280
+  - m_Id: 57789949927549
+    m_Key: Title_rat_shipper
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518281
+  - m_Id: 57789949927550
+    m_Key: Title_red_onion
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518282
+  - m_Id: 57789949927551
+    m_Key: Title_red_onion_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518283
+  - m_Id: 57789949927552
+    m_Key: Title_roof_burger
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518284
+  - m_Id: 57789949927553
+    m_Key: Title_sign
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518285
+  - m_Id: 57789949927554
+    m_Key: Title_sign_pole
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518286
+  - m_Id: 57789949927555
+    m_Key: Title_tomato
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518287
+  - m_Id: 57789949927556
+    m_Key: Title_tomato_cut
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518288
+  - m_Id: 57789949927557
+    m_Key: Title_vine
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518289
+  - m_Id: 3010520264204288
+    m_Key: Desc_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366455
+  - m_Id: 3010520297758720
+    m_Key: Desc_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366456
+  - m_Id: 3010520297758721
+    m_Key: Desc_coca-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366457
+  - m_Id: 3010520297758722
+    m_Key: Desc_coca-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366458
+  - m_Id: 3010520297758723
+    m_Key: Desc_flour-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366459
+  - m_Id: 3010520297758724
+    m_Key: Desc_flour-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366460
+  - m_Id: 3010520297758725
+    m_Key: Desc_fryer-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366461
+  - m_Id: 3010520297758726
+    m_Key: Desc_fryer-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366462
+  - m_Id: 3010520297758727
+    m_Key: Desc_griddle-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366463
+  - m_Id: 3010520297758728
+    m_Key: Desc_griddle-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366464
+  - m_Id: 3010520297758729
+    m_Key: Title_board-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366465
+  - m_Id: 3010520297758730
+    m_Key: Title_board-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366466
+  - m_Id: 3010520297758731
+    m_Key: Title_coca-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366467
+  - m_Id: 3010520297758732
+    m_Key: Title_coca-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366468
+  - m_Id: 3010520297758733
+    m_Key: Title_flour-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366469
+  - m_Id: 3010520297758734
+    m_Key: Title_flour-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366470
+  - m_Id: 3010520297758735
+    m_Key: Title_fryer-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366471
+  - m_Id: 3010520297758736
+    m_Key: Title_fryer-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366472
+  - m_Id: 3010520297758737
+    m_Key: Title_griddle-lv2
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366473
+  - m_Id: 3010520297758738
+    m_Key: Title_griddle-lv3
+    m_Metadata:
+      m_Items:
+      - rid: 8515899034614366474
+  - m_Id: 8069138441297920
+    m_Key: Desc_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150348
+  - m_Id: 8069138487435264
+    m_Key: Title_board-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150349
+  - m_Id: 8069138491629568
+    m_Key: Desc_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150350
+  - m_Id: 8069138491629569
+    m_Key: Title_board-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150351
+  - m_Id: 8069138491629570
+    m_Key: Desc_coca-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150352
+  - m_Id: 8069138491629571
+    m_Key: Title_coca-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150353
+  - m_Id: 8069138491629572
+    m_Key: Desc_coca-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150354
+  - m_Id: 8069138491629573
+    m_Key: Title_coca-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150355
+  - m_Id: 8069138491629574
+    m_Key: Desc_flour-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150356
+  - m_Id: 8069138495823872
+    m_Key: Title_flour-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150357
+  - m_Id: 8069138495823873
+    m_Key: Desc_flour-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150358
+  - m_Id: 8069138495823874
+    m_Key: Title_flour-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150359
+  - m_Id: 8069138495823875
+    m_Key: Desc_fryer-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150360
+  - m_Id: 8069138495823876
+    m_Key: Title_fryer-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150361
+  - m_Id: 8069138495823877
+    m_Key: Desc_fryer-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150362
+  - m_Id: 8069138495823878
+    m_Key: Title_fryer-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150363
+  - m_Id: 8069138495823879
+    m_Key: Desc_griddle-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150364
+  - m_Id: 8069138495823880
+    m_Key: Title_griddle-lv4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150365
+  - m_Id: 8069138500018176
+    m_Key: Desc_griddle-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150366
+  - m_Id: 8069138500018177
+    m_Key: Title_griddle-lv5
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150367
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859023
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859023
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230174855
+    - rid: 4117827729675518155
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-base (description)
+    - rid: 4117827729675518156
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-base_lv2 (description)
+    - rid: 4117827729675518157
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bear_cute (description)
+    - rid: 4117827729675518158
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_beef_patty (description)
+    - rid: 4117827729675518159
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_beef_patty_raw (description)
+    - rid: 4117827729675518160
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-board_small (description)
+    - rid: 4117827729675518161
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-board_tall (description)
+    - rid: 4117827729675518162
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger (description)
+    - rid: 4117827729675518163
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_griddle (description)
+    - rid: 4117827729675518164
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_coca (description)
+    - rid: 4117827729675518165
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_cutting_board (description)
+    - rid: 4117827729675518166
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun (description)
+    - rid: 4117827729675518167
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun_cut (description)
+    - rid: 4117827729675518168
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun_raw (description)
+    - rid: 4117827729675518169
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_tray (description)
+    - rid: 4117827729675518170
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-canopy (description)
+    - rid: 4117827729675518171
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cat_chill (description)
+    - rid: 4117827729675518172
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cat_cute (description)
+    - rid: 4117827729675518173
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cheese (description)
+    - rid: 4117827729675518174
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cheese_cut (description)
+    - rid: 4117827729675518175
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cheese_sauce (description)
+    - rid: 4117827729675518176
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_breast_coating (description)
+    - rid: 4117827729675518177
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_breast_raw (description)
+    - rid: 4117827729675518178
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_kfc (description)
+    - rid: 4117827729675518179
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_nugget_coating (description)
+    - rid: 4117827729675518180
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_nugget_raw (description)
+    - rid: 4117827729675518181
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_thigh_coating (description)
+    - rid: 4117827729675518182
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_thigh_raw (description)
+    - rid: 4117827729675518183
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_wing_coating (description)
+    - rid: 4117827729675518184
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_wing_raw (description)
+    - rid: 4117827729675518185
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chili_powder (description)
+    - rid: 4117827729675518186
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chives (description)
+    - rid: 4117827729675518187
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chives_cut (description)
+    - rid: 4117827729675518188
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup (description)
+    - rid: 4117827729675518189
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup_coca (description)
+    - rid: 4117827729675518190
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup_coca_ice (description)
+    - rid: 4117827729675518191
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[0] (description)
+    - rid: 4117827729675518192
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[1] (description)
+    - rid: 4117827729675518193
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[2] (description)
+    - rid: 4117827729675518194
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[3] (description)
+    - rid: 4117827729675518195
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-dog_boy (description)
+    - rid: 4117827729675518196
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_egg (description)
+    - rid: 4117827729675518197
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_egg_fried (description)
+    - rid: 4117827729675518198
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_deep_fryer (description)
+    - rid: 4117827729675518199
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_bowl_coating (description)
+    - rid: 4117827729675518200
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_ice (description)
+    - rid: 4117827729675518201
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_kfc_combo (description)
+    - rid: 4117827729675518202
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce (description)
+    - rid: 4117827729675518203
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce_cut (description)
+    - rid: 4117827729675518204
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce_raw (description)
+    - rid: 4117827729675518205
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-light (description)
+    - rid: 4117827729675518206
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-logo (description)
+    - rid: 4117827729675518207
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-pig_boss (description)
+    - rid: 4117827729675518208
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-pot (description)
+    - rid: 4117827729675518209
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato (description)
+    - rid: 4117827729675518210
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_cut (description)
+    - rid: 4117827729675518211
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_fried (description)
+    - rid: 4117827729675518212
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_fried_cheese (description)
+    - rid: 4117827729675518213
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-rabbit_cute (description)
+    - rid: 4117827729675518214
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-rat_shipper (description)
+    - rid: 4117827729675518215
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_red_onion (description)
+    - rid: 4117827729675518216
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_red_onion_cut (description)
+    - rid: 4117827729675518217
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-roof_burger (description)
+    - rid: 4117827729675518218
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-sign (description)
+    - rid: 4117827729675518219
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-sign_pole (description)
+    - rid: 4117827729675518220
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_tomato (description)
+    - rid: 4117827729675518221
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_tomato_cut (description)
+    - rid: 4117827729675518222
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-vine (description)
+    - rid: 4117827729675518223
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-base_lv2 (name)
+    - rid: 4117827729675518224
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-bear_cute (name)
+    - rid: 4117827729675518225
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_beef_patty (name)
+    - rid: 4117827729675518226
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_beef_patty_raw (name)
+    - rid: 4117827729675518227
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-board_small (name)
+    - rid: 4117827729675518228
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-board_tall (name)
+    - rid: 4117827729675518229
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger (name)
+    - rid: 4117827729675518230
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_griddle (name)
+    - rid: 4117827729675518231
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_coca (name)
+    - rid: 4117827729675518232
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_cutting_board (name)
+    - rid: 4117827729675518233
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun (name)
+    - rid: 4117827729675518234
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun_cut (name)
+    - rid: 4117827729675518235
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_burger_bun_raw (name)
+    - rid: 4117827729675518236
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_tray (name)
+    - rid: 4117827729675518237
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-canopy (name)
+    - rid: 4117827729675518238
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cat_chill (name)
+    - rid: 4117827729675518239
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-cat_cute (name)
+    - rid: 4117827729675518240
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cheese (name)
+    - rid: 4117827729675518241
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO cheese_cut (name)
+    - rid: 4117827729675518242
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cheese_sauce (name)
+    - rid: 4117827729675518243
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_breast_coating (name)
+    - rid: 4117827729675518244
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_breast_raw (name)
+    - rid: 4117827729675518245
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_kfc (name)
+    - rid: 4117827729675518246
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_nugget_coating (name)
+    - rid: 4117827729675518247
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_nugget_raw (name)
+    - rid: 4117827729675518248
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_thigh_coating (name)
+    - rid: 4117827729675518249
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_thigh_raw (name)
+    - rid: 4117827729675518250
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_wing_coating (name)
+    - rid: 4117827729675518251
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chicken_wing_raw (name)
+    - rid: 4117827729675518252
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chili_powder (name)
+    - rid: 4117827729675518253
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chives (name)
+    - rid: 4117827729675518254
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_chives_cut (name)
+    - rid: 4117827729675518255
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup (name)
+    - rid: 4117827729675518256
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup_coca (name)
+    - rid: 4117827729675518257
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_cup_coca_ice (name)
+    - rid: 4117827729675518258
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[0] (name)
+    - rid: 4117827729675518259
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[1] (name)
+    - rid: 4117827729675518260
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[2] (name)
+    - rid: 4117827729675518261
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: Dish RecipeConfigSO-burger[3] (name)
+    - rid: 4117827729675518262
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-dog_boy (name)
+    - rid: 4117827729675518263
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_egg (name)
+    - rid: 4117827729675518264
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_egg_fried (name)
+    - rid: 4117827729675518265
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_deep_fryer (name)
+    - rid: 4117827729675518266
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeToolSO Tool_bowl_coating (name)
+    - rid: 4117827729675518267
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_ice (name)
+    - rid: 4117827729675518268
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_kfc_combo (name)
+    - rid: 4117827729675518269
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce (name)
+    - rid: 4117827729675518270
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce_cut (name)
+    - rid: 4117827729675518271
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_lettuce_raw (name)
+    - rid: 4117827729675518272
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-light (name)
+    - rid: 4117827729675518273
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-logo (name)
+    - rid: 4117827729675518274
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-pig_boss (name)
+    - rid: 4117827729675518275
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-pot (name)
+    - rid: 4117827729675518276
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato (name)
+    - rid: 4117827729675518277
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_cut (name)
+    - rid: 4117827729675518278
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_fried (name)
+    - rid: 4117827729675518279
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_potato_fried_cheese (name)
+    - rid: 4117827729675518280
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-rabbit_cute (name)
+    - rid: 4117827729675518281
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeCharacterSO Character-rat_shipper (name)
+    - rid: 4117827729675518282
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_red_onion (name)
+    - rid: 4117827729675518283
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_red_onion_cut (name)
+    - rid: 4117827729675518284
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-roof_burger (name)
+    - rid: 4117827729675518285
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-sign (name)
+    - rid: 4117827729675518286
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-sign_pole (name)
+    - rid: 4117827729675518287
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_tomato (name)
+    - rid: 4117827729675518288
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: CakeIngredientSO Ingredient_tomato_cut (name)
+    - rid: 4117827729675518289
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-vine (name)
+    - rid: 5047051213734150348
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv4 (description)
+    - rid: 5047051213734150349
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv4 (name)
+    - rid: 5047051213734150350
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv5 (description)
+    - rid: 5047051213734150351
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv5 (name)
+    - rid: 5047051213734150352
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv4 (description)
+    - rid: 5047051213734150353
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv4 (name)
+    - rid: 5047051213734150354
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv5 (description)
+    - rid: 5047051213734150355
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv5 (name)
+    - rid: 5047051213734150356
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv4 (description)
+    - rid: 5047051213734150357
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv4 (name)
+    - rid: 5047051213734150358
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv5 (description)
+    - rid: 5047051213734150359
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv5 (name)
+    - rid: 5047051213734150360
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv4 (description)
+    - rid: 5047051213734150361
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv4 (name)
+    - rid: 5047051213734150362
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv5 (description)
+    - rid: 5047051213734150363
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv5 (name)
+    - rid: 5047051213734150364
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv4 (description)
+    - rid: 5047051213734150365
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv4 (name)
+    - rid: 5047051213734150366
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv5 (description)
+    - rid: 5047051213734150367
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv5 (name)
+    - rid: 8515899034614366455
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv2 (description)
+    - rid: 8515899034614366456
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv3 (description)
+    - rid: 8515899034614366457
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv2 (description)
+    - rid: 8515899034614366458
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv3 (description)
+    - rid: 8515899034614366459
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv2 (description)
+    - rid: 8515899034614366460
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv3 (description)
+    - rid: 8515899034614366461
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv2 (description)
+    - rid: 8515899034614366462
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv3 (description)
+    - rid: 8515899034614366463
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv2 (description)
+    - rid: 8515899034614366464
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv3 (description)
+    - rid: 8515899034614366465
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv2 (name)
+    - rid: 8515899034614366466
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-board-lv3 (name)
+    - rid: 8515899034614366467
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv2 (name)
+    - rid: 8515899034614366468
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-coca-lv3 (name)
+    - rid: 8515899034614366469
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv2 (name)
+    - rid: 8515899034614366470
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-flour-lv3 (name)
+    - rid: 8515899034614366471
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv2 (name)
+    - rid: 8515899034614366472
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-fryer-lv3 (name)
+    - rid: 8515899034614366473
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv2 (name)
+    - rid: 8515899034614366474
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: BuildingUpgradePartSO UpgradePart-burger-tool-griddle-lv3 (name)

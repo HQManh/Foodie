@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_sushi_ru-RU
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru-RU
+  m_SharedData: {fileID: 11400000, guid: 6661c9f2ba46546428a729e8cde76aa0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57786321854464
+    m_Localized: Яркие шары делают каждую подачу суши праздничной.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214592
+    m_Localized: Тот самый первый суши-ресторан.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214593
+    m_Localized: Ресторан побольше, готовый к новым суши-улучшениям.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214594
+    m_Localized: Аккуратно подстриженный бонсай добавляет спокойный зелёный акцент.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214595
+    m_Localized: Дружелюбная вывеска-капибара для фасада.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214596
+    m_Localized: Приветливая кошка, зазывающая посетителей лапкой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214597
+    m_Localized: Полная витрина с лучшими блюдами ресторана.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214598
+    m_Localized: Разделочная доска на крыше, полная суши и роллов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214599
+    m_Localized: Яркие флажки и навесы украшают фасад ресторана.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214600
+    m_Localized: Изящная гостья-кицунэ, заказывающая суши с театральной грацией.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214601
+    m_Localized: Эта голубая коза обожает матчу и тренирует жизнерадостные манеры за столом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214602
+    m_Localized: Прилежно изучает меню, но всё равно меняет обед на эвкалипт.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214603
+    m_Localized: Храбрый маленький шиши, вызывающий на дуэль каждый ролл.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214604
+    m_Localized: Традиционная крыша, добавляющая ресторану ещё один ярус.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214605
+    m_Localized: Сиба-ёкодзуна, для которого каждое блюдо суши — бой за титул.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214606
+    m_Localized: Удобные табуреты для любителей суши.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214607
+    m_Localized: Волк-оябун говорит тихо и держит суши-стойку одним взглядом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214608
+    m_Localized: Праздничные шары
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214609
+    m_Localized: Суши-расширение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214610
+    m_Localized: Сад бонсай
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214611
+    m_Localized: Вывеска-капибара
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214612
+    m_Localized: Кошка удачи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214613
+    m_Localized: Витрина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214614
+    m_Localized: Доска для суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214615
+    m_Localized: Суши-флажки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214616
+    m_Localized: Кицунэ Одзё
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214617
+    m_Localized: Аой Яги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214618
+    m_Localized: Коала-семпай
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214619
+    m_Localized: Шиши-кун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214620
+    m_Localized: Крыша второго этажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214621
+    m_Localized: Сиба-ёкодзуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214622
+    m_Localized: Суши-табуреты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214623
+    m_Localized: Оками-оябун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214624
+    m_Localized: Нигири-суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214625
+    m_Localized: Слепленный вручную рис под ломтиком рыбы, словно под маленьким одеялом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214626
+    m_Localized: Маки-ролл
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214627
+    m_Localized: Туго свёрнут в нори и нарезан, пока никто не успел заглянуть внутрь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214628
+    m_Localized: Гункан-суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214629
+    m_Localized: Маленькая лодочка из нори, доверху полная начинки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214630
+    m_Localized: Тарелка сашими
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214631
+    m_Localized: Свежая рыба, нарезанная тонко, ей негде спрятаться.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214632
+    m_Localized: Зелёный чай
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57786351214633
+    m_Localized: Тёплый и спокойный, чтобы смыть остроту васаби.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767655333888
+    m_Localized: Приветливая кошка, зазывающая посетителей лапкой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916800
+    m_Localized: Удобные табуреты для любителей суши.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916801
+    m_Localized: Светящиеся бумажные фонарики освещают ресторан.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916802
+    m_Localized: Дружелюбная вывеска-капибара для фасада.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767667916803
+    m_Localized: Дружелюбная вывеска-капибара для фасада.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111104
+    m_Localized: Огромный тунец на крыше гордо демонстрирует свежий улов дня.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111105
+    m_Localized: Разделочная доска на крыше, полная суши и роллов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111106
+    m_Localized: Кошка удачи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111107
+    m_Localized: Суши-табуреты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111108
+    m_Localized: Бумажные фонарики
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111109
+    m_Localized: Вывеска-капибара
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111110
+    m_Localized: Вывеска-капибара
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111111
+    m_Localized: Гигантский тунец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2945767672111112
+    m_Localized: Доска для суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516803903488
+    m_Localized: Овощи нарезаны быстрее, чем успеешь моргнуть.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069312
+    m_Localized: Лезвия так быстры, что огурцы сдаются заранее.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069313
+    m_Localized: Нарезает сырую рыбу с особой нежностью сашими.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069314
+    m_Localized: Каждый разрез — произведение искусства. Рыбы чувствуют себя польщёнными.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069315
+    m_Localized: Рассыпчатый рис в мгновение ока. Зёрнышки выстраиваются в очередь, чтобы свариться.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069316
+    m_Localized: Рис настолько идеален, что достоин оваций стоя.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069318
+    m_Localized: Трёт васаби со скоростью молнии. Слёзы по желанию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069319
+    m_Localized: Трёт так быстро, что васаби и не заметило.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069322
+    m_Localized: Варит вкуснятину быстрее, чем скажешь «умами».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069323
+    m_Localized: Булькающая легенда, готовящая на варп-скорости.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263617
+    m_Localized: Горячий чай в один миг. Гости спокойно потягивают.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263618
+    m_Localized: Наливает идеальный чай и душевный покой за один раз.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263619
+    m_Localized: Шустрая доска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263620
+    m_Localized: Доска ниндзя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263621
+    m_Localized: Острая рыбная доска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263622
+    m_Localized: Доска мастера сашими
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263623
+    m_Localized: Турбо-рисоварка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263624
+    m_Localized: Мега-рисоварка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263626
+    m_Localized: Шустрая тёрка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263627
+    m_Localized: Вихрь васаби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263630
+    m_Localized: Быстрая кастрюля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263631
+    m_Localized: Котёл умами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263633
+    m_Localized: Чайник быстрой заварки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263634
+    m_Localized: Чайник мастера дзен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069317
+    m_Localized: Яркий синий флаг с суши привлекает каждый голодный взгляд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069320
+    m_Localized: Прохладная синяя занавеска норен мягко колышется над входом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516829069321
+    m_Localized: Яркая красная занавеска норен встречает голодных гостей у двери.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263616
+    m_Localized: Каменный фонарь, поросший мхом, приносит немного храмового спокойствия.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263625
+    m_Localized: Флаг суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263628
+    m_Localized: Синий норен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263629
+    m_Localized: Красный норен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010516833263632
+    m_Localized: Каменная святыня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103830462464
+    m_Localized: Нарезает свежую рыбу нежными ломтиками сашими.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433984
+    m_Localized: Превращает хрустящие овощи в аккуратную соломку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433985
+    m_Localized: Натирает васаби в острый зелёный сюрприз.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433986
+    m_Localized: Томит бульон до тёплой уютной миски.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433987
+    m_Localized: Готовит рис на пару в пышное, клейкое суши-золото.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433988
+    m_Localized: Заваривает зелёный чай — спокойствие в каждом глотке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433989
+    m_Localized: Тёрка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433990
+    m_Localized: Кастрюля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433991
+    m_Localized: Рисоварка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5836103851433992
+    m_Localized: Чайник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867052983115776
+    m_Localized: Сливочный авокадо — любимый подарок Запада суши.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281600
+    m_Localized: Мягкие зелёные кубики для ролла.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053008281601
+    m_Localized: Шелковистые ломтики ложатся на рис, как кимоно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475904
+    m_Localized: Пустая чашка ждёт неспешно налитого чая.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475905
+    m_Localized: Взбитый зелёный чай, спокойный, как сад в Киото.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475906
+    m_Localized: Маленькие золотые кубики сладкого омлета.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475907
+    m_Localized: Сладкий омлет-рулет, слой за слоем с терпением.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475908
+    m_Localized: Золотистые ломтики яичного рулета, сладкие и мягкие.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475909
+    m_Localized: Плоская белая рыба, любимица мастеров суши.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475910
+    m_Localized: Нежные кубики камбалы для лёгкого перекуса.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475911
+    m_Localized: Нежные белые ломтики, почти прозрачные.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475912
+    m_Localized: Блестящая серебристая рыба со вкусом океана.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475913
+    m_Localized: Скумбрия на один укус, готова для ролла.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475914
+    m_Localized: Глянцевые ломтики с ярким, насыщенным вкусом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475915
+    m_Localized: Ярко-оранжевое филе прямо из холодных вод.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475916
+    m_Localized: Кубики лосося, чтобы украсить маленькую лодочку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475917
+    m_Localized: Нежные, как масло, ломтики лосося тают на языке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475918
+    m_Localized: Тёмно-красный тунец, король рыбного рынка.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475919
+    m_Localized: Кубики тунца для смелого, мясистого укуса.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475920
+    m_Localized: Рубиновые ломтики, нарезанные ножом мастера.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475921
+    m_Localized: Лодочка из нори с тем, что пожелает гость.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475922
+    m_Localized: Ролл, сделанный точно по вкусу гостя.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475923
+    m_Localized: Рис, слепленный руками, с любимым топпингом гостя.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475924
+    m_Localized: Тарелка свежих ломтиков на заказ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475925
+    m_Localized: Яркий лимон, пробуждающий каждый кусочек.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475926
+    m_Localized: Тонкие дольки лимона оживляют рыбу.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475927
+    m_Localized: Сливочный японский майонез с лёгкой кислинкой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475928
+    m_Localized: 'Сырой осьминог: щупалец много, планов нет.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475929
+    m_Localized: Сварен розовым и нежным, ждёт ножа.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475930
+    m_Localized: Кусочки осьминога, как такояки без шарика.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475931
+    m_Localized: Тонкие ломтики тако с упругим шармом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475932
+    m_Localized: Короткозёрный рис, отшлифован и ждёт своей ванны.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475933
+    m_Localized: Пышный рис с уксусом — душа любого суши.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475934
+    m_Localized: Крошечные оранжевые жемчужинки лопаются на зубах.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475935
+    m_Localized: Хрустящая икра летучей рыбы, сверкающая как драгоценности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475936
+    m_Localized: Крупная блестящая икра лосося, взрывающаяся вкусом моря.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475937
+    m_Localized: Хрустящие поджаренные листы водорослей, готовые к заворачиванию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475938
+    m_Localized: Ароматный лист с освежающей мятной ноткой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475939
+    m_Localized: Сырая креветка, свернувшаяся вопросительным знаком.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475940
+    m_Localized: Сварена розовой и гордой, ждёт риса.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475941
+    m_Localized: Креветки на один укус для ролла.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475942
+    m_Localized: Раскрыта веером для идеального нигири.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475943
+    m_Localized: Листья зелёного чая с туманных склонов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475944
+    m_Localized: Корявый корень с печально известным острым нравом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475945
+    m_Localized: Зелёная капля жгучести, прочищающая нос.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475946
+    m_Localized: Свежая вода, готовая стать чаем.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475947
+    m_Localized: Авокадо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475948
+    m_Localized: Авокадо кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475949
+    m_Localized: Авокадо ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475950
+    m_Localized: Чашка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475951
+    m_Localized: Матча
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475952
+    m_Localized: Рыбная доска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475953
+    m_Localized: Овощная доска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475954
+    m_Localized: Тамагояки кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475955
+    m_Localized: Тамагояки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475956
+    m_Localized: Тамагояки ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475957
+    m_Localized: Камбала
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475958
+    m_Localized: Камбала кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475959
+    m_Localized: Камбала ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475960
+    m_Localized: Скумбрия
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475961
+    m_Localized: Скумбрия кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475962
+    m_Localized: Скумбрия ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475963
+    m_Localized: Лосось
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475964
+    m_Localized: Лосось кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475965
+    m_Localized: Лосось ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475966
+    m_Localized: Тунец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475967
+    m_Localized: Тунец кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475968
+    m_Localized: Тунец ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475969
+    m_Localized: Гункан-суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475970
+    m_Localized: Маки-ролл
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475971
+    m_Localized: Нигири-суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053012475972
+    m_Localized: Тарелка сашими
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670208
+    m_Localized: Лимон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670209
+    m_Localized: Нарезанный лимон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670210
+    m_Localized: Майонез
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670211
+    m_Localized: Осьминог
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670212
+    m_Localized: Варёный осьминог
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670213
+    m_Localized: Осьминог кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670214
+    m_Localized: Осьминог ломтиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670215
+    m_Localized: Рис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670216
+    m_Localized: Рис для суши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670217
+    m_Localized: Икра мойвы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670218
+    m_Localized: Тобико
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670219
+    m_Localized: Икура
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670220
+    m_Localized: Нори
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670221
+    m_Localized: Лист сисо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670222
+    m_Localized: Креветка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670223
+    m_Localized: Варёная креветка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670224
+    m_Localized: Креветка кубиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670225
+    m_Localized: Креветка-бабочка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670226
+    m_Localized: Чайные листья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670227
+    m_Localized: Васаби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670228
+    m_Localized: Тёртый васаби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867053016670229
+    m_Localized: Вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165779771392
+    m_Localized: Огурцы нарезаны раньше, чем успели понять.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165817520128
+    m_Localized: Самурайская доска для нарезки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165821714432
+    m_Localized: Один взмах — овощей ровно на идеальный ролл.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165825908736
+    m_Localized: Легендарная доска-катана
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165834297344
+    m_Localized: Шелковистые ломтики в мгновение ока. Рыба одобряет.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165880434688
+    m_Localized: Большая доска для сашими
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165884628992
+    m_Localized: Нарезка так точна, что ахает даже шеф.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165888823296
+    m_Localized: Легендарный алтарь сашими
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165897211904
+    m_Localized: Пышный рис готов раньше, чем поставили миску.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165901406208
+    m_Localized: Турбо-рисоварка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165905600512
+    m_Localized: Каждое зёрнышко идеально. Всегда.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165913989120
+    m_Localized: Легендарное святилище риса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165918183424
+    m_Localized: Острые зелёные облака готовы за секунду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377728
+    m_Localized: Тайфун васаби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165922377729
+    m_Localized: Так быстро, что щиплет нос даже через всю комнату.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165930766336
+    m_Localized: Легендарный шторм васаби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960640
+    m_Localized: Бульон закипает, полный вкуса, в мгновение ока.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069165934960641
+    m_Localized: Вулкан умами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818240
+    m_Localized: Самый вкусный суп в городе — с молниеносной скоростью.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166039818241
+    m_Localized: Легендарная кастрюля умами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012544
+    m_Localized: Заваривает спокойствие и зелёный чай быстрее, чем когда-либо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012545
+    m_Localized: Просветлённый чайник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012546
+    m_Localized: Идеальный чай ещё до того, как вы глубоко вдохнёте.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8069166044012547
+    m_Localized: Легендарный дзен-чайник
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

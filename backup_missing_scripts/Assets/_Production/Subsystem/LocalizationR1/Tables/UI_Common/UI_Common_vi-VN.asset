@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_vi-VN
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi-VN
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: MỚI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: Tối đa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}D {1}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}h {1}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: PHẦN THƯỞNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: ĐÃ MUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: Đã nhận phần thưởng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: Nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Cấp {0} -> Cấp {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: Ngày {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: Mở khóa vào đầu ngày {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: Sắp ra mắt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: Tính năng này sắp ra mắt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: Cửa hàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: Trang chủ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: Nhà hàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: Thành tựu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: Bản đồ này đang bị khóa. Hãy hoàn thành các bản đồ trước để mở khóa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: Ngày này đang bị khóa. Hãy vượt qua các ngày trước để mở khóa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: Ngày {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: Vượt qua ngày {0} của nhà hàng trước để mở khóa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: Khó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: Siêu khó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: Bản đồ này sẽ có trong bản cập nhật sau.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'Đã phục vụ: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: Hãy thử nâng cấp nhà hàng của bạn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: Đây là những vật phẩm bạn có thể mua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: Dùng số xu kiếm được hôm qua để nâng cấp thứ gì đó nào!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: Giờ hãy đến tab nâng cấp dụng cụ nào!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: Hãy thử nâng cấp chiếc vỉ nướng này!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: Bạn đã nâng cấp máy nướng bánh, giờ quay lại và bắt đầu ngày mới nào!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: Giờ hãy bắt đầu ngày mới!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: Hãy thử dùng trợ lực này!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: Khi nấu ăn, bạn có cơ hội bước vào trạng thái đặc biệt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: Mỗi khách được phục vụ thành công, thanh này sẽ tăng lên! Hãy phục vụ thêm {0} khách nữa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: Mỗi món được phục vụ thành công, thanh này sẽ tăng lên! Hãy phục vụ thêm {0} món nữa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: Tuyệt! Ở trạng thái Bùng nổ hương vị, bạn nấu ăn cực kỳ hiệu quả. Chơi vui nhé!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: Không đủ xu để xây
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Cấp TỐI ĐA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Cấp {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: Không đủ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: Đã đạt cấp tối đa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} lần'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: Nhận x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: Trợ lực sẽ mở vào ngày {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: Kích hoạt tốc độ x{0} trong {1} phút?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: Đã nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: Đã gỡ quảng cáo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: Tên trợ lực
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: Cứu tôi để thêm +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: Tự nấu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: Tự động thu thập nguyên liệu và làm một món ăn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: Chổi quét
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: Dọn một chồng bẩn trên bàn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: Kẹp gắp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: Tự do chọn một đĩa nguyên liệu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: Cần thêm ô chứa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: Mở thêm ô để chứa món ăn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: Xáo trộn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: Đổi hàng nguyên liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: Tốc độ x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: Nấu và phục vụ nhanh hơn với tốc độ x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: Hồi phục {0} tim?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: Thử xáo trộn nguyên liệu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: Cho 5 nguyên liệu vào túi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: Nạp lại thời gian chờ của khách
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: Burger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: Cà phê
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: Xung đột dữ liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: Đang tải...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: Đang tải
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: Nhà hàng lên cấp!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: Chạm để tiếp tục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: Ông chủ rất khó tính và dễ mất kiên nhẫn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: Chúc mừng bạn đã có nhà hàng thức ăn nhanh của riêng mình!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: Bắt đầu kinh doanh nào!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: Cô ấy muốn một chiếc burger mọng nước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: Chạm vào nguyên liệu bạn muốn dùng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: Chạm vào đơn của khách để đổi cách hiển thị
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: Người giao hàng lấy nhiều đơn trước khi hết giờ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: Dùng đám mây
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: Dùng máy này
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: Phần thưởng của bạn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: Dọn {0} ô và tiếp tục nấu ăn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "Bạn thích trò chơi chứ?\nHãy để lại đánh giá nhé!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: ĐÁNH GIÁ TRÒ CHƠI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: Ngon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: Ngon quá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: Thơm ngon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: Mê quá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: Ghiền rồi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: Ngon xỉu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: Tuyệt hảo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: Thượng hạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: Đỉnh cao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: Kiệt tác
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: Vượt qua {0} của {1} để mở khóa ngày bổ sung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: Cần kết nối Internet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: Quảng cáo chưa sẵn sàng, vui lòng thử lại!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: Tên phải có ít nhất {0} ký tự
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: Tên chỉ được có tối đa {0} ký tự
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: Tên chỉ được dùng chữ cái, số, dấu cách và _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: Quay lại sau {0} nhé!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: Hãy nhận phần thưởng miễn phí trước!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: Hãy nhận phần thưởng trước đó trước!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: MỞ KHÓA Ở NGÀY {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: Tuyệt vời
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: Ngày thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: Đã khóa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: CỬA HÀNG ẨM THỰC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: ĐÃ NÂNG CẤP DỤNG CỤ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} giờ nhanh hơn rồi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} giờ đã đạt tốc độ tối đa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: Mở khóa ngày thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: Tin tức
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: Đã có bộ phận nâng cấp mới cho các nhà hàng của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} có ngày thêm mới!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: Giá nâng cấp đã được điều chỉnh. Số vàng bạn trả dư đã được hoàn lại!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: Đánh giá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: Kích hoạt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: Đã kích hoạt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: Đội đã tồn tại!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: Đội đã đầy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: Đội không trống!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: Đội không tồn tại!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: Đội trưởng không thể rời đi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: Không có quyền!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: Lỗi máy chủ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: Người dùng đã tham gia đội!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: Người dùng vừa mới rời đi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: Người dùng không có trong đội!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: YÊU CẦU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: Ảnh đại diện
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: Kho Báu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: Vượt qua các ngày để tích lũy vàng và nhận lại vào cuối sự kiện!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: Kích hoạt <color=yellow>Vé Mộng Mơ</color> để mở khóa <color=yellow>Kho Báu</color> ở cuối các giai đoạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: Không thể lưu dữ liệu lên máy chủ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: Trò chuyện
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: Chọn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: Nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: Sắp ra mắt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: Hoàn tất
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: Xác nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: Chúc mừng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: Tiếp tục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: Đã sao chép
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: Quốc gia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: Tạo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: Tạo và dẫn dắt đội của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: Xóa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'Mô tả:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: Vé Mộng Mơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: Chào mừng đến với <color=yellow>Vé Mộng Mơ!</color> Đây là phần thưởng đầu tiên của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: Vượt qua các ngày và thu thập <color=yellow>Chìa Khóa</color> để mở khóa phần thưởng. Chạm để biết cách thu thập!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: Kích hoạt <color=yellow>Vé Mộng Mơ</color> để nhận các phần thưởng đặc biệt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: Mở khóa chặng này và kích hoạt <color=yellow>Vé Mộng Mơ</color> để nhận phần thưởng này!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: Chuỗi Mộng Mơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: Vượt qua các ngày không thất bại để nhận thêm phần thưởng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: Vượt qua các ngày mà không thua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: Tăng hệ số điểm của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: Giành được những phần thưởng tuyệt vời!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: Mỗi thất bại sẽ đặt lại hệ số của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: Tháp Mộng Mơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: Vượt qua nhiều ngày liên tiếp!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: Bay cao hơn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: Mỗi lần thất bại sẽ đặt lại tiến trình điểm kiểm tra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: Chỉnh sửa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: Sửa tên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: Chọn tên người dùng trước khi tham gia Bảng xếp hạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: Sửa hồ sơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: Sửa đội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: Trống!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: Đã kết thúc!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: Nhập nội dung...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: Nhập mô tả...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: Nhập tên đội...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: Hoàn thành
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: Thắng Ngay Lần Đầu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: Khung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: Miễn phí
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: TIM <color=#7CF73F>MIỄN PHÍ</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: PHẦN THƯỞNG <color=#7CF73F>MIỄN PHÍ</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: Tim miễn phí
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: Thống kê chung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: Đi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: Trợ giúp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: Lượt giúp đỡ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: Lượt nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: Hộp thư đến
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: Thông tin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: Tham gia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: Tham gia nhóm để nhận tim miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: Cơ hội cuối cùng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: Đội trưởng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: Bảng xếp hạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: Rời đi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: Rời nhóm?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: Bạn sẽ phải đợi 30 phút trước khi có thể tạo hoặc tham gia một đội mới!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: Màn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: Đạt <color=yellow>Ngày {0}</color> Để Mở Khóa Cuộc Đua Tuần!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: Mạng của bạn đã đầy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: Tải
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: Đã tải dữ liệu từ máy chủ xong! Khởi động lại game để áp dụng dữ liệu mới!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: Cục bộ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: ĐẠT <color=yellow>Ngày {0}</color> Để Mở Khóa Bảng Xếp Hạng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: ĐẠT <color=yellow>Ngày {0}</color> Để Tham Gia Đội!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: Bạn không thể xin mạng. Bạn đang có nhiều hơn 10 mạng miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} đã tham gia đội!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} đã bị {1} đuổi ra!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} đã rời đội!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: Thành viên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: Đội của tôi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: Tên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: Tên cần có ít nhất 6 ký tự
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: Lỗi mạng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: Lỗi mạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: MỚI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: Không
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: Chưa đặt tên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Không Có Đóng Góp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: Không có đội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: Không đủ vàng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: Mở
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>Vé Mộng Mơ</color> sẽ mang đến cho bạn cơ hội nhận được các phần thưởng đặc biệt!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: Bạn sẽ sở hữu các đặc quyền độc quyền cho đến khi sự kiện kết thúc!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 mạng thay vì 5 mạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: Kích hoạt Kho Báu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: Khung ảnh đại diện vàng và Tên màu vàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>Vé Mộng Mơ</color> đã kết thúc! Các đặc quyền của bạn không còn hiệu lực. <color=yellow>Vé Mộng Mơ</color> mới sẽ sớm bắt đầu!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: Vượt qua các ngày!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: Thu thập Chìa khóa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: Mở khóa phần thưởng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: Bạn có thể kích hoạt <color=yellow>Vé Mộng Mơ</color> để nhận thêm phần thưởng độc quyền!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: '<color=Yellow>Vé Mộng Mơ</color> mới đã bắt đầu! Vượt qua các ngày và mở khóa <color=Yellow>Vé</color> để nhận phần thưởng giá trị!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: Vé Mộng Mơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: Phần thưởng Hạng {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: Người chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: Riêng tư
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: Hồ sơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: Hồ sơ đã được cập nhật!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: Công khai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: Lưu dữ liệu của bạn lên máy chủ hoàn tất!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: Kết nối lại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: Làm mới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: Xóa thành viên
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: Đang xin trợ giúp!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'Ngày yêu cầu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: Hoàn thành Ngày {0} để tăng giới hạn Ngày yêu cầu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: Chơi lại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: Lưu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: Điểm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: Tìm kiếm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: Chọn Huy Hiệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: Gửi cho bạn một Tim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: Máy chủ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: Phần thưởng đặc biệt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: Cuộc đua nhiều chặng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: Bạn đã thua cuộc đua! Hãy thử lại để giành những phần thưởng tuyệt vời!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: Chúc mừng! Bạn đã thắng cuộc đua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: Vượt qua <color=yellow>{0} ngày</color> trước người khác để chiến thắng và tiến vào vòng tiếp theo với phần thưởng lớn hơn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: Cách chơi như thế nào?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: Vượt qua các ngày trước người khác để về đích!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: Hoàn thành cuộc đua trước những người khác!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: Tiến lên vòng tiếp theo để nhận phần thưởng lớn hơn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: Thắng Đua Màn Chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: Giai đoạn {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: Sao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: Bắt đầu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: Đồng bộ dữ liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: Chạm để Tiếp tục!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: Chạm để Mở!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: Nhấn để nhận!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: Chạm để đóng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: Thông tin nhóm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'Huy hiệu đội:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'Khi bạn tham gia một đội, bạn sẽ nhận được:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: Thu Hoạch Nhóm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: Thu thập Ngô từ các màn chơi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: Đạt Mục Tiêu Cùng Đội Của Bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: Nhận Phần Thưởng Tuyệt Vời!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'Thường: 1 Ngô - Khó: 3 Ngô - Siêu Khó: 5 Ngô'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: Thu hoạch Ngô cùng đội của bạn và nhận những phần thưởng tuyệt vời!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'Tên đội:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: Đội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'Điểm đội:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'Loại đội:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'Tổng tim miễn phí:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'Tổng lượt giúp:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: Tổng số sao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: Kỷ Lục Leo Tháp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: Chuyển đội trưởng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: Dưới đây là các phần thưởng chưa nhận của bạn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: Mở khóa vào Ngày {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: Mở khóa khi vượt qua ngày {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: Sử dụng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: Xem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: Xem hồ sơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: Vui lòng đợi thêm một chút để máy chủ xử lý!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: Hàng Tuần
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: Cuộc Đua Tuần
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: Hãy cố gắng hơn vào lần tới để nhận phần thưởng giá trị nhé!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: Vượt qua các ngày!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: Vươn Lên Dẫn Đầu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: Thế giới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: Có
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: Bảng xếp hạng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: Đội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: Nâng cấp sẽ có trong bản cập nhật tiếp theo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: Ngày
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'Khi tham gia đội, bạn sẽ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: Nhận Tim <color=#7CF73F>Miễn Phí</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: Tán gẫu và tham gia thử thách cùng bạn bè
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: Khu Vực Hoàn Thành
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: Đạt ngày {0} để tiếp tục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: Ngày
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: Vượt qua {0} của {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: Hãy nâng cấp {0} lên giai đoạn cuối trước!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: Nâng cấp {0} đã mở!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: Cấp nâng cấp dụng cụ mới tại {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: MUA TẤT CẢ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: Phần thưởng thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: Chỉ 1 lần
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: Sale thêm {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: Vượt qua {0} của Nhà hàng {1} để mở khoá!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

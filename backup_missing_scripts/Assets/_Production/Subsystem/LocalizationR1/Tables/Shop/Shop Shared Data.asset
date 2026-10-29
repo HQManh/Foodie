@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Shop Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Shop
+  m_TableCollectionNameGuidString: 50abc937082f88a459287113e697ecf9
+  m_Entries:
+  - m_Id: 57795503185920
+    m_Key: Title_boosterpack
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518498
+  - m_Id: 57795528351744
+    m_Key: Title_boosterpack2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518499
+  - m_Id: 57795528351745
+    m_Key: Title_bundle_big
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518500
+  - m_Id: 57795528351746
+    m_Key: Title_bundle_medium
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518501
+  - m_Id: 57795528351747
+    m_Key: Title_bundle_small
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518502
+  - m_Id: 57795528351748
+    m_Key: Title_bundle_ultra
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518503
+  - m_Id: 57795528351749
+    m_Key: Title_gem1
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518504
+  - m_Id: 57795528351750
+    m_Key: Title_gem1_sale
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518505
+  - m_Id: 57795528351751
+    m_Key: Title_gem2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518506
+  - m_Id: 57795528351752
+    m_Key: Title_gem3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518507
+  - m_Id: 57795528351753
+    m_Key: Title_gem4
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518508
+  - m_Id: 57795528351754
+    m_Key: Title_gem5
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518509
+  - m_Id: 57795528351755
+    m_Key: Title_gem6
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518510
+  - m_Id: 57795528351756
+    m_Key: Title_removeads
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518511
+  - m_Id: 57795528351757
+    m_Key: Title_removeads_bundle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518512
+  - m_Id: 57795528351758
+    m_Key: Title_removeads_sale
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518513
+  - m_Id: 57795528351759
+    m_Key: Title_revivepack
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518514
+  - m_Id: 57795528351760
+    m_Key: Title_revivepack2
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518515
+  - m_Id: 57795528351761
+    m_Key: Title_revivepack3
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518516
+  - m_Id: 57795528351762
+    m_Key: Title_revivepack_sale
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518517
+  - m_Id: 57795528351763
+    m_Key: Title_starter
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518518
+  - m_Id: 57795528351764
+    m_Key: Title_starter_sale
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518519
+  - m_Id: 57795528351765
+    m_Key: best
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518520
+  - m_Id: 57795528351766
+    m_Key: best_seller
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518521
+  - m_Id: 57795528351767
+    m_Key: bundle
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518522
+  - m_Id: 57795528351768
+    m_Key: diamonds
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518523
+  - m_Id: 57795528351769
+    m_Key: keep_optional_ads_for_rewards
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518524
+  - m_Id: 57795528351770
+    m_Key: offers
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518525
+  - m_Id: 57795528351771
+    m_Key: pack
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518526
+  - m_Id: 57795528351772
+    m_Key: remove_ads
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518527
+  - m_Id: 57795528351773
+    m_Key: remove_bottom_banner_ads
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518528
+  - m_Id: 57795528351774
+    m_Key: remove_obligatory_ads
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518529
+  - m_Id: 57795528351775
+    m_Key: sale
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518530
+  - m_Id: 57795528351776
+    m_Key: starter_pack
+    m_Metadata:
+      m_Items:
+      - rid: 4117827729675518531
+  - m_Id: 2945776807305216
+    m_Key: revive_instantly
+    m_Metadata:
+      m_Items:
+      - rid: 4117827869053813112
+  - m_Id: 3034642834776064
+    m_Key: best_seller_2
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635652
+  - m_Id: 3034642864136192
+    m_Key: best_value
+    m_Metadata:
+      m_Items:
+      - rid: 5047050900543635653
+  - m_Id: 8095976995676160
+    m_Key: Title_eventsale1
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150944
+  - m_Id: 8095977025036288
+    m_Key: Title_eventsale2
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150945
+  - m_Id: 8095977025036289
+    m_Key: Title_eventsale3
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150946
+  - m_Id: 8095977025036290
+    m_Key: Title_eventsale4
+    m_Metadata:
+      m_Items:
+      - rid: 5047051213734150947
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4117827698819859020
+  references:
+    version: 2
+    RefIds:
+    - rid: 4117827698819859020
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790230173517
+    - rid: 4117827729675518498
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack boosterpack (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518499
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack boosterpack2 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518500
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack bundle_big (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518501
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack bundle_medium (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518502
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack bundle_small (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518503
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack bundle_ultra (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518504
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem1 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518505
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem1_sale (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518506
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem2 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518507
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem3 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518508
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem4 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518509
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem5 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518510
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack gem6 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518511
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack removeads (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518512
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack removeads_bundle (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518513
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack removeads_sale (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518514
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack revivepack (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518515
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack revivepack2 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518516
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack revivepack3 (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518517
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack revivepack_sale (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518518
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack starter (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518519
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack starter_sale (InAppShopDataAccess._packTitles)
+    - rid: 4117827729675518520
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIOfferPack-Base > UIOfferPack-Base/Sale/Text (TMP)
+    - rid: 4117827729675518521
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack > UICook-ShopItem-GeneralPack/Tag/Text (TMP)
+    - rid: 4117827729675518522
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-Shop > UICook-Shop/VisibleGroup/Main/Scroll View/Viewport/Content/Divider-RemoveAds/Label
+    - rid: 4117827729675518523
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-Shop > UICook-Shop/VisibleGroup/Main/Scroll View/Viewport/Content/Divider-ChefPack/Label
+    - rid: 4117827729675518524
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack-RemoveAds > UICook-ShopItem-GeneralPack-RemoveAds/Content/BG/Text (TMP) (2) ; UIPopup-RemoveAds > UIPopup-RemoveAds/VisibleGroup/ScaleAnchor/Frame/FrameInside/Row-3/Text
+    - rid: 4117827729675518525
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-Shop > UICook-Shop/VisibleGroup/Main/Scroll View/Viewport/Content/Header-NoAds/Label
+    - rid: 4117827729675518526
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIOfferPack-Base > UIOfferPack-Base/Ribbon-Title/Text (Legacy)
+    - rid: 4117827729675518527
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-RemoveAds > UIPopup-RemoveAds/VisibleGroup/ScaleAnchor/Frame/BG/Frame-Title-1/Text-Title
+    - rid: 4117827729675518528
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack-RemoveAds > UICook-ShopItem-GeneralPack-RemoveAds/Content/BG/Text (TMP) (1) ; UIPopup-RemoveAds > UIPopup-RemoveAds/VisibleGroup/ScaleAnchor/Frame/FrameInside/Row-2/Text
+    - rid: 4117827729675518529
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack-RemoveAds > UICook-ShopItem-GeneralPack-RemoveAds/Content/BG/Text (TMP) ; UIPopup-RemoveAds > UIPopup-RemoveAds/VisibleGroup/ScaleAnchor/Frame/FrameInside/Row-1/Text
+    - rid: 4117827729675518530
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack > UICook-ShopItem-GeneralPack/Sale/Text (Legacy) ; UICook-ShopItem-GeneralPack-RemoveAds > UICook-ShopItem-GeneralPack-RemoveAds/Sale/Text (Legacy) ; UIOfferPack-RevivePackSale > UIOfferPack-RevivePackSale/Sale /Text (TMP) ; UIPopup-RemoveAds > UIPopup-RemoveAds/Panel/Frame/Tag-Sale/Text ; (+1 more)
+    - rid: 4117827729675518531
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIPopup-StarterPack > UIPopup-StarterPack/VisibleGroup/ScaleAnchor/Frame-BG/Frame/Text-Title
+    - rid: 4117827869053813112
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UIOfferPack-RevivePack > UIOfferPack-RevivePack/Image/Text (TMP) ; UIOfferPack-RevivePack2 > UIOfferPack-RevivePack2/Image/Text (TMP)
+    - rid: 5047050900543635652
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: '[Button: keep short] UICook-ShopItem-GeneralPack > UICook-ShopItem-GeneralPack/Sale/Text (Legacy) ; UICook-ShopItem-GeneralPack-RemoveAds > UICook-ShopItem-GeneralPack-RemoveAds/Sale/Text (Legacy) ; UICook-ShopItem-GoldPack > UICook-ShopItem-GoldPack/Sale/Text (Legacy) ; UIOfferPack-RevivePackSale > UIOfferPack-RevivePackSale/Sale /Text (TMP) ; (+3 more)'
+    - rid: 5047050900543635653
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: UICook-ShopItem-GeneralPack-Bundle-4-new > UICook-ShopItem-GeneralPack-Bundle-4-new/Sale/Text (Legacy)
+    - rid: 5047051213734150944
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack eventsale1 (InAppShopDataAccess._packTitles)
+    - rid: 5047051213734150945
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack eventsale2 (InAppShopDataAccess._packTitles)
+    - rid: 5047051213734150946
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack eventsale3 (InAppShopDataAccess._packTitles)
+    - rid: 5047051213734150947
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: IAP pack eventsale4 (InAppShopDataAccess._packTitles)

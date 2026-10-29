@@ -42,12 +42,22 @@ namespace AnhPD.FoodOrder
 
 		public virtual void OnProcessStart(ExecutionContext ctx)
 		{
-			// TODO(unrecovered): one branch dispatches a virtual call through an unmapped vtable slot; the other activates gameObject. Not guessed.
+			// Rebuilt from the decompiled code: play the view for the process duration when asked to; otherwise just show it.
+			// (The decompile calls the virtual at vtable +0x178, taken to be Play(float), with the context's duration.)
+			if (ctx.playAnimation)
+			{
+				Play(ctx.duration);
+			}
+			else
+			{
+				gameObject.SetActive(true);
+			}
 		}
 
 		public virtual void OnProcessComplete()
 		{
-			// TODO(unrecovered): dispatches a virtual call through an unmapped vtable slot (+0x188); target not identifiable.
+			// The decompile calls the virtual at vtable +0x188, the slot after Play, taken to be Stop().
+			Stop();
 		}
 
 		protected static void SetTweenPaused(Tween tween, bool paused)

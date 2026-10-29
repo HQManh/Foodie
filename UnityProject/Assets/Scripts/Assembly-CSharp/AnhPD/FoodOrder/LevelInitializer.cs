@@ -78,7 +78,8 @@ namespace AnhPD.FoodOrder
 		{
 			MoneyService service = new MoneyService(delegate(int value)
 			{
-				// TODO(unrecovered): RuntimeData.SoftCurrency.Change(value) (CakeLevelRuntimeDataSoftCurrency not in stubs)
+				LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+				if (level != null && level.RuntimeData != null && level.RuntimeData.softCurrencyData != null) level.RuntimeData.softCurrencyData.Change(value);
 			});
 			service.onPickAllCoin = onPickAllCoin;
 			return service;

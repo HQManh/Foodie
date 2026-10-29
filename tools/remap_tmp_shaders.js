@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path');
+const root='D:/Unity/Foodie/UnityProject/Assets';const backup='D:/Unity/Foodie/backup_tmp_shaders/';const BS=String.fromCharCode(92);
+const map={'ce268bcb24514a64aae3ddfbab03a4a2':'68e6db2ebdc24f95958faec2be5558d6','2e699460d50769c47aae59420b8cd247':'68e6db2ebdc24f95958faec2be5558d6','c216bc5abb9e2de48a5fc1109b12b992':'68e6db2ebdc24f95958faec2be5558d6','1f9c9d527744f7d4db90ea59cfea807a':'fe393ace9b354375a9cb14cdbbc28be4','7a060a4f6d5205b418c7e238fa5b8ac9':'cf81c85f95fe47e1a27f6ae460cf182c','3526bf5394a18e64783fdd65c2302816':'cf81c85f95fe47e1a27f6ae460cf182c'};
+let files=0,refs=0;
+function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(/\.(mat|asset)$/.test(p)){const t=fs.readFileSync(p,'utf8');if(!t.startsWith('%YAML'))continue;let c=false;const o=t.replace(/m_Shader: \{fileID: 4800000, guid: ([0-9a-f]{32}), type: 3\}/g,(all,g)=>{if(map[g]){c=true;refs++;return all.replace(g,map[g]);}return all;});if(c){const rel=p.split(BS).join('/').replace(root+'/','');const dst=backup+rel;fs.mkdirSync(path.dirname(dst),{recursive:true});if(!fs.existsSync(dst))fs.copyFileSync(p,dst);fs.writeFileSync(p,o);files++;}}}}
+walk(root);console.log('files',files,'refs',refs);

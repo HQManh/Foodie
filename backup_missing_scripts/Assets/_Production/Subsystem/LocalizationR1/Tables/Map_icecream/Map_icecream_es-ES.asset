@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_icecream_es-ES
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es-ES
+  m_SharedData: {fileID: 11400000, guid: 8cd4b8b9ce827984c95d13566cdf2baf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3886976972357635
+    m_Localized: Cucurucho de helado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976947191808
+    m_Localized: Un cucurucho crujiente coronado con una bola bien fría.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357636
+    m_Localized: Tarrina de helado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976968163328
+    m_Localized: Una bola en tarrina, sin gotas en los dedos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357637
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357632
+    m_Localized: Fruta fresca triturada con hielo hasta que cante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357638
+    m_Localized: Batido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357633
+    m_Localized: Helado y leche batidos en un sorbo bien espeso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357639
+    m_Localized: Raspado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3886976972357634
+    m_Localized: Hielo raspado esponjoso bañado en sirope de colores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324868
+    m_Localized: Madame Flamenco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023086964736
+    m_Localized: Una mascota diva y glamurosa que se relaja con una bata de plumas neón, un enorme sombrero de ala ancha y gafas de sol de ojo de gato con pedrería.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324869
+    m_Localized: Ollie Nutria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324864
+    m_Localized: Una mascota juguetona con una camisa tropical enorme estampada de helados y un sombrerito de paja con una flor de hibisco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324870
+    m_Localized: Sunny Loro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324865
+    m_Localized: Una mascota adorable con bañador pastel, un flotador de dónut mordido y un pañuelo de cuadros vichy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324871
+    m_Localized: Pippa Pingüino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324866
+    m_Localized: Una mascota a la moda con un top de volantes llamativo, enormes gafas de sol amarillas y una minimochila de ratán con una sombrillita de cóctel de papel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324872
+    m_Localized: Sir Shelldon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508023116324867
+    m_Localized: Una mascota VIP adinerada con una lujosa bata de seda, una gorra de capitán bordada en oro y joyas enormes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029102596096
+    m_Localized: Tabla de Fruta Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376029127761920
+    m_Localized: Las rodajas de fruta se apilan en un momento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804864
+    m_Localized: Tabla de Fruta Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376040288804865
+    m_Localized: Los kiwis tiemblan cuando sale esta tabla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214848
+    m_Localized: Máquina de Cucuruchos Crujientes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376050443214849
+    m_Localized: Cucuruchos calientes y crujientes, más rápido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847616
+    m_Localized: Prensa Dorada de Cucuruchos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376060580847617
+    m_Localized: Cucuruchos dorados, crujientes siempre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822144
+    m_Localized: Batidora Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376070466822145
+    m_Localized: Unas vueltas rápidas y la fruta queda suave.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260608
+    m_Localized: Remolino de Smoothies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376080600260609
+    m_Localized: Un remolino de fruta. ¡Sujeta la tapa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509824
+    m_Localized: Raspador Helado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376090578509825
+    m_Localized: El hielo se vuelve copos suaves más rápido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626752
+    m_Localized: Raspador Copo de Nieve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376100359626753
+    m_Localized: Suaves copos de nieve caen en segundos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075328
+    m_Localized: Batidora de Batidos Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376110191075329
+    m_Localized: Los batidos espesan y quedan cremosos antes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873920
+    m_Localized: Súper Batidora de Batidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376120353873921
+    m_Localized: Batidos cremosos con un súper remolino.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763008
+    m_Localized: Quiosco de helados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376130302763009
+    m_Localized: Un pequeño quiosco con delicias frescas bajo el sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131200
+    m_Localized: Heladería tropical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376140046131201
+    m_Localized: Más espacio para dulces helados de colores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165888
+    m_Localized: Letrero Capy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376150624165889
+    m_Localized: Un alegre capibara recibe a los amantes del helado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074688
+    m_Localized: Menú de helados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376162473074689
+    m_Localized: Una pizarra llena de delicias frescas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884736
+    m_Localized: Toldo de rayas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376173952884737
+    m_Localized: Un toldo que da sombra con un vistoso letrero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144064
+    m_Localized: Mostrador de postres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376183629144065
+    m_Localized: Fruta, una máquina de postres y vasos listos para servir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029952
+    m_Localized: Escaparate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376192844029953
+    m_Localized: Una puerta acogedora entre ventanas luminosas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141824
+    m_Localized: Rincón de surf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376202776141825
+    m_Localized: Una tabla de surf, cajas de fruta y una señal de playa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344192
+    m_Localized: Cono y flotador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376212494344193
+    m_Localized: Un cono gigante y un flotador traen diversión playera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399104
+    m_Localized: Vitrina de helados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376222468399105
+    m_Localized: Una vitrina colorida mantiene frío el helado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931264
+    m_Localized: Arcoíris en el tejado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376233121931265
+    m_Localized: Un arcoíris brillante sobre la heladería.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220416
+    m_Localized: Helado gigante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376244396220417
+    m_Localized: Un helado gigante en el tejado como gran toque final.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630400
+    m_Localized: Batido gigante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376254550630401
+    m_Localized: Un enorme batido decora el tejado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118217412608
+    m_Localized: Entra fruta, sale una tormenta de batido helado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118242578432
+    m_Localized: Ciclón de Batidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772736
+    m_Localized: Licúa tan rápido que nieva en la tienda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772737
+    m_Localized: Licuadora Ventisca Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772738
+    m_Localized: Conos crujientes salen uno tras otro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772739
+    m_Localized: Máquina de Conos Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772740
+    m_Localized: Conos de gofre dorados a velocidad récord.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772741
+    m_Localized: Forja de Gofres Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772742
+    m_Localized: Las fresas quedan en rodajas antes de parpadear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772743
+    m_Localized: Tabla de Frutas Samurái
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772744
+    m_Localized: Un tajo, un cuenco entero de toppings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772745
+    m_Localized: Hoja de Frutas Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772746
+    m_Localized: Nieve esponjosa en un instante. ¡Coge una cuchara!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772747
+    m_Localized: Raspadora Tormenta de Nieve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772748
+    m_Localized: Una montaña de hielo raspado en un solo suspiro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118246772749
+    m_Localized: Raspadora Glaciar Legendaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967040
+    m_Localized: Batidos espesos y cremosos en un remolino.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967041
+    m_Localized: Tornado de Batidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967042
+    m_Localized: Agita tan rápido que las pajitas empiezan a bailar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741118250967043
+    m_Localized: Motor de Batidos Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769246990032896
+    m_Localized: Fruta verde y cremosa para un smoothie sedoso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170240
+    m_Localized: Láminas verdes y suaves listas para la batidora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170241
+    m_Localized: Una mezcla cremosa de aguacate fresco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170242
+    m_Localized: Un plátano lleno de dulzor natural.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170243
+    m_Localized: Rodajas dulces de plátano listas para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170244
+    m_Localized: Una mezcla espesa y dulce de plátano maduro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170245
+    m_Localized: Convierte la fruta en smoothies suaves.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170246
+    m_Localized: Bayas diminutas llenas de sabor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170247
+    m_Localized: Una mezcla morada de arándanos frescos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170248
+    m_Localized: Una cereza roja y brillante para coronar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170249
+    m_Localized: Sirope rojo y dulce para el granizado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170250
+    m_Localized: Bolas intensas para los amantes del cacao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170251
+    m_Localized: Helado de chocolate, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170252
+    m_Localized: Sirope de chocolate brillante para rociar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170253
+    m_Localized: Una cáscara peluda con pulpa tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247036170254
+    m_Localized: Trozos de coco blancos con sabor tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364544
+    m_Localized: Una mezcla cremosa que sabe a playa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364545
+    m_Localized: Masa dulce que será un cucurucho crujiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364546
+    m_Localized: Hornea la masa en cucuruchos crujientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364547
+    m_Localized: Corta fruta para coberturas y smoothies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364548
+    m_Localized: Un cucurucho al gusto del cliente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364549
+    m_Localized: Una copa con las bolas elegidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364550
+    m_Localized: Un batido espeso del sabor favorito.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364551
+    m_Localized: Hielo esponjoso con el sirope elegido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364552
+    m_Localized: Una mezcla de fruta hecha al momento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364553
+    m_Localized: Bolas moradas con sabor a uva jugosa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364554
+    m_Localized: Helado de uva, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364555
+    m_Localized: Sirope morado y dulce para el granizado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364556
+    m_Localized: Yogur espeso y ácido para más cremosidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364557
+    m_Localized: Sirope verde ácido con sabor a manzana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364558
+    m_Localized: Cubitos que tintinean y lo enfrían todo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364559
+    m_Localized: Convierte el hielo en nieve esponjosa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364560
+    m_Localized: Una fruta peluda de corazón verde vivo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364561
+    m_Localized: Rodajas verdes salpicadas de semillas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364562
+    m_Localized: Sirope amarillo con un toque ácido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364563
+    m_Localized: Bolas doradas llenas de mango tropical.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364564
+    m_Localized: Helado de mango, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364565
+    m_Localized: Bolas de té verde suavemente dulces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364566
+    m_Localized: Helado de matcha, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364567
+    m_Localized: Leche fresca para bebidas cremosas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364568
+    m_Localized: Bate helado y leche hasta espesar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364569
+    m_Localized: Una naranja jugosa llena de sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364570
+    m_Localized: Gajos de naranja listos para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364571
+    m_Localized: Una mezcla refrescante de naranja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364572
+    m_Localized: Una galleta crujiente para coronar la bola.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364573
+    m_Localized: Un palito crujiente bañado en chocolate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247040364574
+    m_Localized: Gelatina temblorosa de todos los colores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558848
+    m_Localized: Hielo esponjoso como la nieve, listo para el sirope.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558849
+    m_Localized: Virutas de colores para una fiesta encima.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558850
+    m_Localized: Una fresa dulce con sombrero de hojas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558851
+    m_Localized: Bolas rosas con auténtico sabor a fresa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558852
+    m_Localized: Helado de fresa, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558853
+    m_Localized: Láminas jugosas listas para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558854
+    m_Localized: Una mezcla rosa de fresas frescas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558855
+    m_Localized: Sirope rosa y dulce para rociar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558856
+    m_Localized: Las bolas clásicas que a todos encantan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558857
+    m_Localized: Helado de vainilla, listo para batir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558858
+    m_Localized: Un cucurucho dorado y crujiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558859
+    m_Localized: Un remolino esponjoso de nata dulce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558860
+    m_Localized: Cubitos de gelatina suaves y delicados.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558861
+    m_Localized: Aguacate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558862
+    m_Localized: Aguacate en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558863
+    m_Localized: Smoothie de aguacate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558864
+    m_Localized: Plátano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558865
+    m_Localized: Plátano en rodajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558866
+    m_Localized: Smoothie de plátano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558867
+    m_Localized: Batidora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558868
+    m_Localized: Arándano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558869
+    m_Localized: Smoothie de arándanos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558870
+    m_Localized: Cereza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558871
+    m_Localized: Sirope de cereza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558872
+    m_Localized: Helado de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558873
+    m_Localized: Batido de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558874
+    m_Localized: Sirope de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558875
+    m_Localized: Coco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558876
+    m_Localized: Coco troceado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558877
+    m_Localized: Smoothie de coco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558878
+    m_Localized: Masa de cucurucho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558879
+    m_Localized: Máquina de cucuruchos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558880
+    m_Localized: Tabla de cortar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558881
+    m_Localized: Cucurucho de helado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558882
+    m_Localized: Copa de helado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558883
+    m_Localized: Batido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558884
+    m_Localized: Granizado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558885
+    m_Localized: Smoothie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558886
+    m_Localized: Helado de uva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558887
+    m_Localized: Batido de uva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558888
+    m_Localized: Sirope de uva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558889
+    m_Localized: Yogur griego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558890
+    m_Localized: Sirope de manzana verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558891
+    m_Localized: Cubitos de hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558892
+    m_Localized: Picadora de hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558893
+    m_Localized: Kiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558894
+    m_Localized: Kiwi en rodajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558895
+    m_Localized: Sirope de limón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558896
+    m_Localized: Helado de mango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558897
+    m_Localized: Batido de mango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558898
+    m_Localized: Helado de matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558899
+    m_Localized: Batido de matcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558900
+    m_Localized: Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558901
+    m_Localized: Batidora de batidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558902
+    m_Localized: Naranja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558903
+    m_Localized: Gajos de naranja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558904
+    m_Localized: Smoothie de naranja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558905
+    m_Localized: Galleta de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558906
+    m_Localized: Palito de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558907
+    m_Localized: Gelatina arcoíris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558908
+    m_Localized: Hielo raspado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558909
+    m_Localized: Virutas de colores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558910
+    m_Localized: Fresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558911
+    m_Localized: Helado de fresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558912
+    m_Localized: Batido de fresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558913
+    m_Localized: Fresas en láminas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558914
+    m_Localized: Smoothie de fresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558915
+    m_Localized: Sirope de fresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558916
+    m_Localized: Helado de vainilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558917
+    m_Localized: Batido de vainilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558918
+    m_Localized: Cucurucho de barquillo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558919
+    m_Localized: Nata montada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4769247044558920
+    m_Localized: Gelatina blanca
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: IngredientConfig-burger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -911457927, guid: 9b79db7996b03fc716c579f61e0ccf78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _ingredientProcessConfigs:
+  - id: burger_bun_raw
+    toolChain: 02000000
+    outputRecipePieceIndexes: 00000000
+    outputRecipePieceNums: 01000000
+  - id: beef_patty_raw
+    toolChain: 00000000
+    outputRecipePieceIndexes: 01000000
+    outputRecipePieceNums: 01000000
+  - id: tomato
+    toolChain: 02000000
+    outputRecipePieceIndexes: 02000000
+    outputRecipePieceNums: 02000000
+  - id: lettuce_raw
+    toolChain: 02000000
+    outputRecipePieceIndexes: 03000000
+    outputRecipePieceNums: 02000000
+  - id: onion
+    toolChain: 02000000
+    outputRecipePieceIndexes: 04000000
+    outputRecipePieceNums: 02000000
+  - id: cheese
+    toolChain: 02000000
+    outputRecipePieceIndexes: 05000000
+    outputRecipePieceNums: 02000000
+  - id: egg
+    toolChain: 00000000
+    outputRecipePieceIndexes: 06000000
+    outputRecipePieceNums: 01000000
+  - id: cup
+    toolChain: 01000000
+    outputRecipePieceIndexes: 07000000
+    outputRecipePieceNums: 01000000
+  - id: ice
+    toolChain:
+    outputRecipePieceIndexes: 08000000
+    outputRecipePieceNums: 01000000
+  - id: chicken_breast_raw
+    toolChain: 03000000
+    outputRecipePieceIndexes: 09000000
+    outputRecipePieceNums: 01000000
+  - id: chicken_wing_raw
+    toolChain: 03000000
+    outputRecipePieceIndexes: 0a000000
+    outputRecipePieceNums: 01000000
+  - id: chicken_thigh_raw
+    toolChain: 03000000
+    outputRecipePieceIndexes: 0b000000
+    outputRecipePieceNums: 01000000
+  - id: chicken_nugget_raw
+    toolChain: 03000000
+    outputRecipePieceIndexes: 0c000000
+    outputRecipePieceNums: 01000000
+  - id: potato
+    toolChain: 0200000003000000
+    outputRecipePieceIndexes: 0d000000
+    outputRecipePieceNums: 02000000
+  - id: chili_bowl
+    toolChain:
+    outputRecipePieceIndexes: 0e000000
+    outputRecipePieceNums: 01000000
+  - id: chive
+    toolChain: 02000000
+    outputRecipePieceIndexes: 0f000000
+    outputRecipePieceNums: 02000000
+  - id: cheese_sauce
+    toolChain:
+    outputRecipePieceIndexes: 10000000
+    outputRecipePieceNums: 01000000
+  _recipePieceConfigs:
+  - id: bun_sliced
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: patty_cooked
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: tomato_sliced
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: lettuce_sliced
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: onion_sliced
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: cheese_sliced
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 5
+  - id: egg_cooked
+    requiredBases: 00000000
+    limitInOrder: 0
+    usageNum: 1
+    price: 10
+  - id: cup_soda
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: ice
+    requiredBases: 07000000
+    limitInOrder: 1
+    usageNum: 1
+    price: 5
+  - id: chick_breast_fried
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 5
+  - id: chick_wing_fried
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: chick_thigh_fried
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: chick_nugget_fried
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: potato_fried
+    requiredBases:
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: chili_bowl
+    requiredBases: 090000000a0000000b0000000c000000
+    limitInOrder: 1
+    usageNum: 2
+    price: 10
+  - id: chive_sliced
+    requiredBases: 090000000a0000000b0000000c000000
+    limitInOrder: 1
+    usageNum: 1
+    price: 10
+  - id: cheese_sauce
+    requiredBases: 090000000a0000000b0000000c000000
+    limitInOrder: 1
+    usageNum: 2
+    price: 10
+  _dirtyObjectConfigs:
+  - id: dirty_plate
+    maxStack: 5
+    fromIngredients: 00000000
+    enabled: 1
+  - id: dirty_cup
+    maxStack: 5
+    fromIngredients: 07000000
+    enabled: 1
+  - id: dirty_chick_box
+    maxStack: 5
+    fromIngredients: 090000000a0000000b0000000c000000
+    enabled: 1

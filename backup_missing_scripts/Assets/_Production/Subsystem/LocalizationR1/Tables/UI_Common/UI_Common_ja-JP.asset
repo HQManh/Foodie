@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_ja-JP
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja-JP
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: 最大
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}日{1}時間'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}時間{1}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}時間'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: 報酬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: 購入完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: 報酬を受け取りました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: 受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Lv.{0} -> Lv.{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: '{0}日目'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: '{0}日目の開始時に解放'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: 近日公開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: この機能は近日公開予定です！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: ショップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: ホーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: レストラン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: 対戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: 実績
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: このマップはロック中です。前のマップをクリアすると解放されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: この日はロック中です。前の日をクリアすると解放されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: '{0}～{1}日目'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: 前のレストランの{0}日目をクリアすると解放されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: ハード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: スーパーハード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: このマップは今後のアップデートで登場します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 提供数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: レストランを強化してみよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: 購入できるアイテムはこちら
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: 昨日稼いだコインで何か強化してみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: 次は道具の強化タブへ行こう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: この鉄板を強化してみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: トースターを強化できたね。戻って1日を始めよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: さあ、1日を始めよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: このブースターを使ってみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: 調理中に、特別な状態になることがあります！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: お客さんに料理を出すたびに、このゲージが増えます！あと{0}人に料理を出してみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: 料理を出すたびに、このゲージが増えます！あと{0}品出してみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: すごい！フレーバーバースト中はとても効率よく調理できます。楽しんでね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: 建てるためのコインが足りません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Lv.MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0}が足りません'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: すでに最大レベルです
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0}回'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: x{0}受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: このブースターは{0}日目から使えます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: x{0}スピードを{1}分間発動しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: 受取済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: 広告が削除されました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: ブースター名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: 救済して +{0} XXX を追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: オート調理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: 食材を自動で集めて料理を作ります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: おそうじ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: テーブルの汚れた山を1つ片付けます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: トング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: 好きな食材プレートを1つ取れます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: スロットを増やしますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: 料理を置くスロットを増やします
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: シャッフル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: 食材の列を入れ替えます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: x2スピード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: x2スピードで調理と配膳がもっと速く！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: ハートを{0}個回復しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: 食材をシャッフルしますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: 食材5個を袋に移しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: お客さんの待ち時間を回復
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: バーガー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: コーヒー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: データの競合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: 読み込み中...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: 読み込み中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: レストランがレベルアップ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: タップして続ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: ボスは注文にうるさく、すぐにしびれを切らします
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: 自分だけのファストフード店、おめでとう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: さあ、開店しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: 彼女はジューシーなバーガーが食べたいみたい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: 使いたい食材をタップしてね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: お客さんの注文をタップすると表示が切り替わるよ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: 配達員は時間切れになる前に、いくつもの注文を受け取ります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: クラウドを使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: 端末を使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: あなたの報酬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: '{0}枠を空けて料理を続けますか？'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "ゲームを楽しんでいますか？\nレビューをお願いします！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: ゲームを評価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: おいしい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: うまい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: 美味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: 大好き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: おかわり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: 至福
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: 極上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: 絶品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: 職人技
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: 神の一皿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: '{1}の{0}をクリアして追加の日を解放'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: インターネット接続が必要です！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: 広告の準備ができていません。もう一度お試しください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: 名前は{0}文字以上にしてください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: 名前は{0}文字以内にしてください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: 名前に使えるのは文字、数字、スペース、_ のみです
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: '{0}後にまた来てね！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: 先に無料の報酬を受け取ってね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: 先に前の報酬を受け取ってね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: '{0}日目で解放'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: 寿司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: やったね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: エクストラデイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: ロック中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: グルメショップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: 道具をアップグレード！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0}が速くなりました'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0}が最高速度になりました'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: エクストラデイを解放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: お知らせ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: レストランに新しいアップグレードパーツが登場！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0}に新しいエクストラデイが追加！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: アップグレード価格を調整しました。払いすぎたゴールドを返却します！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: 評価する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: 有効化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: 有効中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: チームはすでに存在します！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: チームは満員です！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: チームは空ではありません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: チームが存在しません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: リーダーは退出できません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: 権限がありません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: サーバーエラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: ユーザーがチームに参加しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: ユーザーは最近退出しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: ユーザーはチームにいません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: リクエスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: アバター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: ボーナスバンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: 日をクリアしてバンクにゴールドを貯め、イベントの最後に受け取りましょう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: '<color=yellow>ドリーミーパス</color>を有効化して、ステージの最後に<color=yellow>ボーナスバンク</color>をアンロックしましょう！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: データをサーバーに保存できませんでした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: チャット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: 選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: 受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: 近日公開！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: 完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: 確認
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: おめでとう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: 続ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: コピーしました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: 国
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: 作成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: チームを作成して導こう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: 削除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 説明：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: ドリーミーパス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: '<color=yellow>ドリーミーパス！</color>へようこそ！最初の報酬をどうぞ！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: 日をクリアして<color=yellow>カギ</color>を集め、報酬を解放しよう。集め方はタップしてチェック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: '<color=yellow>ドリーミーパス</color>を有効にすると特別報酬が手に入る！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: このステージを解放し<color=yellow>ドリーミーパス</color>を有効にして報酬をゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: ドリーミーストリーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: 失敗せずに日をクリアして、もっと報酬をもらおう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: 負けずに日をクリアしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: スコア倍率を上げよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: 素晴らしい報酬を獲得しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: 失敗するたびに倍率がリセットされます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: ドリーミータワー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: 連続で日をクリアしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: 立ち上がれ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: 失敗するたびにチェックポイントの進行状況がリセットされます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: 編集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: 名前を編集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: リーダーボードに参加する前にユーザー名を選択してください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: プロフィールを編集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: チームを編集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: 空の！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: 終了しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: テキストを入力...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: 説明を入力...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: チーム名を入力...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: 仕上げる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: 初回クリア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: フレーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: 無料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: '<color=#7CF73F>無料</color>ハート'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: '<color=#7CF73F>無料</color>報酬'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: 無料ライフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: 一般統計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: 行く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: ヘルプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: 助けた回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: 助けられた回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: 受信トレイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: 情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: 参加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: チームに参加して無料のハートをゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: ラストチャンス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: リーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: リーダーボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: 退出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: チームを抜ける？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: 新しいチームを作成または参加する前に、30分待つ必要があります！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: レベル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: ウィークリーコンテストを解放するには<color=yellow>{0}日目</color>に到達しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: ライフが満タンです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: ロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: サーバーからのデータ読み込みが完了しました！ゲームを再起動して新しいデータを反映してください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: ローカル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: '<color=yellow>{0}日目</color>に到達してリーダーボードをアンロックしよう！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: '<color=yellow>{0}日目</color>に到達してチームに参加しよう！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: ライフをおねだりできません。無料のライフが10個以上あります！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0}がチームに参加しました！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0}は{1}によってキックされました！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0}がチームを退出しました！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: メンバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: マイチーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: 名前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: 名前は6文字以上にする必要があります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: ネットワークエラー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: ネットワークエラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: 新しい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: いいえ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: 名無し
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: 貢献なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: チームなし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: ゴールドが足りません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: 開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>ドリーミーパス</color>で特別な報酬を獲得するチャンスがあります！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: イベントが終了するまで限定ボーナスを獲得できます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: ライフが5から8に増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: ボーナスバンクを有効化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: 金色のプロフィール枠と金色の名前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>ドリーミーパス</color>は終了しました！ボーナスは無効になりました。新しい<color=yellow>ドリーミーパス</color>がまもなく始まります！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: 日をクリア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: 鍵を集めよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: 報酬をアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: '<color=yellow>ドリーミーパス</color>を有効にすると、追加の限定報酬を獲得できます！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: 新しい<color=Yellow>ドリーミーパス</color>が始まりました！日をクリアして<color=Yellow>パス</color>をアンロックし、豪華な報酬を手に入れましょう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: ドリーミーパス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: '{0}位の報酬！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: プレイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: 非公開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: プロフィール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: プロフィールが更新されました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: 公開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: サーバーへのデータ保存が完了しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: 再接続
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: 更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: メンバーを削除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: ライフをリクエスト中！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 必要日数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: '{0}日目をクリアして、必要日数の上限を上げよう！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: リスタート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: 保存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: スコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: 検索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: バッジを選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: ライフを送りました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: サーバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: 特別な報酬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: ステージレース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: "レースに負けました！\nもう一度挑戦して、素晴らしい報酬を獲得しましょう！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: "おめでとうございます！\nレースに勝利しました！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: 他のプレイヤーより先に<color=yellow>{0}日</color>をクリアして勝利し、次のステージで豪華賞品を手に入れよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: 遊び方は？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: 他の人より先に日をクリアしてレースを完走しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: 他の選手より先にレースを完走せよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: 次のステージに進んで、さらに豪華な賞品を手に入れよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: ステージレース勝利
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: ステージ{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: 星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: 始める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: データを同期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: タップして継続！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: タップして開く！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: タップして入手！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: タップして閉じる！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: チーム情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: チームバッジ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: チームに参加すると以下を獲得できます：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: チーム収穫祭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: レベルからトウモロコシを集めよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: チームと一緒に目標を達成しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: 素晴らしい報酬をゲットしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: '通常: トウモロコシ1個 - 難しい: トウモロコシ3個 - 超難関: トウモロコシ5個'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: チームと一緒にトウモロコシを収穫して、素晴らしい報酬をゲットしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: チーム名：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: チーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: チームスコア：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: チームタイプ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 合計無料ライフ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 合計ヘルプ数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: 合計の星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: タワー最高到達階
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: リーダーを譲渡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: 未受け取りの報酬はこちらです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: '{0}日目で解放'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: '{0}日目クリアで解放'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: 使う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: 表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: プロフィールを表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: サーバーの処理が完了するまで、もう少しお待ちください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: ウィークリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: ウィークリーコンテスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: 次回はもっと頑張って豪華な報酬を手に入れよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: 日をクリア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: 首位に立とう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: 世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: はい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: リーダーボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: チーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: アップグレードは次回のアップデートで利用可能になります！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: 日数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: チームに参加すると：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: '<color=#7CF73F>無料</color>ハートをゲット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: 仲間とチャットして一緒にチャレンジしよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: 完成エリア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: '{0}日目に到達すると進めます'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: 日数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: '{1}の{0}をクリア'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: まず{0}を最終段階までアップグレードしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: '{0}のアップグレードが解放されました！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: '{0}に新しい道具のアップグレードレベルが登場！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: すべて購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: 追加ボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: 1回限定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: 追加セール {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: '{1}レストランの{0}をクリアで解放！'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

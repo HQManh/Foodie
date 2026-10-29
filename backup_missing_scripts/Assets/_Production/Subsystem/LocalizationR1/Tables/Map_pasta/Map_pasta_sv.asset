@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Map_pasta_sv
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: b8c57adbeaeeddd48bdbbb34b0659dca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2207008936681472
+    m_Localized: Den mysiga lilla trattorian där din pastahistoria börjar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624512
+    m_Localized: Ger din trattoria en mysig övervåning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624513
+    m_Localized: Mixar silkeslen sås på ett ögonblick.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624514
+    m_Localized: En virvelvind av sås. Lock rekommenderas starkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624515
+    m_Localized: Tomaterna är tärnade innan de hinner rodna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624516
+    m_Localized: Hackar så snabbt att löken inte ens hinner gråta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624517
+    m_Localized: Ett rutigt bord och sköna stolar för pasta i det fria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624518
+    m_Localized: En varm lykta som lyser vid dörren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624519
+    m_Localized: En stolt kapybarakockskylt kröner taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624520
+    m_Localized: En svart tavla med dagens pastaspecialiteter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624521
+    m_Localized: Såserna fräser dubbelt så snabbt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624522
+    m_Localized: Extra fräsande upplåst. Pannan glöder av stolthet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008978624523
+    m_Localized: Fräscha krukväxter som lyser upp entrén.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013120
+    m_Localized: Vattnet kokar innan du hinner säga al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013121
+    m_Localized: En bubblande legend som kokar pasta i ljusets hastighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013122
+    m_Localized: En fyllig druvklase som pryder taket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013123
+    m_Localized: En jättelik tallrik spagetti uppsnurrad högt på taket!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013124
+    m_Localized: Häller upp bubblig läsk i en handvändning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013125
+    m_Localized: Massor av bubbel! En fontän av bubblor och glädje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013126
+    m_Localized: Trattoria på övervåningen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013127
+    m_Localized: Såsmixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013128
+    m_Localized: Sås-tornado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013129
+    m_Localized: Snabbhackbräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013130
+    m_Localized: Pastaninjabräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013131
+    m_Localized: Uteplatsbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008987013132
+    m_Localized: Vägglykta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207424
+    m_Localized: Capy-kockskylt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207425
+    m_Localized: Kritmeny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207426
+    m_Localized: Frasande panna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207427
+    m_Localized: Flammande panna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207428
+    m_Localized: Basilika i kruka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207429
+    m_Localized: Snabbkokgryta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207430
+    m_Localized: Megakokkittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207431
+    m_Localized: Takdruvor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207432
+    m_Localized: Jättespagetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008991207433
+    m_Localized: Bubbelfontän
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207008995401728
+    m_Localized: Läskgejser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025511272448
+    m_Localized: En respektingivande björn i kritstrecksrandig kostym och fedora med ros, som väntar sig rejäla pastaportioner och total respekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243968
+    m_Localized: En stilig tigrerad katt i lila hatt och matchande klänning, som beställer pasta med oklanderlig smak och ett nöjt spinnande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243969
+    m_Localized: En prydlig chinchilla i blå postuniform som följer doften av färsk pasta mellan leveranserna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243970
+    m_Localized: En stolt tupp i cylinderhatt och trefärgat ordensband som presiderar över pastadisken med storslagna tal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243971
+    m_Localized: Ett milt får i runda glasögon och halsduk med bjällra, som ser varje pastatallrik som ett riktigt tillfälle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243972
+    m_Localized: Äpple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243973
+    m_Localized: Skivat äpple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025532243974
+    m_Localized: Don Orsino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438272
+    m_Localized: Grillad biff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438273
+    m_Localized: Rå biff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438274
+    m_Localized: Kokgryta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438275
+    m_Localized: Rostat bröd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438276
+    m_Localized: Bröd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438277
+    m_Localized: Grevinnan Caterina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438278
+    m_Localized: Ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438279
+    m_Localized: Hackad ost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438280
+    m_Localized: Ostsås
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438281
+    m_Localized: Grillad kyckling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438282
+    m_Localized: Rå kyckling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438283
+    m_Localized: Chico Chinchilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438284
+    m_Localized: Skärbräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438285
+    m_Localized: Grillad pilgrimsmussla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438286
+    m_Localized: Rå pilgrimsmussla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438287
+    m_Localized: Skuren rå pilgrimsmussla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438288
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438289
+    m_Localized: Sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438290
+    m_Localized: Kött & skaldjur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438291
+    m_Localized: Läsk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438292
+    m_Localized: Kokt farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438293
+    m_Localized: Rå farfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438294
+    m_Localized: Stekt köttfärs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438295
+    m_Localized: Rå köttfärs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438296
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438297
+    m_Localized: Citron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438298
+    m_Localized: Skivad citron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438299
+    m_Localized: Sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438300
+    m_Localized: Strimlad sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438301
+    m_Localized: Kokt manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438302
+    m_Localized: Rå manicotti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438303
+    m_Localized: Majonnäs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438304
+    m_Localized: Kött & skaldjur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438305
+    m_Localized: Stor meny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438306
+    m_Localized: Mjölk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438307
+    m_Localized: Grillad bläckfisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438308
+    m_Localized: Rå bläckfisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438309
+    m_Localized: Skuren rå bläckfisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438310
+    m_Localized: Panna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438311
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438312
+    m_Localized: Borgmästare Gallo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438313
+    m_Localized: Sallad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438314
+    m_Localized: Såsmixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438315
+    m_Localized: Signor Woolington
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438316
+    m_Localized: Grillade räkor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438317
+    m_Localized: Råa räkor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438318
+    m_Localized: Skurna råa räkor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438319
+    m_Localized: Läsk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438320
+    m_Localized: Läskmugg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438321
+    m_Localized: Kokt spaghetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438322
+    m_Localized: Rå spaghetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438323
+    m_Localized: Spenat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438324
+    m_Localized: Hackad spenat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438325
+    m_Localized: Spenatsås
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438326
+    m_Localized: Stor tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438327
+    m_Localized: Hackad tomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2508025536438328
+    m_Localized: Tomatsås
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974605205504
+    m_Localized: Ett krispigt äpple som håller doktorn och tråkiga sallader borta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371328
+    m_Localized: Skuren i krispiga klyftor, redo att blandas i.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371329
+    m_Localized: Grillad tills den viskar bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371330
+    m_Localized: En tjock bit nötkött med stora florentinska drömmar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371331
+    m_Localized: Kokar pasta tills den är perfekt al dente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974630371332
+    m_Localized: Gyllene bruschetta med ett härligt knaprande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565632
+    m_Localized: Ett rustikt italienskt bröd, frasigt utanpå och mjukt inuti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565633
+    m_Localized: Ett osthjul lagrat för drama och smak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565634
+    m_Localized: Ostsnöflingor som väntar på att falla över pastan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565635
+    m_Localized: Krämig, ostig och len nog att vinna varje diskussion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565636
+    m_Localized: Saftig grillad kyckling med ordentliga grillränder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565637
+    m_Localized: Blek kyckling som väntar på sin stund på grillen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565638
+    m_Localized: Hackar grönsaker snabbare än du hinner säga ciao.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565639
+    m_Localized: Stekta pilgrimsmusslor, söta som en venetiansk solnedgång.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565640
+    m_Localized: En pilgrimsmussla som fortfarande håller skalet stängt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565641
+    m_Localized: Rensad, putsad och inte längre inne i sitt skal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565642
+    m_Localized: En tom mugg som väntar på något bubbligt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565643
+    m_Localized: Snurrad, sås på och serverad med italiensk stil. Mamma mia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565644
+    m_Localized: Krispig, fräsch och vänd som en riktig italiensk trädgård.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565645
+    m_Localized: Från grillen och havet, en fest värdig en söndag i Neapel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565646
+    m_Localized: Bubblig, kall och den perfekta sidekicken till varje pastatallrik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565647
+    m_Localized: Mjuka flugor uppklädda för middag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565648
+    m_Localized: Små pastafjärilar som inte lärt sig flyga än.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565649
+    m_Localized: Brynt och såsig, precis som nonna gör den.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565650
+    m_Localized: Köttfärs på väg att bli en klassisk ragù.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565651
+    m_Localized: Kalla kuber som håller varje läsk sval.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565652
+    m_Localized: En solig Amalficitron med syrlig personlighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565653
+    m_Localized: Klara citronskivor som får varje klunk att gnistra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565654
+    m_Localized: Ett krispigt salladshuvud, färskt från trädgården.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565655
+    m_Localized: Strimlade blad redo att vändas ordentligt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565656
+    m_Localized: Möra rör, kokta och redo att fyllas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565657
+    m_Localized: Stora pastarör med gott om plats för fyllning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565658
+    m_Localized: Den krämiga dressingen som håller ihop varje sallad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565659
+    m_Localized: Grill möter hav på en generös tallrik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565660
+    m_Localized: Färsk mjölk, hemligheten bakom varje krämig sås.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565661
+    m_Localized: Grillad bläckfisk, en äkta smak av Medelhavet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565662
+    m_Localized: Åtta armar och ingen aning om vad som väntar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565663
+    m_Localized: Tentakler putsade och redo för värmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565664
+    m_Localized: Steker kött och såser till gyllene perfektion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565665
+    m_Localized: En ångande tallrik pasta, al dente och stolt över det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565666
+    m_Localized: Färska gröna blad vända på italienskt vis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565667
+    m_Localized: Mixar silkeslena såser i en krämig virvel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565668
+    m_Localized: Fräsande räkor kyssta av lågorna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565669
+    m_Localized: Små räkor som rullat ihop sig och är blyga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565670
+    m_Localized: Skalade och förberedda, inget skal kvar att gömma sig i.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565671
+    m_Localized: En mugg full av bubblor, iskall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565672
+    m_Localized: En mugg redo för en bubblig påfyllning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565673
+    m_Localized: Häller bubblande läsk över massor av is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565674
+    m_Localized: Perfekt al dente och redo att snurras.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565675
+    m_Localized: Långa, torra och stela som en grissini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565676
+    m_Localized: Gröna blad med sjömanskrafter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565677
+    m_Localized: Finhackade blad redo för såsen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565678
+    m_Localized: Grön, krämig och i hemlighet nyttig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565679
+    m_Localized: En fyllig tomat, mognad under den toskanska solen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565680
+    m_Localized: Tärnad tomat, det bultande hjärtat i varje röd sås.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565681
+    m_Localized: Rosa, krämig och skär som en romersk solnedgång.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974634565682
+    m_Localized: Mugg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538974638759936
+    m_Localized: Läskmaskin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376267120959488
+    m_Localized: Mysig Trattoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103310856192
+    m_Localized: Tomaterna hackas innan de hinner rodna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410624
+    m_Localized: Samurajpastabräda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103344410625
+    m_Localized: Ett hugg, en hel sallad. Kockens kyss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604928
+    m_Localized: Legendarisk pastaklinga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604929
+    m_Localized: Krämig sås i en virvel. Servetter rekommenderas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604930
+    m_Localized: Såsorkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103348604931
+    m_Localized: Silkeslen sås i en snurrs hastighet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799232
+    m_Localized: Legendarisk såsvirvel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103352799233
+    m_Localized: Biffarna fräser på ett ögonblick. Hör det ljudet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993536
+    m_Localized: Infernopanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993537
+    m_Localized: Perfekt grillat innan du hinner säga bellissimo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993538
+    m_Localized: Legendarisk fräspanna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993539
+    m_Localized: Pastan är al dente på ett ögonblick.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103356993540
+    m_Localized: Vulkankokgryta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187840
+    m_Localized: Kokar så snabbt att vattnet knappt märker det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187841
+    m_Localized: Legendarisk pastakittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187842
+    m_Localized: Den får utbrott av bubblor. Muggarna fyller sig själva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187843
+    m_Localized: Läskvulkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187844
+    m_Localized: Bubblor för evigt. Törsten har ingen chans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4741103361187845
+    m_Localized: Oändlig läskfontän
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

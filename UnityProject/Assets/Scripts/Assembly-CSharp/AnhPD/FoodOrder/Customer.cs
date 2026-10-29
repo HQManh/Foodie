@@ -194,9 +194,9 @@ namespace AnhPD.FoodOrder
 
 		private void PlayVoice(AudioClip clip)
 		{
-			if ((bool)clip && !IsMuted)
+			if ((bool)clip && !IsMuted && _voice != null)
 			{
-				_voice.pitch = AudioManagerCakeOrder.Instance.SpeedFor((AudioManagerCakeOrder.AudioTrack)6);
+				_voice.pitch = AudioManagerCakeOrder.Instance != null ? AudioManagerCakeOrder.Instance.SpeedFor((AudioManagerCakeOrder.AudioTrack)6) : 1f;
 				_voice.volume = voiceVolume;
 				_voice.clip = clip;
 				_voice.Play();

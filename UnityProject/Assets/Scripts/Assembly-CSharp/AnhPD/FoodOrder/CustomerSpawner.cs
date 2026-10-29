@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace AnhPD.FoodOrder
 {
-	public class CustomerSpawner : MonoBehaviour
+	public class CustomerSpawner
 	{
 		private class WaitingCustomer
 		{
@@ -946,7 +946,7 @@ namespace AnhPD.FoodOrder
 			}
 			FCustomerLine fCustomerLine = UnityEngine.Object.Instantiate(_linePrefab, LineParent);
 			fCustomerLine.transform.localScale = _linePrefab.transform.localScale;
-			fCustomerLine.transform.localPosition = _linePrefab.transform.localPosition;
+			Vector3 prefabLocal = _linePrefab.transform.localPosition; fCustomerLine.transform.localPosition = new Vector3(prefabLocal.x, 0f, prefabLocal.z); // y: the prefab sits at the handle height already (handle y + 3.8 put customers off-screen)
 			fCustomerLine.gameObject.SetActive(true);
 			_lines.Add(fCustomerLine);
 			_registerLine(fCustomerLine);

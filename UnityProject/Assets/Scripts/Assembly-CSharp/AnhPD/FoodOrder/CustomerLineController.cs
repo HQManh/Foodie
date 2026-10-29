@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace AnhPD.FoodOrder
 {
-	public class CustomerLineController : MonoBehaviour
+	public class CustomerLineController
 	{
 		private readonly CustomerLineModel _model;
 

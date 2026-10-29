@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_Common_th-TH
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th-TH
+  m_SharedData: {fileID: 11400000, guid: 7d0261ae21f92534f94ff655d1118f33, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57759188901888
+    m_Localized: ใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067712
+    m_Localized: เต็ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067713
+    m_Localized: '{0}ว. {1}ชม.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067714
+    m_Localized: '{0}น.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067715
+    m_Localized: '{0}ชม. {1}น.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067716
+    m_Localized: '{0}ชม.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067717
+    m_Localized: รางวัล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067718
+    m_Localized: ซื้อ​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067719
+    m_Localized: ได้​รับ​รางวัล​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067720
+    m_Localized: รับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067721
+    m_Localized: ตกลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067722
+    m_Localized: Lv.{0} -> Lv.{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067723
+    m_Localized: วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067724
+    m_Localized: ปลด​ล็อก​เมื่อ​เริ่ม​วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067725
+    m_Localized: เร็ว ๆ นี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759214067726
+    m_Localized: ฟีเจอร์​นี้​กำลัง​จะ​มา​เร็ว ๆ นี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262016
+    m_Localized: ร้าน​ค้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262017
+    m_Localized: หน้า​หลัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262018
+    m_Localized: ร้าน​อาหาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262019
+    m_Localized: PvP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262020
+    m_Localized: ความ​สำเร็จ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262021
+    m_Localized: แผนที่​นี้​ถูก​ล็อก ผ่าน​แผนที่​ก่อน​หน้า​เพื่อ​ปลด​ล็อก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262022
+    m_Localized: วัน​ดัง​กล่าว​ถูก​ล็อก ผ่าน​วัน​ก่อน​หน้า​เพื่อ​ปลด​ล็อก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262023
+    m_Localized: วัน​ที่ {0} - {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262024
+    m_Localized: ผ่าน​วัน​ที่ {0} ของ​ร้าน​ก่อน​หน้า​เพื่อ​ปลด​ล็อก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262025
+    m_Localized: ยาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262026
+    m_Localized: ยาก​มาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262027
+    m_Localized: แผนที่​นี้​จะ​มา​ใน​อัปเดต​ถัด​ไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262028
+    m_Localized: 'เสิร์ฟ​แล้ว: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262029
+    m_Localized: ลอง​อัป​เกรด​ร้าน​อาหาร​ของ​คุณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262030
+    m_Localized: นี่​คือ​ไอ​เท​ม​ที่​คุณ​ซื้อ​ได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262031
+    m_Localized: ใช้​เหรียญ​ที่​ได้​เมื่อ​วาน​มา​อัป​เกรด​อะไร​สัก​อย่าง​กัน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262032
+    m_Localized: ต่อ​ไป​ไป​ที่​แท็​บอัป​เกรด​อุปกรณ์​กัน​เลย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262033
+    m_Localized: ลอง​อัป​เกรด​เตา​ย่าง​นี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262034
+    m_Localized: อัป​เกรด​เครื่อง​ปิ้ง​ขนมปัง​แล้ว กลับ​ไป​เริ่ม​วัน​ใหม่​กัน​เลย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262035
+    m_Localized: ได้​เวลา​เริ่ม​วัน​ใหม่​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262036
+    m_Localized: ลอง​ใช้​บูส​เตอร์​นี้​ดู!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262037
+    m_Localized: ขณะ​ทำ​อาหาร มี​โอกาส​เข้า​สู่​สถานะ​พิเศษ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759218262038
+    m_Localized: เสิร์ฟ​ลูกค้า​สำเร็จ​หนึ่ง​คน แถบ​นี้​จะ​เพิ่ม​ขึ้น! ลอง​เสิร์ฟ​ลูกค้า​อีก {0} คน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456320
+    m_Localized: เสิร์ฟ​อาหาร​สำเร็จ​หนึ่ง​จาน แถบ​นี้​จะ​เพิ่ม​ขึ้น! ลอง​เสิร์ฟ​อีก {0} จาน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456321
+    m_Localized: เยี่ยม! ใน​โหมด​ระเบิด​รสชาติ คุณ​จะ​ทำ​อาหาร​ได้​อย่าง​มี​ประสิทธิภาพ​สุด ๆ ขอ​ให้​สนุก!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456322
+    m_Localized: เหรียญ​ไม่​พอ​สำหรับ​สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456323
+    m_Localized: Lv.MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456324
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456325
+    m_Localized: '{0} ไม่​พอ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456326
+    m_Localized: อยู่​ใน​ระดับ​สูงสุด​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456327
+    m_Localized: '{0} ครั้ง'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456328
+    m_Localized: รับ x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456329
+    m_Localized: บูส​เตอร์​จะ​ใช้ได้​ใน​วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759222456330
+    m_Localized: เปิด​ใช้​ความเร็ว x{0} เป็น​เวลา {1} นาที​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759226650624
+    m_Localized: รับ​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57759247622144
+    m_Localized: ลบ​โฆษณา​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57760069705728
+    m_Localized: ชื่อ​บูส​เตอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761084727296
+    m_Localized: ช่วย​ฉัน​เพื่อ​เพิ่ม +{0} XXX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326720
+    m_Localized: ทำ​อาหาร​อัตโนมัติ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762263326721
+    m_Localized: เก็บ​วัตถุดิบ​และ​ทำ​อาหาร​ให้​อัตโนมัติ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477376
+    m_Localized: ไม้กวาด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57762741477377
+    m_Localized: เก็บ​กอง​จาน​สกปรก​บน​โต๊ะ​หนึ่ง​กอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793856
+    m_Localized: ที่​คีบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763244793857
+    m_Localized: เลือก​จาน​วัตถุดิบ​ได้​อิสระ​หนึ่ง​จาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029952
+    m_Localized: ต้องการ​ช่อง​เพิ่ม​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57763660029953
+    m_Localized: ปลด​ล็อก​ช่อง​เพิ่ม​เพื่อ​เก็บ​อาหาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374912
+    m_Localized: สลับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764142374913
+    m_Localized: สลับ​แถว​วัตถุดิบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331264
+    m_Localized: ความเร็ว x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57764616331265
+    m_Localized: ทำ​อาหาร​และ​เสิร์ฟ​เร็ว​ขึ้น​ด้วย​ความเร็ว x2!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765178368000
+    m_Localized: ฟื้นฟู​หัวใจ {0} ดวง​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57765627158528
+    m_Localized: +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766021423104
+    m_Localized: ลอง​สลับ​วัตถุดิบ​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766499573760
+    m_Localized: ย้าย​วัตถุดิบ 5 ชิ้น​ใส่​ถุง​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57766990307328
+    m_Localized: เติม​เวลา​รอ​ของ​ลูกค้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533376
+    m_Localized: เบอร์​เกอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533377
+    m_Localized: กาแฟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533378
+    m_Localized: ข้อมูล​ขัด​แย้ง​กัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533379
+    m_Localized: กำลัง​โหลด...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533380
+    m_Localized: กำลัง​โหลด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533381
+    m_Localized: ร้าน​อา​หาร​เลเวล​อัป!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533382
+    m_Localized: แตะ​เพื่อ​ไป​ต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533383
+    m_Localized: บอส​จู้จี้​และ​หมด​ความ​อดทน​ง่าย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533384
+    m_Localized: ยินดี​ด้วย​กับ​ร้าน​ฟาสต์​ฟู้ด​ของ​คุณ​เอง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533385
+    m_Localized: มา​เริ่ม​เปิด​ร้าน​กัน​เถอะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808354533386
+    m_Localized: เธอ​อยาก​ได้​เบอร์​เกอร์​ฉ่ำ ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727680
+    m_Localized: แตะ​วัตถุดิบ​ที่​ต้องการ​ใช้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727681
+    m_Localized: แตะ​ออ​เด​อร์​ของ​ลูกค้า​เพื่อ​เปลี่ยน​การ​แสดง​ผล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727682
+    m_Localized: คน​ส่ง​ของ​จะ​รับ​หลา​ยอ​อเด​อร์​ก่อน​หมด​เวลา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727683
+    m_Localized: ใช้​คลา​วด์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727684
+    m_Localized: ใช้​ใน​เครื่อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57808358727685
+    m_Localized: รางวัล​ของ​คุณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57761831313408
+    m_Localized: เคลียร์ {0} ช่อง​แล้ว​ทำ​อาหาร​ต่อ​ไหม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130227597312
+    m_Localized: "สนุก​กับ​เกม​ไหม?\nมา​รีวิว​ให้​หน่อย​นะ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763136
+    m_Localized: ให้​คะแนน​เกม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763137
+    m_Localized: อร่อย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763138
+    m_Localized: อร่อย​จัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763139
+    m_Localized: อร่อย​มาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763140
+    m_Localized: ชอบ​มาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763141
+    m_Localized: ขอ​อีก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763142
+    m_Localized: เลิศ​รส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763143
+    m_Localized: สุด​ยอด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763144
+    m_Localized: ระดับ​เชฟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763145
+    m_Localized: ฝีมือ​เทพ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 791130252763146
+    m_Localized: มาสเตอร์​พีซ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990464650174464
+    m_Localized: ผ่าน{0}ของ {1} เพื่อ​ปลด​ล็อก​วัน​พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555391926272
+    m_Localized: ต้อง​เชื่อม​ต่อ​อินเทอร์เน็ต!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897792
+    m_Localized: โฆษณา​ยัง​ไม่​พร้อม ลอง​อีก​ครั้ง​นะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897793
+    m_Localized: ชื่อ​ต้อง​มี​อย่าง​น้อย {0} ตัว​อักษร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555412897794
+    m_Localized: ชื่อ​ต้อง​มี​ไม่​เกิน {0} ตัว​อักษร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092096
+    m_Localized: ชื่อ​ใช้ได้​เฉพาะ​ตัว​อักษร ตัวเลข ช่อง​ว่าง และ _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092097
+    m_Localized: กลับ​มา​อีก​ครั้ง​ใน {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092098
+    m_Localized: รับ​รางวัล​ฟรี​ก่อน​นะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034555417092099
+    m_Localized: รับ​รางวัล​ก่อน​หน้า​ก่อน​นะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010538542981120
+    m_Localized: ตกลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034886662250496
+    m_Localized: ปลด​ล็อก​ใน​วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3034655686123520
+    m_Localized: ซูชิ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035441900019712
+    m_Localized: เยี่ยม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172213661696
+    m_Localized: วัน​พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3215172247216128
+    m_Localized: ล็อก​อยู่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223690643759104
+    m_Localized: ร้าน​ค้า​อาหาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043783622656
+    m_Localized: อัป​เกรด​อุปกรณ์​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371392
+    m_Localized: '{0} เร็ว​ขึ้น​แล้ว'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3229043821371393
+    m_Localized: '{0} ความเร็ว​สูงสุด​แล้ว'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232415119040512
+    m_Localized: ปลด​ล็อก​วัน​พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663805710336
+    m_Localized: ข่าวสาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653376
+    m_Localized: มี​ชิ้น​ส่วน​อัป​เกรด​ใหม่​สำหรับ​ร้าน​อาหาร​ของ​คุณ​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653377
+    m_Localized: '{0} มี​วัน​พิเศษ​ใหม่!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257663847653378
+    m_Localized: ปรับ​ราคา​อัป​เกรด​แล้ว ทอง​ที่​จ่าย​เกิน​ถูก​คืนให้​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3313060306477056
+    m_Localized: ให้​คะแนน​เรา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573421977600
+    m_Localized: เปิด​ใช้​งาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806720
+    m_Localized: เปิด​ใช้​งาน​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806721
+    m_Localized: มี​ทีม​นี้​อยู่​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573547806722
+    m_Localized: ทีม​เต็ม​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001024
+    m_Localized: ทีม​ไม่​ว่าง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001025
+    m_Localized: ไม่มี​ทีม​นี้​อยู่!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001026
+    m_Localized: หัวหน้า​ไม่​สามารถ​ออก​จาก​ทีม​ได้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573552001027
+    m_Localized: ไม่มี​สิทธิ์!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195328
+    m_Localized: เซิร์ฟเวอร์​ผิด​พลาด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195329
+    m_Localized: ผู้​ใช้​เข้า​ร่วม​ทีม​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195330
+    m_Localized: ผู้​ใช้​เพิ่ง​ออก​ไป​เมื่อ​เร็วๆ นี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195331
+    m_Localized: ผู้​ใช้​ไม่​ได้​อยู่​ใน​ทีม!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195332
+    m_Localized: ขอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573556195333
+    m_Localized: อวตาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389632
+    m_Localized: คลัง​โบนัส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389633
+    m_Localized: ผ่าน​วัน​ต่างๆ เพื่อ​สะสม​ทองใน​คลัง​และ​รับ​คืน​เมื่อ​สิ้น​สุด​กิจกรรม!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389634
+    m_Localized: เปิด​ใช้​งาน<color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color> เพื่อ​ปลด​ล็อก<color=yellow>คลัง​โบนัส</color> เมื่อ​สิ้น​สุด​ด่าน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389635
+    m_Localized: ไม่​สามารถ​บันทึก​ข้อมูล​ของ​คุณ​ไป​ยัง​เซิร์ฟเวอร์!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573560389636
+    m_Localized: แชท
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583936
+    m_Localized: เลือก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583937
+    m_Localized: รับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583938
+    m_Localized: เร็วๆ นี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583939
+    m_Localized: เสร็จ​สิ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583940
+    m_Localized: ยืนยัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573564583941
+    m_Localized: ยินดี​ด้วย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778240
+    m_Localized: ดำเนิน​การ​ต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778241
+    m_Localized: คัด​ลอก​แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778242
+    m_Localized: ประเทศ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778243
+    m_Localized: สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778244
+    m_Localized: สร้าง​และ​นำ​ทีม​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573568778245
+    m_Localized: ลบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972544
+    m_Localized: 'คำ​อธิบาย:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972545
+    m_Localized: บัตร​ผ่าน​แห่ง​ความ​ฝัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972546
+    m_Localized: ยินดี​ต้อนรับ​สู่ <color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน!</color> นี่​คือ​รางวัล​แรก​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972547
+    m_Localized: ผ่าน​วัน​ต่างๆ และ​เก็บ <color=yellow>กุญแจ</color> เพื่อ​ปลด​ล็อก​รางวัล แตะ​เพื่อ​ดู​วิธี​เก็บ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972548
+    m_Localized: เปิด​ใช้ <color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color> เพื่อ​รับ​รางวัล​พิเศษ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972549
+    m_Localized: ปลด​ล็อก​ด่าน​นี้​และ​เปิด​ใช้ <color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color> เพื่อ​รับ​รางวัล​นี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972550
+    m_Localized: สตรี​ค​ใน​ฝัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972551
+    m_Localized: ผ่าน​วัน​ต่างๆ โดย​ไม่​พลาด​เพื่อ​รับ​รางวัล​มาก​ขึ้น!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972552
+    m_Localized: ผ่าน​วัน​ต่างๆ โดย​ไม่​แพ้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573572972553
+    m_Localized: เพิ่ม​ตัว​คูณ​คะแนน​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166848
+    m_Localized: รับ​รางวัล​สุด​พิเศษ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573577166849
+    m_Localized: การ​พลาด​ทุก​ครั้ง​จะ​รีเซ็ต​ตัว​คูณ​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361152
+    m_Localized: หอคอย​ใน​ฝัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361153
+    m_Localized: ผ่าน​วัน​ต่างๆ ติดต่อ​กัน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361154
+    m_Localized: ลุก​ขึ้น​สู้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361155
+    m_Localized: ทุก​ครั้ง​ที่​เกิด​ข้อ​ผิด​พลาด ระบบ​จะ​รีเซ็ต​ความ​คืบ​หน้า​ของ​จุด​ตรวจ​สอบ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361156
+    m_Localized: แก้ไข
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573581361157
+    m_Localized: แก้ไข​ชื่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555456
+    m_Localized: เลือก​ชื่อ​ผู้​ใช้​ของ​คุณ​ก่อน​เข้า​ร่วม​กระดาน​ผู้นำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555457
+    m_Localized: แก้ไข​โปรไฟล์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555458
+    m_Localized: แก้ไข​ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555459
+    m_Localized: ว่าง​เปล่า!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555460
+    m_Localized: สิ้น​สุด​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555461
+    m_Localized: พิมพ์​ข้อความ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573585555462
+    m_Localized: ป้อน​คำ​อธิบาย...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749760
+    m_Localized: ป้อน​ชื่อ​ทีม...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749761
+    m_Localized: เสร็จ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749762
+    m_Localized: ชนะ​ใน​ครั้ง​แรก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749763
+    m_Localized: กรอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749764
+    m_Localized: ฟรี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573589749765
+    m_Localized: หัวใจ<color=#7CF73F>ฟรี</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944064
+    m_Localized: รางวัล<color=#7CF73F>ฟรี</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944065
+    m_Localized: หัวใจ​ฟรี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944066
+    m_Localized: สถิติ​ทั่วไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944067
+    m_Localized: ไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944068
+    m_Localized: ช่วย​เหลือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573593944069
+    m_Localized: ให้​ความ​ช่วย​เหลือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138368
+    m_Localized: ได้​รับ​ความ​ช่วย​เหลือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138369
+    m_Localized: กล่อง​ข้อความ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138370
+    m_Localized: ข้อมูล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138371
+    m_Localized: เข้า​ร่วม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573598138372
+    m_Localized: เข้า​ร่วม​ทีม​เพื่อ​รับ​หัวใจ​ฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332672
+    m_Localized: โอกาส​สุดท้าย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332673
+    m_Localized: หัวหน้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332674
+    m_Localized: กระดาน​ผู้นำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332675
+    m_Localized: ออก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332676
+    m_Localized: ออก​จาก​ทีม?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573602332677
+    m_Localized: คุณ​จะ​ต้อง​รอ 30 นาที​ก่อน​จึง​จะ​สามารถ​สร้าง​หรือ​เข้า​ร่วม​ทีม​ใหม่​ได้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526976
+    m_Localized: ด่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526977
+    m_Localized: บรรลุ <color=yellow>วัน​ที่ {0}</color> เพื่อ​ปลด​ล็อก​การ​แข่งขัน​ประจำ​สัปดาห์!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526978
+    m_Localized: หัวใจ​ของ​คุณ​เต็ม​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526979
+    m_Localized: โหลด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526980
+    m_Localized: โหลด​ข้อมูล​จาก​เซิร์ฟเวอร์​สำเร็จ! รี​ส​ตาร์ต​เกม​เพื่อ​ใช้​ข้อมูล​ใหม่!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526981
+    m_Localized: ใน​เครื่อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573606526982
+    m_Localized: Lv.{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721280
+    m_Localized: ไป​ให้​ถึง <color=yellow> วัน​ที่ {0}</color> เพื่อ​ปลด​ล็อก​กระดาน​ผู้นำ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721281
+    m_Localized: ไป​ให้​ถึง <color=yellow> วัน​ที่ {0}</color> เพื่อ​เข้า​ร่วม​ทีม!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721282
+    m_Localized: สูงสุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721283
+    m_Localized: คุณ​ไม่​สามารถ​ขอ​หัวใจ​ได้ คุณ​มี​หัวใจ​ฟรี​มากกว่า 10 ดวง​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721284
+    m_Localized: '{0} เข้า​ร่วม​ทีม​แล้ว!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721285
+    m_Localized: '{0} ถูก​เตะ​ออก​โดย {1}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573610721286
+    m_Localized: '{0} ออก​จาก​ทีม​แล้ว!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915584
+    m_Localized: สมาชิก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915585
+    m_Localized: ทีม​ของ​ฉัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915586
+    m_Localized: ชื่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915587
+    m_Localized: ชื่อ​ต้อง​มี​อย่าง​น้อย 6 ตัว​อักษร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573614915588
+    m_Localized: เครือ​ข่าย​ขัดข้อง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109888
+    m_Localized: ข้อ​ผิด​พลาด​เครือ​ข่าย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573619109889
+    m_Localized: ใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304192
+    m_Localized: ไม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304193
+    m_Localized: ไม่มี​ชื่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304194
+    m_Localized: Không Có Đóng Góp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573623304195
+    m_Localized: ไม่มี​ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498496
+    m_Localized: ทอง​ไม่​พอ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498497
+    m_Localized: เปิด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498498
+    m_Localized: '<color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color>จะ​ทำให้​คุณ​มี​โอกาส​ได้​รับ​รางวัล​พิเศษ!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498499
+    m_Localized: คุณ​จะ​ได้​รับ​โบนัส​พิเศษ​จนกว่า​กิจกรรม​จะ​สิ้น​สุด​ลง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498500
+    m_Localized: 8 หัวใจ แทนที่​จะ​เป็น 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573627498501
+    m_Localized: เปิด​ใช้​งาน​คลัง​โบนัส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692800
+    m_Localized: กรอบ​รูป​โปรไฟล์​สี​ทอง​และ​ชื่อ​สี​ทอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692801
+    m_Localized: '<color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color>สิ้น​สุด​ลง​แล้ว! โบนัส​ของ​คุณ​จะ​ไม่​ทำงาน​อีก​ต่อ​ไป <color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color>ใหม่​จะ​เริ่ม​เร็วๆ นี้!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692802
+    m_Localized: ผ่าน​วัน​ต่างๆ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692803
+    m_Localized: สะสม​กุญแจ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692804
+    m_Localized: ปลด​ล็อก​รางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692805
+    m_Localized: คุณ​สามารถ​เปิด​ใช้​งาน<color=yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color>เพื่อ​รับ​รางวัล​พิเศษ​เพิ่ม​เติม​ได้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692806
+    m_Localized: '<color=Yellow>บัตร​ผ่าน​แห่ง​ความ​ฝัน</color>ใหม่​เริ่ม​แล้ว! ผ่าน​วัน​ต่างๆ และ​ปลด​ล็อก<color=Yellow>บัตร​ผ่าน</color>เพื่อ​รับ​รางวัล​อัน​มี​ค่า!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692807
+    m_Localized: บัตร​ผ่าน​แห่ง​ความ​ฝัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573631692808
+    m_Localized: รางวัล​อันดับ​ที่ {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887104
+    m_Localized: ผู้​เล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887105
+    m_Localized: ส่วน​ตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887106
+    m_Localized: โปรไฟล์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887107
+    m_Localized: อัปเดต​โปรไฟล์​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887108
+    m_Localized: สาธารณะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887109
+    m_Localized: บันทึก​ข้อมูล​ของ​คุณ​ไป​ยัง​เซิร์ฟเวอร์​เสร็จ​สมบูรณ์​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887110
+    m_Localized: เชื่อม​ต่อ​ใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887111
+    m_Localized: รีเฟรช
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887112
+    m_Localized: ลบ​สมาชิก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887113
+    m_Localized: กำลัง​ขอ​หัวใจ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573635887114
+    m_Localized: 'วัน​ที่​ต้องการ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081408
+    m_Localized: ผ่าน​วัน​ที่ {0} เพื่อ​เพิ่ม​ขีด​จำกัด​วัน​ที่​ต้องการ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081409
+    m_Localized: เริ่ม​ใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081410
+    m_Localized: บันทึก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081411
+    m_Localized: คะแนน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081412
+    m_Localized: ค้นหา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081413
+    m_Localized: เลือก​ตรา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081414
+    m_Localized: ส่ง​หัวใจ​ให้​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081415
+    m_Localized: เซิร์ฟเวอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081416
+    m_Localized: รางวัล​พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081417
+    m_Localized: การ​แข่ง​ขัน​ส​เตจ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573640081418
+    m_Localized: คุณ​แพ้​การ​แข่งขัน​แล้ว! ลอง​ใหม่​อีก​ครั้ง​เพื่อ​ลุ้น​รับ​รางวัล​สุด​อลังการ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275712
+    m_Localized: ขอ​แสดง​ความ​ยินดี! คุณ​ชนะ​การ​แข่งขัน​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275713
+    m_Localized: ผ่าน <color=yellow>{0} วัน</color> ก่อน​คน​อื่น​เพื่อ​ชนะ​และ​ไป​ต่อ​ยัง​รอบ​ถัด​ไป​เพื่อ​รับ​รางวัล​ที่​ใหญ่​กว่า!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275714
+    m_Localized: วิธี​การ​เล่น?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275715
+    m_Localized: ผ่าน​วัน​ต่างๆ ก่อน​คน​อื่น​เพื่อ​เข้า​เส้น​ชัย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275716
+    m_Localized: เข้า​เส้น​ชัย​ก่อน​คน​อื่น!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275717
+    m_Localized: ผ่าน​เข้า​รอบ​ต่อ​ไป​เพื่อ​รับ​รางวัล​ใหญ่​กว่า!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573644275718
+    m_Localized: ชนะ​การ​แข่ง​ผ่าน​ด่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470016
+    m_Localized: ขั้น​ตอน {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470017
+    m_Localized: ดาว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470018
+    m_Localized: เริ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470019
+    m_Localized: ซิงค์​ข้อมูล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470020
+    m_Localized: แตะ​เพื่อ​ไป​ต่อ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470021
+    m_Localized: แตะ​เพื่อ​เปิด!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470022
+    m_Localized: แตะ​เพื่อ​รับ​รางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470023
+    m_Localized: แตะ​เพื่อ​ปิด!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470024
+    m_Localized: ข้อมูล​ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573648470025
+    m_Localized: 'ตรา​ประจำ​ทีม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664320
+    m_Localized: 'เมื่อ​คุณ​เข้า​ร่วม​ทีม คุณ​จะ​ได้​รับ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664321
+    m_Localized: เก็บ​เกี่ยว​ร่วม​ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664322
+    m_Localized: สะสม​ข้าวโพด​จาก​ด่าน​ต่างๆ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664323
+    m_Localized: บรรลุ​เป้า​หมาย​ร่วม​กับ​ทีม​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664324
+    m_Localized: รับ​รางวัล​สุด​วิเศษ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664325
+    m_Localized: 'ปกติ: 1 ข้าวโพด - ยาก: 3 ข้าวโพด - ยาก​มาก: 5 ข้าวโพด'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664326
+    m_Localized: เก็บ​เกี่ยว​ข้าวโพด​ร่วม​กับ​ทีม​ของ​คุณ​เพื่อ​รับ​รางวัล​สุด​วิเศษ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664327
+    m_Localized: 'ชื่อ​ทีม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664328
+    m_Localized: ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573652664329
+    m_Localized: 'คะแนน​ทีม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858624
+    m_Localized: 'ประเภท​ทีม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858625
+    m_Localized: 'หัวใจ​ฟรี​ทั้งหมด:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858626
+    m_Localized: 'ช่วย​เหลือ​ทั้งหมด:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573656858627
+    m_Localized: ดาว​ทั้งหมด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052928
+    m_Localized: ไต่​หอคอย​สูงสุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052929
+    m_Localized: โอน​ตำแหน่ง​หัวหน้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052930
+    m_Localized: นี่​คือ​รางวัล​ที่​ยัง​ไม่​ได้​กด​รับ​ของ​คุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052931
+    m_Localized: ปลด​ล็อก​ใน​วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052932
+    m_Localized: ปลด​ล็อก​เมื่อ​ผ่าน​วัน​ที่ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052933
+    m_Localized: ใช้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052934
+    m_Localized: ดู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052935
+    m_Localized: ดู​โปรไฟล์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052936
+    m_Localized: โปรด​รอ​อีก​สัก​ครู่​เพื่อ​ให้​เซิร์ฟเวอร์​ประมวล​ผล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052937
+    m_Localized: ประจำ​สัปดาห์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573661052938
+    m_Localized: การ​แข่งขัน​ประจำ​สัปดาห์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247232
+    m_Localized: พยายาม​ให้​มาก​ขึ้น​ใน​ครั้ง​ต่อ​ไป​เพื่อ​รับ​รางวัล​อัน​มี​ค่า!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247233
+    m_Localized: ผ่าน​วัน​ต่างๆ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247234
+    m_Localized: ขึ้น​เป็น​ผู้นำ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247235
+    m_Localized: โลก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5326573665247236
+    m_Localized: ใช่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621762646016
+    m_Localized: กระดาน​ผู้นำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5341621796200448
+    m_Localized: ทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5541756459278336
+    m_Localized: การ​อัป​เกรด​จะ​เปิด​ให้​ใช้​ใน​การ​อัปเดต​ครั้ง​ถัด​ไป!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998799618048
+    m_Localized: วัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783872
+    m_Localized: 'เมื่อ​เข้า​ร่วม​ทีม คุณ​จะ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783873
+    m_Localized: รับ​หัวใจ<color=#7CF73F>ฟรี</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5763998824783874
+    m_Localized: แช​ท​และ​ร่วม​ทำ​ภารกิจ​ท้าทาย​กับ​เพื่อนๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5810606518034432
+    m_Localized: พื้นที่​ที่​สำเร็จ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410784403456
+    m_Localized: ไป​ให้​ถึง​วัน​ที่ {0} เพื่อ​เล่น​ต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861410801180672
+    m_Localized: วัน​ที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6955239243505664
+    m_Localized: ผ่าน {0} ของ {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005344550912
+    m_Localized: อัป​เกรด {0} ให้​ถึง​ขั้น​สุดท้าย​ก่อน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522432
+    m_Localized: การ​อัป​เกรด {0} เปิด​แล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522433
+    m_Localized: ระดับ​อัป​เกรด​เครื่อง​มือ​ใหม่​ใน {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948018794496
+    m_Localized: ซื้อ​ทั้งหมด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571712
+    m_Localized: โบนัส​พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571713
+    m_Localized: 1 ครั้ง​เท่านั้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8065948035571714
+    m_Localized: เซล​พิเศษ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072005365522434
+    m_Localized: ผ่าน {0} ของ​ร้าน {1} เพื่อ​ปลด​ล็อก!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
