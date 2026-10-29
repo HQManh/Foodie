@@ -2664,7 +2664,22 @@ namespace AnhPD.FoodOrder
 				walker.Pos += toTarget / dist * travel;
 				walker.BobPhase += step * bobFrequency;
 			}
-			// TODO(unrecovered): customer animation-state branch (ChangeState to Walk/Idle with NaN-guarded comparisons on step, distance and customer state) not transcribed
+			bool moving = dist > 0.001f && step > 0f;
+			if (walker.Customer && walker.Running)
+			{
+				StepRunner(walker, moving);
+			}
+			else if (walker.Customer)
+			{
+				if (moving && walker.Customer.CurrentState == Customer.State.Idle && !walker.IsStop)
+				{
+					walker.Customer.ChangeState(Customer.State.Walk, null, playSfx: false);
+				}
+				else if (!moving && walker.Customer.CurrentState == Customer.State.Walk)
+				{
+					walker.Customer.ChangeState(Customer.State.Idle, null, playSfx: false);
+				}
+			}
 			float bob = 0f;
 			if (dist > 0.001f && walker.Bobs)
 			{
