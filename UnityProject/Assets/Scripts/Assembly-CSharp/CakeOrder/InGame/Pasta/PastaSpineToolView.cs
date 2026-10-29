@@ -200,7 +200,8 @@ namespace CakeOrder.InGame.Pasta
 			landTween.OnComplete(() => Restore());
 
 			DG.Tweening.Sequence sequence = DOTween.Sequence();
-			// TODO(unrecovered): pseudocode inserts an unidentified tween on item.Tf (DAT_091dbfd8) with a follow-up ease before appending the jump.
+			// the original also chains SetTarget(item.Tf) and a bool-flag setting (inferred SetAutoKill(true)) on the sequence before appending
+			sequence.SetTarget(item.Tf).SetAutoKill(true);
 			sequence.Append(landTween);
 			sequence.AppendCallback(() => Restore());
 			return sequence;
