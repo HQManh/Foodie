@@ -162,7 +162,73 @@ namespace AnhPD.FoodOrder
 
 		public override void Play(DragItem result, string ingBaseId, Action onComplete)
 		{
-			// TODO(unrecovered): chained Spine TrackEntry Complete/Event callbacks, a display-class Finish closure and APDUtilities.Appear; callees not fully in stubs.
+			bool finished = false;
+			bool sfxPlayed = false;
+			SkeletonAnimation skeleton = SkeletonFor(ingBaseId);
+			IngAnim entry = EntryFor(ingBaseId);
+			string animName = entry != null ? entry.animName : mergeAnim;
+
+			void Finish()
+			{
+				if (finished)
+				{
+					return;
+				}
+				finished = true;
+				Deactivate(skeleton);
+				ShowHidden();
+				if (result)
+				{
+					result.transform.Appear(0.1f);
+				}
+				onComplete?.Invoke();
+			}
+
+			if (!skeleton || string.IsNullOrEmpty(animName))
+			{
+				Finish();
+				return;
+			}
+			if (_playing && _playing != skeleton)
+			{
+				Deactivate(_playing);
+			}
+			_playing = skeleton;
+			skeleton.gameObject.SetActive(true);
+			Spine.AnimationState state = skeleton.AnimationState;
+			if (state == null)
+			{
+				Finish();
+				return;
+			}
+			ApplySkin(skeleton, ingBaseId);
+			skeleton.Skeleton?.SetToSetupPose();
+			Spine.TrackEntry track = state.SetAnimation(0, animName, false);
+			if (track == null)
+			{
+				Finish();
+				return;
+			}
+			track.Complete += _ => Finish();
+			Hide(EntryFor(ingBaseId));
+			(string sfxEvent, AudioClip sfxClip) = SfxFor(ingBaseId);
+			if (!sfxClip)
+			{
+				return;
+			}
+			if (string.IsNullOrEmpty(sfxEvent))
+			{
+				PlayMergeSfx(sfxClip);
+				return;
+			}
+			track.Event += (_, e) =>
+			{
+				if (!sfxPlayed && e.Data.Name == sfxEvent)
+				{
+					sfxPlayed = true;
+					PlayMergeSfx(sfxClip);
+				}
+			};
 		}
 
 		private void OnDisable()
