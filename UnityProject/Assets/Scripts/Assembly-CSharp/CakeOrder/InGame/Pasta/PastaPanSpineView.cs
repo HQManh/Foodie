@@ -126,7 +126,8 @@ namespace CakeOrder.InGame.Pasta
 			jump.OnComplete(() => Restore());
 
 			Sequence sequence = DOTween.Sequence();
-			// TODO(unrecovered): pseudocode inserts an unidentified tween on item.Tf (DAT_091dbfd8) with a follow-up ease before appending the jump.
+			// the original also chains SetTarget(item.Tf) and a bool-flag setting (inferred SetAutoKill(true)) on the sequence before appending
+			sequence.SetTarget(item.Tf).SetAutoKill(true);
 			sequence.Append(jump);
 			sequence.AppendCallback(() => Restore());
 			return sequence;
@@ -148,8 +149,8 @@ namespace CakeOrder.InGame.Pasta
 			{
 				return;
 			}
-			// TODO(unrecovered): pseudocode calls a virtual slot (0x1f8) on the animation after the world transform update; slot target not in stub.
 			skeletonAnimation.Skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.None);
+			skeletonAnimation.LateUpdate();
 		}
 
 		public override void Stop()

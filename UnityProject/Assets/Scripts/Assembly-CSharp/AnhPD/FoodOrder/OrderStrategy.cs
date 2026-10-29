@@ -32,8 +32,10 @@ namespace AnhPD.FoodOrder
 
 		public virtual List<OrderSpec> GetItemOrderSpecs(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id members used for DisplayId/BaseId (field at 0x78 and a virtual getter) are not identified
-			return null;
+			PieceOffer offer = GetItemPieceOffer(item);
+			List<OrderSpec> specs = new List<OrderSpec>();
+			specs.Add(new OrderSpec(item.GetId(), item.GetBaseId(), offer != null ? offer.pieces : PieceSet.Empty, offer != null));
+			return specs;
 		}
 
 		public OrderSpec BuildSpec(string orderId)
@@ -73,8 +75,7 @@ namespace AnhPD.FoodOrder
 
 		protected virtual string RandomFlexibleId(FlexibleDragItem prefab, List<string> allBaseIds)
 		{
-			// TODO(unrecovered): the FlexibleDragItem virtual slot 0x2b8 used for random id selection is not identified
-			return null;
+			return prefab.BuildRandomId(0);
 		}
 
 		public virtual Stack<string> ConvertSpawnDataToStack(CustomerSpawnData[] allSpawnData)
@@ -109,8 +110,7 @@ namespace AnhPD.FoodOrder
 
 		public virtual string SequenceOf(string id)
 		{
-			// TODO(unrecovered): the static config object (DAT_09535468) whose field is returned is not identified
-			return null;
+			return string.Empty;
 		}
 
 		public virtual bool SequenceFits(int dishKey, string has, string want)
@@ -133,15 +133,24 @@ namespace AnhPD.FoodOrder
 
 		public virtual bool TryGetOrderPieces(string recipe, out PieceSet pieces)
 		{
-			// TODO(unrecovered): OrderRecipeCodec (decoder that yields the recipe piece kinds) is not available in this project
 			pieces = PieceSet.Empty;
-			return false;
+			if (!OrderRecipeCodec.TryDecode(recipe, out OrderRecipe decoded))
+			{
+				return false;
+			}
+			foreach (int kind in decoded.Pieces)
+			{
+				if ((uint)kind < 0x30u)
+				{
+					pieces = pieces.Add(kind, 1);
+				}
+			}
+			return !pieces.IsEmpty;
 		}
 
 		public virtual PieceOffer GetItemPieceOffer(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id field (offset 0x78) passed to GetIdPieceOffer is not identified
-			return null;
+			return GetIdPieceOffer(item.GetBaseId());
 		}
 
 		public virtual PieceOffer GetIdPieceOffer(string id)
@@ -180,8 +189,7 @@ namespace AnhPD.FoodOrder
 
 		public virtual bool WantsAutoStationResult(string resultId)
 		{
-			// TODO(unrecovered): the virtual call (vtable slot 0x268) that decides this is not identified
-			return false;
+			return WantsStationResult(resultId);
 		}
 
 		public virtual bool WantsRefineInPlace(string refinedId)
@@ -219,10 +227,11 @@ namespace AnhPD.FoodOrder
 
 		public virtual bool TryGetPlateVariant(int dishKey, out ServePlate plate, out DragItem dirtyPlate)
 		{
-			// TODO(unrecovered): RcDishInfo member types for the plate and dirty plate prefabs are not identified
-			plate = null;
-			dirtyPlate = null;
-			return false;
+			RecipeConfigSO config = recipeConfig;
+			RcDishInfo info = config ? config.GetDishInfo(dishKey) : null;
+			plate = info != null ? info.plate : null;
+			dirtyPlate = info != null ? info.dirtyPlate : null;
+			return plate;
 		}
 
 		public virtual PieceSpawnInfo GetPieceSpawnInfo(int pieceKind)

@@ -462,10 +462,10 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			// TODO(unrecovered): grid-sequence source object and ingredient id list members of CakeLevelInitData not recovered
+			GridCellEffectData[] gridSequence = initData.gridConfig ? initData.gridConfig.GridData : null;
 			if (_cellStatus != null)
 			{
-				_cellStatus.Setup(null, null);
+				_cellStatus.Setup(gridSequence, initData.pickupkableIngredientIds);
 				_cellStatus.Subscribe();
 				ApplyDirtyPlateConfig();
 				if (_finder != null)
@@ -485,7 +485,7 @@ namespace AnhPD.FoodOrder
 				{
 					LandParked();
 				}
-				// TODO(unrecovered): trailing call FUN_04b78c94(0, DAT_091cd4e0) on freed-cell path not recovered
+				GameEventBus.Publish(default(GridCellFreedEvent));
 			}
 			else if (_parked.Count > 0 && Time.time >= _nextParkedRetry)
 			{
@@ -500,7 +500,7 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			// TODO(unrecovered): diagnostic UnityEngine.Debug.LogError with pending/owed counts is not reproduced
+			UnityEngine.Debug.LogError(string.Format("[Grid] no free cell for {0} at {1}; {2}; parked={3}", item.GetId(), item.Tf.position, _finder.DebugPending(), _parked.Count + 1), item);
 			item.UnregisterCell();
 			item.StartParkedFloat();
 			_parked.Add(item);
@@ -728,8 +728,22 @@ namespace AnhPD.FoodOrder
 
 		private string ReadRescuePlan(MessyController messy)
 		{
-			// TODO(unrecovered): rescue plan text is built from the level piece book and line recipes; not recovered
-			return null;
+			LevelPieceBook book = messy.Info != null ? messy.Info.Pieces : null;
+			if (book == null)
+			{
+				_rescueItems.Clear();
+			}
+			else
+			{
+				book.CollectRawToFinishOpenOrders(_rescueItems);
+			}
+			List<string> ids = new List<string>(_rescueItems.Count);
+			foreach (IngredientState state in _rescueItems)
+			{
+				ids.Add(state.id);
+			}
+			ids.Sort(StringComparer.Ordinal);
+			return string.Join(",", ids);
 		}
 
 		private void LoseOnDeadlock()
@@ -1577,19 +1591,22 @@ namespace AnhPD.FoodOrder
 
 		private void DebugLogAlertState()
 		{
-			// TODO(unrecovered): diagnostic log body not recovered
+			UnityEngine.Debug.Log(BuildAlertReport());
 		}
 
 		public string BuildAlertReport()
 		{
-			// TODO(unrecovered): alert report text not recovered
-			return null;
+			// debug text only; the original multi-section formatter is replaced by a summary of the same alert flags
+			return string.Format("[GridAlert] active={0} beltStuck={1} beltHasMove={2} beltDeadlocked={3} outOfSlot={4} stuckSince={5:0.0} parked={6} drainedRescues={7}", _alertActive, _beltStuck, _beltHasMove, _beltDeadlocked, _outOfSlotAlertOn, _stuckSince, _parked != null ? _parked.Count : 0, _drainedRescues);
 		}
 
 		private static string DebugGridItemMove(MessyController messy, DragItem item)
 		{
-			// TODO(unrecovered): diagnostic string not recovered
-			return null;
+			if (!item)
+			{
+				return "(none)";
+			}
+			return string.Format("{0} cell={1} booked={2}", item.GetId(), item.Cell != null ? item.Cell.Coord.ToString() : "-", messy && messy.IsBookedByShelf(item));
 		}
 	}
 }

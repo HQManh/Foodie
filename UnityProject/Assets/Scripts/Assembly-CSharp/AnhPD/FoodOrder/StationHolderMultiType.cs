@@ -11,9 +11,7 @@ namespace AnhPD.FoodOrder
 		{
 			public CookingStation station;
 
-			public Vector2 size;
-
-			// TODO(unrecovered): original ctor seeds size from a config static that is not in the stubs; no ctor stub exists to attach it to.
+			public Vector2 size = Vector2.one;
 		}
 
 		[Tooltip("Fixed holder area; does not grow with active station count.")]

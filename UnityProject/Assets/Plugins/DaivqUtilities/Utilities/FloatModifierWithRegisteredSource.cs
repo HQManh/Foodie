@@ -160,49 +160,71 @@ public abstract class FloatModifierWithRegisteredSource
 
 	private Action _onChanged;
 
-	public float Value => 0f;
+	public float Value => _value;
 
 	protected abstract float InitValue { get; }
 
 	protected FloatModifierWithRegisteredSource()
 	{
+		_value = InitValue;
 	}
 
 	public FloatModifierWithRegisteredSource(Action onChanged)
 	{
+		_onChanged = onChanged;
 	}
 
 	public void AddModifier(UnityEngine.Object @object, float value)
 	{
+		AddModifier(@object.GetInstanceID(), value);
 	}
 
 	public void AddModifier(int id, float value)
 	{
+		_source[id] = value;
+		UpdateModifier();
+		_onChanged?.Invoke();
 	}
 
 	public void RemoveModifier(UnityEngine.Object @object)
 	{
+		RemoveModifier(@object.GetInstanceID());
 	}
 
 	public void RemoveModifier(int id)
 	{
+		if (_source.Remove(id))
+		{
+			UpdateModifier();
+			_onChanged?.Invoke();
+		}
 	}
 
 	public IEnumerator IETween(UnityEngine.Object @object, float to, AnimationCurve valueCurve, float duration, Action onFinished = null, Action<float> onUpdate = null)
 	{
-		return null;
+		return IETween(@object, InitValue, to, valueCurve, duration, onFinished, onUpdate);
 	}
 
-	[IteratorStateMachine(typeof(_003CIETween_003Ed__12))]
 	public IEnumerator IETween(UnityEngine.Object @object, float from, float to, AnimationCurve valueCurve, float duration, Action onFinished = null, Action<float> onUpdate = null)
 	{
-		return null;
+		int id = @object.GetInstanceID();
+		float timeStart = Time.time;
+		float progress = 0f;
+		while (progress < 1f)
+		{
+			progress = duration <= 0f ? 1f : Mathf.Clamp01((Time.time - timeStart) / duration);
+			float t = valueCurve != null ? valueCurve.Evaluate(progress) : progress;
+			float value = Mathf.LerpUnclamped(from, to, t);
+			AddModifier(id, value);
+			onUpdate?.Invoke(value);
+			yield return null;
+		}
+		onFinished?.Invoke();
 	}
 
-	[IteratorStateMachine(typeof(_003CIETween_003Ed__13))]
 	public IEnumerator IETween(UnityEngine.Object @object, AnimationCurve valueCurve, float duration, Action onFinished = null, Action<float> onUpdate = null)
 	{
-		return null;
+		return IETween(@object, 0f, 1f, valueCurve, duration, onFinished, onUpdate);
 	}
 
 	protected abstract void UpdateModifier();

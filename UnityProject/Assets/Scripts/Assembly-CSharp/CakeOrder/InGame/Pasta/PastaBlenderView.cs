@@ -362,7 +362,7 @@ namespace CakeOrder.InGame.Pasta
 				{
 					current.TimeScale = pausedTrackTimeScale <= 0f ? 1f : pausedTrackTimeScale;
 				}
-				// TODO(unrecovered): pseudocode forces an update of the skeleton via a virtual slot (0x1f8) after resuming; slot target not in stub.
+				skeletonAnimation.Update(0f);
 			}
 			else
 			{
@@ -501,7 +501,8 @@ namespace CakeOrder.InGame.Pasta
 			if (skeletonAnimation != null)
 			{
 				skeletonAnimation.timeScale = PlaybackSpeed;
-				// TODO(unrecovered): pseudocode forces an update via virtual slots (0x1f8 / 0x200) after the reset; slot target not in stub.
+				skeletonAnimation.Update(0f);
+				skeletonAnimation.LateUpdate();
 			}
 		}
 

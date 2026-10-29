@@ -12,12 +12,17 @@ public class FloatAddModifierWithRegisteredSource : FloatModifierWithRegisteredS
 	{
 	}
 
-	public FloatAddModifierWithRegisteredSource(Action onChanged)
+	public FloatAddModifierWithRegisteredSource(Action onChanged) : base(onChanged)
 	{
 	}
 
 	protected override void UpdateModifier()
 	{
+		_value = 0f;
+		foreach (float v in _source.Values)
+		{
+			_value += v;
+		}
 	}
 }
 }

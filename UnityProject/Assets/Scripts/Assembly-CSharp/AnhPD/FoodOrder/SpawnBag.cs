@@ -1,3 +1,5 @@
+using CakeOrder;
+using DG.Tweening;
 using UnityEngine;
 
 namespace AnhPD.FoodOrder
@@ -20,9 +22,12 @@ namespace AnhPD.FoodOrder
 
 		protected void InvokeSpawnEffect()
 		{
-			// TODO(unrecovered): the pseudocode plays an SFX through a chain of unnamed audio-manager
-			// accessors (FUN_03f95a6c) and runs a DOTween punch-scale on a static settings object whose
-			// fields (pitch/scale/duration) cannot be matched by name to any stub member.
+			if (sfxClick && AudioManagerCakeOrder.Instance)
+			{
+				AudioManagerCakeOrder.Instance.PlaySfx(sfxClick, (AudioManagerCakeOrder.AudioTrack)4, 0.5f);
+			}
+			transform.DOComplete();
+			transform.DOPunchScale(Vector3.one * -0.1f, 0.2f, 10, 1f);
 		}
 	}
 }

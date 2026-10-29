@@ -12,6 +12,8 @@ public class OrderPricingOutput
 
 	public void Accumulate(OrderPricingOutput other)
 	{
+		cost += other.cost;
+		numCoin += other.numCoin;
 	}
 }
 }

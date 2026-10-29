@@ -61,7 +61,10 @@ namespace TrungKienPack.Particle
 					owner.ps.Play();
 					if (volume > 0f)
 					{
-						// TODO(unrecovered): the sfx is played through CakeOrder AudioManagerCakeOrder.PlaySfxWithFixedPitch, reached via an unnamed static chain; not in the stubs.
+						if (AudioManagerCakeOrder.Instance != null)
+						{
+							AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(owner.sfx, (AudioManagerCakeOrder.AudioTrack)2, volume, 1f);
+						}
 					}
 					_003C_003E2__current = new WaitUntil(() => !owner.ps.isPlaying);
 					_003C_003E1__state = 1;

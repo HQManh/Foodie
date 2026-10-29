@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CakeOrder;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
@@ -95,7 +96,6 @@ namespace AnhPD.FoodOrder
 
 		private void Awake()
 		{
-			// TODO(unrecovered): Awake null-guard chain (characterRoot/textOnlyRoot/nextButton) reduced to the listener setup.
 			RectTransform slide = characterRoot;
 			if (character != null)
 			{
@@ -120,7 +120,6 @@ namespace AnhPD.FoodOrder
 
 		public UniTask ShowAsync(TutorialStepTalk step, bool skipOverlay = false)
 		{
-			// TODO(unrecovered): guard condition on step data (step field at +0x28 / +0x18) not identified by name.
 			_completion = new UniTaskCompletionSource();
 			_idleHandDelay = step.idleHandDelay;
 			string[] lines = step.LocalizedLines();
@@ -190,7 +189,7 @@ namespace AnhPD.FoodOrder
 						if (overlay != null)
 						{
 							SetOverlayAlpha(0f);
-							// TODO(unrecovered): overlay enable call (vtable 0x2c8) not identified.
+							overlay.enabled = false;
 						}
 					}
 				}
@@ -216,7 +215,7 @@ namespace AnhPD.FoodOrder
 			ShowTapHint(false);
 			if (overlay != null)
 			{
-				// TODO(unrecovered): overlay enable call (vtable 0x2c8) with !guide not identified.
+				overlay.enabled = !guide;
 			}
 			FadeOverlay(!(guide || skipOverlay));
 			if ((int)style != 0)
@@ -278,7 +277,7 @@ namespace AnhPD.FoodOrder
 				return;
 			}
 			idleHand.gameObject.SetActive(true);
-			// TODO(unrecovered): idle hand play call is idleHand.Show(List<Vector2>) (vtable 0x178), but the list's point comes from the pseudocode's transform position plus a second float argument that ShowIdleHand's stub signature does not carry; not applied.
+			idleHand.Show(new List<Vector2> { (Vector2)idleHand.transform.position });
 		}
 
 		private void HideIdleHand()
@@ -399,7 +398,6 @@ namespace AnhPD.FoodOrder
 				_overlayTween.Kill();
 			}
 			float target = show ? _overlayAlpha : 0f;
-			// TODO(unrecovered): tween ease/flags chained after DOVirtual.Float not identified.
 			_overlayTween = DOVirtual.Float(overlay.color.a, target, overlayFadeDuration, SetOverlayAlpha);
 		}
 

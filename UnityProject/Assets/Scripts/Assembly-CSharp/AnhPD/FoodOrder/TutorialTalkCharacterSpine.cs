@@ -55,7 +55,7 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			// TODO(unrecovered): SkeletonGraphic.unscaledTime is protected in the installed Spine version; original write not reproduced.
+			skeleton.UnscaledTime = unscaledTime;
 			skeleton.AnimationState.Data.DefaultMix = mixDuration;
 			PlayIdle();
 		}

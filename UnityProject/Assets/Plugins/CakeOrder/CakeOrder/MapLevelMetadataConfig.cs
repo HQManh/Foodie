@@ -5,7 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.CompilerServices;
+using CakeOrder.DataSO;
 using UnityEngine;
+using Utilities;
 
 namespace CakeOrder
 {
@@ -70,24 +72,71 @@ public class MapLevelMetadataConfig : MonoBehaviour, IMapDataConfig
 	[SerializeField]
 	private SingleLevelMetadata[] _configs;
 
-	public int NumLevels => 0;
+	public int NumLevels => _configs != null ? _configs.Length : 0;
 
-	[AsyncStateMachine(typeof(_003CSetUpAfterSpawn_003Ed__6))]
 	public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings)
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-		return default(UniTask);
+		if (remoteConfigStrings != null && remoteConfigStrings.Length != 0 && !string.IsNullOrEmpty(remoteConfigStrings[0]))
+		{
+			SingleLevelMetadata[] imported = ImportData(remoteConfigStrings[0]);
+			if (imported == null || imported.Length == 0)
+			{
+				UnityEngine.Debug.LogWarning("[MapLevelMetadataConfig] Remote config produced no level metadata, keeping serialized data");
+			}
+			else
+			{
+				_configs = imported;
+			}
+		}
+		return UniTask.CompletedTask;
 	}
 
 	public SingleLevelMetadata GetLevelConfig(int levelIndex)
 	{
-		return null;
+		if (levelIndex < _configs.Length)
+		{
+			return _configs[levelIndex];
+		}
+		UnityEngine.Debug.LogWarningFormat("[MapLevelMetadataConfig] No metadata for level index {0}, using fallback", levelIndex);
+		return _fallbackConfig;
 	}
 
 	private SingleLevelMetadata[] ImportData(string data)
 	{
-		return null;
+		// levels are separated by '|', fields by ';': weather;difficulty;customers;dishes;ingredients;tutId
+		List<SingleLevelMetadata> levels = new List<SingleLevelMetadata>();
+		foreach (StringExtension.StringSplitEntry levelEntry in data.SplitNonAlloc('|'))
+		{
+			SingleLevelMetadata level = new SingleLevelMetadata();
+			int field = 0;
+			foreach (StringExtension.StringSplitEntry fieldEntry in levelEntry.SplitNonAlloc(';'))
+			{
+				switch (field)
+				{
+				case 0:
+					level.weatherEffect = fieldEntry.TryParseEnum(out WeatherEffect weather) ? weather : _fallbackConfig.weatherEffect;
+					break;
+				case 1:
+					level.difficultyTag = fieldEntry.TryParseEnum(out LevelDifficultyTag tag) ? tag : _fallbackConfig.difficultyTag;
+					break;
+				case 2:
+					level.numCustomers = fieldEntry.TryParseInt(out int customers) ? customers : _fallbackConfig.numCustomers;
+					break;
+				case 3:
+					level.numDishs = fieldEntry.TryParseInt(out int dishes) ? dishes : _fallbackConfig.numDishs;
+					break;
+				case 4:
+					level.numIngredients = fieldEntry.TryParseInt(out int ingredients) ? ingredients : _fallbackConfig.numIngredients;
+					break;
+				case 5:
+					level.tutId = fieldEntry.Str.ToString();
+					break;
+				}
+				field++;
+			}
+			levels.Add(level);
+		}
+		return levels.ToArray();
 	}
 }
 }

@@ -62,18 +62,42 @@ public class MapCookingProcessConfig : MonoBehaviour, IMapDataConfig
 	[SerializeField]
 	private DirtyObjectConfig[] _dirtyObjectConfigs;
 
-	public IngredientProcessConfig[] IngredientProcessConfigs => null;
+	public IngredientProcessConfig[] IngredientProcessConfigs => _ingredientProcessConfigs;
 
-	public RecipePieceConfig[] RecipePieceConfigs => null;
+	public RecipePieceConfig[] RecipePieceConfigs => _recipePieceConfigs;
 
-	public DirtyObjectConfig[] DirtyObjectConfigs => null;
+	public DirtyObjectConfig[] DirtyObjectConfigs => _dirtyObjectConfigs;
 
-	[AsyncStateMachine(typeof(_003CSetUpAfterSpawn_003Ed__12))]
 	public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings)
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-		return default(UniTask);
+		if (remoteConfigStrings != null && remoteConfigStrings.Length != 0)
+		{
+			if (!string.IsNullOrEmpty(remoteConfigStrings[KEY_INDEX_INGREDIENT_PROCESS]))
+			{
+				IngredientProcessConfig[] process = ImportProcessData(remoteConfigStrings[KEY_INDEX_INGREDIENT_PROCESS]);
+				if (process == null)
+				{
+					UnityEngine.Debug.LogWarning("[MapCookingProcessConfig] Failed to import ingredient process data");
+				}
+				else
+				{
+					_ingredientProcessConfigs = process;
+				}
+			}
+			if (remoteConfigStrings.Length > KEY_INDEX_RECIPE_PIECE && !string.IsNullOrEmpty(remoteConfigStrings[KEY_INDEX_RECIPE_PIECE]))
+			{
+				RecipePieceConfig[] pieces = ImportRecipePieceData(remoteConfigStrings[KEY_INDEX_RECIPE_PIECE]);
+				if (pieces == null)
+				{
+					UnityEngine.Debug.LogWarning("[MapCookingProcessConfig] Failed to import recipe piece data");
+				}
+				else
+				{
+					_recipePieceConfigs = pieces;
+				}
+			}
+		}
+		return UniTask.CompletedTask;
 	}
 
 	private IngredientProcessConfig[] ImportProcessData(string data)
@@ -83,7 +107,12 @@ public class MapCookingProcessConfig : MonoBehaviour, IMapDataConfig
 
 	public int GetRecipePiecePriceByIndex(int index)
 	{
-		return 0;
+		if (index < 0 || _recipePieceConfigs == null || index >= _recipePieceConfigs.Length)
+		{
+			UnityEngine.Debug.LogWarning("[MapCookingProcessConfig] No recipe piece at index " + index);
+			return 0;
+		}
+		return _recipePieceConfigs[index].price;
 	}
 
 	public RecipePieceConfig[] ImportRecipePieceData(string data)

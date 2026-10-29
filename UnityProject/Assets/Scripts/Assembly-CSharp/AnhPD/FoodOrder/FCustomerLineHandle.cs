@@ -396,8 +396,7 @@ namespace AnhPD.FoodOrder
 				CakeLevelInitData initData = InitData;
 				CustomerSpawnData[] sequence = ((initData == null) ? null : initData.customerSpawnData);
 				spawner.SetSpawnSequence(sequence, _preSpawnedCount);
-				// TODO(unrecovered): original also sets the spawner's private _isStarted flag to true here (no public setter in the stub)
-				_spawner.CheckSpawnQueue();
+				_spawner.Begin();
 			}
 		}
 
@@ -433,7 +432,8 @@ namespace AnhPD.FoodOrder
 			bossAlert.gameObject.SetActive(on);
 			if (on)
 			{
-				// TODO(unrecovered): two virtual calls on bossAlert (Graphic dirty/refresh) before the fade could not be mapped
+				bossAlert.SetVerticesDirty();
+				bossAlert.SetMaterialDirty();
 				bossAlert.DOFade(bossAlertMinAlpha, bossAlertBlinkDuration).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
 			}
 		}

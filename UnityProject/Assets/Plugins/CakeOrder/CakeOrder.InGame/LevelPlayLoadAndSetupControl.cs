@@ -513,7 +513,23 @@ public class LevelPlayLoadAndSetupControl : MonoSingleton<LevelPlayLoadAndSetupC
 
 	public static int LevelAccumulatedOf(CakeLevelInitData initData)
 	{
-		return 0;
+		CakeOrderDatabaseSO database = CakeOrderDatabaseSO.Instance;
+		if (initData == null || database == null || initData.mapIndex < 0 || initData.mapIndex >= database.NumMaps)
+		{
+			return -1;
+		}
+		int accumulated = 0;
+		for (int i = 0; i < initData.mapIndex; i++)
+		{
+			CakeMapSO map = database.GetMapSO(i);
+			if (map == null)
+			{
+				return -1;
+			}
+			// the decompile reads the main-level count of each preceding map
+			accumulated += map.numMainLevels;
+		}
+		return initData.levelIndex + accumulated;
 	}
 
 	private void FixedUpdate()
@@ -578,6 +594,42 @@ public class LevelPlayLoadAndSetupControl : MonoSingleton<LevelPlayLoadAndSetupC
 
 	private void ProcessLevelDesignData(string levelDesignStr)
 	{
+		LevelInitData.customerOrderDataString = null;
+		LevelInitData.gridConfig = null;
+		LevelInitData.gridDataString = null;
+		LevelInitData.ingredientQueueDataString = null;
+		if (string.IsNullOrEmpty(levelDesignStr))
+		{
+			return;
+		}
+		// sections are separated by '~': customer orders ~ grid ~ ingredient queues
+		int section = 0;
+		foreach (StringExtension.StringSplitEntry entry in levelDesignStr.SplitNonAlloc('~'))
+		{
+			switch (section)
+			{
+			case 0:
+				LevelInitData.customerOrderDataString = entry.Str.ToString();
+				break;
+			case 1:
+			{
+				LevelGridConfig grid = GetComponent<LevelGridConfig>();
+				if (!grid)
+				{
+					grid = gameObject.AddComponent<LevelGridConfig>();
+				}
+				grid.Clear();
+				grid.LoadConfigStr(entry.Str);
+				LevelInitData.gridConfig = grid;
+				LevelInitData.gridDataString = entry.Str.ToString();
+				break;
+			}
+			case 2:
+				LevelInitData.ingredientQueueDataString = entry.Str.ToString();
+				break;
+			}
+			section++;
+		}
 	}
 
 	private static string DescribeGraphIds(CustomerOrderData data)
@@ -597,7 +649,18 @@ public class LevelPlayLoadAndSetupControl : MonoSingleton<LevelPlayLoadAndSetupC
 
 	private static int CountExplicitIds(CustomerSpawnData[] data)
 	{
-		return 0;
+		int count = 0;
+		if (data != null)
+		{
+			foreach (CustomerSpawnData spawn in data)
+			{
+				if (spawn != null && !string.IsNullOrEmpty(spawn.customerId))
+				{
+					count++;
+				}
+			}
+		}
+		return count;
 	}
 
 	private void BuildCustomerScheduleAndIngredientQueue()

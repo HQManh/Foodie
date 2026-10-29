@@ -45,7 +45,7 @@ namespace Datpt.SpineUtilities
 			}
 			skeleton.SetSkin(skin);
 			skeleton.SetSlotsToSetupPose();
-			// TODO(unrecovered): afterwards the component is refreshed by a type-dependent call (SkeletonAnimation.Update or vtable slots 0x2d8/0x2e0, 0x658/0x660) selected from an unnamed IL2CPP type check; the selection is not resolved.
+			Refresh();
 		}
 
 		public void ReloadSkin(List<string> _skins)
@@ -78,7 +78,22 @@ namespace Datpt.SpineUtilities
 			}
 			skeleton.SetSkin(skin);
 			skeleton.SetSlotsToSetupPose();
-			// TODO(unrecovered): afterwards the component is refreshed by a type-dependent call (SkeletonAnimation.Update or vtable slots 0x658/0x660, 0x2d8/0x2e0) selected from an unnamed IL2CPP type check; the selection is not resolved.
+			Refresh();
+		}
+
+		private void Refresh()
+		{
+			// the original picks the refresh call by renderer type
+			if (_skeletonRenderer is SkeletonAnimation animation)
+			{
+				animation.Update(0f);
+				animation.LateUpdate();
+			}
+			else if (_skeletonRenderer is SkeletonGraphic graphic)
+			{
+				graphic.Update(0f);
+				graphic.LateUpdate();
+			}
 		}
 	}
 }

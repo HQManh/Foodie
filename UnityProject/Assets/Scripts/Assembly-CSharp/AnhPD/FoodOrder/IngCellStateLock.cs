@@ -65,8 +65,7 @@ namespace AnhPD.FoodOrder
 			{
 				return crackSprites[0];
 			}
-			// TODO(unrecovered): the pseudocode takes the maximum over a small temporary int array before computing the crack index; that array was not recovered, so the initial serve count is used directly
-			int initial = _servesInitial;
+			int initial = Mathf.Max(_servesInitial, remaining, 1);
 			int span = initial - 1 < 2 ? 1 : initial - 1;
 			int index = (int)((float)(initial - remaining) / span * (crackSprites.Length - 1)); /* rounding mode assumed to be truncation */
 			index = Mathf.Clamp(index, 0, crackSprites.Length - 1);

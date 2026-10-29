@@ -6,9 +6,7 @@ namespace AnhPD.FoodOrder
 	{
 		[Tooltip("Size of ONE station slot. Holder width = x × active stations; y = holder height (grid row height).")]
 		[SerializeField]
-		private Vector2 slotSize;
-
-		// TODO(unrecovered): original ctor seeds slotSize from a config static that is not in the stubs; no ctor stub exists to attach it to.
+		private Vector2 slotSize = Vector2.one;
 
 		public override float Width => slotSize.x * ActiveStationCount;
 

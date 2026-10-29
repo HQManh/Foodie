@@ -44,17 +44,17 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 		public int GetDuration()
 		{
-			return 0;
+			return paramsInt != null && paramsInt.TryGetValue(KEY_PARAM_DURATION, out int duration) ? duration : 0;
 		}
 
 		public int GetSpeed()
 		{
-			return 0;
+			return paramsInt != null && paramsInt.TryGetValue(KEY_PARAM_SPEED, out int speed) ? speed : 2;
 		}
 
 		public int GetNum()
 		{
-			return 0;
+			return paramsInt != null && paramsInt.TryGetValue(KEY_PARAM_NUM, out int num) ? num : 1;
 		}
 	}
 
@@ -222,10 +222,16 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	protected virtual void Update()
 	{
+		if (PlayState == LevelPlayState.Playing)
+		{
+			ProcessBoosterEffect();
+			RefreshBoosterUsable();
+		}
 	}
 
 	protected override void OnDestroy()
 	{
+		base.OnDestroy();
 	}
 
 	private void PreSetUp()
@@ -315,19 +321,56 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	public void SimulateCompleteAllRemainOrdersAndEndGame()
 	{
+		if ((int)PlayState > 4)
+		{
+			return;
+		}
+		CakeLevelRuntimeDataCustomer customerData = RuntimeData.customerData;
+		int firstRemaining = customerData.failedCustomer.Count + customerData.servedCustomer.Count;
+		OrderPricingOutput pricing = SimulatePricingOutput(firstRemaining, customerData.maxNumCustomers - 1);
+		RuntimeData.softCurrencyData.Earn(pricing.cost);
+		for (int i = firstRemaining; i < customerData.maxNumCustomers; i++)
+		{
+			customerData.AddServedCustomer(new ResultCustomerData
+			{
+				characterId = "sim_" + i,
+				emotion = (CustomerEmotion)3,
+				numDish = 1
+			});
+		}
+		EndGame();
 	}
 
 	private OrderPricingOutput SimulatePricingOutput(int startCustomerIndex, int endCustomerIndex)
 	{
-		return null;
+		OrderPricingOutput total = new OrderPricingOutput();
+		CustomerSpawnData[] spawnData = InitData.customerSpawnData;
+		if (spawnData == null || spawnData.Length == 0 || SpawnControl == null)
+		{
+			return total;
+		}
+		int last = spawnData.Length - 1;
+		int from = Math.Max(0, Math.Min(startCustomerIndex, last));
+		int to = Math.Max(0, Math.Min(endCustomerIndex, last));
+		for (int i = from; i <= to; i++)
+		{
+			if (spawnData[i] != null)
+			{
+				OrderPricingInput input = SpawnControl.SimulatePricing(spawnData[i]);
+				total.Accumulate(OrderPricingCalculator.CalculatePrice(input));
+			}
+		}
+		return total;
 	}
 
 	public void RaiseFastForwardEndgame(float timeScale)
 	{
+		this.onFastForwardEndgame?.Invoke(timeScale);
 	}
 
 	public void RaiseFastForwardEndgameEnded()
 	{
+		this.onFastForwardEndgameEnded?.Invoke();
 	}
 
 	private void SetPlayState(LevelPlayState next)
@@ -358,7 +401,7 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	public virtual bool CanUseBooster(BoosterType boosterType)
 	{
-		return false;
+		return true;
 	}
 
 	public virtual void PrepareBoosterTutorial(BoosterType boosterType)
@@ -367,14 +410,39 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	public void ActivateBooster(BoosterData boosterData, Action<BoosterData> onEnd = null)
 	{
+		_pendingBoosters.Enqueue(new BoosterRuntimeData { boosterData = boosterData, onEnd = onEnd });
 	}
 
 	private void RefreshBoosterUsable()
 	{
+		foreach (BoosterType type in AllBoosterTypes)
+		{
+			if (type == BoosterType.None)
+			{
+				continue;
+			}
+			bool usable = CanUseBooster(type);
+			if (!_boosterUsable.TryGetValue(type, out bool previous) || previous != usable)
+			{
+				_boosterUsable[type] = usable;
+				this.onBoosterUsableChanged?.Invoke(type, usable);
+			}
+		}
 	}
 
 	private void ProcessBoosterEffect()
 	{
+		while (_pendingBoosters.Count > 0)
+		{
+			BoosterRuntimeData runtime = _pendingBoosters.Dequeue();
+			OnApplyBoosterEffect(runtime.boosterData, data =>
+			{
+				OnBoosterEffectExpired(data);
+				this.onBoosterEffectExpired?.Invoke(data);
+				runtime.onEnd?.Invoke(data);
+			});
+			this.onBoosterEffectApplied?.Invoke(runtime.boosterData);
+		}
 	}
 
 	protected abstract void OnApplyBoosterEffect(BoosterData boosterData, Action<BoosterData> onEnd);
@@ -383,23 +451,31 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	public void LostHeart(LostHeartReason reason)
 	{
+		if (InitData.heartConfig == null || (InitData.heartConfig.lostReasonFlags >> (int)reason & 1) == 0)
+		{
+			return;
+		}
+		RuntimeData.heartData.ChangeAmount(-1);
 	}
 
 	public void TriggerOutOfServeSlot()
 	{
+		this.onOutOfServeSlot?.Invoke();
 	}
 
 	public void TriggerBeltDeadlock()
 	{
+		this.onBeltDeadlock?.Invoke();
 	}
 
 	public void TriggerUseMoreServeSlot()
 	{
+		this.onUseMoreServeSlot?.Invoke();
 	}
 
 	public bool TriggerCustomerOutOfTime()
 	{
-		return false;
+		return onCustomerOutOfTime != null && onCustomerOutOfTime();
 	}
 
 	public virtual void ApplySaveMeOnOutOfServeSlots(ConfigSaveMeOnOutOfServeSlots config)

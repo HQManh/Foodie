@@ -20,8 +20,8 @@ public class IngredientQueueInLevel
 
 	public IngredientSlotGroup[] linkedSlotGroups;
 
-	public bool IsHaveLinkedSlotGroups => false;
+	public bool IsHaveLinkedSlotGroups => linkedSlotGroups != null && linkedSlotGroups.Length != 0;
 
-	public bool IsHaveCombinedSlotGroups => false;
+	public bool IsHaveCombinedSlotGroups => combinedSlotGroups != null && combinedSlotGroups.Length != 0;
 }
 }

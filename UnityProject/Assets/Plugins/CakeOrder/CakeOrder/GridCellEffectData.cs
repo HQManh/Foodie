@@ -15,7 +15,11 @@ public class GridCellEffectData
 
 	public GridCellEffectData Clone()
 	{
-		return null;
+		return new GridCellEffectData
+		{
+			type = type,
+			paramInts = paramInts != null ? (int[])paramInts.Clone() : null
+		};
 	}
 }
 }

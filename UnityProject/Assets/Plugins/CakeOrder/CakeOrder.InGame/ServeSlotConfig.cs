@@ -21,7 +21,7 @@ public class ServeSlotConfig : MonoBehaviour
 	[SerializeField]
 	private SlotConfig _config;
 
-	public SlotConfig Config => null;
+	public SlotConfig Config => _config;
 
 	private void Awake()
 	{
@@ -29,6 +29,18 @@ public class ServeSlotConfig : MonoBehaviour
 
 	public void UpdateRemoteConfigValue(string remoteConfigStr)
 	{
+		if (string.IsNullOrEmpty(remoteConfigStr))
+		{
+			return;
+		}
+		SlotConfig imported = ImportData(remoteConfigStr);
+		if (imported == null)
+		{
+			Debug.LogWarning("[ServeSlotConfig] Failed to parse remote config, keeping serialized values");
+			return;
+		}
+		_config = imported;
+		Debug.LogFormat("[ServeSlotConfig] Remote config applied: {0}", remoteConfigStr);
 	}
 
 	private SlotConfig ImportData(string data)

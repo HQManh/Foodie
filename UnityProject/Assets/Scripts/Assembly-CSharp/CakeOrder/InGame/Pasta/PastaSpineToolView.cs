@@ -200,7 +200,8 @@ namespace CakeOrder.InGame.Pasta
 			landTween.OnComplete(() => Restore());
 
 			DG.Tweening.Sequence sequence = DOTween.Sequence();
-			// TODO(unrecovered): pseudocode inserts an unidentified tween on item.Tf (DAT_091dbfd8) with a follow-up ease before appending the jump.
+			// the original also chains SetTarget(item.Tf) and a bool-flag setting (inferred SetAutoKill(true)) on the sequence before appending
+			sequence.SetTarget(item.Tf).SetAutoKill(true);
 			sequence.Append(landTween);
 			sequence.AppendCallback(() => Restore());
 			return sequence;
@@ -257,7 +258,7 @@ namespace CakeOrder.InGame.Pasta
 			{
 				skeletonAnimation.Skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.None);
 			}
-			// TODO(unrecovered): pseudocode finishes with a virtual call on the SkeletonAnimation (vtable slot 0x1f8 with arg from 0x200); slot target not in stub.
+			skeletonAnimation.LateUpdate();
 			if (current != null)
 			{
 				SfxPlayer.Play(current.sfx, current.handoffTime, current.sfxStartTime, 1f);
@@ -346,7 +347,7 @@ namespace CakeOrder.InGame.Pasta
 			skeletonAnimation.gameObject.SetActive(true);
 			state.SetAnimation(0, anim, true);
 			skeletonAnimation.Update(0f);
-			// TODO(unrecovered): pseudocode finishes with a virtual call on the SkeletonAnimation (vtable slot 0x1f8 with arg from 0x200); slot target not in stub.
+			skeletonAnimation.LateUpdate();
 		}
 
 		private IngredientAnimation FindIngredient(string ingId)

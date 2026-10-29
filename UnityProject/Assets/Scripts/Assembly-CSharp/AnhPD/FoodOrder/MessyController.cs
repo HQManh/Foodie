@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using CakeOrder;
 using CakeOrder.DataSO;
 using CakeOrder.InGame;
+using CakeOrder.Localization;
+using CakeOrder.UI;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -105,8 +107,22 @@ namespace AnhPD.FoodOrder
 
 		public bool IsBoosterHolding => _booster != null && _booster.IsHolding;
 
-		// TODO(unrecovered): tutorial check reads the base class CakeLevelInitData (base+0x38), which is not in the stubs.
-		public override bool HasLevelTutorial => false;
+		public override bool HasLevelTutorial
+		{
+			get
+			{
+				string tutId = (InitData != null && InitData.levelMetadata != null) ? InitData.levelMetadata.tutId : null;
+				if (!TutorialManager.Enabled || string.IsNullOrEmpty(tutId))
+				{
+					return false;
+				}
+				if (InitData.levelIndex != 0 || LevelPlayLoadAndSetupControl.IsLevelTutDone(InitData.mapId, tutId))
+				{
+					return false;
+				}
+				return TutorialManager.Instance.HasLevelTutorial(tutId);
+			}
+		}
 
 		public List<CookingStation> GetCookingStations()
 		{
@@ -242,7 +258,7 @@ namespace AnhPD.FoodOrder
 			{
 				int count = UnityEngine.Random.Range(forceRandomCustomerRange.x, forceRandomCustomerRange.y + 1);
 				InitData.customerSpawnData = CustomerScheduleBuilder.BuildPlaceholders(count);
-				// TODO(unrecovered): the original also clears one reference field at base+0xa0 (CakeLevelInitData +0xa0) right after the schedule is set; that field is not identified yet.
+				InitData.ingredientQueuesConfig = null;
 				if (RuntimeData != null)
 				{
 					RuntimeData.customerData.SetMaxNumCustomers(InitData.customerSpawnData.Length);
@@ -353,8 +369,7 @@ namespace AnhPD.FoodOrder
 			{
 				return false;
 			}
-			// TODO(unrecovered): needs a read of AutoCompleteOrderFx's private state (+0x30 flag, +0x58 list) and its private CollectCompletableOrders; no public accessor exists and adding API is not allowed.
-			return false;
+			return _autoCompleteFx.CanPlay(line);
 		}
 
 		private void OnItemLandedAtStation(DragItem item, CookingStation station)
@@ -585,14 +600,28 @@ namespace AnhPD.FoodOrder
 
 		protected override UniTask OnStartTutorial(string tutorialId, Action onDone)
 		{
-			// TODO(unrecovered): the level-tutorial branch resolves TutorialManager through an unidentified singleton chain; only the base fallback is reproduced.
+			TutorialManager tutorial = TutorialManager.Enabled ? TutorialManager.Instance : null;
+			if (tutorial && tutorial.TryPlayLevelTutorial(tutorialId, onDone))
+			{
+				return UniTask.CompletedTask;
+			}
 			return base.OnStartTutorial(tutorialId, onDone);
 		}
 
 		public override (List<IRewardItemInfo>, List<GridEffectType>, List<IngredientSlotStatus>) GetMechanicsUsedInLevel()
 		{
-			// TODO(unrecovered): builds reward entries from LevelInfo dish infos and the base class CakeLevelInitData; not reproduced.
-			return default;
+			if (Info == null)
+			{
+				return default;
+			}
+			List<IRewardItemInfo> rewards = new List<IRewardItemInfo>();
+			List<RcDishInfo> dishes = Info.GetDishInfosInLevelOrders();
+			string table = LocTables.Map(InitData.mapId);
+			foreach (RcDishInfo dish in dishes)
+			{
+				rewards.Add(new SimpleRewardItemInfo("dish_" + dish.dishKind.ToString(), dish.dishName, dish.desc, dish.sprite, null, "{0}", table, RecipeConfigSO.DishLocId(dish.dishKind)));
+			}
+			return (rewards, Info.GetAppliedGridEffects(), Info.GetAppliedSlotStatuses());
 		}
 	}
 }

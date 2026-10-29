@@ -331,7 +331,30 @@ public sealed class CustomerScheduleBuilder : IOrderPriceProvider
 
 	public static DishOrderData ComposeDishFromPieces(CookingGraphAsset graph, MapIngredientLookupTable lookup, IReadOnlyList<int> recipePieceIndexes, Action<string> onWarning = null)
 	{
-		return null;
+		if (graph == null || lookup == null || recipePieceIndexes == null || recipePieceIndexes.Count == 0 || graph.ingredients == null)
+		{
+			return null;
+		}
+		List<int> cooked = new List<int>(recipePieceIndexes.Count);
+		for (int i = 0; i < recipePieceIndexes.Count; i++)
+		{
+			IngredientNodeAsset node = IngredientLookup.GetServableNodeByRecipePiece(lookup, recipePieceIndexes[i]);
+			if (node == null)
+			{
+				return null;
+			}
+			int index = graph.ingredients.IndexOf(node);
+			if (index < 0)
+			{
+				return null;
+			}
+			cooked.Add(index);
+		}
+		if (!CompositeStructureTranslator.TryTranslate(graph, cooked, out OrderMemberData root, onWarning))
+		{
+			return null;
+		}
+		return new DishOrderData { root = root };
 	}
 }
 }
