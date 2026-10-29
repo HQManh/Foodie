@@ -148,8 +148,8 @@ namespace CakeOrder.InGame.Pasta
 			{
 				return;
 			}
-			// TODO(unrecovered): pseudocode calls a virtual slot (0x1f8) on the animation after the world transform update; slot target not in stub.
 			skeletonAnimation.Skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.None);
+			skeletonAnimation.LateUpdate();
 		}
 
 		public override void Stop()

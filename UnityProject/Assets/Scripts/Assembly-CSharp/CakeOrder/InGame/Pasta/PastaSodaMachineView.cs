@@ -167,7 +167,10 @@ namespace CakeOrder.InGame.Pasta
 			{
 				SpineAnimation.Skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.None);
 			}
-			// TODO(unrecovered): pseudocode finishes with a virtual call on the SkeletonAnimation (vtable slot 0x1f8 with arg from 0x200); slot target not in stub.
+			if (SpineAnimation != null)
+			{
+				SpineAnimation.LateUpdate();
+			}
 		}
 
 		public override float GetPlayDuration(float fallbackDuration)

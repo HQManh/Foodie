@@ -81,7 +81,7 @@ namespace TrungKienPack.TimelinePlayable
 			}
 			entry.TrackTime = trackTime;
 			state.Apply(skeletonAnimation.Skeleton);
-			// TODO(unrecovered): virtual call on SkeletonGraphic (vtable +0x678, one float argument = 0) is not identifiable from the stubs or the pseudocode.
+			skeletonAnimation.Update(0f);
 			skeletonAnimation.UpdateMesh();
 		}
 

@@ -67,7 +67,7 @@ namespace TrungKienPack.TimelinePlayable
 			entry.TrackTime = time;
 			state.Apply(skeletonAnimation.Skeleton);
 			skeletonAnimation.Update(0f);
-			// TODO(unrecovered): final virtual call on SkeletonAnimation (vtable +0x208, no arguments) is not identifiable from the stubs or the pseudocode.
+			skeletonAnimation.LateUpdate();
 		}
 	}
 }

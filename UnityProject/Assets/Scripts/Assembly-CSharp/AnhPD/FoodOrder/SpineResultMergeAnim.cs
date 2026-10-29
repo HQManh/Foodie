@@ -213,7 +213,8 @@ namespace AnhPD.FoodOrder
 			if (s != null)
 			{
 				s.SetToSetupPose();
-				// TODO(unrecovered): pseudocode calls a virtual method (vtable +0x1f8) and SkeletonAnimation.Update(0) here; target not identified.
+				skeleton.Update(0f);
+				skeleton.LateUpdate();
 			}
 			skeleton.gameObject.SetActive(false);
 		}

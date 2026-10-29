@@ -257,7 +257,7 @@ namespace CakeOrder.InGame.Pasta
 			{
 				skeletonAnimation.Skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.None);
 			}
-			// TODO(unrecovered): pseudocode finishes with a virtual call on the SkeletonAnimation (vtable slot 0x1f8 with arg from 0x200); slot target not in stub.
+			skeletonAnimation.LateUpdate();
 			if (current != null)
 			{
 				SfxPlayer.Play(current.sfx, current.handoffTime, current.sfxStartTime, 1f);
@@ -346,7 +346,7 @@ namespace CakeOrder.InGame.Pasta
 			skeletonAnimation.gameObject.SetActive(true);
 			state.SetAnimation(0, anim, true);
 			skeletonAnimation.Update(0f);
-			// TODO(unrecovered): pseudocode finishes with a virtual call on the SkeletonAnimation (vtable slot 0x1f8 with arg from 0x200); slot target not in stub.
+			skeletonAnimation.LateUpdate();
 		}
 
 		private IngredientAnimation FindIngredient(string ingId)
