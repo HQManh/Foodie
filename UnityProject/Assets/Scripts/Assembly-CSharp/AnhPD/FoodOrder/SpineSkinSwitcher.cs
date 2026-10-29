@@ -1,5 +1,6 @@
 using System;
 using CakeOrder.DataSO;
+using CakeOrder.InGame;
 using Spine;
 using Spine.Unity;
 using UnityEngine;
@@ -51,7 +52,29 @@ namespace AnhPD.FoodOrder
 
 		public void Apply(WeatherEffect weather)
 		{
-			// TODO(unrecovered): depends on ResolveSkin(in SkinContext), whose SkinContext construction from WeatherEffect is not recovered.
+			CaptureDefault();
+			string skin = ResolveSkin(new SkinContext { weather = weather });
+			if (string.IsNullOrEmpty(skin))
+			{
+				return;
+			}
+			if (skeletonAnimation)
+			{
+				skeletonAnimation.initialSkinName = skin;
+				if (skeletonAnimation.valid)
+				{
+					SetSkin(skeletonAnimation.Skeleton, skin);
+				}
+			}
+			if (skeletonGraphic)
+			{
+				skeletonGraphic.initialSkinName = skin;
+				if (!skeletonGraphic.IsValid)
+				{
+					return;
+				}
+				SetSkin(skeletonGraphic.Skeleton, skin);
+			}
 		}
 
 		private static void SetSkin(Skeleton skeleton, string skinName)
@@ -90,8 +113,26 @@ namespace AnhPD.FoodOrder
 
 		private string ResolveSkin(in SkinContext context)
 		{
-			// TODO(unrecovered): iterates skins[] calling a virtual trigger match on CustomerSkinTriggerSO (vtable +0x178); the call signature is not recovered.
-			return null;
+			Entry best = null;
+			if (skins != null)
+			{
+				foreach (Entry entry in skins)
+				{
+					if (entry == null || !entry.trigger)
+					{
+						continue;
+					}
+					if (best != null && entry.trigger.Priority <= best.trigger.Priority)
+					{
+						continue;
+					}
+					if (entry.trigger.IsActive(in context) && HasSkin(entry.skinName))
+					{
+						best = entry;
+					}
+				}
+			}
+			return best != null ? best.skinName : _defaultSkinName;
 		}
 
 		private bool HasSkin(string skinName)
@@ -132,7 +173,11 @@ namespace AnhPD.FoodOrder
 
 		private static WeatherEffect CurrentWeather()
 		{
-			// TODO(unrecovered): weather is read through a chain of singletons (DAT_091b4c28 / DAT_091b4c30) whose types are not in the stubs.
+			LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.IsExistInstance ? LevelBaseCakeOrderAbstract.Instance : null;
+			if (level && level.InitData != null && level.InitData.levelMetadata != null)
+			{
+				return level.InitData.levelMetadata.weatherEffect;
+			}
 			return WeatherEffect.Normal;
 		}
 	}
