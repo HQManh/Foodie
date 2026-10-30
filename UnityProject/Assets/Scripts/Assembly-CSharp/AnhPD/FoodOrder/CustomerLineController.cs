@@ -160,8 +160,7 @@ namespace AnhPD.FoodOrder
 		{
 			_model.SetState(LineState.Leaving);
 			_view.StopShake();
-			_view.HideOrder();
-			// TODO(unrecovered): an Action field of CustomerLineView (board-cleared) is invoked here; not accessible from this class
+			_view.ReleaseOrderBoards();
 			CustomerLeaveData data = new CustomerLeaveData
 			{
 				spawnData = _spawnData,
@@ -440,8 +439,7 @@ namespace AnhPD.FoodOrder
 			_model.SetState(LineState.Leaving);
 			_view.SetWeather(WeatherEffect.Normal); // original value was WeatherEffect.None, which the installed enum does not define
 			_view.StopShake();
-			_view.HideOrder();
-			// TODO(unrecovered): an Action field of CustomerLineView (board-cleared) is invoked here; not accessible from this class
+			_view.ReleaseOrderBoards();
 			CustomerLeaveData data = new CustomerLeaveData
 			{
 				spawnData = _spawnData,

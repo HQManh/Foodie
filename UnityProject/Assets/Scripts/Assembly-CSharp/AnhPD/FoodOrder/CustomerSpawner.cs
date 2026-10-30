@@ -188,8 +188,9 @@ namespace AnhPD.FoodOrder
 		{
 			get
 			{
-				// TODO(unrecovered): accessor for the runtime customer data singleton is an unnamed helper call.
-				return null;
+				// the original calls an unnamed helper; the level's runtime data is the only holder of this object
+				LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.IsExistInstance ? LevelBaseCakeOrderAbstract.Instance : null;
+				return level != null && level.RuntimeData != null ? level.RuntimeData.customerData : null;
 			}
 		}
 
@@ -327,8 +328,8 @@ namespace AnhPD.FoodOrder
 
 		private static CustomerSpawnData NewCleanStaffData()
 		{
-			// TODO(unrecovered): a list field (offset 0x30) of the new data is also initialised; its type/name is unknown.
 			CustomerSpawnData customerSpawnData = new CustomerSpawnData();
+			customerSpawnData.orders = new List<CustomerSingleOrderSpawnData>();
 			customerSpawnData.customerType = (CustomerType)1;
 			customerSpawnData.waitTime = -1f;
 			return customerSpawnData;
