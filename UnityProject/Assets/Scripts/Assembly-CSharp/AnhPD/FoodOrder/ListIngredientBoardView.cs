@@ -118,6 +118,14 @@ namespace AnhPD.FoodOrder
 			}
 		}
 
+		public void PlayPop(float stagger, float duration)
+		{
+			for (int i = 0; i < Used && i < icons.Count; i++)
+			{
+				icons[i].PlayPop(stagger * (float)i, duration);
+			}
+		}
+
 		public void Hide()
 		{
 			base.gameObject.SetActive(false);

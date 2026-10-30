@@ -16,6 +16,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
+using Utilities;
 
 namespace CakeOrder.InGame
 {
@@ -682,7 +683,7 @@ public class UIInLevelCakeOrder : SceneMainUI
 
 	private bool _skipNextInter;
 
-	public static UIInLevelCakeOrder InstanceUIInLevel => null;
+	public static UIInLevelCakeOrder InstanceUIInLevel => MonoSingleton<SceneMainUI>.Instance as UIInLevelCakeOrder;
 
 	public UIComboBar ComboBar => null;
 
@@ -928,10 +929,23 @@ public class UIInLevelCakeOrder : SceneMainUI
 		return null;
 	}
 
-	[AsyncStateMachine(typeof(_003CShowPopupAlert_003Ed__109))]
-	public Task ShowPopupAlert(AlertType type, bool autoHide, Action<UIPopupAlert> onCreated, Action onDone = null)
+	public async Task ShowPopupAlert(AlertType type, bool autoHide, Action<UIPopupAlert> onCreated, Action onDone = null)
 	{
-		return null;
+		UIPopupAlert alert = await LoadPopup<UIPopupAlert>(_assetPopupAlert);
+		if (alert == null)
+		{
+			onDone?.Invoke();
+			return;
+		}
+		onCreated?.Invoke(alert);
+		alert.SetData(type, autoHide);
+		if (!alert.IsShowing)
+		{
+			alert.Show(delegate
+			{
+				onDone?.Invoke();
+			});
+		}
 	}
 
 	public void ShowBoosterOrSaveMeRewardAds(AdsRuntimeData data, Action onDone, Action onCanceled)

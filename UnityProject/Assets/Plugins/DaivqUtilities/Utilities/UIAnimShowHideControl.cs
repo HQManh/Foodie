@@ -169,46 +169,218 @@ public abstract class UIAnimShowHideControl : MonoBehaviour
 
 	public State CurrentState { get; private set; }
 
-	public bool IsShownOrShowing => false;
+	public bool IsShownOrShowing => CurrentState == State.Showing || CurrentState == State.Shown;
 
 	public virtual void ShowImmediate()
 	{
+		StopTransition();
+		if (_setActiveObject)
+		{
+			base.gameObject.SetActive(true);
+		}
+		_needShowImmediateOnEnable = !base.gameObject.activeInHierarchy;
+		CurrentState = State.Shown;
+		SetComponentsEnabled(true);
+		PlayLinkedImmediate(_animPlayOnShowAnimStart);
+		PlayLinkedImmediate(_animPlayOnShowAnimDone);
 	}
 
 	public virtual void Show(Action onDoneAnim = null, float delay = 0f)
 	{
+		StopTransition();
+		if (_setActiveObject)
+		{
+			base.gameObject.SetActive(true);
+		}
+		if (!isActiveAndEnabled)
+		{
+			ShowImmediate();
+			onDoneAnim?.Invoke();
+			return;
+		}
+		CurrentState = State.Showing;
+		_corTransition = StartCoroutine(IEShowWithLinkedUI(onDoneAnim, delay));
 	}
 
-	[IteratorStateMachine(typeof(_003CIEShowWithLinkedUI_003Ed__17))]
 	private IEnumerator IEShowWithLinkedUI(Action onDoneAnim, float delay)
 	{
-		return null;
+		if (delay > 0f)
+		{
+			yield return new WaitForSecondsRealtime(delay);
+		}
+		_listAnimsNeedWait.Clear();
+		PlayLinked(_animPlayOnShowAnimStart);
+		IEnumerator show = IEShow();
+		if (show != null)
+		{
+			yield return show;
+		}
+		bool isAllDone;
+		do
+		{
+			isAllDone = true;
+			foreach (UIAnimShowHideControl anim in _listAnimsNeedWait)
+			{
+				if (anim != null && anim.CurrentState == State.Showing)
+				{
+					isAllDone = false;
+					break;
+				}
+			}
+			if (!isAllDone)
+			{
+				yield return null;
+			}
+		}
+		while (!isAllDone);
+		PlayLinked(_animPlayOnShowAnimDone);
+		_corTransition = null;
+		CurrentState = State.Shown;
+		SetComponentsEnabled(true);
+		onDoneAnim?.Invoke();
 	}
 
 	protected abstract IEnumerator IEShow();
 
 	public virtual void HideImmediate()
 	{
+		StopTransition();
+		_needShowImmediateOnEnable = false;
+		CurrentState = State.Hidden;
+		SetComponentsEnabled(false);
+		HideLinkedImmediate(_animPlayOnShowAnimStart);
+		HideLinkedImmediate(_animPlayOnShowAnimDone);
+		if (_setActiveObject)
+		{
+			base.gameObject.SetActive(false);
+		}
 	}
 
 	public virtual void Hide(Action onDoneAnim = null, float delay = 0f)
 	{
+		StopTransition();
+		_needShowImmediateOnEnable = false;
+		if (!isActiveAndEnabled)
+		{
+			HideImmediate();
+			onDoneAnim?.Invoke();
+			return;
+		}
+		CurrentState = State.Hiding;
+		_corTransition = StartCoroutine(IEHideWithLinkedUI(onDoneAnim, delay));
 	}
 
-	[IteratorStateMachine(typeof(_003CIEHideWithLinkedUI_003Ed__21))]
 	private IEnumerator IEHideWithLinkedUI(Action onDoneAnim, float delay)
 	{
-		return null;
+		if (delay > 0f)
+		{
+			yield return new WaitForSecondsRealtime(delay);
+		}
+		SetComponentsEnabled(false);
+		IEnumerator hide = IEHide();
+		if (hide != null)
+		{
+			yield return hide;
+		}
+		HideLinkedImmediate(_animPlayOnShowAnimStart);
+		HideLinkedImmediate(_animPlayOnShowAnimDone);
+		_corTransition = null;
+		CurrentState = State.Hidden;
+		if (_setActiveObject)
+		{
+			base.gameObject.SetActive(false);
+		}
+		onDoneAnim?.Invoke();
 	}
 
 	protected abstract IEnumerator IEHide();
 
 	protected virtual void OnEnable()
 	{
+		if (_needShowImmediateOnEnable)
+		{
+			_needShowImmediateOnEnable = false;
+			ShowImmediate();
+		}
 	}
 
 	protected virtual void OnDisable()
 	{
+		StopTransition();
+	}
+
+	private void StopTransition()
+	{
+		if (_corTransition != null)
+		{
+			StopCoroutine(_corTransition);
+			_corTransition = null;
+		}
+	}
+
+	private void SetComponentsEnabled(bool isEnabled)
+	{
+		if (_componentEnableOnDoneShow == null)
+		{
+			return;
+		}
+		foreach (MonoBehaviour component in _componentEnableOnDoneShow)
+		{
+			if (component != null)
+			{
+				component.enabled = isEnabled;
+			}
+		}
+	}
+
+	private void PlayLinked(LinkedAnimPlayData[] linked)
+	{
+		if (linked == null)
+		{
+			return;
+		}
+		foreach (LinkedAnimPlayData data in linked)
+		{
+			if (data == null || data.uiAnim == null)
+			{
+				continue;
+			}
+			data.uiAnim.Show(null, data.delay);
+			if (data.isCountInShowTime)
+			{
+				_listAnimsNeedWait.Add(data.uiAnim);
+			}
+		}
+	}
+
+	private static void PlayLinkedImmediate(LinkedAnimPlayData[] linked)
+	{
+		if (linked == null)
+		{
+			return;
+		}
+		foreach (LinkedAnimPlayData data in linked)
+		{
+			if (data != null && data.uiAnim != null)
+			{
+				data.uiAnim.ShowImmediate();
+			}
+		}
+	}
+
+	private static void HideLinkedImmediate(LinkedAnimPlayData[] linked)
+	{
+		if (linked == null)
+		{
+			return;
+		}
+		foreach (LinkedAnimPlayData data in linked)
+		{
+			if (data != null && data.uiAnim != null)
+			{
+				data.uiAnim.HideImmediate();
+			}
+		}
 	}
 }
 }

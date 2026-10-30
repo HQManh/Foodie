@@ -32,6 +32,7 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 		public ElementSpawnCache(AssetReference asset)
 		{
+			opLoad = asset.LoadAssetAsync<GameObject>();
 		}
 	}
 
@@ -582,17 +583,34 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 	private const string LocToastAdsShowFailed = "toast_ad_not_ready";
 
-	public Canvas Canvas => null;
+	public Canvas Canvas => _canvas;
 
-	public EventSystem EventSystem => null;
+	public EventSystem EventSystem => _eventSystem;
 
-	public UICakePopup TopPopup => null;
+	public UICakePopup TopPopup
+	{
+		get
+		{
+			while (_popupStack.Count > 0 && _popupStack.Peek() == null)
+			{
+				_popupStack.Pop();
+			}
+			return (_popupStack.Count > 0) ? _popupStack.Peek() : null;
+		}
+	}
 
 	public UIPopupBlurBackdrop BlurBackdrop => null;
 
 	public PopupTransitionConfigSO PopupTransition => null;
 
-	public UICakePopup TopShowingPopup => null;
+	public UICakePopup TopShowingPopup
+	{
+		get
+		{
+			UICakePopup top = TopPopup;
+			return (top != null && top.IsShowing) ? top : null;
+		}
+	}
 
 	protected bool? TopPopupWantsCurrency => null;
 
@@ -600,13 +618,50 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 	protected T LoadPopupByPrefab<T>(T prefab, RectTransform customParent = null, Action<T> onCreated = null) where T : UICakePopup
 	{
-		return null;
+		if (prefab == null)
+		{
+			return null;
+		}
+		if (_dictCacheUIElementsByPrefab.TryGetValue(prefab, out var cached) && cached != null)
+		{
+			return (T)cached;
+		}
+		RectTransform parent = (customParent != null) ? customParent : _containerPopups;
+		T popup = UnityEngine.Object.Instantiate(prefab, parent);
+		_dictCacheUIElementsByPrefab[prefab] = popup;
+		popup.SetUpOnCreate(this);
+		onCreated?.Invoke(popup);
+		return popup;
 	}
 
-	[AsyncStateMachine(typeof(_003CLoadPopup_003Ed__12<>))]
-	protected Task<T> LoadPopup<T>(AssetReference asset, RectTransform customParent = null, Action<T> onCreated = null) where T : UICakePopup
+	protected async Task<T> LoadPopup<T>(AssetReference asset, RectTransform customParent = null, Action<T> onCreated = null) where T : UICakePopup
 	{
-		return null;
+		if (asset == null || !asset.RuntimeKeyIsValid())
+		{
+			return null;
+		}
+		if (!_dictCacheUIElements.TryGetValue(asset, out var cache))
+		{
+			cache = new ElementSpawnCache(asset);
+			_dictCacheUIElements[asset] = cache;
+		}
+		if (cache.element != null)
+		{
+			return (T)cache.element;
+		}
+		GameObject prefabObject = await cache.opLoad.Task;
+		if (this == null)
+		{
+			return null;
+		}
+		if (cache.element != null)
+		{
+			return (T)cache.element;
+		}
+		T prefab = (prefabObject != null) ? prefabObject.GetComponent<T>() : null;
+		T popup = LoadPopupByPrefab(prefab, customParent, onCreated);
+		cache.element = popup;
+		return popup;
 	}
 
 	[AsyncStateMachine(typeof(_003CLoadPopupByAddress_003Ed__13<>))]
@@ -639,16 +694,35 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 	public bool IsAnyPopupShowing<T>() where T : UICakePopup
 	{
+		foreach (UICakePopup popup in _popupStack)
+		{
+			if (popup != null && popup is T && popup.IsShowing)
+			{
+				return true;
+			}
+		}
 		return false;
 	}
 
 	public bool IsAnyPopupShowing()
 	{
-		return false;
+		return TopShowingPopup != null;
 	}
 
 	protected void ShowPopupInStack(UICakePopup popup, Action<UIElementAbstract> onClosed, Action<UIElementAbstract> onDoneAnim)
 	{
+		if (popup == null)
+		{
+			return;
+		}
+		_popupStack.Push(popup);
+		popup.transform.SetAsLastSibling();
+		OnPopupStackChanged();
+		popup.Show(delegate(UIElementAbstract element)
+		{
+			onClosed?.Invoke(element);
+			RefreshPopupStack();
+		}, onDoneAnim);
 	}
 
 	protected void RefreshAudioDuck()
@@ -670,6 +744,20 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 	protected void RefreshPopupStack()
 	{
+		var alive = new List<UICakePopup>();
+		foreach (UICakePopup popup in _popupStack)
+		{
+			if (popup != null && popup.IsShowing)
+			{
+				alive.Add(popup);
+			}
+		}
+		_popupStack.Clear();
+		for (int num = alive.Count - 1; num >= 0; num--)
+		{
+			_popupStack.Push(alive[num]);
+		}
+		OnPopupStackChanged();
 	}
 
 	protected virtual void Update()
@@ -715,14 +803,26 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 		return null;
 	}
 
-	[AsyncStateMachine(typeof(_003CShowCustomPopup_003Ed__62<>))]
-	public Task ShowCustomPopup<T>(AssetReference asset, Action<T> onBeforeShow = null, Action<UIElementAbstract> onClosed = null, Action<UIElementAbstract> onDoneAnimShow = null) where T : UICakePopup
+	public async Task ShowCustomPopup<T>(AssetReference asset, Action<T> onBeforeShow = null, Action<UIElementAbstract> onClosed = null, Action<UIElementAbstract> onDoneAnimShow = null) where T : UICakePopup
 	{
-		return null;
+		T popup = await LoadPopup<T>(asset);
+		OpenCustomPopup(popup, onBeforeShow, onClosed, onDoneAnimShow);
 	}
 
 	public void ShowCustomPopup<T>(T prefab, Action<T> onBeforeShow = null, Action<UIElementAbstract> onClosed = null, Action<UIElementAbstract> onDoneAnimShow = null) where T : UICakePopup
 	{
+		OpenCustomPopup(LoadPopupByPrefab(prefab), onBeforeShow, onClosed, onDoneAnimShow);
+	}
+
+	private void OpenCustomPopup<T>(T popup, Action<T> onBeforeShow, Action<UIElementAbstract> onClosed, Action<UIElementAbstract> onDoneAnimShow) where T : UICakePopup
+	{
+		if (popup == null)
+		{
+			return;
+		}
+		ProcessCustomPopup(popup);
+		onBeforeShow?.Invoke(popup);
+		ShowPopupInStack(popup, onClosed, onDoneAnimShow);
 	}
 
 	protected virtual void ProcessCustomPopup(UICakePopup popup)
@@ -749,6 +849,7 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 
 	protected override void OnDestroy()
 	{
+		base.OnDestroy();
 	}
 
 	protected virtual void Start()

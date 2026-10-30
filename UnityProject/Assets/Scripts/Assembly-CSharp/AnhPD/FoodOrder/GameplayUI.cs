@@ -42,7 +42,12 @@ namespace AnhPD.FoodOrder
 
 		public void ShowAlert(AlertType type, bool autoHide = true)
 		{
-			CakeOrder.InGame.UIInLevelCakeOrder.InstanceUIInLevel.ShowPopupAlert(type, autoHide, OnCreated).RunWithLogException();
+			CakeOrder.InGame.UIInLevelCakeOrder inLevelUi = CakeOrder.InGame.UIInLevelCakeOrder.InstanceUIInLevel;
+			if (inLevelUi == null)
+			{
+				return;
+			}
+			inLevelUi.ShowPopupAlert(type, autoHide, OnCreated)?.RunWithLogException();
 			void OnCreated(UIPopupAlert alert)
 			{
 				_alertInstance = alert;

@@ -78,6 +78,16 @@ namespace AnhPD.FoodOrder
 		[SerializeField]
 		private float peekLandDuration = 0.25f;
 
+		[Tooltip("Peek: each icon pops out of the order's stack one after another (top to bottom), like spreading the burger layers.")]
+		[SerializeField]
+		private bool peekIconPop = true;
+
+		[SerializeField]
+		private float peekIconStagger = 0.05f;
+
+		[SerializeField]
+		private float peekIconDuration = 0.3f;
+
 		private readonly List<ListIngredientBoardView> _boards = new List<ListIngredientBoardView>();
 
 		private readonly List<OrderSpec> _shown = new List<OrderSpec>();
@@ -450,6 +460,10 @@ namespace AnhPD.FoodOrder
 				.Join(focusRt.DOSizeDelta(fromSize, peekMorphDuration).SetEase(peekMorphEase))
 				.Join(group.DOFade(1f, peekMorphDuration).SetEase(peekFadeEase))
 				.OnComplete(EndPeekIn);
+			if (peekIconPop)
+			{
+				focusBoard.PlayPop(peekIconStagger, peekIconDuration);
+			}
 			IsPeeking = true;
 			_peekHeld = true;
 			RefreshOwned(instant: true);
@@ -938,7 +952,7 @@ namespace AnhPD.FoodOrder
 
 		public void PlaySlideSfx()
 		{
-			AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnSlide, (AudioManagerCakeOrder.AudioTrack)3);
+			//AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnSlide, (AudioManagerCakeOrder.AudioTrack)3);
 		}
 
 		public Tween SlideOut()

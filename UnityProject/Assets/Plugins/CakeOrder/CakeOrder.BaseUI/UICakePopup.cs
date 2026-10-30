@@ -127,14 +127,32 @@ public abstract class UICakePopup : UIElementWithAnim
 
 	protected virtual void Awake()
 	{
+		if (_btnCloses == null)
+		{
+			return;
+		}
+		foreach (Button btn in _btnCloses)
+		{
+			if (btn != null)
+			{
+				btn.onClick.AddListener(OnClickClose);
+			}
+		}
 	}
 
 	protected virtual void OnClickClose()
 	{
+		if (Time.unscaledTime - _lastTimeClick < 1f)
+		{
+			return;
+		}
+		_lastTimeClick = Time.unscaledTime;
+		HideByBackButton();
 	}
 
 	public virtual void SetUpOnCreate(SceneMainUI mainUI)
 	{
+		_mainUI = mainUI;
 	}
 
 	public abstract void HideByBackButton();

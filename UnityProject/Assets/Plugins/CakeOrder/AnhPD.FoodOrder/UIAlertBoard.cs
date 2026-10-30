@@ -150,46 +150,116 @@ public class UIAlertBoard : MonoBehaviour
 
 	private bool _autoHide;
 
-	public AlertType Type => AlertType.Hard;
+	public AlertType Type => type;
 
-	public bool IsShowing => false;
+	public bool IsShowing => _running;
 
 	public event Action<UIAlertBoard> onExpired;
 
 	public void Show(bool autoHide = true)
 	{
+		_autoHide = autoHide;
+		_running = true;
+		base.gameObject.SetActive(true);
+		if (_animShowHide != null)
+		{
+			_animShowHide.Show();
+		}
+		if (sfxShow != null)
+		{
+			Camera cam = Camera.main;
+			AudioSource.PlayClipAtPoint(sfxShow, (cam != null) ? cam.transform.position : Vector3.zero);
+		}
+		if (base.gameObject.activeInHierarchy)
+		{
+			StartRoutines();
+		}
 	}
 
 	public void Hide()
 	{
+		if (!_running)
+		{
+			return;
+		}
+		_running = false;
+		StopRoutines();
+		if (text != null)
+		{
+			text.SetActive(true);
+		}
+		if (_animShowHide != null && base.gameObject.activeInHierarchy)
+		{
+			_animShowHide.Hide(delegate
+			{
+				if (!_running)
+				{
+					base.gameObject.SetActive(false);
+				}
+			});
+		}
+		else
+		{
+			base.gameObject.SetActive(false);
+		}
 	}
 
 	private void OnEnable()
 	{
+		if (_running)
+		{
+			StartRoutines();
+		}
 	}
 
 	private void OnDisable()
 	{
+		StopRoutines();
 	}
 
 	private void StartRoutines()
 	{
+		StopRoutines();
+		if (blinkInterval > 0f && text != null)
+		{
+			_blink = StartCoroutine(BlinkRoutine());
+		}
+		if (_autoHide && lifetime > 0f)
+		{
+			_lifetime = StartCoroutine(LifetimeRoutine());
+		}
 	}
 
 	private void StopRoutines()
 	{
+		if (_blink != null)
+		{
+			StopCoroutine(_blink);
+			_blink = null;
+		}
+		if (_lifetime != null)
+		{
+			StopCoroutine(_lifetime);
+			_lifetime = null;
+		}
 	}
 
-	[IteratorStateMachine(typeof(_003CBlinkRoutine_003Ed__23))]
 	private IEnumerator BlinkRoutine()
 	{
-		return null;
+		WaitForSecondsRealtime wait = new WaitForSecondsRealtime(blinkInterval);
+		while (true)
+		{
+			text.SetActive(!text.activeSelf);
+			yield return wait;
+		}
 	}
 
-	[IteratorStateMachine(typeof(_003CLifetimeRoutine_003Ed__24))]
 	private IEnumerator LifetimeRoutine()
 	{
-		return null;
+		yield return new WaitForSecondsRealtime(lifetime);
+		_lifetime = null;
+		Hide();
+		this.onExpired?.Invoke(this);
 	}
 }
 }
