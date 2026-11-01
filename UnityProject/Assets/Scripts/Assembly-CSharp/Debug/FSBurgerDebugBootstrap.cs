@@ -142,7 +142,7 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		int levelIndex = SelectedLevel;
 		string customerStrings = sim.customerData;
 		string queueStrings = sim.ingredientQueueData;
-		if (TryGetLevelDesign(mapId, levelIndex, out string designCustomers, out string designQueue, out int designCount))
+		if (TryGetLevelDesign(mapId, levelIndex, out string designCustomers, out string designQueue, out int designCount, out string designMeta))
 		{
 			customerStrings = designCustomers;
 			queueStrings = designQueue;
@@ -152,6 +152,18 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		{
 			weatherEffect = sim.overrideWeather ? sim.weatherEffect : default(WeatherEffect),
 		};
+		// The map's lv_metadata entry for the level ("weather;difficulty;customers;dishes;ingredients;tutorialId") sets the level's weather and tags.
+		if (!string.IsNullOrEmpty(designMeta))
+		{
+			string[] meta = designMeta.Split(';');
+			int ParseField(int i) => i < meta.Length && int.TryParse(meta[i], out int v) ? v : 0;
+			metadata.weatherEffect = (WeatherEffect)ParseField(0);
+			metadata.difficultyTag = (LevelDifficultyTag)ParseField(1);
+			metadata.numCustomers = ParseField(2);
+			metadata.numDishs = ParseField(3);
+			metadata.numIngredients = ParseField(4);
+			metadata.tutId = meta.Length > 5 ? meta[5] : string.Empty;
+		}
 		CakeLevelInitData initData = new CakeLevelInitData
 		{
 			mapId = mapId,
@@ -345,8 +357,9 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 	}
 
 	// Level designs per map live in the remote-config defaults (RemoteConfigDefaultSetterCakeOrder._mapConfig[].levelDesigns): "customers~~queue".
-	private static bool TryGetLevelDesign(string mapId, int index, out string customers, out string queue, out int count)
+	private static bool TryGetLevelDesign(string mapId, int index, out string customers, out string queue, out int count, out string levelMeta)
 	{
+		levelMeta = null;
 		customers = null;
 		queue = null;
 		count = 1;
@@ -366,6 +379,8 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			if (parts.Length < 2) return false;
 			customers = parts[0];
 			queue = parts[1];
+			string[] metas = (t.GetField("lv_metadata", flags)?.GetValue(map) as string ?? "").Split('|');
+			levelMeta = index >= 0 && index < metas.Length ? metas[index] : null;
 			return true;
 		}
 		return false;

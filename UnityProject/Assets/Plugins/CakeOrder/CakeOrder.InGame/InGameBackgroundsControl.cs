@@ -86,7 +86,8 @@ public class InGameBackgroundsControl : MonoBehaviour
 			if (spawnedBackgroundControl == null)
 			{
 				if (assetBackgroundControl == null || !assetBackgroundControl.RuntimeKeyIsValid()) return;
-				opLoad = assetBackgroundControl.LoadAssetAsync<GameObject>();
+				// A reference can only be loaded once; a load cancelled by a newer weather change leaves it loaded, so reuse that handle.
+				opLoad = assetBackgroundControl.OperationHandle.IsValid() ? assetBackgroundControl.OperationHandle.Convert<GameObject>() : assetBackgroundControl.LoadAssetAsync<GameObject>();
 				await opLoad.Task;
 				if (token.IsCancellationRequested || opLoad.Result == null) return;
 				GameObject instance = UnityEngine.Object.Instantiate(opLoad.Result, container);
@@ -211,6 +212,9 @@ public class InGameBackgroundsControl : MonoBehaviour
 
 	private Color _currentTintTool;
 
+	// Raised after CurrentWeather changes so weather-dependent skins (raincoats etc.) can refresh.
+	public static event Action WeatherChanged;
+
 	public WeatherEffect CurrentWeather { get; private set; }
 
 	public void SetUp()
@@ -228,6 +232,19 @@ public class InGameBackgroundsControl : MonoBehaviour
 		return _configByWeathers.Length > 0 ? _configByWeathers[0] : null;
 	}
 
+	// The recovered rainy tints are nearly white; the game's rainy scene is clearly darker and bluer.
+	private static readonly Color RainyDarken = Color.white;
+
+	private static Color WeatherBg(BackgroundConfigByWeather c)
+	{
+		return c.weatherType == WeatherEffect.Rainy ? c.tintSharedBgr * RainyDarken : c.tintSharedBgr;
+	}
+
+	private static Color WeatherTool(BackgroundConfigByWeather c)
+	{
+		return c.weatherType == WeatherEffect.Rainy ? c.tintTool * RainyDarken : c.tintTool;
+	}
+
 	private Transform BackgroundParent()
 	{
 		return _sharedData != null && _sharedData.backgroundContainer != null ? _sharedData.backgroundContainer : transform;
@@ -236,15 +253,16 @@ public class InGameBackgroundsControl : MonoBehaviour
 	public async UniTask SetUp(WeatherEffect initWeatherEffect)
 	{
 		CurrentWeather = initWeatherEffect;
+		WeatherChanged?.Invoke();
 		_weatherLoadCts?.Cancel();
 		_weatherLoadCts = new CancellationTokenSource();
 		_currentTintBg = Color.white;
 		_currentTintTool = Color.white;
 		BackgroundConfigByWeather config = ConfigFor(initWeatherEffect);
 		if (config == null) return;
-		_currentWeatherTintSharedBgr = config.tintSharedBgr;
-		_currentWeatherTintTool = config.tintTool;
-		await config.ShowEffectsAsync(_sharedData, BackgroundParent(), config.tintSharedBgr * _currentTintBg, _weatherLoadCts.Token);
+		_currentWeatherTintSharedBgr = WeatherBg(config);
+		_currentWeatherTintTool = WeatherTool(config);
+		await config.ShowEffectsAsync(_sharedData, BackgroundParent(), WeatherBg(config) * _currentTintBg, _weatherLoadCts.Token);
 		ApplySharedTints(0f);
 	}
 
@@ -271,13 +289,14 @@ public class InGameBackgroundsControl : MonoBehaviour
 		BackgroundConfigByWeather next = ConfigFor(weatherEffect);
 		BackgroundConfigByWeather previous = ConfigFor(CurrentWeather);
 		CurrentWeather = weatherEffect;
+		WeatherChanged?.Invoke();
 		if (next == null) return;
 		_weatherLoadCts?.Cancel();
 		_weatherLoadCts = new CancellationTokenSource();
 		if (previous != null && previous != next) previous.HideEffects();
-		_currentWeatherTintSharedBgr = next.tintSharedBgr;
-		_currentWeatherTintTool = next.tintTool;
-		await next.ShowEffectsAsync(_sharedData, BackgroundParent(), next.tintSharedBgr * _currentTintBg, _weatherLoadCts.Token);
+		_currentWeatherTintSharedBgr = WeatherBg(next);
+		_currentWeatherTintTool = WeatherTool(next);
+		await next.ShowEffectsAsync(_sharedData, BackgroundParent(), WeatherBg(next) * _currentTintBg, _weatherLoadCts.Token);
 		ApplySharedTints(0.5f);
 	}
 
@@ -286,7 +305,7 @@ public class InGameBackgroundsControl : MonoBehaviour
 		BackgroundConfigByWeather config = ConfigFor(CurrentWeather);
 		if (config != null && config.spawnedBackgroundControl != null)
 		{
-			config.spawnedBackgroundControl.ChangeTintColor(config.tintSharedBgr * _currentTintBg, 0f, duration);
+			config.spawnedBackgroundControl.ChangeTintColor(WeatherBg(config) * _currentTintBg, 0f, duration);
 		}
 		if (_sharedBackground != null) _sharedBackground.ChangeTintColor(_currentWeatherTintSharedBgr * _currentTintBg, 0f, duration);
 	}

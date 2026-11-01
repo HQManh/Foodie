@@ -42,6 +42,12 @@ namespace AnhPD.FoodOrder
 		private void OnEnable()
 		{
 			Apply(CurrentWeather());
+			CakeOrder.InGame.InGameBackgroundsControl.WeatherChanged += Apply;
+		}
+
+		private void OnDisable()
+		{
+			CakeOrder.InGame.InGameBackgroundsControl.WeatherChanged -= Apply;
 		}
 
 		public void Apply()
@@ -51,7 +57,12 @@ namespace AnhPD.FoodOrder
 
 		public void Apply(WeatherEffect weather)
 		{
-			// TODO(unrecovered): depends on ResolveSkin(in SkinContext), whose SkinContext construction from WeatherEffect is not recovered.
+			CaptureDefault();
+			SkinContext context = new SkinContext { weather = weather };
+			string skin = ResolveSkin(in context);
+			if (string.IsNullOrEmpty(skin) || !HasSkin(skin)) skin = _defaultSkinName;
+			if (skeletonAnimation != null) SetSkin(skeletonAnimation.Skeleton, skin);
+			else if (skeletonGraphic != null) SetSkin(skeletonGraphic.Skeleton, skin);
 		}
 
 		private static void SetSkin(Skeleton skeleton, string skinName)
@@ -90,7 +101,11 @@ namespace AnhPD.FoodOrder
 
 		private string ResolveSkin(in SkinContext context)
 		{
-			// TODO(unrecovered): iterates skins[] calling a virtual trigger match on CustomerSkinTriggerSO (vtable +0x178); the call signature is not recovered.
+			if (skins == null) return null;
+			foreach (Entry entry in skins)
+			{
+				if (entry != null && entry.trigger != null && entry.trigger.IsActive(in context)) return entry.skinName;
+			}
 			return null;
 		}
 
@@ -132,8 +147,8 @@ namespace AnhPD.FoodOrder
 
 		private static WeatherEffect CurrentWeather()
 		{
-			// TODO(unrecovered): weather is read through a chain of singletons (DAT_091b4c28 / DAT_091b4c30) whose types are not in the stubs.
-			return WeatherEffect.Normal;
+			CakeOrder.InGame.InGameBackgroundsControl control = FindObjectOfType<CakeOrder.InGame.InGameBackgroundsControl>();
+			return control != null ? control.CurrentWeather : WeatherEffect.Normal;
 		}
 	}
 }

@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Default Local Group
   m_GUID: 2d48297f652068c469b2cd4a202c65ce
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 30094fd1b1521234197237b5a5d11934
+    m_Address: Assets/_Production/Map-common_assets/Materials/SpriteBackgroundColorGrading.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1c6b87fcf61ea9143846d387f32f576b, type: 2}
   m_SchemaSet:

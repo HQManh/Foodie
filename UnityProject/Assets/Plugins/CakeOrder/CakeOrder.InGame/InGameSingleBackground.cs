@@ -63,6 +63,8 @@ public class InGameSingleBackground : MonoBehaviour
 
 	private Color[] _originColorBackgroundSpriteRenderers;
 
+	private bool _renderersResolved;
+
 	private Tween _tintColorTween;
 
 	public float defaultDurationTweenTint;
@@ -76,8 +78,10 @@ public class InGameSingleBackground : MonoBehaviour
 
 	private SpriteRenderer[] Renderers()
 	{
-		if (_spriteRenderers == null || _spriteRenderers.Length == 0)
+		// The serialized list can miss sprites (the shared BG leaves its floor square out), so tint every child sprite.
+		if (!_renderersResolved)
 		{
+			_renderersResolved = true;
 			_spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
 		}
 		return _spriteRenderers;
@@ -94,20 +98,11 @@ public class InGameSingleBackground : MonoBehaviour
 		}
 	}
 
-	private static readonly int ColorId = Shader.PropertyToID("_Color");
-
-	private static MaterialPropertyBlock _block;
-
-	// The background shaders (Sprite-Background-ColorGrading etc.) read _Color rather than the vertex colour, so the tint is also written there.
+	// The background shaders are real sprite shaders now, so the sprite colour alone carries the tint (a property block would replace the
+	// renderer's own colour data and drop the tint).
 	private static void SetRendererColor(SpriteRenderer renderer, Color color)
 	{
 		renderer.color = color;
-		Material material = renderer.sharedMaterial;
-		if (material == null || !material.HasProperty(ColorId)) return;
-		if (_block == null) _block = new MaterialPropertyBlock();
-		renderer.GetPropertyBlock(_block);
-		_block.SetColor(ColorId, color);
-		renderer.SetPropertyBlock(_block);
 	}
 
 	private void ApplyColors(Color tint, float alpha)

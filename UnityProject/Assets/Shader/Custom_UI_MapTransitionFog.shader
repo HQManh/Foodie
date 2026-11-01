@@ -1,3 +1,4 @@
+// Rebuilt approximation (the extracted copy was an empty placeholder): a fog band that sweeps across the rect as _Progress goes 0..1 (_Direction = +1 pans right), tinted from the From to the To theme colours (bottom to top gradient), with noise-modulated edges.
 Shader "Custom/UI/MapTransitionFog" {
 	Properties {
 		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
@@ -25,55 +26,88 @@ Shader "Custom/UI/MapTransitionFog" {
 		_ColorMask ("Color Mask", Float) = 15
 		_ClipRect ("Clip Rect", Vector) = (-32767,-32767,32767,32767)
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+	SubShader {
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" "PreviewType"="Plane" "CanUseSpriteAtlas"="True" }
+		Stencil {
+			Ref [_Stencil]
+			Comp [_StencilComp]
+			Pass [_StencilOp]
+			ReadMask [_StencilReadMask]
+			WriteMask [_StencilWriteMask]
+		}
+		Cull Off
+		Lighting Off
+		ZWrite Off
+		ZTest [unity_GUIZTestMode]
+		Blend SrcAlpha OneMinusSrcAlpha
+		ColorMask [_ColorMask]
 
-		Pass
-		{
-			HLSLPROGRAM
+		Pass {
+			Name "Default"
+			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
+			#pragma target 3.0
+			#include "UnityCG.cginc"
+			#include "UnityUI.cginc"
+			#pragma multi_compile_local _ UNITY_UI_CLIP_RECT
+			#pragma multi_compile_local _ UNITY_UI_ALPHACLIP
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
+			struct appdata_t {
+				float4 vertex : POSITION;
+				float4 color : COLOR;
+				float2 texcoord : TEXCOORD0;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
+			};
+			struct v2f {
+				float4 vertex : SV_POSITION;
+				fixed4 color : COLOR;
+				float2 texcoord : TEXCOORD0;
+				float4 worldPosition : TEXCOORD1;
+				UNITY_VERTEX_OUTPUT_STEREO
+			};
+
+			sampler2D _MainTex;
+			fixed4 _TextureSampleAdd;
+			float4 _ClipRect;
 			float4 _MainTex_ST;
-
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
-
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
-
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
+			float _Progress, _Direction, _Aspect, _MaxAlpha, _BandWidth, _EdgeSoftness, _EdgeNoise, _NoiseScale, _NoiseStrength, _NoiseScroll, _ThemeBrighten;
+			float4 _FromBottom, _FromTop, _ToBottom, _ToTop;
+			sampler2D _NoiseTex;
+			v2f vert(appdata_t v) {
+				v2f OUT;
+				UNITY_SETUP_INSTANCE_ID(v);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
+				OUT.worldPosition = v.vertex;
+				OUT.vertex = UnityObjectToClipPos(OUT.worldPosition);
+				OUT.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
+				OUT.color = v.color;
+				return OUT;
 			}
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
+			fixed4 frag(v2f IN) : SV_Target {
+				// x runs along the sweep direction in "screens" (the rect is one screen wide), y is the vertical position.
+				float x = (_Direction >= 0 ? IN.texcoord.x : 1.0 - IN.texcoord.x) * _Aspect;
+				float travel = lerp(-_BandWidth, 1.0 * _Aspect + _BandWidth, _Progress);
+				float2 nuv = float2(IN.texcoord.x * _Aspect, IN.texcoord.y) * _NoiseScale + float2(_Progress * _NoiseScroll * _Direction, 0);
+				float n = tex2D(_NoiseTex, nuv).r;
+				float dist = abs(x - travel) + (n - 0.5) * _EdgeNoise;
+				float band = 1.0 - smoothstep(_BandWidth * 0.5 - _EdgeSoftness, _BandWidth * 0.5, dist);
+				float4 fromCol = lerp(_FromBottom, _FromTop, IN.texcoord.y);
+				float4 toCol = lerp(_ToBottom, _ToTop, IN.texcoord.y);
+				float4 fog = lerp(fromCol, toCol, smoothstep(0.35, 0.65, _Progress));
+				fog.rgb = lerp(fog.rgb, 1.0.xxx, _ThemeBrighten * 0.5);
+				half4 color = half4(fog.rgb, band * lerp(1.0, n, _NoiseStrength) * _MaxAlpha * fog.a * IN.color.a);
+				#ifdef UNITY_UI_CLIP_RECT
+				color.a *= UnityGet2DClipping(IN.worldPosition.xy, _ClipRect);
+				#endif
+				#ifdef UNITY_UI_ALPHACLIP
+				clip(color.a - 0.001);
+				#endif
+				return color;
 			}
-
-			ENDHLSL
+			ENDCG
 		}
 	}
+	Fallback "UI/Default"
 }
