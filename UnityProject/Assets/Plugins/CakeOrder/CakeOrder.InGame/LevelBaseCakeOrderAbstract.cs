@@ -397,9 +397,13 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 	{
 	}
 
+	// Set by whoever owns the save-me flow (the original LevelSaveMeControl): offers a revive when a customer runs out of patience and
+	// returns true when an offer is now pending; false means no offer, so the level is lost.
+	public Func<bool> CustomerOutOfTimeHandler { get; set; }
+
 	public bool TriggerCustomerOutOfTime()
 	{
-		return false;
+		return CustomerOutOfTimeHandler != null && CustomerOutOfTimeHandler();
 	}
 
 	public virtual void ApplySaveMeOnOutOfServeSlots(ConfigSaveMeOnOutOfServeSlots config)

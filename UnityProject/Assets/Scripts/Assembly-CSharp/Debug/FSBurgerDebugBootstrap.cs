@@ -233,6 +233,9 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			eventSystem.enabled = false;
 		}
 		SetUpCombo(level, runtimeData);
+		_saveMesUsed = 0;
+		_saveMeOffer = false;
+		level.CustomerOutOfTimeHandler = OfferCustomerSaveMe;
 		level.onPlayStateChanged += OnPlayStateChanged;
 		FSBurgerAutoPlayer bot = GetComponent<FSBurgerAutoPlayer>();
 		if (bot == null)
@@ -243,6 +246,40 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 	}
 
 	// Combo mechanic: the original creates the control in LevelPlayLoadAndSetupControl and hands it to UIInLevelCakeOrder; both are rebuilt here.
+	// Save-me when a customer runs out of patience. The original shows a popup (watch an ad / spend gems, limits from remote config); neither the
+	// popup nor the shop exist here, so the offer is a plain two-button prompt with a small number of free revives.
+	private const int FreeSaveMes = 1;
+
+	private int _saveMesUsed;
+
+	private bool _saveMeOffer;
+
+	private bool OfferCustomerSaveMe()
+	{
+		if (_saveMesUsed >= FreeSaveMes)
+		{
+			return false;
+		}
+		_saveMeOffer = true;
+		return true;
+	}
+
+	private void ResolveSaveMe(bool revive)
+	{
+		_saveMeOffer = false;
+		LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
+		if (level == null) return;
+		if (revive)
+		{
+			_saveMesUsed++;
+			level.ApplySaveMeOnCustomerOutOfTime();
+			return;
+		}
+		MessyController messy = level as MessyController;
+		if (messy != null) messy.endGameInfo.reason = 1;
+		level.EndGame();
+	}
+
 	private const bool ShowComboBar = false;
 
 	private InGameComboMechanicControl _combo;
@@ -435,8 +472,31 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 	}
 
 	// Play-it-yourself controls: pick the level, restart it, and switch the helper bot on or off.
+	private void DrawSaveMePrompt()
+	{
+		if (!_saveMeOffer) return;
+		if (_autoPlay)
+		{
+			ResolveSaveMe(true);
+			return;
+		}
+		int font = Mathf.Max(18, Screen.height / 45);
+		GUIStyle label = new GUIStyle(GUI.skin.label) { fontSize = font, fontStyle = FontStyle.Bold, alignment = TextAnchor.MiddleCenter, wordWrap = true };
+		label.normal.textColor = Color.white;
+		GUIStyle button = new GUIStyle(GUI.skin.button) { fontSize = font, fontStyle = FontStyle.Bold };
+		float w = Screen.width * 0.8f;
+		float h = font * 8f;
+		Rect box = new Rect((Screen.width - w) * 0.5f, (Screen.height - h) * 0.5f, w, h);
+		GUI.Box(box, GUIContent.none);
+		GUI.Label(new Rect(box.x, box.y + font * 0.5f, box.width, font * 3f), "A customer ran out of patience!", label);
+		float bw = w * 0.4f;
+		if (GUI.Button(new Rect(box.x + w * 0.05f, box.y + h - font * 3.2f, bw, font * 2.4f), "Revive", button)) ResolveSaveMe(true);
+		if (GUI.Button(new Rect(box.x + w * 0.55f, box.y + h - font * 3.2f, bw, font * 2.4f), "Give up", button)) ResolveSaveMe(false);
+	}
+
 	private void OnGUI()
 	{
+		DrawSaveMePrompt();
 		int font = Mathf.Max(16, Screen.height / 55);
 		GUIStyle button = new GUIStyle(GUI.skin.button) { fontSize = font, fontStyle = FontStyle.Bold };
 		GUIStyle label = new GUIStyle(GUI.skin.label) { fontSize = font, fontStyle = FontStyle.Bold, alignment = TextAnchor.MiddleCenter };
