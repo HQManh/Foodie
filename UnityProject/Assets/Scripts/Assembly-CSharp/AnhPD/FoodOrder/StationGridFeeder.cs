@@ -59,8 +59,24 @@ namespace AnhPD.FoodOrder
 
 		private DragItem FindFeedableItem(MessyController messy, List<DragItem> items)
 		{
-			// TODO(unrecovered): ranks candidates by a distance value taken from an uninitialised float parameter (decompiler register noise) and depends on IsRestingOnGrid, whose DragItem flag offsets are not mapped to stub fields.
-			return null;
+			// Approximation of the original ranking: among the items resting on the grid that this station is the right (nearest, wanted) station for,
+			// take the one closest to the station.
+			LevelInfo info = messy.Info;
+			DragItem best = null;
+			float bestDistance = float.MaxValue;
+			for (int i = 0; i < items.Count; i++)
+			{
+				DragItem item = items[i];
+				if (item == null || !IsRestingOnGrid(item)) continue;
+				if (!info.TryGetInteractableStation(item.GetId(), item.transform.position, out CookingStation target) || target != _station) continue;
+				float distance = Vector2.Distance(item.transform.position, _station.transform.position);
+				if (distance < bestDistance)
+				{
+					bestDistance = distance;
+					best = item;
+				}
+			}
+			return best;
 		}
 
 		private int RankOf(LevelInfo info, string resultId, PieceSet missing)
@@ -95,8 +111,7 @@ namespace AnhPD.FoodOrder
 
 		private static bool IsRestingOnGrid(DragItem item)
 		{
-			// TODO(unrecovered): two DragItem byte flags (+0xe9, +0xea) have no stub field mapping; the landed-cell and shelf-booking checks depend on them.
-			return false;
+			return item != null && item.Cell != null && item.IsLandedInCell && !item.IsWindingUp;
 		}
 	}
 }

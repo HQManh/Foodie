@@ -71,7 +71,7 @@ namespace AnhPD.FoodOrder
 				}
 				else
 				{
-					AudioManagerCakeOrder.Instance.PlaySfxWithPitchVariant(sfxPlace, track, 1f, 0.1f);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxWithPitchVariant(sfxPlace, track, 1f, 0.1f);
 				}
 			}
 		}

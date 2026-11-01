@@ -21,6 +21,10 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 
 	private float _nextReport;
 
+	private float _lastTap;
+
+	private int _discarded;
+
 	private void Update()
 	{
 		LevelBaseCakeOrderAbstract level = LevelBaseCakeOrderAbstract.Instance;
@@ -36,7 +40,11 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 		}
 		// Keep a couple of grid cells free, like a player would, so the grid does not jam.
 		DragItem[] heldItems = FindObjectsByType<DragItem>(FindObjectsSortMode.None);
-		int held = heldItems.Length;
+		int held = 0;
+		foreach (DragItem each in heldItems)
+		{
+			if (each != null && each.Cell != null) held++;
+		}
 		BuildNeeds(heldItems, out Dictionary<string, int> need, out Dictionary<string, int> have, out Dictionary<string, string> rawToCooked);
 		bool tapped = false;
 		IngredientConveyorItem fallback = null;
@@ -71,7 +79,7 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 			_rejected++;
 		}
 		// Nothing needed is within reach: take any pickable item (while the grid has room) so the belt keeps moving.
-		if (!tapped && fallback != null && held < 10)
+		if (!tapped && fallback != null && held < 9)
 		{
 			spawner.Pickup.Tap(fallback);
 			_taps++;
@@ -97,7 +105,7 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 		if (Time.time >= _nextReport)
 		{
 			_nextReport = Time.time + 10f;
-			Debug.Log("[FSBurgerAutoPlayer] t=" + Time.time.ToString("0") + " taps=" + _taps + " skipped=" + _rejected + " fedToStations=" + _fed + " dragItems=" + FindObjectsByType<DragItem>(FindObjectsSortMode.None).Length + " beltItems=" + FindObjectsByType<IngredientConveyorItem>(FindObjectsSortMode.None).Length);
+			Debug.Log("[FSBurgerAutoPlayer] t=" + Time.time.ToString("0") + " taps=" + _taps + " skipped=" + _rejected + " fedToStations=" + _fed + " dragItems=" + FindObjectsByType<DragItem>(FindObjectsSortMode.None).Length + " discarded=" + _discarded + " beltItems=" + FindObjectsByType<IngredientConveyorItem>(FindObjectsSortMode.None).Length);
 		}
 	}
 
@@ -120,6 +128,22 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 		MessyController game = MessyController.Ins;
 		FCustomerLineHandle handle = game != null ? game.LineHandle : null;
 		if (handle == null || game.Info == null) return;
+		// What each dish already on a plate still lacks (read from the shelf's assemblies), so ingredients already placed are not asked for again.
+		Dictionary<(FCustomerLine, int), List<string>> remaining = new Dictionary<(FCustomerLine, int), List<string>>();
+		ServeShelfController shelf = game.ServeShelf;
+		System.Reflection.BindingFlags flags = System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public;
+		System.Collections.IList assemblies = shelf != null ? typeof(ServeShelfController).GetField("_assemblies", flags)?.GetValue(shelf) as System.Collections.IList : null;
+		if (assemblies != null)
+		{
+			foreach (object a in assemblies)
+			{
+				System.Type at = a.GetType();
+				FCustomerLine al = at.GetField("Line").GetValue(a) as FCustomerLine;
+				int ai = (int)at.GetField("Index").GetValue(a);
+				List<string> rem = at.GetField("Remaining").GetValue(a) as List<string>;
+				if (al != null && rem != null) remaining[(al, ai)] = rem;
+			}
+		}
 		foreach (FCustomerLine line in handle.OrderLines)
 		{
 			if (line == null || !line.IsCustomerReady) continue;
@@ -131,7 +155,7 @@ public class FSBurgerAutoPlayer : MonoBehaviour
 				if (FlexibleId.IsFlexible(id))
 				{
 					FlexibleDragItem prefab = game.Info.GetIngredientPrefab(FlexibleId.BaseOf(id)) as FlexibleDragItem;
-					List<string> parts = prefab != null ? prefab.GetIngIds(id) : null;
+					List<string> parts = remaining.TryGetValue((line, index), out List<string> left) ? left : (prefab != null ? prefab.GetIngIds(id) : null);
 					if (parts == null) continue;
 					foreach (string part in parts) need[part] = (need.TryGetValue(part, out int n) ? n : 0) + 1;
 				}

@@ -45,7 +45,7 @@ namespace AnhPD.FoodOrder
 
 		private static void PlaySfxNow(AudioClip clip)
 		{
-			AudioManagerCakeOrder.Instance.PlaySfx(clip, 1f, (AudioManagerCakeOrder.AudioTrack)5);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(clip, 1f, (AudioManagerCakeOrder.AudioTrack)5);
 		}
 
 		private void TestMerge(string ingBaseId = "")

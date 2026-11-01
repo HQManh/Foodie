@@ -116,7 +116,7 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			AudioManagerCakeOrder.Instance.RegisterAudioSource(_voice, (AudioManagerCakeOrder.AudioTrack)6);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.RegisterAudioSource(_voice, (AudioManagerCakeOrder.AudioTrack)6);
 		}
 
 		private void OnDisable()

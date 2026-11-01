@@ -37,7 +37,7 @@ namespace AnhPD.FoodOrder
 			}
 			if (!TutorialGate.IsActive)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnTap, (AudioManagerCakeOrder.AudioTrack)3);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnTap, (AudioManagerCakeOrder.AudioTrack)3);
 				Zoom();
 			}
 		}

@@ -59,10 +59,10 @@ namespace AnhPD.FoodOrder
 			}
 			if (!isJump)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
 				transform.DOPunchRotation(new Vector3(0f, 0f, 5f), 0.1f, 10, 1f).SetLoops(-1).SetDelay(0.25f).OnStepComplete(delegate
 				{
-					AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
 				});
 			}
 			else
@@ -70,7 +70,7 @@ namespace AnhPD.FoodOrder
 				transform.DOPunchPosition(Vector3.up * 0.5f, 0.3f, 1, 1f).SetLoops(-1).SetDelay(0.25f).OnStepComplete(delegate
 				{
 					vfxCoating.Play();
-					AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
 				});
 			}
 		}
@@ -122,7 +122,7 @@ namespace AnhPD.FoodOrder
 				}
 				if (sfxCoating != null)
 				{
-					AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxCoating, 0.5f, (AudioManagerCakeOrder.AudioTrack)5);
 				}
 			}
 		}

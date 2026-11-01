@@ -320,11 +320,11 @@ namespace AnhPD.FoodOrder
 		{
 			if (!Mathf.Approximately(1f, pitch))
 			{
-				AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(sfx, (AudioManagerCakeOrder.AudioTrack)5, 1f, pitch);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(sfx, (AudioManagerCakeOrder.AudioTrack)5, 1f, pitch);
 			}
 			else
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfx, 1f, (AudioManagerCakeOrder.AudioTrack)5);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfx, 1f, (AudioManagerCakeOrder.AudioTrack)5);
 			}
 		}
 

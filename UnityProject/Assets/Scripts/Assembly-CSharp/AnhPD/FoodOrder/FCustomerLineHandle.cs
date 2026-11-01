@@ -396,8 +396,8 @@ namespace AnhPD.FoodOrder
 				CakeLevelInitData initData = InitData;
 				CustomerSpawnData[] sequence = ((initData == null) ? null : initData.customerSpawnData);
 				spawner.SetSpawnSequence(sequence, _preSpawnedCount);
-				// TODO(unrecovered): original also sets the spawner's private _isStarted flag to true here (no public setter in the stub)
-				_spawner.CheckSpawnQueue();
+				// CustomerSpawner.Begin() marks the spawner as started (so customers leaving trigger the next admission) and checks the queue.
+				_spawner.Begin();
 			}
 		}
 

@@ -155,7 +155,7 @@ namespace AnhPD.FoodOrder
 				elapsed += Time.deltaTime * skeletonAnimation.timeScale;
 			}
 			_sfxRoutine = null;
-			AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(sfx, (AudioManagerCakeOrder.AudioTrack)5, 1f, _speedRate);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(sfx, (AudioManagerCakeOrder.AudioTrack)5, 1f, _speedRate);
 		}
 
 		private void StopSfx()

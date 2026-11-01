@@ -90,7 +90,7 @@ namespace AnhPD.FoodOrder
 			}
 			else
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxPlace, (AudioManagerCakeOrder.AudioTrack)2);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxPlace, (AudioManagerCakeOrder.AudioTrack)2);
 			}
 			int count;
 			if (!respectMaxStack)

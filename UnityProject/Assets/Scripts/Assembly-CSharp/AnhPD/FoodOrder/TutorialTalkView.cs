@@ -385,7 +385,7 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(clip, (AudioManagerCakeOrder.AudioTrack)3, sfxVolume, sfxPitch);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxWithFixedPitch(clip, (AudioManagerCakeOrder.AudioTrack)3, sfxVolume, sfxPitch);
 		}
 
 		private void FadeOverlay(bool show)

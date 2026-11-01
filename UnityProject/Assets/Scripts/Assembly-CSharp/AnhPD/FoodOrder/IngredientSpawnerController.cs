@@ -874,7 +874,7 @@ namespace AnhPD.FoodOrder
 			if (!_startSfxPlayed && (bool)sfxStart)
 			{
 				_startSfxPlayed = true;
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxStart, 1f, (AudioManagerCakeOrder.AudioTrack)4);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxStart, 1f, (AudioManagerCakeOrder.AudioTrack)4);
 			}
 		}
 
@@ -1032,7 +1032,7 @@ namespace AnhPD.FoodOrder
 		{
 			if ((bool)sfxReject)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxReject, 1f, (AudioManagerCakeOrder.AudioTrack)4);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxReject, 1f, (AudioManagerCakeOrder.AudioTrack)4);
 			}
 		}
 
@@ -1040,7 +1040,7 @@ namespace AnhPD.FoodOrder
 		{
 			if ((bool)sfxClick)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxClick, 1f, (AudioManagerCakeOrder.AudioTrack)4);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxClick, 1f, (AudioManagerCakeOrder.AudioTrack)4);
 			}
 			if (!_pickup.PickAnyMode)
 			{

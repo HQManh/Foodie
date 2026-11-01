@@ -572,7 +572,7 @@ namespace AnhPD.FoodOrder
 		{
 			if ((bool)clip)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(clip, 1f, (AudioManagerCakeOrder.AudioTrack)5);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(clip, 1f, (AudioManagerCakeOrder.AudioTrack)5);
 			}
 		}
 

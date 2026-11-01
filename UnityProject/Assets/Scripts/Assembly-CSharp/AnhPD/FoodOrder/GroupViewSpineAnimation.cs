@@ -239,7 +239,7 @@ namespace AnhPD.FoodOrder
 				if (item != null && (bool)item.clip && !(item.spineEvent != eventName) && (!item.played || item.everyEvent))
 				{
 					item.played = true;
-					AudioManagerCakeOrder.Instance.PlaySfx(item.clip, item.volume, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(item.clip, item.volume, (AudioManagerCakeOrder.AudioTrack)5);
 				}
 			}
 		}

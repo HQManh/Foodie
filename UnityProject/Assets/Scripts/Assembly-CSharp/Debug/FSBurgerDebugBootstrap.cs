@@ -24,10 +24,37 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			return;
 		}
 		GameObject host = new GameObject("FSBurgerDebugBootstrap");
+		DontDestroyOnLoad(host);
 		host.AddComponent<FSBurgerDebugBootstrap>();
 	}
 
-	private async void Start()
+	// Level shown in "Day N" and loaded from the map's level designs (0 = Day 1). Survives scene reloads.
+	private static int SelectedLevel;
+
+	private static bool _autoPlay;
+
+	private string _levelScenePath;
+
+	private int _levelCount = 1;
+
+	private void OnDestroy()
+	{
+		SceneManager.sceneLoaded -= OnSceneLoaded;
+	}
+
+	private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+	{
+		if (mode == LoadSceneMode.Single && scene.path == _levelScenePath)
+		{
+			_coinText = null;
+			_customerText = null;
+			_dayText = null;
+			Time.timeScale = 1f;
+			StartRun();
+		}
+	}
+
+	private async void StartRun()
 	{
 		try
 		{
@@ -38,6 +65,19 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		{
 			Debug.LogError("[FSBurgerDebugBootstrap] failed: " + ex);
 		}
+	}
+
+	private void LoadLevel(int index)
+	{
+		SelectedLevel = Mathf.Clamp(index, 0, Mathf.Max(0, _levelCount - 1));
+		UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(_levelScenePath, new LoadSceneParameters(LoadSceneMode.Single));
+	}
+
+	private async void Start()
+	{
+		_levelScenePath = SceneManager.GetActiveScene().path;
+		SceneManager.sceneLoaded += OnSceneLoaded;
+		StartRun();
 	}
 
 	private async UniTask RunAsync()
@@ -97,7 +137,15 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 				}
 			}
 		}
-		int levelIndex = sim.overrideLevelIndex < 0 ? 0 : sim.overrideLevelIndex;
+		int levelIndex = SelectedLevel;
+		string customerStrings = sim.customerData;
+		string queueStrings = sim.ingredientQueueData;
+		if (TryGetLevelDesign(mapId, levelIndex, out string designCustomers, out string designQueue, out int designCount))
+		{
+			customerStrings = designCustomers;
+			queueStrings = designQueue;
+			_levelCount = designCount;
+		}
 		SingleLevelMetadata metadata = new SingleLevelMetadata
 		{
 			weatherEffect = sim.overrideWeather ? sim.weatherEffect : default(WeatherEffect),
@@ -114,9 +162,9 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			stackConfig = sim.stackConfig,
 			heartConfig = sim.heartConfig,
 			serveSlotConfig = sim.serveSlotConfig,
-			customerOrderDataString = sim.customerData,
+			customerOrderDataString = customerStrings,
 			gridDataString = sim.gridData,
-			ingredientQueueDataString = sim.ingredientQueueData,
+			ingredientQueueDataString = queueStrings,
 		};
 		Debug.Log("[FSBurgerDebugBootstrap] starting level: map '" + mapId + "', level index " + levelIndex + ".");
 		CakeLevelRuntimeData runtimeData = new CakeLevelRuntimeData(initData);
@@ -150,11 +198,31 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 				}
 			}
 		}
-		level.onPlayStateChanged += OnPlayStateChanged;
-		if (FindFirstObjectByType<FSBurgerAutoPlayer>() == null)
+		// The project's 2D physics runs in Script mode, so collider positions are never refreshed as items move; sync on every query so clicks hit where items are drawn.
+		Physics2D.autoSyncTransforms = true;
+		// Clicks reach the 2D colliders on belt and grid items only through a Physics2DRaycaster; keep a single EventSystem.
+		Camera gameCamera = Camera.main;
+		if (gameCamera != null && gameCamera.GetComponent<UnityEngine.EventSystems.Physics2DRaycaster>() == null)
 		{
-			gameObject.AddComponent<FSBurgerAutoPlayer>();
+			gameCamera.gameObject.AddComponent<UnityEngine.EventSystems.Physics2DRaycaster>();
 		}
+		bool keptOne = false;
+		foreach (UnityEngine.EventSystems.EventSystem eventSystem in FindObjectsByType<UnityEngine.EventSystems.EventSystem>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+		{
+			if (!keptOne && eventSystem.gameObject.scene.name == "GameplayHUD")
+			{
+				keptOne = true;
+				continue;
+			}
+			eventSystem.enabled = false;
+		}
+		level.onPlayStateChanged += OnPlayStateChanged;
+		FSBurgerAutoPlayer bot = GetComponent<FSBurgerAutoPlayer>();
+		if (bot == null)
+		{
+			bot = gameObject.AddComponent<FSBurgerAutoPlayer>();
+		}
+		bot.enabled = _autoPlay;
 	}
 
 	// The HUD prefab's logic (UIInLevelCakeOrder) is an empty DLL shell, so the numbers on the recovered HUD are bound here.
@@ -227,7 +295,61 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		CakeLevelRuntimeData data = level.RuntimeData;
 		if (_coinText != null && data.softCurrencyData != null) SetIfChanged(_coinText, data.softCurrencyData.Amount.ToString());
 		if (_customerText != null && data.customerData != null) SetIfChanged(_customerText, Mathf.Max(0, data.customerData.maxNumCustomers - data.customerData.Amount).ToString());
-		if (_dayText != null) SetIfChanged(_dayText, "Day 1");
+		if (_dayText != null) SetIfChanged(_dayText, "Day " + (SelectedLevel + 1));
+	}
+
+	// Level designs per map live in the remote-config defaults (RemoteConfigDefaultSetterCakeOrder._mapConfig[].levelDesigns): "customers~~queue".
+	private static bool TryGetLevelDesign(string mapId, int index, out string customers, out string queue, out int count)
+	{
+		customers = null;
+		queue = null;
+		count = 1;
+		System.Reflection.BindingFlags flags = System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public;
+		RemoteConfigDefaultSetterCakeOrder setter = FindFirstObjectByType<RemoteConfigDefaultSetterCakeOrder>(FindObjectsInactive.Include);
+		if (setter == null) return false;
+		System.Collections.IEnumerable maps = setter.GetType().GetField("_mapConfig", flags)?.GetValue(setter) as System.Collections.IEnumerable;
+		if (maps == null) return false;
+		foreach (object map in maps)
+		{
+			System.Type t = map.GetType();
+			if (!string.Equals(t.GetField("mapId", flags)?.GetValue(map) as string, mapId, StringComparison.OrdinalIgnoreCase)) continue;
+			System.Collections.IList designs = t.GetField("levelDesigns", flags)?.GetValue(map) as System.Collections.IList;
+			if (designs == null || designs.Count == 0) return false;
+			count = designs.Count;
+			string[] parts = (designs[Mathf.Clamp(index, 0, designs.Count - 1)] as string ?? "").Split(new[] { "~~" }, StringSplitOptions.None);
+			if (parts.Length < 2) return false;
+			customers = parts[0];
+			queue = parts[1];
+			return true;
+		}
+		return false;
+	}
+
+	// Play-it-yourself controls: pick the level, restart it, and switch the helper bot on or off.
+	private void OnGUI()
+	{
+		int font = Mathf.Max(16, Screen.height / 55);
+		GUIStyle button = new GUIStyle(GUI.skin.button) { fontSize = font, fontStyle = FontStyle.Bold };
+		GUIStyle label = new GUIStyle(GUI.skin.label) { fontSize = font, fontStyle = FontStyle.Bold, alignment = TextAnchor.MiddleCenter };
+		label.normal.textColor = Color.white;
+		float h = font * 2.2f;
+		float w = Mathf.Min(Screen.width * 0.30f, h * 2f);
+		float y = Screen.height - h - 8f;
+		float x = 8f;
+		if (GUI.Button(new Rect(x, y, w, h), "<", button)) LoadLevel(SelectedLevel - 1);
+		x += w;
+		GUI.Label(new Rect(x, y, w * 1.6f, h), "Day " + (SelectedLevel + 1) + "/" + _levelCount, label);
+		x += w * 1.6f;
+		if (GUI.Button(new Rect(x, y, w, h), ">", button)) LoadLevel(SelectedLevel + 1);
+		x += w + 8f;
+		if (GUI.Button(new Rect(x, y, w * 1.6f, h), "Restart", button)) LoadLevel(SelectedLevel);
+		x += w * 1.6f + 8f;
+		if (GUI.Button(new Rect(x, y, w * 1.8f, h), _autoPlay ? "Auto: ON" : "Auto: OFF", button))
+		{
+			_autoPlay = !_autoPlay;
+			FSBurgerAutoPlayer bot = GetComponent<FSBurgerAutoPlayer>();
+			if (bot != null) bot.enabled = _autoPlay;
+		}
 	}
 }
 #endif

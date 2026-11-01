@@ -51,7 +51,7 @@ namespace AnhPD.FoodOrder
 				int index = i * last / n;
 				_chopSeq.Append(knife.DOPunchPosition(Vector3.down * 1.5f, total / n, 1, 1f).OnComplete(delegate
 				{
-					AudioManagerCakeOrder.Instance.PlaySfx(sfxCut, 0.3f, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxCut, 0.3f, (AudioManagerCakeOrder.AudioTrack)5);
 					if (vfx != null)
 					{
 						vfx.Play();

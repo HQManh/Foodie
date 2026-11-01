@@ -244,7 +244,7 @@ namespace AnhPD.FoodOrder
 			{
 				onStart = (Action)Delegate.Combine(onStart, (Action)delegate
 				{
-					AudioManagerCakeOrder.Instance.PlaySfx(animSfx.clip, animSfx.volume, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(animSfx.clip, animSfx.volume, (AudioManagerCakeOrder.AudioTrack)5);
 				});
 			}
 			TrackEntry current = state.GetCurrent(0);
@@ -325,7 +325,7 @@ namespace AnhPD.FoodOrder
 				{
 					if (string.IsNullOrEmpty(sfx.stopEvent))
 					{
-						AudioManagerCakeOrder.Instance.PlaySfx(sfx.clip, sfx.volume, (AudioManagerCakeOrder.AudioTrack)5);
+						if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfx.clip, sfx.volume, (AudioManagerCakeOrder.AudioTrack)5);
 					}
 					else
 					{
@@ -348,7 +348,7 @@ namespace AnhPD.FoodOrder
 				_loopSource.loop = true;
 				if (MonoSingleton<AudioManagerCakeOrder>.HasInstance)
 				{
-					AudioManagerCakeOrder.Instance.RegisterAudioSource(_loopSource, (AudioManagerCakeOrder.AudioTrack)5);
+					if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.RegisterAudioSource(_loopSource, (AudioManagerCakeOrder.AudioTrack)5);
 				}
 			}
 			_looping = sfx;

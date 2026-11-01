@@ -21,7 +21,7 @@ namespace AnhPD.FoodOrder
 		{
 			if ((bool)sfx)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfx, (AudioManagerCakeOrder.AudioTrack)4, volume);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfx, (AudioManagerCakeOrder.AudioTrack)4, volume);
 			}
 			_timer = waitTime;
 		}

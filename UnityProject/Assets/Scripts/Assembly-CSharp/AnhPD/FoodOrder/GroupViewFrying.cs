@@ -41,7 +41,7 @@ namespace AnhPD.FoodOrder
 		{
 			if (sfxFry != null)
 			{
-				AudioManagerCakeOrder.Instance.PlaySfx(sfxFry, 1f, (AudioManagerCakeOrder.AudioTrack)5);
+				if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfx(sfxFry, 1f, (AudioManagerCakeOrder.AudioTrack)5);
 			}
 			gameObject.SetActive(true);
 			if (oil != null)
