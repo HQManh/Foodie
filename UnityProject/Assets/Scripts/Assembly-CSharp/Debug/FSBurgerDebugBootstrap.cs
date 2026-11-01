@@ -24,6 +24,7 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			return;
 		}
 		GameObject host = new GameObject("FSBurgerDebugBootstrap");
+		_speed = 1;
 		DontDestroyOnLoad(host);
 		host.AddComponent<FSBurgerDebugBootstrap>();
 	}
@@ -49,7 +50,8 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			_coinText = null;
 			_customerText = null;
 			_dayText = null;
-			Time.timeScale = 1f;
+			_speedButton = null;
+			_speedFx = null;
 			StartRun();
 		}
 	}
@@ -228,6 +230,49 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 	// The HUD prefab's logic (UIInLevelCakeOrder) is an empty DLL shell, so the numbers on the recovered HUD are bound here.
 	private TMPro.TMP_Text _coinText, _customerText, _dayText;
 
+	// 2x speed button of the HUD (UIButtonHUD / TimeControlCakeOrder are empty shells): toggles the game speed between 1x and 2x.
+	private static int _speed = 1;
+
+	private UnityEngine.UI.Button _speedButton;
+
+	private GameObject _speedFx;
+
+	private void BindSpeedButton(Scene hud)
+	{
+		foreach (GameObject root in hud.GetRootGameObjects())
+		{
+			foreach (Transform t in root.GetComponentsInChildren<Transform>(true))
+			{
+				if (t.name != "UI-Counter-Speed") continue;
+				Transform frame = t.Find("frame");
+				Transform fx = t.Find("frame-fx");
+				Transform timer = frame != null ? frame.Find("TimerPanel") : null;
+				if (timer != null) timer.gameObject.SetActive(false);
+				_speedFx = fx != null ? fx.gameObject : null;
+				_speedButton = frame != null ? frame.GetComponent<UnityEngine.UI.Button>() : null;
+				if (_speedButton != null)
+				{
+					_speedButton.onClick.RemoveAllListeners();
+					_speedButton.onClick.AddListener(ToggleSpeed);
+				}
+				ApplySpeed();
+				return;
+			}
+		}
+	}
+
+	private void ToggleSpeed()
+	{
+		_speed = _speed == 1 ? 2 : 1;
+		ApplySpeed();
+	}
+
+	private void ApplySpeed()
+	{
+		Time.timeScale = _speed;
+		if (_speedFx != null) _speedFx.SetActive(_speed > 1);
+	}
+
 	private static TMPro.TMP_Text FindHudText(Scene hud, string pathPart)
 	{
 		foreach (GameObject root in hud.GetRootGameObjects())
@@ -292,6 +337,7 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		if (_coinText == null) _coinText = FindHudText(hud, "CounterHUD-Final/UI-Counter-SoftCurrency Variant/frame/Text");
 		if (_customerText == null) _customerText = FindHudText(hud, "CounterHUD-Final/UI-Counter-Customer/frame/Text");
 		if (_dayText == null) _dayText = FindHudText(hud, "CounterHUD-Final/LevelName/Text");
+		if (_speedButton == null) BindSpeedButton(hud);
 		CakeLevelRuntimeData data = level.RuntimeData;
 		if (_coinText != null && data.softCurrencyData != null) SetIfChanged(_coinText, data.softCurrencyData.Amount.ToString());
 		if (_customerText != null && data.customerData != null) SetIfChanged(_customerText, Mathf.Max(0, data.customerData.maxNumCustomers - data.customerData.Amount).ToString());

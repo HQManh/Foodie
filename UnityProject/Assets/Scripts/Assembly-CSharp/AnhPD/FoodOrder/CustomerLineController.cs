@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using CakeOrder.DataSO;
@@ -231,6 +232,10 @@ namespace AnhPD.FoodOrder
 				{
 					_view.Timer.StartWaiting();
 				}
+				if (_spawnData != null && _spawnData.weather != WeatherEffect.Normal)
+				{
+					ChangeBackgroundWeather(_spawnData.weather);
+				}
 				onOrderShown?.Invoke();
 			}
 		}
@@ -434,9 +439,23 @@ namespace AnhPD.FoodOrder
 			_view.Timer.StartWaiting();
 		}
 
+		// A customer with a weather effect turns the background to that weather while they order; it returns to the level's weather when they leave.
+		private static void ChangeBackgroundWeather(WeatherEffect weather)
+		{
+			CakeOrder.InGame.InGameBackgroundsControl background = MessyController.Ins != null ? MessyController.Ins.BackgroundControl : null;
+			if (background != null)
+			{
+				background.ChangeWeather(weather).Forget();
+			}
+		}
+
 		private void HandleLeave()
 		{
 			CancelPendingReveal();
+			if (_spawnData != null && _spawnData.weather != WeatherEffect.Normal && MessyController.Ins != null && MessyController.Ins.InitData != null && MessyController.Ins.InitData.levelMetadata != null)
+			{
+				ChangeBackgroundWeather(MessyController.Ins.InitData.levelMetadata.weatherEffect);
+			}
 			_model.SetState(LineState.Leaving);
 			_view.SetWeather(WeatherEffect.Normal); // original value was WeatherEffect.None, which the installed enum does not define
 			_view.StopShake();

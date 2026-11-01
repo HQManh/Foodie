@@ -1,0 +1,1175 @@
+[
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UICakePauseMenuInGame.cs",
+  "empty": 63,
+  "total": 63,
+  "names": [
+   "protected override void Awake()",
+   "public UniTask SetUpOnCreated(CakeLevelInitData initData, CakeLevelRuntimeData r",
+   "private void ShowAllElementImmediate()",
+   "protected override void OnBeforeShow()",
+   "protected override void OnBeforeHide()",
+   "protected virtual void OnClickHome()",
+   "protected virtual void OnRetryLevel()",
+   "protected override void OnDoneHide()",
+   "protected override void OnDestroy()",
+   "private void OnAutoplaySettingsRefreshed()",
+   "private void OnClickToggleCheat()",
+   "private void OnClickToggleDebug()",
+   "private void RefreshCheatOnlineTimeStatus()",
+   "private void Update()",
+   "private void RefreshCheatInterCapText()",
+   "private void OnClickCheatResetInterCap()",
+   "private void OnClickCheatResetSpeedUp()",
+   "private void OnClickCheatSkip()",
+   "private void OnClickCheatSuperSkip()",
+   "private void OnClickCheatLoseOutOfSlot()",
+   "private void OnClickCheatLoseOutOfTime()",
+   "private void OnClickCheatLoseOutOfMove()",
+   "private void RaiseLoseCheat(Command command)",
+   "private void OnClickCheatServeFx()",
+   "private void RefreshServeFxLabel()",
+   "public static void RegisterAutoplay(IAutoplayCheatTarget target)",
+   "public static void UnregisterAutoplay(IAutoplayCheatTarget target)",
+   "private void OnClickCheatAutoplay()",
+   "private void OnChangeAutoplayStrategy(int index)",
+   "private void OnChangeAutoplayAdaptive(float value)",
+   "private void OnChangeAutoplayIntelligent(float value)",
+   "private void OnChangeAutoplaySaveMe(float value)",
+   "private void OnChangeAutoplayTimeScale(float value)",
+   "private void OnChangeAutoplayWorkWait(int index)",
+   "private void OnClickAutoplayVerbose()",
+   "private void OnChangeAutoplayPickInterval(float value)",
+   "private void OpenAutoplayConfigPanel()",
+   "private static void ConfigureLauncherLabel(TMP_Text label, string text)",
+   "private void OpenLevelSelectPanel()",
+   "private void OpenCheatPanel(CheatPanelType panelType)",
+   "private void CloseCheatPanel()",
+   "private void OnGUI()",
+   "private void DrawCheatPanelWindow(int windowId)",
+   "private void DrawAutoplayConfigPanel()",
+   "private static void DrawBotSlider(string label, float value, float min, float ma",
+   "private void DrawLevelSelectPanel()",
+   "private bool DrawLevelSelectMapDropdown()",
+   "private void JumpToLevel(string mapId, int levelIndex)",
+   "private static void DrawPanelSection(string text)",
+   "private static GUIStyle CheatPanelWindowStyle()",
+   "private static GUIStyle CheatPanelButtonStyle()",
+   "private static GUIStyle CheatPanelActionButtonStyle()",
+   "private static GUIStyle CheatPanelLevelButtonStyle()",
+   "private static GUIStyle CheatPanelSectionStyle()",
+   "private static GUIStyle CheatPanelBodyStyle()",
+   "private static GUIStyle CheatPanelValueStyle()",
+   "private static GUIStyle CheatPanelCaptionStyle()",
+   "private static GUIStyle CheatPanelCardStyle()",
+   "private static Texture2D GetCheatPanelBackgroundTexture()",
+   "private static Texture2D GetCheatPanelCardTexture()",
+   "private static Texture2D GetCheatPanelDimTexture()",
+   "private static Texture2D CreateCheatPanelTexture(Color color)",
+   "private void RefreshAutoplayButton()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInLevelCakeOrder.cs",
+  "empty": 53,
+  "total": 53,
+  "names": [
+   "public BoosterPlacement GetBoosterPlacement(string boosterId)",
+   "private BoosterPlacement GetBoosterPlacement(BoosterType effectType)",
+   "private static string GetKeyIsDoneIntroNewSlotMechanics(IngredientSlotStatus slo",
+   "private static string GetKeyIsDoneIntroNewGridMechanic(GridEffectType gridEffect",
+   "private static string GetKeyIsDoneIntroNewIngredient(string mapId, string ingred",
+   "private static string GetKeyIsDoneIntroLinkedSlotMechanics()",
+   "private static string GetKeyIsDoneIntroCombinedSlotMechanics()",
+   "private bool IsDoneIntroNewSlotMechanics(IngredientSlotStatus slotStatus)",
+   "private bool IsDoneIntroNewGridMechanic(GridEffectType gridEffectType)",
+   "private bool IsDoneIntroNewIngredient(string mapId, string ingredientId)",
+   "private bool IsDoneIntroLinkedSlotMechanics()",
+   "private bool IsDoneIntroCombinedSlotMechanics()",
+   "private void SetDoneIntroNewSlotMechanics(IngredientSlotStatus slotStatus)",
+   "private void SetDoneIntroNewGridMechanic(GridEffectType gridEffectType)",
+   "private void SetDoneIntroNewItem(string mapId, string ingredientId)",
+   "private void SetDoneIntroLinkedSlotMechanics()",
+   "private void SetDoneIntroCombinedSlotMechanics()",
+   "protected override void Awake()",
+   "public void SetupReferences(LevelPlayLoadAndSetupControl levelPlayControl, Level",
+   "protected override void OnRefreshCurrencyBar()",
+   "private void OnUseMoreServeSlot()",
+   "protected override UniTask OnSetUp()",
+   "private void ShowAllUI()",
+   "private void HideAllUI()",
+   "private void HideAllUIImmediate()",
+   "public void SetUpBooster(Dictionary<string, BoosterUIData> data)",
+   "protected override void OnShow()",
+   "public void ShowPauseMenu()",
+   "private void ConfirmLoseHeartThen(UICakePopup callerPopup, Action onConfirmed)",
+   "private static string GetKeyCountNumFreeBoosterUsed(string boosterId)",
+   "private void ApplyUseBooster(string boosterId, UIPopupBoosterSaveMeBase.ResultDa",
+   "private void SetBlockAllBooster(int id, bool isBlocked)",
+   "private void ShowSpeedUpRechargePopup()",
+   "private void OnNeedShowShopFromBoosterOrSaveMe(string itemId)",
+   "public void ShowTutorial(Action onDone)",
+   "private void OnClickMoreHardCurrencyCounter()",
+   "private void OnClickMoreSoftCurrencyCounter()",
+   "private void OnClickMoreHeartCounter()",
+   "private void OnFastForwardEndgame(float timeScale)",
+   "private void OnFastForwardEndgameEnded()",
+   "private void OnBoosterUsableChanged(BoosterType boosterType, bool isUsable)",
+   "private UniTask<UIPopupWinLogo> LoadWinLogoAsync()",
+   "private void ShowWinLogo(UIPopupWinLogo logo, Action onClosed)",
+   "private void PrepareWinFirework()",
+   "private void PlayWinFirework()",
+   "public void ShowEndGame(CakeLevelEndResultData resultData)",
+   "private static string GetNextMapIdIfLastRequiredLevel(CakeLevelInitData initData",
+   "public Task ShowPopUpSaveMe(SaveMeType saveMeType, UIPopupBoosterSaveMeBase.Conf",
+   "public void ShowBoosterOrSaveMeRewardAds(AdsRuntimeData data, Action onDone, Act",
+   "public override void ShowAdsInter(AdsRuntimeData data, Action onDone, Action onS",
+   "public override void ShowAdsReward(AdsRuntimeData data, Action onDone, Action on",
+   "protected override void ProcessCustomPopup(UICakePopup popup)",
+   "protected override void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/LevelPlayLoadAndSetupControl.cs",
+  "empty": 50,
+  "total": 55,
+  "names": [
+   "private static string KeyCheckDoneTut(string tutId)",
+   "public static bool IsLevelTutDone(string mapId, string tutId)",
+   "public static int LevelAccumulatedOf(CakeLevelInitData initData)",
+   "private void FixedUpdate()",
+   "public UniTask PlayLevel(MainLevelPlayConfig config)",
+   "private void RecordSetupFailure(string stage, Exception ex)",
+   "private void ReturnHomeAfterSetupFailure()",
+   "private static UniTask LogIfLoadFailed(UniTask task, string what)",
+   "private UniTask SetUpBeforeLoadLevelScene()",
+   "private void BuildToolUpgrades(MapToolConfig toolConfig, string mapId, PlayerMap",
+   "private void ProcessLevelDesignData(string levelDesignStr)",
+   "private static string DescribeGraphIds(CustomerOrderData data)",
+   "private static string DescribeSpawnIds(CustomerSpawnData[] data)",
+   "private static string DescribeDatabaseIds()",
+   "private static int CountExplicitIds(CustomerSpawnData[] data)",
+   "private UniTask SetUpAfterSpawnLevelScene()",
+   "private UniTask SetUpOverlayScene(UIInLevelCakeOrder instanceUIInLevel)",
+   "private void ShowUITutorialThenLevelTut()",
+   "private void ProcessLevelBaseTut()",
+   "private bool HasPendingLevelTut()",
+   "private void BindCustomerTracking(CakeLevelRuntimeData runtimeData)",
+   "private float CustomerTrackingTime()",
+   "private void OnCustomerArrivedForTracking(int customerIndex)",
+   "private void OnCustomerEndedForTracking(int customerIndex, bool win)",
+   "private void OnPlayerStateChanged(LevelPlayState oldState, LevelPlayState newSta",
+   "private void Update()",
+   "private void ProcessEndGame()",
+   "public void UpdateAdsProgressCounters(bool isCountNewLevelPlay)",
+   "public static int CountLevelsWonAccumulated()",
+   "private void ShowInterOnLeaveEndGame(AdsPosition adsPos, Action onDone)",
+   "private void ShowInterOnQuitMidGame(AdsPosition adsPos, Action onDone)",
+   "private void ShowInterOnLeaveLevel(AdsPosition adsPos, bool isAllowed, Action on",
+   "public void RetryDayInMidGame()",
+   "public void CheatSuperSkip()",
+   "public void SkipEndDayOnMidGame()",
+   "public bool CheckLiveAndRetryOnEndGame()",
+   "public void StartPlayRetry()",
+   "private UniTask<WeatherEffect> LoadNextLevelWeather()",
+   "private UniTask<WeatherEffect> LoadNextLevelWeatherCore()",
+   "public bool CheckLiveAndPlayNextLevel()",
+   "public void StartPlayNextLevel()",
+   "public void GoHomeOnMidGame()",
+   "private void TrackQuit(LevelEndReason reason)",
+   "private void OnApplicationQuit()",
+   "public void GoHomeOnEndGame()",
+   "private IEnumerator OnBeforeLoadHome()",
+   "private void ReleaseLiveHolder()",
+   "private void OnDoneLoadHome()",
+   "protected override void OnDestroy()",
+   "private void ReleaseAllLoadedAsset()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/AudioManagerCakeOrder.cs",
+  "empty": 45,
+  "total": 45,
+  "names": [
+   "public void SetSoundTimeScale(float timeScale)",
+   "private void ApplySoundTimeScale()",
+   "public float SpeedFor(AudioTrack track)",
+   "private void ApplySfxSpeedToSources()",
+   "private AudioMixerGroup FindGroup(string groupName)",
+   "private static float EvaluateMap(AnimationCurve curve, float timeScale)",
+   "private static float ClampPlaybackSpeed(float speed, float maxSpeed)",
+   "public float GetDuckDb(DuckLevel level)",
+   "public void SetDuckSuspended(bool isSuspended)",
+   "private void StartDuckBlend(bool immediate)",
+   "private IEnumerator IEBlendDuck(float target)",
+   "private void ApplyDuckedVolumes()",
+   "private IEnumerator IEBlendGameplaySfxMute(float target)",
+   "private void ApplyGameplaySfxMute()",
+   "private void Start()",
+   "public void ToggleMusic()",
+   "public void ToggleSfx()",
+   "public void ToggleHaptic()",
+   "public void SetBgmActive(bool isActive)",
+   "public void SetSfxActive(bool isActive)",
+   "public void SetHapticActive(bool isActive)",
+   "private void ApplySfxConfig()",
+   "private void ApplyMusicConfig()",
+   "private void SetBusVolume(string param, float volume01, float duckDb)",
+   "private void ApplyHapticConfig()",
+   "public void StopMusic()",
+   "public void StopAmbient()",
+   "private bool PassSameClipGate(AudioClip clip)",
+   "private PitchedVoice AcquirePitchedVoice()",
+   "private SfxBus GetBus(AudioTrack track)",
+   "private AudioSource GetSource(AudioTrack track)",
+   "private AudioSource GetVariantSource(AudioTrack track)",
+   "public void Play(CommonSfx type)",
+   "public void StopSFX()",
+   "protected override void OnDestroy()",
+   "public void ApplyDeviceTierSnapshot()",
+   "private IEnumerator IEBlendWeather(Entry from, Entry to, float duration)",
+   "private void WriteWeatherBlend(Entry from, Entry to, float t)",
+   "private void WriteWeather(Entry entry)",
+   "private void WriteFilters(float lowpassHz, float highpassHz, float duckThunderDb",
+   "private void WriteDsp(float distortionAmount, float reverbAmount, float chorusAm",
+   "private static float LerpHz(float fromHz, float toHz, float t)",
+   "private string GetMixerGroup(AudioTrack track)",
+   "public void RegisterAudioSource(AudioSource audioSource, AudioTrack track)",
+   "public void RegisterAudioSourceObject(Transform gameObject, AudioTrack track)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIPopupBoosterSaveMeBase.cs",
+  "empty": 31,
+  "total": 32,
+  "names": [
+   "public override void HideByBackButton()",
+   "private static string FormatSafe(string format, int amount)",
+   "protected override void Awake()",
+   "private void OnDestroy()",
+   "public override void SetUpOnCreate(SceneMainUI mainUI)",
+   "public void SetUpDataAndEventListeners(UIInLevelGeneralReferences generalRefs, C",
+   "protected virtual void OnSetUpData()",
+   "public void RequestAdsForAutoplay()",
+   "public void RequestFreeForAutoplay()",
+   "protected void Activate(ResultData saveMeResult)",
+   "protected override void OnClickClose()",
+   "public void Cancel()",
+   "protected override void OnBeforeShow()",
+   "private void OnShownPackPurchased(string shopId)",
+   "protected virtual void OnShownPackBought(string shopId)",
+   "protected override void OnBeforeHide()",
+   "private void BeginViewGame(ForwardUIPointerEvent @event, PointerEventData data)",
+   "private void EndViewGame(ForwardUIPointerEvent @event, PointerEventData data)",
+   "private void OnDisable()",
+   "protected virtual void OnItemChanged(string itemId, int oldValue, int newValue)",
+   "protected virtual void UpdateTextAndButton()",
+   "private void OnClickButtonUseItem()",
+   "private void OnClickButtonSaveMeHardCurrency()",
+   "private void OnClickButtonSaveMeAds()",
+   "private void ShowSaveMeAds()",
+   "private void OnClickButtonSaveMeFree()",
+   "protected virtual void ShowButtonsIterative(float delay)",
+   "protected override void ShowElementImmediate()",
+   "protected virtual void ShowButtonsImmediate()",
+   "protected override void OnDoneHide()",
+   "protected virtual void HideAllButtonImmediate()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/LevelBaseCakeOrderAbstract.cs",
+  "empty": 23,
+  "total": 32,
+  "names": [
+   "protected virtual void Update()",
+   "protected override void OnDestroy()",
+   "public virtual UniTask SetUpUI(UIInLevelCakeOrder mainUI)",
+   "public void NotiStartUITutorial()",
+   "public UniTask StartTutorial(string tutorialId, Action onDone)",
+   "public void SimulateCompleteAllRemainOrdersAndEndGame()",
+   "private OrderPricingOutput SimulatePricingOutput(int startCustomerIndex, int end",
+   "public void RaiseFastForwardEndgame(float timeScale)",
+   "public void RaiseFastForwardEndgameEnded()",
+   "protected virtual void OnEndGame()",
+   "protected virtual UniTask OnStartTutorial(string tutorialId, Action onDone)",
+   "public virtual bool CanUseBooster(BoosterType boosterType)",
+   "public virtual void PrepareBoosterTutorial(BoosterType boosterType)",
+   "private void RefreshBoosterUsable()",
+   "private void ProcessBoosterEffect()",
+   "public void LostHeart(LostHeartReason reason)",
+   "public void TriggerOutOfServeSlot()",
+   "public void TriggerBeltDeadlock()",
+   "public void TriggerUseMoreServeSlot()",
+   "public bool TriggerCustomerOutOfTime()",
+   "public virtual void ApplySaveMeOnOutOfServeSlots(ConfigSaveMeOnOutOfServeSlots c",
+   "public virtual void ApplySaveMeOnCustomerOutOfTime()",
+   "public virtual void ApplySaveMeOnBeltDeadlock()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInLevelHUDPuzzleStyle.cs",
+  "empty": 20,
+  "total": 20,
+  "names": [
+   "private void Awake()",
+   "public static void CheatResetSpeedBudget()",
+   "private void OnCheatResetSpeedBudget()",
+   "private void OnClickToggleSpeed(UIButtonHUD button)",
+   "public void SetUp(CakeLevelInitData initData, CakeLevelRuntimeData runtimeData)",
+   "protected override void ShowElementImmediate()",
+   "protected override void HideElementImmediate()",
+   "private void OnClickBtnWeatherForecast(UIButtonHUD hUD)",
+   "public void SetSpeedUp(bool isSpeedUp)",
+   "public void SetSpeedUpEndgame(float timeScale)",
+   "public void StopSpeedUpEndgame()",
+   "private void ApplySpeedUpTime(bool isSpeedUp)",
+   "private void ApplySpeedUpFx(bool isSpeedUp)",
+   "public void ReactivateSpeedUp()",
+   "private void Update()",
+   "private SpeedUpConfig GetSpeedUpConfig()",
+   "private void LoadSpeedBudget()",
+   "private void SaveSpeedBudget()",
+   "private void UpdateSpeedBudgetText()",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/CakeOrderDataTracking.cs",
+  "empty": 20,
+  "total": 20,
+  "names": [
+   "public static void SetBoosterIds(IEnumerable<CakeCurrencySO> boosterSOs)",
+   "private IEnumerator Start()",
+   "private static void RefreshCompletedProgress()",
+   "public static void BeginLevel(CakeLevelInitData initData)",
+   "public static void MarkBotControlled()",
+   "public static string LevelIdOf(CakeLevelInitData initData)",
+   "public static void RecordDishServe(float time, int customerIndex, int dishIndex)",
+   "public static void RecordCustomerStart(int customerIndex, float time)",
+   "public static void RecordCustomerEnd(int customerIndex, float time, bool win)",
+   "public static void TrackBoosterUsed(string boosterId, string acquireMethod, int ",
+   "public static void CompleteLevel(CakeLevelEndResultData resultData)",
+   "public static void QuitLevel(CakeLevelRuntimeData runtimeData, LevelEndReason re",
+   "public static string LoseTypeOf(LevelEndReason reason)",
+   "private static Parameter[] CreateLevelContext(CakeLevelInitData initData)",
+   "private static List<Parameter> CreateInventorySnapshot()",
+   "private static string CheckpointKey(string kind, int levelIndex)",
+   "private static void TrackCheckpointStart(DataTrackingManager manager, CakeLevelI",
+   "private static void TrackCheckpointEnd(DataTrackingManager manager, CakeLevelEnd",
+   "private static void TrackAppsFlyerLevelAchieved(DataTrackingManager manager)",
+   "private static void FlushDishServeSequence(DataTrackingManager manager)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CookingBotAutoRetry.cs",
+  "empty": 18,
+  "total": 19,
+  "names": [
+   "public static void ApplyTimeScale()",
+   "public static void EnsureTimeScale()",
+   "public static void ClearTimeScale()",
+   "public static void ReportEffectivePickInterval(float effectiveSeconds)",
+   "public static void ReportEffectiveSettings(float effectivePickIntervalSeconds, C",
+   "public static void Begin(string mapId, int levelIndex)",
+   "public static void Stop(string reason)",
+   "public static void Reset(string reason)",
+   "public static bool ShouldAutoResume(string mapId, int levelIndex)",
+   "private static string KeyOf(string mapId, int levelIndex)",
+   "private static void EnsureSubscribed()",
+   "private static void OnSaveMeOffered(UIPopupBoosterSaveMeBase popup)",
+   "private static void Answer(UIPopupBoosterSaveMeBase popup, Action action)",
+   "private static UniTaskVoid AnswerNextFrame(UIPopupBoosterSaveMeBase popup, Actio",
+   "private static void OnLevelEnded(CakeLevelEndResultData result)",
+   "private static void AdvanceToNextLevel()",
+   "private static UniTaskVoid AdvanceAfterDelay()",
+   "private static UniTaskVoid RetryAfterDelay()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIEndGameWin.cs",
+  "empty": 16,
+  "total": 16,
+  "names": [
+   "protected override void Awake()",
+   "protected override void OnSetUpOnCreated()",
+   "protected override string HeaderKeyFor(LevelDifficultyTag difficulty)",
+   "protected override void CollectAnimButtons(List<UIAnimShowHideControl> buttons)",
+   "protected override void OnBeforeShow()",
+   "protected override void OnButtonsRevealed(float delay)",
+   "protected override void OnShowAllElementImmediate()",
+   "private IEnumerator IEWaitShowCurrencyFly(float delay)",
+   "private void ApplyAndShowAutoCurrencyFly()",
+   "private int GetNumFlySoftCurrency(int amount)",
+   "private int GetNumFlyHardCurrency(int amount)",
+   "private void OnClickNext()",
+   "private void OnClickNextRewardAdsBonus()",
+   "private void DisableButtons()",
+   "private void ApplyBonusAndPlayAnimHardCurrencyFlyAndNext(int amountHardCurrency,",
+   "private IEnumerator IEFinishClaimIfAnimationStops(Action onDone)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIEndGameBase.cs",
+  "empty": 13,
+  "total": 13,
+  "names": [
+   "public override void HideByBackButton()",
+   "public UniTask SetUpOnCreated(UIInLevelCakeOrder mainUI, UIInLevelGeneralReferen",
+   "protected virtual string HeaderKeyFor(LevelDifficultyTag difficulty)",
+   "protected void CollectAnimHeaderElements(List<UIAnimShowHideControl> buttons)",
+   "protected virtual void OnButtonsRevealed(float delay)",
+   "protected virtual void OnShowAllElementImmediate()",
+   "protected void SetUIVisible(bool isVisible)",
+   "private void ShowAllElementImmediate()",
+   "protected void ShowOfferStrip(float delay)",
+   "protected override void OnBeforeShow()",
+   "protected override void ShowElementImmediate()",
+   "protected override void OnBeforeHide()",
+   "protected virtual void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIEndGameLose.cs",
+  "empty": 13,
+  "total": 13,
+  "names": [
+   "protected override void Awake()",
+   "protected override void OnSetUpOnCreated()",
+   "protected override string HeaderKeyFor(LevelDifficultyTag difficulty)",
+   "protected override void CollectAnimButtons(List<UIAnimShowHideControl> buttons)",
+   "protected override void OnBeforeShow()",
+   "protected override void OnButtonsRevealed(float delay)",
+   "protected override void OnShowAllElementImmediate()",
+   "private void BeginViewGame(ForwardUIPointerEvent @event, PointerEventData data)",
+   "private void EndViewGame(ForwardUIPointerEvent @event, PointerEventData data)",
+   "private void SetViewingGame(bool isViewing)",
+   "private void OnDisable()",
+   "private void OnClickHome()",
+   "private void OnClickRetry()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/UICakeSettingMenuBase.cs",
+  "empty": 12,
+  "total": 12,
+  "names": [
+   "public override void HideByBackButton()",
+   "protected override void Awake()",
+   "protected override void OnClickClose()",
+   "private void SetFPS(int fps)",
+   "private void OnBgmChanged(bool isOn)",
+   "private void OnSfxChanged(bool isOn)",
+   "private void OnHapticChanged(bool isOn)",
+   "private void ApplyButtonVisual(SettingButtonRefs btnRefs, bool isOn)",
+   "protected virtual void OnDestroy()",
+   "protected override void OnBeforeShow()",
+   "protected override void OnBeforeHide()",
+   "private void OnDisable()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIPopupNewBooster.cs",
+  "empty": 11,
+  "total": 11,
+  "names": [
+   "public override void HideByBackButton()",
+   "public void SetData(CakeCurrencySO boosterSO, int amount, AssetReference assetAn",
+   "private void LoadAnimAsync(AssetReference assetAnim)",
+   "private void TryShowAnim()",
+   "private void HideAnimImmediate()",
+   "private void SetIconAlphaImmediate(float alpha)",
+   "protected override void OnBeforeShow()",
+   "protected override void OnBeforeHide()",
+   "protected override void OnDoneHide()",
+   "protected override void OnClickClose()",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/RemoteConfigDefaultSetterCakeOrder.cs",
+  "empty": 11,
+  "total": 11,
+  "names": [
+   "public static string GetRemoteKeyForMapConfig(string mapId, RemoteKeyCakeOrderEa",
+   "public static string GetRemoteKeyForMapLevelDesign(string mapId, int levelIndex)",
+   "public static string GetRemoteKeyForAuthorLevelOverride(string mapId, string aut",
+   "public static bool IsAuthorLevelOverrideKey(string key)",
+   "public static bool SelectOverrideAuthor(string authorId)",
+   "public static void ResetOverrideAuthorSelection()",
+   "public static void SetTestAuthorOverrideBundle(string mapId, string value)",
+   "public static void ClearTestAuthorOverrideBundles()",
+   "public static void ReapplySelectedAuthorOverrides()",
+   "public void SetupDefaultValues(ref Dictionary<string, long> defaultLong, ref Dic",
+   "private void ApplySelectedAuthorOverrides()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/BackgroundColorGradingControl.cs",
+  "empty": 10,
+  "total": 10,
+  "names": [
+   "public static BackgroundColorGradingControl GetOrCreate()",
+   "private void Awake()",
+   "private void OnDestroy()",
+   "public static void ApplySkinPresetOnHomeEnter()",
+   "public static void ApplySkinPresetOnGameplayEnter()",
+   "public BackgroundColorGradingPresetSO GetPresetForSkin(string skinId)",
+   "public void SetPresetImmediate(BackgroundColorGradingPresetSO preset)",
+   "private void StartPhase(float toStrength, float duration)",
+   "private void Update()",
+   "private static void Push(BackgroundColorGradingPresetSO preset, float strength)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameUITutorialProcessBooster.cs",
+  "empty": 10,
+  "total": 10,
+  "names": [
+   "public void SetReferences(InGameUITutorialControl.References references, InGameU",
+   "public override void SetUp(VisualElements visualElements)",
+   "private IEnumerator IEShowStepOpenBox()",
+   "private void TakeReward()",
+   "private IEnumerator IEShowBoosterFlyAndUnlock()",
+   "private static Vector3 GetLastTouchWorldPosition(RectTransform target, Vector3 f",
+   "private IEnumerator IEUnlockAndUseBooster()",
+   "public override IEnumerator Process(Action onComplete)",
+   "private void OnClickButtonUseBooster(UIButtonHUD button)",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UICakeTimeCounterInGame.cs",
+  "empty": 10,
+  "total": 10,
+  "names": [
+   "public void SetUp(CookOrderModuleTimeCountdown moduleControl)",
+   "private void OnDestroy()",
+   "private void OnBeginRunCountdown()",
+   "private void OnTimeRemainChanged(float changeAmount)",
+   "protected override void OnDoneShow()",
+   "protected override void OnBeforeHide()",
+   "private void OnDisable()",
+   "private void OnEnable()",
+   "private void Awake()",
+   "private IEnumerator IEUpdateTimeCounterUI()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/MapToolConfig.cs",
+  "empty": 10,
+  "total": 10,
+  "names": [
+   "public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings",
+   "public int GetToolIndex(string id)",
+   "public CakeToolSO GetToolSO(int index)",
+   "public CakeToolSO GetToolSO(string id)",
+   "public ToolData GetToolData(int index)",
+   "public ToolData GetToolData(string toolId)",
+   "public ToolUpgradeStat GetUpgradeStat(string toolId, int level)",
+   "public IEnumerable<string> EnumerateToolIds()",
+   "private ToolData[] ImportData(string data)",
+   "private static float[] ParseFloatList(string text, float fallback)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/UICurrencyCounter.cs",
+  "empty": 10,
+  "total": 10,
+  "names": [
+   "protected override int GetAmountData()",
+   "protected override void UpdateVisualAmount(float amount)",
+   "protected virtual void OnSourceAddedOrRemoved()",
+   "public void AddHoldingSource(IItemCurrencyHoldingSource source)",
+   "public void AddHoldingSourcess(IList<IItemCurrencyHoldingSource> listSources)",
+   "public void RemoveHoldingSource(IItemCurrencyHoldingSource source)",
+   "protected virtual void Awake()",
+   "private void OnDestroy()",
+   "private void OnItemAmountChanged(string id, int oldAmount, int newAmount)",
+   "private void OnSourceAmountChanged(int oldAmount, int newAmount)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/BoosterAndSaveMeRemoteConfig.cs",
+  "empty": 9,
+  "total": 10,
+  "names": [
+   "private void Awake()",
+   "public BoosterSaveMeConfig GetBoosterConfig(string boosterId)",
+   "public int GetSaveMePrice(int numHardCurrencySaveMeUsedInLevel, int fallbackPric",
+   "public BoosterSaveMeConfig GetSaveMeConfig(SaveMeType saveMeType)",
+   "private void UpdateRemoteConfigBooster(string remoteConfigStr)",
+   "public LevelBaseCakeOrderAbstract.BoosterData CreateBoosterData(string boosterId",
+   "public Dictionary<string, UIInLevelCakeOrder.BoosterUIData> GenerateDictBoosterU",
+   "private BoosterSaveMeConfig[] ImportData(string data)",
+   "private static BoosterPackConfig ImportPackData(string data)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameSingleBackground.cs",
+  "empty": 9,
+  "total": 9,
+  "names": [
+   "public void Initialize(SharedData sharedData, Color initTintColor)",
+   "public void SetIntensity(float value)",
+   "public void HideImmediate()",
+   "public void ShowImmediate()",
+   "private void OnShow()",
+   "public void SetTintColorImmediate(Color tint)",
+   "private void InternalChangeTintColor(float delay, float duration, TweenCallback ",
+   "private void InternalSetTintImmediate()",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/LevelSaveMeControl.cs",
+  "empty": 9,
+  "total": 9,
+  "names": [
+   "public LevelSaveMeControl(LevelPlayLoadAndSetupControl owner)",
+   "public void HandleBeltDeadlock()",
+   "public void HandleOutOfServeSlot()",
+   "public bool HandleCustomerOutOfTime()",
+   "private void Lose()",
+   "private int CountHardCurrencySaveMeInLevel()",
+   "private static string KeyNumFreeShown(SaveMeType saveMeType)",
+   "private static bool Refuse(SaveMeType saveMeType, string reason)",
+   "private bool ShowSaveMe(SaveMeType saveMeType, int saveMeBlockId, Action handleO"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/TimeControlCakeOrder.cs",
+  "empty": 9,
+  "total": 9,
+  "names": [
+   "protected override void Awake()",
+   "protected override void OnDestroy()",
+   "public static void StopTime(Object source)",
+   "public static void StopTime(int sourceId)",
+   "public static void SetTimeScale(int sourceId, float multiplier)",
+   "public static void ResumeTime(Object source)",
+   "public static void ResumeTime(int sourceId)",
+   "private static void PauseAllTweensExceptUnscaled()",
+   "private static void ResumeAllTweens()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameComboMechanicControl.cs",
+  "empty": 8,
+  "total": 8,
+  "names": [
+   "public void SetUp(LevelBaseCakeOrderAbstract levelBase, ComboMechanicParams conf",
+   "private void HandlePlayStateChanged(LevelPlayState oldState, LevelPlayState newS",
+   "private void HandleAddCustomerServed(ResultCustomerData data)",
+   "private void HandleSingleDishServed()",
+   "private void HandleSingleDishFailed()",
+   "private void HandleAddCustomerFailed(ResultCustomerData data)",
+   "private void Update()",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIButtonHUDHold.cs",
+  "empty": 8,
+  "total": 8,
+  "names": [
+   "protected override void Awake()",
+   "private void OnDestroy()",
+   "public void SetMode(InteractMode mode)",
+   "private void ApplyMode()",
+   "private void OnForwardedPointerDown(ForwardUIPointerEvent forward, PointerEventD",
+   "private void OnForwardedPointerUp(ForwardUIPointerEvent forward, PointerEventDat",
+   "protected override void OnUnlocked()",
+   "private void EndHold()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInGameNumberCounter.cs",
+  "empty": 8,
+  "total": 8,
+  "names": [
+   "protected virtual void UpdateCapacity()",
+   "protected override int GetAmountData()",
+   "protected override void UpdateVisualAmount(float amount)",
+   "public void AddHoldingSource(IIngameNumberSource source)",
+   "public void AddHoldingSourcess(IList<IIngameNumberSource> listSources)",
+   "public void RemoveHoldingSource(IIngameNumberSource source)",
+   "private void OnDestroy()",
+   "private void OnSourceAmountChanged()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/CookingdomInappPackListDefinition.cs",
+  "empty": 8,
+  "total": 9,
+  "names": [
+   "public static float GetListPriceUsd(string sku)",
+   "public static int GetSaleTagPercent(string sku)",
+   "public static string GetStoreProductId(string sku)",
+   "public static string ToSku(string id)",
+   "private float GetDefaultCostValue(InAppShopId shopID)",
+   "public string[] GetAllSKUs()",
+   "public int GetNumCanBuy(string sku)",
+   "public float GetDefaultCostValue(string sku)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/MapDataAssetCategory.cs",
+  "empty": 8,
+  "total": 10,
+  "names": [
+   "public static string GetCharactersGroupName(string mapId)",
+   "public static string GetGroupName(string mapId, Category category)",
+   "public static string GetMapThumbnailAssetAddress(string mapId)",
+   "public static string GetAssetAddressableLabel(AssetType assetType)",
+   "private static string GetAssetPostfix(string mapId, AssetType assetType)",
+   "public static string GetAssetAddress(string mapId, AssetType assetType)",
+   "public static AsyncOperationHandle<GameObject> InstantiateAssetPrefab(string map",
+   "public static AsyncOperationHandle<Sprite> LoadThumbnail(string mapId)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CustomerVisual.cs",
+  "empty": 7,
+  "total": 7,
+  "names": [
+   "public void SetUp(VisualConfig visualConfig, CustomerDataGeneral data, float nor",
+   "public void Move(float normPosInQueue)",
+   "private void LoadCharacterAnimControl()",
+   "public void EndAngry()",
+   "public void EndHappy()",
+   "public void Disappear()",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/LevelScenarioManager.cs",
+  "empty": 7,
+  "total": 8,
+  "names": [
+   "private void Awake()",
+   "private void OnMapDayPlayedChanged(string mapId)",
+   "public AssetReference GetScenarioAssetById(string id)",
+   "public MapWeatherSO GetWeatherAsset(WeatherEffect weatherEffect)",
+   "public void CheatSetMapDayState(string mapId, string scenarioId, string weather,",
+   "public MapCurrentDayState GetCurrentMapDayState(string mapId)",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIButtonHUDBooster.cs",
+  "empty": 7,
+  "total": 7,
+  "names": [
+   "protected override void Awake()",
+   "private void OnDestroy()",
+   "public void SetUp(UIInLevelCakeOrder.BoosterUIData data, CakeCurrencySO currency",
+   "private void OnItemChanged(string itemId, int oldValue, int newValue)",
+   "protected override void OnBeforeShow()",
+   "protected override void OnUnlocked()",
+   "private void UpdateVisual()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIPopupWinLogo.cs",
+  "empty": 7,
+  "total": 7,
+  "names": [
+   "public override void HideByBackButton()",
+   "protected override void ShowElementImmediate()",
+   "private IEnumerator IEIntro(Action onDoneAnim, float delay)",
+   "private IEnumerator IEFirework(float delay)",
+   "private void OnLogoHidden()",
+   "protected override void HideElementImmediate()",
+   "private void StopAll()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/VoronoiSpawner.cs",
+  "empty": 7,
+  "total": 7,
+  "names": [
+   "public void PrecalculateCells(List<Vector2> points, List<Vector2> clipBoundary)",
+   "private List<Vector2> GetVoronoiPolygon(List<Vector2> points, int index, List<Ve",
+   "private List<Vector2> GetColliderPolygon(Collider2D col)",
+   "private List<Vector2> ClipPolygon(List<Vector2> poly, Vector2 planePoint, Vector",
+   "private List<Vector2> ShrinkPolygon(List<Vector2> poly, float offsetDist, float ",
+   "private float CalculateTriangleArea(Triangle tri)",
+   "public Vector2 GetRandomPointCached(int index)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/SceneTransitionBehaviourWeather.cs",
+  "empty": 7,
+  "total": 7,
+  "names": [
+   "protected override void OnSetUp()",
+   "public static Dictionary<string, object> CreateCustomDataSingleWeather(WeatherEf",
+   "public static Dictionary<string, object> CreateCustomDataChangeNight(WeatherEffe",
+   "private VisualByWeather GetVisualByWeather(WeatherEffect weather)",
+   "protected override void PlayTransitionIn(Action onDone, float duration)",
+   "public override void SetProgress(float value)",
+   "protected override void PlayTransitionOut(Action onDone, float duration)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CookOrderModuleTimeCountdown.cs",
+  "empty": 6,
+  "total": 6,
+  "names": [
+   "public void SetUp(LevelPlayLoadAndSetupControl levelPlayControl, bool isUsedInLe",
+   "private void OnDestroy()",
+   "private void OnPlayStateChanged(LevelPlayState oldState, LevelPlayState newState",
+   "public void SetTimeRemained(float value)",
+   "public void ChangeTimeRemained(float amountChange)",
+   "private void Update()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CustomerQueueControl.cs",
+  "empty": 6,
+  "total": 6,
+  "names": [
+   "public int GetTotalCustomersInQueue()",
+   "public void EnqueueCustomer(CustomerDataGeneral customerData)",
+   "private CustomerVisual SpawnCustomer(CustomerDataGeneral data, int initIndexInVi",
+   "public bool IsCanServeDish()",
+   "public void ServeDish(DishData dishData)",
+   "public bool IterateQueue()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameBackgroundsControl.cs",
+  "empty": 6,
+  "total": 7,
+  "names": [
+   "public void SetUp()",
+   "private void OnDestroy()",
+   "public UniTask ChangeWeather(WeatherEffect weatherEffect)",
+   "public void ChangeTintColorAll(Color tint)",
+   "public void ChangeTintColorBg(Color tint)",
+   "public void ChangeTintColorTool(Color tint)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UILevelGoldCounterStarProgress.cs",
+  "empty": 6,
+  "total": 6,
+  "names": [
+   "public void SetUp(int[] starMilestones, CakeLevelRuntimeDataSoftCurrency softCur",
+   "private void OnSoftCurrencyDataAmountChanged(int oldAmount, int newAmount)",
+   "public override void ShowImmediate()",
+   "public override void Show(Action onDoneAnim, float delay)",
+   "protected override void UpdateVisualAmount(float amount)",
+   "public override void UpdateAmountImmediate(int value)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIPopupNewItem.cs",
+  "empty": 6,
+  "total": 6,
+  "names": [
+   "public override void HideByBackButton()",
+   "public void SetData(IRewardItemInfo itemInfos, int amounts)",
+   "public void SetData(List<IRewardItemInfo> itemInfos, List<int> amounts)",
+   "protected override void OnBeforeShow()",
+   "protected override void OnClickClose()",
+   "private void ShowNextItem()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/CheatManagerCakeOrder.cs",
+  "empty": 6,
+  "total": 6,
+  "names": [
+   "private void Awake()",
+   "public static void SetCheatMode(CheatMode mode)",
+   "private void ShowDebugConsole()",
+   "private IEnumerator IESpawnDebugConsole()",
+   "public void ToggleDebug()",
+   "public static void ToggleUI(bool isShow)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.CakeOrderSubsystem/GameProgressScenario.cs",
+  "empty": 6,
+  "total": 21,
+  "names": [
+   "public string GetTextMechanicUnlockCondition(CookOrderMechanicType mechanicType)",
+   "public string GetTextMechanicLockedToast(CookOrderMechanicType mechanicType)",
+   "public string GetTextExtraLevelLock(int lockMapIndex, int lockLevelIndex)",
+   "protected override void Awake()",
+   "private IEnumerator IEApplyInitCurrency()",
+   "private MapMetadata[] ImportMapMetadata(string str)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/GridSpawner.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public void PrecalculateGrid(SpawnNode[] spawnNodes, Vector2[] polygon)",
+   "public Vector2 GetRandomSpawnPoint(int spawnIndex)",
+   "private Vector2 GetWorldPos(int x, int y, float minX, float minY)",
+   "private bool IsPointInPolygon(Vector2 point, Vector2[] polygon)",
+   "private Vector2Int GetNearestValidGridPos(Vector2 worldPos, bool[,] isValidCell,"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameUITutorialProcessCombo.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public void SetReferences(InGameUITutorialControl.References references)",
+   "private IEnumerator IETutCombo()",
+   "private void OnComboActivated()",
+   "private void OnDestroy()",
+   "public override IEnumerator Process(Action onComplete)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIButtonHUD.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "protected virtual void Awake()",
+   "protected virtual void OnClickButton()",
+   "public void Lock()",
+   "public void Unlock()",
+   "protected virtual void OnUnlocked()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UICakeUseCurrencyButton.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "private void Awake()",
+   "private void OnDestroy()",
+   "private void OnItemChanged(string itemId, int oldValue, int newValue)",
+   "public void SetData(string currencyId, int amount)",
+   "public void SetData(CakeCurrencySO currencySO, int amount)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInLevelHUDGoldFocusStyle.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "private void Awake()",
+   "public void SetUp(CakeLevelInitData initData, CakeLevelRuntimeData runtimeData)",
+   "protected override void ShowElementImmediate()",
+   "protected override void HideElementImmediate()",
+   "private void OnClickBtnWeatherForecast(UIButtonHUD hUD)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInLevelHUDHeartStyle.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "private void Awake()",
+   "public void SetUp(CakeLevelInitData initData, CakeLevelRuntimeData runtimeData)",
+   "protected override void ShowElementImmediate()",
+   "protected override void HideElementImmediate()",
+   "private void OnClickBtnWeatherForecast(UIButtonHUD hUD)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/CakeOrderMapLevelLayoutManager.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public void Initialize()",
+   "public MapLayoutConfig GetMapLayoutConfig(string mapId)",
+   "public MapLayoutConfig GetMapLayoutConfig(int index)",
+   "public int GetNumMainLv(int mapIndex)",
+   "public int GetNumAdvancedLv(int mapIndex)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/CakeOrderTutorialStateControl.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "private static string GetKeyShownTut(TutType type)",
+   "public static bool IsShownTut(TutType type)",
+   "public static void SetDoneTut(TutType type)",
+   "public static void SetDoneTut(params TutType[] types)",
+   "private void ResetTut(TutType type)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/GameFrameRate.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public static void ApplySaved()",
+   "public static void Apply(int fps)",
+   "public static void Save(int fps)",
+   "public static bool IsSupported(int fps)",
+   "public static int Nearest(int fps)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/LevelGridConfig.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public void Clear()",
+   "public void LoadConfigStr(ReadOnlySpan<char> config)",
+   "public static GridCellEffectData[] ParseGridData(ReadOnlySpan<char> data)",
+   "private static GridCellEffectData[] ImportQueueData(ReadOnlySpan<char> data)",
+   "private static GridCellEffectData ParseCellData(ReadOnlySpan<char> singleCellDat"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/MapCookingProcessConfig.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings",
+   "private IngredientProcessConfig[] ImportProcessData(string data)",
+   "public int GetRecipePiecePriceByIndex(int index)",
+   "public RecipePieceConfig[] ImportRecipePieceData(string data)",
+   "public DirtyObjectConfig[] ImportDirtyObjectData(string data)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/RemoteConfigOverrideAuthorSelector.cs",
+  "empty": 5,
+  "total": 5,
+  "names": [
+   "public void BeginSelection()",
+   "private void OnGUI()",
+   "public void SelectAuthor(string authorId)",
+   "public void SelectDefault()",
+   "public static bool ChangeSelectionAtRuntime(string overrideId)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CookOrderModuleIngredientShopping.cs",
+  "empty": 4,
+  "total": 4,
+  "names": [
+   "public void SetUp(LevelPlayLoadAndSetupControl levelPlayControl, bool isUsedInLe",
+   "private void TrigggerAllowShoppingChanged()",
+   "private void OnDestroy()",
+   "private void OnPlayStateChanged(LevelPlayState oldState, LevelPlayState newState"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/OrderPricingCalculator.cs",
+  "empty": 4,
+  "total": 4,
+  "names": [
+   "public void SetUp(RestaurantParams restaurantParams)",
+   "public OrderPricingOutput CalculatePrice(OrderPricingInput input)",
+   "private int CalculateNumCoin(OrderPricingInput input)",
+   "private int CalculateBasePrice(OrderPricingInput input)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIPopupCakeConfirmUseBooster.cs",
+  "empty": 4,
+  "total": 4,
+  "names": [
+   "public void SetBoosterInfo(CakeCurrencySO boosterSO, AssetReference assetAnim)",
+   "private void LoadAnimAsync(AssetReference assetAnim)",
+   "protected override void OnShownPackBought(string shopId)",
+   "private void OnDestroy()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/LevelIngredientQueuesConfig.cs",
+  "empty": 4,
+  "total": 6,
+  "names": [
+   "public void LoadConfigStr(ReadOnlySpan<char> config)",
+   "private IngredientQueueInLevel ParseLevel(ReadOnlySpan<char> levelStr)",
+   "private SingleIngredientQueueInLevel[] ParseQueues(ReadOnlySpan<char> queuesStr)",
+   "private IngredientSlotGroup[] ParseSlotGroup(ReadOnlySpan<char> listStr)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/MapPetAssistantConfig.cs",
+  "empty": 4,
+  "total": 4,
+  "names": [
+   "public PetAssistantConfig GetConfig(string petId)",
+   "public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings",
+   "public bool IsHaveUpgradeAvailable()",
+   "private PetAssistantConfig[] ImportData(string data)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/SkinRemoteConfig.cs",
+  "empty": 4,
+  "total": 4,
+  "names": [
+   "public bool IsSkinUnlocked(string skinId)",
+   "public string RollGradingSkinOnHomeEnter()",
+   "public static Data Parse(string json)",
+   "private string ReadRawJson()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/CakeCharacterAnimControl.cs",
+  "empty": 3,
+  "total": 3,
+  "names": [
+   "public void SetBlendColor(Color color)",
+   "public void ChangeBlendColor(Color color, float duration)",
+   "public void Appear()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/IngredientDropPositionCalculator.cs",
+  "empty": 3,
+  "total": 3,
+  "names": [
+   "public void ReCalculate()",
+   "public Vector2 GetRandomPointCached(int index)",
+   "private List<Vector2> GetColliderPolygon(Collider2D col)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UIInLevelHUDRelaxMode.cs",
+  "empty": 3,
+  "total": 3,
+  "names": [
+   "public void SetUp(CakeLevelRuntimeData runtimeData)",
+   "protected override void ShowElementImmediate()",
+   "protected override void HideElementImmediate()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder.InGame/UITimeCounterTimeSpan.cs",
+  "empty": 3,
+  "total": 3,
+  "names": [
+   "private static string DisplayUnitToString(DisplayUnit unit)",
+   "public void SetUp(GetTimeSpanValue getCurrent, GetTimeSpanValue getMax)",
+   "private void Update()"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/LevelDataHasher.cs",
+  "empty": 3,
+  "total": 5,
+  "names": [
+   "public static string ComputeHash(CakeLevelInitData initData)",
+   "public static string ComputeHash(string customerData, string gridData, string qu",
+   "private static string ToHex(ulong value)"
+  ]
+ },
+ {
+  "file": "Plugins/CakeOrder/CakeOrder/MapLevelMetadataConfig.cs",
+  "empty": 3,
+  "total": 3,
+  "names": [
+   "public UniTask SetUpAfterSpawn(string mapId, params string[] remoteConfigStrings",
+   "public SingleLevelMetadata GetLevelConfig(int levelIndex)",
+   "private SingleLevelMetadata[] ImportData(string data)"
+  ]
+ }
+]

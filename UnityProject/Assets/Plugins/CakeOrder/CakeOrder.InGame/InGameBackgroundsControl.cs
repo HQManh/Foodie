@@ -80,20 +80,35 @@ public class InGameBackgroundsControl : MonoBehaviour
 		[NonSerialized]
 		public bool isShowing;
 
-		[AsyncStateMachine(typeof(_003CShowEffectsAsync_003Ed__8))]
-		public UniTask ShowEffectsAsync(InGameSingleBackground.SharedData sharedData, Transform container, Color initialTint, CancellationToken token)
+		// Rebuilt: loads the weather prefab through Addressables (once), parents it under the container and fades it in.
+		public async UniTask ShowEffectsAsync(InGameSingleBackground.SharedData sharedData, Transform container, Color initialTint, CancellationToken token)
 		{
-			//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-			return default(UniTask);
+			if (spawnedBackgroundControl == null)
+			{
+				if (assetBackgroundControl == null || !assetBackgroundControl.RuntimeKeyIsValid()) return;
+				opLoad = assetBackgroundControl.LoadAssetAsync<GameObject>();
+				await opLoad.Task;
+				if (token.IsCancellationRequested || opLoad.Result == null) return;
+				GameObject instance = UnityEngine.Object.Instantiate(opLoad.Result, container);
+				spawnedBackgroundControl = instance.GetComponent<InGameSingleBackground>();
+				if (spawnedBackgroundControl == null) return;
+				spawnedBackgroundControl.Initialize(sharedData, initialTint);
+			}
+			isShowing = true;
+			spawnedBackgroundControl.ChangeTintColor(initialTint, 0f, 0f);
+			spawnedBackgroundControl.Show();
 		}
 
 		public void HideEffects()
 		{
+			isShowing = false;
+			if (spawnedBackgroundControl != null) spawnedBackgroundControl.Hide();
 		}
 
 		public void HideEffectsImmediate()
 		{
+			isShowing = false;
+			if (spawnedBackgroundControl != null) spawnedBackgroundControl.HideImmediate();
 		}
 	}
 
@@ -202,52 +217,98 @@ public class InGameBackgroundsControl : MonoBehaviour
 	{
 	}
 
-	// Rebuilt: loads the prefab configured for the weather and parents it under the background container.
+	// Rebuilt: the background of the level's weather is shown under the background container; weather changes cross-fade to another prefab.
+	private BackgroundConfigByWeather ConfigFor(WeatherEffect weather)
+	{
+		if (_configByWeathers == null) return null;
+		foreach (BackgroundConfigByWeather c in _configByWeathers)
+		{
+			if (c != null && c.weatherType == weather) return c;
+		}
+		return _configByWeathers.Length > 0 ? _configByWeathers[0] : null;
+	}
+
+	private Transform BackgroundParent()
+	{
+		return _sharedData != null && _sharedData.backgroundContainer != null ? _sharedData.backgroundContainer : transform;
+	}
+
 	public async UniTask SetUp(WeatherEffect initWeatherEffect)
 	{
 		CurrentWeather = initWeatherEffect;
-		if (_configByWeathers == null) return;
-		BackgroundConfigByWeather config = null;
-		foreach (BackgroundConfigByWeather c in _configByWeathers)
-		{
-			if (c != null && c.weatherType == initWeatherEffect) { config = c; break; }
-		}
-		if (config == null && _configByWeathers.Length > 0) config = _configByWeathers[0];
-		if (config == null || config.assetBackgroundControl == null || !config.assetBackgroundControl.RuntimeKeyIsValid()) return;
-		config.opLoad = config.assetBackgroundControl.LoadAssetAsync<GameObject>();
-		await config.opLoad.Task;
-		GameObject prefab = config.opLoad.Result;
-		if (prefab == null) return;
-		Transform parent = _sharedData != null && _sharedData.backgroundContainer != null ? _sharedData.backgroundContainer : transform;
-		GameObject instance = Instantiate(prefab, parent);
-		config.spawnedBackgroundControl = instance.GetComponent<InGameSingleBackground>();
-		config.isShowing = true;
+		_weatherLoadCts?.Cancel();
+		_weatherLoadCts = new CancellationTokenSource();
+		_currentTintBg = Color.white;
+		_currentTintTool = Color.white;
+		BackgroundConfigByWeather config = ConfigFor(initWeatherEffect);
+		if (config == null) return;
 		_currentWeatherTintSharedBgr = config.tintSharedBgr;
 		_currentWeatherTintTool = config.tintTool;
+		await config.ShowEffectsAsync(_sharedData, BackgroundParent(), config.tintSharedBgr * _currentTintBg, _weatherLoadCts.Token);
+		ApplySharedTints(0f);
+	}
+
+	private void ApplySharedTints(float duration)
+	{
+		if (_sharedBackground != null) _sharedBackground.ChangeTintColor(_currentWeatherTintSharedBgr * _currentTintBg, 0f, duration);
+		if (_toolSprites != null) _toolSprites.ChangeTintColor(_currentWeatherTintTool * _currentTintTool, 0f, duration);
 	}
 
 	private void OnDestroy()
 	{
+		_weatherLoadCts?.Cancel();
+		_weatherLoadCts?.Dispose();
+		if (_configByWeathers == null) return;
+		foreach (BackgroundConfigByWeather c in _configByWeathers)
+		{
+			if (c != null && c.opLoad.IsValid()) Addressables.Release(c.opLoad);
+		}
 	}
 
-	[AsyncStateMachine(typeof(_003CChangeWeather_003Ed__18))]
-	public UniTask ChangeWeather(WeatherEffect weatherEffect)
+	public async UniTask ChangeWeather(WeatherEffect weatherEffect)
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-		return default(UniTask);
+		if (weatherEffect == CurrentWeather) return;
+		BackgroundConfigByWeather next = ConfigFor(weatherEffect);
+		BackgroundConfigByWeather previous = ConfigFor(CurrentWeather);
+		CurrentWeather = weatherEffect;
+		if (next == null) return;
+		_weatherLoadCts?.Cancel();
+		_weatherLoadCts = new CancellationTokenSource();
+		if (previous != null && previous != next) previous.HideEffects();
+		_currentWeatherTintSharedBgr = next.tintSharedBgr;
+		_currentWeatherTintTool = next.tintTool;
+		await next.ShowEffectsAsync(_sharedData, BackgroundParent(), next.tintSharedBgr * _currentTintBg, _weatherLoadCts.Token);
+		ApplySharedTints(0.5f);
+	}
+
+	private void ApplyBackgroundTint(float duration)
+	{
+		BackgroundConfigByWeather config = ConfigFor(CurrentWeather);
+		if (config != null && config.spawnedBackgroundControl != null)
+		{
+			config.spawnedBackgroundControl.ChangeTintColor(config.tintSharedBgr * _currentTintBg, 0f, duration);
+		}
+		if (_sharedBackground != null) _sharedBackground.ChangeTintColor(_currentWeatherTintSharedBgr * _currentTintBg, 0f, duration);
 	}
 
 	public void ChangeTintColorAll(Color tint)
 	{
+		_currentTintBg = tint;
+		_currentTintTool = tint;
+		ApplyBackgroundTint(-1f);
+		if (_toolSprites != null) _toolSprites.ChangeTintColor(_currentWeatherTintTool * _currentTintTool, 0f, -1f);
 	}
 
 	public void ChangeTintColorBg(Color tint)
 	{
+		_currentTintBg = tint;
+		ApplyBackgroundTint(-1f);
 	}
 
 	public void ChangeTintColorTool(Color tint)
 	{
+		_currentTintTool = tint;
+		if (_toolSprites != null) _toolSprites.ChangeTintColor(_currentWeatherTintTool * _currentTintTool, 0f, -1f);
 	}
 }
 }

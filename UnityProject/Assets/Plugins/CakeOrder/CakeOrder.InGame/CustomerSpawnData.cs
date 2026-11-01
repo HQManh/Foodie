@@ -34,15 +34,31 @@ public class CustomerSpawnData
 
 	private bool? _isShipper;
 
-	public bool IsCleanDishStaff => false;
+	// Rebuilt from the decompile: clean-dish staff is customer type 1; boss (character type 2) and shipper (character type 1) are decided by the
+	// type of the character the customer's id names in the database, and cached once looked up.
+	public bool IsCleanDishStaff => (int)customerType == 1;
 
-	public bool IsBoss => false;
+	public bool IsBoss => IsCharacterType((CharacterType)2, ref _isBoss);
 
-	public bool IsShipper => false;
+	public bool IsShipper => IsCharacterType((CharacterType)1, ref _isShipper);
 
 	private bool IsCharacterType(CharacterType type, ref bool? cache)
 	{
-		return false;
+		if (cache.HasValue)
+		{
+			return cache.Value;
+		}
+		if (string.IsNullOrEmpty(customerId) || CakeOrderDatabaseSO.Instance == null)
+		{
+			return false;
+		}
+		CakeCharacterSO character = DatabaseApi.GetCharacterSOById(CakeOrderDatabaseSO.Instance, customerId);
+		if (character == null)
+		{
+			return false;
+		}
+		cache = character.characterType == type;
+		return cache.Value;
 	}
 }
 }
