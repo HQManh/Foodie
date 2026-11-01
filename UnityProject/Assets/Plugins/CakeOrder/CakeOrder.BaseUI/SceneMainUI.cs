@@ -634,22 +634,58 @@ public abstract class SceneMainUI : MonoSingleton<SceneMainUI>
 		return popup;
 	}
 
+	private static bool AddressableKeyExists(object key)
+	{
+		foreach (UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator locator in UnityEngine.AddressableAssets.Addressables.ResourceLocators)
+		{
+			if (locator.Locate(key, typeof(UnityEngine.Object), out System.Collections.Generic.IList<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations) && locations != null && locations.Count > 0)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	private readonly System.Collections.Generic.HashSet<string> _missingPopupKeys = new System.Collections.Generic.HashSet<string>();
+
 	protected async Task<T> LoadPopup<T>(AssetReference asset, RectTransform customParent = null, Action<T> onCreated = null) where T : UICakePopup
 	{
 		if (asset == null || !asset.RuntimeKeyIsValid())
 		{
 			return null;
 		}
-		if (!_dictCacheUIElements.TryGetValue(asset, out var cache))
+		// A popup whose Addressables entry is not part of this project (not every asset was recovered) is skipped instead of throwing.
+		string runtimeKey = asset.RuntimeKey.ToString();
+		if (_missingPopupKeys.Contains(runtimeKey) || (!_dictCacheUIElements.ContainsKey(asset) && !AddressableKeyExists(asset.RuntimeKey)))
 		{
-			cache = new ElementSpawnCache(asset);
-			_dictCacheUIElements[asset] = cache;
+			if (_missingPopupKeys.Add(runtimeKey))
+			{
+				UnityEngine.Debug.LogWarning("[SceneMainUI] popup asset " + runtimeKey + " is not in the Addressables catalog (not recovered); skipping it.");
+			}
+			return null;
 		}
-		if (cache.element != null)
+		ElementSpawnCache cache;
+		GameObject prefabObject;
+		try
 		{
-			return (T)cache.element;
+			if (!_dictCacheUIElements.TryGetValue(asset, out cache))
+			{
+				cache = new ElementSpawnCache(asset);
+				_dictCacheUIElements[asset] = cache;
+			}
+			if (cache.element != null)
+			{
+				return (T)cache.element;
+			}
+			prefabObject = await cache.opLoad.Task;
 		}
-		GameObject prefabObject = await cache.opLoad.Task;
+		catch (UnityEngine.AddressableAssets.InvalidKeyException)
+		{
+			_missingPopupKeys.Add(asset.RuntimeKey.ToString());
+			_dictCacheUIElements.Remove(asset);
+			UnityEngine.Debug.LogWarning("[SceneMainUI] popup asset " + asset.RuntimeKey + " is not in the Addressables catalog (not recovered); skipping it.");
+			return null;
+		}
 		if (this == null)
 		{
 			return null;
