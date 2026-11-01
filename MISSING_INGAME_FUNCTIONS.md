@@ -15,10 +15,10 @@ Found by scanning `TODO(unrecovered)` markers (674 in `Scripts`/`Plugins`) and b
 | Boosters / Save-me | Booster use, save-me popups (out of slots, customer out of time, belt drained), rescue refill | `UIPopupBoosterSaveMeBase`, `LevelSaveMeControl`, `BoosterAndSaveMeRemoteConfig`, `GridIngController` rescue paths |
 | Level end | Real win/lose flow: result data, stars, rewards, next-day / retry buttons, win logo + firework, popup texts (localization tables not loaded) | `UIEndGameBase/Win/Lose`, `UIPopupWinLogo`, `LevelBaseCakeOrderAbstract.OnEndGame` |
 | Tutorial | Day-1 guided tutorial (hand pointers, talk bubbles, focus canvas) | `TutorialManager`, `TutorialContext`, `TutorialTalkView`, `HandTutController`, `InGameUITutorial*` |
-| Combo | Combo meter and combo text/VFX (`PlayComboVfx` is empty) | `InGameComboMechanicControl`, `UIInLevelHUDPuzzleStyle`, `CustomerLineController.PlayComboVfx` |
+| Combo | DONE: control, bar (UIComboBar), floating combo text, tips while active. Not done: the combo booster effect (ActivateBooster type 8), tutorial for combo | `InGameComboMechanicControl`, `UIComboBar` |
 | Pricing | Real coin formula (a flat 10 per dish is used), tips, emotion bonus | `OrderPricingCalculator`, `OrderPricingService.SimulatePricing` |
 | Customer patience | Wait-time values: Day-1 data has wait 0 (no timer), later days need `FTimer` flow checked; timeout -> save-me | `CustomerLineController.OnTimeout/AskSaveMe` |
-| Serve shelf (original system) | Plate slots, merge queue, merge animations, whole-dish mode, result anims, `TryTakeDirect` drop-in, shelf slot unlock UI; replaced by a simplified direct path | `ServeShelfController` (52 stubs) |
+| Serve shelf (original system) | MOSTLY DONE: snapshot/solver, plate creation and slots, merge pick/flight/commit, result animation, serve to customer, promises, order lookups (FindPlateForOrder, GetGatheredPieces, GetPotentialPieces), orphan sweep, event wiring. Still stubs: StillBuilding (HoldsTheFloor always false), TryMergeFromSaveMeBag (SpawnBagSaveMe is not rebuilt), FindBoundPlateForOrder, BuildStateReport, and the whole-dish mode (WholeDishMode.*, not used by burger). The old gather path is switched off; direct delivery of finished dishes is the only fallback | `ServeShelfController` |
 | Items | Dirty plates / clean-dish staff, `SpawnBagSaveMe`, stack/random queue (`ShuffleStack`, slot groups) | `SpawnBagSaveMe`, `StackModeService`, `LevelInfo` (15 stubs) |
 
 ## Missing - audio / feedback (medium)

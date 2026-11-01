@@ -140,8 +140,7 @@ namespace AnhPD.FoodOrder
 
 		public virtual PieceOffer GetItemPieceOffer(DragItem item)
 		{
-			// TODO(unrecovered): the DragItem id field (offset 0x78) passed to GetIdPieceOffer is not identified
-			return null;
+			return GetIdPieceOffer(item.GetId());
 		}
 
 		public virtual PieceOffer GetIdPieceOffer(string id)
@@ -219,10 +218,11 @@ namespace AnhPD.FoodOrder
 
 		public virtual bool TryGetPlateVariant(int dishKey, out ServePlate plate, out DragItem dirtyPlate)
 		{
-			// TODO(unrecovered): RcDishInfo member types for the plate and dirty plate prefabs are not identified
-			plate = null;
-			dirtyPlate = null;
-			return false;
+			RecipeConfigSO config = recipeConfig;
+			RcDishInfo dish = config != null ? config.GetDishInfo(dishKey) : null;
+			plate = dish != null ? dish.plate : null;
+			dirtyPlate = dish != null ? dish.dirtyPlate : null;
+			return plate != null;
 		}
 
 		public virtual PieceSpawnInfo GetPieceSpawnInfo(int pieceKind)

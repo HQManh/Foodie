@@ -120,6 +120,7 @@ namespace AnhPD.FoodOrder
 				completed = ticket.Line.CompleteOrderAt(ticket.Indices[0]);
 			}
 			Release(ticket);
+			if (completed) CustomerLineController.NotifyDishAccepted();
 			return completed;
 		}
 

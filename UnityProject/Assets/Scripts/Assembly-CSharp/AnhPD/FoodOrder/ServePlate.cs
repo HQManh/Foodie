@@ -386,7 +386,14 @@ namespace AnhPD.FoodOrder
 			CompleteAppear();
 			transform.DOKill();
 			onLink?.Invoke();
-			// TODO(unrecovered): the punch tween vector comes from an unnamed static struct; the completion chain (onJump, then JumpToTarget) is clear but the punch parameters are not
+			// The dish gets a small hop, then the plate arcs over to the customer.
+			Transform itemTf = Item.transform;
+			itemTf.DOComplete();
+			itemTf.DOPunchPosition(Vector3.up * 0.3f, 0.3f, 1, 0.5f).OnComplete(() =>
+			{
+				onJump?.Invoke();
+				JumpToTarget(target, onArrive, onServed);
+			});
 		}
 
 		private void JumpToTarget(Transform target, Func<bool> onArrive, Action onServed)
@@ -403,7 +410,18 @@ namespace AnhPD.FoodOrder
 			}
 			IsServing = true;
 			transform.DOKill();
-			// TODO(unrecovered): the arc tween (duration from the distance to the target, height from ServeJumpPower, two chained tweens with completion callbacks) is not mapped yet
+			Vector3 start = transform.position;
+			Vector3 end = target.position;
+			float duration = Mathf.Clamp(Vector3.Distance(new Vector3(start.x, start.y, 0f), new Vector3(end.x, end.y, 0f)) / ServeSpeed, ServeMinTime, ServeMaxTime);
+			float t = 0f;
+			DOTween.To(() => t, v =>
+			{
+				t = v;
+				if (target == null) return;
+				float k = Mathf.Clamp01(t);
+				Vector3 now = target.position;
+				transform.position = new Vector3(start.x + (now.x - start.x) * k, Mathf.Sin(t * Mathf.PI) * ServeJumpPower + start.y + (now.y - start.y) * k, start.z);
+			}, 1f, duration).SetEase(Ease.Linear).OnComplete(() => OnArriveAtTarget(onArrive, onServed));
 		}
 
 		private void OnArriveAtTarget(Func<bool> onArrive, Action onServed)
@@ -462,7 +480,9 @@ namespace AnhPD.FoodOrder
 			SetMergeAnimLifted(false);
 			DirtyPrefab = null;
 			DishKey = -1;
-			// TODO(unrecovered): the released GameObject goes back to an unnamed object pool owned by the level's static pool holder
+			// The original returns the object to a pool; here it is simply destroyed (the plate is hidden at once so nothing lingers on screen).
+			gameObject.SetActive(false);
+			Destroy(gameObject);
 		}
 	}
 }

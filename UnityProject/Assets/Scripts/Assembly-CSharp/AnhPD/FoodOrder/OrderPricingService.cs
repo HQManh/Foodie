@@ -14,6 +14,12 @@ namespace AnhPD.FoodOrder
 			if (!customerLeaveData.isSatisfied) return;
 			int dishes = Math.Max(1, customerLeaveData.numDish);
 			SpawnCoinAmount(pos, dishes * 10, Math.Min(5, dishes * 2), false);
+			// While the combo is on, customers tip a percentage of the price on top.
+			CakeOrder.InGame.InGameComboMechanicControl combo = MessyController.Ins != null ? MessyController.Ins.Combo : null;
+			if (combo != null && combo.IsInComboState)
+			{
+				SpawnCoinAmount(pos, Mathf.RoundToInt(dishes * 10 * combo.Config.tipPercentageOnCombo / 100f), Math.Min(3, dishes), true);
+			}
 		}
 
 		private void SpawnCoinAmount(Vector2 pos, int amount, int numCoins, bool isTip)

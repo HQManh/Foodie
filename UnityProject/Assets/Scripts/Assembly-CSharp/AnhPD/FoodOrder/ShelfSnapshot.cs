@@ -153,10 +153,63 @@ namespace AnhPD.FoodOrder
 			return _orderDishes.Contains(dishKey);
 		}
 
+		// Rebuilds the solver input from the current plates, the open servable orders and the grid supply, then marks the snapshot clean.
 		public bool Ensure(IReadOnlyList<ServePlate> plates, LevelInfo info, FCustomerLineHandle lineHandle, Func<ServePlate, PieceSet?> plateHas, Func<ServePlate, string> plateSequence)
 		{
-			// TODO(unrecovered): Ensure body is several hundred lines of inlined list and PieceSet work (grid pieces, order specs); not recovered in this pass.
-			return false;
+			if (!_dirty)
+			{
+				return _ok;
+			}
+			_ok = false;
+			_plateHas.Clear();
+			_plateLabels.Clear();
+			_orderPieces.Clear();
+			_plateDishes.Clear();
+			_orderDishes.Clear();
+			_plateSequences.Clear();
+			_orderSequences.Clear();
+			_supply = default;
+			if (info == null || lineHandle == null)
+			{
+				return false;
+			}
+			_supply = info.Pieces != null ? info.Pieces.GridPieces() : default;
+			_canComplete = info.CanStillComplete;
+			_sequenceFits = info.SequenceFits;
+			List<OrderSpec> orders = lineHandle.GetActiveServableOrderSpecs();
+			if (orders != null)
+			{
+				foreach (OrderSpec spec in orders)
+				{
+					if (!spec.HasPieces || spec.Pieces.IsEmpty)
+					{
+						continue;
+					}
+					_orderPieces.Add(spec.Pieces);
+					_orderDishes.Add(info.DishKeyOfOrder(spec));
+					_orderSequences.Add(info.SequenceOf(spec.DisplayId));
+				}
+			}
+			if (plates != null)
+			{
+				for (int i = 0; i < plates.Count; i++)
+				{
+					ServePlate plate = plates[i];
+					bool alive = plate != null;
+					_plateLabels.Add(alive ? plate.Order : null);
+					_plateHas.Add(plateHas != null && alive ? plateHas(plate) : null);
+					_plateDishes.Add(alive ? plate.DishKey : -1);
+					_plateSequences.Add(plateSequence != null && alive ? plateSequence(plate) : string.Empty);
+				}
+				int needed = Math.Max(plates.Count, 8);
+				if (_assign == null || _assign.Length < needed)
+				{
+					_assign = new int[needed];
+				}
+			}
+			_dirty = false;
+			_ok = true;
+			return true;
 		}
 	}
 }

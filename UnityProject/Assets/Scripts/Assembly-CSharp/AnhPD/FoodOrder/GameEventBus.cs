@@ -9,17 +9,24 @@ namespace AnhPD.FoodOrder
 
 		public static void Subscribe<T>(Action<T> callback)
 		{
-			// TODO(unrecovered): generic method body is not present in the pseudocode batch
+			_events.TryGetValue(typeof(T), out Delegate existing);
+			_events[typeof(T)] = Delegate.Combine(existing, callback);
 		}
 
 		public static void Publish<T>(T evt)
 		{
-			// TODO(unrecovered): generic method body is not present in the pseudocode batch
+			if (_events.TryGetValue(typeof(T), out Delegate existing))
+			{
+				(existing as Action<T>)?.Invoke(evt);
+			}
 		}
 
 		public static void Unsubscribe<T>(Action<T> callback)
 		{
-			// TODO(unrecovered): generic method body is not present in the pseudocode batch
+			if (!_events.TryGetValue(typeof(T), out Delegate existing)) return;
+			Delegate left = Delegate.Remove(existing, callback);
+			if (left == null) _events.Remove(typeof(T));
+			else _events[typeof(T)] = left;
 		}
 	}
 }

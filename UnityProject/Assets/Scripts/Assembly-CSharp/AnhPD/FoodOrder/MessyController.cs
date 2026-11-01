@@ -302,6 +302,8 @@ namespace AnhPD.FoodOrder
 		protected override void OnDestroy()
 		{
 			base.OnDestroy();
+			CustomerLineController.DishAccepted -= HandleDishAccepted;
+			CustomerLineController.DishRejected -= HandleDishRejected;
 			DOTween.Kill(this);
 			if (_endGame != null)
 			{
@@ -317,7 +319,22 @@ namespace AnhPD.FoodOrder
 		{
 			FCustomerLineHandle lineHandle = _managerRefs.lineHandle;
 			lineHandle.Setup(HandleCustomerLeave);
+			CustomerLineController.DishAccepted += HandleDishAccepted;
+			CustomerLineController.DishRejected += HandleDishRejected;
 			_endGame = new EndGameService(this, _areaRefs, _managerRefs, _itemRefs, new Action<bool>(_tint.SetSaveMeDim));
+		}
+
+		// The combo mechanic of the running level (null when the level has none).
+		public CakeOrder.InGame.InGameComboMechanicControl Combo { get; set; }
+
+		private void HandleDishAccepted()
+		{
+			RuntimeData?.customerData?.TriggerSingleDishServed();
+		}
+
+		private void HandleDishRejected()
+		{
+			RuntimeData?.customerData?.TriggerSingleDishFailed();
 		}
 
 		protected virtual void HandleCustomerLeave(CustomerLeaveData data)

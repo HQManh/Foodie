@@ -605,22 +605,6 @@
   ]
  },
  {
-  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameSingleBackground.cs",
-  "empty": 9,
-  "total": 9,
-  "names": [
-   "public void Initialize(SharedData sharedData, Color initTintColor)",
-   "public void SetIntensity(float value)",
-   "public void HideImmediate()",
-   "public void ShowImmediate()",
-   "private void OnShow()",
-   "public void SetTintColorImmediate(Color tint)",
-   "private void InternalChangeTintColor(float delay, float duration, TweenCallback ",
-   "private void InternalSetTintImmediate()",
-   "private void OnDestroy()"
-  ]
- },
- {
   "file": "Plugins/CakeOrder/CakeOrder.InGame/LevelSaveMeControl.cs",
   "empty": 9,
   "total": 9,
@@ -835,19 +819,6 @@
    "public bool IsCanServeDish()",
    "public void ServeDish(DishData dishData)",
    "public bool IterateQueue()"
-  ]
- },
- {
-  "file": "Plugins/CakeOrder/CakeOrder.InGame/InGameBackgroundsControl.cs",
-  "empty": 6,
-  "total": 7,
-  "names": [
-   "public void SetUp()",
-   "private void OnDestroy()",
-   "public UniTask ChangeWeather(WeatherEffect weatherEffect)",
-   "public void ChangeTintColorAll(Color tint)",
-   "public void ChangeTintColorBg(Color tint)",
-   "public void ChangeTintColorTool(Color tint)"
   ]
  },
  {

@@ -717,13 +717,12 @@ namespace AnhPD.FoodOrder
 
 		public int PendingMergeCount => _merges.Count;
 
-		// TODO(unrecovered): pseudocode returns a single float (cellSize.x * slots) but the stub signature is Vector2; second component unknown
-		public Vector2 Size => default;
+		public Vector2 Size => new Vector2(cellSize.x * LayoutSlots, cellSize.y);
 
 		private int LayoutSlots => _wholeDishServing ? Mathf.Max(slotCount, _plates.Count) : slotCount;
 
-		// TODO(unrecovered): pseudocode returns a single float (transform.position.x - cellSize.x * slots * 0.5) but the stub signature is Vector2
-		public Vector2 Origin => default;
+		// Left edge of the slot row; the slot centres sit on the shelf's y.
+		public Vector2 Origin => new Vector2(transform.position.x - cellSize.x * LayoutSlots * 0.5f, transform.position.y - cellSize.y * 0.5f);
 
 		public int Capacity
 		{
@@ -734,7 +733,7 @@ namespace AnhPD.FoodOrder
 			}
 		}
 
-		public bool HasFreeSlot => false;
+		public bool HasFreeSlot => _plates != null && _plates.Count < Capacity;
 
 		public IReadOnlyList<ServePlate> Plates => _plates;
 
@@ -769,7 +768,20 @@ namespace AnhPD.FoodOrder
 
 		public void ForgetItem(DragItem item)
 		{
-			// TODO(unrecovered): nested plate-component probes (vtable calls at +0x12e/+0xb0 plate slots, DragItem-state checks) and ShelfMergeQueue.RemoveAllOf/PlatesOf loop with unresolved offsets; not mapped in this pass
+			if (item == null || _merges == null || !_merges.IsInFlight(item)) return;
+			_forgetPlates.Clear();
+			foreach (ServePlate plate in _merges.PlatesOf(item))
+			{
+				if (plate != null && !_forgetPlates.Contains(plate)) _forgetPlates.Add(plate);
+			}
+			_merges.RemoveAllOf(item);
+			_snapshot.MarkDirty();
+			foreach (ServePlate plate in _forgetPlates)
+			{
+				if (plate != null && plate.IsEmpty && !IsPlateBusy(plate)) RemovePlate(plate);
+			}
+			_forgetPlates.Clear();
+			RefreshSlotFocus();
 		}
 
 		private readonly HashSet<DragItem> _directServing = new HashSet<DragItem>();
@@ -945,7 +957,36 @@ namespace AnhPD.FoodOrder
 
 
 		// Simplified serve path (the original routes through plates and merge queues): the dish flies straight to a customer order that accepts it.
+		// Original path: the solver picks the plate that profits most from the item (or opens a new one), the item is booked on it and flies
+		// over, and the plate is served to its customer once it holds a finished dish. Items the solver does not want take the direct path below.
 		private bool TryAutoMergeToPlate(DragItem item, bool requireLanded = true, bool directTake = false)
+		{
+			return TryPlateMerge(item, requireLanded, directTake) || TryDirectServe(item, requireLanded, directTake);
+		}
+
+		private bool TryPlateMerge(DragItem item, bool requireLanded, bool directTake)
+		{
+			if (_wholeDishServing || item == null) return false;
+			if (!directTake && IsInteractBlocked) return false;
+			if (requireLanded && !item.IsLandedInCell) return false;
+			if (_directServing.Contains(item) || _merges == null || _merges.IsInFlight(item)) return false;
+			LevelInfo info = Info;
+			if (info == null) return false;
+			string id = item.GetId();
+			PieceOffer offer = info.GetItemPieceOffer(item);
+			if (!TryPickMergeTarget(offer, id, info, out ServePlate plate, out int newPlateDish, out int gain)) return false;
+			if (item.Cell == null && !CanHandOverNow(plate)) return false;
+			if (plate == null) plate = CreatePlate(newPlateDish);
+			if (plate == null) return false;
+			TryResolveMerge(plate, id, info, out string resultId);
+			Reserve(plate, item, resultId);
+			if (item.PlayWindUp() == null) PumpLaunches(plate);
+			else SchedulePump(plate, mergePrimeDelay);
+			return true;
+		}
+
+		// Simplified serve path: the dish flies straight to a customer order that accepts it.
+		private bool TryDirectServe(DragItem item, bool requireLanded = true, bool directTake = false)
 		{
 			if (item == null || IsInteractBlocked) return false;
 			if (requireLanded && !item.IsLandedInCell) return false;
@@ -953,7 +994,7 @@ namespace AnhPD.FoodOrder
 			FCustomerLineHandle handle = LineHandle;
 			MessyController messy = MessyController.Ins;
 			if (handle == null || messy == null) return false;
-			if (!handle.TryGetServableLine(item, out FCustomerLine line) || line == null) return TryGatherForFlexibleOrder(item);
+			if (!handle.TryGetServableLine(item, out FCustomerLine line) || line == null) return false;
 			if (!messy.Serve.TryReserve(this, line, item, out ServeTicket ticket) || ticket == null) return false;
 			Transform target = line.GetOrderTarget(ticket.Indices[0]);
 			if (target == null) target = line.targetPos;
@@ -1089,7 +1130,10 @@ namespace AnhPD.FoodOrder
 
 		private void OnGridItemLanded(GridItemLandedEvent evt)
 		{
-			// TODO(unrecovered): pseudocode takes a DragItem (marks the snapshot dirty, auto-merges to a plate when not whole-dish, then RequestServe); the GridItemLandedEvent-to-DragItem mapping is not confirmed.
+			if (evt.item == null) return;
+			_snapshot.MarkDirty();
+			if (!_wholeDishServing) TryAutoMergeToPlate(evt.item);
+			RequestServe();
 		}
 
 		public bool CanTakeIdDirect(string id)
@@ -1104,46 +1148,151 @@ namespace AnhPD.FoodOrder
 
 		public int ScoreGainForId(string id)
 		{
-			// TODO(unrecovered): needs PieceOffer/PieceSet field names and WholeDishMode.CanCaptureWith argument mapping, which are not confirmed from this batch
-			return 0;
+			LevelInfo info = Info;
+			PieceOffer offer = info != null ? info.GetIdPieceOffer(id) : null;
+			return offer != null ? ScoreGainForOffer(offer, id) : 0;
 		}
 
 		public int ScoreGainForOffer(PieceOffer offer, string baseId)
 		{
-			return 0;
+			return TryPickMergeTarget(offer, baseId, Info, out _, out _, out int gain) ? gain : 0;
 		}
 
+		// Picks where an item should go: the plate whose solver score improves the most when the item joins it, or a new plate when that
+		// beats the current score. gain is the score improvement; newPlateDish the dish of the plate to open (when plate stays null).
 		private bool TryPickMergeTarget(PieceOffer itemOffer, string itemBaseId, LevelInfo info, out ServePlate plate, out int newPlateDish, out int gain)
 		{
-			// TODO(unrecovered): plate loop depends on the unnamed ServePlate byte flag at +0xb1 (not a stub member), FUN_053ebc3c (plate-busy probe) and ShelfSnapshot indexing; PieceOffer field offsets unconfirmed.
 			plate = null;
-			newPlateDish = default;
-			gain = default;
-			return false;
+			newPlateDish = -1;
+			gain = 0;
+			if (itemOffer == null || itemOffer.pieces.IsEmpty || info == null || !EnsureSnapshot() || _snapshot == null) return false;
+			if (_snapshot.OrderCount == 0) return false;
+			int baseScore = _snapshot.Solve();
+			int itemDish = info.DishKeyOfId(itemBaseId);
+			bool holdsFloor = HoldsTheFloor(_activeMergePlate);
+			ServePlate best = null;
+			int bestScore = 0;
+			int bestMissing = 0;
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				ServePlate candidate = _plates[i];
+				if (candidate == null || candidate.IsServing) continue;
+				if (holdsFloor && candidate != _activeMergePlate) continue;
+				if (_serving.Contains(candidate) || !DishFits(candidate.DishKey, itemDish)) continue;
+				// An empty plate must be opened by the item; a plate that already holds (or is about to receive) something must be able to merge it.
+				bool canJoin = candidate.IsEmpty && !_merges.HasInbound(candidate)
+					? CanStartPlate(itemBaseId, itemOffer.pieces, candidate.DishKey, info)
+					: TryResolveMerge(candidate, itemBaseId, info, out _);
+				if (!canJoin) continue;
+				PieceSet? has = _snapshot.PlateHas(i);
+				if (!has.HasValue) continue;
+				PieceSet merged = has.Value.Add(itemOffer.pieces);
+				string sequence = _snapshot.PlateSequence(i);
+				_snapshot.SetPlateHas(i, merged);
+				_snapshot.SetPlateSequence(i, sequence + info.SequenceOf(itemBaseId));
+				int score = _snapshot.Solve();
+				int assigned = _snapshot.AssignOf(i);
+				int missing = int.MaxValue;
+				bool completes = true;
+				if (assigned >= 0)
+				{
+					PieceSet want = _snapshot.OrderPieces(assigned);
+					missing = want.MissingFrom(merged);
+					completes = info.CanStillComplete(merged, want);
+				}
+				_snapshot.SetPlateHas(i, has);
+				_snapshot.SetPlateSequence(i, sequence);
+				if (score > baseScore && completes && (best == null || score > bestScore || (score == bestScore && missing < bestMissing)))
+				{
+					best = candidate;
+					bestScore = score;
+					bestMissing = missing;
+				}
+			}
+			if (best == null && HasFreeSlot && CanStartPlate(itemBaseId, itemOffer.pieces, -1, info) &&
+				IsWorthANewPlate(itemBaseId, itemOffer.pieces, itemDish, baseScore, info, out int bornDish, out int bornScore))
+			{
+				newPlateDish = bornDish;
+				bestScore = bornScore;
+				best = null;
+				gain = bestScore - baseScore;
+				_snapshot.Solve();
+				return true;
+			}
+			_snapshot.Solve();
+			plate = best;
+			if (plate == null) return false;
+			gain = bestScore - baseScore;
+			return true;
 		}
 
 		private bool IsWorthANewPlate(string itemBaseId, PieceSet itemPieces, int itemDish, int baseScore, LevelInfo info, out int bornDish, out int bestScore)
 		{
-			bornDish = default;
-			bestScore = default;
-			return false;
+			bornDish = -1;
+			bestScore = baseScore;
+			if (_snapshot == null) return false;
+			if (itemDish >= 0)
+			{
+				TryVirtualPlate(itemDish, itemBaseId, itemPieces, itemDish, baseScore, info, ref bestScore, ref bornDish);
+			}
+			else
+			{
+				for (int i = 0; i < _snapshot.OrderCount; i++)
+				{
+					if (IsDishSeenBefore(i, _snapshot.OrderDishKey(i))) continue;
+					TryVirtualPlate(_snapshot.OrderDishKey(i), itemBaseId, itemPieces, itemDish, baseScore, info, ref bestScore, ref bornDish);
+				}
+				if (bestScore <= baseScore) TryVirtualPlate(-1, itemBaseId, itemPieces, itemDish, baseScore, info, ref bestScore, ref bornDish);
+			}
+			return bestScore > baseScore;
 		}
 
 		private bool IsDishSeenBefore(int order, int dish)
 		{
+			for (int j = 0; j < order; j++)
+			{
+				if (_snapshot.OrderDishKey(j) == dish) return true;
+			}
 			return false;
 		}
 
 		private void TryVirtualPlate(int plateDish, string itemBaseId, PieceSet itemPieces, int itemDish, int baseScore, LevelInfo info, ref int bestScore, ref int bornDish)
 		{
-			// TODO(unrecovered): pseudocode (about 130 lines, LevelInfo/PieceSet helpers and unnamed ShelfSnapshot probes) not reconstructed in this pass.
+			if (!DishFits(plateDish, itemDish)) return;
+			int index = _snapshot.PushVirtualPlate(itemPieces, plateDish, info.SequenceOf(itemBaseId));
+			int score = _snapshot.Solve();
+			int assigned = _snapshot.AssignOf(index);
+			bool completes = assigned >= 0 && info.CanStillComplete(itemPieces, _snapshot.OrderPieces(assigned));
+			_snapshot.PopVirtualPlate();
+			if (completes && score > bestScore)
+			{
+				bestScore = score;
+				bornDish = plateDish;
+			}
 		}
 
+		// Whether the item can join the plate (flexible dishes add in place, plain dishes combine into a result id).
 		private bool TryResolveMerge(ServePlate plate, string itemBaseId, LevelInfo info, out string resultId)
 		{
-			// TODO(unrecovered): the flexible-item branch reads an unnamed FlexibleDragItem field at +0x78 and a vtable call at +0x218; the subtype check on DragItem at +0x130 is not a stub member.
 			resultId = null;
-			return false;
+			if (string.IsNullOrEmpty(itemBaseId) || info == null || _merges == null) return false;
+			_merges.Project(plate, info, out FlexibleDragItem flexible, out string projectedId);
+			if (flexible == null)
+			{
+				if (string.IsNullOrEmpty(projectedId))
+				{
+					return info.TryGetDishResult(plate.DishKey, projectedId, itemBaseId, out resultId);
+				}
+				string dishBase = FlexibleId.BaseOf(projectedId);
+				DragItem prefab = info.GetIngredientPrefab(dishBase);
+				if (prefab is FlexibleDragItem)
+				{
+					return info.CanDishAdd(dishBase, _merges.InboundPieces(plate, info), itemBaseId);
+				}
+				return info.TryGetDishResult(plate.DishKey, projectedId, itemBaseId, out resultId);
+			}
+			if (!info.CanAddTo(flexible, itemBaseId)) return false;
+			return info.CanDishAdd(flexible.GetBaseId(), flexible.Pieces.Add(_merges.InboundPieces(plate, info)), itemBaseId);
 		}
 
 		private bool CanStartPlate(string itemBaseId, PieceSet itemPieces, int plateDish, LevelInfo info)
@@ -1271,9 +1420,28 @@ namespace AnhPD.FoodOrder
 			return prefab.HasResultMergeAnimFor(request.Item.GetBaseId());
 		}
 
+		// Plays the dish's own result animation when the merge produced one (juice pour, nigiri roll ...); the plate is held until it ends.
 		private bool BeginResultAnim(ServePlate plate, string sourceId, bool merged)
 		{
-			return false;
+			if (plate == null || plate.Item == null) return false;
+			ItemResultMergeAnim anim = plate.Item.ResultMergeAnim;
+			if (anim == null || !anim.Handles(sourceId)) return false;
+			_resultAnims[plate] = merged;
+			plate.SetMergeAnimLifted(true);
+			bool finished = false;
+			Action finish = () =>
+			{
+				if (finished) return;
+				finished = true;
+				OnResultAnimDone(plate);
+			};
+			anim.Play(plate.Item, sourceId, finish);
+			if (!finished)
+			{
+				// Safety net: if the animation never reports back, release the plate after its maximum duration.
+				DOVirtual.DelayedCall(Mathf.Max(0.01f, anim.GetMaxDuration(sourceId)), () => finish(), true).SetTarget(this);
+			}
+			return true;
 		}
 
 		private void OnResultAnimDone(ServePlate plate)
@@ -1291,25 +1459,43 @@ namespace AnhPD.FoodOrder
 
 		private void PruneStaleResultAnims()
 		{
-			// TODO(unrecovered): the stale-anim sweep walks _resultAnims keys and _staleAnimPlates through unnamed dictionary/list helpers (FUN_06f81e90, FUN_06f81ea0, FUN_06f836dc, FUN_057e0c68) with an inlined enumerator; branch semantics not confirmed.
+			if (_resultAnims.Count == 0) return;
+			_staleAnimPlates.Clear();
+			foreach (ServePlate plate in _resultAnims.Keys)
+			{
+				if (plate == null || !_plates.Contains(plate)) _staleAnimPlates.Add(plate);
+			}
+			foreach (ServePlate plate in _staleAnimPlates)
+			{
+				_resultAnims.Remove(plate);
+				if (plate == null) continue;
+				plate.SetMergeAnimLifted(false);
+				if (plate.Item is FlexibleDragItem flexible) flexible.ResumeVisual();
+			}
+			_staleAnimPlates.Clear();
 		}
 
 		private bool CommitRequest(ShelfMergeQueue.Request request)
 		{
-			return false;
+			if (request == null) return false;
+			if (request.Item == null || !CanPlateStillTake(request.Plate)) return false;
+			MessyController messy = MessyController.Ins;
+			if (messy == null || !messy.MergeIntoShelfPlate(request.Plate, request.Item, request.ResultId)) return false;
+			request.Item.PlayUseSfx();
+			return true;
 		}
 
 		private bool CanPlateStillTake(ServePlate plate)
 		{
 			if (plate == null) return false;
 			if (!_plates.Contains(plate)) return false;
-			// TODO(unrecovered): the remaining result depends on the ServePlate byte flag at +0xb1 (not a stub member): when clear it is !IsPlateBusy(plate), when set it is false. Returns false until the flag is mapped.
-			return false;
+			return !plate.IsServing && !_serving.Contains(plate);
 		}
 
 		private void AbortRemaining(ServePlate plate)
 		{
-			// TODO(unrecovered): pseudocode builds two closures (DAT_091d8bf8/DAT_091d8c08 targets) passed to ShelfMergeQueue.AbortPlate; closure bodies not recovered in this batch
+			if (_merges == null) return;
+			_merges.AbortPlate(plate, QueueDropBackToGrid, StandDown);
 		}
 
 		private void PruneStaleMerges()
@@ -1359,9 +1545,24 @@ namespace AnhPD.FoodOrder
 			RequestServe();
 		}
 
+		// A station announces that the item it is about to release will be taken: a plate is reserved for it in advance.
 		public bool PromiseDirect(string id)
 		{
-			return false;
+			if (_wholeDishServing || string.IsNullOrEmpty(id)) return false;
+			LevelInfo info = Info;
+			if (info == null) return false;
+			PieceOffer offer = info.GetIdPieceOffer(id);
+			string baseId = FlexibleId.BaseOf(id);
+			_snapshot.MarkDirty();
+			if (!TryPickMergeTarget(offer, baseId, info, out ServePlate plate, out int newPlateDish, out _)) return false;
+			if (plate == null) plate = CreatePlate(newPlateDish);
+			if (plate == null) return false;
+			TryResolveMerge(plate, baseId, info, out string resultId);
+			if (offer == null) return false;
+			_merges.AddPromise(plate, baseId, offer.pieces, resultId);
+			_activeMergePlate = plate;
+			_snapshot.MarkDirty();
+			return true;
 		}
 
 		public void CancelPromise(string id)
@@ -1376,24 +1577,57 @@ namespace AnhPD.FoodOrder
 
 		private bool TryKeepPromise(DragItem item)
 		{
-			return false;
+			if (item == null || _merges.IsInFlight(item)) return false;
+			ShelfMergeQueue.Request promise = _merges.FindPromise(item.GetId());
+			if (promise == null) return false;
+			ServePlate plate = promise.Plate;
+			if (!CanPlateStillTake(plate))
+			{
+				AbortRemaining(plate);
+				FlushDropBacks();
+				return false;
+			}
+			ShelfMergeQueue.Bind(promise, item);
+			PieceLedger.Step(item, "keep promise " + _plates.IndexOf(plate));
+			_snapshot.MarkDirty();
+			if (item.PlayWindUp() == null) PumpLaunches(plate);
+			else SchedulePump(plate, mergePrimeDelay);
+			return true;
 		}
 
 		public Vector3 GetSlotWorldCenter(int index)
 		{
-			// TODO(unrecovered): pseudocode returns a single float (Origin + (index + 0.5) * cellSize) but the stub signature is Vector3; the Vector2/Vector3 return shape is unclear
-			return default;
+			return SlotPosition(index);
 		}
 
 		private void Start()
 		{
-			// TODO(unrecovered): wires LineHandle.onAnyOrderShown/onAnyMysteryRevealed and MessyController.onBlockPlayerInteractChanged with delegate targets (DAT_091d8c00/DAT_091d8bf0/DAT_091d8be8) that are not mapped to stub methods; also copies _wholeDishServing from a singleton byte at +0x40 whose name is unknown.
+			FCustomerLineHandle handle = LineHandle;
+			if (handle != null)
+			{
+				handle.onAnyOrderShown += RequestServe;
+				handle.onAnyMysteryRevealed += RequestServe;
+			}
+			GameEventBus.Subscribe<GridItemLandedEvent>(OnGridItemLanded);
+			if (LevelBaseCakeOrderAbstract.Instance != null)
+			{
+				LevelBaseCakeOrderAbstract.Instance.onBlockPlayerInteractChanged += OnBlockInteractChanged;
+			}
 		}
 
 		private void OnDestroy()
 		{
-			// TODO(unrecovered): unsubscribe the LineHandle onAnyOrderShown/onAnyMysteryRevealed handlers; the delegate target (DAT_091d8c00) is not mapped to a stub method.
-			// TODO(unrecovered): unsubscribe OnBlockInteractChanged from the level's block-interact event; owner chain (DAT_091b4c28 -> +0x20 -> +0xc0 -> +0x10 -> +0xb8) is not mapped.
+			FCustomerLineHandle handle = LineHandle;
+			if (handle != null)
+			{
+				handle.onAnyOrderShown -= RequestServe;
+				handle.onAnyMysteryRevealed -= RequestServe;
+			}
+			GameEventBus.Unsubscribe<GridItemLandedEvent>(OnGridItemLanded);
+			if (LevelBaseCakeOrderAbstract.Instance != null)
+			{
+				LevelBaseCakeOrderAbstract.Instance.onBlockPlayerInteractChanged -= OnBlockInteractChanged;
+			}
 			DOTween.Kill(this);
 			StopAllFocus();
 		}
@@ -1440,7 +1674,17 @@ namespace AnhPD.FoodOrder
 			if (!EnsureSnapshot()) return;
 			if (_snapshot == null) return;
 			_snapshot.Solve();
-			// TODO(unrecovered): per-plate write-back of assigned order (ServePlate fields at +0x88..+0xa0 and the PieceSet/sequence compare) is not mapped to named members; plates are not updated.
+			// Every plate is labelled with the order it was assigned to (or cleared when it has none).
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				ServePlate plate = _plates[i];
+				if (plate == null || _snapshot == null) continue;
+				int assigned = _snapshot.AssignOf(i);
+				PieceSet? label = assigned >= 0 ? _snapshot.OrderPieces(assigned) : (PieceSet?)null;
+				if (label.HasValue == plate.Order.HasValue && (!label.HasValue || label.Value.Equals(plate.Order.Value))) continue;
+				plate.Order = label;
+				_snapshot.MarkDirty();
+			}
 		}
 
 		private void SweepOrphanPlates()
@@ -1455,7 +1699,10 @@ namespace AnhPD.FoodOrder
 					if (_snapshot != null) _snapshot.MarkDirty();
 					continue;
 				}
-				// TODO(unrecovered): orphan test needs ServePlate byte flags at +0xb1/+0xb2 (not stub members); removal of empty unreferenced plates (not in _serving, no inbound merge) is not applied.
+				if (plate.IsEmpty && !IsPlateBusy(plate) && !plate.IsAdopting)
+				{
+					RemovePlate(plate);
+				}
 			}
 		}
 
@@ -1512,7 +1759,13 @@ namespace AnhPD.FoodOrder
 
 		private BaseParticleElement GetOrCreateSlotFocus(int slot)
 		{
-			return null;
+			if (slotFocusPrefab == null || slot < 0 || slot >= slotCount) return null;
+			if (_slotFocus == null) _slotFocus = new BaseParticleElement[slotCount];
+			if (_slotFocus[slot] == null)
+			{
+				_slotFocus[slot] = Instantiate(slotFocusPrefab, SlotPosition(slot), Quaternion.identity, transform);
+			}
+			return _slotFocus[slot];
 		}
 
 		private void StopAllFocus()
@@ -1525,13 +1778,17 @@ namespace AnhPD.FoodOrder
 
 		private bool EnsureSnapshot()
 		{
-			// TODO(unrecovered): pseudocode is void (ShelfSnapshot.Ensure(info, lineHandle, plateHasReader, plateSequenceReader) once _snapshot exists, else throw); stub return type is bool and the true/false meaning is not in the pseudocode. Reader delegate targets (DAT_091d8bd0/DAT_091d8bd8) not mapped.
-			return false;
+			if (_plateHasReader == null) _plateHasReader = plate => PlateHas(plate, Info);
+			if (_plateSequenceReader == null) _plateSequenceReader = plate => PlateSequence(plate, Info);
+			if (_snapshot == null) return false;
+			return _snapshot.Ensure(_plates, Info, LineHandle, _plateHasReader, _plateSequenceReader);
 		}
 
 		private string PlateSequence(ServePlate plate, LevelInfo info)
 		{
-			return null;
+			if (plate == null || info == null) return string.Empty;
+			string own = !plate.IsEmpty && plate.Item != null ? info.SequenceOf(plate.Item.GetId()) : string.Empty;
+			return own + _merges.InboundSequence(plate, info);
 		}
 
 		private PieceSet? PlateHas(ServePlate plate, LevelInfo info)
@@ -1548,19 +1805,72 @@ namespace AnhPD.FoodOrder
 			return basis.Add(inbound);
 		}
 
+		// For each order: the pieces already on the plate that is labelled with it (empty when no plate is).
 		public void GetGatheredPieces(IReadOnlyList<OrderSpec> orders, List<PieceSet> results)
 		{
-			// TODO(unrecovered): pseudocode (about 300 lines of inlined PieceSet arithmetic and OrderSpec offsets) not reconstructed in this pass.
+			if (results == null) return;
+			results.Clear();
+			if (orders == null) return;
+			LevelInfo info = Info;
+			_gatherClaimed.Clear();
+			for (int i = 0; i < orders.Count; i++)
+			{
+				OrderSpec spec = orders[i];
+				PieceSet gathered = PieceSet.Empty;
+				if (info != null && spec.HasPieces && !spec.Pieces.IsEmpty)
+				{
+					gathered = GatherFor(spec.Pieces, info);
+				}
+				results.Add(gathered);
+			}
 		}
 
 		private PieceSet GatherFor(PieceSet order, LevelInfo info)
 		{
-			return default;
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				ServePlate plate = _plates[i];
+				if (plate == null || !plate.Order.HasValue || !plate.Order.Value.Equals(order)) continue;
+				if (!_gatherClaimed.Add(plate)) continue;
+				PieceSet? has = PlateHas(plate, info);
+				return has.HasValue ? has.Value : PieceSet.Empty;
+			}
+			return PieceSet.Empty;
 		}
 
+		// Like GetGatheredPieces, but an order with nothing gathered shows what the best compatible plate already holds.
 		public void GetPotentialPieces(IReadOnlyList<OrderSpec> orders, List<PieceSet> results)
 		{
-			// TODO(unrecovered): pseudocode (inlined PieceSet/OrderSpec arithmetic and list enumeration through unnamed helpers) not reconstructed in this pass.
+			GetGatheredPieces(orders, results);
+			LevelInfo info = Info;
+			if (info == null || orders == null) return;
+			for (int i = 0; i < orders.Count && i < results.Count; i++)
+			{
+				OrderSpec spec = orders[i];
+				if (!spec.HasPieces || spec.Pieces.IsEmpty || !results[i].IsEmpty) continue;
+				int dish = info.DishKeyOfOrder(spec);
+				PieceSet best = PieceSet.Empty;
+				int bestCount = 0;
+				foreach (ServePlate plate in _plates)
+				{
+					if (plate == null || !DishFits(plate.DishKey, dish)) continue;
+					PieceSet? has = PlateHas(plate, info);
+					if (!has.HasValue || has.Value.IsEmpty || !spec.Pieces.Covers(has.Value)) continue;
+					int count = has.Value.TotalCount;
+					if (count > bestCount)
+					{
+						bestCount = count;
+						best = has.Value;
+					}
+				}
+				results[i] = best;
+			}
+		}
+
+		private Vector3 SlotPosition(int index)
+		{
+			Vector2 origin = Origin;
+			return new Vector3(origin.x + (index + 0.5f) * cellSize.x, origin.y + cellSize.y * 0.5f, transform.position.z);
 		}
 
 		private static bool DishFits(int plateDish, int itemDish)
@@ -1570,26 +1880,60 @@ namespace AnhPD.FoodOrder
 
 		private ServePlate CreatePlate(int dishKey)
 		{
-			// TODO(unrecovered): the plate prefab comes from a static/singleton chain (DAT_091898c0 and LevelInfo +0xb8 -> +0x20 -> +0xc0) whose owner types are outside this batch; instantiate helper FUN_04c37c04 is unnamed.
-			return null;
+			LevelInfo info = Info;
+			if (dishKey < 0 || !HasFreeSlot || info == null) return null;
+			if (!info.TryGetPlateVariant(dishKey, out ServePlate prefab, out DragItem dirty) || prefab == null) return null;
+			Vector3 pos = SlotPosition(_plates.Count);
+			ServePlate plate = Instantiate(prefab, pos, Quaternion.identity, transform);
+			plate.gameObject.SetActive(true);
+			plate.SetVariant(dishKey, dirty);
+			plate.Order = null;
+			plate.HideUntilFirstItem();
+			_plates.Add(plate);
+			plate.SetSlot(pos, true);
+			if (_plates.Count < LayoutSlots) Compact();
+			if (_snapshot != null) _snapshot.MarkDirty();
+			SetSlotFocus(_plates.Count - 1, false);
+			return plate;
 		}
 
 		public PlateTake TryTakePlateForOrder(PieceSet order, out DragItem dish)
 		{
 			dish = null;
-			return PlateTake.None;
+			PlateTake take = FindPlateForOrder(order, out ServePlate plate, out _);
+			if (take == PlateTake.Taken)
+			{
+				dish = plate.DetachItem();
+				RemovePlate(plate);
+			}
+			return take;
 		}
 
 		public PlateTake PeekPlateForOrder(PieceSet order, out PieceSet onPlate)
 		{
-			onPlate = default;
-			return PlateTake.None;
+			return FindPlateForOrder(order, out _, out onPlate);
 		}
 
+		// The plate the solver labelled with this order: Taken when it holds a dish that can be handed over, Busy while it is moving.
 		private PlateTake FindPlateForOrder(PieceSet order, out ServePlate found, out PieceSet onPlate)
 		{
 			found = null;
-			onPlate = default;
+			onPlate = PieceSet.Empty;
+			if (_wholeDishServing || !EnsureSnapshot() || _snapshot == null) return PlateTake.None;
+			_snapshot.Solve();
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				ServePlate plate = _plates[i];
+				if (plate == null) continue;
+				int assigned = _snapshot.AssignOf(i);
+				if (assigned < 0 || !_snapshot.OrderPieces(assigned).Equals(order)) continue;
+				if (IsPlateBusy(plate)) return PlateTake.Busy;
+				if (plate.IsEmpty) continue;
+				found = plate;
+				PieceSet? has = _snapshot.PlateHas(i);
+				onPlate = has.HasValue ? has.Value : PieceSet.Empty;
+				return PlateTake.Taken;
+			}
 			return PlateTake.None;
 		}
 
@@ -1602,17 +1946,28 @@ namespace AnhPD.FoodOrder
 
 		private bool IsPlateBusy(ServePlate plate)
 		{
-			return false;
+			return plate != null && (_serving.Contains(plate) || IsResultAnimPlaying(plate) || _merges.HasInbound(plate));
 		}
 
+		// Plates holding a dish that no open order wants any more (used for the end-of-level clean-up effects).
 		public void CollectOrphanPlatesForFx(List<ServePlate> into)
 		{
-			// TODO(unrecovered): orphan test needs ServePlate flags and the stale-plate sweep helpers (unnamed list/dictionary calls); not reconstructed in this pass.
+			if (into == null || _wholeDishServing || !EnsureSnapshot() || _snapshot == null) return;
+			_snapshot.Solve();
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				ServePlate plate = _plates[i];
+				if (plate == null || plate.IsEmpty || IsPlateBusy(plate)) continue;
+				if (_snapshot.AssignOf(i) < 0) into.Add(plate);
+			}
 		}
 
 		public DragItem TakePlateDishForFx(ServePlate plate)
 		{
-			return null;
+			if (plate == null || plate.IsEmpty || !_plates.Contains(plate) || IsPlateBusy(plate)) return null;
+			DragItem item = plate.DetachItem();
+			RemovePlate(plate);
+			return item;
 		}
 
 		public void RemovePlate(ServePlate plate)
@@ -1631,11 +1986,19 @@ namespace AnhPD.FoodOrder
 
 		public void Compact()
 		{
-			// TODO(unrecovered): pseudocode walks _plates and calls ServePlate.SetSlot(x, y, ...) for plates below LayoutSlots, with a starting Y passed as a float argument that this stub signature does not carry; the SetSlot parameter meaning and the Origin component are not confirmed.
+			for (int i = 0; _plates != null && i < _plates.Count && i < LayoutSlots; i++)
+			{
+				if (_plates[i] != null) _plates[i].SetSlot(SlotPosition(i), false);
+			}
 		}
 
 		public ServePlate FindPlate(DragItem item)
 		{
+			if (item == null) return null;
+			for (int i = 0; _plates != null && i < _plates.Count; i++)
+			{
+				if (_plates[i] != null && _plates[i].Item == item) return _plates[i];
+			}
 			return null;
 		}
 
@@ -1658,7 +2021,7 @@ namespace AnhPD.FoodOrder
 
 		public IEnumerable<DragItem> GetMergingItems()
 		{
-			return null;
+			return _merges.Items;
 		}
 
 		private void RequestServeAfterAssemble(ServePlate plate)
@@ -1722,7 +2085,42 @@ namespace AnhPD.FoodOrder
 
 		private bool ServePlateTo(ServePlate plate, DragItem item, FCustomerLine line, int orderIndex = -1)
 		{
-			return false;
+			MessyController messy = MessyController.Ins;
+			if (messy == null || plate == null || item == null || line == null) return false;
+			ServeService serve = messy.Serve;
+			ServeTicket ticket;
+			bool reserved = orderIndex < 0 ? serve.TryReserve(plate, line, item, out ticket) : serve.TryReserveOrder(plate, line, orderIndex, out ticket);
+			if (!reserved || ticket == null) return false;
+			Transform target = line.GetOrderTarget(ticket.Indices[0]);
+			_serving.Add(plate);
+			PieceLedger.Step(item, "serve " + line.name);
+			bool canDeliver = false;
+			plate.ServeTo(target, () => line.PunchMatchingOrder(item), null, () =>
+			{
+				canDeliver = serve.CanDeliver(ticket, item);
+				return canDeliver;
+			}, () =>
+			{
+				_serving.Remove(plate);
+				if (!canDeliver)
+				{
+					serve.Release(ticket);
+					RemovePlate(plate);
+				}
+				else if (serve.Deliver(ticket, item, () => GlobalAudio.Play((GlobalSfx)3, 1f)))
+				{
+					RemovePlate(plate);
+					if (item != null) item.Despawn();
+				}
+				else
+				{
+					messy.DropItemToGrid(item);
+					PieceLedger.Finish(item, PieceLedger.End.Alive, plate != null ? plate.name : null);
+					RemovePlate(plate);
+				}
+				RequestServe();
+			});
+			return true;
 		}
 
 		private void ScanSources()
@@ -1738,17 +2136,22 @@ namespace AnhPD.FoodOrder
 
 		public bool TryTakeDirect(DragItem item, bool planned = false)
 		{
+			if (IsDirectTakeBlocked && !planned) return false;
+			_snapshot.MarkDirty();
+			if (_wholeDishServing) return false;
+			if (planned && TryKeepPromise(item)) return true;
 			return TryAutoMergeToPlate(item, false, true);
 		}
 
 		public bool IsHeldAtSource(DragItem item)
 		{
-			return item != null && _directServing.Contains(item);
+			return _wholeDishServing && item != null && _directServing.Contains(item);
 		}
 
 		public void WhenSourceFreed(DragItem item, Action onFreed)
 		{
-			// TODO(unrecovered): when not whole-dish, the pseudocode invokes a delegate held in an unnamed source-owner object (+0x18 vtable call with +0x40/+0x28 args); owner type not identified.
+			// Plates take items straight off the source, so outside whole-dish mode the source is free at once.
+			onFreed?.Invoke();
 		}
 
 		private void ScanGridItems()

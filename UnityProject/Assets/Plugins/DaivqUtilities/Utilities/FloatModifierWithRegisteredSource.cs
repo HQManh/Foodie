@@ -160,32 +160,45 @@ public abstract class FloatModifierWithRegisteredSource
 
 	private Action _onChanged;
 
-	public float Value => 0f;
+	public float Value => _value;
 
 	protected abstract float InitValue { get; }
 
 	protected FloatModifierWithRegisteredSource()
 	{
+		_value = InitValue;
 	}
 
 	public FloatModifierWithRegisteredSource(Action onChanged)
 	{
+		_value = InitValue;
+		_onChanged = onChanged;
 	}
 
 	public void AddModifier(UnityEngine.Object @object, float value)
 	{
+		AddModifier(@object.GetInstanceID(), value);
 	}
 
 	public void AddModifier(int id, float value)
 	{
+		_source[id] = value;
+		UpdateModifier();
+		_onChanged?.Invoke();
 	}
 
 	public void RemoveModifier(UnityEngine.Object @object)
 	{
+		RemoveModifier(@object.GetInstanceID());
 	}
 
 	public void RemoveModifier(int id)
 	{
+		if (_source.Remove(id))
+		{
+			UpdateModifier();
+			_onChanged?.Invoke();
+		}
 	}
 
 	public IEnumerator IETween(UnityEngine.Object @object, float to, AnimationCurve valueCurve, float duration, Action onFinished = null, Action<float> onUpdate = null)

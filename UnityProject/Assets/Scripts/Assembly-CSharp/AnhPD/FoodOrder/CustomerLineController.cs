@@ -26,6 +26,17 @@ namespace AnhPD.FoodOrder
 
 		public Action onOrderCompleted;
 
+		// Raised for every dish a customer accepts or rejects (feeds the level's single-dish counters and the combo).
+		public static event Action DishAccepted;
+
+		public static event Action DishRejected;
+
+		// Raised when a dish is handed over without going through SubmitFood (a finished order of a flexible dish).
+		public static void NotifyDishAccepted()
+		{
+			DishAccepted?.Invoke();
+		}
+
 		public Action onMysteryRevealed;
 
 		private Action _terminalLeaveAction;
@@ -312,6 +323,7 @@ namespace AnhPD.FoodOrder
 			{
 				onIncorrect?.Invoke();
 				HandleIncorrect();
+				DishRejected?.Invoke();
 			}
 			else
 			{
@@ -321,6 +333,7 @@ namespace AnhPD.FoodOrder
 					HandleCorrect(item2);
 				}
 				PlayComboVfx();
+				DishAccepted?.Invoke();
 				if (_model.Order.IsCompleted)
 				{
 					onOrderCompleted?.Invoke();
@@ -338,9 +351,15 @@ namespace AnhPD.FoodOrder
 			_model.SetState(LineState.Ready);
 		}
 
+		// The floating streak text (ComboTextService); set StreakTextEnabled to false to switch it off.
+		private const bool StreakTextEnabled = true;
+
 		private void PlayComboVfx()
 		{
-			// TODO(unrecovered): combo-text service lookup and config flag are not identifiable from the pseudocode
+			if (StreakTextEnabled && ComboTextService.Instance != null)
+			{
+				ComboTextService.Instance.Play(_view.transform.position);
+			}
 		}
 
 		private void RevealStrandedMysteries()

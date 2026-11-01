@@ -2,6 +2,8 @@
 using System;
 using CakeOrder;
 using CakeOrder.DataSO;
+using AnhPD.FoodOrder;
+using CakeOrder.CakeOrderSubsystem;
 using CakeOrder.InGame;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
@@ -230,6 +232,7 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			}
 			eventSystem.enabled = false;
 		}
+		SetUpCombo(level, runtimeData);
 		level.onPlayStateChanged += OnPlayStateChanged;
 		FSBurgerAutoPlayer bot = GetComponent<FSBurgerAutoPlayer>();
 		if (bot == null)
@@ -237,6 +240,51 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			bot = gameObject.AddComponent<FSBurgerAutoPlayer>();
 		}
 		bot.enabled = _autoPlay;
+	}
+
+	// Combo mechanic: the original creates the control in LevelPlayLoadAndSetupControl and hands it to UIInLevelCakeOrder; both are rebuilt here.
+	private const bool ShowComboBar = false;
+
+	private InGameComboMechanicControl _combo;
+
+	private void SetUpCombo(LevelBaseCakeOrderAbstract level, CakeLevelRuntimeData runtimeData)
+	{
+		if (_combo != null)
+		{
+			Destroy(_combo);
+		}
+		GameProgressScenario scenario = FindFirstObjectByType<GameProgressScenario>();
+		ComboMechanicParams config = scenario != null ? scenario.ComboMechanicParams : null;
+		if (config == null || config.numStepsToActivate < 1 || runtimeData == null)
+		{
+			return;
+		}
+		_combo = gameObject.AddComponent<InGameComboMechanicControl>();
+		_combo.SetUp(level, config, runtimeData.customerData);
+		MessyController messy = level as MessyController;
+		if (messy != null)
+		{
+			messy.Combo = _combo;
+		}
+		Scene hud = SceneManager.GetSceneByName("GameplayHUD");
+		if (!hud.isLoaded)
+		{
+			return;
+		}
+		foreach (GameObject root in hud.GetRootGameObjects())
+		{
+			foreach (CakeOrder.InGame.UI.UIComboBar bar in root.GetComponentsInChildren<CakeOrder.InGame.UI.UIComboBar>(true))
+			{
+				// The combo bar is switched off (the combo itself still runs); set ShowComboBar to true to show it.
+				if (!ShowComboBar)
+				{
+					bar.gameObject.SetActive(false);
+					continue;
+				}
+				bar.gameObject.SetActive(true);
+				bar.SetUp(_combo);
+			}
+		}
 	}
 
 	// The HUD prefab's logic (UIInLevelCakeOrder) is an empty DLL shell, so the numbers on the recovered HUD are bound here.
