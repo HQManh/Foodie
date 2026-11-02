@@ -86,9 +86,32 @@ namespace AnhPD.FoodOrder
 
 		protected override bool TryGetIngIdOf<T>(T enumValue, out string id)
 		{
-			// TODO(unrecovered): generic method body is not present in the pseudocode batch
 			id = null;
-			return false;
+			BurgerPiece piece;
+			switch ((object)enumValue)
+			{
+			case KFCType type:
+				if (!BurgerPieceTable.TryGetChickenPiece((int)type, out piece))
+				{
+					return false;
+				}
+				break;
+			case KFCFlavor flavor:
+				if (flavor != KFCFlavor.Spicy)
+				{
+					return false;
+				}
+				piece = BurgerPiece.Chilly;
+				break;
+			case KFCAddon addon:
+				piece = PieceOf(addon);
+				break;
+			default:
+				return false;
+			}
+			// Unlocked only when the level's recipe config actually offers a prepared ingredient for this piece.
+			RecipeConfigSO config = PieceLookup.Config;
+			return config != null && config.TryGetPreparedOfPiece((int)piece, out id) && !string.IsNullOrEmpty(id);
 		}
 
 		public override string GetId()
@@ -161,7 +184,12 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			if (piece == BurgerPiece.CheeseSauce)
+			// A chicken piece decides which KFC this is; without this a dish gathered for an order stays the default type.
+			if (BurgerPieceTable.TryGetChickenTypeCode(piece, out var typeCode))
+			{
+				_type = (KFCType)typeCode;
+			}
+			else if (piece == BurgerPiece.CheeseSauce)
 			{
 				_hasCheese = true;
 			}

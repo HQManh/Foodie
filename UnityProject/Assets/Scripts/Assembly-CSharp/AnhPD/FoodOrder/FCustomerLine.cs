@@ -531,7 +531,7 @@ namespace AnhPD.FoodOrder
 			{
 				return;
 			}
-			if (!openHintOnTap)
+			if (!openHintOnTap || GameplayUI.Ins == null)
 			{
 				view.PeekIngredients(board);
 			}

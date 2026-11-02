@@ -59,7 +59,8 @@ namespace AnhPD.FoodOrder
 			Sprite sprite = null;
 			if (FlexibleId.IsFlexible(id))
 			{
-				// TODO(unrecovered): flexible-id sprite comes from UIHintFlexibleHelper.CaptureSprite via an unidentified static chain
+				UIHintFlexibleHelper helper = UIHintFlexibleHelper.Instance;
+				sprite = helper != null ? helper.CaptureSprite(id) : null;
 			}
 			else
 			{

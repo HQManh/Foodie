@@ -30,14 +30,27 @@ namespace AnhPD.FoodOrder
 
 		public void ShowHint(List<string> listId, string focusId = null, Action onClose = null)
 		{
-			// TODO(unrecovered): the popup-manager call that opens hintPopupPrefab is not identifiable from the pseudocode;
-			// its created-callback is: hint => hint.ShowListOrder(listId, focusId, onClose)
+			if (!TryOpenHint(hint => hint.ShowListOrder(listId, focusId, onClose)))
+			{
+				onClose?.Invoke();
+			}
 		}
 
 		public void ShowHintById(string id)
 		{
-			// TODO(unrecovered): the popup-manager call that opens hintPopupPrefab is not identifiable from the pseudocode;
-			// its created-callback is: hint => hint.ShowRecipe(id)
+			TryOpenHint(hint => hint.ShowRecipe(id));
+		}
+
+		// The hint is a popup of the in-level UI; the prefab is instantiated once and reused.
+		private bool TryOpenHint(Action<UIHint> onBeforeShow)
+		{
+			CakeOrder.InGame.UIInLevelCakeOrder inLevelUi = CakeOrder.InGame.UIInLevelCakeOrder.InstanceUIInLevel;
+			if (inLevelUi == null || hintPopupPrefab == null)
+			{
+				return false;
+			}
+			inLevelUi.ShowCustomPopup(hintPopupPrefab, onBeforeShow);
+			return true;
 		}
 
 		public void ShowAlert(AlertType type, bool autoHide = true)

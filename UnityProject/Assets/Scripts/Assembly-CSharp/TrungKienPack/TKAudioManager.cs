@@ -34,8 +34,36 @@ namespace TrungKienPack
 
 		public AudioSource Play(AudioClip sfx, float volume = 1f, bool loop = false)
 		{
-			// TODO(unrecovered): the AudioSource is taken from queueInActive or created under TF through an unrecovered helper (FUN_04a6c0f4), then registered with CakeOrder.AudioManagerCakeOrder (not in the stubs).
-			return null;
+			if (sfx == null)
+			{
+				return null;
+			}
+			AudioSource source = null;
+			while (source == null && queueInActive.Count > 0)
+			{
+				source = queueInActive.Dequeue();
+			}
+			if (source == null)
+			{
+				GameObject host = new GameObject("TKAudioSource");
+				host.transform.SetParent(TF, false);
+				source = host.AddComponent<AudioSource>();
+				source.playOnAwake = false;
+				if (MonoSingleton<AudioManagerCakeOrder>.HasInstance)
+				{
+					MonoSingleton<AudioManagerCakeOrder>.Instance.RegisterAudioSource(source, audioTrack);
+				}
+			}
+			source.clip = sfx;
+			source.volume = volume;
+			source.loop = loop;
+			source.Play();
+			hstActive.Add(source);
+			if (!loop)
+			{
+				StartCoroutine(IEDespawn(source));
+			}
+			return source;
 		}
 
 		private IEnumerator IEDespawn(AudioSource element)

@@ -952,7 +952,7 @@ namespace AnhPD.FoodOrder
 
 		public void PlaySlideSfx()
 		{
-			//AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnSlide, (AudioManagerCakeOrder.AudioTrack)3);
+			if (AudioManagerCakeOrder.Instance != null) AudioManagerCakeOrder.Instance.PlaySfxAndHaptic(sfxOnSlide, (AudioManagerCakeOrder.AudioTrack)3);
 		}
 
 		public Tween SlideOut()

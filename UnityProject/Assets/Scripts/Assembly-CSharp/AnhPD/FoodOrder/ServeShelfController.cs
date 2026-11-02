@@ -972,7 +972,7 @@ namespace AnhPD.FoodOrder
 			if (_directServing.Contains(item) || _merges == null || _merges.IsInFlight(item)) return false;
 			LevelInfo info = Info;
 			if (info == null) return false;
-			string id = item.GetId();
+			string id = FlexibleId.BaseOf(item.GetId());
 			PieceOffer offer = info.GetItemPieceOffer(item);
 			if (!TryPickMergeTarget(offer, id, info, out ServePlate plate, out int newPlateDish, out int gain)) return false;
 			if (item.Cell == null && !CanHandOverNow(plate)) return false;
@@ -1150,7 +1150,7 @@ namespace AnhPD.FoodOrder
 		{
 			LevelInfo info = Info;
 			PieceOffer offer = info != null ? info.GetIdPieceOffer(id) : null;
-			return offer != null ? ScoreGainForOffer(offer, id) : 0;
+			return offer != null ? ScoreGainForOffer(offer, FlexibleId.BaseOf(id)) : 0;
 		}
 
 		public int ScoreGainForOffer(PieceOffer offer, string baseId)
@@ -1578,7 +1578,7 @@ namespace AnhPD.FoodOrder
 		private bool TryKeepPromise(DragItem item)
 		{
 			if (item == null || _merges.IsInFlight(item)) return false;
-			ShelfMergeQueue.Request promise = _merges.FindPromise(item.GetId());
+			ShelfMergeQueue.Request promise = _merges.FindPromise(FlexibleId.BaseOf(item.GetId()));
 			if (promise == null) return false;
 			ServePlate plate = promise.Plate;
 			if (!CanPlateStillTake(plate))

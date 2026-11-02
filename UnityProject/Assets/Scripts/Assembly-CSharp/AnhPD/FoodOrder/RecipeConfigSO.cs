@@ -768,7 +768,7 @@ namespace AnhPD.FoodOrder
 			}
 			foreach (string id in listId)
 			{
-				RecipeComponent comp = GetRecipeComponent(id);
+				RecipeComponent comp = GetRecipeComponent(id) ?? GetRecipeComponent(FlexibleId.BaseOf(id));
 				if (comp != null)
 				{
 					result.Add(comp.displayConfig);

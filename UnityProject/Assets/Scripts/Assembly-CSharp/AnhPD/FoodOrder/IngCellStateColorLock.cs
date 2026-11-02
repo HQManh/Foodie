@@ -82,7 +82,10 @@ namespace AnhPD.FoodOrder
 
 			shackle.DOKill();
 
-			// TODO(unrecovered): the unlock sfx is played through an AudioManagerCakeOrder singleton whose type is not in the stubs; sfxUnlock is not played
+			if (sfxUnlock != null && AudioManagerCakeOrder.Instance != null)
+			{
+				AudioManagerCakeOrder.Instance.PlaySfx(sfxUnlock, (AudioManagerCakeOrder.AudioTrack)4);
+			}
 			Sequence seq = DOTween.Sequence();
 			seq.Append(shackle.DOLocalMoveY(_shackleBasePos.y + shackleLift, shackleLiftDuration).SetEase(Ease.OutQuad));
 			seq.Append(shackle.DOLocalRotate(new Vector3(0f, 180f, 0f), shackleRotateDuration, RotateMode.FastBeyond360).SetEase(Ease.InOutQuad));

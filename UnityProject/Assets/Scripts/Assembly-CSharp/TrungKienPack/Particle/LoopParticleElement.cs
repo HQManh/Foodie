@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using Utilities;
 
 namespace TrungKienPack.Particle
 {
@@ -30,7 +31,10 @@ namespace TrungKienPack.Particle
 			CancelInvoke(nameof(End));
 			if (volume > 0f)
 			{
-				// TODO(unrecovered): the sfx is played through TKAudioManager.Play(sfx, volume), reached via an unnamed static chain (DAT_091b4d28 + 0x20 -> +0xc0 -> +0x10 -> +0xb8) that is not in the stubs.
+				if (sfx != null && MonoSingleton<TKAudioManager>.HasInstance)
+				{
+					MonoSingleton<TKAudioManager>.Instance.Play(sfx, volume);
+				}
 			}
 			if (eventStart != null)
 			{

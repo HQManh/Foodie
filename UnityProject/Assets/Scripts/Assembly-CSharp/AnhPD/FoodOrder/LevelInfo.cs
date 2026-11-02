@@ -429,8 +429,8 @@ namespace AnhPD.FoodOrder
 			}
 			if (FlexibleId.IsFlexible(id))
 			{
-				// TODO(unrecovered): flexible-id sprite comes from UIHintFlexibleHelper.CaptureSprite via an unidentified static chain.
-				return null;
+				UIHintFlexibleHelper helper = UIHintFlexibleHelper.Instance;
+				return helper != null ? helper.CaptureSprite(id) : null;
 			}
 			return _recipe.GetRecipeComponent(id)?.displayConfig?.sprite;
 		}

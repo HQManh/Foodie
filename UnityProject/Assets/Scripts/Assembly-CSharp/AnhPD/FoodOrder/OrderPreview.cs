@@ -101,8 +101,8 @@ namespace AnhPD.FoodOrder
 			{
 				_punchBase = target.localScale;
 			}
-			// TODO(unrecovered): the punch vector is read from a config singleton that is not available in this project (original: config vector * punchScaleY); zero used as placeholder
-			Vector3 punch = Vector3.zero;
+			// The original multiplies a config vector by punchScaleY; that config is not available, so the punch is a vertical squash-and-stretch.
+			Vector3 punch = Vector3.up * punchScaleY;
 			_punch = target.DOPunchScale(punch, punchDuration, punchVibrato, punchElasticity).SetTarget(this);
 		}
 

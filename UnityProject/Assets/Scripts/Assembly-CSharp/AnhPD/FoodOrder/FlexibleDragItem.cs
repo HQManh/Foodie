@@ -111,8 +111,15 @@ namespace AnhPD.FoodOrder
 
 		protected List<T> GetUnlockedEnums<T>() where T : Enum
 		{
-			// TODO(unrecovered): generic method body is not present in the pseudocode batch
-			return null;
+			List<T> result = new List<T>();
+			foreach (T value in Enum.GetValues(typeof(T)))
+			{
+				if (TryGetIngIdOf(value, out _))
+				{
+					result.Add(value);
+				}
+			}
+			return result;
 		}
 	}
 }

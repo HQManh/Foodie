@@ -1,9 +1,11 @@
 using System.Collections.Generic;
-using EssentialSystemR1;
+using DG.Tweening;
 using UnityEngine;
+using Utilities;
 
 namespace AnhPD.FoodOrder
 {
+	// Uses the source MonoSingleton (Utilities): the precompiled EssentialSystemR1 one never registered Instance, so the capture was never reachable.
 	public class UIHintFlexibleHelper : MonoSingleton<UIHintFlexibleHelper>
 	{
 		[SerializeField]
@@ -27,6 +29,9 @@ namespace AnhPD.FoodOrder
 		private int captureLongSide;
 
 		private const float MinSideRatio = 0.125f;
+
+		// One capture item per prefab; it is re-displayed for every id instead of being instantiated again.
+		private readonly Dictionary<FlexibleDragItem, FlexibleDragItem> _captureItems = new Dictionary<FlexibleDragItem, FlexibleDragItem>();
 
 		private readonly Dictionary<string, float> _relHeight = new Dictionary<string, float>();
 
@@ -56,8 +61,8 @@ namespace AnhPD.FoodOrder
 			int height = texture.height;
 			Sprite sprite = Sprite.Create(texture, new Rect(0f, 0f, width, height), new Vector2(0.5f, 0.5f), Mathf.Max(width, height));
 			_cache[id] = sprite;
-			MeasureRelativeHeight(id, config);
 			_relHeight.Remove(id);
+			MeasureRelativeHeight(id, config);
 			return sprite;
 		}
 
@@ -77,26 +82,82 @@ namespace AnhPD.FoodOrder
 
 		private float MeasureRelativeHeight(string id, RcDisplayConfig config)
 		{
-			// TODO(unrecovered): the vtable +0x288 getter is FlexibleDragItem.ReferenceIdOf (now in the stubs), but the rest depends on FrameHeight, which is still unrecovered (its virtual slots 0x258/0x260 are unnamed); not applied.
-			return 1f;
+			// How tall this dish is drawn compared with its plain reference dish (FlexibleDragItem.ReferenceIdOf), so a dish with extra
+			// layers or toppings gets proportionally more room in the order layout instead of being squeezed to the same height.
+			LevelInfo info = MessyController.Ins != null ? MessyController.Ins.Info : null;
+			FlexibleDragItem prefab = info != null ? info.GetIngredientPrefab(FlexibleId.BaseOf(id)) as FlexibleDragItem : null;
+			if (prefab == null || !_captureItems.TryGetValue(prefab, out FlexibleDragItem item) || item == null)
+			{
+				_relHeight[id] = 1f;
+				return 1f;
+			}
+			float height = FrameHeight(item, id, config);
+			string referenceId = item.ReferenceIdOf(id);
+			float referenceHeight = height;
+			if (!string.IsNullOrEmpty(referenceId) && referenceId != id)
+			{
+				if (!_refHeight.TryGetValue(referenceId, out referenceHeight))
+				{
+					referenceHeight = FrameHeight(item, referenceId, config);
+					_refHeight[referenceId] = referenceHeight;
+				}
+			}
+			float relative = (height > 0f && referenceHeight > 0f) ? height / referenceHeight : 1f;
+			_relHeight[id] = relative;
+			return relative;
 		}
 
-		private static float FrameHeight(FlexibleDragItem item, string longId, RcDisplayConfig config)
+		// Height of the dish drawn for longId, in world units (cut to the hint crop when the display config has one).
+		private float FrameHeight(FlexibleDragItem item, string longId, RcDisplayConfig config)
 		{
-			// TODO(unrecovered): sets the item's scale from a static config (singleton +0xb8 fields) and measures bounds through TryGetFrameBounds; the scale source and the virtual call (vtable +0x260 / +0x188 / +0x1a8) have no stub names.
-			return 0f;
+			ShowDish(item, longId);
+			float height = TryGetFrameBounds(item, config, out Bounds bounds) ? bounds.size.y : 0f;
+			item.gameObject.SetActive(false);
+			return height;
+		}
+
+		// Puts the capture item at the helper's origin showing longId at full size.
+		private void ShowDish(FlexibleDragItem item, string longId)
+		{
+			Transform tf = item.transform;
+			tf.SetParent(content, false);
+			tf.localPosition = Vector3.zero;
+			tf.localRotation = Quaternion.identity;
+			tf.localScale = Vector3.one;
+			item.gameObject.SetActive(true);
+			item.Display(longId);
+			// Display plays an appear tween that starts from zero scale; finish it so the dish is at full size.
+			tf.DOComplete(true);
+			tf.localScale = Vector3.one;
 		}
 
 		public Texture2D CaptureTexture(FlexibleDragItem prefab, string id, RcDisplayConfig config)
 		{
-			// TODO(unrecovered): recycles the previous capture through a pooled object dictionary reached via a chain of singletons (DAT_091b4c88 +0x20 +0xc0 +0x10 +0xb8), and instantiates the capture item from that pool; the pool and chain have no stub names.
-			return null;
+			if (prefab == null || subCamera == null || content == null)
+			{
+				return null;
+			}
+			if (!_captureItems.TryGetValue(prefab, out FlexibleDragItem item) || item == null)
+			{
+				item = Instantiate(prefab, content);
+				// The capture item is only drawn: it must not take clicks or physics.
+				foreach (Collider2D collider in item.GetComponentsInChildren<Collider2D>(true))
+				{
+					collider.enabled = false;
+				}
+				_captureItems[prefab] = item;
+			}
+			return CaptureItem(item, id, config);
 		}
 
 		private Texture2D CaptureItem(FlexibleDragItem item, string id, RcDisplayConfig config)
 		{
-			// TODO(unrecovered): depends on the item's virtual setup calls (vtable +0x198 / +0x260), FrameSize, FitToCamera and Render, none of which have stub names for the virtual slots.
-			return null;
+			ShowDish(item, id);
+			FrameSize(item, config, out int width, out int height);
+			FitToCamera(item, width, height, 1f, config);
+			Texture2D texture = Render(width, height);
+			item.gameObject.SetActive(false);
+			return texture;
 		}
 
 		private void FrameSize(FlexibleDragItem item, RcDisplayConfig config, out int width, out int height)
@@ -128,7 +189,18 @@ namespace AnhPD.FoodOrder
 
 		private void FitToCamera(FlexibleDragItem item, int width, int height, float scale, RcDisplayConfig config)
 		{
-			// TODO(unrecovered): camera fit math uses the subCamera projection and the framePadding/config fields with unknown virtual setup; not reproduced.
+			if (subCamera == null || !TryGetFrameBounds(item, config, out Bounds bounds))
+			{
+				return;
+			}
+			// Orthographic fit: the whole dish plus framePadding on every side, centred on the dish.
+			float aspect = (float)width / Mathf.Max(1, height);
+			float half = Mathf.Max(bounds.extents.y, bounds.extents.x / aspect) * (1f + framePadding * 2f);
+			subCamera.orthographicSize = Mathf.Max(0.01f, half);
+			Vector3 position = subCamera.transform.position;
+			position.x = bounds.center.x;
+			position.y = bounds.center.y;
+			subCamera.transform.position = position;
 		}
 
 		private static bool TryGetFrameBounds(FlexibleDragItem item, RcDisplayConfig config, out Bounds bounds)
@@ -153,9 +225,25 @@ namespace AnhPD.FoodOrder
 
 		private static bool TryGetSpriteBounds(GameObject root, out Bounds bounds)
 		{
-			// TODO(unrecovered): the sprite bounds helper is a static in an unrecovered helper class (FUN_03f95a6c chain not in stubs).
 			bounds = default;
-			return false;
+			bool found = false;
+			foreach (SpriteRenderer renderer in root.GetComponentsInChildren<SpriteRenderer>(false))
+			{
+				if (renderer.sprite == null || !renderer.enabled)
+				{
+					continue;
+				}
+				if (!found)
+				{
+					bounds = renderer.bounds;
+					found = true;
+				}
+				else
+				{
+					bounds.Encapsulate(renderer.bounds);
+				}
+			}
+			return found;
 		}
 
 		private Texture2D Render(int width, int height)

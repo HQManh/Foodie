@@ -160,9 +160,74 @@ namespace AnhPD.FoodOrder
 			return clip.Duration + TimeoutMargin;
 		}
 
+		// Ends the animation that is currently running (hides its skeleton and reports completion), so two merges never overlap.
+		private Action _finishCurrent;
+
 		public override void Play(DragItem result, string ingBaseId, Action onComplete)
 		{
-			// TODO(unrecovered): chained Spine TrackEntry Complete/Event callbacks, a display-class Finish closure and APDUtilities.Appear; callees not fully in stubs.
+			_finishCurrent?.Invoke();
+			SkeletonAnimation skeleton = SkeletonFor(ingBaseId);
+			string animName = AnimFor(ingBaseId);
+			if (skeleton == null || FindClip(skeleton, animName) == null)
+			{
+				onComplete?.Invoke();
+				return;
+			}
+			IngAnim entry = EntryFor(ingBaseId);
+			ShowHidden();
+			Hide(entry);
+			skeleton.gameObject.SetActive(true);
+			ApplySkin(skeleton, ingBaseId);
+			Spine.AnimationState state = skeleton.AnimationState;
+			if (state == null || skeleton.Skeleton == null)
+			{
+				ShowHidden();
+				onComplete?.Invoke();
+				return;
+			}
+			skeleton.Skeleton.SetToSetupPose();
+			_playing = skeleton;
+			TrackEntry track = state.SetAnimation(0, animName, false);
+			bool finished = false;
+			Action finish = null;
+			finish = delegate
+			{
+				if (finished)
+				{
+					return;
+				}
+				finished = true;
+				if (_finishCurrent == finish)
+				{
+					_finishCurrent = null;
+				}
+				ShowHidden();
+				Deactivate(skeleton);
+				onComplete?.Invoke();
+			};
+			_finishCurrent = finish;
+			(string sfxEvent, AudioClip sfx) = SfxFor(ingBaseId);
+			if (sfx != null)
+			{
+				if (string.IsNullOrEmpty(sfxEvent))
+				{
+					PlayMergeSfx(sfx);
+				}
+				else
+				{
+					track.Event += delegate (TrackEntry _, Spine.Event e)
+					{
+						if (e.Data.Name == sfxEvent)
+						{
+							PlayMergeSfx(sfx);
+						}
+					};
+				}
+			}
+			track.Complete += delegate
+			{
+				finish();
+			};
 		}
 
 		private void OnDisable()
@@ -213,7 +278,7 @@ namespace AnhPD.FoodOrder
 			if (s != null)
 			{
 				s.SetToSetupPose();
-				// TODO(unrecovered): pseudocode calls a virtual method (vtable +0x1f8) and SkeletonAnimation.Update(0) here; target not identified.
+				skeleton.Update(0f);
 			}
 			skeleton.gameObject.SetActive(false);
 		}

@@ -63,9 +63,13 @@ namespace AnhPD.FoodOrder
 
 		protected override bool TryGetIngIdOf<T>(T enumValue, out string id)
 		{
-			// TODO(unrecovered): override body not present in the pseudocode batch
 			id = null;
-			return false;
+			if (!((object)enumValue is FillingType filling) || !BurgerPieceTable.TryGetPiece(filling, out BurgerPiece piece))
+			{
+				return false;
+			}
+			RecipeConfigSO config = PieceLookup.Config;
+			return config != null && config.TryGetPreparedOfPiece((int)piece, out id) && !string.IsNullOrEmpty(id);
 		}
 
 		public override string GetId()
