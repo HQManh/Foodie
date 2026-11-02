@@ -550,18 +550,42 @@ namespace AnhPD.FoodOrder
 				StartHover(item);
 			}
 
+			// An item waiting for its turn on the shelf floats up and down a little so it reads as "held".
+			private const float HoverHeight = 0.08f;
+
+			private const float HoverDuration = 0.4f;
+
+			private readonly Dictionary<DragItem, float> _hoverBaseY = new Dictionary<DragItem, float>();
+
 			private void StartHover(DragItem item)
 			{
-				// TODO(unrecovered): hover tween chain (DOMoveY lift/bob sequence, callback target, ease constants) not fully mapped from the display-class pseudocode.
+				if (item == null) return;
+				StopHover(item);
+				Transform tf = item.transform;
+				float baseY = tf.position.y;
+				_hoverBaseY[item] = baseY;
+				_hovers[item] = tf.DOMoveY(baseY + HoverHeight, HoverDuration)
+					.SetEase(Ease.InOutSine)
+					.SetLoops(-1, LoopType.Yoyo)
+					.SetTarget(item);
 			}
 
 			private void StopHover(DragItem item)
 			{
+				if (item == null) return;
 				if (_hovers.TryGetValue(item, out Tween tween))
 				{
 					_hovers.Remove(item);
 					if (tween.IsActive()) tween.Kill(false);
+					// Back to where it was lifted from, so it does not stay up in the air.
+					if (_hoverBaseY.TryGetValue(item, out float baseY))
+					{
+						Vector3 position = item.transform.position;
+						position.y = baseY;
+						item.transform.position = position;
+					}
 				}
+				_hoverBaseY.Remove(item);
 			}
 
 			public void WhenFreed(DragItem item, Action onFreed)
@@ -2026,7 +2050,14 @@ namespace AnhPD.FoodOrder
 
 		private void RequestServeAfterAssemble(ServePlate plate)
 		{
-			// TODO(unrecovered): when plate.Item reports a positive wait (virtual call at vtable +0x1c8, not named in the stubs), the pseudocode raises a ServePlate float at +0x84 and schedules a delayed callback via DOVirtual.DelayedCall (ease/target set from unnamed statics); not reconstructed. The trailing RequestServe is applied.
+			// A dish that plays an assemble animation (burger, sandwich) is not served until it has finished: the plate is held for that long
+			// and the serve is requested again when the hold ends.
+			float wait = plate != null && plate.Item != null ? plate.Item.AssembleAnimDuration : 0f;
+			if (wait > 0f)
+			{
+				plate.HoldServe(wait);
+				DOVirtual.DelayedCall(wait, RequestServe, false).SetTarget(plate);
+			}
 			RequestServe();
 		}
 
@@ -2066,7 +2097,7 @@ namespace AnhPD.FoodOrder
 				{
 					if (plate == null || plate.IsEmpty) continue;
 					if (_serving.Contains(plate)) continue;
-					// TODO(unrecovered): ServePlate float at +0x84 (serve-not-before time, not a stub member) must be <= Time.time for the plate to serve; the gate is assumed open here.
+					if (plate.IsServeHeld) continue;
 					if (IsResultAnimPlaying(plate)) continue;
 					if (_merges.HasInbound(plate)) continue;
 					if (handle.TryGetServableLine(plate.Item, out FCustomerLine line))

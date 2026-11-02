@@ -243,8 +243,10 @@ namespace AnhPD.FoodOrder
 			{
 				return list;
 			}
-			// TODO(unrecovered): the original uses literal ids (a distinct "plain" id set when no flavor/addon is present); prepared ids from BurgerPieceTable are used here.
-			if (BurgerPieceTable.TryGetChickenPiece(typeCode, out var typePiece) && BurgerPieceTable.TryGetPreparedIdOf(typePiece, out var typeId))
+			// The chicken's own ingredient is the config's prepared one for its type (display_wing, display_thigh ...), which has its own
+			// sprite. (BurgerPieceTable gives a flexible id for chicken pieces, which has no component and would show the base sprite.)
+			RecipeConfigSO config = PieceLookup.Config;
+			if (BurgerPieceTable.TryGetChickenPiece(typeCode, out var typePiece) && config != null && config.TryGetPreparedOfPiece((int)typePiece, out var typeId) && !string.IsNullOrEmpty(typeId))
 			{
 				list.Add(typeId);
 			}
