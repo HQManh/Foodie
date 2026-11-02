@@ -9,6 +9,7 @@ using Cysharp.Threading.Tasks.CompilerServices;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Pseudo;
 using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.Tables;
 
 namespace CakeOrder.Localization
 {
@@ -131,57 +132,120 @@ public static class CakeLocalization
 
 	private static readonly Dictionary<string, string> NativeNames = new Dictionary<string, string>();
 
-	public static bool IsReady => false;
+	private const string CommonTable = "UI_Common";
 
-	public static Locale SelectedLocale => null;
+	public static bool IsReady => LocalizationSettings.HasSettings && LocalizationSettings.InitializationOperation.IsDone;
 
-	public static Locale SourceLocale => null;
+	public static Locale SelectedLocale => LocalizationSettings.HasSettings ? LocalizationSettings.SelectedLocale : null;
+
+	public static Locale SourceLocale
+	{
+		get
+		{
+			if (!LocalizationSettings.HasSettings)
+			{
+				return null;
+			}
+			foreach (Locale locale in LocalizationSettings.AvailableLocales.Locales)
+			{
+				if (locale != null && locale.Identifier.Code == SourceLocaleCode)
+				{
+					return locale;
+				}
+			}
+			return null;
+		}
+	}
 
 	public static event Action LocaleChanged;
 
+	// Looks a key up in the active map's table, then in the common one; a missing entry shows the key rather than nothing.
 	public static string Tr(string key)
 	{
-		return null;
+		string value = string.IsNullOrEmpty(_activeMapTable) ? null : Resolve(_activeMapTable, key);
+		return !string.IsNullOrEmpty(value) ? value : Get(CommonTable, key, key);
 	}
 
 	public static string Tr(string key, string table)
 	{
-		return null;
+		return Get(table, key, key);
 	}
 
 	public static string TrFormat(string key, params object[] args)
 	{
-		return null;
+		return Format(CommonTable, key, args);
 	}
 
 	public static string TrFormatIn(string table, string key, params object[] args)
 	{
-		return null;
+		return Format(table, key, args);
 	}
 
+	// The translation of key in the selected language (falling back to the source language), or the given fallback, or the key itself.
 	public static string Get(string table, string key, string fallback = null)
 	{
-		return null;
+		string value = Resolve(table, key);
+		if (!string.IsNullOrEmpty(value))
+		{
+			return value;
+		}
+		return fallback ?? key;
 	}
 
 	private static string Resolve(string table, string key)
 	{
-		return null;
+		if (string.IsNullOrEmpty(table) || string.IsNullOrEmpty(key) || !LocalizationSettings.HasSettings)
+		{
+			return null;
+		}
+		Locale selected = SelectedLocale;
+		string value = GetEntryValue(table, key, selected);
+		if (!string.IsNullOrEmpty(value))
+		{
+			return value;
+		}
+		Locale source = SourceLocale;
+		return source != null && source != selected ? GetEntryValue(table, key, source) : null;
 	}
 
 	private static string GetEntryValue(string table, string key, Locale locale)
 	{
-		return null;
+		if (locale == null)
+		{
+			return null;
+		}
+		try
+		{
+			StringTable stringTable = LocalizationSettings.StringDatabase.GetTable(table, locale);
+			StringTableEntry entry = stringTable != null ? stringTable.GetEntry(key) : null;
+			return entry != null ? entry.LocalizedValue : null;
+		}
+		catch (Exception)
+		{
+			return null;
+		}
 	}
 
 	private static string Pseudo(PseudoLocale pseudo, string value)
 	{
-		return null;
+		return value;
 	}
 
 	private static string Format(string table, string key, object[] args)
 	{
-		return null;
+		string text = Get(table, key, key);
+		if (args == null || args.Length == 0)
+		{
+			return text;
+		}
+		try
+		{
+			return string.Format(text, args);
+		}
+		catch (FormatException)
+		{
+			return text;
+		}
 	}
 
 	[AsyncStateMachine(typeof(_003CInitializeAsync_003Ed__18))]
@@ -206,6 +270,7 @@ public static class CakeLocalization
 
 	public static void SetActiveMap(string mapId)
 	{
+		_activeMapTable = mapId;
 	}
 
 	[AsyncStateMachine(typeof(_003COnSelectedLocaleChanged_003Ed__23))]
@@ -215,21 +280,56 @@ public static class CakeLocalization
 
 	public static List<Locale> GetSelectableLocales(bool includePseudo)
 	{
-		return null;
+		List<Locale> result = new List<Locale>();
+		if (!LocalizationSettings.HasSettings)
+		{
+			return result;
+		}
+		foreach (Locale locale in LocalizationSettings.AvailableLocales.Locales)
+		{
+			if (locale != null && (includePseudo || !(locale is PseudoLocale)))
+			{
+				result.Add(locale);
+			}
+		}
+		result.Sort((a, b) => OrderOf(a).CompareTo(OrderOf(b)));
+		return result;
 	}
 
+	// The source language first, the others in their project order.
 	private static int OrderOf(Locale locale)
 	{
-		return 0;
+		return locale != null && locale.Identifier.Code == SourceLocaleCode ? -1 : 0;
 	}
 
 	public static void SetLocale(Locale locale)
 	{
+		if (locale == null || !LocalizationSettings.HasSettings || LocalizationSettings.SelectedLocale == locale)
+		{
+			return;
+		}
+		LocalizationSettings.SelectedLocale = locale;
+		LocaleChanged?.Invoke();
 	}
 
 	public static string GetDisplayName(Locale locale)
 	{
-		return null;
+		if (locale == null)
+		{
+			return null;
+		}
+		if (NativeNames.TryGetValue(locale.Identifier.Code, out string native))
+		{
+			return native;
+		}
+		try
+		{
+			return locale.Identifier.CultureInfo != null ? locale.Identifier.CultureInfo.NativeName : locale.LocaleName;
+		}
+		catch (Exception)
+		{
+			return locale.LocaleName;
+		}
 	}
 }
 }
