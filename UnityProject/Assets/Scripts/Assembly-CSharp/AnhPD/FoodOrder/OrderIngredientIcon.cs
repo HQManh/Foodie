@@ -13,14 +13,14 @@ namespace AnhPD.FoodOrder
 		[SerializeField]
 		private OutlineFilter outline;
 
-		[Tooltip("Colour and thickness of the built-in UI outline that replaces the UIFX filter.")]
+		[Tooltip("Colour and thickness of the solid outline that replaces the UIFX filter.")]
 		[SerializeField]
 		private Color outlineColor = new Color(0.9333f, 0.7176f, 0.5412f, 1f);
 
 		[SerializeField]
 		private float outlineSize = 4f;
 
-		private UnityEngine.UI.Outline _outline;
+		private OutlineSilhouette _outline;
 
 		private bool _owned;
 
@@ -30,17 +30,17 @@ namespace AnhPD.FoodOrder
 
 		private void Awake()
 		{
-			// The UIFX OutlineFilter leaves the icon blank on this world-space canvas (even when disabled),
-			// so it is removed and a plain UI Outline draws the border instead.
+			// The UIFX OutlineFilter leaves the icon blank on this world-space canvas (even when disabled), so it is removed and a
+			// solid outline drawn by a mesh effect (flat colour in the sprite's shape, behind the icon) takes its place.
 			if (outline != null)
 			{
 				Destroy(outline);
 				outline = null;
 			}
-			_outline = gameObject.AddComponent<UnityEngine.UI.Outline>();
-			_outline.effectColor = outlineColor;
-			_outline.effectDistance = new Vector2(outlineSize, outlineSize);
-			_outline.useGraphicAlpha = true;
+			_outline = gameObject.AddComponent<OutlineSilhouette>();
+			_outline.Color = outlineColor;
+			_outline.Size = outlineSize;
+			_outline.Prepare();
 		}
 
 		public void Bind(string id, Sprite sprite)

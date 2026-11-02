@@ -552,8 +552,43 @@ namespace AnhPD.FoodOrder
 			}
 			float minX = Mathf.Min(b.x, n.x);
 			float maxX = Mathf.Max(b.x + b.width, n.x + n.width);
-			SetParentSpaceRect(_rt, new Vector2(minX, b.y), new Vector2(maxX, b.y + b.height));
-			_targetPos = new Vector2(_rt.anchoredPosition.x, b.y);
+			float minY = b.y;
+			float maxY = b.y + b.height;
+			// The order board area is taller (and a little wider) than the card it sits on. Cover only the card itself, so the panel's
+			// rounded corners land on the card's rounded corners instead of sticking out over the border.
+			if (TryGetCardRect(parent, out Rect card))
+			{
+				minY = Mathf.Max(minY, card.yMin);
+				maxY = Mathf.Min(maxY, card.yMax);
+				if (!neighbour && !_widen)
+				{
+					minX = Mathf.Max(minX, card.xMin);
+					maxX = Mathf.Min(maxX, card.xMax);
+				}
+				if (maxY <= minY || maxX <= minX)
+				{
+					minY = b.y;
+					maxY = b.y + b.height;
+					minX = Mathf.Min(b.x, n.x);
+					maxX = Mathf.Max(b.x + b.width, n.x + n.width);
+				}
+			}
+			SetParentSpaceRect(_rt, new Vector2(minX, minY), new Vector2(maxX, maxY));
+			_targetPos = new Vector2(_rt.anchoredPosition.x, minY);
+		}
+
+		// The card background of the order frame this ingredient clip belongs to, in the local space of 'space'.
+		private static bool TryGetCardRect(RectTransform space, out Rect card)
+		{
+			card = default;
+			Transform frame = space != null ? space.parent : null;
+			Transform bg = frame != null ? frame.Find("image - bg") : null;
+			if (bg == null)
+			{
+				return false;
+			}
+			card = LocalRect(space, (RectTransform)bg);
+			return card.width > 0f && card.height > 0f;
 		}
 
 		private static void SetParentSpaceRect(RectTransform rt, Vector2 min, Vector2 max)
