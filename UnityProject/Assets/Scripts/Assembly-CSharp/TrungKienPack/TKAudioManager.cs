@@ -70,12 +70,12 @@ namespace TrungKienPack
 		{
 			if (element == null || element.clip == null)
 			{
-				throw new NullReferenceException();
+				yield break;
 			}
 			yield return new WaitForSeconds(element.clip.length);
 			if (element == null)
 			{
-				throw new NullReferenceException();
+				yield break;
 			}
 			DeSpawn(element);
 		}

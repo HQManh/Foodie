@@ -66,7 +66,7 @@ namespace Datpt.Cook_Order
 		public override void OnClickDown()
 		{
 			ResetOrder();
-			// TODO(unrecovered): plays the click SFX through SoundControl.Ins (FUN_04d59cfc arguments are not mapped to a stub signature).
+			SoundControl.Ins?.PlayFX(Datpt.ESfx.Click, false);
 		}
 	}
 }

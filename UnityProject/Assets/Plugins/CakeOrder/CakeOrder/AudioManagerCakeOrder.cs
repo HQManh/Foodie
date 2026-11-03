@@ -927,6 +927,7 @@ public class AudioManagerCakeOrder : Utilities.MonoSingleton<AudioManagerCakeOrd
 
 	public void ToggleMusic()
 	{
+		SetBgmActive(!IsMusicActive);
 	}
 
 	public void ToggleSfx()

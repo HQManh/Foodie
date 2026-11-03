@@ -82,42 +82,69 @@ namespace Datpt.Cook_Order
 		{
 			get
 			{
-				// TODO(unrecovered): when the static ins is null, an unnamed lookup helper (FUN_04c34c64) assigns it; the helper has no stub equivalent.
+				if (ins == null)
+				{
+					ins = UnityEngine.Object.FindObjectOfType<SoundControl>();
+				}
 				return ins;
 			}
 		}
 
 		private void Awake()
 		{
+			ins = this;
 			sources.Clear();
 			time = Time.time;
 		}
 
 		private void OnDestroy()
 		{
+			if (ins == this)
+			{
+				ins = null;
+			}
+		}
+
+		// Enum values index into audioClips.
+		private AudioClip ClipOf<T>(T t)
+		{
+			int index = Convert.ToInt32(t);
+			return audioClips != null && index >= 0 && index < audioClips.Length ? audioClips[index] : null;
 		}
 
 		public void PlayFX<T>(T t, bool loop = false) where T : Enum
 		{
+			AudioClip clip = ClipOf(t);
+			if (clip != null)
+			{
+				PlayFX(clip, loop);
+			}
 		}
 
 		public void PlayFX<T>(T t, float delay) where T : Enum
 		{
+			StartCoroutine(IEPlayFX(t, delay));
 		}
 
 		public bool IsPlaying<T>(T t)
 		{
-			return false;
+			AudioClip clip = ClipOf(t);
+			return clip != null && sources.TryGetValue(clip, out var source) && source != null && source.isPlaying;
 		}
 
 		public void StopFX<T>(T t) where T : Enum
 		{
+			AudioClip clip = ClipOf(t);
+			if (clip != null && sources.TryGetValue(clip, out var source) && source != null)
+			{
+				source.Stop();
+			}
 		}
 
-		[IteratorStateMachine(typeof(_003CIEPlayFX_003Ed__13<>))]
 		private IEnumerator IEPlayFX<T>(T t, float delay) where T : Enum
 		{
-			return null;
+			yield return new WaitForSeconds(delay);
+			PlayFX(t);
 		}
 
 		public void PlayFX(AudioClip clip, bool loop = false)
@@ -126,7 +153,7 @@ namespace Datpt.Cook_Order
 			{
 				return;
 			}
-			if (Time.time <= time + 0.2f)
+			if (clip == null)
 			{
 				return;
 			}
@@ -139,6 +166,7 @@ namespace Datpt.Cook_Order
 			}
 			if (sources[clip] != null)
 			{
+				sources[clip].loop = loop;
 				sources[clip].Play();
 			}
 		}

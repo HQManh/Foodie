@@ -104,7 +104,7 @@ namespace Datpt.Cook_Order
 		{
 			if (SoundControl.Ins != null)
 			{
-				// TODO(unrecovered): SoundControl.PlayFX(<enum value 2>, false) - the enum type of the generic argument is not recoverable from the pseudocode.
+				SoundControl.Ins.PlayFX(Datpt.ESfx.KnifeCut, false);
 				if (hitObj == null)
 				{
 					return;

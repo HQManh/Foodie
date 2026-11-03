@@ -619,7 +619,7 @@ namespace Datpt.Cook_Order
 			}
 			// Slot 0x388 on this resolves to RandomeNewIngredient (vtable index 37, from the IL2CPP metadata).
 			RandomeNewIngredient();
-			// TODO(unrecovered): the original then calls SoundControl.PlayFX with enum value 9; the enum type is not recovered.
+			SoundControl.Ins?.PlayFX(Datpt.ESfx.CashRegister, false);
 		}
 
 		public virtual void RandomeNewIngredientNoConfig()

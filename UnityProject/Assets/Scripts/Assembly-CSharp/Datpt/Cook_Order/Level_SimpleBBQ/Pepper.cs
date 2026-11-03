@@ -25,7 +25,7 @@ namespace Datpt.Cook_Order.Level_SimpleBBQ
 		public override void OnClickDown()
 		{
 			base.OnClickDown();
-			// TODO(unrecovered): SoundControl.Ins.PlayFX(<enum value 0>, false); the generic enum type is not recoverable from the pseudocode.
+			SoundControl.Ins?.PlayFX(Datpt.ESfx.Click, false);
 		}
 
 		public override void OnDrop()

@@ -141,7 +141,7 @@ namespace Datpt.Cook_Order.Level_SimpleBBQ
 		public override void OnClickDown()
 		{
 			base.OnClickDown();
-			// TODO(unrecovered): SoundControl.Ins.PlayFX(<enum value 0>, false) has an unrecovered enum type; the IsGrilling branch also calls an IL2CPP virtual slot (0x4c8) after StopShakingSkewer.
+			SoundControl.Ins?.PlayFX(Datpt.ESfx.Click, false);
 			if (IsGrilling)
 			{
 				StopShakingSkewer();
