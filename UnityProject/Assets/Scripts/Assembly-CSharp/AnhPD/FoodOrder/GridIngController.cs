@@ -728,8 +728,23 @@ namespace AnhPD.FoodOrder
 
 		private string ReadRescuePlan(MessyController messy)
 		{
-			// TODO(unrecovered): rescue plan text is built from the level piece book and line recipes; not recovered
-			return null;
+			// Reconstructed: collect the raw ingredients still needed to finish the open orders; the joined ids double as the plan signature.
+			_rescueItems.Clear();
+			LevelPieceBook book = (messy != null && messy.Info != null) ? messy.Info.Pieces : null;
+			if (book == null)
+			{
+				return string.Empty;
+			}
+			book.CollectRawToFinishOpenOrders(_rescueItems);
+			System.Text.StringBuilder sb = new System.Text.StringBuilder();
+			foreach (IngredientState item in _rescueItems)
+			{
+				if (item != null)
+				{
+					sb.Append(item.id).Append('x').Append(item.amount).Append(',');
+				}
+			}
+			return sb.ToString();
 		}
 
 		private void LoseOnDeadlock()

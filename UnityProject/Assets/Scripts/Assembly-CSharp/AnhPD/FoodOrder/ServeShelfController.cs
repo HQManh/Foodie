@@ -1283,6 +1283,9 @@ namespace AnhPD.FoodOrder
 		private void TryVirtualPlate(int plateDish, string itemBaseId, PieceSet itemPieces, int itemDish, int baseScore, LevelInfo info, ref int bestScore, ref int bornDish)
 		{
 			if (!DishFits(plateDish, itemDish)) return;
+			// A loose item may only start a plate of a dish it can actually open (a salmon slice cannot start a gunkan plate),
+			// the same rule CanStartPlate applies; without it the solver could place an item on any plate whose dish an order wants.
+			if (plateDish >= 0 && itemDish < 0 && !info.CanOpenDish(plateDish, itemBaseId, itemPieces)) return;
 			int index = _snapshot.PushVirtualPlate(itemPieces, plateDish, info.SequenceOf(itemBaseId));
 			int score = _snapshot.Solve();
 			int assigned = _snapshot.AssignOf(index);

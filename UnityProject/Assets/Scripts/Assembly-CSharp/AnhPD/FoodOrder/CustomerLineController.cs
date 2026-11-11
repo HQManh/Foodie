@@ -456,6 +456,7 @@ namespace AnhPD.FoodOrder
 			_view.OnRefillWaitTime();
 			_view.StopShake();
 			_view.Timer.StartWaiting();
+			onDone?.Invoke();
 		}
 
 		// A customer with a weather effect turns the background to that weather while they order; it returns to the level's weather when they leave.

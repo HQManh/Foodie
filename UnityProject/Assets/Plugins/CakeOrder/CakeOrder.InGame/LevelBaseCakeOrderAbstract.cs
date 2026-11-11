@@ -387,14 +387,17 @@ public abstract class LevelBaseCakeOrderAbstract : MonoSingleton<LevelBaseCakeOr
 
 	public void TriggerOutOfServeSlot()
 	{
+		this.onOutOfServeSlot?.Invoke();
 	}
 
 	public void TriggerBeltDeadlock()
 	{
+		this.onBeltDeadlock?.Invoke();
 	}
 
 	public void TriggerUseMoreServeSlot()
 	{
+		this.onUseMoreServeSlot?.Invoke();
 	}
 
 	// Set by whoever owns the save-me flow (the original LevelSaveMeControl): offers a revive when a customer runs out of patience and

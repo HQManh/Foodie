@@ -20,7 +20,7 @@ namespace AnhPD.FoodOrder
 			SushiDish.Tea
 		};
 
-		private static readonly PieceSet TeaPieces;
+		private static readonly PieceSet TeaPieces = PieceSet.One((int)SushiPiece.Tea);
 
 		private readonly List<PieceSet> _gathered = new List<PieceSet>();
 
@@ -42,8 +42,45 @@ namespace AnhPD.FoodOrder
 
 		public override string[] GenerateRandomRecipes()
 		{
-			// TODO(unrecovered): the output is encoded with CakeOrder_InGame_OrderRecipeCodec.Encode, and OrderRecipeCodec is not in this project.
-			return null;
+			int num = Random.Range(1, 4);
+			List<string> list = new List<string>(num);
+			List<SushiDish> pool = new List<SushiDish>();
+			RecipeConfigSO config = Config;
+			if (config == null)
+			{
+				return list.ToArray();
+			}
+			foreach (SushiDish dish in RollableDishes)
+			{
+				if (CanRoll(config, dish))
+				{
+					pool.Add(dish);
+				}
+			}
+			if (pool.Count == 0)
+			{
+				return list.ToArray();
+			}
+			List<int> kinds = new List<int>();
+			for (int i = 0; i < num; i++)
+			{
+				SushiDish pick = pool[Random.Range(0, pool.Count)];
+				PieceSet rolled = Roll(pick);
+				if (rolled.IsEmpty)
+				{
+					continue;
+				}
+				kinds.Clear();
+				foreach (var (kind, count) in rolled)
+				{
+					for (int c = 0; c < count; c++)
+					{
+						kinds.Add(kind);
+					}
+				}
+				list.Add(OrderRecipeCodec.Encode((int)pick, kinds));
+			}
+			return list.ToArray();
 		}
 
 		private static bool CanRoll(RecipeConfigSO config, SushiDish dish)
@@ -57,14 +94,54 @@ namespace AnhPD.FoodOrder
 
 		private PieceSet Roll(SushiDish dish)
 		{
-			// TODO(unrecovered): the canShow closure is built from the prefab by unidentified helper FUN_05316834, and the cast type DAT_09186798 is not identified.
-			return default;
+			// canShow (a prefab visual check in the original) is replaced by the piece-exists check inside the table.
+			switch (dish)
+			{
+			case SushiDish.Nigiri:
+				return SushiPieceTable.RollNigiri(maxRandomToppings);
+			case SushiDish.Maki:
+				return SushiPieceTable.RollMaki(maxRandomToppings);
+			case SushiDish.Gunkan:
+				return SushiPieceTable.RollGunkan(maxRandomToppings);
+			case SushiDish.Sashimi:
+				return SushiPieceTable.RollSashimi(maxRandomToppings);
+			case SushiDish.Tea:
+				return TeaPieces;
+			default:
+				return PieceSet.Empty;
+			}
 		}
 
 		public override Stack<string> ConvertSpawnDataToStack(CustomerSpawnData[] allSpawnData)
 		{
-			// TODO(unrecovered): entries are decoded with CakeOrder_InGame_OrderRecipeCodec.TryDecode, and OrderRecipeCodec is not in this project.
-			return null;
+			List<string> all = new List<string>();
+			RecipeConfigSO config = Config;
+			List<string> ids = new List<string>();
+			if (config != null && allSpawnData != null)
+			{
+				foreach (CustomerSpawnData spawn in allSpawnData)
+				{
+					if (spawn == null || spawn.orders == null)
+					{
+						continue;
+					}
+					foreach (CustomerSingleOrderSpawnData order in spawn.orders)
+					{
+						if (!TryDecodeRecipe(order.recipe, out _, out PieceSet pieces))
+						{
+							continue;
+						}
+						foreach (var (kind, _) in pieces)
+						{
+							ids.Clear();
+							config.CollectSpawnIdsOfPiece(kind, ids);
+							all.AddRange(ids);
+						}
+					}
+				}
+			}
+			all.Reverse();
+			return new Stack<string>(all);
 		}
 
 		public override bool WantsStationResult(string resultId)
@@ -76,10 +153,62 @@ namespace AnhPD.FoodOrder
 			return StationResultDemand(resultId) > 0;
 		}
 
+		private readonly List<PieceSet> _demandGathered = new List<PieceSet>();
+
 		public override int StationResultDemand(string resultId)
 		{
-			// TODO(unrecovered): depends on MessyController line / serve-shelf members, FCustomerLineHandle and LevelPieceBook.CountMade, none of which are stubbed.
-			return 0;
+			// Rebuilt as a live need count: how many of this cut form the customers still waiting need (pieces of their open orders
+			// that use this form, minus what the serve shelf already holds for them), minus the copies already made, owed by a station,
+			// inbound or in the bag. The original body is not recoverable; this mirrors LevelPieceBook.CollectRawToFinishOpenOrders.
+			if (!TryGetCutForm(resultId, out SushiPiece piece, out _, out _))
+			{
+				return 0;
+			}
+			MessyController level = MessyController.Ins;
+			LevelInfo info = level != null ? level.Info : null;
+			LevelPieceBook book = info != null ? info.Pieces : null;
+			FCustomerLineHandle line = level != null ? level.LineHandle : null;
+			RecipeConfigSO config = Config;
+			if (book == null || line == null || config == null)
+			{
+				return 1;
+			}
+			List<OrderSpec> specs = line.GetActiveOpenOrderSpecs();
+			if (specs == null || specs.Count == 0)
+			{
+				return 0;
+			}
+			_demandGathered.Clear();
+			if (level.ServeShelf != null)
+			{
+				level.ServeShelf.GetGatheredPieces(specs, _demandGathered);
+			}
+			int needed = 0;
+			for (int i = 0; i < specs.Count; i++)
+			{
+				OrderSpec spec = specs[i];
+				if (!spec.HasPieces)
+				{
+					continue;
+				}
+				int count = spec.Pieces[(int)piece];
+				if (count == 0)
+				{
+					continue;
+				}
+				int dishKey = info.DishKeyOfOrder(spec);
+				if (!info.TryGetFormOf(dishKey, (int)piece, out string formId) && !config.TryGetPreparedOfPiece((int)piece, out formId))
+				{
+					continue;
+				}
+				if (formId != resultId)
+				{
+					continue;
+				}
+				int gathered = i < _demandGathered.Count ? _demandGathered[i][(int)piece] : 0;
+				needed += Mathf.Max(0, count - gathered);
+			}
+			return Mathf.Max(0, needed - book.CountMade(resultId));
 		}
 
 		public override bool TryGetFormOf(int dishKey, int pieceKind, out string formId)
@@ -165,15 +294,105 @@ namespace AnhPD.FoodOrder
 			return false;
 		}
 
+		protected override string RandomFlexibleId(FlexibleDragItem prefab, List<string> allBaseIds)
+		{
+			return prefab.BuildRandomId(maxRandomToppings);
+		}
+
+		public override bool TryGetOrderPieces(string recipe, out PieceSet pieces)
+		{
+			return TryDecodeRecipe(recipe, out _, out pieces);
+		}
+
+		public override bool WantsAutoStationResult(string resultId)
+		{
+			return TryGetCutForm(resultId, out _, out _, out _) && StationResultDemand(resultId) > 0;
+		}
+
 		public override bool WantsRefineInPlace(string refinedId)
 		{
 			return SushiPieceTable.IsCube(refinedId) && WantsAutoStationResult(refinedId);
 		}
 
+		private static bool TryDecodeRecipe(string recipe, out SushiDish dish, out PieceSet pieces)
+		{
+			dish = SushiDish.None;
+			pieces = PieceSet.Empty;
+			if (!OrderRecipeCodec.TryDecode(recipe, out var decoded))
+			{
+				return false;
+			}
+			foreach (int kind in decoded.Pieces)
+			{
+				if (System.Enum.IsDefined(typeof(SushiPiece), kind))
+				{
+					pieces = pieces.Add(kind);
+				}
+			}
+			if (pieces.IsEmpty)
+			{
+				return false;
+			}
+			dish = System.Enum.IsDefined(typeof(SushiDish), decoded.Dish) ? (SushiDish)decoded.Dish : SushiDish.None;
+			if (dish == SushiDish.None)
+			{
+				dish = InferDish(pieces);
+			}
+			return true;
+		}
+
+		private static SushiDish InferDish(PieceSet pieces)
+		{
+			if (pieces[(int)SushiPiece.Tea] > 0 || pieces[(int)SushiPiece.TeaCup] > 0)
+			{
+				return SushiDish.Tea;
+			}
+			if (pieces[(int)SushiPiece.Seaweed] > 0)
+			{
+				return SushiTableHasRoe(pieces) ? SushiDish.Gunkan : SushiDish.Maki;
+			}
+			if (pieces[(int)SushiPiece.Rice] > 0)
+			{
+				return SushiDish.Nigiri;
+			}
+			return SushiDish.Sashimi;
+		}
+
+		private static bool SushiTableHasRoe(PieceSet pieces)
+		{
+			return SushiPieceTable.HasRoe(pieces);
+		}
+
 		public override OrderSpec[] ConvertOrderData(string encodedOrder)
 		{
-			// TODO(unrecovered): decoding uses CakeOrder_InGame_OrderRecipeCodec.TryDecode, which is not in this project.
-			return null;
+			RecipeConfigSO config = Config;
+			if (config != null && TryDecodeRecipe(encodedOrder, out SushiDish dish, out PieceSet pieces))
+			{
+				List<OrderSpec> specs = new List<OrderSpec>();
+				if (dish != SushiDish.Tea && config.TryGetDishBaseId((int)dish, out string baseId))
+				{
+					specs.Add(new OrderSpec(FlexiblePieceId.Build(baseId, pieces), baseId, pieces, hasPieces: true));
+				}
+				else if (config.TryGetPreparedOfPieceSet(pieces, out string preparedId))
+				{
+					specs.Add(new OrderSpec(preparedId, preparedId, pieces, hasPieces: true));
+				}
+				else
+				{
+					foreach (var (kind, _) in pieces)
+					{
+						if (config.TryGetPreparedOfPiece(kind, out string pieceId))
+						{
+							specs.Add(new OrderSpec(pieceId, pieceId, PieceSet.One(kind), hasPieces: true));
+						}
+					}
+				}
+				if (specs.Count != 0)
+				{
+					return specs.ToArray();
+				}
+			}
+			return new OrderSpec[1] { BuildSpec(encodedOrder) };
 		}
 
 		public override bool CanOpenDish(int dishKey, string itemBaseId, PieceSet itemPieces)
@@ -205,34 +424,89 @@ namespace AnhPD.FoodOrder
 
 		public override bool TryGetDishResult(int dishKey, string currentId, string ingId, out string resultId)
 		{
-			// TODO(unrecovered): a virtual call (vtable slot 0x2c8) on the prefab, cast to the unidentified type DAT_09184728, is not identified.
+			// Slot 0x2c8 on FlexibleDragItem is PredictCombinePieces. Seaweed + cooked rice is both a maki and a gunkan start,
+			// so the plain recipe lookup would always pick one of them; the plate's dish key decides instead.
 			resultId = null;
-			return false;
+			RecipeConfigSO config = Config;
+			if (config != null && config.TryGetDishBaseId(dishKey, out string baseId))
+			{
+				DragItem prefab = config.GetIngredientPrefab(baseId);
+				if (prefab is FlexibleDragItem flexible)
+				{
+					if (!flexible.PredictCombinePieces(currentId, ingId).IsEmpty)
+					{
+						resultId = baseId;
+						return true;
+					}
+					return false;
+				}
+			}
+			return base.TryGetDishResult(dishKey, currentId, ingId, out resultId);
 		}
 
 		public override bool TryGetDishOpener(int dishKey, string ingId, out string resultId)
 		{
-			// TODO(unrecovered): a virtual call (vtable slot 0x2d8) on the prefab, cast to the unidentified type DAT_09184728, is not identified.
+			// Slot 0x2d8 on FlexibleDragItem is PredictOpenPieces (only sashimi opens an empty plate).
 			resultId = null;
+			RecipeConfigSO config = Config;
+			if (config != null && config.TryGetDishBaseId(dishKey, out string baseId))
+			{
+				DragItem prefab = config.GetIngredientPrefab(baseId);
+				if (prefab is FlexibleDragItem flexible && !flexible.PredictOpenPieces(ingId).IsEmpty)
+				{
+					resultId = baseId;
+					return true;
+				}
+			}
 			return false;
 		}
 
 		public override PieceOffer GetItemPieceOffer(DragItem item)
 		{
-			// TODO(unrecovered): the cast target type (DAT_09185be8) and the virtual call that yields the piece set are not identified.
-			return null;
+			if (item is FlexibleDragItem flexible)
+			{
+				return new PieceOffer { pieces = flexible.Pieces, subsetOnly = true, priority = 0 };
+			}
+			return item == null ? null : GetIdPieceOffer(item.GetId());
 		}
 
 		public override PieceOffer GetIdPieceOffer(string id)
 		{
-			// TODO(unrecovered): iterates dish and ingredient members through unidentified virtual calls (vtable slots 0x..., DAT_0917a6f0 / DAT_09185b10 / DAT_0917add0).
-			return null;
+			RecipeConfigSO config = Config;
+			if (config != null)
+			{
+				foreach (SushiDish dish in RollableDishes)
+				{
+					if (dish != SushiDish.Tea && config.TryGetDishBaseId((int)dish, out string baseId))
+					{
+						PieceSet pieces = FlexiblePieceId.PiecesOf(baseId, id);
+						if (!pieces.IsEmpty)
+						{
+							return new PieceOffer { subsetOnly = true, pieces = pieces, priority = 0 };
+						}
+					}
+				}
+			}
+			if (id == null)
+			{
+				id = string.Empty;
+			}
+			return IdOffers != null && IdOffers.TryGetValue(id, out PieceOffer offer) ? offer : null;
 		}
 
 		private static Dictionary<string, PieceOffer> BuildIdOffers()
 		{
-			// TODO(unrecovered): builds the dictionary through unidentified virtual calls on the offer sources (DAT_0917a2f8 / DAT_0917a980 / DAT_09185b10).
-			return null;
+			Dictionary<string, PieceOffer> dictionary = new Dictionary<string, PieceOffer>();
+			RecipeConfigSO config = Config;
+			if (config == null)
+			{
+				return dictionary;
+			}
+			foreach (var (key, pieces) in config.OfferingIngredients())
+			{
+				dictionary[key] = new PieceOffer { subsetOnly = true, priority = 1, pieces = pieces };
+			}
+			return dictionary;
 		}
 	}
 }

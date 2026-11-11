@@ -14,7 +14,16 @@ using UnityEngine.SceneManagement;
 // LevelTestSystemSimulator ("IngameConfigTest"), so the gameplay can be run and debugged on its own.
 public class FSBurgerDebugBootstrap : MonoBehaviour
 {
-	private const string MapIdFragment = "burger";
+	private static string MapIdFragment
+	{
+		get
+		{
+			string scene = SceneManager.GetActiveScene().name.ToLowerInvariant();
+			if (scene.Contains("cafe")) return "coffee";
+			if (scene.Contains("sushi")) return "sushi";
+			return "burger";
+		}
+	}
 
 	private const string InitManagersScenePath = "Assets/_Production/Map-common_assets/Scenes/InitManagers.unity";
 
@@ -144,10 +153,12 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		int levelIndex = SelectedLevel;
 		string customerStrings = sim.customerData;
 		string queueStrings = sim.ingredientQueueData;
-		if (TryGetLevelDesign(mapId, levelIndex, out string designCustomers, out string designQueue, out int designCount, out string designMeta))
+		string gridStrings = sim.gridData;
+		if (TryGetLevelDesign(mapId, levelIndex, out string designCustomers, out string designQueue, out int designCount, out string designMeta, out string designGrid))
 		{
 			customerStrings = designCustomers;
 			queueStrings = designQueue;
+			if (!string.IsNullOrEmpty(designGrid)) gridStrings = designGrid;
 			_levelCount = designCount;
 		}
 		SingleLevelMetadata metadata = new SingleLevelMetadata
@@ -179,7 +190,7 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			heartConfig = sim.heartConfig,
 			serveSlotConfig = sim.serveSlotConfig,
 			customerOrderDataString = customerStrings,
-			gridDataString = sim.gridData,
+			gridDataString = gridStrings,
 			ingredientQueueDataString = queueStrings,
 		};
 		Debug.Log("[FSBurgerDebugBootstrap] starting level: map '" + mapId + "', level index " + levelIndex + ".");
@@ -237,6 +248,10 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		_saveMeOffer = false;
 		level.CustomerOutOfTimeHandler = OfferCustomerSaveMe;
 		level.onPlayStateChanged += OnPlayStateChanged;
+		level.onOutOfServeSlot -= OnBoardFull;
+		level.onOutOfServeSlot += OnBoardFull;
+		level.onBeltDeadlock -= OnBeltStuck;
+		level.onBeltDeadlock += OnBeltStuck;
 		FSBurgerAutoPlayer bot = GetComponent<FSBurgerAutoPlayer>();
 		if (bot == null)
 		{
@@ -256,12 +271,33 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 
 	private bool OfferCustomerSaveMe()
 	{
+		if (!_saveMeOffer) _saveMeKind = SaveMeKind.CustomerOutOfTime;
 		if (_saveMesUsed >= FreeSaveMes)
 		{
 			return false;
 		}
 		_saveMeOffer = true;
 		return true;
+	}
+
+	private enum SaveMeKind { CustomerOutOfTime, BoardFull, BeltStuck }
+
+	private SaveMeKind _saveMeKind;
+
+	// Board full (nothing can be placed) and belt deadlock (nothing on the board can move) are lost on the spot unless a revive is offered.
+	private void OnBoardFull() { OfferOrLose(SaveMeKind.BoardFull); }
+
+	private void OnBeltStuck() { OfferOrLose(SaveMeKind.BeltStuck); }
+
+	private void OfferOrLose(SaveMeKind kind)
+	{
+		if (_saveMeOffer) return;
+		if (OfferCustomerSaveMe())
+		{
+			_saveMeKind = kind;
+			return;
+		}
+		ResolveSaveMe(false);
 	}
 
 	private void ResolveSaveMe(bool revive)
@@ -272,7 +308,12 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 		if (revive)
 		{
 			_saveMesUsed++;
-			level.ApplySaveMeOnCustomerOutOfTime();
+			switch (_saveMeKind)
+			{
+				case SaveMeKind.BoardFull: level.ApplySaveMeOnOutOfServeSlots(null); break;
+				case SaveMeKind.BeltStuck: level.ApplySaveMeOnBeltDeadlock(); break;
+				default: level.ApplySaveMeOnCustomerOutOfTime(); break;
+			}
 			return;
 		}
 		MessyController messy = level as MessyController;
@@ -442,9 +483,10 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 	}
 
 	// Level designs per map live in the remote-config defaults (RemoteConfigDefaultSetterCakeOrder._mapConfig[].levelDesigns): "customers~~queue".
-	private static bool TryGetLevelDesign(string mapId, int index, out string customers, out string queue, out int count, out string levelMeta)
+	private static bool TryGetLevelDesign(string mapId, int index, out string customers, out string queue, out int count, out string levelMeta, out string grid)
 	{
 		levelMeta = null;
+		grid = null;
 		customers = null;
 		queue = null;
 		count = 1;
@@ -460,10 +502,12 @@ public class FSBurgerDebugBootstrap : MonoBehaviour
 			System.Collections.IList designs = t.GetField("levelDesigns", flags)?.GetValue(map) as System.Collections.IList;
 			if (designs == null || designs.Count == 0) return false;
 			count = designs.Count;
-			string[] parts = (designs[Mathf.Clamp(index, 0, designs.Count - 1)] as string ?? "").Split(new[] { "~~" }, StringSplitOptions.None);
+			// Design format: "customers~grid~queue"; the grid section is empty ("customers~~queue") for levels that keep the default grid.
+			string[] parts = (designs[Mathf.Clamp(index, 0, designs.Count - 1)] as string ?? "").Split('~');
 			if (parts.Length < 2) return false;
 			customers = parts[0];
-			queue = parts[1];
+			queue = parts[parts.Length - 1];
+			if (parts.Length >= 3) grid = parts[1];
 			string[] metas = (t.GetField("lv_metadata", flags)?.GetValue(map) as string ?? "").Split('|');
 			levelMeta = index >= 0 && index < metas.Length ? metas[index] : null;
 			return true;

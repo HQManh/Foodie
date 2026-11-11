@@ -37,7 +37,60 @@ namespace AnhPD.FoodOrder
 
 		public void Play(Transform[] pieces, Action onComplete)
 		{
-			// TODO(unrecovered): DOTween-heavy (Sequence building, InsertCallback, DOLocalMove/DOPunchScale chains and nested tween callbacks in the <>c__DisplayClass13_0/_1 closures, which have no stubs).
+			// Reconstructed: pieces drop in one after another, land with a squash punch, then onComplete fires.
+			Kill();
+			if (pieces == null || pieces.Length == 0)
+			{
+				onComplete?.Invoke();
+				return;
+			}
+			_pieces = pieces;
+			_restPos = new Vector3[pieces.Length];
+			_restScale = new Vector3[pieces.Length];
+			_restActive = new bool[pieces.Length];
+			_sequence = DOTween.Sequence();
+			for (int i = 0; i < pieces.Length; i++)
+			{
+				Transform piece = pieces[i];
+				if (piece == null)
+				{
+					continue;
+				}
+				_restPos[i] = piece.localPosition;
+				_restScale[i] = piece.localScale;
+				_restActive[i] = piece.gameObject.activeSelf;
+				piece.gameObject.SetActive(false);
+			}
+			for (int i = 0; i < pieces.Length; i++)
+			{
+				Transform piece = pieces[i];
+				if (piece == null)
+				{
+					continue;
+				}
+				int index = i;
+				Vector3 rest = _restPos[i];
+				float start = Interval * i;
+				_sequence.InsertCallback(start, () =>
+				{
+					piece.localPosition = rest + Vector3.up * FallHeight;
+					piece.gameObject.SetActive(true);
+				});
+				_sequence.Insert(start, piece.DOLocalMove(rest, FallDuration).SetEase(FallEase));
+				_sequence.InsertCallback(start + FallDuration, () =>
+				{
+					if (LandSfx != null)
+					{
+						AudioSource.PlayClipAtPoint(LandSfx, piece.position);
+					}
+				});
+				_sequence.Insert(start + FallDuration, piece.DOPunchScale(Vector3.down * LandSquash, LandDuration, 1, 0f));
+			}
+			_sequence.OnComplete(() =>
+			{
+				_sequence = null;
+				onComplete?.Invoke();
+			});
 		}
 
 		public void Kill()

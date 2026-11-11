@@ -134,6 +134,18 @@ namespace AnhPD.FoodOrder
 			return CafePieceTable.Roll(cafeDish2, MaxToppingsOf(cafeDish2));
 		}
 
+		private static bool AllPiecesServable(PieceSet pieces)
+		{
+			foreach (var (kind, count) in pieces)
+			{
+				if (!Config.TryGetPreparedOfPiece(kind, out var _))
+				{
+					return false;
+				}
+			}
+			return true;
+		}
+
 		public override OrderSpec[] ConvertOrderData(string encodedOrder)
 		{
 			List<CoffeePiece> list = DecodePieces(encodedOrder);
@@ -172,8 +184,9 @@ namespace AnhPD.FoodOrder
 						Debug.LogWarning("[CafeOrderStrategy] Recipe '" + encodedOrder + "' has a second base piece: " + string.Format("{0} / {1}", cafeDish, otherPieces) /* literal recovered by guess */);
 					}
 				}
-				else if (CafePieceTable.HasTopping(otherPieces) && !Config.TryGetPreparedOfPieceSet(otherPieces, out var _))
+				else if (CafePieceTable.HasTopping(otherPieces) && !Config.TryGetPreparedOfPieceSet(otherPieces, out var _) && !AllPiecesServable(otherPieces))
 				{
+					// Toppings-only orders (e.g. strawberry + kiwi) are served piece by piece below; only report when a piece has no prepared item.
 					Debug.LogError("[CafeOrderStrategy] Recipe '" + encodedOrder + "' has toppings but no base: " + string.Format("{0}", otherPieces) /* literal recovered by guess */);
 				}
 				if (!otherPieces.IsEmpty)

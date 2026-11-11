@@ -130,8 +130,19 @@ namespace AnhPD.FoodOrder
 
 		public static bool IsPlainBase(PieceSet pieces)
 		{
-			// TODO(unrecovered): decompiled loop never updates its exit flag, so the predicate cannot be recovered
-			return false;
+			// Reconstructed: a plain base holds only rice and/or seaweed (no main, roe or decor).
+			if (pieces.IsEmpty)
+			{
+				return false;
+			}
+			foreach (var (kind, _) in pieces)
+			{
+				if (kind != (int)SushiPiece.Rice && kind != (int)SushiPiece.Seaweed)
+				{
+					return false;
+				}
+			}
+			return true;
 		}
 
 		public static bool HasMain(PieceSet pieces)
@@ -146,8 +157,10 @@ namespace AnhPD.FoodOrder
 
 		public static bool IsCube(string ingId)
 		{
-			// TODO(unrecovered): reads a nullable piece kind from the RcPieceConfig field at +0x10 and compares it to 4; field mapping not confirmed in stubs
-			return false;
+			// Field +0x10 of RcPieceConfig is the role; 4 == PieceRole.Refined (a cut cube).
+			RecipeConfigSO config = PieceLookup.Config;
+			RcPieceConfig pieceConfig = (config != null && !string.IsNullOrEmpty(ingId)) ? config.GetPieceConfig(ingId) : null;
+			return pieceConfig != null && pieceConfig.role == PieceRole.Refined;
 		}
 
 		public static bool TryGetCubeOf(SushiPiece piece, out string cubeId)
@@ -458,8 +471,29 @@ namespace AnhPD.FoodOrder
 
 		public static PieceSet RollSashimi(int maxDecors = 0, Func<SushiPiece, bool> canShow = null)
 		{
-			// TODO(unrecovered): the decompiled body continues past line 2700 of batch021.txt, which is outside part 1.
-			return default;
+			// Reconstructed: pick 1..MaxSashimiFish distinct fish, then optional decors.
+			List<SushiPiece> fish = new List<SushiPiece>();
+			foreach (SushiPiece piece in Fishes)
+			{
+				if (IsUsable(piece, canShow))
+				{
+					fish.Add(piece);
+				}
+			}
+			if (fish.Count == 0)
+			{
+				UnityEngine.Debug.LogWarning("[Sushi] no usable sashimi fish");
+				return PieceSet.Empty;
+			}
+			int count = UnityEngine.Random.Range(1, Math.Min(MaxSashimiFish, fish.Count) + 1);
+			PieceSet pieces = PieceSet.Empty;
+			for (int i = 0; i < count; i++)
+			{
+				int index = UnityEngine.Random.Range(0, fish.Count);
+				pieces = pieces.Add((int)fish[index], 1);
+				fish.RemoveAt(index);
+			}
+			return RollDecors(pieces, maxDecors, canShow);
 		}
 
 		private static bool HasSeaweedAndRiceIngredients(string dishName)

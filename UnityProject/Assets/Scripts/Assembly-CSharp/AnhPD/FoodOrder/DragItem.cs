@@ -214,6 +214,8 @@ namespace AnhPD.FoodOrder
 				{
 					JumpToTargetTween(new Vector3(slot.x, slot.y, 0f)).OnComplete(delegate
 					{
+						// Once landed the item belongs to the grid, so it can float (PlayWindUp) while it waits for its merge target.
+						DragOrigin = DragOrigin.Grid;
 						if (_cell != null)
 						{
 							_cell.OnItemLanded(this);

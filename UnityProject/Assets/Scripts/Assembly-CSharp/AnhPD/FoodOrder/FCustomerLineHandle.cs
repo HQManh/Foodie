@@ -433,7 +433,10 @@ namespace AnhPD.FoodOrder
 			bossAlert.gameObject.SetActive(on);
 			if (on)
 			{
-				// TODO(unrecovered): two virtual calls on bossAlert (Graphic dirty/refresh) before the fade could not be mapped
+				// Original made two virtual Graphic calls here (unrecovered); restore full alpha so each blink starts fully visible.
+				Color color = bossAlert.color;
+				color.a = 1f;
+				bossAlert.color = color;
 				bossAlert.DOFade(bossAlertMinAlpha, bossAlertBlinkDuration).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
 			}
 		}
